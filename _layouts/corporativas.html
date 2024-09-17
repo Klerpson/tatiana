@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+{{content}}
+<!-- Script pointing to search-script.js -->
+<script src="/js/search-script.js"></script>
+<!-- Buscador -->
+<script>
+  SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: "{{'/search.json'|relative_url}}"
+  })
+</script>
