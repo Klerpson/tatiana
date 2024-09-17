@@ -2,7 +2,6 @@
 {% assign data_file = include.data_file %}
 {% assign row_key = include.row %}
 {% assign treatments = site.data[lang][data_file][row_key] %}
-
 <div class="gallery-container">
   {% for item in treatments limit:4 %}
     <div class="gallery-item">
