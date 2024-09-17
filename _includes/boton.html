@@ -1,0 +1,4 @@
+{% assign current_lang = page.lang | default: site.default_lang | default: "es" %}
+<a href="{{ include.url | relative_url }}" class="boton" title="{{ include.title }}" {% if include.external %}rel="nofollow noopener noreferrer" target="_blank"{% endif %}>
+  {% if include.icon %}{{ include.icon }} {% endif %}{{ include.texto }}
+</a>

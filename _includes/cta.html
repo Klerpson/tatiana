@@ -1,0 +1,29 @@
+{% assign current_lang = page.lang | default: site.default_lang | default: "es" %}
+
+<div id="cta" class="section cta">
+  <div class="wrapper">
+    <div class="cta_copy flow">
+      {% if current_lang == "es" %}
+        <h2>Tu página web será un negocio exitoso</h2>
+        <p>Solo hay 3 condiciones que tienes que cumplir:</p>
+        <ol>
+          <li>Suscribirte en este formulario</li>
+          <li>Leer los correos que te regalo</li>
+          <li>Aplicar lo que te enseño en esos emails</li>
+        </ol>
+        <p>Y luego me lo agradecerás a tu manera. Pero sé que pasará. ¡Suscríbete!</p>
+      {% else %}
+        <h2>Your website will be a successful business</h2>
+        <p>There are only 3 conditions you need to meet:</p>
+        <ol>
+          <li>Subscribe using this form</li>
+          <li>Read the emails I send you</li>
+          <li>Apply what I teach you in those emails</li>
+        </ol>
+        <p>And then you'll thank me in your own way. But I know it will happen. Subscribe!</p>
+      {% endif %}
+      <img src="{{ 'img/juli.webp' | relative_url }}" alt="{% if current_lang == 'es' %}Juli desarrollador web colombiano{% else %}Juli, Colombian web developer{% endif %}" loading="lazy">
+    </div>
+    {% include formulario.html %}
+  </div>
+</div>

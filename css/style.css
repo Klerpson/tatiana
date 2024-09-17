@@ -1,0 +1,17 @@
+---
+layout: compress
+noindex: true
+---
+{% include css/universales.css %}
+{% include css/nav.css %}
+{% include css/header.css %}
+{% include css/home.css %}
+{% include css/galeria.css %}
+{% include css/youtube.css %}
+{% include css/footer.css %}
+{% include css/buscador.css %}
+{% include css/landing.css %}
+{% include css/up.css %}
+{% include css/blog.css %}
+{% include css/share.css %}
+{% include css/queries.css %}

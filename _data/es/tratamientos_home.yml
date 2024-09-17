@@ -1,0 +1,41 @@
+primera-fila:
+  - img: img/tratamiento-varices-escleroterapia.avif
+    alt: Foto de una mujer después de la escleroterapia para varices
+    title: Tratamiento de várices
+  - img: img/lipolisis-laser-bogota.avif
+    alt: Foto del resultado de una lipolisis laser
+    title: Lipólisis con laser
+  - img: img/moldeamiento-corporal.avif
+    alt: Chica que se realizó un moldeamiento corporal en Bogotá
+    title: Moldeamiento corporal
+  - img: img/tratamiento-celulitis-tatiana-leal.avif
+    alt: Foto de tratamiento de celulitis
+    title: Tratamiento celulitis
+
+segunda-fila:
+  - img: img/tratamiento-facial.avif
+    alt: Tratamiento facial en Bogotá
+    title: Tratamiento facial
+  - img: img/peeling-facial.avif
+    alt: Mujer que se hizo un peeling químico facial
+    title: Peeling químico facial
+  - img: img/relleno-aumento-labios.avif
+    alt: Procedimiento de un aumento de labios
+    title: Relleno y aumento de labios
+  - img: img/tratamiento-facial-tatiana-leal.avif
+    alt: Foto de un tratamiento facial
+    title: Tratamiento facial
+    
+tercera-fila:
+  - img: img/aclaramiento-genital.avif
+    alt: Foto de una mujer que se hizo un aclaramiento genital
+    title: Remoción de lesiones benignas
+  - img: img/rejuvenecimiento-vaginal.avif
+    alt: Foto de mujer después de un rejuvenecimiento vaginal
+    title: Aclaramiento genital
+  - img: img/ginecologia-estetica.avif
+    alt: Mujer con tratamiento estético
+    title: Tratamiento de Incontinencia urinaria
+  - img: img/centro-estetico-mujer.avif
+    alt: Foto de mujer en centro estético
+    title: Rejuvenecimiento Vaginal

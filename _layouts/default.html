@@ -1,0 +1,36 @@
+---
+layout: compress
+---
+{% assign current_lang = page.lang | default: site.default_lang | default: "es" %}
+{% capture home_url %}/{{ current_lang }}/{% endcapture %}
+
+{% include head.html %}
+<body class="lang-{{ current_lang }}">
+  {% include nav.html %}
+  {% include header.html %}
+      {{ content }}
+  {% include footer.html %}
+  
+  <script defer src="/js/whatsapp.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var lazyVideo = document.querySelector('iframe[data-src]');
+      var observer = new IntersectionObserver(function(entries) {
+        entries.forEach(function(entry) {
+          if (entry.isIntersecting) {
+            lazyVideo.src = lazyVideo.dataset.src;
+            observer.unobserve(lazyVideo);
+          }
+        });
+      });
+      observer.observe(lazyVideo);
+    });
+    </script>
+  {% if current_lang == "es" %}
+  <!-- Agrega contenido en español de scripts aquí -->
+  {% endif %}
+  {% if current_lang == "en" %}
+    <!-- Add any English-specific scripts here -->
+  {% endif %}
+</body>
+</html>

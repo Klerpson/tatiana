@@ -1,0 +1,60 @@
+baseurl: ''
+url: 'https://clientefiel.com.co'
+name: Tatiana Leal
+email: asistentetatianaleal@gmail.com
+maps: https://maps.app.goo.gl/bvbNFb82J7X3s1q16
+direccion: "Torre Magna PI, Av Suba #114 - 59 Piso 6, Cons G14, Bogotá"
+telefono: 3222010384
+author:
+  name: Tatiana Leal
+  email: asistentetatianaleal@gmail.com
+  instagram: https://www.instagram.com/dratatianaleal/
+  facebook: https://www.facebook.com/Dra.TatianaLealSandoval
+  youtube: https://www.youtube.com/channel/UCxF-X7in4xUFxYYwCMyC5OQ
+  job_title: "Especialista en medicina estética y láser"
+  bio: "La Dra. Tatiana Leal es una destacada especialista en Medicina Estética, graduada de la Universidad del Rosario y con una Maestría del Centro de Formación en Medicina Estética (CEFIME). Su experiencia incluye cursos especializados en Buenos Aires, Argentina, donde se capacitó en Face-Up Filament (Lifting Facial) y Bioplastia Facial con el reconocido Cirujano Plástico Dr. Saul Luna. Adicionalmente, obtuvo un Diplomado en Estética Facial y Corporal en Megaesthetic, Bogotá, y perfeccionó sus técnicas en patología venosa con la Fundación Vascular."
+title: Doctora Tatiana Leal
+logo: /img/logo-tatiana-leal.webp
+
+markdown: kramdown
+
+publisher:
+  name: Tatiana Leal
+  logo: /img/logo-tatiana-leal.webp
+
+language: es
+default_image: "/img/Doctora-Tatiana-Leal.webp"  # Imagen por defecto para posts sin imagen específica
+languages: ["es", "en"]
+default_lang: "es"
+exclude_from_localization: ["css", "img", "js"]
+
+permalink: /:slug
+
+collections:
+  posts:
+    output: true
+    permalink: /blog/:slug
+    
+keep_files: [/img]
+
+compress_html:
+    clippings: []
+    comments: []
+    endings: []
+    ignore:
+    envs: []
+    blanklines: false
+    profile: false
+    startings: []
+
+
+
+  #   <!-- t:
+  #     es:
+  #       home: "Inicio"
+  #       contact: "Contacto"
+  #     en:
+  #       home: "Home"
+  #       contact: "Contact"
+  #       {{ site.t[page.lang].home }} 
+ 

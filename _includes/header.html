@@ -1,0 +1,26 @@
+{% case layout %}
+{% when "home" %}
+<header class="home_header">
+  <div class="cta-container flow padding">
+    <h1>{{page.h1}}</h1>
+    <p>{% if page.lang == "es" %}Dra. Tatiana Leal Sandoval{% else %}Dr. Tatiana Leal Sandoval{% endif %}</p>
+    <p>{{page.description}}</p>
+    <a href="#" class="boton boton_principal" id="lead_whatsapp" title="{% if page.lang == 'es' %}WhatsApp de Tatiana Leal{% else %}Tatiana Leal's WhatsApp{% endif %}">
+      {% if page.lang == "es" %}
+        Agenda tu cita ahora
+      {% else %}
+        Schedule your appointment now
+      {% endif %}
+    </a>
+  </div>
+  <div class="image-container">
+    <picture>
+      <source media="(max-width: 992px)" srcset="{{'img/tatiana-leal-medicina-estetica.avif' | relative_url}}" title="{% if page.lang == 'es' %}Doctora Tatiana Leal{% else %}Doctor Tatiana Leal{% endif %}">
+      <source media="(max-width: 1024px)" srcset="{{'img/tatiana-leal-medicina-estetica-1024.avif' | relative_url}}">
+      <source media="(min-width: 1025px)" srcset="{{'img/tatiana-leal-medicina-estetica-1709.avif' | relative_url}}">
+      <img src="{{'img/tatiana-leal-medicina-estetica-1024.avif' | relative_url}}" alt="{% if page.lang == 'es' %}Doctora Tatiana Leal{% else %}Doctor Tatiana Leal{% endif %}" title="{% if page.lang == 'es' %}Doctora Tatiana Leal{% else %}Doctor Tatiana Leal{% endif %}">
+    </picture>
+  </div>
+{% else %}
+{% endcase %}
+</header>

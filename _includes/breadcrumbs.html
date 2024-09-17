@@ -1,0 +1,10 @@
+{% assign current_lang = page.lang | default: site.default_lang | default: "es" %}
+<nav id="breadcrumbs" aria-label="breadcrumb">
+  <ol class="small">
+    <li><a href="{{ '/' | append: current_lang | append: '/' | relative_url }}" title="{% if current_lang == 'es' %}Inicio juli.com.co{% else %}Home juli.com.co{% endif %}">{% if current_lang == 'es' %}Inicio{% else %}Home{% endif %}</a></li>
+    {% if page.url contains '/blog/' %}
+      <li><a href="{{ current_lang | append: '/blog' | relative_url }}" title="{% if current_lang == 'es' %}Blog sobre páginas web de Juli{% else %}Juli's blog about web pages{% endif %}">Blog</a></li>
+    {% endif %}
+    <li>{{ page.h1 }}</li>
+  </ol>
+</nav>
