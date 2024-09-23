@@ -7,8 +7,8 @@
 }
 
 .gallery-item {
-  flex: 1 0 326px;
-  width: 520px;
+  flex: 1 0 296px;
+  width: 480px;
   max-width: 100%;
   position: relative;
   overflow: hidden;
