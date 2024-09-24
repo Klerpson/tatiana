@@ -66,8 +66,8 @@ nav {
   padding: 12px 24px;
 }
 
-.dropdown-content a {
-  margin: 0 0 16px 0;
+.dropdown-content a:not(:last-child) {
+  margin: 0 0 8px 0;
 }
 
 .buscador:target {
@@ -91,13 +91,13 @@ nav {
   background-color: #f9f9f9;
   min-width: 280px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  padding: 12px;
+  padding: 20px;
   z-index: 10;
   border-radius: var(--radius);
 }
 
 .dropdown:hover .dropdown-content {
-  display: block;
+  display: grid;
 }
 
 #nav-toggle {
