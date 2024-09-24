@@ -7,15 +7,15 @@
   gap: 1em;
   justify-content: center;
   align-items: center;
+}
 
-  a{
-    color: white;
-    text-decoration-thickness: 2px;
-    font-size: 16px;
-    display: flex;
-    place-items: center;
-    gap: 8px
-  }
+.banner_nav a{
+  color: white;
+  text-decoration-thickness: 2px;
+  font-size: 16px;
+  display: flex;
+  place-items: center;
+  gap: 8px
 }
 
 nav {
