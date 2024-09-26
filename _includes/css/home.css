@@ -92,11 +92,12 @@
 
 .bloque_doble{
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   flex-wrap: wrap;
   gap: 1em;
   
   & div{
-    flex: 1 1 320px;
+    flex: 1 0 320px;
+    min-height: 450px;
   }
 }
