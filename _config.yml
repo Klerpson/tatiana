@@ -31,10 +31,17 @@ exclude_from_localization: ["css", "img", "js"]
 permalink: /:slug
 
 collections:
+  tratamientos-faciales_es:
+    output: true
+    permalink: /es/tratamientos-faciales/:slug/
+  tratamientos-faciales_en:
+    output: true
+    permalink: /en/facial-treatments/:slug/
   posts:
     output: true
-    permalink: /blog/:slug
-    
+    permalink: /:lang/blog/slug/ 
+
+
 keep_files: [/img]
 
 compress_html:
