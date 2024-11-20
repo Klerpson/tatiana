@@ -48,9 +48,6 @@
       </div>
     </li>
     <li>
-      <a href="#" title="{% if current_lang == 'en' %}Write to Tatiana Leal's WhatsApp{% else %}Escribe al WhatsApp de Tatiana Leal{% endif %}" rel="nofollow noopener noreferrer" target="_blank" class="boton boton_principal" id="lead_whatsapp">{% if current_lang == 'en' %}Book your appointment{% else %}Reserva tu cita{% endif %}</a>
-    </li>
-    <li>
       <a href="{% if current_lang == 'en' %}{{ page.url | replace:'/en/','/es/' }}{% else %}{{ page.url | replace:'/es/','/en/' }}{% endif %}" class="language-switch">
         {% if current_lang == 'en' %}
           🇪🇸 Español

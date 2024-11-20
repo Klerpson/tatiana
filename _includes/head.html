@@ -1,23 +1,16 @@
 {% assign current_lang = page.lang | default: site.default_lang | default: "es" %}
 {% assign alt_lang = current_lang == "es" ? "en" : "es" %}
-{% assign lang_code = current_lang == "es" ? "es-CO" : "en-US" %}
 
 <!DOCTYPE html>
-<html lang="{{ lang_code }}">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }} | {{ site.name }}</title>
     <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-    <link rel="alternate" hreflang="es" href="{{site.url}}{{page.url}}">
-    <link rel="alternate" hreflang="en" href="{{site.url}}{{page.url}}">
-    <link rel="alternate" hreflang="x-default" href="{{site.url}}/es/">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
-    <link rel="alternate" hreflang="{{ alt_lang }}" href="{{ page.url | replace:current_lang,alt_lang | absolute_url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | absolute_url }}">
     
     <meta name="robots" content="{% if page.noindex %}noindex, nofollow{% else %}index, follow{% endif %}">
-    <meta name="language" content="{{ lang_code }}">
     <meta name="country" content="COL">
     <meta name="geo.region" content="CO-CUN">
     <meta name="author" content="{% if page.autor %}{{ page.autor }}{% else %}{{ site.author.name }}{% endif %}">
@@ -69,3 +62,4 @@
     </script>
 
 </head>
+

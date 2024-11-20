@@ -65,7 +65,7 @@ h4 {
 p, a, li {
   word-wrap: break-word;
   font-size: clamp(1.125rem, 1rem + 0.2vw, 1.5rem);
-  max-width: 992px;
+  max-width: 70ch;
 }
 
 a {
@@ -249,9 +249,11 @@ form textarea{
 }
 
 .intro{
-  text-align: center;
   width: 100%;
   display: grid;
   place-items: center;
-  gap: 2em;
+}
+
+.center{
+  text-align: center;
 }
