@@ -22,5 +22,19 @@
     </picture>
   </div>
 {% else %}
+<header class="hero">
+  <div class="hero-content flow">
+    <h1>Rejuvenecimiento facial con láser</h1>
+    <p>Una innovación para tu piel</p>
+    <a href="#" class="boton boton_principal" id="lead_whatsapp" title="{% if page.lang == 'es' %}WhatsApp de Tatiana Leal{% else %}Tatiana Leal's WhatsApp{% endif %}">
+      {% if page.lang == "es" %}
+        Agenda tu cita ahora
+      {% else %}
+        Schedule your appointment now
+      {% endif %}
+    </a>
+  </div>
+</header>
+
 {% endcase %}
 </header>
