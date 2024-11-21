@@ -1,6 +1,7 @@
 ---
 layout: articulo
 lang: es
+ref: contacto
 title: Hagamos que tu página web produzca resultados | Juli
 description: "Soy Juli, y hago tus páginas web y tus páginas de venta con una calidad superior: Más conversiones, Más ventas, Mejor optimizadas, Hermosas. Entra aquí"
 h1: Aquí puedes ponerte en contacto conmigo | juli.com.co

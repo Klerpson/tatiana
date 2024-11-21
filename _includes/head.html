@@ -7,9 +7,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }} | {{ site.name }}</title>
     <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | absolute_url }}">
+    <!-- MANEJO DE IDIOMAS -->
+    {% assign current_lang = page.lang | default: site.default_lang %}
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+    {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+    {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+    {% assign faciales=site.tratamientos-faciales_es | where:"ref", page.ref | sort: 'lang' %}
+    {% assign all_pages = pages | concat: posts | concat: faciales %}
     
+    {% if all_pages.size > 1 %}
+    {% for p in all_pages %}
+    <link rel="alternate" hreflang="{{ p.lang }}" href="{{ site.url }}{{ p.url }}" />
+    {% endfor %}
+    {% endif %}
+    <link rel="alternate" hreflang="x-default" href="{{ site.url }}/{{ site.default_lang }}/" />
+    <!-- FIN MANEJO DE IDIOMAS -->
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | absolute_url }}">
     <meta name="robots" content="{% if page.noindex %}noindex, nofollow{% else %}index, follow{% endif %}">
     <meta name="country" content="COL">
     <meta name="geo.region" content="CO-CUN">

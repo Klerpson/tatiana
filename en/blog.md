@@ -1,6 +1,7 @@
 ---
 layout: default
 lang: en
+ref: blog
 title: "Este es blog de páginas web de Juli. ¡Léelo!"
 description: "Este es mi blog personal. Te muestro cómo me gusta trabajar y la manera crear y mejorar páginas web que no vendían nada. Y cómo hacerlo para ti."
 h1: "Bienvenido a mi blog personal donde te hablo de páginas web y SEO"
