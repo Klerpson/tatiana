@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: categoria
 lang: en
+ref: faciales
 title: ¿Tienes Página Web Sin Visitas? No tienes nada. Yo hago SEO
 description: Puede que tengas un página web. Pero si no tienes visitas orgánicas, da igual si la tienes. Pues yo hago SEO. Y me encargo que te visiten. Y mucho!
 h1: 🤔 Quien no está en internet no existe... Y si no hacemos SEO, tampoco existes. Me explico
@@ -8,6 +9,11 @@ hero: img/banner-juli.webp
 alt: Banner sobre el servicio de SEO para empresas de Juli
 servicio: SEO
 ---
+{% for service in site.tratamientos-faciales_en %}
+{{service.h1}}
+{% endfor %}
+
+
 Te quiero hablar de un negocio con un servicio muy tradicional en nuestro país, Colombia.
 
 Es el negocio de vender páginas web.

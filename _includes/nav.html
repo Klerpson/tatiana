@@ -58,9 +58,7 @@
         <a href="/{{ current_lang }}/{% if current_lang == 'en' %}dr-andrea-rincon{% else %}dra-andrea-rincon{% endif %}"
           title="{% if current_lang == 'en' %}Dr. Andrea Rincón{% else %}Dra. Andrea Rincón{% endif %}">{% if
           current_lang == 'en' %}Peeling Químico Facial{% else %}Facial Chemical Peeling{% endif %}</a>
-        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}dr-andrea-rincon{% else %}dra-andrea-rincon{% endif %}"
-          title="{% if current_lang == 'en' %}Dr. Andrea Rincón{% else %}Dra. Andrea Rincón{% endif %}">{% if
-          current_lang == 'en' %}Ver más...{% else %}See more...{% endif %}</a>
+        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}facial-treatments{% else %}tratamientos-faciales{% endif %}" title="{% if current_lang == 'en' %}Dr. Andrea Rincón{% else %}Dra. Andrea Rincón{% endif %}">{% if current_lang == 'en' %}Ver más...{% else %}See more...{% endif %}</a>
       </div>
     </li>
     <!-- <li class="dropdown">
@@ -111,32 +109,33 @@
     <li class="dropdown">
       <span>{% if current_lang == 'en' %}About us{% else %}Nosotros{% endif %}</span>
       <div class="dropdown-content">
-        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}beauty-center{% else %}centro-estetico{% endif %}"
-          title="{% if current_lang == 'en' %}Beauty center Tatiana Leal{% else %}Centro Estético Tatiana Leal{% endif %}">{%
-          if current_lang == 'en' %}Beauty center{% else %}Centro Estético{% endif %}</a>
-        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}contact{% else %}contacto{% endif %}"
-          title="{% if current_lang == 'en' %}Contact Tatiana Leal Beauty Center{% else %}Contacto del centro estético Tatiana Leal{% endif %}">{%
-          if current_lang == 'en' %}Contact{% else %}Contacto{% endif %}</a>
-        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}blog{% else %}blog{% endif %}"
-          title="{% if current_lang == 'en' %}Dr. Tatiana Leal's Blog{% else %}Blog de Tatiana Leal{% endif %}">{% if
-          current_lang == 'en' %}Blog{% else %}Blog{% endif %}</a>
-        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}faqs{% else %}preguntas-frecuentes{% endif %}"
-          title="{% if current_lang == 'en' %}FAQs{% else %}Preguntas frecuentes{% endif %}">{% if current_lang == 'en'
-          %}FAQs{% else %}Preguntas frecuentes{% endif %}</a>
-        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}faqs{% else %}preguntas-frecuentes{% endif %}"
-          title="{% if current_lang == 'en' %}FAQs{% else %}Preguntas frecuentes{% endif %}">{% if current_lang == 'en'
-          %}Profesionales{% else %}Profesionals{% endif %}</a>
+        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}beauty-center{% else %}centro-estetico{% endif %}" title="{% if current_lang == 'en' %}Beauty center Tatiana Leal{% else %}Centro Estético Tatiana Leal{% endif %}">{% if current_lang == 'en' %}Beauty center{% else %}Centro Estético{% endif %}</a>
+        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}contact{% else %}contacto{% endif %}" title="{% if current_lang == 'en' %}Contact Tatiana Leal Beauty Center{% else %}Contacto del centro estético Tatiana Leal{% endif %}">{% if current_lang == 'en' %}Contact{% else %}Contacto{% endif %}</a>
+        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}blog{% else %}blog{% endif %}" title="{% if current_lang == 'en' %}Dr. Tatiana Leal's Blog{% else %}Blog de Tatiana Leal{% endif %}">{% if current_lang == 'en' %}Blog{% else %}Blog{% endif %}</a>
+        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}faqs{% else %}preguntas-frecuentes{% endif %}" title="{% if current_lang == 'en' %}FAQs{% else %}Preguntas frecuentes{% endif %}">{% if current_lang == 'en' %}FAQs{% else %}Preguntas frecuentes{% endif %}</a>
+        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}faqs{% else %}preguntas-frecuentes{% endif %}" title="{% if current_lang == 'en' %}FAQs{% else %}Preguntas frecuentes{% endif %}">{% if current_lang == 'en' %}Profesionales{% else %}Profesionals{% endif %}</a>
       </div>
     </li>
     <li>
-      <a href="{% if current_lang == 'en' %}{{ page.url | replace:'/en/','/es/' }}{% else %}{{ page.url | replace:'/es/','/en/' }}{% endif %}"
-        class="language-switch">
-        {% if current_lang == 'en' %}
-        🇪🇸 Español
-        {% else %}
-        🇬🇧 English
-        {% endif %}
-      </a>
+      {% assign current_lang = page.lang | default: site.default_lang %}
+      {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+      {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+      {% assign facial=site.tratamientos-faciales_es | where:"ref", page.ref | sort: 'lang' %}
+      {% assign all_pages = pages | concat: posts | concat: facial %}
+          
+      {% if all_pages.size > 1 %}
+        {% for p in all_pages %}
+          {% if p.lang != current_lang %}
+            <a href="{{ p.url | relative_url }}" class="language-switch">
+              {% if p.lang == 'en' %}
+                🇬🇧 English
+              {% else %}
+                🇪🇸 Español
+              {% endif %}
+            </a>
+          {% endif %}
+        {% endfor %}
+      {% endif %}
     </li>
   </ul>
   <label for="nav-toggle" class="icono-nav">

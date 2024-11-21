@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: categoria
 lang: es
+ref: faciales
 title: ¿Tienes Página Web Sin Visitas? No tienes nada. Yo hago SEO
 description: Puede que tengas un página web. Pero si no tienes visitas orgánicas, da igual si la tienes. Pues yo hago SEO. Y me encargo que te visiten. Y mucho!
 h1: 🤔 Quien no está en internet no existe... Y si no hacemos SEO, tampoco existes. Me explico
