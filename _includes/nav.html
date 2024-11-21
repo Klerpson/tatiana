@@ -35,11 +35,17 @@
 
   <ul class="navegacion">
     <li class="dropdown">
-      <span>{% if current_lang == 'en' %}Tratamientos Faciales{% else %}Facial Treatments{% endif %}</span>
+      <span>{% if current_lang == 'en' %}Facial Treatments{% else %}Tratamientos Faciales{% endif %}</span>
       <div class="dropdown-content">
+<<<<<<< Updated upstream
         <a href="/{{ current_lang }}/{% if current_lang == 'en' %}rejuvenecimento-facial{% else %}facial-rejuvenation{% endif %}"
           title="{% if current_lang == 'en' %}Rejuvenecimiento Facial{% else %}Dra. Tatiana Leal{% endif %}">{% if
           current_lang == 'en' %}Rejuvenecimiento Facial{% else %}Facial Rejuvenation{% endif %}</a>
+=======
+        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}facial-rejuvenation{% else %}Rejuvenecimiento Facial{% endif %}"
+          title="{% if current_lang == 'en' %}facial-rejuvenation{% else %}Rejuvenecimiento Facial{% endif %}">{% if
+          current_lang == 'en' %}Facial Rejuvenation{% else %}Rejuvenecimiento Facial{% endif %}</a>
+>>>>>>> Stashed changes
         <a href="/{{ current_lang }}/{% if current_lang == 'en' %}dr-marco-bonilla{% else %}dr-marco-bonilla{% endif %}"
           title="{% if current_lang == 'en' %}Dr. Marco Bonilla{% else %}Dr. Marco Bonilla{% endif %}">{% if
           current_lang == 'en' %}Biorevitalización Facial{% else %}Facial Biorevitalization{% endif %}</a>
