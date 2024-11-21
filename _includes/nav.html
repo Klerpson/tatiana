@@ -37,8 +37,8 @@
     <li class="dropdown">
       <span>{% if current_lang == 'en' %}Facial Treatments{% else %}Tratamientos Faciales{% endif %}</span>
       <div class="dropdown-content">
-        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}facial-treatments/facial-rejuvenation{% else %}tratamientos-faciales/rejuvenecimiento-facial{% endif %}"
-          title="{% if current_lang == 'en' %}Facial rejuvenation treatment{% else %}Tratamiento de rejuvenecimiento facial{% endif %}">{% if
+        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}/tratamientos-faciales/facial-rejuvenation{% else %}/tratamientos-faciales/rejuvenecimiento-facial{% endif %}"
+          title="{% if current_lang == 'en' %}facial-rejuvenation{% else %}Rejuvenecimiento Facial{% endif %}">{% if
           current_lang == 'en' %}Facial Rejuvenation{% else %}Rejuvenecimiento Facial{% endif %}</a>
         <a href="/{{ current_lang }}/{% if current_lang == 'en' %}dr-marco-bonilla{% else %}dr-marco-bonilla{% endif %}"
           title="{% if current_lang == 'en' %}Dr. Marco Bonilla{% else %}Dr. Marco Bonilla{% endif %}">{% if
