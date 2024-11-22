@@ -1,0 +1,28 @@
+.img-bgr {
+  background: url("{{'img/limpieza-facial-profunda-en-bogota.avif' | relative_url}}")
+    top center/cover no-repeat;
+    min-height: 70vh;
+}
+.text-container-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  color: #fff;
+
+  .intro small {
+    font-size: 1rem;
+    color: #fff;
+  }
+
+  .intro h2{
+    font-size: clamp(2.75rem, 2.3rem + 0.7vw, 3.25rem);
+
+  }
+} 
+.text-container-end{
+  position: relative;
+  display: flex; 
+  align-items: flex-end;
+}
