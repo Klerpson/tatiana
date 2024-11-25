@@ -15,3 +15,5 @@ noindex: true
 {% include css/blog.css %}
 {% include css/share.css %}
 {% include css/queries.css %}
+{% include css/pages.css %}
+

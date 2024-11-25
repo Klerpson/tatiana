@@ -30,7 +30,7 @@
   flex-direction: column;
   gap: 1em;
   align-items: start;
- }
+}
 
 .block_section_image_left { grid-area: image-left; }
 .block_section_knowledge { grid-area: knowledge; }
