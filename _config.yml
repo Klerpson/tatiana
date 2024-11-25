@@ -22,7 +22,7 @@ publisher:
   name: Tatiana Leal
   logo: /img/logo-tatiana-leal.webp
 
-language: es
+language: "es"
 default_image: "/img/Doctora-Tatiana-Leal.webp"  # Imagen por defecto para posts sin imagen específica
 languages: ["es", "en"]
 default_lang: "es"

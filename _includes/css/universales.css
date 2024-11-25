@@ -257,7 +257,7 @@ form textarea{
 .center{
   text-align: center;
 }
-.dos_columnas {
+.two_columns {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
