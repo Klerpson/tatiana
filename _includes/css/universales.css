@@ -257,3 +257,15 @@ form textarea{
 .center{
   text-align: center;
 }
+.dos_columnas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 3em;
+
+  & > div {
+    flex: 1 0 480px;
+    max-width: 100%;
+  }
+}
