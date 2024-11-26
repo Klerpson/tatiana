@@ -27,6 +27,22 @@ default_image: "/img/Doctora-Tatiana-Leal.webp"  # Imagen por defecto para posts
 languages: ["es", "en"]
 default_lang: "es"
 exclude_from_localization: ["css", "img", "js"]
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      lang: "es"
+  - scope:
+      path: ""
+      type: "tratamientos-faciales_es"
+    values:
+      lang: "es"
+  - scope:
+      path: ""
+      type: "tratamientos-faciales_en"
+    values:
+      lang: "en"
 
 permalink: /:slug
 
