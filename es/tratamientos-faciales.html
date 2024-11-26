@@ -10,18 +10,18 @@ h1: "Rejuvenecimiento facial con láser"
 description: "Una innovación para tu piel"
 
 ---
-<main class="padding">
-  <div class="center intro">
+<main class="padding flow">
+  <div class="center intro ">
     <small>Dra.Tatiana Leal</small>
     <h2>Lorem ipsum dolor sit amet.</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque efficitur, quam vitae interdum lobortis, ipsum risus placerat velit, non semper arcu ligula nec velit. Sed semper, nunc a eleifend rutrum, nunc massa dignissim velit, a consectetur neque nunc et justo.</p>
   </div>
   
-  <div class=" padding">
+  <div class=" center" >
     {% for item in site[page.categoria] %}
-    <div class="two_columns">
-      <img src="{{ item.hero | relative_url }}" width="476" height="570" alt="{{item.alt}}" loading="lazy" title="{{item.title}}">
-      <img src="{{ item.hero1 | relative_url }}" width="476" height="570" alt="{{item.alt}}" loading="lazy" title="{{item.title}}">
+    <div class="two_columns {% if item.class %}{{ item.class }}{% endif %}">
+      <img src="{{ item.hero | relative_url }}" width="276" height="470" alt="{{item.alt}}" loading="lazy" title="{{item.title}}">
+      <img src="{{ item.hero1 | relative_url }}" width="276" height="470" alt="{{item.alt}}" loading="lazy" title="{{item.title}}">
       <div>
         <h3>{{item.h1}}</h3>
         <p>{{item.excerpt}}</p>

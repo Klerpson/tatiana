@@ -26,3 +26,118 @@
   display: flex; 
   align-items: flex-end;
 }
+/* Tarjetas */
+.service-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: var(--radius-cards);
+  box-shadow: var(--shadow);
+  padding: 2rem;
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: rgba(184, 150, 99, 0.4) 0px 10px 20px;
+}
+
+.card-icon {
+  width: 100px;
+  height: 100px;
+  background-color: var(--color-accent);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.card h3 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: var(--grey-2);
+}
+
+.card ul li {
+  font-size: 1rem;
+  color: var(--grey-1);
+}
+
+/* Acordeon */
+.accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* Ocultar los checkboxes */
+.accordion-toggle {
+  display: none;
+}
+
+/* Estilo del encabezado */
+.accordion-header {
+  background-color: var(--gris1);
+  color: var(--principal);
+  padding: 1.2rem;
+  border-radius: var(--radius);
+  font-family: var(--fuenteTitulos);
+  font-size: 1.25rem;
+  text-align: left;
+  border: 1px solid var(--gris2);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.accordion-header:hover {
+  background-color: var(--secundario);
+  color: #fff;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.accordion-header::after {
+  content: "+";
+  font-size: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.accordion-toggle:checked + .accordion-header::after {
+  content: "-";
+  transform: rotate(180deg);
+}
+
+/* Estilo del contenido */
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease, padding 0.3s ease;
+  padding: 0 1.2rem;
+  background-color: #f9f9f9;
+  border-radius: var(--radius);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.accordion-content p {
+  margin: 1rem 0;
+  color: var(--grisTexto);
+}
+
+/* Mostrar contenido cuando está seleccionado */
+.accordion-toggle:checked + .accordion-header + .accordion-content {
+  max-height: 150px; /* Ajusta según el contenido */
+  padding: 1.2rem;
+}

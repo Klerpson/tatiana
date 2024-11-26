@@ -1,7 +1,7 @@
 :root {
-  --principal: #002E51;
+  --principal: #002e51;
   --accion: #cfbaa3;
-  --secundario: #82A7C1;
+  --secundario: #82a7c1;
   --complemento: #004070;
   --acento: #002e513f;
   --gris1: #eeeeee;
@@ -9,8 +9,9 @@
   --grisTexto: #111313;
   --shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
   --radius: 28px;
-  --fuenteTitulos: 'Lexend Deca', sans-serif;
-  --fuenteTexto: 'DM Sans', sans-serif;
+  --radius-cards: 12px;
+  --fuenteTitulos: "Lexend Deca", sans-serif;
+  --fuenteTexto: "DM Sans", sans-serif;
 }
 
 *,
@@ -47,7 +48,7 @@ h4 {
 h1 {
   font-size: clamp(2rem, 1.5rem + 1vw, 2.5rem);
   margin: 0;
-  font-weight: 700; 
+  font-weight: 700;
 }
 
 h2 {
@@ -62,7 +63,9 @@ h4 {
   font-size: clamp(1.375rem, 1.1rem + 0.4vw, 1.75rem);
 }
 
-p, a, li {
+p,
+a,
+li {
   word-wrap: break-word;
   font-size: clamp(1.125rem, 1rem + 0.2vw, 1.5rem);
   max-width: 70ch;
@@ -73,10 +76,10 @@ a {
   text-decoration: underline;
   text-decoration-thickness: 3px;
   font-weight: 700;
-  transition: all .4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-a:hover{
+a:hover {
   color: var(--secundario);
 }
 
@@ -95,12 +98,12 @@ li {
   margin-left: 2em;
 }
 
-ol li{
+ol li {
   margin-left: 3em;
   list-style: decimal;
 }
 
-::marker{
+::marker {
   font-size: 2rem;
   color: var(--principal);
   font-family: var(--fuenteTitulos);
@@ -119,7 +122,7 @@ blockquote {
   text-align: center;
 }
 
-blockquote .boton{
+blockquote .boton {
   margin-top: 1em;
 }
 
@@ -137,7 +140,7 @@ table tr {
   width: 100%;
 }
 
-table tr:nth-child(even){
+table tr:nth-child(even) {
   background-color: var(--gris1);
 }
 
@@ -157,9 +160,13 @@ hr {
   background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }
 
-form{
+form {
   background: rgb(32, 39, 39);
-  background: linear-gradient(18deg, rgba(32, 39, 39, 1) 24%, rgba(27, 154, 170, 1) 100%);
+  background: linear-gradient(
+    18deg,
+    rgba(32, 39, 39, 1) 24%,
+    rgba(27, 154, 170, 1) 100%
+  );
   color: white;
   font-weight: 700;
   border-radius: var(--radius);
@@ -169,7 +176,8 @@ form{
   gap: 1em;
 }
 
-form input, form textarea{
+form input,
+form textarea {
   border-radius: var(--radius);
   min-height: 40px;
   margin-bottom: 1em;
@@ -177,15 +185,15 @@ form input, form textarea{
   border: 2px solid var(--accion);
 }
 
-form input:not(input[type="checkbox"]){
+form input:not(input[type="checkbox"]) {
   width: min(100%, 480px);
 }
 
-input[type="checkbox"]{
+input[type="checkbox"] {
   margin: 0;
 }
 
-form textarea{
+form textarea {
   width: min(100%, 800px);
 }
 
@@ -200,15 +208,15 @@ form textarea{
   margin-inline: auto;
 }
 
-.flow>*+*:not(h1) {
+.flow > * + *:not(h1) {
   margin-top: 1.2em;
 }
 
-.padding{
+.padding {
   padding: 6em 60px 4em;
 }
 
-.seccion{
+.seccion {
   background-color: var(--gris1);
   box-shadow: 0 0 0 100vmax var(--gris1);
   clip-path: inset(0 -100vmax);
@@ -236,36 +244,47 @@ form textarea{
   transform: translateY(-1px);
 }
 
-.boton_principal{
+.boton_principal {
   border: none;
   color: var(--principal);
   background-color: var(--accion);
 }
 
-.boton_auxiliar{
+.boton_auxiliar {
   color: var(--principal);
   background-color: #fff;
   border: solid 2px var(--accion);
 }
 
-.intro{
+.intro {
   width: 100%;
   display: grid;
   place-items: center;
 }
 
-.center{
+.center {
   text-align: center;
 }
 .two_columns {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
   align-items: center;
   gap: 3em;
+  padding: 2rem 0;
 
   & > div {
-    flex: 1 0 480px;
+    flex: 1 0 200px;
     max-width: 100%;
   }
+  img {
+    max-width: 100%;
+  }
+}
+.two_columns_left {
+  flex-direction: row-reverse;
+}
+
+ol {
+  clear: both;
+  margin-top: 20px;
 }

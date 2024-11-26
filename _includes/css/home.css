@@ -16,7 +16,7 @@
 
 .block_section_title {
   grid-area: title;
-  padding: 0 120px;
+  padding: 0 30px;
   margin: 1rem 0;
   font-family: var(--fuenteTitulos);
   letter-spacing: -.01em;
@@ -25,7 +25,7 @@
 
 .block_section_content {
   grid-area: content;
-  padding: 0 120px 6em;
+  padding: 0 30px 2em;
   display: flex;
   flex-direction: column;
   gap: 1em;
