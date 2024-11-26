@@ -5,19 +5,22 @@
 {% assign facial_en=site.tratamientos-faciales_en | where:"ref", page.ref | sort: 'lang' %}
 {% assign all_pages = pages | concat: posts | concat: facial_es | concat: facial_en %}
 
-{% if all_pages.size > 1 %}
-  {% for p in all_pages %}
-    {% if p.lang != current_lang %}
-      <a href="{{ p.url | relative_url }}" class="language-switch">
-        {% if p.lang == 'en' %}
-          🇬🇧 English
-        {% else %}
-          🇪🇸 Español
-        {% endif %}
-      </a>
-    {% endif %}
-  {% endfor %}
-{% else %}
+{% assign has_matching_page = false %}
+{% for p in all_pages %}
+  {% if p.lang != current_lang %}
+    {% assign has_matching_page = true %}
+    <a href="{{ p.url | relative_url }}" class="language-switch">
+      {% if p.lang == 'en' %}
+        🇬🇧 English
+      {% else %}
+        🇪🇸 Español
+      {% endif %}
+    </a>
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+{% unless has_matching_page %}
   {% assign alt_lang = current_lang == 'es' ? 'en' : 'es' %}
   {% assign current_path = page.url | split: '/' %}
   {% assign new_path = current_path | shift %}
@@ -33,4 +36,4 @@
       🇪🇸 Español
     {% endif %}
   </a>
-{% endif %}
+{% endunless %}

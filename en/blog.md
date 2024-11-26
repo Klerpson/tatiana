@@ -25,12 +25,3 @@ Aquí te comparto investigaciones, experiencias, consejos, y más cositas que me
   </div>
   <br>
 </main>
-  
-### PD. Abajo te invito a mi newsletter
-
-Te comparto toda las experiencias y lecturas que me ayudan a avanzar y lograr grandes cosas haciendo SEO y páginas web a código.
-
-[☕ Suscríbete a mi newsletter](#cta){:class="boton"}
-
-  {% include cta.html %}
-  {% include footer.html %}

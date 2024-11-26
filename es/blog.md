@@ -12,7 +12,6 @@ alt: "Logo de Juli, desarrollador de páginas web y SEO"
 
 Aquí te comparto investigaciones, experiencias, consejos, y más cositas que me encuentro en el camino de mi profesión como consultor SEO y desarrollador web:
 
-{% assign current_lang = page.lang | default: site.default_lang | default: "es" %}
 
 <main>
   <div class="home_gallery">
@@ -30,12 +29,3 @@ Aquí te comparto investigaciones, experiencias, consejos, y más cositas que me
   </div>
   <br>
 </main>
-  
-### PD. Abajo te invito a mi newsletter
-
-Te comparto toda las experiencias y lecturas que me ayudan a avanzar y lograr grandes cosas haciendo SEO y páginas web a código.
-
-[☕ Suscríbete a mi newsletter](#cta){:class="boton"}
-
-  {% include cta.html %}
-  {% include footer.html %}
