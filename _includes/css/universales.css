@@ -284,7 +284,36 @@ form textarea {
   flex-direction: row-reverse;
 }
 
-ol {
-  clear: both;
-  margin-top: 20px;
+.three_columns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3em;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 4em;
+
+  & > div {
+    position: relative;
+    width: min(100%, 276px);
+    text-align: center;
+    display: grid;
+    gap: 2em;
+    place-items: center;
+    border-radius: var(--radius-cards);
+    overflow: hidden;
+
+    img {
+      transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+
+    img:hover {
+      transform: scale(1.015);
+    }
+
+    h4 {
+      font-size: 24px;
+      max-width: 296px;
+      margin: 0;
+    }
+  }
 }
