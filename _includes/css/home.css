@@ -11,12 +11,12 @@
 
 .block_section_header {
   grid-area: header;
-  padding: 8em 120px 0;
+  padding: 6em 2rem 0;
 }
 
 .block_section_title {
   grid-area: title;
-  padding: 0 30px;
+  padding: 0 2rem;
   margin: 1rem 0;
   font-family: var(--fuenteTitulos);
   letter-spacing: -.01em;
@@ -25,7 +25,7 @@
 
 .block_section_content {
   grid-area: content;
-  padding: 0 30px 2em;
+  padding: 0 2rem 3rem;
   display: flex;
   flex-direction: column;
   gap: 1em;
@@ -54,8 +54,11 @@
 }
 
 .block_section_knowledge {
-  background-color: #00264d;
+  background-color: var(--principal);
+  background-image: url("https://www.transparenttextures.com/patterns/navy.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
   color: white;
+  padding: 6em 2rem 3rem;
 }
 
 .block_section_title {

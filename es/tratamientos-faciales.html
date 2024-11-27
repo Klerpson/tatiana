@@ -10,10 +10,26 @@ h1: "Tratamientos Faciales No Invasivos y Seguros"
 description: "Descubre nuestros tratamientos faciales no invasivos en Bogotá. Rejuvenecimiento, biorevitalización, rellenos y más. Resultados naturales garantizados por la Dra. Tatiana Leal."
 canonical: "https://www.tatileal.com/tratamientos-faciales/"
 ---
-<div class="section block_section">
-  <small>Centro de medicina estética en Bogotá</small>
+<section class="padding">
+  <div class="intro flow center">
+    <h2>Nuestros Tratamientos Faciales Especializados</h2>
+    <p>Cada rostro cuenta una historia única. Por eso, ofrecemos una gama completa de tratamientos faciales diseñados para abordar diferentes preocupaciones estéticas:</p>
+  </div>
+</section>
   
-  <h1 class="block_section_title">Tratamientos Faciales: Rejuvenece tu rostro sin cirugía ni tiempo de recuperación</h1>
+{% assign treatments = site.tratamientos-faciales_es %}
+<main class="gallery-container padding">
+  {% for item in treatments %}
+    <a href="{{item.url | relative_url}}" class="gallery-item" title="{{item.title}}">
+      <img src="{{ item.hero | relative_url }}" alt="{{ item.alt }}" loading="lazy" width="520" height="780">
+      <h4 class="gallery-item-text">{{ item.h1 }}</h4>
+    </a>
+  {% endfor %}
+</main>
+<section class="block_section">
+  <small class="block_section_header">Centro de medicina estética en Bogotá</small>
+  
+  <h2 class="block_section_title">Tratamientos Faciales: Rejuvenece tu rostro sin cirugía ni tiempo de recuperación</h2>
   
   <div class="block_section_content">
     <p>Era un martes por la mañana cuando Carolina, ejecutiva de 42 años, se preparaba para una importante presentación. Frente al espejo, notó algo diferente: esas líneas de expresión que antes apenas se notaban ahora parecían más evidentes. Las manchas solares que había intentado disimular con maquillaje seguían ahí, obstinadas. "¿En qué momento mi rostro cambió tanto?", se preguntó.</p>
@@ -22,8 +38,12 @@ canonical: "https://www.tatileal.com/tratamientos-faciales/"
     
     <p>En la Clínica de la Dra. Tatiana Leal, entendemos que lo que buscas no es solo un tratamiento facial - buscas recuperar la confianza al mirarte al espejo. Por eso, hemos desarrollado protocolos personalizados que combinan las técnicas más avanzadas en medicina estética con un enfoque natural y seguro.</p>
   </div>
-
-  <div class="block_section_knowledge flow padding">
+  <div class="block_section_image_left padding flow" style="background-color: var(--gris1); background-image: url('/img/bg.png'); ">
+    <h3>Lorem ipsum dolor sit.</h3>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam autem sit iusto iure, hic dignissimos?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam autem sit iusto iure, hic dignissimos?</p>
+  </div>
+  <div class="block_section_knowledge flow">
     <h2>¿Por qué elegir nuestros tratamientos faciales?</h2>
     <ul>
       <li>Procedimientos 100% seguros y no invasivos, avalados por más de 15 años de experiencia en medicina estética</li>
@@ -33,108 +53,11 @@ canonical: "https://www.tatileal.com/tratamientos-faciales/"
       <li>Sin tiempos de recuperación - ¡regresa a tus actividades inmediatamente!</li>
     </ul>
   </div>
-</div>
+  <div class="block_section_image_right " style="background-image: url('/img/limpieza-facial-con-la-doctora-tatiana-leal.avif');"></div>
+</section>
 
-<div class="padding flow">
-  <div class="intro">
-    <h2>Nuestros Tratamientos Faciales Especializados</h2>
-    <p>Cada rostro cuenta una historia única. Por eso, ofrecemos una gama completa de tratamientos faciales diseñados para abordar diferentes preocupaciones estéticas:</p>
-  </div>
-  
-  <div class="padding flow">
-    <div class="intro">
-      <h2>Nuestros Tratamientos Faciales Especializados</h2>
-      <p>Cada rostro cuenta una historia única. Por eso, ofrecemos una gama completa de tratamientos faciales diseñados para abordar diferentes preocupaciones estéticas:</p>
-    </div>
-  
-    <div class="service-cards">
-      <div class="card">
-        <div class="gallery-item">
-          <img src="img/rejuvenecimiento-facial-bogota.avif" alt="Rejuvenecimiento Facial en Bogotá" loading="lazy">
-        </div>
-        <h3>Rejuvenecimiento Facial</h3>
-        <p>El paso del tiempo no tiene por qué notarse en tu piel. Nuestro tratamiento insignia combina diferentes tecnologías para:</p>
-        <ul>
-          <li>Reducir líneas de expresión</li>
-          <li>Mejorar la firmeza cutánea</li>
-          <li>Unificar el tono de la piel</li>
-        </ul>
-        <a href="/rejuvenecimiento-facial" class="boton boton_auxiliar">Conoce más</a>
-      </div>
-  
-      <div class="card">
-        <div class="gallery-item">
-          <img src="img/biorevitalizacion-facial-bogota.avif" alt="Biorevitalización Facial en Bogotá" loading="lazy">
-        </div>
-        <h3>Biorevitalización Facial</h3>
-        <p>Devuelve la vida a tu piel con un boost de hidratación y nutrientes esenciales:</p>
-        <ul>
-          <li>Hidratación profunda</li>
-          <li>Mejora la elasticidad</li>
-          <li>Estimula el colágeno natural</li>
-        </ul>
-        <a href="/biorevitalizacion-facial" class="boton boton_auxiliar">Conoce más</a>
-      </div>
-  
-      <div class="card">
-        <div class="gallery-item">
-          <img src="img/aumento-labios-bogota.avif" alt="Aumento de Labios en Bogotá" loading="lazy">
-        </div>
-        <h3>Relleno y Aumento de Labios</h3>
-        <p>Realza tu sonrisa manteniendo un aspecto natural:</p>
-        <ul>
-          <li>Volumen controlado</li>
-          <li>Definición del contorno</li>
-          <li>Hidratación labial</li>
-        </ul>
-        <a href="/aumento-labios" class="boton boton_auxiliar">Conoce más</a>
-      </div>
-  
-      <div class="card">
-        <div class="gallery-item">
-          <img src="img/rejuvenecimiento-facial-laser-bogota.avif" alt="Rejuvenecimiento Facial con Láser en Bogotá" loading="lazy">
-        </div>
-        <h3>Rejuvenecimiento Facial con Láser</h3>
-        <p>La tecnología más avanzada para una piel renovada:</p>
-        <ul>
-          <li>Trata múltiples capas de la piel</li>
-          <li>Estimula colágeno natural</li>
-          <li>Resultados duraderos</li>
-        </ul>
-        <a href="/rejuvenecimiento-facial-laser" class="boton boton_auxiliar">Conoce más</a>
-      </div>
-  
-      <div class="card">
-        <div class="gallery-item">
-          <img src="img/hilos-tensores-bogota.avif" alt="Hilos Tensores en Bogotá" loading="lazy">
-        </div>
-        <h3>Hilos Tensores</h3>
-        <p>Lifting sin cirugía para una piel más firme:</p>
-        <ul>
-          <li>Efecto lifting inmediato</li>
-          <li>Sin tiempo de recuperación</li>
-          <li>Resultados naturales</li>
-        </ul>
-        <a href="/hilos-tensores" class="boton boton_auxiliar">Conoce más</a>
-      </div>
-  
-      <div class="card">
-        <div class="gallery-item">
-          <img src="img/peeling-quimico-bogota.avif" alt="Peeling Químico en Bogotá" loading="lazy">
-        </div>
-        <h3>Peeling Químico Facial</h3>
-        <p>Renueva completamente la textura de tu piel:</p>
-        <ul>
-          <li>Reduce manchas</li>
-          <li>Mejora cicatrices</li>
-          <li>Unifica el tono</li>
-        </ul>
-        <a href="/peeling-quimico" class="boton boton_auxiliar">Conoce más</a>
-      </div>
-    </div>
-  </div>
 
-<div class="section img-bgr text-container-center" style="background-image: url('/img/centro-medicina-estetica-doctora-tatiana-leal.avif');">
+<div class="section img-bgr text-container-center" style="background-image: url('/img/centro-medicina-estetica-doctora-tatiana-leal.avif'); background-attachment: fixed;">
   <div class="intro flow">
     <small>Historias reales de transformación</small>
     <h2>La experiencia de nuestras pacientes</h2>
@@ -207,22 +130,3 @@ canonical: "https://www.tatileal.com/tratamientos-faciales/"
     </div>
   </div>
 </section>
-
-<div class="section padding">
-  <div class="two_columns">
-    <div>
-      <h2>Ubicación Estratégica</h2>
-      <p>Nos encontramos en una zona privilegiada de Bogotá, con fácil acceso y estacionamiento disponible.</p>
-      <ul>
-        <li>Ambiente médico profesional</li>
-        <li>Instalaciones modernas</li>
-        <li>Tecnología de última generación</li>
-      </ul>
-      <a href="/contacto" class="boton boton_auxiliar">Cómo llegar</a>
-    </div>
-    <div>
-      <img src="{{ 'img/limpieza-facial-profunda-en-bogota.avif' | relative_url }}" width="100" height="100"
-          fill="var(--color-main)">
-    </div>
-  </div>
-</div>
