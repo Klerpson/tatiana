@@ -29,8 +29,9 @@
 .service-cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 3rem;
   justify-items: stretch;
+  place-content: center;
+  place-items: center;
 }
 
 
@@ -46,6 +47,7 @@
   position: relative;
   width: 100%;
   max-width: 350px;
+  
 }
 
 .card:hover {
@@ -140,6 +142,6 @@
 
 /* Mostrar contenido cuando está seleccionado */
 .accordion-toggle:checked + .accordion-header + .accordion-content {
-  max-height: 150px; /* Ajusta según el contenido */
+  max-height: 550px; /* Ajusta según el contenido */
   padding: 1.2rem;
 }
