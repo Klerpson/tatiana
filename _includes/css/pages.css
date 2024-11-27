@@ -33,12 +33,10 @@
   justify-items: stretch;
 }
 
-.card_content{
-  display: grid;
-  padding: 2rem;
-}
+
 .card {
   display: flex;
+  padding: 2rem;
   flex-direction: column;
   align-items: center;
   text-align: center;
