@@ -1,7 +1,7 @@
 .img-bgr {
   background: url("{{'img/limpieza-facial-profunda-en-bogota.avif' | relative_url}}")
     top center/cover no-repeat;
-    min-height: 70vh;
+  min-height: 70vh;
 }
 .text-container-center {
   display: flex;
@@ -16,24 +16,27 @@
     color: #fff;
   }
 
-  .intro h2{
+  .intro h2 {
     font-size: clamp(2.75rem, 2.3rem + 0.7vw, 3.25rem);
-
   }
-} 
-.text-container-end{
+}
+.text-container-end {
   position: relative;
-  display: flex; 
+  display: flex;
   align-items: flex-end;
 }
 /* Tarjetas */
 .service-cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-  justify-items: center;
+  gap: 3rem;
+  justify-items: stretch;
 }
 
+.card_content{
+  display: grid;
+  padding: 2rem;
+}
 .card {
   display: flex;
   flex-direction: column;
@@ -41,9 +44,10 @@
   text-align: center;
   border-radius: var(--radius-cards);
   box-shadow: var(--shadow);
-  padding: 2rem;
   transition: transform 0.3s ease-in-out;
   position: relative;
+  width: 100%;
+  max-width: 350px;
 }
 
 .card:hover {
