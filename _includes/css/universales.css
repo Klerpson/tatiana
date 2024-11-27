@@ -264,6 +264,7 @@ form textarea {
 
 .center {
   text-align: center;
+  margin-inline: auto;
 }
 .two_columns {
   display: flex;
