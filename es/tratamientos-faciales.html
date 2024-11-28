@@ -66,7 +66,8 @@ canonical: "https://www.tatileal.com/tratamientos-faciales/"
 
 <section class="padding flow">
   <h2 class="center">Lorem ipsum dolor sit amet.</h2>
-  <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus illo veritatis, quam aliquid debitis magni.
+  <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus illo veritatis, quam aliquid
+    debitis magni.
     Praesentium provident perspiciatis possimus vel doloremque blanditiis explicabo, ab sit!</p>
   <div class="flow two_columns seccion">
     <div class="flow">
@@ -74,6 +75,14 @@ canonical: "https://www.tatileal.com/tratamientos-faciales/"
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis doloremque soluta necessitatibus
         officiis,
         molestiae doloribus provident? Minus non fugiat aperiam consequatur, magnam voluptate tempore praesentium?</p>
+      <a href="#" class="boton boton_principal" id="lead_whatsapp"
+        title="{% if page.lang == 'es' %}WhatsApp de Tatiana Leal{% else %}Tatiana Leal's WhatsApp{% endif %}">
+        {% if page.lang == "es" %}
+        Agenda tu cita ahora
+        {% else %}
+        Schedule your appointment now
+        {% endif %}
+      </a>
     </div>
     <div>
       <img src="{{ 'img/limpieza-facial-profunda-en-bogota.avif' | relative_url }}" width="520" height="520" alt="">
@@ -85,6 +94,14 @@ canonical: "https://www.tatileal.com/tratamientos-faciales/"
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis doloremque soluta necessitatibus
         officiis,
         molestiae doloribus provident? Minus non fugiat aperiam consequatur, magnam voluptate tempore praesentium?</p>
+      <a href="#" class="boton boton_principal" id="lead_whatsapp"
+        title="{% if page.lang == 'es' %}WhatsApp de Tatiana Leal{% else %}Tatiana Leal's WhatsApp{% endif %}">
+        {% if page.lang == "es" %}
+        Agenda tu cita ahora
+        {% else %}
+        Schedule your appointment now
+        {% endif %}
+      </a>
     </div>
     <div>
       <img src="{{ 'img/limpieza-facial-profunda-en-bogota.avif' | relative_url }}" width="520" height="520" alt="">
@@ -100,10 +117,11 @@ canonical: "https://www.tatileal.com/tratamientos-faciales/"
       exactamente lo que buscaba. El resultado fue mejor de lo que esperaba - mi rostro luce fresco y natural, tanto que
       ni mi familia notó que me había realizado un tratamiento. Solo me dicen que me veo descansada y radiante."</p>
     <p class=" center"><strong>- María José, 45 años</strong></p>
+
   </div>
 </article>
 
-<div class="section padding">
+<section class="section padding">
   <div class="accordion">
     <h2 class="center">Preguntas frecuentes sobre tratamientos faciales</h2>
     <input type="checkbox" id="acc1" class="accordion-toggle">
@@ -136,7 +154,7 @@ canonical: "https://www.tatileal.com/tratamientos-faciales/"
         horas.</p>
     </div>
   </div>
-</div>
+</section>
 
 <section class="seccion padding">
   <div class=" flow">
@@ -161,7 +179,14 @@ canonical: "https://www.tatileal.com/tratamientos-faciales/"
     </div>
 
     <div class=" center" style="margin-top: 2em;">
-      <a href="#" class="boton boton_principal">Agenda tu consulta gratuita</a>
+      <a href="#" class="boton boton_principal" id="lead_whatsapp"
+        title="{% if page.lang == 'es' %}WhatsApp de Tatiana Leal{% else %}Tatiana Leal's WhatsApp{% endif %}">
+        {% if page.lang == "es" %}
+        Agenda tu cita ahora
+        {% else %}
+        Schedule your appointment now
+        {% endif %}
+      </a>
       <p class=" center" style="margin-top: 1em;"><small>* Cupos limitados disponibles esta semana</small></p>
     </div>
   </div>

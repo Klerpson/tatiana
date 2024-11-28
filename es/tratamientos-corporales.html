@@ -1,0 +1,171 @@
+---
+layout: categoria
+lang: es
+categoria: tratamientos-corporales_es
+ref: tratamientos-corporales
+hero: "img/hilos-tensores-bogota-colombia.avif"
+hero1: "img/limpieza-facial-profunda-en-bogota.avif"
+title: "Tratamientos Corporales No Invasivos en Bogotá y Miami | Resultados Garantizados"
+h1: "Tratamientos Corporales: Transforma tu Cuerpo sin Cirugía"
+description: "Descubre nuestros tratamientos corporales no invasivos en Bogotá y Miami. Reducción, reafirmación y modelado corporal con tecnología avanzada. Resultados visibles desde la primera sesión."
+canonical: "
+https://www.tatileal.com/tratamientos-corporales/
+"
+---
+
+{% assign treatments = site.tratamientos-corporales_es %}
+<main class="gallery-container padding seccion">
+  <div class="intro flow center">
+    <h2>Tratamientos Corporales Personalizados para Cada Necesidad</h2>
+    <p>Utilizamos tecnología de última generación y protocolos personalizados para ayudarte a alcanzar tus objetivos, sin cirugía y sin tiempo de recuperación.</p>
+  </div>
+  {% for item in treatments %}
+  <a href="{{item.url | relative_url}}" class="gallery-item" title="{{item.title}}">
+    <img src="{{ item.hero | relative_url }}" alt="{{ item.alt }}" loading="lazy" width="520" height="780">
+    <h4 class="gallery-item-text">{{ item.h1 }}</h4>
+  </a>
+  {% endfor %}
+</main>
+
+<section class="block_section">
+  <small class="block_section_header">Centro de medicina estética en Bogotá y Miami</small>
+  <h2 class="block_section_title">La Transformación que Buscas, Sin Cirugía ni Tiempo de Recuperación</h2>
+  <div class="block_section_content">
+    <p>Ana se miraba al espejo cada mañana antes de ir a trabajar. A sus 38 años, notaba cómo su cuerpo había cambiado después de dos embarazos. A pesar de hacer ejercicio y cuidar su alimentación, esas áreas problemáticas persistían: la flacidez en el abdomen, la celulitis en los muslos y esos "rollitos" que se marcaban bajo la ropa ajustada.</p>
+
+    <p>Un día, mientras se probaba un vestido para una boda, tuvo que enfrentarse a una realidad que venía evitando: ya no se sentía cómoda con su cuerpo. La ropa no le quedaba como antes, y esto afectaba su confianza en situaciones sociales y profesionales.</p>
+
+    <p>Esta historia puede resonarte. Como Ana, muchas personas luchan diariamente con cambios corporales que afectan su autoestima y calidad de vida. La buena noticia es que hoy existen soluciones efectivas y no invasivas que pueden ayudarte a recuperar la confianza en tu cuerpo.</p>
+  </div>
+  
+  <div class="block_section_image_left padding flow" style="background-color: var(--gris1); background-image: url('/img/bg.png');">
+    <h3>Tecnología de Última Generación para Resultados Reales</h3>
+    <p>Nuestros tratamientos combinan las técnicas más avanzadas en medicina estética con un enfoque personalizado para cada paciente. Utilizamos equipos certificados por la FDA y el INVIMA, garantizando resultados seguros y efectivos.</p>
+    <p>Entendemos que cada cuerpo es único, por eso diseñamos protocolos específicos que se adaptan a tus necesidades y objetivos particulares.</p>
+  </div>
+
+  <div class="block_section_knowledge flow">
+    <h2>¿Por qué elegir nuestros tratamientos corporales?</h2>
+    <ul>
+      <li>Resultados visibles desde la primera sesión, respaldados por más de 15 años de experiencia</li>
+      <li>Tratamientos 100% seguros y no invasivos, certificados internacionalmente</li>
+      <li>Sin tiempo de recuperación - ¡regresa inmediatamente a tus actividades!</li>
+      <li>Protocolos personalizados que se adaptan a tu tipo de piel y objetivos</li>
+      <li>Tecnología de última generación para resultados más efectivos y duraderos</li>
+    </ul>
+  </div>
+
+  <div class="block_section_image_right" style="background-image: url('/img/limpieza-facial-profunda.avif');"></div>
+</section>
+
+<section class="padding flow">
+  <h2 class="center">Soluciones Efectivas para Cada Preocupación</h2>
+  <p class="center">Nuestros tratamientos abordan las principales preocupaciones estéticas de manera segura y efectiva</p>
+  
+  <div class="flow two_columns seccion">
+    <div class="flow">
+      <h2>Tratamientos Personalizados para Resultados Reales</h2>
+      <p>Combinamos diferentes tecnologías y técnicas para maximizar tus resultados. Cada protocolo se diseña específicamente para ti, considerando tu tipo de piel, objetivos y estilo de vida.</p>
+      <a href="#" class="boton boton_principal" id="lead_whatsapp" title="{% if page.lang == 'es' %}WhatsApp de Tatiana Leal{% else %}Tatiana Leal's WhatsApp{% endif %}">
+        {% if page.lang == "es" %}
+        Agenda tu evaluación gratuita
+        {% else %}
+        Schedule your free assessment
+        {% endif %}
+      </a>
+    </div>
+    <div>
+      <img src="{{ 'img/tratamientos-corporales-no-invasivos.avif' | relative_url }}" width="520" height="520" alt="Tratamientos corporales no invasivos">
+    </div>
+  </div>
+
+  <div class="flow two_columns two_columns_left">
+    <div class="flow">
+      <h2>Resultados Comprobados y Satisfacción Garantizada</h2>
+      <p>Nuestro compromiso es tu satisfacción. Por eso, realizamos un seguimiento constante de tu progreso y ajustamos los protocolos según sea necesario para asegurar los mejores resultados.</p>
+      <a href="#" class="boton boton_principal" id="lead_whatsapp" title="{% if page.lang == 'es' %}WhatsApp de Tatiana Leal{% else %}Tatiana Leal's WhatsApp{% endif %}">
+        {% if page.lang == "es" %}
+        ¡Comienza tu transformación hoy!
+        {% else %}
+        Start your transformation today!
+        {% endif %}
+      </a>
+    </div>
+    <div>
+      <img src="{{ 'img/centro-estetica-bogota.avif' | relative_url }}" width="520" height="520" alt="Centro de estética en Bogotá">
+    </div>
+  </div>
+</section>
+
+<article class="section img-bgr text-container-center" style="background-image: url('/img/resultados-tratamientos-corporales.avif'); background-attachment: fixed;">
+  <div class="hero-content flow">
+    <h2 class="center">La Experiencia de Nuestros Pacientes</h2>
+    <p class="center">"Durante años busqué una solución para la flacidez después de mi embarazo. Probé desde cremas costosas hasta rutinas intensas de ejercicio, pero nada funcionaba. Cuando conocí estos tratamientos, me sorprendió lo rápido que empecé a ver resultados. Lo mejor es que no tuve que parar mi vida - podía ir a trabajar inmediatamente después de cada sesión. En solo dos meses, mi ropa comenzó a quedarme diferente y mi confianza volvió. ¡Es increíble cómo algo así puede cambiar tu vida!"</p>
+    <p class="center"><strong>- Carolina M., 35 años</strong></p>
+  </div>
+</article>
+
+<section class="section padding">
+  <div class="accordion">
+    <h2 class="center">Preguntas Frecuentes sobre Tratamientos Corporales</h2>
+    
+    <input type="checkbox" id="acc1" class="accordion-toggle">
+    <label for="acc1" class="accordion-header">¿Son seguros los tratamientos corporales no invasivos?</label>
+    <div class="accordion-content">
+      <p>Absolutamente. Todos nuestros tratamientos están aprobados por la FDA y el INVIMA, y son realizados por profesionales certificados en un ambiente médico controlado. Cada sesión comienza con una evaluación completa para garantizar tu seguridad y optimizar los resultados.</p>
+    </div>
+
+    <input type="checkbox" id="acc2" class="accordion-toggle">
+    <label for="acc2" class="accordion-header">¿Cuándo empezaré a ver resultados?</label>
+    <div class="accordion-content">
+      <p>La mayoría de nuestros pacientes notan mejoras visibles desde la primera sesión. Sin embargo, los resultados óptimos se alcanzan generalmente después de 6-8 sesiones, dependiendo del área tratada y tus objetivos específicos. Los resultados continúan mejorando con el tiempo, especialmente cuando se combina con un estilo de vida saludable.</p>
+    </div>
+
+    <input type="checkbox" id="acc3" class="accordion-toggle">
+    <label for="acc3" class="accordion-header">¿Hay tiempo de recuperación?</label>
+    <div class="accordion-content">
+      <p>No. Nuestros tratamientos son no invasivos y no requieren tiempo de recuperación. Puedes retomar tus actividades normales inmediatamente después de cada sesión. Algunos pacientes pueden experimentar un ligero enrojecimiento que desaparece en pocas horas.</p>
+    </div>
+
+    <input type="checkbox" id="acc4" class="accordion-toggle">
+    <label for="acc4" class="accordion-header">¿Los resultados son permanentes?</label>
+    <div class="accordion-content">
+      <p>Los resultados pueden mantenerse a largo plazo con un estilo de vida saludable. Recomendamos sesiones de mantenimiento periódicas para optimizar y prolongar los resultados. Durante tu consulta, diseñaremos un plan personalizado que se ajuste a tus necesidades y objetivos específicos.</p>
+    </div>
+  </div>
+</section>
+
+<section class="seccion padding">
+  <div class="flow">
+    <h2 class="center">Comienza Tu Transformación Hoy</h2>
+    <p class="center">Tu primera consulta de evaluación es completamente gratuita</p>
+
+    <div class="service-cards three_columns">
+      <div class="card">
+        <h3>1. Evaluación Personalizada</h3>
+        <p>Análisis completo de tus necesidades y objetivos específicos</p>
+      </div>
+
+      <div class="card">
+        <h3>2. Plan de Tratamiento</h3>
+        <p>Diseñamos un protocolo adaptado a tu caso particular</p>
+      </div>
+
+      <div class="card">
+        <h3>3. Resultados Garantizados</h3>
+        <p>Seguimiento continuo para asegurar tu satisfacción</p>
+      </div>
+    </div>
+
+    <div class="center" style="margin-top: 2em;">
+      <a href="#" class="boton boton_principal" id="lead_whatsapp" title="{% if page.lang == 'es' %}WhatsApp de Tatiana Leal{% else %}Tatiana Leal's WhatsApp{% endif %}">
+        {% if page.lang == "es" %}
+        Agenda tu evaluación gratuita ahora
+        {% else %}
+        Schedule your free assessment now
+        {% endif %}
+      </a>
+      <p class="center" style="margin-top: 1em;"><small>* Cupos limitados disponibles esta semana</small></p>
+    </div>
+  </div>
+</section> 

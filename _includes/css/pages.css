@@ -28,7 +28,7 @@
 /* Tarjetas */
 .service-cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(296px, 1fr));
   justify-items: stretch;
   place-content: center;
   place-items: center;

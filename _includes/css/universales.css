@@ -321,3 +321,7 @@ form textarea {
     }
   }
 }
+
+.icons {
+  max-width: 180px;
+}

@@ -25,49 +25,55 @@
         title="{% if page.lang == 'es' %}Doctora Tatiana Leal{% else %}Dr. Tatiana Leal{% endif %}">
     </picture>
   </div>
+</header>
+
   {% else %}
   <header class="hero">
     <div class="bg bg1" style="background-image: url('{{ page.hero | relative_url }}');"></div>
     <div class="bg bg2" style="background-image: url('{{ page.hero1 | relative_url }}');"></div>
-    <div class="hero-content flow">
-      <h1>{{ page.h1 }}</h1>
-      <p>{{ page.description }}</p>
-      <a href="#" class="boton boton_principal" id="lead_whatsapp"
-        title="{% if page.lang == 'es' %}WhatsApp de Tatiana Leal{% else %}Tatiana Leal's WhatsApp{% endif %}">
-        {% if page.lang == "es" %}
-        Agenda tu cita ahora
-        {% else %}
-        Schedule your appointment now
-        {% endif %}
-      </a>
-    </div>
-    <div class="three_columns">
-      <div>
-        <svg width="64px" height="64px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff">
-          <path
-            d="M12 6C10.2 3.9 7.2 3.3 4.9 5.2C2.7 7.1 2.4 10.3 4.1 12.6C5.6 14.5 10.1 18.4 11.5 19.7C11.7 19.9 11.8 20 11.9 20C12 20 12.1 20 12.2 19.9C12.3 19.9 12.3 19.9 12.5 19.7C13.9 18.4 18.4 14.5 19.8 12.6C21.6 10.3 21.3 7.1 19 5.2C16.8 3.3 13.8 3.9 12 6Z"
-            stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-        </svg>
-        <h3>Lorem ipsum dolor sit amet</h3>
+    <div class="two_columns hero-content flow">
+      <div class=" flow">
+        <h1>{{ page.h1 }}</h1>
+        <p>{{ page.description }}</p>
+        <a href="#" class="boton boton_principal" id="lead_whatsapp"
+          title="{% if page.lang == 'es' %}WhatsApp de Tatiana Leal{% else %}Tatiana Leal's WhatsApp{% endif %}">
+          {% if page.lang == "es" %}
+          Agenda tu cita ahora
+          {% else %}
+          Schedule your appointment now
+          {% endif %}
+        </a>
       </div>
-      <div>
-        <svg width="64px" height="64px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff">
-          <path
-            d="M12 6C10.2 3.9 7.2 3.3 4.9 5.2C2.7 7.1 2.4 10.3 4.1 12.6C5.6 14.5 10.1 18.4 11.5 19.7C11.7 19.9 11.8 20 11.9 20C12 20 12.1 20 12.2 19.9C12.3 19.9 12.3 19.9 12.5 19.7C13.9 18.4 18.4 14.5 19.8 12.6C21.6 10.3 21.3 7.1 19 5.2C16.8 3.3 13.8 3.9 12 6Z"
-            stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-        </svg>
-        <h3>Lorem ipsum dolor sit amet</h3>
-      </div>
-      <div>
-        <svg width="64px" height="64px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
-          stroke="#ffffff">
-          <path
-            d="M12 6C10.2 3.9 7.2 3.3 4.9 5.2C2.7 7.1 2.4 10.3 4.1 12.6C5.6 14.5 10.1 18.4 11.5 19.7C11.7 19.9 11.8 20 11.9 20C12 20 12.1 20 12.2 19.9C12.3 19.9 12.3 19.9 12.5 19.7C13.9 18.4 18.4 14.5 19.8 12.6C21.6 10.3 21.3 7.1 19 5.2C16.8 3.3 13.8 3.9 12 6Z"
-            stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-        </svg>
+      <div class="three_columns">
+        <div class="flow icons">
+          <svg width="64px" height="64px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+            stroke="#ffffff">
+            <path
+              d="M12 6C10.2 3.9 7.2 3.3 4.9 5.2C2.7 7.1 2.4 10.3 4.1 12.6C5.6 14.5 10.1 18.4 11.5 19.7C11.7 19.9 11.8 20 11.9 20C12 20 12.1 20 12.2 19.9C12.3 19.9 12.3 19.9 12.5 19.7C13.9 18.4 18.4 14.5 19.8 12.6C21.6 10.3 21.3 7.1 19 5.2C16.8 3.3 13.8 3.9 12 6Z"
+              stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+          <p>Lorem ipsum dolor sit amet</p>
+        </div>
+        <div class="flow icons">
+          <svg width="64px" height="64px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+            stroke="#ffffff">
+            <path
+              d="M12 6C10.2 3.9 7.2 3.3 4.9 5.2C2.7 7.1 2.4 10.3 4.1 12.6C5.6 14.5 10.1 18.4 11.5 19.7C11.7 19.9 11.8 20 11.9 20C12 20 12.1 20 12.2 19.9C12.3 19.9 12.3 19.9 12.5 19.7C13.9 18.4 18.4 14.5 19.8 12.6C21.6 10.3 21.3 7.1 19 5.2C16.8 3.3 13.8 3.9 12 6Z"
+              stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+          <p>Lorem ipsum dolor sit amet</p>
+        </div>
+        <div class="flow icons">
+          <svg width="64px" height="64px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+            stroke="#ffffff">
+            <path
+              d="M12 6C10.2 3.9 7.2 3.3 4.9 5.2C2.7 7.1 2.4 10.3 4.1 12.6C5.6 14.5 10.1 18.4 11.5 19.7C11.7 19.9 11.8 20 11.9 20C12 20 12.1 20 12.2 19.9C12.3 19.9 12.3 19.9 12.5 19.7C13.9 18.4 18.4 14.5 19.8 12.6C21.6 10.3 21.3 7.1 19 5.2C16.8 3.3 13.8 3.9 12 6Z"
+              stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
 
-        <h3>Lorem ipsum dolor sit amet</h3>
+          <p>Lorem ipsum dolor sit amet</p>
+        </div>
       </div>
     </div>
+  </header>
   {% endcase %}
-</header>

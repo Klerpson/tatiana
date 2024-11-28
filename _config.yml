@@ -53,6 +53,18 @@ collections:
   tratamientos-faciales_en:
     output: true
     permalink: /en/facial-treatments/:slug/
+  tratamientos-corporales_es:
+    output: true
+    permalink: /es/tratamientos-corporales/:slug/
+  tratamientos-corporales_en:
+    output: true
+    permalink: /en/corporals-treatments/:slug/
+  ginecologia-estetica_es:
+    output: true
+    permalink: /es/tratamientos-corporales/:slug/
+  ginecologia-estetica_en:
+    output: true
+    permalink: /en/corporals-treatments/:slug/
   posts:
     output: true
     permalink: /:lang/blog/slug/ 
