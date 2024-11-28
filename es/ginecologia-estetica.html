@@ -1,117 +1,141 @@
 ---
 layout: categoria
 lang: es
-categoria: ginecologia-estetica_es
+categoria: ginecologia-estetica
 ref: ginecologia-estetica
-hero: "img/ginecologia-estetica-principal.avif"
-hero1: "img/centro-ginecologia-regenerativa.avif"
-title: "Ginecología Estética Regenerativa en Colombia | Tratamientos Funcionales"
-h1: "Recupera tu Bienestar Íntimo con Tecnología de Vanguardia"
-description: "Descubre tratamientos ginecológicos estéticos y funcionales no invasivos. Soluciones personalizadas para restaurar tu confianza y calidad de vida."
-canonical: "https://www.tatileal.com/ginecologia-estetica/"
+hero: "img/hilos-tensores-bogota-colombia.avif"
+hero1: "img/limpieza-facial-profunda-en-bogota.avif"
+title: "Ginecología Estética en Bogotá | Rejuvenecimiento Íntimo Seguro"
+h1: "Tratamientos en Ginecología Estética y Funcional"
+description: "Descubre nuestros tratamientos de ginecología estética en Bogotá, Cali y Medellín. Soluciones regenerativas, funcionales y seguras para recuperar tu confianza y bienestar."
+canonical: "https://www.tusitio.com/ginecologia-estetica/"
 ---
 
+{% assign treatments = site.ginecologia-estetica %}
 <main class="gallery-container padding seccion">
   <div class="intro flow center">
-    <h2>Tratamientos Especializados en Ginecología Estética</h2>
-    <p>Cada cuerpo cuenta una historia única. Por eso, ofrecemos soluciones integrales diseñadas para abordar diferentes necesidades íntimas con precisión y sensibilidad.</p>
+    <h2>Nuestros tratamientos en ginecología estética</h2>
+    <p>Cada mujer merece sentirse segura y plena. Por eso, ofrecemos una gama completa de tratamientos diseñados para abordar diversas preocupaciones funcionales y estéticas:</p>
   </div>
+  {% for item in treatments %}
+  <a href="{{item.url | relative_url}}" class="gallery-item" title="{{item.title}}">
+    <img src="{{ item.hero | relative_url }}" alt="{{ item.alt }}" loading="lazy" width="520" height="780">
+    <h4 class="gallery-item-text">{{ item.h1 }}</h4>
+  </a>
+  {% endfor %}
 </main>
 
 <section class="block_section">
-  <small class="block_section_header">Centro Especializado en Ginecología Regenerativa</small>
-  <h2 class="block_section_title">Ginecología Estética: Más Allá de lo Superficial, Hacia Tu Bienestar Total</h2>
+  <small class="block_section_header">Centro de ginecología estética en Bogotá</small>
+  <h2 class="block_section_title">Rejuvenecimiento Íntimo Seguro y Natural</h2>
   <div class="block_section_content">
-    <p>Eran las 3 de la tarde cuando Valentina, una mujer de 38 años, miraba por la ventana de su oficina. A pesar de su exitosa carrera, algo la inquietaba profundamente. Los cambios postparto, los años, las inseguridades íntimas... todo parecía conspirar contra su bienestar personal.</p>
+    <p>Era un lunes por la mañana cuando Camila, madre de 37 años, decidió buscar soluciones. Los cambios en su cuerpo tras dos partos afectaban no solo su autoestima, sino también su bienestar. "No me siento como antes", pensaba constantemente.</p>
 
-    <p>Su historia no es única. Muchas mujeres en Colombia experimentan transformaciones físicas y emocionales que afectan su intimidad y autoestima. Cambios que van más allá de lo estético: son vivencias que tocan lo más profundo de nuestra identidad.</p>
+    <p>Esta experiencia es común. En nuestra clínica, entendemos que los cambios físicos pueden impactar tu confianza y funcionalidad. Por eso, hemos desarrollado tratamientos en ginecología estética y regenerativa que combinan tecnología avanzada con un enfoque personalizado para devolver tu bienestar.</p>
 
-    <p>En nuestra clínica entendemos que la ginecología estética no se trata solo de procedimientos. Se trata de devolver la confianza, de recuperar el control, de sentirte plena y segura en tu propio cuerpo.</p>
+    <p>Ya sea que busques un rejuvenecimiento íntimo con láser, rellenos funcionales o tratamientos regenerativos, estamos aquí para ayudarte a sentirte como siempre deseaste.</p>
   </div>
-
-  <div class="block_section_knowledge flow">
-    <h2>¿Por qué nuestros tratamientos de Ginecología Estética son diferentes?</h2>
+  <div class="block_section_image_left padding flow"
+    style="background-color: var(--gris1); background-image: url('/img/rejuvenecimiento-intimo.avif');">
+    <h3>Beneficios de nuestros tratamientos</h3>
     <ul>
-      <li>Protocolo 360° que integra aspectos funcionales, estéticos y emocionales de tu salud íntima</li>
-      <li>Tecnologías de última generación avaladas por la FDA e INVIMA</li>
-      <li>Procedimientos mínimamente invasivos con recuperación inmediata</li>
-      <li>Evaluación personalizada que considera tu historia médica, estilo de vida y objetivos</li>
-      <li>Acompañamiento integral antes, durante y después del tratamiento</li>
+      <li>Procedimientos seguros y no invasivos.</li>
+      <li>Sin tiempos de recuperación.</li>
+      <li>Resultados naturales y duraderos.</li>
     </ul>
   </div>
+  <div class="block_section_knowledge flow">
+    <h2>¿Por qué elegirnos?</h2>
+    <ul>
+      <li>Más de 15 años de experiencia en ginecología estética y funcional.</li>
+      <li>Tecnología certificada por la FDA y el INVIMA.</li>
+      <li>Protocolos personalizados adaptados a tus necesidades.</li>
+      <li>Enfoque en resultados naturales y progresivos.</li>
+      <li>Atención humana y confidencialidad garantizada.</li>
+    </ul>
+  </div>
+  <div class="block_section_image_right"
+    style="background-image: url('/img/limpieza-facial-profunda.avif');"></div>
 </section>
 
 <section class="padding flow">
-  <h2 class="center">Nuestros Tratamientos de Ginecología Estética</h2>
-  <div class="service-cards three_columns">
-    <div class="card">
-      <h3>Rejuvenecimiento Vaginal Láser</h3>
-      <p>Recupera la elasticidad y funcionalidad mediante tecnología de precisión</p>
+  <h2 class="center">Transforma tu vida con nuestros tratamientos</h2>
+  <p class="center">En nuestra clínica, entendemos tus necesidades únicas. Por eso, ofrecemos tratamientos diseñados para mejorar tu calidad de vida y confianza.</p>
+  <div class="flow two_columns seccion">
+    <div class="flow">
+      <h2>¿Cómo funcionan nuestros tratamientos?</h2>
+      <p>Utilizamos tecnología avanzada para ofrecer soluciones no invasivas, cómodas y efectivas. Desde el rejuvenecimiento láser hasta la biorevitalización, cada tratamiento está diseñado para garantizar resultados naturales.</p>
+      <a href="#contacto" class="boton boton_principal">Agenda tu cita ahora</a>
     </div>
-
-    <div class="card">
-      <h3>Tratamientos de Regeneración</h3>
-      <p>Restauración de tejidos mediante técnicas no quirúrgicas avanzadas</p>
+    <div>
+      <img src="{{ 'img/limpieza-facial-profunda-en-bogota.avif' | relative_url }}" width="520" height="520" alt="Tratamiento en Ginecología Estética">
     </div>
-
-    <div class="card">
-      <h3>Corrección Funcional</h3>
-      <p>Soluciones para incontinencia, sequedad y pérdida de sensibilidad</p>
+  </div>
+  <div class="flow two_columns two_columns_left">
+    <div class="flow">
+      <h2>¿Cómo funcionan nuestros tratamientos?</h2>
+      <p>Utilizamos tecnología avanzada para ofrecer soluciones no invasivas, cómodas y efectivas. Desde el rejuvenecimiento láser hasta la biorevitalización, cada tratamiento está diseñado para garantizar resultados naturales.</p>
+      <a href="#contacto" class="boton boton_principal">Agenda tu cita ahora</a>
+    </div>
+    <div>
+      <img src="{{ 'img/limpieza-facial-profunda-en-bogota.avif' | relative_url }}" width="520" height="520" alt="Tratamiento en Ginecología Estética">
     </div>
   </div>
 </section>
 
+<article class="section img-bgr text-container-center"
+  style="background-image: url('/img/limpieza-facial-profunda-en-bogota.avif'); background-attachment: fixed;">
+  <div class="hero-content flow">
+    <h2 class="center">Testimonios de nuestras pacientes</h2>
+    <p class="center">"Gracias a los tratamientos de ginecología estética, recuperé mi confianza y bienestar. La atención fue excepcional, y los resultados superaron mis expectativas. Me siento como nueva."</p>
+    <p class="center"><strong>- Carolina, 40 años</strong></p>
+  </div>
+</article>
+
 <section class="section padding">
   <div class="accordion">
-    <h2 class="center">Preguntas Frecuentes sobre Ginecología Estética</h2>
-    
+    <h2 class="center">Preguntas Frecuentes</h2>
     <input type="checkbox" id="acc1" class="accordion-toggle">
-    <label for="acc1" class="accordion-header">¿Son seguros estos procedimientos?</label>
+    <label for="acc1" class="accordion-header">¿Qué es la ginecología estética?</label>
     <div class="accordion-content">
-      <p>Absolutamente. Cada tratamiento es supervisado por ginecólogos certificados, utilizando tecnologías de precisión con los más altos estándares de seguridad internacional.</p>
+      <p>Es una especialidad médica que combina avances en tecnología y estética para mejorar la funcionalidad y apariencia de la zona íntima femenina.</p>
     </div>
 
     <input type="checkbox" id="acc2" class="accordion-toggle">
-    <label for="acc2" class="accordion-header">¿Cuánto tiempo dura un tratamiento?</label>
+    <label for="acc2" class="accordion-header">¿Cuánto tiempo duran los resultados?</label>
     <div class="accordion-content">
-      <p>La duración varía según el procedimiento específico, pero generalmente:
-      <ul>
-        <li>Tratamientos láser: 20-30 minutos</li>
-        <li>Procedimientos regenerativos: Entre 30-45 minutos</li>
-        <li>Consultas de evaluación: 1 hora aproximadamente</li>
-      </ul>
-      </p>
+      <p>La duración depende del tratamiento, pero generalmente varía entre 6 meses y 2 años.</p>
+    </div>
+
+    <input type="checkbox" id="acc3" class="accordion-toggle">
+    <label for="acc3" class="accordion-header">¿Los procedimientos son dolorosos?</label>
+    <div class="accordion-content">
+      <p>La mayoría de nuestros procedimientos son indoloros, y en caso de molestias, se utiliza anestesia local para tu comodidad.</p>
     </div>
   </div>
 </section>
 
 <section class="seccion padding">
   <div class="flow">
-    <h2 class="center">Tu Camino Hacia el Bienestar Íntimo</h2>
-    <p class="center">Tres pasos simples para transformar tu confianza</p>
-
+    <h2 class="center">Empieza hoy tu transformación</h2>
+    <p class="center">Reserva tu consulta inicial gratuita y descubre cómo podemos ayudarte a recuperar tu confianza.</p>
     <div class="service-cards three_columns">
       <div class="card">
-        <h3>1. Consulta Personalizada</h3>
-        <p>Evaluación integral con ginecólogos especializados</p>
+        <h3>1. Consulta Inicial</h3>
+        <p>Evaluamos tus necesidades y diseñamos un plan personalizado.</p>
       </div>
-
       <div class="card">
-        <h3>2. Plan Diseñado para Ti</h3>
-        <p>Protocolo único que responde a tus necesidades específicas</p>
+        <h3>2. Tratamiento Adaptado</h3>
+        <p>Procedimientos diseñados para alcanzar tus objetivos de forma segura.</p>
       </div>
-
       <div class="card">
-        <h3>3. Transformación Completa</h3>
-        <p>Seguimiento y acompañamiento continuo</p>
+        <h3>3. Seguimiento Continuo</h3>
+        <p>Aseguramos resultados satisfactorios con un seguimiento detallado.</p>
       </div>
     </div>
-
     <div class="center" style="margin-top: 2em;">
-      <a href="#" class="boton boton_principal" id="lead_whatsapp">
-        Agenda tu Consulta Gratuita
-      </a>
-      <p class="center" style="margin-top: 1em;"><small>* Cupos limitados esta semana</small></p>
+      <a href="#contacto" class="boton boton_principal">Agenda tu cita ahora</a>
+      <p class="center" style="margin-top: 1em;"><small>* Consultas gratuitas por tiempo limitado</small></p>
     </div>
   </div>
 </section>
