@@ -124,8 +124,3 @@ compress_html:
     blanklines: false
     profile: false
     startings: []
-
-paginate: 10  # Número de posts por página
-paginate_path: "/blog/page/:num/"  # URL para las páginas
-plugins:
-  - jekyll-paginate
