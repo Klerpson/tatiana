@@ -81,15 +81,3 @@ compress_html:
     blanklines: false
     profile: false
     startings: []
-
-
-
-  #   <!-- t:
-  #     es:
-  #       home: "Inicio"
-  #       contact: "Contacto"
-  #     en:
-  #       home: "Home"
-  #       contact: "Contact"
-  #       {{ site.t[page.lang].home }} 
- 

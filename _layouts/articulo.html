@@ -1,84 +1,105 @@
 ---
 layout: default
+permalink: /:lang/blog/:slug/
 ---
 <div class="content flow">
   {% include breadcrumbs.html %}
-  <span>
-    {% capture words %}
-    {{ content | number_of_words | minus: 180 }}
-    {% endcapture %}
-    {% unless words contains '-' %}
-    {{ words | plus: 150 | divided_by: 150 | append: ' minutos para leerlo 🤓' }}
-    {% endunless %}
-  </span>
+  {% assign words = content | number_of_words %}
+  {% if words > 180 %}
+    <span>{{ words | minus: 180 | plus: 150 | divided_by: 150 | append: ' minutos para leerlo 🤓' }}</span>
+  {% endif %}
 </div>
-<main class="articulo wrapper">
+
+<main class="articulo wrapper" role="main">
   <article class="flow">
-    <h2>{{page.title}}</h2>
+    {% if page.h1 %}
+      <h1>{{ page.h1 }}</h1>
+    {% else %}
+      <h1>{{ page.title }}</h1>
+    {% endif %}
+
     {{ content }}
+
     <div class="share wrapper">
       {% include share.html %}
     </div>
+
     {% if page.referencias %}
     <div class="referencias" id="fuentes">
-      <h4>Créditos de las gráficas, referencias y fuentes:</h4>
+      <h4>{% if page.lang == "es" %}Créditos de las gráficas, referencias y fuentes{% else %}Graphics credits, references and sources{% endif %}</h4>
       <ul>
         {% for link_hash in page.referencias %}
-        {% for link in link_hash %}
-        <li>
-          <a href="{{ link[1] }}" rel="nofollow noopener noreferrer" target="_blank" title="{{ link[0] }}">{{ link[0] }}</a>
-        </li>
-        {% endfor %}
+          {% for link in link_hash %}
+            <li>
+              <a href="{{ link[1] }}" 
+                 rel="nofollow noopener noreferrer" 
+                 target="_blank" 
+                 title="{{ link[0] }}">
+                {{ link[0] }}
+              </a>
+            </li>
+          {% endfor %}
         {% endfor %}
       </ul>
     </div>
     {% endif %}
   </article>
+
   <aside>
-    <h4>¿Tienes un página web rentable? Si no, escríbeme</h4>
-    <a href="mailto:{{site.email}}" rel="nofollow noopener" title="Solicitar una página web" class="boton" target="_blank">📧 Escribe tu consulta</a>
+    <h4>{% if page.lang == "es" %}¿Tienes un página web rentable? Si no, escríbeme{% else %}Do you have a profitable website? If not, write to me{% endif %}</h4>
+    
+    <a href="mailto:{{site.email}}" 
+       rel="nofollow noopener" 
+       title="{% if page.lang == 'es' %}Solicitar una página web{% else %}Request a website{% endif %}" 
+       class="boton" 
+       target="_blank">
+      📧 {% if page.lang == "es" %}Escribe tu consulta{% else %}Write your inquiry{% endif %}
+    </a>
+    
     <hr>
-    <h4>Aprende más aquí</h4>
+    
+    <h4>{% if page.lang == "es" %}Aprende más aquí{% else %}Learn more here{% endif %}</h4>
+    
     {% assign maxRelated = 3 %}
-    {% assign minCommonTags =  1 %}
+    {% assign minCommonTags = 1 %}
     {% assign maxRelatedCounter = 0 %}
-
+    
     {% assign posts_in_lang = site.posts | where: "lang", page.lang %}
+    
     {% for post in posts_in_lang %}
-
-
-    {% assign sameTagCount = 0 %}
-    {% assign commonTags = '' %}
-
-    {% for tag in post.tags %}
-    {% if post.url != page.url %}
-    {% if page.tags contains tag %}
-    {% assign sameTagCount = sameTagCount | plus: 1 %}
-    {% capture tagmarkup %} <span class="label label-default">{{ tag }}</span> {% endcapture %}
-    {% assign commonTags = commonTags | append: tagmarkup %}
-    {% endif %}
-    {% endif %}
-    {% endfor %}
-
-    {% if sameTagCount >= minCommonTags %}
-
-    <div class="relacionados">
-      <a href="{{ post.url | relative_url }}" title="{{post.title}}">
-        {% if post.hero %}
-        <img src="{{ post.hero | relative_url }}" alt="{{post.altheader}}" title="{{post.imgtitle-header}}" loading="lazy" width="40" height="40">
+      {% if post.url != page.url %}
+        {% assign sameTagCount = 0 %}
+        
+        {% for tag in post.tags %}
+          {% if page.tags contains tag %}
+            {% assign sameTagCount = sameTagCount | plus: 1 %}
+          {% endif %}
+        {% endfor %}
+        
+        {% if sameTagCount >= minCommonTags %}
+          <div class="relacionados">
+            <a href="{{ post.url | relative_url }}" title="{{ post.title }}">
+              {% if post.hero %}
+                <img src="{{ post.hero | relative_url }}" 
+                     alt="{{ post.altheader | default: post.title }}" 
+                     title="{{ post.imgtitle-header | default: post.title }}" 
+                     loading="lazy" 
+                     width="40" 
+                     height="40">
+              {% endif %}
+              <h5>{{ post.title }}</h5>
+            </a>
+          </div>
+          
+          {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+          {% if maxRelatedCounter >= maxRelated %}
+            {% break %}
+          {% endif %}
         {% endif %}
-        <h5>{{ post.title }}</h5>
-      </a>
-    </div>
-
-    {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
-    {% if maxRelatedCounter >= maxRelated %}
-    {% break %}
-    {% endif %}
-    {% endif %}
+      {% endif %}
     {% endfor %}
   </aside>
-  
 </main>
+
 {% include cta.html %}
-<a href="#">{% include up.html %}</a>
+<a href="#" class="scroll-top">{% include up.html %}</a>
