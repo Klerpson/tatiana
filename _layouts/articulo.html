@@ -59,7 +59,7 @@ layout: default
     
     {% for post in related_posts limit:3 %}
       <div class="relacionados">
-        <a href="{{ post.url | relative_url }}" title="{{ post.title }}">
+        <a href="/{{ post.lang }}/blog/{{ post.slug }}" title="{{ post.title }}">
           {% if post.hero %}
             <img src="{{ post.hero | relative_url }}" 
                  alt="{{ post.altheader | default: post.title }}" 

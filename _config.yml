@@ -33,6 +33,20 @@ exclude_from_localization: ["css", "img", "js"]
 permalink: /:lang/:slug/
 
 collections:
+  posts:
+    output: true
+    permalink: /es/blog/:title/ # Cambia esto
+    defaults:
+      - scope:
+          path: "_posts/es"
+          type: "posts"
+        values:
+          permalink: /es/blog/:title/
+      - scope:
+          path: "_posts/en"
+          type: "posts"
+        values:
+          permalink: /en/blog/:title/
   tratamientos-faciales_es:
     output: true
     permalink: /es/tratamientos-faciales/:slug/
@@ -51,9 +65,6 @@ collections:
   ginecologia-estetica_en:
     output: true
     permalink: /en/aesthetic-gynecology/:slug/
-  posts:
-    output: true
-    permalink: /:lang/blog/:slug/
 
 # Valores por defecto
 defaults:
