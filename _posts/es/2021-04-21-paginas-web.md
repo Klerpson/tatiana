@@ -7,8 +7,8 @@ description: Quieres una página web. Te dijeron que era buena idea para tu nego
 category: Páginas
 tags: [Páginas, Emprendimiento]
 h1: No hagas páginas web para tu negocio... hasta que este lo necesita
-hero: img/paginas-web-para-negocios.svg
-jpg: img/paginas-web-para-negocios.jpg
+hero: img/tatiana-leal-medicina-laser-2024.avif
+jpg: img/tatiana-leal-medicina-laser-2024.avif
 alt: Sitio web para un emprendedor
 excerpt: Te doy algunas claves para que decidas cuándo mandar a hacer tu página web
 date: 2021-04-21 10:00:00 -0500

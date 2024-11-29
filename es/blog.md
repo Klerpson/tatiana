@@ -12,9 +12,9 @@ alt: "Logo de Juli, desarrollador de páginas web y SEO"
 
 Aquí te comparto investigaciones, experiencias, consejos, y más cositas que me encuentro en el camino de mi profesión como consultor SEO y desarrollador web:
 
-
 <main>
   <div class="home_gallery">
+    {% assign current_lang = page.lang | default: site.default_lang %}
     {% assign posts = site.posts | where: "lang", current_lang %}
     {% for post in posts limit:6 %}
     <article class="flow">
