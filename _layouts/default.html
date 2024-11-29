@@ -1,44 +1,41 @@
 ---
 layout: compress
 ---
-{% assign current_lang = page.lang | default: site.default_lang %}
-<!DOCTYPE html>
-<html lang="{{ current_lang }}">
-  {% include head.html %}
-  <body class="lang-{{ current_lang }}">
-    {% include nav.html %}
-    {% include header.html %}
-    {{ content }}
-    {% include footer.html %}
+{% assign current_lang = page.lang | default: site.default_lang | default: "es" %}
+{% capture home_url %}/{{ current_lang }}/{% endcapture %}
 
-  <script defer src="/js/whatsapp.js"></script>
+{% include head.html %}
+<body class="lang-{{ current_lang }}">
+  {% include nav.html %}
+  {% include header.html %}
+      {{ content }}
+  {% include footer.html %}
   
+ 
+  <script defer src="/js/whatsapp.js"></script>
+
   {% if current_lang == "es" %}
   <!-- Agrega contenido en español de scripts aquí -->
-  {% endif %}
-  {% if current_lang == "en" %}
-    <!-- Add any English-specific scripts here -->
+  {% endif %} {% if current_lang == "en" %}
+  <!-- Add any English-specific scripts here -->
   {% endif %}
   <!-- JavaScript para la rotación de imágenes -->
-<script>
-  let isBg1Visible = true;
-setInterval(() => {
-  const bg1 = document.querySelector('.bg1');
-  const bg2 = document.querySelector('.bg2');
+  <script>
+    let isBg1Visible = true;
+    setInterval(() => {
+      const bg1 = document.querySelector(".bg1");
+      const bg2 = document.querySelector(".bg2");
 
-  if (isBg1Visible) {
-    bg1.style.opacity = '0';
-    bg2.style.opacity = '1';
-  } else {
-    bg1.style.opacity = '1';
-    bg2.style.opacity = '0';
-  }
+      if (isBg1Visible) {
+        bg1.style.opacity = "0";
+        bg2.style.opacity = "1";
+      } else {
+        bg1.style.opacity = "1";
+        bg2.style.opacity = "0";
+      }
 
-  isBg1Visible = !isBg1Visible;
-}, 8000); // Cambia cada 8 segundos
-
-
-
-</script>
+      isBg1Visible = !isBg1Visible;
+    }, 8000);
+  </script>
 </body>
 </html>
