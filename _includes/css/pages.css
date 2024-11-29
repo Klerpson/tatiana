@@ -145,3 +145,11 @@
   max-height: 550px; /* Ajusta según el contenido */
   padding: 1.2rem;
 }
+
+.img_seccion {
+  min-height: 0 !important;
+  display: grid;
+  place-content: center;
+  place-items: center;
+  gap: 2rem;
+}
