@@ -1,16 +1,16 @@
 ---
 layout: compress
 ---
-{% assign current_lang = page.lang | default: site.default_lang | default: "es" %}
-{% capture home_url %}/{{ current_lang }}/{% endcapture %}
+{% assign current_lang = page.lang | default: site.default_lang %}
+<!DOCTYPE html>
+<html lang="{{ current_lang }}">
+  {% include head.html %}
+  <body class="lang-{{ current_lang }}">
+    {% include nav.html %}
+    {% include header.html %}
+    {{ content }}
+    {% include footer.html %}
 
-{% include head.html %}
-<body class="lang-{{ current_lang }}">
-  {% include nav.html %}
-  {% include header.html %}
-      {{ content }}
-  {% include footer.html %}
-  
   <script defer src="/js/whatsapp.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', function() {

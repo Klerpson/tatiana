@@ -12,7 +12,8 @@ author:
   facebook: https://www.facebook.com/Dra.TatianaLealSandoval
   youtube: https://www.youtube.com/channel/UCxF-X7in4xUFxYYwCMyC5OQ
   job_title: "Especialista en medicina estética y láser"
-  bio: "La Dra. Tatiana Leal es una destacada especialista en Medicina Estética, graduada de la Universidad del Rosario y con una Maestría del Centro de Formación en Medicina Estética (CEFIME). Su experiencia incluye cursos especializados en Buenos Aires, Argentina, donde se capacitó en Face-Up Filament (Lifting Facial) y Bioplastia Facial con el reconocido Cirujano Plástico Dr. Saul Luna. Adicionalmente, obtuvo un Diplomado en Estética Facial y Corporal en Megaesthetic, Bogotá, y perfeccionó sus técnicas en patología venosa con la Fundación Vascular."
+  bio: "La Dra. Tatiana Leal es una destacada especialista en Medicina Estética..."
+
 title: Doctora Tatiana Leal
 logo: /img/logo-tatiana-leal.webp
 
@@ -22,29 +23,14 @@ publisher:
   name: Tatiana Leal
   logo: /img/logo-tatiana-leal.webp
 
+# Configuración de idiomas
 language: "es"
-default_image: "/img/Doctora-Tatiana-Leal.webp"  # Imagen por defecto para posts sin imagen específica
-languages: ["es", "en"]
 default_lang: "es"
+languages: ["es", "en"]
 exclude_from_localization: ["css", "img", "js"]
-defaults:
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      lang: "es"
-  - scope:
-      path: ""
-      type: "tratamientos-faciales_es"
-    values:
-      lang: "es"
-  - scope:
-      path: ""
-      type: "tratamientos-faciales_en"
-    values:
-      lang: "en"
 
-permalink: /:slug
+# Configuración de URLs y colecciones
+permalink: /:lang/:slug/
 
 collections:
   tratamientos-faciales_es:
@@ -58,17 +44,74 @@ collections:
     permalink: /es/tratamientos-corporales/:slug/
   tratamientos-corporales_en:
     output: true
-    permalink: /en/corporals-treatments/:slug/
+    permalink: /en/body-treatments/:slug/
   ginecologia-estetica_es:
     output: true
-    permalink: /es/tratamientos-corporales/:slug/
+    permalink: /es/ginecologia-estetica/:slug/
   ginecologia-estetica_en:
     output: true
-    permalink: /en/corporals-treatments/:slug/
+    permalink: /en/aesthetic-gynecology/:slug/
   posts:
     output: true
-    permalink: /:lang/blog/:slug/ 
+    permalink: /:lang/blog/:slug/
 
+# Valores por defecto
+defaults:
+  - scope:
+      path: ""
+    values:
+      lang: "es"
+      layout: "default"
+  - scope:
+      path: "en"
+    values:
+      lang: "en"
+  - scope:
+      path: "_posts/es"
+    values:
+      lang: "es"
+      layout: "articulo"
+  - scope:
+      path: "_posts/en"
+    values:
+      lang: "en"
+      layout: "articulo"
+  - scope:
+      path: ""
+      type: "tratamientos-faciales_es"
+    values:
+      lang: "es"
+      layout: "servicios"
+  - scope:
+      path: ""
+      type: "tratamientos-faciales_en"
+    values:
+      lang: "en"
+      layout: "servicios"
+  - scope:
+      path: ""
+      type: "tratamientos-corporales_es"
+    values:
+      lang: "es"
+      layout: "servicios"
+  - scope:
+      path: ""
+      type: "tratamientos-corporales_en"
+    values:
+      lang: "en"
+      layout: "servicios"
+  - scope:
+      path: ""
+      type: "ginecologia-estetica_es"
+    values:
+      lang: "es"
+      layout: "servicios"
+  - scope:
+      path: ""
+      type: "ginecologia-estetica_en"
+    values:
+      lang: "en"
+      layout: "servicios"
 
 keep_files: [/img]
 
