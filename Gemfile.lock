@@ -309,7 +309,6 @@ PLATFORMS
 DEPENDENCIES
   faraday-retry
   github-pages
-  jekyll
   jekyll-redirect-from
   wdm (>= 0.1.0)
   webrick (~> 1.8)
