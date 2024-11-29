@@ -67,7 +67,7 @@ collections:
     permalink: /en/corporals-treatments/:slug/
   posts:
     output: true
-    permalink: /:lang/blog/slug/ 
+    permalink: /:lang/blog/:slug/ 
 
 
 keep_files: [/img]
