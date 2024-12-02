@@ -32,6 +32,7 @@
   justify-items: stretch;
   place-content: center;
   place-items: center;
+  gap: 6em;
 }
 
 
@@ -46,10 +47,14 @@
   transition: transform 0.3s ease-in-out;
   position: relative;
   width: 100%;
-  max-width: 350px;
+  max-width: 550px;
   
 }
-
+.service-cards .card-image img {
+  width: 100%; /* La imagen ocupa todo el ancho */
+  height: auto; /* Mantiene las proporciones */
+  object-fit: cover; /* Ajusta la imagen para que cubra el área sin distorsión */
+}
 .card:hover {
   transform: translateY(-5px);
   box-shadow: rgba(184, 150, 99, 0.4) 0px 10px 20px;

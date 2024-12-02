@@ -1,0 +1,60 @@
+---
+layout: default
+lang: es
+ref: blog
+title: "Blog de Medicina Estética en Bogotá - Dra. Tatiana Leal"
+hero: "img/hilos-tensores-bogota-colombia.avif"
+hero1: "img/limpieza-facial-profunda-en-bogota.avif"
+description: "Conoce los secretos de la medicina estética en Bogotá. Descubre consejos de belleza, salud y bienestar de la Dra. Tatiana Leal."
+h1: "Bienvenido al Blog de la Dra. Tatiana Leal: Salud, Belleza y Bienestar"
+hero: "img/blog-medicina-estetica.webp"
+alt: "Clínica de medicina estética en Bogotá, Dra. Tatiana Leal"
+---
+
+<section class="center flow padding seccion">
+  <small class="center">Blog</small>
+  <h2 class="center">Secretos de la Belleza y el Bienestar</h2>
+  <p class="center">
+    En este blog, la Dra. Tatiana Leal comparte sus conocimientos sobre medicina estética, tratamientos avanzados, 
+    y consejos para lucir y sentirte mejor. Descubre cómo mejorar tu calidad de vida y potenciar tu belleza natural.
+  </p>
+  <a href="#posts" class="boton boton_principal">Explorar artículos</a>
+</section>
+
+<section id="posts" class="padding">
+  <h2 class="center">Artículos Recomendados</h2>
+  <div class="service-cards">
+    {% assign current_lang = page.lang | default: site.default_lang %}
+    {% assign posts = site.posts | where: "lang", current_lang %}
+    {% for post in posts limit:6 %}
+    <div class="card flow">
+      <div class="card-image">
+        <img src="{{ post.hero | relative_url }}" alt="{{ post.alt }}">
+      </div>
+      <div class="card-content">
+        <h3>{{ post.title }}</h3>
+        <p>{{ post.excerpt | truncate: 144 }}</p>
+        <a href="{{ post.url | relative_url }}" class="boton">
+          {% if current_lang == "en" %}Read more{% else %}Leer más{% endif %}
+        </a>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="padding wrapper flow">
+  <h2 class="center">¿Por qué leer nuestro blog?</h2>
+  <p>
+    Este blog está pensado para quienes buscan sentirse y lucir mejor. Con artículos basados en ciencia, tecnología y experiencias reales, 
+    encontrarás contenido valioso para:
+  </p>
+  <ul>
+    <li>Aprender sobre tratamientos estéticos como rejuvenecimiento facial, limpieza profunda y más.</li>
+    <li>Descubrir cuidados esenciales para mantener tu piel saludable.</li>
+    <li>Entender cómo nuestros procedimientos pueden mejorar tu confianza y bienestar.</li>
+  </ul>
+  <p>
+    ¿Listo para descubrir cómo potenciar tu belleza? Explora nuestros artículos y da el primer paso hacia el bienestar.
+  </p>
+</section>
