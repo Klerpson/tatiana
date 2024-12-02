@@ -1,14 +1,82 @@
 ---
-layout: corporativas
+layout: categoria
 lang: es
+categoria: centro-estetico_es
 ref: centro-estetico
-title: Centro de Medicina Estética de la Dra. Tatiana Leal
-description: Conoce el centro de medicina estética de la Doctora Tatiana Leal. Te contamos nuestra experiencia y las razones para hacer tu procedimiento hoy mismo.
-h1: Centro de medicina estética de la doctora Tatiana Leal
-hero: img/banner-juli.webp
-alt: Imagen del servicio de diseño y desarrollo de páginas web desde Colombia
-servicio: Desarrollo de páginas web
+hero: "img/centro-estetico-doctora-tatiana-leal.avif"
+title: "Centro Estético de la Doctora Tatiana Leal | Tratamientos No Invasivos en Bogotá"
+h1: "Centro Estético en Bogotá: Rejuvenece Tu Belleza Natural"
+description: "Centro Estético de la Dra. Tatiana Leal, especialistas en tratamientos faciales y corporales no invasivos
+en Bogotá, Colombia. Resultados naturales, seguros y personalizados."
+canonical: "https://www.tatileal.com/centro-estetico/"
 ---
-<section class="padding">
-<h1>Página en desarrollo 😎☕</h1>
+
+<main class="block_section padding">
+  <div class="block_section_image_left padding img_seccion"
+    style="background-color: var(--gris1); background-image: url('/img/rejuvenecimiento-intimo.avif');">
+    <h2 class="center">¿Por qué elegir nuestro centro estético?</h2>
+    <p class="center">En el Centro Estético de la Dra. Tatiana Leal, entendemos tus deseos de lucir y sentirte mejor.
+      Ofrecemos tratamientos personalizados que cumplen con los más altos estándares de calidad.</p>
+    <ul class="intro">
+      <li>Especialistas certificados con más de 15 años de experiencia.</li>
+      <li>Resultados naturales y progresivos, aprobados por la FDA e INVIMA.</li>
+      <li>Sin tiempo de recuperación, retoma tu rutina al instante.</li>
+    </ul>
+  </div>
+  <div class="block_section_knowledge img_seccion">
+    <h2 class="center">Historias Reales, Resultados Increíbles</h2>
+    <p class="center">“Antes de venir aquí, tenía dudas sobre los tratamientos estéticos. Hoy, mi piel luce más joven y
+      natural, y lo mejor, sin cirugía.” — Laura, 42 años</p>
+    <a href="#" class="boton boton_principal">Reserva tu cita</a>
+  </div>
+  <div class="block_section_image_right img_seccion"
+    style="background-color: var(--gris1); background-image: url('/img/rejuvenecimiento-intimo.avif');">
+    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" width="200" height="200" class="intro">
+      <path d="M14.33 15.94L15.66 14.61C15.87 14.4 16.11 14.24 16.38 14.13C16.65 14.01 16.93 13.96 17.23 13.96C17.52 13.96 17.81 14.01 18.07 14.13C18.34 14.24 18.59 14.4 18.79 14.61L20.35 16.17C20.56 16.37 20.72 16.62 20.83 16.89C20.95 17.16 21 17.44 21 17.74C21 18.03 20.95 18.31 20.83 18.58C20.72 18.85 20.56 19.1 20.35 19.3L19.64 20.02C19.15 20.51 18.52 20.84 17.83 20.95C17.15 21.07 16.44 20.96 15.82 20.65C10.47 17.9 6.11 13.54 3.35 8.19C3.04 7.57 2.93 6.86 3.05 6.18C3.16 5.49 3.49 4.86 3.99 4.37L4.7 3.65C5.12 3.24 5.68 3 6.27 3C6.85 3 7.41 3.24 7.83 3.65L9.4 5.22C9.81 5.64 10.05 6.2 10.05 6.79C10.05 7.37 9.81 7.93 9.4 8.35L8.07 9.68C8.95 10.87 9.92 11.99 10.96 13.04C12 14.08 13.12 15.04 14.3 15.91L14.33 15.94Z" stroke="#cfbaa3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M15.34 8.66L21 3" stroke="#cfbaa3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M16.76 3H21V7.24" stroke="#cfbaa3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    <h2 class="center"> Telefono </h2>
+    <p class="center">(+57) 312 345 6789</p>
+  </div>
+</main>
+
+<section class="padding flow">
+  <div class="intro flow">
+    <small>Tratamientos y procedimientos estéticos</small>
+    <h2 class="center">Haz tu tratamiento profesional en el centro de medicina estética de Tatiana Leal</h2>
+    <a href="#" class="boton boton_principal" id="lead_whatsapp" title="WhatsApp de Tatiana Leal">Agenda tu cita ahora</a>
+  </div>
+  <h3>Tratamientos faciales</h3>
+  {% include gallery.html data_file="tratamientos_home" row="primera-fila" %}
+  <h3>Tratamientos faciales</h3>
+  {% include gallery.html data_file="tratamientos_home" row="segunda-fila" %}
+  <h3>Tratamientos faciales</h3>
+  {% include gallery.html data_file="tratamientos_home" row="tercera-fila" %}
+</section>
+
+<section class="faq padding">
+  <h2 class="center">Preguntas Frecuentes</h2>
+  <div class="accordion">
+    <input type="checkbox" id="faq1" class="accordion-toggle">
+    <label for="faq1" class="accordion-header">¿Los tratamientos son seguros?</label>
+    <div class="accordion-content">
+      <p>Sí, trabajamos con tecnología de última generación y seguimos protocolos médicos estrictos para garantizar tu
+        seguridad.</p>
+    </div>
+    <input type="checkbox" id="faq2" class="accordion-toggle">
+    <label for="faq2" class="accordion-header">¿Cuánto tiempo duran los resultados?</label>
+    <div class="accordion-content">
+      <p>La duración depende del tratamiento elegido, pero los resultados suelen mantenerse entre 6 y 18 meses.</p>
+    </div>
+  </div>
+</section>
+
+<section class=" padding">
+  <div class="flow center">
+    <h2 class="center">Agenda tu cita ahora y comienza tu transformación</h2>
+    <p class="center">Recibe una evaluación personalizada y comprueba cómo nuestros tratamientos pueden ayudarte a alcanzar tus
+      objetivos de belleza.</p>
+    <a href="#" class="boton boton_principal">Contáctanos</a>
+  </div>
 </section>
