@@ -1,5 +1,5 @@
 ---
-layout: corporativas
+layout: main
 lang: en
 ref: centro-estetico
 title: ¿Necesitas una página web? Hago las mejores de Colombia

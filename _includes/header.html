@@ -1,6 +1,6 @@
 {% assign layout = page.layout %}
 {% case layout %}
-{% when "home" %}
+{% when "main" %}
 <header class="home_header">
   <div class="cta-container flow_basic padding">
     <h1>{{page.h1}}</h1>
@@ -27,8 +27,19 @@
     </picture>
   </div>
 </header>
+{% when "corporate" %}
+<header class="center flow padding">
+  <h1 class="center">{{page.h1}}</h1>
+  <p class="center">{{page.description}}</p>
+</header>
+<section class="section img-bgr text-container-center" style="background-image: url('/img/limpieza-facial-profunda-en-bogota.avif'); background-attachment: fixed;">
+  <div class="hero-content flow">
+    <h2 class="center">{{page.title}}</h2>
+    {% include boton.html %}
+  </div>
+</section>
 
-  {% else %}
+{% else %}
   <header class="hero">
     <div class="bg bg1" style="background-image: url('{{ page.hero | relative_url }}');"></div>
     <div class="bg bg2" style="background-image: url('{{ page.hero1 | relative_url }}');"></div>
