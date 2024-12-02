@@ -1,6 +1,6 @@
 .img-bgr {
   background: url("{{'img/limpieza-facial-profunda-en-bogota.avif' | relative_url}}")
-    top center/cover no-repeat;
+    bottom center /cover no-repeat;
   min-height: 70vh;
 }
 .text-container-center {
@@ -157,4 +157,37 @@
   place-content: center;
   place-items: center;
   gap: 2rem;
+}
+
+/* seccion 2 fotos */
+.seccion_gallery {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+
+.gallery-item {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: opacity 1s ease-in-out;
+  opacity: 0;
+}
+
+.gallery-item:nth-child(1) {
+  animation: fade 6s infinite;
+}
+
+.gallery-item:nth-child(2) {
+  animation: fade 6s infinite 3s;
+}
+
+@keyframes fade {
+  0%, 50% {
+    opacity: 1;
+  }
+  50.01%, 100% {
+    opacity: 0;
+  }
 }
