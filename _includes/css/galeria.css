@@ -8,11 +8,12 @@
 
 .gallery-item {
   flex: 1 0 296px;
-  width: 480px;
-  max-width: 100%;
+  width: min(100%, 480px);
   position: relative;
   overflow: hidden;
   aspect-ratio: 3 / 4;
+
+  li{font-size: 16px;}
 }
 
 .gallery-item img {
