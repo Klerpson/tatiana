@@ -20,19 +20,21 @@
     font-size: clamp(2.75rem, 2.3rem + 0.7vw, 3.25rem);
   }
 }
+
 .text-container-end {
   position: relative;
   display: flex;
   align-items: flex-end;
 }
+
 /* Tarjetas */
 .service-cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(296px, 1fr));
-  justify-items: stretch;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
   place-content: center;
   place-items: center;
-  gap: 6em;
+  gap: 1em;
+  margin-top: 2rem;
 }
 
 
@@ -46,15 +48,14 @@
   box-shadow: var(--shadow);
   transition: transform 0.3s ease-in-out;
   position: relative;
-  width: 100%;
-  max-width: 550px;
-  
 }
+
 .service-cards .card-image img {
   width: 100%; /* La imagen ocupa todo el ancho */
   height: auto; /* Mantiene las proporciones */
   object-fit: cover; /* Ajusta la imagen para que cubra el área sin distorsión */
 }
+
 .card:hover {
   transform: translateY(-5px);
   box-shadow: rgba(184, 150, 99, 0.4) 0px 10px 20px;

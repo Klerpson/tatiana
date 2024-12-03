@@ -22,87 +22,132 @@
         d="m21 8-3.56 1.978c-1.986 1.103-2.979 1.655-4.03 1.87-.93.192-1.89.192-2.82 0-1.051-.215-2.044-.767-4.03-1.87L3 8m3.2 11h11.6c1.12 0 1.68 0 2.108-.218a2 2 0 0 0 .874-.874C21 17.48 21 16.92 21 15.8V8.2c0-1.12 0-1.68-.218-2.108a2 2 0 0 0-.874-.874C19.48 5 18.92 5 17.8 5H6.2c-1.12 0-1.68 0-2.108.218a2 2 0 0 0-.874.874C3 6.52 3 7.08 3 8.2v7.6c0 1.12 0 1.68.218 2.108a2 2 0 0 0 .874.874C4.52 19 5.08 19 6.2 19Z" />
     </svg> {{site.email}}</a>
 </div>
+
 <nav>
   <input id="nav-toggle" type="checkbox">
-  <a href="/{{ current_lang }}/"
+  <a href="/{{ current_lang }}/" 
     title="{% if current_lang == 'en' %}Dr. Tatiana Leal's Page{% else %}Página de doctora Tatiana Leal{% endif %}"
     class="logo-nav">
     <img src="{{ 'img/logo-tatiana-leal.webp' | relative_url }}"
       alt="{% if current_lang == 'en' %}Dr. Tatiana Leal's Logo{% else %}Logo doctora Tatiana Leal{% endif %}"
-      width="168" height="40"
-      title="{% if current_lang == 'en' %}Dr. Tatiana Leal{% else %}Doctora Tatiana Leal{% endif %}">
+      width="168" height="40">
   </a>
 
   <ul class="navegacion">
-    <li class="dropdown">
-      <span>{% if current_lang == 'en' %}Facial Treatments{% else %}Tratamientos Faciales{% endif %}</span>
-      <div class="dropdown-content">
-        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}facial-treatments/facial-rejuvenation{% else %}/tratamientos-faciales/rejuvenecimiento-facial{% endif %}" title="{% if current_lang == 'en' %}facial-rejuvenation{% else %}Rejuvenecimiento Facial{% endif %}">{% if current_lang == 'en' %}Facial rejuvenation{% else %}Rejuvenecimiento facial con laser{% endif %}</a>
-        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}facial-treatments/facial-rejuvenation{% else %}tratamientos-faciales/hilos-tensores{% endif %}" title="{% if current_lang == 'en' %}facial-rejuvenation{% else %}Rejuvenecimiento Facial{% endif %}">{% if current_lang == 'en' %}Tensor threads{% else %}Hilos  Tensores{% endif %}</a>
-        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}facial-treatments/lip-fillers{% else %}tratamientos-faciales/hilos-tensores{% endif %}" title="{% if current_lang == 'en' %}Dr. Andrea Rincón{% else %}Dra. Andrea Rincón{% endif %}">{% if current_lang == 'en' %}Lip Fillers and Enhancement{% else %}Relleno y Aumento de Labios{% endif %}</a>
-        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}dr-andrea-rincon{% else %}dra-andrea-rincon{% endif %}" title="{% if current_lang == 'en' %}Dr. Andrea Rincón{% else %}Dra. Andrea Rincón{% endif %}">{% if current_lang == 'en' %}Laser Facial Rejuvenation{% else %}Rejuvenecimiento Facial con Láser{% endif %}</a>
-        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}facial-treatments/tensor-threads{% else %}tratamientos-faciales/hilos-tensores{% endif %}" title="{% if current_lang == 'en' %}Tensor threads facial treatment{% else %}Tratamiento facila de hilos tensores{% endif %}">{% if current_lang == 'en' %}Tensor threads{% else %}Hilos tensores{% endif %}</a>
-        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}dr-andrea-rincon{% else %}dra-andrea-rincon{% endif %}" title="{% if current_lang == 'en' %}Dr. Andrea Rincón{% else %}Dra. Andrea Rincón{% endif %}">{% if current_lang == 'en' %}Lifting Facial{% else %}Facial Lifting{% endif %}</a>
-        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}dr-andrea-rincon{% else %}dra-andrea-rincon{% endif %}" title="{% if current_lang == 'en' %}Dr. Andrea Rincón{% else %}Dra. Andrea Rincón{% endif %}">{% if current_lang == 'en' %}Peeling Químico Facial{% else %}Facial Chemical Peeling{% endif %}</a>
-        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}facial-treatments{% else %}tratamientos-faciales{% endif %}" title="{% if current_lang == 'en' %}Dr. Andrea Rincón{% else %}Dra. Andrea Rincón{% endif %}">{% if current_lang == 'en' %}Ver más...{% else %}See more...{% endif %}</a>
-      </div>
-    </li>
-    <li class="dropdown">
-      <span>{% if current_lang == 'en' %}Corporals Treatments{% else %}Tratamientos Corporales{% endif %}</span>
-      <div class="dropdown-content">
-        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}/corporals-treatments/body-shaping{% else %}/tratamientos-corporales/moldeamiento-corporal{% endif %}" title="{% if current_lang == 'en' %}Body Shaping{% else %}Moldeamiento Corporal{% endif %}">{% if current_lang == 'en' %}Body Shaping{% else %}Moldeamiento Corporal{% endif %}</a>
-        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}/corporals-treatments/cellulite-treatment{% else %}/tratamientos-corporales/tratamiento-celulitis{% endif %}" title="{% if current_lang == 'en' %}Cellulite Treatment{% else %}Tratamiento para Celulitis{% endif %}">{% if current_lang == 'en' %}Cellulite Treatment{% else %}Tratamiento para Celulitis{% endif %}</a>
-        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}/corporals-treatments/laser-lipolysis{% else %}/tratamientos-corporales/lipolisis-laser{% endif %}" title="{% if current_lang == 'en' %} Laser Lipolysis {% else %} Lipolisis Láser {% endif %}">{% if current_lang == 'en' %} Laser Lipolysis{% else %} Lipolisis Láser{% endif %}</a>
-        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}/corporals-treatments/{% else %}/tratamientos-corporales/{% endif %}" title="{% if current_lang == 'en' %}Dr. Andrea Rincón{% else %}Dra. Andrea Rincón{% endif %}">{% if current_lang == 'en' %}Rejuvenecimiento Facial con Láser{% else %}Laser Facial Rejuvenation{% endif %}</a>
-        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}facial-treatments/tensor-threads{% else %}tratamientos-faciales/hilos-tensores{% endif %}" title="{% if current_lang == 'en' %}Tensor threads facial treatment{% else %}Tratamiento facila de hilos tensores{% endif %}">{% if current_lang == 'en' %}Tensor threads{% else %}Hilos tensores{% endif %}</a>
-        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}dr-andrea-rincon{% else %}dra-andrea-rincon{% endif %}" title="{% if current_lang == 'en' %}Dr. Andrea Rincón{% else %}Dra. Andrea Rincón{% endif %}">{% if current_lang == 'en' %}Lifting Facial{% else %}Facial Lifting{% endif %}</a>
-        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}dr-andrea-rincon{% else %}dra-andrea-rincon{% endif %}" title="{% if current_lang == 'en' %}Dr. Andrea Rincón{% else %}Dra. Andrea Rincón{% endif %}">{% if current_lang == 'en' %}Peeling Químico Facial{% else %}Facial Chemical Peeling{% endif %}</a>
-        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}corporals-treatments{% else %}tratamientos-corporales{% endif %}" title="{% if current_lang == 'en' %}Dr. Andrea Rincón{% else %}Dra. Andrea Rincón{% endif %}">{% if current_lang == 'en' %}Ver más...{% else %}See more...{% endif %}</a>
-      </div>
-    </li>
-    <li class="dropdown">
-      <span>{% if current_lang == 'en' %}Specialized Treatments{% else %}Tratamientos Especializados{% endif %}</span>
-      <div class="dropdown-content">
-        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}/facial-treatments/facial-rejuvenation{% else %}/tratamientos-faciales/rejuvenecimiento-facial{% endif %}" title="{% if current_lang == 'en' %}facial-rejuvenation{% else %}Rejuvenecimiento Facial{% endif %}">{% if current_lang == 'en' %}Facial Rejuvenation{% else %}Rejuvenecimiento Facial{% endif %}</a>
-        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}facial-treatments/facial-rejuvenation{% else %}tratamientos-faciales/hilos-tensores{% endif %}" title="{% if current_lang == 'en' %}facial-rejuvenation{% else %}Rejuvenecimiento Facial{% endif %}">{% if current_lang == 'en' %}Facial Rejuvenation{% else %}Hilos  Tensores{% endif %}</a>
-        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}dr-andrea-rincon{% else %}dra-andrea-rincon{% endif %}" title="{% if current_lang == 'en' %}Dr. Andrea Rincón{% else %}Dra. Andrea Rincón{% endif %}">{% if current_lang == 'en' %}Relleno y Aumento de Labios{% else %}Lip Fillers and Enhancement{% endif %}</a>
-        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}dr-andrea-rincon{% else %}dra-andrea-rincon{% endif %}" title="{% if current_lang == 'en' %}Dr. Andrea Rincón{% else %}Dra. Andrea Rincón{% endif %}">{% if current_lang == 'en' %}Rejuvenecimiento Facial con Láser{% else %}Laser Facial Rejuvenation{% endif %}</a>
-        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}facial-treatments/tensor-threads{% else %}tratamientos-faciales/hilos-tensores{% endif %}" title="{% if current_lang == 'en' %}Tensor threads facial treatment{% else %}Tratamiento facila de hilos tensores{% endif %}">{% if current_lang == 'en' %}Tensor threads{% else %}Hilos tensores{% endif %}</a>
-        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}dr-andrea-rincon{% else %}dra-andrea-rincon{% endif %}" title="{% if current_lang == 'en' %}Dr. Andrea Rincón{% else %}Dra. Andrea Rincón{% endif %}">{% if current_lang == 'en' %}Lifting Facial{% else %}Facial Lifting{% endif %}</a>
-        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}dr-andrea-rincon{% else %}dra-andrea-rincon{% endif %}" title="{% if current_lang == 'en' %}Dr. Andrea Rincón{% else %}Dra. Andrea Rincón{% endif %}">{% if current_lang == 'en' %}Peeling Químico Facial{% else %}Facial Chemical Peeling{% endif %}</a>
-        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}corporals-treatments{% else %}ginecologia-estetica{% endif %}" title="{% if current_lang == 'en' %}Dr. Andrea Rincón{% else %}Dra. Andrea Rincón{% endif %}">{% if current_lang == 'en' %}Ver más...{% else %}See more...{% endif %}</a>
-      </div>
-    </li>
-    <li class="dropdown">
-      <span>{% if current_lang == 'en' %}Analysis and Diagnosis{% else %}Análisis y Diagnóstico{% endif %}</span>
-      <div class="dropdown-content">
-        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}/facial-treatments/facial-rejuvenation{% else %}/tratamientos-faciales/rejuvenecimiento-facial{% endif %}" title="{% if current_lang == 'en' %}facial-rejuvenation{% else %}Rejuvenecimiento Facial{% endif %}">{% if current_lang == 'en' %}Facial Rejuvenation{% else %}Rejuvenecimiento Facial{% endif %}</a>
-        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}facial-treatments/facial-rejuvenation{% else %}tratamientos-faciales/hilos-tensores{% endif %}" title="{% if current_lang == 'en' %}facial-rejuvenation{% else %}Rejuvenecimiento Facial{% endif %}">{% if current_lang == 'en' %}Facial Rejuvenation{% else %}Hilos  Tensores{% endif %}</a>
-        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}dr-andrea-rincon{% else %}dra-andrea-rincon{% endif %}" title="{% if current_lang == 'en' %}Dr. Andrea Rincón{% else %}Dra. Andrea Rincón{% endif %}">{% if current_lang == 'en' %}Relleno y Aumento de Labios{% else %}Lip Fillers and Enhancement{% endif %}</a>
-        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}dr-andrea-rincon{% else %}dra-andrea-rincon{% endif %}" title="{% if current_lang == 'en' %}Dr. Andrea Rincón{% else %}Dra. Andrea Rincón{% endif %}">{% if current_lang == 'en' %}Rejuvenecimiento Facial con Láser{% else %}Laser Facial Rejuvenation{% endif %}</a>
-        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}facial-treatments/tensor-threads{% else %}tratamientos-faciales/hilos-tensores{% endif %}" title="{% if current_lang == 'en' %}Tensor threads facial treatment{% else %}Tratamiento facila de hilos tensores{% endif %}">{% if current_lang == 'en' %}Tensor threads{% else %}Hilos tensores{% endif %}</a>
-        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}dr-andrea-rincon{% else %}dra-andrea-rincon{% endif %}" title="{% if current_lang == 'en' %}Dr. Andrea Rincón{% else %}Dra. Andrea Rincón{% endif %}">{% if current_lang == 'en' %}Lifting Facial{% else %}Facial Lifting{% endif %}</a>
-        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}dr-andrea-rincon{% else %}dra-andrea-rincon{% endif %}" title="{% if current_lang == 'en' %}Dr. Andrea Rincón{% else %}Dra. Andrea Rincón{% endif %}">{% if current_lang == 'en' %}Peeling Químico Facial{% else %}Facial Chemical Peeling{% endif %}</a>
-        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}corporals-treatments{% else %}ginecologia-estetica{% endif %}" title="{% if current_lang == 'en' %}Dr. Andrea Rincón{% else %}Dra. Andrea Rincón{% endif %}">{% if current_lang == 'en' %}Ver más...{% else %}See more...{% endif %}</a>
-      </div>
-    </li>
     
+    <li class="dropdown">
+      <span>{% if current_lang == 'en' %}Face & beauty{% else %}Rostro y belleza{% endif %}</span>
+      <div class="dropdown-content">
+        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}facial-treatments/laser-rejuvenation{% else %}tratamientos-faciales/rejuvenecimiento-laser{% endif %}">
+          {% if current_lang == 'en' %}Laser Facial Rejuvenation{% else %}Rejuvenecimiento Facial con Láser{% endif %}
+        </a>
+        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}facial-treatments/tensor-threads{% else %}tratamientos-faciales/hilos-tensores{% endif %}">
+          {% if current_lang == 'en' %}Tensor Threads{% else %}Hilos Tensores{% endif %}
+        </a>
+        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}facial-treatments/lip-enhancement{% else %}tratamientos-faciales/aumento-labios{% endif %}">
+          {% if current_lang == 'en' %}Lip Fillers and Enhancement{% else %}Relleno y Aumento de Labios{% endif %}
+        </a>
+        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}facial-treatments/biorevitalization{% else %}tratamientos-faciales/biorevitalizacion{% endif %}">
+          {% if current_lang == 'en' %}Facial Biorevitalization{% else %}Biorevitalización Facial{% endif %}
+        </a>
+        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}facial-treatments/lifting{% else %}tratamientos-faciales/lifting{% endif %}">
+          {% if current_lang == 'en' %}Facial Lifting{% else %}Lifting Facial{% endif %}
+        </a>
+        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}facial-treatments/chemical-peeling{% else %}tratamientos-faciales/peeling-quimico{% endif %}">
+          {% if current_lang == 'en' %}Chemical Facial Peeling{% else %}Peeling Químico Facial{% endif %}
+        </a>
+        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}facial-treatments{% else %}tratamientos-faciales{% endif %}">
+          {% if current_lang == 'en' %}See more...{% else %}Ver más...{% endif %}
+        </a>
+      </div>
+    </li>
+
+    <li class="dropdown">
+      <span>{% if current_lang == 'en' %}Body & contour{% else %}Cuerpo y contorno{% endif %}</span>
+      <div class="dropdown-content">
+        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}body-treatments/body-shaping{% else %}tratamientos-corporales/moldeamiento{% endif %}">
+          {% if current_lang == 'en' %}Body Shaping{% else %}Moldeamiento Corporal{% endif %}
+        </a>
+        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}body-treatments/cellulite{% else %}tratamientos-corporales/celulitis{% endif %}">
+          {% if current_lang == 'en' %}Cellulite Treatment{% else %}Tratamiento para Celulitis{% endif %}
+        </a>
+        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}body-treatments/lipolysis{% else %}tratamientos-corporales/lipolisis{% endif %}">
+          {% if current_lang == 'en' %}Laser Lipolysis{% else %}Lipolisis Láser{% endif %}
+        </a>
+        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}body-treatments/buttocks{% else %}tratamientos-corporales/gluteos{% endif %}">
+          {% if current_lang == 'en' %}Non-Surgical Buttock Lift{% else %}Levantamiento de Glúteos sin Cirugía{% endif %}
+        </a>
+        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}body-treatments/sculptor{% else %}tratamientos-corporales/sculptor{% endif %}">
+          {% if current_lang == 'en' %}Muscle Toning with Sculptor{% else %}Tonificación Muscular con Sculptor{% endif %}
+        </a>
+        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}body-treatments{% else %}tratamientos-corporales{% endif %}">
+          {% if current_lang == 'en' %}See more...{% else %}Ver más...{% endif %}
+        </a>
+      </div>
+    </li>
+
+    <li class="dropdown">
+      <span>{% if current_lang == 'en' %}Intimate aesthetic medicina{% else %}Medicina estética íntima{% endif %}</span>
+      <div class="dropdown-content">
+        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}intimate-treatments/vaginal-rejuvenation{% else %}tratamientos-intimos/rejuvenecimiento-vaginal{% endif %}">
+          {% if current_lang == 'en' %}Vaginal Rejuvenation{% else %}Rejuvenecimiento Vaginal{% endif %}
+        </a>
+        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}intimate-treatments/labia-enhancement{% else %}tratamientos-intimos/aumento-labios-mayores{% endif %}">
+          {% if current_lang == 'en' %}Labia Enhancement{% else %}Aumento de Labios Mayores{% endif %}
+        </a>
+        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}intimate-treatments/urinary-incontinence{% else %}tratamientos-intimos/incontinencia-urinaria{% endif %}">
+          {% if current_lang == 'en' %}Stress Urinary Incontinence Treatment{% else %}Tratamiento de Incontinencia Urinaria de Esfuerzo{% endif %}
+        </a>
+        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}intimate-treatments{% else %}tratamientos-intimos{% endif %}">
+          {% if current_lang == 'en' %}See more...{% else %}Ver más...{% endif %}
+        </a>
+      </div>
+    </li>
+
+    <li class="dropdown">
+      <span>{% if current_lang == 'en' %}Technology & diagnosis{% else %}Tecnología y diagnóstico{% endif %}</span>
+      <div class="dropdown-content">
+        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}technology/janus{% else %}tecnologia/janus{% endif %}">
+          {% if current_lang == 'en' %}Janus II for Facial Analysis{% else %}Janus II para Análisis Facial{% endif %}
+        </a>
+        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}technology/inbody{% else %}tecnologia/inbody{% endif %}">
+          {% if current_lang == 'en' %}InBody Composition Analyzer{% else %}InBody Analizador de Composición{% endif %}
+        </a>
+        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}technology/prp{% else %}tecnologia/prp{% endif %}">
+          {% if current_lang == 'en' %}Platelet Rich Plasma{% else %}Plasma Rico en Plaquetas{% endif %}
+        </a>
+        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}technology/lesions{% else %}tecnologia/lesiones{% endif %}">
+          {% if current_lang == 'en' %}Benign Lesion Removal{% else %}Remoción de Lesiones Benignas{% endif %}
+        </a>
+      </div>
+    </li>
+
     <li class="dropdown">
       <span>{% if current_lang == 'en' %}About us{% else %}Nosotros{% endif %}</span>
       <div class="dropdown-content">
-        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}beauty-center{% else %}centro-estetico{% endif %}" title="{% if current_lang == 'en' %}Beauty center Tatiana Leal{% else %}Centro Estético Tatiana Leal{% endif %}">{% if current_lang == 'en' %}Beauty center{% else %}Centro Estético{% endif %}</a>
-        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}contact{% else %}contacto{% endif %}" title="{% if current_lang == 'en' %}Contact Tatiana Leal Beauty Center{% else %}Contacto del centro estético Tatiana Leal{% endif %}">{% if current_lang == 'en' %}Contact{% else %}Contacto{% endif %}</a>
-        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}blog{% else %}blog{% endif %}" title="{% if current_lang == 'en' %}Dr. Tatiana Leal's Blog{% else %}Blog de Tatiana Leal{% endif %}">{% if current_lang == 'en' %}Blog{% else %}Blog{% endif %}</a>
-        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}faqs{% else %}preguntas-frecuentes{% endif %}" title="{% if current_lang == 'en' %}FAQs{% else %}Preguntas frecuentes{% endif %}">{% if current_lang == 'en' %}FAQs{% else %}Preguntas frecuentes{% endif %}</a>
-        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}faqs{% else %}preguntas-frecuentes{% endif %}" title="{% if current_lang == 'en' %}FAQs{% else %}Preguntas frecuentes{% endif %}">{% if current_lang == 'en' %}Profesionales{% else %}Profesionals{% endif %}</a>
-        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}patient-information{% else %}informacion-para-pacientes{% endif %}" title="{% if current_lang == 'en' %}Patient Information{% else %}Información para pacientes{% endif %}">{% if current_lang == 'en' %}Patient Information{% else %}Información{% endif %}</a>
-        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}patient-rights-and-responsibilities{% else %}deberes-y-derechos-del-paciente{% endif %}" title="{% if current_lang == 'en' %}Rights and Responsibilities{% else %}Deberes y derechos{% endif %}">{% if current_lang == 'en' %}Rights and Responsibilities{% else %}Deberes y derechos{% endif %}</a>
+        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}aesthetic-center{% else %}centro-estetico{% endif %}">
+          {% if current_lang == 'en' %}Aesthetic Center{% else %}Centro Estético{% endif %}
+        </a>
+        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}contact{% else %}contacto{% endif %}">
+          {% if current_lang == 'en' %}Contact{% else %}Contacto{% endif %}
+        </a>
+        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}blog{% else %}blog{% endif %}">
+          {% if current_lang == 'en' %}Blog{% else %}Blog{% endif %}
+        </a>
+        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}faqs{% else %}preguntas-frecuentes{% endif %}">
+          {% if current_lang == 'en' %}FAQs{% else %}Preguntas Frecuentes{% endif %}
+        </a>
+        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}patient-info{% else %}informacion-paciente{% endif %}">
+          {% if current_lang == 'en' %}Patient Information{% else %}Información al Paciente{% endif %}
+        </a>
       </div>
     </li>
+
     <li>
       {% include language-switcher.html %}
     </li>
   </ul>
+
   <label for="nav-toggle" class="icono-nav">
     <div class="line"></div>
     <div class="line"></div>
