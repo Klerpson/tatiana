@@ -59,12 +59,12 @@ collections:
   tratamientos-corporales_en:
     output: true
     permalink: /en/body-treatments/:slug/
-  ginecologia-estetica_es:
+  tratamientos-intimos_es:
     output: true
-    permalink: /es/ginecologia-estetica/:slug/
-  ginecologia-estetica_en:
+    permalink: /es/tratamientos-intimos/:slug/
+  tratamientos-intimos_en:
     output: true
-    permalink: /en/aesthetic-gynecology/:slug/
+    permalink: /en/intimate-treatments/:slug/
 
 # Valores por defecto
 defaults:
