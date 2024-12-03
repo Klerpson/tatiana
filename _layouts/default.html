@@ -37,7 +37,7 @@ layout: compress
       isBg1Visible = !isBg1Visible;
     }, 8000);
   </script>
-  
+
   {% if page.cases %}
   <script>
     document.addEventListener('DOMContentLoaded', function() {
@@ -76,17 +76,14 @@ layout: compress
           isMoving = false;
         };
         
-        // Mouse events
         container.addEventListener('mousedown', handleStart);
         window.addEventListener('mousemove', handleMove);
         window.addEventListener('mouseup', handleEnd);
         
-        // Touch events
         container.addEventListener('touchstart', handleStart);
         container.addEventListener('touchmove', handleMove);
         container.addEventListener('touchend', handleEnd);
         
-        // Prevent image dragging
         container.querySelectorAll('img').forEach(img => {
           img.addEventListener('dragstart', e => e.preventDefault());
         });
