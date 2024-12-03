@@ -2,3 +2,34 @@
 layout: default
 ---
 {{ content }}
+{% if page.cases %}
+<!-- _includes/before-after.html -->
+<div class="before-after-section padding">
+  <div class="intro flow">
+    <h2 class="center">Resultados Reales</h2>
+    <p class="center">Transforma tu piel con resultados comprobados</p>
+  </div>
+
+  {% for case in page.cases %}
+  <div class="before-after-case">
+    <h3>{{ case.title }}</h3>
+    <div class="before-after-container">
+      <div class="before-after-wrapper">
+        <img class="before-image" src="{{ case.before_image }}" alt="Antes del {{ case.title }}">
+        <img class="after-image" src="{{ case.after_image }}" alt="Después del {{ case.title }}">
+        <div class="slider-line">
+          <div class="slider-button" aria-label="Deslizar para comparar">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+            </svg>
+          </div>
+        </div>
+        <span class="compare-label before">Antes</span>
+        <span class="compare-label after">Después</span>
+      </div>
+    </div>
+    <p class="case-description">{{ case.description }}</p>
+  </div>
+  {% endfor %}
+</div>
+{% endif %}
