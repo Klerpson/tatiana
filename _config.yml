@@ -65,6 +65,12 @@ collections:
   tratamientos-intimos_en:
     output: true
     permalink: /en/intimate-treatments/:slug/
+  tecnologia_es:
+    output: true
+    permalink: /es/tecnologia/:slug/
+  tegnology_en:
+    output: true
+    permalink: /en/tegnology/:slug/
 
 # Valores por defecto
 defaults:
