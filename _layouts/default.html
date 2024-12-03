@@ -45,7 +45,7 @@ layout: compress
       
       containers.forEach(container => {
         let isMoving = false;
-        const beforeImage = container.querySelector('.before-image');
+        const beforeContainer = container.querySelector('.before-image-container');
         const sliderLine = container.querySelector('.slider-line');
         
         const updateSliderPosition = (clientX) => {
@@ -56,7 +56,7 @@ layout: compress
           const percent = ((x - rect.left) / rect.width) * 100;
           
           requestAnimationFrame(() => {
-            beforeImage.style.clipPath = `inset(0 ${100 - percent}% 0 0)`;
+            beforeContainer.style.clipPath = `inset(0 ${100 - percent}% 0 0)`;
             sliderLine.style.left = `${percent}%`;
           });
         };
@@ -83,10 +83,6 @@ layout: compress
         container.addEventListener('touchstart', handleStart);
         container.addEventListener('touchmove', handleMove);
         container.addEventListener('touchend', handleEnd);
-        
-        container.querySelectorAll('img').forEach(img => {
-          img.addEventListener('dragstart', e => e.preventDefault());
-        });
       });
     });
 
