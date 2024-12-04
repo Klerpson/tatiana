@@ -45,7 +45,6 @@
 .block_section_knowledge {
   background-color: var(--principal);
   background-image: url("https://www.transparenttextures.com/patterns/navy.png");
-  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
   color: #ffffff;
   padding: 6em 2rem 3rem;
   

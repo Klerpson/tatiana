@@ -33,6 +33,9 @@ body {
   color: var(--grisFuentes);
   font-family: var(--fuenteTexto);
   background-color: #fefefe;
+  width: min(100%, 1920px);
+  margin-inline: auto;
+  box-shadow: var(--shadow);
 }
 
 h1,
