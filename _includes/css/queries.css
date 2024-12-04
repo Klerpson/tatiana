@@ -53,6 +53,16 @@
   nav :checked ~ .icono-nav .line:nth-child(3) {
     transform: translateY(-10px) rotate(-225deg);
   }
+
+  .block_section {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:
+      "header image-right"
+      "title image-right"
+      "content image-right"
+      "image-left knowledge";
+  }
 }
 
 
@@ -61,17 +71,6 @@
     padding: 6em 20px 4em;
   }
   
-  .block_section {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto auto auto auto;
-    grid-template-areas:
-      "header image-right"
-      "title image-right"
-      "content image-right"
-      "knowledge knowledge"
-      "image-left image-left";
-  }
-
   .block_section_header {
     padding: 8em 20px 0;
   }
@@ -87,6 +86,16 @@
 }
 @media (max-width: 800px) {
   
+  .block_section {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-areas:
+      "header image-right"
+      "title image-right"
+      "content image-right"
+      "knowledge knowledge"
+      "image-left image-left";
+  }
 }
 
 @media (max-width: 768px) {
