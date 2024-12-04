@@ -41,8 +41,8 @@
 
 {% else %}
   <header class="hero">
-    <div class="bg bg1" style="background-image: url('{{ page.hero | relative_url }}');"></div>
-    <div class="bg bg2" style="background-image: url('{{ page.hero1 | relative_url }}');"></div>
+    <picture class="bg bg1" style="background-image: url('{{ page.hero | relative_url }}');"></picture>
+    <picture class="bg bg2" style="background-image: url('{{ page.hero1 | relative_url }}');"></picture>
     <div class="two_columns hero-content flow">
       <div class=" flow">
         <h1>{{ page.h1 }}</h1>
