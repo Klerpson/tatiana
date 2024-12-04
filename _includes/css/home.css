@@ -36,21 +36,10 @@
 .block_section_knowledge { grid-area: knowledge; }
 .block_section_image_right { grid-area: image-right; }
 
-.block_section_image_left, .block_section_image_right {
-  background-size: cover;
-  background-position: center;
-  min-height: 360px;
-}
-
-.block_section_image_left{
-  background-image: url('{{"img/tatiana-leal-medicina-laser-1024.avif" | relative_url}}');
-  background-repeat: no-repeat;
-}
-
+.block_section_image_left,
 .block_section_image_right{
-  background-image: url('{{"img/tatiana-leal-doctora-708.avif" | relative_url}}');
-  min-height: 70dvh;
-  background-repeat: no-repeat;
+  object-fit: cover;
+  min-height: 100%;
 }
 
 .block_section_knowledge {
