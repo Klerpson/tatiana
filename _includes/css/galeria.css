@@ -11,8 +11,13 @@
   position: relative;
   overflow: hidden;
   aspect-ratio: 3 / 4;
-
+  
   li{font-size: 16px;}
+}
+
+.gallery-item-home {
+  flex: 1 0 296px;
+  max-width: 440px;
 }
 
 .gallery-item img {
@@ -35,6 +40,7 @@
   background: #002e5194;
   color: white;
   text-align: center;
+  font-size: 18px;
 }
 
 @supports not (aspect-ratio: 1 / 1) {
