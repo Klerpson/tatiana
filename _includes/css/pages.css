@@ -167,4 +167,8 @@
 
 .parallax_rejuvenecimiento-facial{
   background-image: linear-gradient(rgba(0, 46, 81, 0.6), rgba(0, 46, 81, 0.6)), url('{{"img/rejuvenecimiento-facial-bogota.avif" | relative_url}}');
-}
+} 
+
+.parallax_centro-estetico{
+  background-image: linear-gradient(rgba(0, 46, 81, 0.6), rgba(0, 46, 81, 0.6)), url('{{"img/centro-estetico-bogota-colombia.avif" | relative_url}}');
+} 
