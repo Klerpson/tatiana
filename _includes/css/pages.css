@@ -46,9 +46,9 @@
 }
 
 .service-cards .card-image img {
-  width: 100%; /* La imagen ocupa todo el ancho */
-  height: auto; /* Mantiene las proporciones */
-  object-fit: cover; /* Ajusta la imagen para que cubra el área sin distorsión */
+  width: 100%; 
+  height: auto; 
+  object-fit: cover; 
 }
 
 .card:hover {
@@ -124,8 +124,6 @@
   content: "-";
   transform: rotate(180deg);
 }
-
-/* Estilo del contenido */
 .accordion-content {
   max-height: 0;
   overflow: hidden;
@@ -147,13 +145,7 @@
   padding: 1.2rem;
 }
 
-.img_seccion {
-  min-height: 0 !important;
-  display: grid;
-  place-content: center;
-  place-items: center;
-  gap: 2rem;
-}
+
 
 /* SECCIONES PARALLAX */
 .parallax {
