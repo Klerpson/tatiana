@@ -226,12 +226,9 @@ hr {
   width: 100%;
   display: grid;
   place-items: center;
+  text-align: center;
 }
 
-.center {
-  text-align: center;
-  margin-inline: auto;
-}
 .two_columns {
   display: flex;
   flex-wrap: wrap;
@@ -248,6 +245,9 @@ hr {
     width: 100%;
     height: 100%;
     object-fit: cover;
+  }
+  .two_columns-image{
+    line-height: 0;
   }
 }
 .two_columns_left {
@@ -289,4 +289,17 @@ hr {
 
 .icons {
   max-width: 180px;
+}
+
+.parallax{
+  position: relative;
+
+  img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
 }

@@ -1,8 +1,8 @@
 .img-bgr {
-  background: url("{{'img/limpieza-facial-profunda-en-bogota.avif' | relative_url}}")
-    bottom center /cover no-repeat;
+  background: url("{{'img/limpieza-facial-profunda-en-bogota.avif' | relative_url}}") bottom center /cover no-repeat;
   min-height: 70vh;
 }
+
 .text-container-center {
   display: flex;
   justify-content: center;
