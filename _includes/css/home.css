@@ -40,6 +40,7 @@
 .block_section_image_right{
   object-fit: cover;
   min-height: 100%;
+  width: 100%;
 }
 
 .block_section_knowledge {

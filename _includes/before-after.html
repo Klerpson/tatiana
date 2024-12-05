@@ -24,8 +24,8 @@
             </svg>
           </div>
         </div>
-        <span class="compare-label before">Antes</span>
-        <span class="compare-label after">Después</span>
+        <span class="compare-label before">{% if current_lang == "es" %}Antes{% else %}Before{% endif %}</span>
+        <span class="compare-label after">{% if current_lang == "es" %}Después{% else %}After{% endif %}</span>
       </div>
     </div>
     <p class="case-description">{{ case.description }}</p>
