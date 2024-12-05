@@ -17,7 +17,7 @@
 
 .gallery-item-home {
   flex: 1 0 296px;
-  width: min(100%, 296px);
+  max-width: 440px;
 }
 
 .gallery-item img {
