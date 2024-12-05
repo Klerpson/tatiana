@@ -10,18 +10,19 @@ h1: "Tratamientos Corporales: Transforma tu Cuerpo sin Cirugía"
 description: "Comienza hoy tus tratamientos corporales no invasivos en Bogotá. Reducción, reafirmación y modelado corporal con tecnología avanzada. Resultados visibles"
 ---
 
-{% assign treatments = site.tratamientos-corporales_es %}
-<main class="gallery-container padding seccion">
-  <div class="intro flow center">
+<main>
+  <div class="intro flow padding">
     <h2>Tratamientos Corporales Personalizados para Cada Necesidad</h2>
     <p>Utilizamos tecnología de última generación y protocolos personalizados para ayudarte a alcanzar tus objetivos, sin cirugía y sin tiempo de recuperación.</p>
   </div>
-  {% for item in treatments %}
-  <a href="{{item.url | relative_url}}" class="gallery-item" title="{{item.title}}">
-    <img src="{{ item.hero | relative_url }}" alt="{{ item.alt }}" loading="lazy" width="520" height="780" decoding="async">
-    <h4 class="gallery-item-text">{{ item.h1 }}</h4>
-  </a>
-  {% endfor %}
+  <div class="gallery-container seccion">
+    {% for item in site.tratamientos-corporales_es %}
+    <a href="{{item.url | relative_url}}" class="gallery-item" title="{{item.title}}">
+      <img src="{{ item.hero | relative_url }}" alt="{{ item.alt }}" loading="lazy" width="452" height="604" decoding="async">
+      <h3 class="gallery-item-text">{{ item.h1 }}</h3>
+    </a>
+    {% endfor %}
+  </div>
 </main>
 
 <section class="block_section">
@@ -35,8 +36,8 @@ description: "Comienza hoy tus tratamientos corporales no invasivos en Bogotá. 
     <p>Esta historia puede resonarte. Como Ana, muchas personas luchan diariamente con cambios corporales que afectan su autoestima y calidad de vida. La buena noticia es que hoy existen soluciones efectivas y no invasivas que pueden ayudarte a recuperar la confianza en tu cuerpo.</p>
   </div>
   
-  <div class="block_section_image_left padding flow" style="background-color: var(--gris1); background-image: url('/img/bg.png');">
-    <h3>Tecnología de Última Generación para Resultados Reales</h3>
+  <div class="block_section_image_left padding flow">
+    <h3>Tecnología de última generación para resultados reales</h3>
     <p>Nuestros tratamientos combinan las técnicas más avanzadas en medicina estética con un enfoque personalizado para cada paciente. Utilizamos equipos certificados por la FDA y el INVIMA, garantizando resultados seguros y efectivos.</p>
     <p>Entendemos que cada cuerpo es único, por eso diseñamos protocolos específicos que se adaptan a tus necesidades y objetivos particulares.</p>
   </div>
