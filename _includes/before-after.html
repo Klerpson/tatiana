@@ -1,7 +1,7 @@
 <section class="before-after-section padding">
   <div class="intro flow">
-    <h2 class="center">Resultados Reales</h2>
-    <p class="center">Transforma tu piel con resultados comprobados</p>
+    <h2 class="center">Resultados reales: {{page.h1}}</h2>
+    <p class="center">Transforma tu apariencia con resultados naturales comprobados</p>
   </div>
 
   {% for case in page.cases %}
@@ -11,11 +11,11 @@
       <div class="before-after-wrapper">
         <!-- Cambiamos el orden: después va primero como base -->
         <div class="after-image-container">
-          <img class="after-image" src="{{ case.after_image }}" alt="Después del {{ case.title }}">
+          <img class="after-image" src="{{ case.after_image | relative_url }}" alt="Después del {{ case.title }}" loading="lazy" decoding="async" width="800" height="600">
         </div>
         <!-- El contenedor before se ajustará con clip-path -->
         <div class="before-image-container">
-          <img class="before-image" src="{{ case.before_image }}" alt="Antes del {{ case.title }}">
+          <img class="before-image" src="{{ case.before_image | relative_url }}" alt="Antes del {{ case.title }}" loading="lazy" decoding="async" width="800" height="600">
         </div>
         <div class="slider-line">
           <div class="slider-button" aria-label="Deslizar para comparar">
