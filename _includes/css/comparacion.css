@@ -20,8 +20,6 @@
   & h3 {
     text-align: center;
     margin-block-end: 1rem;
-    color: var(--principal);
-    font-family: var(--fuenteTitulos);
   }
 }
 
@@ -146,7 +144,6 @@
 .case-description {
   text-align: center;
   margin-block-start: 1rem;
-  color: var(--grisTexto);
   font-size: 0.9375rem;
   max-width: min(100%, 600px);
   margin-inline: auto;
