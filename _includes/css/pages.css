@@ -157,10 +157,10 @@
   background-size: cover;
 }
 
-.parallax_copy {
+.parallax_copy, .parallax_copy h2 {
   color: #ffffff;
 }
 
 .parallax_hilos-tensores{
-  background-image: url('{{"img/tratamiento-hilos-tensores.avif" | relative_url}}');
+  background-image: linear-gradient(rgba(0, 46, 81, 0.6), rgba(0, 46, 81, 0.6)), url('{{"img/tratamiento-hilos-tensores.avif" | relative_url}}');
 }
