@@ -19,7 +19,7 @@ description: "Descubre tratamientos faciales personalizados en Bogotá. Rejuvene
   <div class="gallery-container seccion">
     {% for item in site.tratamientos-faciales_es %}
     <a href="{{item.url | relative_url}}" class="gallery-item" title="{{item.title}}">
-      <img src="{{ item.hero | relative_url }}" alt="{{ item.alt }}" loading="lazy" width="520" height="780">
+      <img src="{{ item.hero | relative_url }}" alt="{{ item.alt }}" loading="lazy" width="520" height="780" decoding="async">
       <h4 class="gallery-item-text">{{ item.h1 }}</h4>
     </a>
     {% endfor %}
@@ -55,29 +55,31 @@ description: "Descubre tratamientos faciales personalizados en Bogotá. Rejuvene
   </div>
 </section>
 
-<section class="padding flow intro">
-  <h2>Mejora tu rostro con nuestros tratamientos faciales</h2>
-  <p>Nuestros tratamientos están diseñados para adaptarse a tu estilo de vida ocupado. Sin tiempos de recuperación, sin interrupciones en tu rutina diaria.</p>
+<section>
+  <div class="padding flow intro">
+    <h2>Mejora tu rostro con nuestros tratamientos faciales</h2>
+    <p>Nuestros tratamientos están diseñados para adaptarse a tu estilo de vida ocupado. Sin tiempos de recuperación, sin interrupciones en tu rutina diaria.</p>
+  </div>
 
   <div class="two_columns seccion">
-    <div class="flow">
+    <div class="flow padding">
       <h3>Tratamientos faciales para una piel más saludable</h3>
       <p>Comenzamos con una evaluación detallada de tu piel utilizando tecnología de diagnóstico avanzada. Esto nos permite identificar preocupaciones específicas y diseñar un plan de tratamiento personalizado que aborde tus necesidades únicas. Nuestro enfoque se centra en estimular los procesos naturales de regeneración de tu piel para resultados duraderos.</p>
       <a href="#" class="boton boton_principal">Descubre Tu Plan Personalizado</a>
     </div>
-    <div>
-      <img src="{{ 'img/limpieza-facial-profunda-en-bogota.avif' | relative_url }}" width="520" height="520" alt="Tratamiento facial personalizado en Bogotá">
+    <div class="two_columns-image ">
+      <img src="{{ 'img/limpieza-facial-profunda-en-bogota.avif' | relative_url }}" width="520" height="520" alt="Tratamiento facial personalizado en Bogotá" decoding="async">
     </div>
   </div>
 
   <div class="two_columns two_columns_left">
-    <div class="flow">
+    <div class="flow padding">
       <h3>Resultados de tratamientos faciales sin comprometer tu naturalidad</h3>
       <p>Nuestro objetivo no es cambiar quién eres, sino resaltar tu belleza natural. Utilizamos técnicas avanzadas y tecnología de última generación para mejorar la calidad de tu piel, reducir signos de envejecimiento y restaurar su luminosidad natural, todo mientras mantenemos tus rasgos únicos y expresividad.</p>
       {% include boton.html %}
     </div>
-    <div>
-      <img src="{{ 'img/limpieza-facial-profunda-en-bogota.avif' | relative_url }}" width="520" height="520" alt="Resultados naturales en tratamientos faciales">
+    <div class="two_columns-image ">
+      <img src="{{ 'img/limpieza-facial-profunda-en-bogota.avif' | relative_url }}" width="520" height="520" alt="Resultados naturales en tratamientos faciales" decoding="async">
     </div>
   </div>
 </section>
