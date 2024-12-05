@@ -48,7 +48,7 @@
   color: #ffffff;
   padding: 6em 2rem 3rem;
   
-  li::marker{
+  li::marker, h2{
     color: #fefefe;
   }
 }
