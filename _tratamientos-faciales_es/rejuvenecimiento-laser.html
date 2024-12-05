@@ -33,7 +33,7 @@ cases:
     María, una profesional de 45 años, notaba cómo el tiempo había dejado su huella en su rostro. Las líneas de expresión y las manchas le preocupaban, pero buscaba una solución sin cirugía. El <strong>láser fraccionado CO2</strong> representó para ella la evolución definitiva en rejuvenecimiento facial. Esta tecnología penetra hasta la dermis creando microcanales de renovación que estimulan la producción natural de colágeno. ¡Imagina despertar cada mañana con una piel que refleje tu vitalidad interior!
   </p>
 
-  <img class="block_section_image_left" loading="lazy" decoding="async" title="Doctora Tatiana Leal realizando un rejuvenecimiento con láser" src="{{'img/rejuvenecimiento_facial_bogota.avif' | relative_url}}" alt="Doctora tatiana leal realizando limpieza facial con laser">
+  <img class="block_section_image_left" loading="lazy" decoding="async" title="Doctora Tatiana Leal realizando un rejuvenecimiento con láser" src="{{'img/rejuvenecimiento_facial_bogota.avif' | relative_url}}" alt="Doctora tatiana leal realizando limpieza facial con laser" width="656" height="656">
 
   <div class="block_section_knowledge flow padding">
     <h3>Beneficios del rejuvenecimiento con láser</h3>
@@ -48,7 +48,7 @@ cases:
     </ul>
   </div>
 
-  <img class="block_section_image_right" loading="eager" decoding="async" title="Doctora Tatiana Leal en centro estético de bogotá realizando limpieza facial " src="{{'img/rejuvenecimiento_facial_laser.avif' | relative_url}}" alt="Realizacion de rejuvenecimiento facial con laser con la doctora Tatiana Leal">
+  <img class="block_section_image_right" loading="eager" decoding="async" title="Doctora Tatiana Leal en centro estético de bogotá realizando limpieza facial " src="{{'img/rejuvenecimiento_facial_laser.avif' | relative_url}}" alt="Realizacion de rejuvenecimiento facial con laser con la doctora Tatiana Leal" width="640" height="1056">
 </section>
 
 <section class="padding">
@@ -78,8 +78,8 @@ cases:
       exposición solar moderada. La mayoría de nuestras pacientes regresan a sus actividades normales después de 3-4
       días, notando una mejoría progresiva en su piel que continúa durante los siguientes meses.</p>
   </div>
-  <div>
-    <img src="{{ 'img/rejuvenecimiento-facial.avif' | relative_url }}" title="Rejuvenecimiento facial con laser en Bogotá" alt="Limpieza facial profunda en Bogotá Colombia" loading="lazy" decoding="async" width="1024" height="720">
+  <div class="two_columns-image">
+    <img src="{{ 'img/rejuvenecimiento-facial-en-colombia.avif' | relative_url }}" title="Rejuvenecimiento facial con laser en Bogotá" alt="Limpieza facial profunda en Bogotá Colombia" loading="lazy" decoding="async" width="940" height="600">
   </div>
 </section>
 
@@ -120,6 +120,9 @@ cases:
     </div>
   </div>
 </section>
+{% if page.cases %}
+{% include before-after.html %}
+{% endif %}
 
 <section class="padding" id="consulta">
   <div class="intro flow">

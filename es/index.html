@@ -14,20 +14,20 @@ subtitle: "Dra. Tatiana Leal Sandoval"
     En Tatiana Leal Medicina Estética y Láser, somos un grupo de profesionales preparados para ofrecer altos estándares de calidad en tratamientos tanto faciales como corporales, para mejorar la apariencia física y la calidad de vida de nuestros pacientes. Nuestro objetivo principal: resaltar la belleza de nuestros pacientes, cuidando su salud.
     <a href="#" class="boton boton_auxiliar">Conoce nuestro equipo</a>
   </p>
-  <img class="block_section_image_left" loading="lazy" title="Doctora Tatiana Leal en su consultorio" src="{{'img/tatiana-leal-medicina-laser-1024.avif' | relative_url}}" alt="Consultorio de la doctora Tatiana Leal en Bogotá" decoding="async">
+  <img class="block_section_image_left" loading="lazy" title="Doctora Tatiana Leal en su consultorio" src="{{'img/tatiana-leal-medicina-laser-1024.avif' | relative_url}}" alt="Consultorio de la doctora Tatiana Leal en Bogotá" decoding="async" width="656" height="656">
   <div class="block_section_knowledge flow padding">
     <h3>Conocimientos</h3>
     <p>Nuestra directora, la Doctora Tatiana Leal, especialista en Medicina Estética y Láser de la Universidad del Rosario, cuenta con el soporte científico y practica la medicina estética desde el 2009.</p>
     <h3>A la vanguardia</h3>
     <p>Además, se encuentra en constante actualización académica, para brindar las últimas tendencias mundiales en tratamientos faciales y corporales.</p>
   </div>
-  <img class="block_section_image_right" loading="eager" title="Doctora Tatiana Leal en su consultorio" src="{{'img/tatiana-leal-doctora-708.avif' | relative_url}}" alt="Consultorio de la doctora Tatiana Leal en Bogotá" decoding="async">
+  <img class="block_section_image_right" loading="eager" title="Doctora Tatiana Leal en su consultorio" src="{{'img/tatiana-leal-doctora-708.avif' | relative_url}}" alt="Consultorio de la doctora Tatiana Leal en Bogotá" decoding="async" width="640" height="1056">
 </section>
 <main class="padding flow">
   <div class="intro flow">
     <small>Tratamientos y procedimientos estéticos</small>
     <h2>Haz tu tratamiento profesional en el centro de medicina estética de Tatiana Leal</h2>
-    <a href="#" class="boton boton_principal" id="lead_whatsapp" title="WhatsApp de Tatiana Leal">Agenda tu cita ahora</a>
+    {% include boton.html %}
   </div>
   <h3>Tratamientos faciales</h3>
   <p>Rejuvenece con nuestros tratamientos faciales no invasivos en Bogotá. Rejuvenecimiento láser, biorevitalización, rellenos y más. Resultados naturales garantizados por el equipo profesional de la Doctora Tatiana Leal.</p>
@@ -51,7 +51,7 @@ subtitle: "Dra. Tatiana Leal Sandoval"
     <small>Seguridad y tranquilidad para ti</small>
     <h2>Haz tu tratamiento en el centro estético de  la doctora Tatiana Leal</h2>
     <p>Todos los tratamientos que realizamos se encuentran bajo los estándares de la medicina estética y son realizados por profesionales especializados. La belleza y salud del paciente es nuestro principal objetivo.</p>
-    <a href="#" class="boton boton_principal" id="lead_whatsapp" title="WhatsApp de Tatiana Leal">Agenda tu cita ahora</a>
+    {% include boton.html %}
   </div>
 </section>
 <section class="bloque_doble padding">
@@ -63,7 +63,7 @@ subtitle: "Dra. Tatiana Leal Sandoval"
       <li><b>Dirección:</b> {{site.direccion}}.</li>
       <li><b>Nuestro correo:</b> {{site.email}}</li>
     </ul>
-    <a href="#" class="boton boton_principal" id="lead_whatsapp" title="WhatsApp de Tatiana Leal">Agenda tu cita ahora</a>
+    {% include boton.html %}
     <a href="tel:{{site.telefono}}" class="boton boton_auxiliar" id="lead_whatsapp" title="Teléfono Tatiana Leal">Llámanos: {{site.telefono}}</a>
   </div>
   <div>
