@@ -57,4 +57,6 @@ layout: compress
 {% include css/share.css %}
 {% include css/queries.css %}
 {% include css/pages.css %}
+{% include css/contador.css %}
+
 

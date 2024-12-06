@@ -4,6 +4,7 @@
   justify-content: space-evenly;
   gap: 1rem;
   padding: 4em 2rem;
+  align-items: center;
 }
 
 .gallery-item {
