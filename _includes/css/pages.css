@@ -190,4 +190,8 @@
 .block{
   width: min(max(300px, 80vw), 480px);
   flex: 1 1 300px;
+
+  li::marker{
+    color: #fefefe;
+  }
 }
