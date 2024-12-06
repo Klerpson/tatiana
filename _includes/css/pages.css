@@ -171,3 +171,8 @@
 .parallax_centro-estetico{
   background-image: linear-gradient(rgba(0, 46, 81, 0.6), rgba(0, 46, 81, 0.6)), url('{{"img/centro-estetico-bogota-colombia.avif" | relative_url}}');
 } 
+
+/* overlay */
+.section-overlay {
+  background: var(--gris1);
+}
