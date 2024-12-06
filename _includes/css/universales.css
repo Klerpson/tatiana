@@ -270,13 +270,16 @@ hr {
   justify-content: space-around;
   height: min-content;
 
-  & > div {
-    flex: 1 0 200px;
+  & > div,
+  figure {
+    flex: 1 0 400px;
     max-width: 100%;
   }
   img {
     width: 100%;
+    min-height: 100%;
     object-fit: cover;
+    object-position: center right;
   }
   .two_columns-image {
     line-height: 0;
