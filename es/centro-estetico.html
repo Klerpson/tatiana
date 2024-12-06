@@ -10,16 +10,14 @@ subtitle: "Contáctanos más rápido con estos datos"
 hero: "img/centro_estetico-doctora_tatiana_leal.avif"
 alt: Profesionales del centro de medicina estética en Bogotá, de la doctora Tatiana Leal
 ---
-<section class="intro flow">
+<section class="intro padding flow">
   <small>Tratamientos y procedimientos estéticos</small>
   <h2 class="center">Tu Transformación Comienza en el Centro de Medicina Estética de la Dra. Tatiana Leal</h2>
-  <p class="center">Descubre tratamientos personalizados respaldados por más de 15 años de experiencia y la más avanzada
+  <p class="center">Tratamientos personalizados respaldados por más de 15 años de experiencia y la más avanzada
     tecnología en medicina estética.</p>
-  <a href="#" class="boton boton_principal" id="lead_whatsapp" title="WhatsApp de Tatiana Leal">Agenda tu consulta
+  <a href="#" class="boton boton_auxiliar" id="lead_whatsapp" title="WhatsApp de Tatiana Leal">Agenda tu consulta
     gratuita</a>
 </section>
-
-{% include contador.html %}
 
 <article class="gallery-container">
   <div href="#" class="gallery-item gallery-item-home">
@@ -34,7 +32,7 @@ alt: Profesionales del centro de medicina estética en Bogotá, de la doctora Ta
     <strong>Dr. Especialista</strong>
     <h3>Tatiana Leal</h3>
     <p>Especialista en Medicina Estética y Láser de la Universidad del Rosario</p>
-    {% include boton.html %}
+    <a href="#" class="boton boton_principal">Conoce nuestro equipo</a>
   </div>
   <div href="#" class="gallery-item gallery-item-home">
     <img src="{{ 'img/centro-estetico-colombia.avif' | relative_url }}" alt="Tratamiento de manchas faciales"
@@ -51,7 +49,7 @@ alt: Profesionales del centro de medicina estética en Bogotá, de la doctora Ta
     <strong>Dr. Especialista</strong>
     <h3>Marco Bonilla</h3>
     <p>Especialista en Ginecologia y Obstetricia en Universidad Militar Nueva Granada</p>
-    {% include boton.html %}
+    <a href="#" class="boton boton_auxiliar">Conoce nuestro equipo</a>
   </div>
   <div href="#" class="gallery-item gallery-item-home">
     <img src="{{ 'img/centro-estetico-colombia-marco-bonilla.avif' | relative_url }}"
@@ -76,7 +74,7 @@ alt: Profesionales del centro de medicina estética en Bogotá, de la doctora Ta
     <strong>Dr. Especialista</strong>
     <h3>Andrea Rincón</h3>
     <p>Medico cirujano egresado de la universidad John F Kennedy de Buenos Aires.</p>
-    {% include boton.html %}
+    <a href="#" class="boton boton_principal">Conoce nuestro equipo</a>
   </div>
   <div href="#" class="gallery-item gallery-item-home">
     <img src="{{ 'img/doctora-andrea-rincon-bogota.avif' | relative_url }}" alt="Tratamiento de manchas faciales"
@@ -85,11 +83,13 @@ alt: Profesionales del centro de medicina estética en Bogotá, de la doctora Ta
 </article>
 
 <main class="block_section">
-  <div class="block_section_image_left padding img_seccion seccion" >
+  <div class="block_section_image_left padding flow" >
     <h2 class="center">¿Por qué Elegir Nuestro Centro Estético?</h2>
     <p class="center">En el Centro Estético de la Dra. Tatiana Leal, cada tratamiento está respaldado por años de
       experiencia y tecnología de vanguardia. Nos dedicamos a realzar tu belleza natural de forma segura y efectiva.</p>
-    <ul class="intro">
+  </div>
+  <div class="block_section_knowledge">
+    <ul class="">
       <li>Equipo médico certificado con más de 15 años de experiencia</li>
       <li>Tecnología de última generación aprobada por FDA e INVIMA</li>
       <li>Protocolos personalizados para resultados óptimos</li>
@@ -97,26 +97,16 @@ alt: Profesionales del centro de medicina estética en Bogotá, de la doctora Ta
       <li>Ambiente médico controlado y seguro</li>
     </ul>
   </div>
-  <div class="block_section_knowledge img_seccion">
-    <h2 class="center">Experiencias Reales de Nuestros Pacientes</h2>
-    <p class="center">"Después de investigar varios centros estéticos en Bogotá, elegí la clínica de la Dra. Tatiana
+  <div class="block_section_image_right intro" > 
+    <h2>Experiencias Reales de Nuestros Pacientes</h2>
+    <p>"Después de investigar varios centros estéticos en Bogotá, elegí la clínica de la Dra. Tatiana
       Leal por su profesionalismo y tecnología avanzada. Los resultados superaron mis expectativas: mi piel luce
       radiante y natural, exactamente lo que buscaba." — Marcela, 45 años</p>
     <a href="#" class="boton boton_principal">Agenda tu Consulta Gratuita</a>
   </div>
-  <div class="block_section_image_right img_seccion" > 
-    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" width="200" height="200" class="intro">
-      <path
-        d="M14.33 15.94L15.66 14.61C15.87 14.4 16.11 14.24 16.38 14.13C16.65 14.01 16.93 13.96 17.23 13.96C17.52 13.96 17.81 14.01 18.07 14.13C18.34 14.24 18.59 14.4 18.79 14.61L20.35 16.17C20.56 16.37 20.72 16.62 20.83 16.89C20.95 17.16 21 17.44 21 17.74C21 18.03 20.95 18.31 20.83 18.58C20.72 18.85 20.56 19.1 20.35 19.3L19.64 20.02C19.15 20.51 18.52 20.84 17.83 20.95C17.15 21.07 16.44 20.96 15.82 20.65C10.47 17.9 6.11 13.54 3.35 8.19C3.04 7.57 2.93 6.86 3.05 6.18C3.16 5.49 3.49 4.86 3.99 4.37L4.7 3.65C5.12 3.24 5.68 3 6.27 3C6.85 3 7.41 3.24 7.83 3.65L9.4 5.22C9.81 5.64 10.05 6.2 10.05 6.79C10.05 7.37 9.81 7.93 9.4 8.35L8.07 9.68C8.95 10.87 9.92 11.99 10.96 13.04C12 14.08 13.12 15.04 14.3 15.91L14.33 15.94Z"
-        stroke="#cfbaa3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M15.34 8.66L21 3" stroke="#cfbaa3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M16.76 3H21V7.24" stroke="#cfbaa3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-    </svg>
-    <h2 class="center">Contáctanos</h2>
-    <p class="center">¿Tienes dudas sobre nuestros tratamientos?</p>
-    <p class="center">(+57) 322 2010384</p>
-  </div>
 </main>
+
+{% include contador.html %}
 
 <section class="parallax padding parallax_centro-estetico">
   <div class="parallax_copy intro flow">
@@ -126,8 +116,9 @@ alt: Profesionales del centro de medicina estética en Bogotá, de la doctora Ta
   </div>
 </section>
 
-<section class="faq padding flow">
-  <h2 class="center">Preguntas Frecuentes</h2>
+<section class="two_columns">
+  <div class="block_section_knowledge flow">
+   <h2 class="center">Preguntas Frecuentes</h2>
   <div class="accordion">
     <input type="checkbox" id="faq1" class="accordion-toggle">
     <label for="faq1" class="accordion-header">¿Los tratamientos son seguros?</label>
@@ -156,15 +147,15 @@ alt: Profesionales del centro de medicina estética en Bogotá, de la doctora Ta
         actividades. Algunos procedimientos pueden causar un ligero enrojecimiento que desaparece en pocas horas.</p>
     </div>
   </div>
-</section>
+  </div>
 
-
-<section class="padding">
-  <div class="flow center">
-    <h2 class="center">Comienza Tu Transformación Hoy</h2>
+  <div class="padding">
+    <div class="flow center">
+      <h2 class="center">Comienza Tu Transformación Hoy</h2>
     <p class="center">Da el primer paso hacia una versión más radiante de ti misma. Agenda tu consulta gratuita y
       descubre cómo podemos ayudarte a alcanzar tus objetivos estéticos de forma segura y natural.</p>
     <a href="#" class="boton boton_principal">Agenda tu Consulta Gratuita</a>
     <p class="center" style="margin-top: 1em;"><small>* Cupos limitados disponibles esta semana</small></p>
+    </div>
   </div>
 </section>
