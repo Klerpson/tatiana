@@ -3,161 +3,258 @@ layout: default
 lang: es
 title: Términos y Codiciones de Uso | dratatianaleal.com
 description: Términos y condiciones de uso de la página dratatianaleal.com
-h1: Términos y condiciones
+h1: Términos y Condiciones de Uso | dratatianaleal.com
 hero: img/favicon/apple-touch-icon-180x180.png
+noindex: true
 ---
 [Inicio]({{site.baseurl}}/) - Términos y Condiciones
 
-## Aviso legal para sitio web de dratatianaleal.com
+## Marco Legal y Regulatorio
 
-En esta página se detallan las instrucciones legales que se aplican a todos los usuarios de Internet que visiten este Sitio (www.dratatianaleal.com) propiedad de La Doctora Tatiana Leal, con domicilio en {{page.direccion}} Colombia. Al acceder y navegar por este sitio, usted se compromete a respetar estas instrucciones sin ningún tipo de excepción. Es por ello que le aconsejamos que consulte estas instrucciones cada cierto tiempo, ya que podrían modificarse de forma periódica y sin previo aviso por parte de La Doctora Tatiana Leal. Si usted no desea aceptar o cumplir las condiciones aquí descritas, deberá abandonar este sitio web inmediatamente.
+El presente documento establece los términos y condiciones que regulan el uso del sitio web www.dratatianaleal.com y los servicios prestados por el Centro de Medicina Estética de la Doctora Tatiana Leal. Estos términos se han elaborado en cumplimiento con la normativa vigente en Colombia, incluyendo, pero no limitándose a, la Ley 1581 de 2012 sobre Protección de Datos Personales, el Decreto 1377 de 2013 que la reglamenta, la Resolución 2263 de 2004 que establece los requisitos para el funcionamiento de centros de estética, y la Resolución 2827 de 2006 que adopta el Manual de Bioseguridad para establecimientos que desarrollen actividades cosméticas o con fines de embellecimiento facial, corporal y ornamental.
 
-## Información y propiedad intelectual
+## Habilitación y Certificaciones Profesionales
 
-La información y los contenidos de todas las páginas de este Sitio Web han sido diseñados para proporcionar información general de La Doctora Tatiana Leal y sobre los servicios que presta. Además, incluye la información de un blog sobre estrategias digitales, tecnologías digitales y sus servicios y experiencia, presentando contenido instructivo y comercial que puede ser contratado, comprado o comercializado por el propietario de esta web y sus aliados comerciales.
+El Centro de Medicina Estética de la Doctora Tatiana Leal declara y garantiza que cuenta con todas las habilitaciones, permisos y licencias requeridas por la Secretaría de Salud y demás autoridades competentes para el ejercicio de la medicina estética en Colombia. Nuestro centro mantiene vigentes todas las certificaciones necesarias y cumple estrictamente con los estándares de calidad y seguridad establecidos en la normativa aplicable.
 
-Los derechos de propiedad intelectual sobre los contenidos y diseño gráfico de esta página Web pertenecen en exclusiva a La Doctora Tatiana Leal, quedando expresamente prohibido su reenvío, transmisión, modificación, reproducción, distribución, comercialización o transformación sin la autorización expresa, escrita e intransferible de La Doctora Tatiana Leal.
+Todos los procedimientos realizados en nuestro centro están respaldados por profesionales debidamente certificados y con la experiencia requerida según la legislación colombiana. La Doctora Tatiana Leal y su equipo médico mantienen actualizadas sus credenciales profesionales y participan regularmente en programas de educación continua para garantizar la más alta calidad en los servicios prestados.
 
-En consecuencia, salvo el uso para fines personales o privados, al que expresamente se autoriza al usuario, constituirá una infracción de los derechos de propiedad intelectual de La Doctora Tatiana Leal, proceder, total o parcialmente, al reenvío, transmisión, modificación, reproducción, distribución, comercialización y/o transformación de los contenidos de la presente página Web, incurriendo el usuario en la responsabilidad correspondiente.
+## Protección de Datos Personales y Confidencialidad
 
-La Doctora Tatiana Leal se reserva el derecho a denegar en cualquier momento, por decisión propia y sin previo aviso, el acceso de cualquier usuario a la presente página Web o a una parte de ella, cuando se efectúe un uso indebido, ilícito, ilegal o no autorizado de sus contenidos.
+En cumplimiento de la Ley 1581 de 2012 de Protección de Datos Personales, informamos que todos los datos personales recopilados por nuestro centro son tratados con la máxima confidencialidad y seguridad. La información médica y personal de nuestros pacientes se gestiona bajo estrictos protocolos de seguridad que incluyen:
 
-La Doctora Tatiana Leal se reserva igualmente el derecho a publicar o retirar, total o parcialmente, cualquier información o contenidos del servicio a su exclusiva discreción, quedando exonerada de cualquier responsabilidad por posibles daños o perjuicios derivados de interferencias, interrupciones, desconexiones, virus informáticos, sobrecargas de líneas, averías telefónicas o del sistema de Internet o de otros sistemas electrónicos, motivadas por causas ajenas a ésta.
+La recolección de datos personales se realiza únicamente con el consentimiento expreso del titular y se limita a aquella información estrictamente necesaria para la prestación de nuestros servicios médicos. El tratamiento de estos datos se realizará exclusivamente para los fines autorizados por el titular y en cumplimiento de las finalidades establecidas en nuestra política de privacidad.
 
-## Exclusión de responsabilidades
+Los datos de salud, considerados como datos sensibles según la legislación vigente, reciben un nivel superior de protección, incluyendo medidas técnicas, humanas y administrativas necesarias para otorgar seguridad a los registros evitando su adulteración, pérdida, consulta, uso o acceso no autorizado o fraudulento.
 
-La Doctora Tatiana Leal tratará de mantener la información contenida en la presente página Web debidamente actualizada, en la medida de sus posibilidades, quedando facultado para modificarla sin previo aviso a fin de corregir los eventuales errores que, en su caso, pudieren detectarse.
+## Derechos y Deberes del Paciente
 
-La Doctora Tatiana Leal no asume ninguna responsabilidad (y rechaza expresamente cualquier responsabilidad) sobre la actualización de este sitio para mantener la información actualizada ni garantiza que la información publicada sea precisa o completa. Quien vaya a hacer uso de esta información ha de confirmar su precisión y completitud.
+### Derechos Fundamentales
 
-## Enlaces con otros sitios
+Todo paciente que acuda a nuestro centro tiene derecho a recibir una atención médica de calidad, respetuosa y no discriminatoria. Los derechos fundamentales del paciente incluyen, pero no se limitan a, recibir información completa y comprensible sobre su diagnóstico, las alternativas de tratamiento disponibles, los riesgos asociados y el pronóstico esperado. Esta información se proporcionará en un lenguaje claro y comprensible, permitiendo al paciente tomar decisiones informadas sobre su tratamiento.
 
-La Doctora Tatiana Leal no asume responsabilidad alguna sobre la veracidad de contenidos u otras fuentes de información de terceros a las que los usuarios pudieren tener acceso por medio de los links que figuren o pudieren figurar en sus páginas Web.
+El paciente tiene derecho a acceder a su historia clínica completa, solicitar copias de la misma y recibir explicaciones sobre su contenido, de conformidad con lo establecido en la Resolución 1995 de 1999. La confidencialidad de esta información está garantizada por ley y solo se compartirá con terceros bajo autorización expresa del paciente o en los casos previstos por la legislación vigente.
 
-La existencia de un enlace entre el Sitio y el sitio web de terceros no implica de ningún modo que La Doctora Tatiana Leal apruebe el contenido de ese sitio y es posible que ni siquiera esté de acuerdo con el fin para el que se use dicho contenido.
+### Deberes del Paciente
 
-Algunos sitios externos pueden incluir hiperenlaces que lleven al Sitio. No podrá insertarse ninguno de esos hiperenlaces sin el consentimiento explícito previo de La Doctora Tatiana Leal. En cualquier caso, La Doctora Tatiana Leal no es responsable de la falta de disponibilidad de dichos sitios externos, ni se encarga de revisar, controlar o aprobar ningún contenido, publicidad, productos u otros materiales disponibles o accesibles a través de esos sitios.
+Los pacientes que acuden a nuestro centro tienen la responsabilidad de proporcionar información veraz y completa sobre su estado de salud, antecedentes médicos y cualquier otra información relevante para su tratamiento. La omisión o falsedad en la información proporcionada puede afectar la seguridad y eficacia de los procedimientos realizados.
 
-## Confidencialidad y protección de datos
+Es deber del paciente seguir estrictamente las indicaciones médicas proporcionadas, asistir a las citas programadas o cancelarlas con la debida anticipación, y cumplir con los pagos acordados por los servicios prestados. El incumplimiento de estas obligaciones puede resultar en la suspensión del tratamiento, sin perjuicio de las acciones legales que pudieran corresponder.
 
-La Doctora Tatiana Leal pone en conocimiento del Usuario lo siguiente: que existe un fichero automatizado en el que se guardan los datos que usted proporcionó, creado por La Doctora Tatiana Leal, para uso de la empresa y bajo su responsabilidad.
+## Consentimiento Informado
 
-El objeto de dicho fichero es mantener y gestionar la relación con el usuario y proporcionar información. La Doctora Tatiana Leal solicitará al usuario los datos necesarios para proporcionar el servicio en el momento de aceptar las citadas condiciones generales.
+Todos los procedimientos médicos estéticos realizados en nuestro centro requieren la firma de un consentimiento informado específico. Este documento detalla la naturaleza del procedimiento, sus objetivos, los riesgos asociados, las alternativas de tratamiento disponibles y las limitaciones del resultado esperado. El consentimiento informado se presenta al paciente con suficiente antelación para permitir su lectura detallada y la formulación de cualquier pregunta o duda.
 
-La Doctora Tatiana Leal ha tomado las medidas de seguridad necesarias para proteger datos personales. Además, tratamos de instalar otras medidas y recursos técnicos a nuestra disposición para almacenar correctamente los datos proporcionados a La Doctora Tatiana Leal y para que nadie pueda utilizarlos con mala fe, modificarlos, perderlos, utilizarlos sin permiso o robarlos.
+El paciente tiene derecho a revocar su consentimiento en cualquier momento antes de la realización del procedimiento, sin que esto implique deterioro en la calidad de su atención presente o futura en nuestro centro. La revocación del consentimiento deberá realizarse por escrito y quedará debidamente documentada en la historia clínica.
 
-El Usuario debe saber que las medidas de seguridad de internet no son infranqueables.
+## Política de Pagos y Reembolsos
 
-## Registro de ficheros y formularios
+Los honorarios médicos y costos asociados a cada procedimiento serán informados al paciente de manera clara y detallada antes de la realización de cualquier tratamiento. Nuestro centro se reserva el derecho de modificar sus tarifas, pero cualquier modificación será informada oportunamente y no afectará a los tratamientos ya contratados.
 
-Es imprescindible agregar sus datos en nuestras listas de contactos para poder disfrutar de algunos de los servicios que se ofrecen en la web. Si usted no proporciona los datos solicitados o no está de acuerdo con esta política de protección de datos, no podrá apuntarse ni registrarse en nuestra lista, y tampoco podrá tomar parte en las promociones para las que sean necesarios sus datos.
+El reembolso de pagos realizados estará sujeto a las siguientes condiciones:
 
-Los datos personales que se obtengan cuando se registre como Usuario de nuestros servicios, serán introducidos en un fichero cuyo propietario es La Doctora Tatiana Leal. Esta lista tiene implementadas las medidas de seguridad necesarias para la confidencialidad de los datos que le sean proporcionados a la empresa.
+1. Cancelación del procedimiento por parte del centro médico: se reembolsará el 100% del valor pagado.
 
-## Cesión de datos a Empresas del Grupo
+2. Cancelación por parte del paciente:
+   - Con más de 72 horas de anticipación: reembolso del 90% del valor pagado
+   - Entre 72 y 24 horas antes: reembolso del 50% del valor pagado
+   - Menos de 24 horas antes: no aplica reembolso
 
-La Doctora Tatiana Leal informa a los usuarios, que los datos personales recabados podrán ser cedidos a otras empresas asociadas a la labor de La Doctora Tatiana Leal o a otras con las que las sociedades que él realice concluyan acuerdos de colaboración. También, podrá ser cedidos a las autoridades legales cuando estas las exijan.
+Los reembolsos se procesarán mediante el mismo método de pago utilizado para la transacción original, en un plazo no mayor a 15 días hábiles.
 
-## Precisión y veracidad de los datos proporcionados
+## Propiedad Intelectual y Uso del Sitio Web
 
-El usuario es el único responsable de la precisión y veracidad de los datos. La Doctora Tatiana Leal queda eximido de toda responsabilidad a este respecto. Serán los usuarios quienes garantizarán que los datos proporcionados sean auténticos, precisos, no hayan cambiado y continúen siendo los mismos. Adquirirán también el compromiso de mantenerlos actualizados.
+Todo el contenido presente en el sitio web www.dratatianaleal.com, incluyendo pero no limitándose a textos, gráficos, logotipos, imágenes, videos, clips de audio, y compilaciones de datos, es propiedad exclusiva del Centro de Medicina Estética de la Doctora Tatiana Leal o se utiliza bajo licencia y está protegido por las leyes de propiedad intelectual.
 
-El usuario proporcionará información completa y correcta cuando se le sociliten para el registro. La Doctora Tatiana Leal no se hará responsable de la veracidad de información de terceros ni de informaciones que citen otras fuentes. Tampoco se hará responsable de los hipotéticos daños que la utilización de dicha información pudiere causar.
+Se autoriza la visualización y descarga de materiales del sitio web únicamente para uso personal y no comercial. Esta autorización está condicionada a mantener intactas todas las notificaciones de derechos de autor y propiedad intelectual. Queda expresamente prohibida la modificación, reproducción, publicación, distribución o venta de cualquier material del sitio web sin la autorización previa y por escrito de nuestro centro.
 
-La Doctora Tatiana Leal se reserva el derecho de actualizar, modificar o borrar la información su Sitio Web, así como el derecho de restringir o prohibir el acceso a ellas. Si la información viene de fuentes ajenas a la empresa, La Doctora Tatiana Leal no será responsable de ningún daño que el usuario pueda sufrir como resultado de errores, fallos u omisiones en dicha información.
+## Responsabilidad Profesional y Seguro Médico
 
-## Información confidencial
+El Centro de Medicina Estética de la Doctora Tatiana Leal cuenta con pólizas de responsabilidad civil profesional que cubren eventuales complicaciones derivadas de los procedimientos realizados, en cumplimiento con la normativa vigente para establecimientos médicos en Colombia. No obstante, es importante señalar que la medicina no es una ciencia exacta y que, a pesar de realizar los procedimientos con la máxima diligencia y profesionalismo, existen riesgos inherentes a cualquier intervención médica.
 
-El Sitio no está diseñado para recibir la información confidencial que usted pueda remitir. La Doctora Tatiana Leal no desea recibir información confidencial o de la propiedad del usuario a través de nuestro sitio Web. Por esa razón, y exceptuando los datos personales recopilados a través de nuestros formularios o medios de comunicación, toda la información, sin importar el formato en el que aparezca (documentos, datos, gráficos, preguntas, sugerencias, conceptos, observaciones, audios, videos, textos etc.) y que usted comunique en el Sitio, no será considerada confidencial.
+Nuestra responsabilidad profesional se limita a aquellos daños o perjuicios que sean consecuencia directa de una mala praxis médica debidamente comprobada. No nos hacemos responsables por:
 
-Mediante el envío a La Doctora Tatiana Leal de cualquier información o material, el usuario otorga a La Doctora Tatiana Leal una licencia no restringida e irrevocable para copiar, reproducir, publicar, subir, enviar por correo, transmitir, distribuir, mostrar públicamente, ejecutar, modificar y crear trabajos derivados a partir del mismo, y utilizar libremente y de cualquier modo dicha información o material.
+1. Resultados insatisfactorios cuando los procedimientos se han realizado conforme a los protocolos establecidos y siguiendo las normas de la lex artis médica.
 
-También acepta que La Doctora Tatiana Leal puede utilizar libremente cualquier idea, concepto, conocimientos, o técnicas que nos envíe con cualquier finalidad. Sin embargo, no publicaremos su nombre ni de otro modo haremos público el hecho de que nos remitió materiales u otra información a menos que: (a) obtengamos su permiso para utilizar su nombre; o (b) le notifiquemos previamente que, los materiales u otra información que Ud. remita a una parte específica de este sitio Web se publicarán o de otro modo utilizarán indicando su nombre en ella; o (c) la ley nos obligue a hacerlo así.
+2. Complicaciones derivadas del incumplimiento por parte del paciente de las indicaciones médicas proporcionadas.
 
-Los datos personales que envíe a La Doctora Tatiana Leal con el fin de conocer más sobre nuestros servicios serán tratados de acuerdo con nuestras políticas de privacidad.
+3. Reacciones adversas imprevisibles o idiosincráticas a medicamentos o procedimientos correctamente indicados y aplicados.
 
-## Política de cookies
+4. Expectativas no realistas sobre los resultados de los tratamientos, siempre que se haya proporcionado información adecuada sobre los resultados esperables.
 
-En nuestra web utilizamos cookies para mejorar la experiencia del usuario. Si navega por nuestro sitio web, estará aceptando el uso de las cookies en las condiciones establecidas en la presente Política de Cookies. Esta política puede ser actualizada, por lo que le invitamos a revisarla de forma regular.
+## Protocolos de Seguridad y Gestión de Emergencias
 
-## Disponibilidad del Sitio Web
+### Medidas de Seguridad Sanitaria
 
-La Doctora Tatiana Leal no garantiza el acceso permanente al Sitio Web ni garantiza la ausencia de virus o elementos lesivos en el Sitio Web o en el servidor que lo proporciona. Usted, y no La Doctora Tatiana Leal, asumirá todos los costes de revisión, reparación o correcciones en su hardware, software o información, hayan sido causados o no por cualquier virus o elemento lesivo.
+Nuestro centro implementa estrictos protocolos de bioseguridad en cumplimiento de la Resolución 2827 de 2006 y demás normativa aplicable. Estos incluyen:
 
-La Doctora Tatiana Leal y/o sus proveedores podrían, en cualquier momento y ya sea de forma temporal o permanente, modificar o interrumpir la totalidad o una parte del Sitio con el fin de realizar tareas de mantenimiento y/o mejoras y/o cambios en el Sitio. La Doctora Tatiana Leal no será responsable de las modificaciones ni de la suspensión o la interrupción del Sitio.
+1. Esterilización y desinfección de instrumental médico según estándares internacionales.
+2. Uso exclusivo de materiales e insumos médicos de un solo uso cuando corresponda.
+3. Protocolos de limpieza y desinfección de áreas clínicas.
+4. Control y registro de temperatura y humedad en áreas de almacenamiento de medicamentos.
+5. Gestión adecuada de residuos biológicos y peligrosos.
 
-## Marco jurídico
+### Protocolo de Emergencias
 
-Este Sitio y su contenido se rigen por la legislación de Colombia. Todo posible litigio relacionado con el Sitio o con su contenido se dirimirá en los tribunales de justicia colombianos.
+El centro cuenta con un protocolo detallado para la atención de emergencias médicas que incluye:
 
-## Cliente, Proveedor y Colaborador
+1. Personal médico y de enfermería capacitado en soporte vital básico y avanzado.
+2. Equipamiento de emergencia disponible y verificado periódicamente.
+3. Convenios con servicios de ambulancia y centros hospitalarios para traslados de emergencia.
+4. Procedimientos establecidos para la activación de la cadena de socorro en caso necesario.
 
-## PROTECCION DE DATOS PERSONALES
+## Confidencialidad y Manejo de la Historia Clínica
 
-La Ley 1581 de 2012 y sus Decretos Reglamentarios, pretenden regular el manejo de datos personales en Colombia, con el fin de proteger el derecho fundamental al habeas data o a la identidad informática. Teniendo en cuenta que La Doctora Tatiana Leal, cuenta actualmente con bases de datos en las que reposan datos personales que han sido suministrados por usted en el pasado, en cumplimiento de lo establecido en las normas mencionadas, nos permitimos solicitar su autorización para continuar con el tratamiento de sus datos.
+En cumplimiento de la Resolución 1995 de 1999 y la Ley 23 de 1981, la historia clínica de cada paciente se maneja bajo estrictos criterios de confidencialidad. El acceso a las historias clínicas está limitado al personal médico y administrativo autorizado, quienes han firmado acuerdos de confidencialidad específicos.
 
-## AUTORIZACION PARA EL TRATAMIENTO DE DATOS PERSONALES Y SENSIBLES
+La historia clínica se conservará por un período mínimo de 20 años contados a partir de la última atención, garantizando su seguridad, integridad y confidencialidad. El paciente tiene derecho a solicitar copia de su historia clínica siguiendo el procedimiento establecido:
 
-– En mi calidad de TITULAR declaro de manera libre, voluntaria, expresa, inequívoca que se me ha informado de manera clara y comprensible que tengo derecho a conocer, actualizar y rectificar los datos personales y sensibles proporcionados a La Doctora Tatiana Leal, a solicitar prueba de esta autorización, a solicitar información sobre el uso que se le ha dado a mis datos personales, a presentar quejas ante la Superintendencia de Industria y Comercio por el uso indebido de mis datos personales, a revocar esta autorización o solicitar la supresión de los datos personales suministrados y a acceder de forma gratuita a los mismos.
+1. Solicitud por escrito del titular o su representante legal debidamente acreditado.
+2. Verificación de identidad mediante documento oficial.
+3. Entrega de la copia en un plazo no mayor a 5 días hábiles.
+4. Registro de la entrega en el sistema de control documental.
 
-– En mi calidad de TITULAR declaro de manera libre, voluntaria, expresa, inequívoca que conozco y acepto el Las Políticas y Procedimientos de Tratamiento de Datos Personales de La Doctora Tatiana Leal y que la información por mí proporcionada es veraz, completa, exacta, actualizada y verificable.
+## Política de Calidad y Mejora Continua
 
-– En mi calidad de TITULAR declaro de manera libre, voluntaria, expresa, inequívoca e informada, que AUTORIZO a La Doctora Tatiana Leal, para que, en los términos del literal a) del artículo 6 de la Ley 1581 de 2012, y demás normas que traten y regulen sobre esta materia, realice la recolección, transferencia, almacenamiento, uso, circulación, supresión, y en general, tratamiento de mis datos personales, incluyendo datos sensibles de conformidad con la Ley.
+Nuestro centro mantiene un sistema de gestión de calidad que incluye:
 
-Esta autorización permitirá a La Doctora Tatiana Leal recolectar, transferir, almacenar, usar, circular, suprimir, compartir, actualizar y transmitir, de acuerdo con el procedimiento para el tratamiento de los datos personales y sensibles en procura de cumplir con las siguientes finalidades:
+1. Evaluación periódica de la satisfacción del paciente.
+2. Auditorías internas de procesos y procedimientos.
+3. Actualización continua de protocolos médicos.
+4. Capacitación permanente del personal.
+5. Seguimiento de indicadores de calidad y seguridad.
 
-a. Ejecutar la relación contractual existente con sus clientes, proveedores y trabajadores, incluida el pago de obligaciones contractuales y el ejercicio de los derechos derivados de los mismos;
+## Política de Privacidad en Línea y Seguridad Digital
 
-b. Para el envío de información a sus trabajadores y familiares;
+### Recolección y Uso de Datos en Línea
 
-c. Para la prestación de los servicios de salud a los familiares de los trabajadores de La Doctora Tatiana Leal, beneficiarios del servicio de salud;
+El sitio web www.dratatianaleal.com utiliza diferentes tecnologías para recopilar y almacenar información cuando un usuario accede a nuestros servicios en línea. Esta recolección de datos se realiza de conformidad con la Ley 1581 de 2012 y sus decretos reglamentarios, e incluye:
 
-d. Para el reconocimiento, protección y ejercicio de los derechos de los accionistas de La Doctora Tatiana Leal;
+1. Información proporcionada voluntariamente por el usuario a través de formularios web.
+2. Datos de navegación recopilados automáticamente (dirección IP, tipo de navegador, páginas visitadas).
+3. Información sobre el dispositivo utilizado para acceder al sitio.
+4. Datos de interacción con nuestros servicios en línea.
 
-e. Registro de proveedores de Julian Andres Franco;
+### Uso de Cookies y Tecnologías Similares
 
-f. Registro de clientes de Julian Andres Franco;
+Nuestro sitio web utiliza cookies y tecnologías similares para mejorar la experiencia del usuario y proporcionar servicios personalizados. Los usuarios pueden configurar su navegador para rechazar cookies, aunque esto podría afectar la funcionalidad de ciertas características del sitio. Las cookies utilizadas se clasifican en:
 
-g. Proveer los servicios requeridos por sus usuarios;
+1. Cookies técnicas: Esenciales para el funcionamiento básico del sitio.
+2. Cookies analíticas: Para el análisis del comportamiento y la actividad de los usuarios.
+3. Cookies de personalización: Para recordar las preferencias del usuario.
+4. Cookies publicitarias: Para la gestión de espacios publicitarios.
 
-h. Informar sobre nuevos productos o servicios y/o sobre cambios en los mismos;
+El usuario puede revocar su consentimiento para el uso de cookies en cualquier momento a través de las opciones de configuración de su navegador.
 
-i. Envío de correos electrónicos informando el estado del trámite de solicitud de servicios que ofrece Julian Andres Franco;
+## Comunicaciones Electrónicas y Marketing Digital
 
-j. Evaluar la calidad del servicio;
+### Comunicaciones Médicas
 
-k. Desarrollar el proceso de selección, evaluación, y vinculación laboral, así como los procesos requeridos para dar cumplimiento a cabalidad de la relación laboral;
+Las comunicaciones electrónicas relacionadas con aspectos médicos (recordatorios de citas, resultados de pruebas, indicaciones pre y post-procedimiento) se realizan utilizando sistemas seguros y encriptados que cumplen con los estándares de seguridad requeridos para información médica confidencial.
 
-l. Soportar procesos de auditoría interna o externa;
+### Marketing y Promociones
 
-m. Registrar la información de empleados (activos e inactivos) en las bases de datos de La Doctora Tatiana Leal;
+El envío de comunicaciones comerciales y promocionales se realiza únicamente con el consentimiento expreso del usuario, quien puede revocar dicho consentimiento en cualquier momento. Cada comunicación comercial incluirá:
 
-n. Para la verificación de saldos de sus acreedores;
+1. Identificación clara del remitente.
+2. Información sobre el carácter comercial del mensaje.
+3. Mecanismo sencillo para darse de baja.
+4. Información sobre cómo actualizar preferencias de comunicación.
 
-o. Para la determinación de obligaciones pendientes, la consulta de información financiera e historia crediticia y el reporte a centrales de información de obligaciones incumplidas, respecto de sus deudores;
+## Resolución de Conflictos y Jurisdicción
 
-p. Atención de requerimientos judiciales o administrativos; y el cumplimiento de órdenes administrativas o judiciales;
+### Procedimiento de Quejas y Reclamos
 
-q. Atender adecuadamente peticiones, quejas o reclamos;
+Ante cualquier inconformidad con nuestros servicios, el paciente puede presentar una queja o reclamo siguiendo el siguiente procedimiento:
 
-r. Generación de estados de cuenta o facturas;
+1. Presentación formal de la queja por escrito, detallando los hechos y motivos de la inconformidad.
+2. Recepción y registro de la queja con número de seguimiento único.
+3. Investigación interna de los hechos reportados.
+4. Respuesta formal en un plazo no mayor a 15 días hábiles.
+5. Implementación de medidas correctivas cuando corresponda.
 
-s. Cumplimiento de mandatos judiciales o legales;
+### Mediación y Arbitraje
 
-t. Actividades de cobranza cuando se tratare de obligaciones en dinero,
+Las partes acuerdan que cualquier controversia o reclamación derivada de estos términos y condiciones o relacionada con los servicios prestados se resolverá mediante:
 
-u. Estructuración o implementación de procedimientos para la prevención de lavado de activos o financiación del terrorismo,
+1. Mediación voluntaria como primera instancia.
+2. Arbitraje vinculante en caso de no alcanzar acuerdo en la mediación.
+3. El tribunal de arbitraje estará conformado según las normas de la Cámara de Comercio de Bogotá.
+4. El laudo arbitral será definitivo y vinculante para las partes.
 
-v. Atención de requerimientos o solicitudes presentados por la Dirección de Impuestos y Aduanas Nacionales – DIAN, administración municipal de impuestos o entidades de control y vigilancia;
+### Jurisdicción y Ley Aplicable
 
-w. Desarrollo integral del objeto social de la compañía.
+Estos términos y condiciones se rigen por las leyes de la República de Colombia. Cualquier disputa que no pueda resolverse mediante mediación o arbitraje se someterá a la jurisdicción exclusiva de los tribunales de Bogotá, Colombia, renunciando las partes expresamente a cualquier otro fuero que pudiera corresponderles.
 
-El alcance de la autorización comprende la facultad para que La Doctora Tatiana Leal le envíe mensajes, notificaciones, información del estado de cuenta, saldos, y demás información relativa al portafolio de servicios de la compañía, a través de correo electrónico.
+## Modificaciones a los Términos y Condiciones
 
-Mis derechos como TITULAR del dato son los previstos en la constitución y la ley, especialmente el derecho a conocer, actualizar, rectificar y suprimir mi información personal; así como el derecho a revocar el consentimiento otorgado para el tratamiento de datos personales, estos los puedo ejercer a través de los canales dispuestos por La Doctora Tatiana Leal para la atención al público y observando la política de tratamiento de datos personales de La Doctora Tatiana Leal, disponible en www.dratatianaleal.com/legal
+### Actualización y Vigencia
 
-Otorgo mi consentimiento a La Doctora Tatiana Leal para tratar mi información personal, y sensible de acuerdo con la política de tratamiento de datos personales, y por tanto me comprometo a leer el aviso de privacidad y la política mencionada disponible en: www.dratatianaleal.com/legal
+La Doctora Tatiana Leal se reserva el derecho de modificar estos Términos y Condiciones en cualquier momento, con el fin de adaptarlos a:
 
-Autorizo a La Doctora Tatiana Leal a modificar o actualizar su contenido, a fin de atender reformas legislativas, políticas internas o nuevos requerimientos para la prestación u ofrecimiento de servicios, dando aviso previo por medio de la página web de la compañía, y/o correo electrónico.
+1. Cambios en la legislación vigente
+2. Modificaciones en los servicios ofrecidos
+3. Actualizaciones en las prácticas médicas
+4. Mejoras en los protocolos de seguridad y atención
 
-En caso en que usted no desee que Julian Andres Franco acceda, procese y en general use la información que usted nos suministre, sírvase enviar por este mismo medio y dentro de los cinco (5) días siguientes al uso de este sitio web, o del recibo de nuestros correos electrónicos y mensajes de texto de suscripción y registros de sus datos, una comunicación en la que se nos indique que no se autoriza ni el acceso ni el almacenamiento, proceso y uso de dicha información sabiendo que ello ocurrirá conforme a lo recién descrito.
+Las modificaciones entrarán en vigor desde su publicación en el sitio web. Se notificará a los usuarios registrados mediante:
+
+- Correo electrónico a la dirección proporcionada
+- Aviso destacado en el sitio web
+- Notificación en la próxima visita al centro
+
+Se considerará que el usuario acepta las modificaciones si continúa utilizando nuestros servicios después de la publicación de los cambios.
+
+## Disposiciones Adicionales
+
+### Nulidad e Ineficacia de las Cláusulas
+
+Si alguna cláusula de estos Términos y Condiciones fuera declarada nula o ineficaz por una autoridad competente, las demás disposiciones mantendrán su plena validez y eficacia. Las partes acuerdan sustituir la cláusula nula por otra que cumpla, en la medida de lo posible, con el objetivo y el espíritu de la original.
+
+### Cesión de Derechos
+
+El Centro de Medicina Estética de la Doctora Tatiana Leal podrá ceder o transferir los derechos y obligaciones derivados de estos Términos y Condiciones a:
+
+1. Sociedades del mismo grupo empresarial
+2. Sucesores en la actividad profesional
+3. Terceros que adquieran la práctica médica
+
+En tales casos, se notificará debidamente a los pacientes y se garantizará la continuidad en la calidad de la atención y el cumplimiento de todos los compromisos adquiridos.
+
+## Disposiciones Finales
+
+### Acuerdo Completo
+
+Estos Términos y Condiciones, junto con la Política de Privacidad y los Consentimientos Informados específicos, constituyen el acuerdo completo entre el paciente y el Centro de Medicina Estética de la Doctora Tatiana Leal, sustituyendo cualquier acuerdo o entendimiento previo, ya sea oral o escrito.
+
+### Vigencia
+
+Los presentes Términos y Condiciones permanecerán vigentes indefinidamente hasta que sean modificados o reemplazados por una nueva versión. La versión aplicable será siempre la publicada en el sitio web al momento de la prestación del servicio.
+
+### Supervivencia
+
+Las disposiciones relativas a:
+- Confidencialidad
+- Protección de datos personales
+- Responsabilidad profesional
+- Propiedad intelectual
+- Resolución de conflictos
+
+Sobrevivirán a la terminación de la relación entre el paciente y el centro médico.
+
+### Fecha de Última Actualización
+
+Este documento fue actualizado por última vez el 09 de diciembre de 2024. Se recomienda a los usuarios revisar periódicamente estos Términos y Condiciones para mantenerse informados sobre cualquier modificación.
+
+## Aceptación
+
+Al utilizar nuestros servicios, acceder a nuestro sitio web o firmar cualquier documento relacionado con la prestación de servicios médicos, el usuario confirma que ha leído, entendido y aceptado estos Términos y Condiciones en su totalidad.
+
+---
+
+Para cualquier duda o aclaración sobre estos Términos y Condiciones, puede contactarnos a través de:
+
+- Correo electrónico: {{site.email}}
+- Teléfono: {{site.telefono}}
+- Dirección: {{site.direccion}}
+- Horario de atención: lunes a viernes, de 8am a 12 y de 2pm a 6pm. Sábados de 8am a 12m. Domingos y festivos sin atención al público.

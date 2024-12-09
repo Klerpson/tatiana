@@ -1,163 +1,314 @@
 ---
 layout: default
 lang: en
-title: Términos y Codiciones de Uso | juli.com.co
-description: Términos y condiciones de uso de la página juli.com.co
-h1: Términos y condiciones
+title: Terms and Conditions | dratatianaleal.com
+description: "Dr. Tatiana Leal's terms and conditions for open and using our website www.dratatianaleal.com"
+h1: Terms and Conditions | dratatianaleal.com
 hero: img/favicon/apple-touch-icon-180x180.png
+noindex: true
 ---
-[Inicio]({{site.baseurl}}/) - Términos y Condiciones
+[Home]({{site.baseurl}}/) - Terms and Conditions
 
-## Aviso legal para sitio web de juli.com.co
+## Legal Notice for dratatianaleal.com
 
-En esta página se detallan las instrucciones legales que se aplican a todos los usuarios de Internet que visiten este Sitio (www.juli.com.co) propiedad de Julian Franco, con domicilio Colombia. Al acceder y navegar por este sitio, usted se compromete a respetar estas instrucciones sin ningún tipo de excepción. Es por ello que le aconsejamos que consulte estas instrucciones cada cierto tiempo, ya que podrían modificarse de forma periódica y sin previo aviso por parte de Julian Franco. Si usted no desea aceptar o cumplir las condiciones aquí descritas, deberá abandonar este sitio web inmediatamente.
+This document details the legal terms that apply to all Internet users who visit this Site (www.dratatianaleal.com), owned by Dr. Tatiana Leal, located in {{page.direccion}} Colombia. By accessing and browsing this site, you agree to comply with these instructions without exception. We recommend reviewing these terms periodically, as they may be modified without prior notice by Dr. Tatiana Leal. If you do not wish to accept or comply with the conditions described herein, you must leave this website immediately.
 
-## Información y propiedad intelectual
+## International Medical Services Notice
 
-La información y los contenidos de todas las páginas de este Sitio Web han sido diseñados para proporcionar información general de Julian Franco y sobre los servicios que presta. Además, incluye la información de un blog sobre estrategias digitales, tecnologías digitales y sus servicios y experiencia, presentando contenido instructivo y comercial que puede ser contratado, comprado o comercializado por el propietario de esta web y sus aliados comerciales.
+The medical services provided by Dr. Tatiana Leal's Aesthetic Medicine Center are physically located in Bogotá, Colombia, and are regulated by Colombian healthcare laws and regulations. While we welcome international patients, including those from the United States, it is important to understand that:
 
-Los derechos de propiedad intelectual sobre los contenidos y diseño gráfico de esta página Web pertenecen en exclusiva a Julian Franco, quedando expresamente prohibido su reenvío, transmisión, modificación, reproducción, distribución, comercialización o transformación sin la autorización expresa, escrita e intransferible de Julian Franco.
+1. All medical procedures are performed in Colombia and are subject to Colombian medical regulations and standards
+2. The practice operates under licenses and certifications issued by Colombian health authorities
+3. Medical malpractice claims, if any, would be governed by Colombian law
+4. Insurance coverage from U.S.-based insurance companies may not apply to procedures performed internationally
 
-En consecuencia, salvo el uso para fines personales o privados, al que expresamente se autoriza al usuario, constituirá una infracción de los derechos de propiedad intelectual de Julian Franco, proceder, total o parcialmente, al reenvío, transmisión, modificación, reproducción, distribución, comercialización y/o transformación de los contenidos de la presente página Web, incurriendo el usuario en la responsabilidad correspondiente.
+## Professional Qualifications and Center Certifications
 
-Julian Franco se reserva el derecho a denegar en cualquier momento, por decisión propia y sin previo aviso, el acceso de cualquier usuario a la presente página Web o a una parte de ella, cuando se efectúe un uso indebido, ilícito, ilegal o no autorizado de sus contenidos.
+Dr. Tatiana Leal's Aesthetic Medicine Center declares and guarantees that it maintains all required licenses and permits under Colombian law, including:
 
-Julian Franco se reserva igualmente el derecho a publicar o retirar, total o parcialmente, cualquier información o contenidos del servicio a su exclusiva discreción, quedando exonerada de cualquier responsabilidad por posibles daños o perjuicios derivados de interferencias, interrupciones, desconexiones, virus informáticos, sobrecargas de líneas, averías telefónicas o del sistema de Internet o de otros sistemas electrónicos, motivadas por causas ajenas a ésta.
+- Compliance with Resolution 2263 of 2004 (Regulation of Aesthetic Centers)
+- Adherence to Resolution 2827 of 2006 (Biosafety Protocols)
+- Medical professional licensing under Colombian regulations
+- Facility certifications from relevant Colombian health authorities
 
-## Exclusión de responsabilidades
+Our medical professionals maintain active certifications and regularly participate in continuing education programs to ensure the highest quality of care.
 
-Julian Franco tratará de mantener la información contenida en la presente página Web debidamente actualizada, en la medida de sus posibilidades, quedando facultado para modificarla sin previo aviso a fin de corregir los eventuales errores que, en su caso, pudieren detectarse.
+## Privacy and Data Protection
 
-Julian Franco no asume ninguna responsabilidad (y rechaza expresamente cualquier responsabilidad) sobre la actualización de este sitio para mantener la información actualizada ni garantiza que la información publicada sea precisa o completa. Quien vaya a hacer uso de esta información ha de confirmar su precisión y completitud.
+### International Data Protection Standards
 
-## Enlaces con otros sitios
+While our primary privacy framework is governed by Colombian Law 1581 of 2012, we also maintain standards compatible with international privacy requirements. For U.S. patients, we acknowledge the principles of HIPAA (Health Insurance Portability and Accountability Act) as a reference for best practices in medical privacy, although Colombian law governs our operations.
 
-Julian Franco no asume responsabilidad alguna sobre la veracidad de contenidos u otras fuentes de información de terceros a las que los usuarios pudieren tener acceso por medio de los links que figuren o pudieren figurar en sus páginas Web.
+All patient data is protected under strict security protocols including:
 
-La existencia de un enlace entre el Sitio y el sitio web de terceros no implica de ningún modo que Julian Franco apruebe el contenido de ese sitio y es posible que ni siquiera esté de acuerdo con el fin para el que se use dicho contenido.
+1. Secure electronic medical records
+2. Encrypted data transmission
+3. Restricted access to patient information
+4. Comprehensive staff training on privacy procedures
+5. Regular security audits
 
-Algunos sitios externos pueden incluir hiperenlaces que lleven al Sitio. No podrá insertarse ninguno de esos hiperenlaces sin el consentimiento explícito previo de Julian Franco. En cualquier caso, Julian Franco no es responsable de la falta de disponibilidad de dichos sitios externos, ni se encarga de revisar, controlar o aprobar ningún contenido, publicidad, productos u otros materiales disponibles o accesibles a través de esos sitios.
+### Medical Records and Documentation
 
-## Confidencialidad y protección de datos
+Medical records are maintained according to Colombian regulations while respecting international standards for medical documentation. Patients have the right to:
 
-Julian Franco pone en conocimiento del Usuario lo siguiente: que existe un fichero automatizado en el que se guardan los datos que usted proporcionó, creado por Julian Franco, para uso de la empresa y bajo su responsabilidad.
+1. Access their complete medical records
+2. Request copies of their documentation
+3. Receive explanations about their medical information
+4. Have their records transferred to other healthcare providers
 
-El objeto de dicho fichero es mantener y gestionar la relación con el usuario y proporcionar información. Julian Franco solicitará al usuario los datos necesarios para proporcionar el servicio en el momento de aceptar las citadas condiciones generales.
+All documentation can be provided in both Spanish and English upon request.
 
-Julian Franco ha tomado las medidas de seguridad necesarias para proteger datos personales. Además, tratamos de instalar otras medidas y recursos técnicos a nuestra disposición para almacenar correctamente los datos proporcionados a Julian Franco y para que nadie pueda utilizarlos con mala fe, modificarlos, perderlos, utilizarlos sin permiso o robarlos.
+## Informed Consent and Patient Rights
 
-El Usuario debe saber que las medidas de seguridad de internet no son infranqueables.
+### Comprehensive Information
 
-## Registro de ficheros y formularios
+Every patient has the right to receive complete information about:
 
-Es imprescindible agregar sus datos en nuestras listas de contactos para poder disfrutar de algunos de los servicios que se ofrecen en la web. Si usted no proporciona los datos solicitados o no está de acuerdo con esta política de protección de datos, no podrá apuntarse ni registrarse en nuestra lista, y tampoco podrá tomar parte en las promociones para las que sean necesarios sus datos.
+1. Proposed treatments and procedures
+2. Alternative treatment options
+3. Potential risks and benefits
+4. Expected outcomes and limitations
+5. Recovery process and post-procedure care
+6. Associated costs and payment terms
 
-Los datos personales que se obtengan cuando se registre como Usuario de nuestros servicios, serán introducidos en un fichero cuyo propietario es Julian Franco. Esta lista tiene implementadas las medidas de seguridad necesarias para la confidencialidad de los datos que le sean proporcionados a la empresa.
+All information is provided in clear, understandable language, with translation available when needed.
 
-## Cesión de datos a Empresas del Grupo
+### Explicit Consent
 
-Julian Franco informa a los usuarios, que los datos personales recabados podrán ser cedidos a otras empresas asociadas a la labor de Julian Franco o a otras con las que las sociedades que él realice concluyan acuerdos de colaboración. También, podrá ser cedidos a las autoridades legales cuando estas las exijan.
+Written informed consent is required for all procedures. For international patients:
 
-## Precisión y veracidad de los datos proporcionados
+1. Consent forms are provided in both English and Spanish
+2. Adequate time is allowed for document review
+3. Medical staff is available to answer all questions
+4. Consent can be withdrawn at any time before the procedure
 
-El usuario es el único responsable de la precisión y veracidad de los datos. Julian Franco queda eximido de toda responsabilidad a este respecto. Serán los usuarios quienes garantizarán que los datos proporcionados sean auténticos, precisos, no hayan cambiado y continúen siendo los mismos. Adquirirán también el compromiso de mantenerlos actualizados.
+## Payment and Refund Policy for International Patients
 
-El usuario proporcionará información completa y correcta cuando se le sociliten para el registro. Julian Franco no se hará responsable de la veracidad de información de terceros ni de informaciones que citen otras fuentes. Tampoco se hará responsable de los hipotéticos daños que la utilización de dicha información pudiere causar.
+### Payment Terms
 
-Julian Franco se reserva el derecho de actualizar, modificar o borrar la información su Sitio Web, así como el derecho de restringir o prohibir el acceso a ellas. Si la información viene de fuentes ajenas a la empresa, Julian Franco no será responsable de ningún daño que el usuario pueda sufrir como resultado de errores, fallos u omisiones en dicha información.
+All fees are quoted and payable in Colombian Pesos (COP). While we provide approximate conversions to other currencies for reference, please note that:
 
-## Información confidencial
+1. Exchange rates fluctuate and final charges depend on rates at the time of payment
+2. International transaction fees may apply depending on your payment method
+3. Your bank or credit card company may apply additional foreign transaction fees
+4. We accept major international credit cards, wire transfers, and other specified payment methods
 
-El Sitio no está diseñado para recibir la información confidencial que usted pueda remitir. Julian Franco no desea recibir información confidencial o de la propiedad del usuario a través de nuestro sitio Web. Por esa razón, y exceptuando los datos personales recopilados a través de nuestros formularios o medios de comunicación, toda la información, sin importar el formato en el que aparezca (documentos, datos, gráficos, preguntas, sugerencias, conceptos, observaciones, audios, videos, textos etc.) y que usted comunique en el Sitio, no será considerada confidencial.
+### Refund Policy
 
-Mediante el envío a Julian Franco de cualquier información o material, el usuario otorga a Julian Franco una licencia no restringida e irrevocable para copiar, reproducir, publicar, subir, enviar por correo, transmitir, distribuir, mostrar públicamente, ejecutar, modificar y crear trabajos derivados a partir del mismo, y utilizar libremente y de cualquier modo dicha información o material.
+Our refund policy for international patients considers the unique aspects of medical tourism:
 
-También acepta que Julian Franco puede utilizar libremente cualquier idea, concepto, conocimientos, o técnicas que nos envíe con cualquier finalidad. Sin embargo, no publicaremos su nombre ni de otro modo haremos público el hecho de que nos remitió materiales u otra información a menos que: (a) obtengamos su permiso para utilizar su nombre; o (b) le notifiquemos previamente que, los materiales u otra información que Ud. remita a una parte específica de este sitio Web se publicarán o de otro modo utilizarán indicando su nombre en ella; o (c) la ley nos obligue a hacerlo así.
+1. Procedure Cancellation:
+   - By the center: 100% refund of amounts paid
+   - By patient (more than 14 days before): 90% refund
+   - By patient (7-14 days before): 50% refund
+   - Less than 7 days before: no refund except in medical emergencies
 
-Los datos personales que envíe a Julian Franco con el fin de conocer más sobre nuestros servicios serán tratados de acuerdo con nuestras políticas de privacidad.
+2. Travel Considerations:
+   - We do not reimburse travel expenses due to cancellations
+   - Travel insurance is strongly recommended
+   - Documentation for insurance claims will be provided when applicable
 
-## Política de cookies
+## International Travel and Medical Procedures
 
-En nuestra web utilizamos cookies para mejorar la experiencia del usuario. Si navega por nuestro sitio web, estará aceptando el uso de las cookies en las condiciones establecidas en la presente Política de Cookies. Esta política puede ser actualizada, por lo que le invitamos a revisarla de forma regular.
+### Pre-Travel Requirements
 
-## Disponibilidad del Sitio Web
+Before traveling to Colombia for medical procedures, patients should:
 
-Julian Franco no garantiza el acceso permanente al Sitio Web ni garantiza la ausencia de virus o elementos lesivos en el Sitio Web o en el servidor que lo proporciona. Usted, y no Julian Franco, asumirá todos los costes de revisión, reparación o correcciones en su hardware, software o información, hayan sido causados o no por cualquier virus o elemento lesivo.
+1. Complete all required medical history forms
+2. Provide recent medical test results if requested
+3. Undergo virtual consultation when required
+4. Receive clearance for travel from their local physician
+5. Arrange appropriate post-procedure accommodation
 
-Julian Franco y/o sus proveedores podrían, en cualquier momento y ya sea de forma temporal o permanente, modificar o interrumpir la totalidad o una parte del Sitio con el fin de realizar tareas de mantenimiento y/o mejoras y/o cambios en el Sitio. Julian Franco no será responsable de las modificaciones ni de la suspensión o la interrupción del Sitio.
+### Duration of Stay
 
-## Marco jurídico
+Recommended length of stay varies by procedure. Patients should not plan return travel until:
 
-Este Sitio y su contenido se rigen por la legislación de Colombia. Todo posible litigio relacionado con el Sitio o con su contenido se dirimirá en los tribunales de justicia colombianos.
+1. Post-procedure follow-up is completed
+2. Medical clearance for travel is provided
+3. Any immediate complications are ruled out
+4. Recovery milestones are achieved
 
-## Cliente, Proveedor y Colaborador
+## Emergency Protocols and Medical Support
 
-## PROTECCION DE DATOS PERSONALES
+### Emergency Response System
 
-La Ley 1581 de 2012 y sus Decretos Reglamentarios, pretenden regular el manejo de datos personales en Colombia, con el fin de proteger el derecho fundamental al habeas data o a la identidad informática. Teniendo en cuenta que Julian Franco, cuenta actualmente con bases de datos en las que reposan datos personales que han sido suministrados por usted en el pasado, en cumplimiento de lo establecido en las normas mencionadas, nos permitimos solicitar su autorización para continuar con el tratamiento de sus datos.
+Our center maintains comprehensive emergency protocols including:
 
-## AUTORIZACION PARA EL TRATAMIENTO DE DATOS PERSONALES Y SENSIBLES
+1. 24/7 emergency contact system for international patients
+2. Partnerships with local hospitals for emergency care
+3. Multilingual medical staff availability
+4. Emergency transportation arrangements
+5. Coordination with travel insurance providers
 
-– En mi calidad de TITULAR declaro de manera libre, voluntaria, expresa, inequívoca que se me ha informado de manera clara y comprensible que tengo derecho a conocer, actualizar y rectificar los datos personales y sensibles proporcionados a Julian Franco, a solicitar prueba de esta autorización, a solicitar información sobre el uso que se le ha dado a mis datos personales, a presentar quejas ante la Superintendencia de Industria y Comercio por el uso indebido de mis datos personales, a revocar esta autorización o solicitar la supresión de los datos personales suministrados y a acceder de forma gratuita a los mismos.
+### Post-Procedure Support
 
-– En mi calidad de TITULAR declaro de manera libre, voluntaria, expresa, inequívoca que conozco y acepto el Las Políticas y Procedimientos de Tratamiento de Datos Personales de Julian Franco y que la información por mí proporcionada es veraz, completa, exacta, actualizada y verificable.
+After returning to their home country, patients receive:
 
-– En mi calidad de TITULAR declaro de manera libre, voluntaria, expresa, inequívoca e informada, que AUTORIZO a Julian Franco, para que, en los términos del literal a) del artículo 6 de la Ley 1581 de 2012, y demás normas que traten y regulen sobre esta materia, realice la recolección, transferencia, almacenamiento, uso, circulación, supresión, y en general, tratamiento de mis datos personales, incluyendo datos sensibles de conformidad con la Ley.
+1. Virtual follow-up consultations
+2. Written post-care instructions in English
+3. Communication channel for questions and concerns
+4. Coordination with local healthcare providers if needed
 
-Esta autorización permitirá a Julian Franco recolectar, transferir, almacenar, usar, circular, suprimir, compartir, actualizar y transmitir, de acuerdo con el procedimiento para el tratamiento de los datos personales y sensibles en procura de cumplir con las siguientes finalidades:
+## Professional Liability and Legal Considerations
 
-a. Ejecutar la relación contractual existente con sus clientes, proveedores y trabajadores, incluida el pago de obligaciones contractuales y el ejercicio de los derechos derivados de los mismos;
+### Jurisdiction and Applicable Law
 
-b. Para el envío de información a sus trabajadores y familiares;
+All medical services are provided in Colombia and are governed by Colombian law. By accepting these terms, patients acknowledge that:
 
-c. Para la prestación de los servicios de salud a los familiares de los trabajadores de Julian Franco, beneficiarios del servicio de salud;
+1. Any medical malpractice claims will be governed by Colombian law
+2. Legal proceedings, if any, will take place in Colombian courts
+3. Colombian standards of medical care apply
+4. Local U.S. or other international medical standards may differ
 
-d. Para el reconocimiento, protección y ejercicio de los derechos de los accionistas de Julian Franco;
+### Insurance and Coverage
 
-e. Registro de proveedores de Julian Andres Franco;
+Patients should understand that:
 
-f. Registro de clientes de Julian Andres Franco;
+1. International health insurance may not cover procedures
+2. Travel insurance is recommended but may have limitations
+3. The center maintains professional liability insurance under Colombian law
+4. Additional international coverage may not be available
 
-g. Proveer los servicios requeridos por sus usuarios;
+## Quality Assurance and Patient Satisfaction
 
-h. Informar sobre nuevos productos o servicios y/o sobre cambios en los mismos;
+### Quality Standards
 
-i. Envío de correos electrónicos informando el estado del trámite de solicitud de servicios que ofrece Julian Andres Franco;
+Our center maintains high quality standards through:
 
-j. Evaluar la calidad del servicio;
+1. Regular audits and inspections
+2. Staff training and certification
+3. Equipment maintenance and updates
+4. Protocol reviews and updates
+5. Patient feedback integration
 
-k. Desarrollar el proceso de selección, evaluación, y vinculación laboral, así como los procesos requeridos para dar cumplimiento a cabalidad de la relación laboral;
+### Continuous Improvement
 
-l. Soportar procesos de auditoría interna o externa;
+We maintain a robust quality improvement program including:
 
-m. Registrar la información de empleados (activos e inactivos) en las bases de datos de Julian Franco;
+1. Patient satisfaction surveys
+2. Outcome monitoring
+3. International best practice reviews
+4. Regular staff development
+5. Technology updates
 
-n. Para la verificación de saldos de sus acreedores;
+## Digital Security and Website Usage
 
-o. Para la determinación de obligaciones pendientes, la consulta de información financiera e historia crediticia y el reporte a centrales de información de obligaciones incumplidas, respecto de sus deudores;
+### Online Privacy and Data Collection
 
-p. Atención de requerimientos judiciales o administrativos; y el cumplimiento de órdenes administrativas o judiciales;
+Our website www.dratatianaleal.com employs security measures that comply with both Colombian data protection laws and international digital security standards. While accessing our website:
 
-q. Atender adecuadamente peticiones, quejas o reclamos;
+1. Data Collection:
+   - Basic browsing information is collected automatically
+   - Personal information is only collected with explicit consent
+   - Medical information submitted online is encrypted
+   - IP addresses and location data may be recorded
 
-r. Generación de estados de cuenta o facturas;
+2. Information Security:
+   - Data is stored on secure servers in Colombia
+   - Encryption protocols protect all data transmission
+   - Regular security audits are performed
+   - Access to patient data is strictly controlled
 
-s. Cumplimiento de mandatos judiciales o legales;
+### Cookie Policy
 
-t. Actividades de cobranza cuando se tratare de obligaciones en dinero,
+Our website uses cookies to enhance user experience. By using our site, you acknowledge that:
 
-u. Estructuración o implementación de procedimientos para la prevención de lavado de activos o financiación del terrorismo,
+1. Essential cookies are necessary for basic functionality
+2. Analytics cookies help us improve our services
+3. Preference cookies remember your settings
+4. Marketing cookies are optional and can be disabled
+5. Third-party cookies may be present on certain pages
 
-v. Atención de requerimientos o solicitudes presentados por la Dirección de Impuestos y Aduanas Nacionales – DIAN, administración municipal de impuestos o entidades de control y vigilancia;
+## Intellectual Property Rights
 
-w. Desarrollo integral del objeto social de la compañía.
+### Content Protection
 
-El alcance de la autorización comprende la facultad para que Julian Franco le envíe mensajes, notificaciones, información del estado de cuenta, saldos, y demás información relativa al portafolio de servicios de la compañía, a través de correo electrónico.
+All content on www.dratatianaleal.com is protected by Colombian and international intellectual property laws:
 
-Mis derechos como TITULAR del dato son los previstos en la constitución y la ley, especialmente el derecho a conocer, actualizar, rectificar y suprimir mi información personal; así como el derecho a revocar el consentimiento otorgado para el tratamiento de datos personales, estos los puedo ejercer a través de los canales dispuestos por Julian Franco para la atención al público y observando la política de tratamiento de datos personales de Julian Franco, disponible en www.juli.com.co/legal
+1. Text and images are proprietary
+2. Medical procedures and techniques are protected
+3. Brand elements cannot be used without permission
+4. Patient photos are used only with explicit consent
 
-Otorgo mi consentimiento a Julian Franco para tratar mi información personal, y sensible de acuerdo con la política de tratamiento de datos personales, y por tanto me comprometo a leer el aviso de privacidad y la política mencionada disponible en: www.juli.com.co/legal
+### Permitted Use
 
-Autorizo a Julian Franco a modificar o actualizar su contenido, a fin de atender reformas legislativas, políticas internas o nuevos requerimientos para la prestación u ofrecimiento de servicios, dando aviso previo por medio de la página web de la compañía, y/o correo electrónico.
+Website visitors may:
 
-En caso en que usted no desee que Julian Andres Franco acceda, procese y en general use la información que usted nos suministre, sírvase enviar por este mismo medio y dentro de los cinco (5) días siguientes al uso de este sitio web, o del recibo de nuestros correos electrónicos y mensajes de texto de suscripción y registros de sus datos, una comunicación en la que se nos indique que no se autoriza ni el acceso ni el almacenamiento, proceso y uso de dicha información sabiendo que ello ocurrirá conforme a lo recién descrito.
+1. View content for personal use
+2. Download materials specifically marked for download
+3. Print information for personal reference
+4. Share links to our content
+
+## International Communications
+
+### Language Policy
+
+While our primary languages are Spanish and English:
+
+1. Official documents are maintained in Spanish
+2. English translations are provided for convenience
+3. In case of discrepancy, Spanish version prevails
+4. Translation services are available for other languages
+
+### Electronic Communications
+
+For international patients:
+
+1. Email communications are secured and encrypted
+2. Virtual consultations use HIPAA-compliant platforms
+3. Medical records can be transmitted securely
+4. Time zone differences are considered for scheduling
+
+## Final Provisions
+
+### Modifications to Terms
+
+These terms may be modified:
+
+1. With notice on our website
+2. Through email notification when possible
+3. With clear indication of changes
+4. Maintaining archive of previous versions
+
+### Severability
+
+If any provision is found invalid:
+
+1. Remaining terms remain in effect
+2. Invalid terms will be modified to comply with law
+3. Purpose of original provision will be maintained
+4. Users will be notified of significant changes
+
+### Contact Information
+
+For questions or concerns:
+
+International Patient Coordinator
+Email: {{site.email}}
+Phone: +57 {{site.telefono}}
+WhatsApp: +57 {{site.telefono}}
+Address: {{site.direccion}}, Colombia
+
+### Effective Date and Version
+
+Current Version: 001
+Last Updated: december 09, 2024
+Effective Since: december 09, 2024
+
+## Acknowledgment
+
+By using our services, you acknowledge that:
+
+1. You have read and understood these terms
+2. You accept Colombian jurisdiction for medical services
+3. You understand the international nature of the services
+4. You agree to all conditions specified herein
+
+For medical emergencies in Colombia, contact:
+Emergency Services: +57 {{site.telefono}}
+Clinic Emergency Line: +57 {{site.telefono}}
+
+---
+
+These Terms and Conditions were last reviewed and approved by our legal team on december 09, 2024.
