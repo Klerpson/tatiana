@@ -68,7 +68,7 @@ collections:
   tecnologia_es:
     output: true
     permalink: /es/tecnologia/:slug/
-  tegnology_en:
+  tecnologia_en:
     output: true
     permalink: /en/tegnology/:slug/
 
@@ -119,13 +119,25 @@ defaults:
       layout: "servicios"
   - scope:
       path: ""
-      type: "ginecologia-estetica_es"
+      type: "tratamientos-intimos_es"
     values:
       lang: "es"
       layout: "servicios"
   - scope:
       path: ""
-      type: "ginecologia-estetica_en"
+      type: "tratamientos-intimos_en"
+    values:
+      lang: "en"
+      layout: "servicios"
+  - scope:
+      path: ""
+      type: "tecnologia_es"
+    values:
+      lang: "es"
+      layout: "servicios"
+  - scope:
+      path: ""
+      type: "tecnologia_en"
     values:
       lang: "en"
       layout: "servicios"

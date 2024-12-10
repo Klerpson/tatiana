@@ -64,7 +64,8 @@ layout: default
             <img src="{{ post.hero | relative_url }}" 
                  alt="{{ post.altheader | default: post.title }}" 
                  title="{{ post.imgtitle-header | default: post.title }}" 
-                 loading="lazy" width="40" height="40">
+                 loading="lazy" width="40" height="40"
+                 decoding="async" >
           {% endif %}
           <h5>{{ post.title }}</h5>
         </a>
