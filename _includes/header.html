@@ -6,14 +6,7 @@
     <h1>{{page.h1}}</h1>
     <p>{{page.subtitle}}</p>
     <p>{{page.description}}</p>
-    <a href="#" class="boton boton_principal" id="lead_whatsapp"
-      title="{% if page.lang == 'es' %}WhatsApp de Tatiana Leal{% else %}Tatiana Leal's WhatsApp{% endif %}">
-      {% if page.lang == "es" %}
-      Agenda tu cita ahora
-      {% else %}
-      Schedule your appointment now
-      {% endif %}
-    </a>
+    {% include boton.html %}
   </div>
   <div class="image-container">
     <picture>
@@ -26,13 +19,13 @@
   </div>
 </header>
 {% when "corporate" %}
-<header class="center flow padding">
-  <h1 class="center">{{page.h1}}</h1>
-  <p class="center">{{page.description}}</p>
+<header class="intro flow padding">
+  <h1>{{page.h1}}</h1>
+  <p>{{page.description}}</p>
 </header>
-<section class="section img-bgr text-container-center" style="background-image: url('/img/limpieza-facial-profunda-en-bogota.avif'); background-attachment: fixed;">
-  <div class="hero-content flow">
-    <h2 class="center">{{page.title}}</h2>
+<section class="parallax padding parallax_centro-estetico">
+  <div class="parallax_copy intro flow">
+    <h2>{{page.title}}</h2>
     {% include boton.html %}
   </div>
 </section>
@@ -45,14 +38,7 @@
       <div class=" flow">
         <h1>{{ page.h1 }}</h1>
         <p>{{ page.description }}</p>
-        <a href="#" class="boton boton_principal" id="lead_whatsapp"
-          title="{% if page.lang == 'es' %}WhatsApp de Tatiana Leal{% else %}Tatiana Leal's WhatsApp{% endif %}">
-          {% if page.lang == "es" %}
-          Agenda tu cita ahora
-          {% else %}
-          Schedule your appointment now
-          {% endif %}
-        </a>
+        {% include boton.html %}
       </div>
       <div class="three_columns">
         <div class="flow icons">
