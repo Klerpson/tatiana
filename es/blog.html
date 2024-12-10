@@ -28,12 +28,12 @@ alt: "Clínica de medicina estética en Bogotá, Dra. Tatiana Leal"
     {% for post in posts limit:6 %}
     <div class="card flow">
       <div class="card-image">
-        <img src="{{ post.hero | relative_url }}" alt="{{ post.alt }}">
+        <img src="{{ post.hero | relative_url }}/" alt="{{ post.alt }}">
       </div>
       <div class="card-content">
         <h3>{{ post.title }}</h3>
         <p>{{ post.excerpt | truncate: 144 }}</p>
-        <a href="{{ post.url | relative_url }}" class="boton">
+        <a href="{{ post.url | relative_url }}/" class="boton">
           {% if current_lang == "en" %}Read more{% else %}Leer más{% endif %}
         </a>
       </div>
@@ -58,6 +58,6 @@ alt: "Clínica de medicina estética en Bogotá, Dra. Tatiana Leal"
     </p>
   </div>
   <div>
-    <img src="{{'img/hilos-tensores-bogota-colombia.avif' | relative_url}}" loading="lazy" alt="">
+    <img src="{{'img/hilos-tensores-bogota-colombia.avif' | relative_url}}" loading="lazy" alt="Foto de un tratamiento de hilos tensores en Bogotá">
   </div>
 </section>

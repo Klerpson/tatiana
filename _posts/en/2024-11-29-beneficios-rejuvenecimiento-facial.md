@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: articulo
 lang: en
 title: "5 Beneficios del Rejuvenecimiento Facial - Dra. Tatiana Leal"
 description: "Descubre los beneficios del rejuvenecimiento facial para tu piel. Aprende cómo este tratamiento puede ayudarte a mejorar tu confianza y lucir más joven."
