@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: main
+ref: legal
 lang: en
 title: Terms and Conditions | dratatianaleal.com
 description: "Dr. Tatiana Leal's terms and conditions for open and using our website www.dratatianaleal.com"

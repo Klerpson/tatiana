@@ -43,11 +43,11 @@
   </div>
   <div class="footer-bottom">
     {% if current_lang == "es" %}
-      <small><a href="{{ 'es/legal' | relative_url }}" title="Términos legales del blog de Juli">Términos y Condiciones</a></small>
+      <small><a href="{{ 'es/legal/' | relative_url }}" title="Términos legales del blog de Juli">Términos y Condiciones</a></small>
       <small>© <strong>dratatianaleal.com</strong> {{ "now" | date:"%Y" }} - Todos los derechos reservados</small>
       <small class="small">- Página web desarrollada por <a href="https://juli.com.co">Juli.Com.Co</a></small>
     {% else %}
-      <small><a href="{{ 'en/legal' | relative_url }}" title="Legal terms of Juli's blog">Terms and Conditions</a></small>
+      <small><a href="{{ 'en/legal/' | relative_url }}" title="Legal terms of Juli's blog">Terms and Conditions</a></small>
       <small>© <strong>dratatianaleal.com</strong> {{ "now" | date:"%Y" }} - All rights reserved</small>
       <small class="small">- Website developed by <a href="https://juli.com.co">Juli.Com.Co</a></small>
     {% endif %}

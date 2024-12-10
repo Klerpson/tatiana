@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: main
+ref: legal
 lang: es
 title: Términos y Codiciones de Uso | dratatianaleal.com
 description: Términos y condiciones de uso de la página dratatianaleal.com
