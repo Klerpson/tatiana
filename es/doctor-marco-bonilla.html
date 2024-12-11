@@ -9,16 +9,16 @@ title: "Dr. Marco Bonilla - Ginecólogo y Obstetra Especializado en Medicina Est
 h1: "Dr. Marco Bonilla: Cuidado Integral de la Mujer"
 description: "El Dr. Marco Bonilla, especialista en Ginecología y Obstetricia con más de una década de experiencia, ofrece atención médica personalizada y tratamientos estéticos especializados para la mujer."
 ---
-<section class="gallery-container padding seccion">
-  <div class="intro flow center">
+<section class="padding seccion">
+  <div class="intro flow">
     <h2>Especialista en el Cuidado Integral Femenino</h2>
     <p>El Dr. Marco Bonilla combina su experiencia en Ginecología y Obstetricia con técnicas avanzadas en medicina estética, ofreciendo un enfoque holístico para el bienestar y la belleza femenina.</p>
   </div>
 </section>
 
-<main class="padding flow">
-  <div class="flow two_columns">
-    <div class="flow">
+<main>
+  <div class="two_columns">
+    <div class="flow padding">
       <h2>Formación Académica</h2>
       <ul>
         <li>Especialista en Ginecología y Obstetricia - Universidad Militar Nueva Granada</li>
@@ -27,43 +27,34 @@ description: "El Dr. Marco Bonilla, especialista en Ginecología y Obstetricia c
         <li>Curso Internacional de láser en ginecología estética funcional</li>
       </ul>
     </div>
-    <div>
-      <img src="{{ 'img/doctor-marco-bonilla-consultorio.avif' | relative_url }}" width="520" height="520" alt="Consultorio Dr. Marco Bonilla">
+    <div class="two_columns-image">
+      <img src="{{ 'img/doctor-marco-bonilla-consultorio.avif' | relative_url }}" width="520" height="520" alt="Consultorio Dr. Marco Bonilla" loading="lazy" decoding="async">
     </div>
   </div>
-
-  <div class="flow two_columns two_columns_left seccion">
-    <div class="flow">
+  <div class="two_columns two_columns_left seccion">
+    <div class="flow padding">
       <h3>¿Por qué elegir al Dr. Marco Bonilla?</h3>
       <p>Laura, de 38 años, había visitado varios especialistas buscando soluciones para sus problemas íntimos post-parto. "Me sentía incómoda y avergonzada", comparte. "El Dr. Bonilla no solo me brindó un tratamiento efectivo, sino que su profesionalismo y empatía me hicieron sentir completamente segura y comprendida".</p>
-      
       <p>Esta es solo una de las muchas historias que reflejan el compromiso del Dr. Bonilla con el bienestar integral de sus pacientes.</p>
-      <a href="#" class="boton boton_principal" id="lead_whatsapp"
-        title="{% if page.lang == 'es' %}WhatsApp de Tatiana Leal{% else %}Tatiana Leal's WhatsApp{% endif %}">
-        {% if page.lang == "es" %}
-        Agenda tu cita ahora
-        {% else %}
-        Schedule your appointment now
-        {% endif %}
-      </a>
+      {% include boton.html %}
     </div>
-    <div>
-      <img src="{{ 'img/ginecologia-estetica-bogota.avif' | relative_url }}" width="520" height="520" alt="Tratamientos de ginecología estética">
+    <div class="two_columns-image">
+      <img src="{{ 'img/ginecologia-estetica-bogota.avif' | relative_url }}" width="520" height="520" alt="Tratamientos de ginecología estética" loading="lazy" decoding="async">
     </div>
   </div>
 </main>
 
-<article class="section img-bgr text-container-center" style="background-image: url('/img/centro-medicina-estetica-doctor-bonilla.avif');">
-  <div class="hero-content flow">
-    <h2 class="center">Experiencias de Nuestras Pacientes</h2>
-    <p class="center">"El Dr. Bonilla es excepcional. Su aproximación integral a la salud femenina marca la diferencia. Me ayudó no solo con mis preocupaciones estéticas, sino que también me dio la confianza para hablar abiertamente sobre temas íntimos que me preocupaban."</p>
-    <p class="center"><strong>- Carolina Ramírez, 41 años</strong></p>
+<section class="parallax padding parallax_hilos-tensores">
+  <div class="parallax_copy intro flow">
+    <h2>Experiencias de Nuestras Pacientes</h2>
+    <p>"El Dr. Bonilla es excepcional. Su aproximación integral a la salud femenina marca la diferencia. Me ayudó no solo con mis preocupaciones estéticas, sino que también me dio la confianza para hablar abiertamente sobre temas íntimos que me preocupaban."</p>
+    <p><strong>- Carolina Ramírez, 41 años</strong></p>
   </div>
-</article>
+</section>
 
-<section class="section padding">
+<section class="padding">
   <div class="accordion">
-    <h2 class="center">Áreas de Especialización</h2>
+    <h2>Áreas de Especialización</h2>
     
     <input type="checkbox" id="acc1" class="accordion-toggle">
     <label for="acc1" class="accordion-header">Ginecología Estética</label>
@@ -101,9 +92,9 @@ description: "El Dr. Marco Bonilla, especialista en Ginecología y Obstetricia c
 </section>
 
 <main class="block_section">
-  <div class="block_section_image_left padding img_seccion">
+  <div class="block_section_image_left padding">
   </div>
-  <div class="block_section_knowledge img_seccion">
+  <div class="block_section_knowledge flow">
     <h2>Compromiso con la Excelencia</h2>
     <ul>
       <li>Más de una década de experiencia en ginecología</li>
@@ -113,19 +104,16 @@ description: "El Dr. Marco Bonilla, especialista en Ginecología y Obstetricia c
       <li>Procedimientos mínimamente invasivos</li>
     </ul>
   </div>
-  <div class="block_section_image_right img_seccion padding" style="background-color: var(--gris1); background-image: url('/img/rejuvenecimiento-intimo.avif');">
+  <div class="block_section_image_right padding flow">
     <h2>Comienza Tu Camino hacia el Bienestar</h2>
     <p>Agenda una consulta con el Dr. Bonilla y descubre cómo podemos ayudarte a mejorar tu calidad de vida</p>
-    
-    <a href="#" class="boton boton_principal" id="lead_whatsapp" title="WhatsApp Dr. Bonilla">
-      Reserva tu Consulta Confidencial
-    </a>
-    <p class="center" style="margin-top: 1em;"><small>* Atención personalizada y discreta</small></p>
+    <a href="#" class="boton boton_principal" id="lead_whatsapp" title="WhatsApp Dr. Bonilla" rel="noopener nofollow noreferrer" target="_blank">Reserva tu Consulta Confidencial</a>
+    <p><small>* Atención personalizada y discreta</small></p>
   </div>
 </main>
 
 <section class="padding">
-  <h2 class="center">Servicios Especializados</h2>
+  <h2>Servicios Especializados</h2>
   <div class="service-cards">
     <div class="card">
       <h3>Ginecología Estética</h3>
@@ -157,9 +145,9 @@ description: "El Dr. Marco Bonilla, especialista en Ginecología y Obstetricia c
 </section>
 
 <section class="padding">
-  <div class="flow center">
-    <h2 class="center">Tu Salud y Bienestar son Nuestra Prioridad</h2>
-    <p class="center">Agenda una consulta con el <strong>Dr. Marco Bonilla</strong> y descubre cómo nuestro enfoque integral puede ayudarte a mejorar tu calidad de vida.</p>
-    <a href="#" class="boton boton_principal">Contáctanos</a>
+  <div class="flow intro">
+    <h2>Tu Salud y Bienestar son Nuestra Prioridad</h2>
+    <p>Agenda una consulta con el <strong>Dr. Marco Bonilla</strong> y descubre cómo nuestro enfoque integral puede ayudarte a mejorar tu calidad de vida.</p>
+    {% include boton.html %}
   </div>
 </section>

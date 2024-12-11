@@ -9,16 +9,16 @@ title: "Dr. Andrea Rincon - Anti-aging Medicine and Laser Technology Specialist"
 h1: "Dr. Andrea Rincon: Expert in Rejuvenation and Laser Technology"
 description: "Dr. Andrea Rincon, specialist in anti-aging medicine and laser technology, offers advanced treatments to enhance skin quality and naturally rejuvenate facial features."
 ---
-<section class="gallery-container padding seccion">
-  <div class="intro flow center">
+<section class="padding seccion">
+  <div class="intro flow">
     <h2>Cutting-Edge Technology for Your Natural Beauty</h2>
     <p>Dr. Andrea Rincon combines her expertise in anti-aging medicine with the latest laser technologies to offer personalized treatments that enhance your natural beauty with long-lasting results.</p>
   </div>
 </section>
 
-<main class="padding flow">
-  <div class="flow two_columns">
-    <div class="flow">
+<main>
+  <div class="two_columns">
+    <div class="flow padding">
       <h2>Specialization and Experience</h2>
       <ul>
         <li>Medical Doctor specialized in Anti-aging Medicine - John F. Kennedy University, Buenos Aires</li>
@@ -27,43 +27,35 @@ description: "Dr. Andrea Rincon, specialist in anti-aging medicine and laser tec
         <li>Expert in skin quality and facial rejuvenation</li>
       </ul>
     </div>
-    <div>
-      <img src="{{ 'img/doctora-andrea-rincon-consultorio.avif' | relative_url }}" width="520" height="520" alt="Dr. Andrea Rincon's Office">
+    <div class="two_columns-image">
+      <img src="{{ 'img/doctora-andrea-rincon-consultorio.avif' | relative_url }}" width="520" height="520" alt="Dr. Andrea Rincon's Office" loading="lazy" decoding="async">
     </div>
   </div>
 
-  <div class="flow two_columns two_columns_left seccion">
-    <div class="flow">
+  <div class="two_columns two_columns_left seccion">
+    <div class="padding flow">
       <h3>The Difference of Working with Dr. Rincon</h3>
       <p>Patricia, a 52-year-old executive director, came to our clinic concerned about signs of aging on her face. "I wanted to look refreshed but was afraid of losing my natural expressions," she recalls. After her personalized laser treatment, her colleagues noticed a positive change without being able to pinpoint exactly what had changed.</p>
-      
       <p>"Dr. Rincon understood exactly what I needed. Now I look and feel radiant, but completely natural," Patricia shares.</p>
-      <a href="#" class="boton boton_principal" id="lead_whatsapp"
-        title="{% if page.lang == 'es' %}WhatsApp de Tatiana Leal{% else %}Tatiana Leal's WhatsApp{% endif %}">
-        {% if page.lang == "es" %}
-        Agenda tu cita ahora
-        {% else %}
-        Schedule your appointment now
-        {% endif %}
-      </a>
+      {% include boton.html %}
     </div>
-    <div>
-      <img src="{{ 'img/tratamiento-rejuvenecimiento-laser.avif' | relative_url }}" width="520" height="520" alt="Laser technology treatment">
+    <div class="two_columns-image">
+      <img src="{{ 'img/tratamiento-rejuvenecimiento-laser.avif' | relative_url }}" width="520" height="520" alt="Laser technology treatment" loading="lazy" decoding="async">
     </div>
   </div>
 </main>
 
-<article class="section img-bgr text-container-center" style="background-image: url('/img/centro-medicina-estetica-doctora-rincon.avif');">
-  <div class="hero-content flow">
-    <h2 class="center">Real Transformation Stories</h2>
-    <p class="center">"I came looking to improve some spots on my face and found so much more. Dr. Rincon didn't just treat my skin - she taught me how to care for it. Her laser treatments are practically painless, and the results exceeded my expectations. My skin doesn't just look better, it's healthier."</p>
-    <p class="center"><strong>- Sofia Martinez, Age 48, Business Owner</strong></p>
+<section class="parallax padding parallax_hilos-tensores">
+  <div class="parallax_copy intro flow">
+    <h2>Real Transformation Stories</h2>
+    <p>"I came looking to improve some spots on my face and found so much more. Dr. Rincon didn't just treat my skin - she taught me how to care for it. Her laser treatments are practically painless, and the results exceeded my expectations. My skin doesn't just look better, it's healthier."</p>
+    <p><strong>- Sofia Martinez, Age 48, Business Owner</strong></p>
   </div>
-</article>
+</section>
 
-<section class="section padding">
+<section class="padding">
   <div class="accordion">
-    <h2 class="center">Specialized Treatments</h2>
+    <h2>Specialized Treatments</h2>
     
     <input type="checkbox" id="acc1" class="accordion-toggle">
     <label for="acc1" class="accordion-header">Facial Rejuvenation with Laser</label>
@@ -101,9 +93,9 @@ description: "Dr. Andrea Rincon, specialist in anti-aging medicine and laser tec
 </section>
 
 <main class="block_section">
-  <div class="block_section_image_left padding img_seccion">
+  <div class="block_section_image_left padding">
   </div>
-  <div class="block_section_knowledge img_seccion">
+  <div class="block_section_knowledge">
     <h2>Why Choose Dr. Andrea Rincon?</h2>
     <ul>
       <li>Expert in state-of-the-art laser technology</li>
@@ -113,19 +105,16 @@ description: "Dr. Andrea Rincon, specialist in anti-aging medicine and laser tec
       <li>Continuous care and detailed follow-up</li>
     </ul>
   </div>
-  <div class="block_section_image_right img_seccion padding" style="background-color: var(--gris1); background-image: url('/img/rejuvenecimiento-facial-laser.avif');">
+  <div class="block_section_image_right padding flow">
     <h2>Discover Your Best Self</h2>
     <p>Schedule a personalized consultation and learn how laser technology can help you achieve the skin you desire</p>
-    
-    <a href="#" class="boton boton_principal" id="lead_whatsapp" title="WhatsApp Dr. Rincon">
-      Book Your Free Consultation
-    </a>
-    <p class="center" style="margin-top: 1em;"><small>* Limited spots available this week</small></p>
+    {% include boton.html %}
+    <p><small>* Limited spots available this week</small></p>
   </div>
 </main>
 
 <section class="padding">
-  <h2 class="center">Technologies and Treatments</h2>
+  <h2>Technologies and Treatments</h2>
   <div class="service-cards">
     <div class="card">
       <h3>Advanced Laser</h3>
@@ -157,9 +146,9 @@ description: "Dr. Andrea Rincon, specialist in anti-aging medicine and laser tec
 </section>
 
 <section class="padding">
-  <div class="flow center">
-    <h2 class="center">Transform Your Skin with the Best Technology</h2>
-    <p class="center">Schedule a consultation with <strong>Dr. Andrea Rincon</strong> and discover how laser technology can help you achieve radiant, healthy skin.</p>
-    <a href="#" class="boton boton_principal">Contact Us</a>
+  <div class="flow intro">
+    <h2>Transform Your Skin with the Best Technology</h2>
+    <p>Schedule a consultation with <strong>Dr. Andrea Rincon</strong> and discover how laser technology can help you achieve radiant, healthy skin.</p>
+    {% include boton.html %}
   </div>
 </section>
