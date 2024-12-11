@@ -213,6 +213,21 @@
   background-image: linear-gradient(rgba(0, 46, 81, 0.6), rgba(0, 46, 81, 0.6)),
     url('{{"img/tratamiento-manchas.avif" | relative_url}}');
 }
+
+.parallax_limpieza-facial {
+  background-image: linear-gradient(rgba(0, 46, 81, 0.6), rgba(0, 46, 81, 0.6)),
+    url('{{"img/limpieza-facial-profunda-bogota.avif" | relative_url}}');
+}
+
+.parallax_rejuve {
+  background-image: linear-gradient(rgba(0, 46, 81, 0.6), rgba(0, 46, 81, 0.6)),
+    url('{{"img/centro-estetico-rejuvenecimiento.avif" | relative_url}}');
+}
+
+.parallax_vitamina-c {
+  background-image: linear-gradient(rgba(0, 46, 81, 0.6), rgba(0, 46, 81, 0.6)),
+    url('{{"img/vitamina-c-facial.avif" | relative_url}}');
+}
 /* overlay */
 .section-overlay {
   background: var(--principal);
