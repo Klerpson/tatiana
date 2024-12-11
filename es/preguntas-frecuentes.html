@@ -10,7 +10,7 @@ h1: "Respuestas a Tus Dudas sobre Medicina Estética"
 description: "Encuentra respuestas a todas tus preguntas sobre tratamientos estéticos en Bogotá. Procedimientos seguros, resultados naturales y atención personalizada por nuestro equipo médico especializado."
 ---
 
-<main class="gallery-container padding seccion">
+<main class="padding seccion">
   <div class="intro flow center">
     <h2>Todo lo que Necesitas Saber sobre Nuestros Tratamientos</h2>
     <p>Entendemos que dar el paso hacia un tratamiento estético puede generar dudas. Por eso, hemos recopilado y respondido las preguntas más frecuentes de nuestros pacientes, basándonos en más de 15 años de experiencia en medicina estética.</p>
@@ -40,9 +40,9 @@ description: "Encuentra respuestas a todas tus preguntas sobre tratamientos est�
   </div>
 </section>
 
-<section class="section padding">
+<section class="padding">
   <div class="accordion">
-    <h2 class="center">Preguntas Frecuentes sobre Procedimientos y Resultados</h2>
+    <h2>Preguntas Frecuentes sobre Procedimientos y Resultados</h2>
 
     <input type="checkbox" id="acc1" class="accordion-toggle">
     <label for="acc1" class="accordion-header">¿Los resultados se verán naturales?</label>
@@ -118,18 +118,18 @@ description: "Encuentra respuestas a todas tus preguntas sobre tratamientos est�
   </div>
 </section>
 
-<article class="section img-bgr text-container-center" style="background-image: url('/img/centro-medicina-estetica-doctora-tatiana-leal.avif'); background-attachment: fixed;">
-  <div class="hero-content flow">
-    <h2 class="center">La experiencia de nuestras pacientes</h2>
-    <p class="center">"Después de investigar varias clínicas en Bogotá y Estados Unidos, elegí la Dra. Tatiana Leal por su transparencia al responder todas mis preguntas y dudas. Me preocupaba someterme a cualquier procedimiento estético, pero su equipo me hizo sentir segura en todo momento. Los resultados superaron mis expectativas - mi rostro luce natural y rejuvenecido, exactamente lo que buscaba."</p>
-    <p class="center"><strong>- Jennifer Smith, 47 años, Ejecutiva Internacional</strong></p>
+<section class="parallax padding parallax_hilos-tensores">
+  <div class="parallax_copy intro flow">
+    <h2>La experiencia de nuestras pacientes</h2>
+    <p>"Después de investigar varias clínicas en Bogotá y Estados Unidos, elegí la Dra. Tatiana Leal por su transparencia al responder todas mis preguntas y dudas. Me preocupaba someterme a cualquier procedimiento estético, pero su equipo me hizo sentir segura en todo momento. Losectativas - mi rostro luce natural y rejuvenecido, exactamente lo que buscaba."</p>
+    <p><strong>- Jennifer Smith, 47 años, Ejecutiva Internacional</strong></p>
   </div>
-</article>
+</section>
 
 <section class="seccion padding">
-  <div class="flow">
-    <h2 class="center">Da el Primer Paso hacia tu Transformación</h2>
-    <p class="center">Agenda tu consulta gratuita y resuelve todas tus dudas con nuestro equipo médico especializado</p>
+  <div class="flow intro">
+    <h2>Da el Primer Paso hacia tu Transformación</h2>
+    <p>Agenda tu consulta gratuita y resuelve todas tus dudas con nuestro equipo médico especializado</p>
 
     <div class="service-cards three_columns">
       <div class="card">
@@ -148,15 +148,9 @@ description: "Encuentra respuestas a todas tus preguntas sobre tratamientos est�
       </div>
     </div>
 
-    <div class="center" style="margin-top: 2em;">
-      <a href="#" class="boton boton_principal" id="lead_whatsapp" title="{% if page.lang == 'es' %}WhatsApp de Tatiana Leal{% else %}Tatiana Leal's WhatsApp{% endif %}">
-        {% if page.lang == "es" %}
-        Agenda tu consulta gratuita
-        {% else %}
-        Schedule your free consultation
-        {% endif %}
-      </a>
-      <p class="center" style="margin-top: 1em;"><small>* Cupos limitados disponibles esta semana</small></p>
+    <div class="intro">
+      {% include boton.html %}
+      <p><small>* Cupos limitados disponibles esta semana</small></p>
     </div>
   </div>
 </section>
