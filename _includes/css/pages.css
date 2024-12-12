@@ -233,6 +233,21 @@
   background-image: linear-gradient(rgba(0, 46, 81, 0.6), rgba(0, 46, 81, 0.6)),
     url('{{"img/moldeamiento-corporal-en-bogota.avif" | relative_url}}');
 }
+
+.parallax_celulitis {
+  background-image: linear-gradient(rgba(0, 46, 81, 0.6), rgba(0, 46, 81, 0.6)),
+    url('{{"img/tratamiento-celulitis-en-bogota.avif" | relative_url}}');
+}
+
+.parallax_gluteos {
+  background-image: linear-gradient(rgba(0, 46, 81, 0.6), rgba(0, 46, 81, 0.6)),
+    url('{{"img/levantamiento-gluteos-sin-cirugia.avif" | relative_url}}');
+}
+
+.parallax_detox {
+  background-image: linear-gradient(rgba(0, 46, 81, 0.6), rgba(0, 46, 81, 0.6)),
+    url('{{"img/sueroterapia-detox-en -bogota.avif" | relative_url}}');
+}
 /* overlay */
 .section-overlay {
   background: var(--principal);
