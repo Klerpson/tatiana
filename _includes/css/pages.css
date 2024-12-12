@@ -263,6 +263,16 @@
   background-image: linear-gradient(rgba(0, 46, 81, 0.6), rgba(0, 46, 81, 0.6)),
     url('{{"img/radiofrecuencia-corporal-bogota.avif" | relative_url}}');
 }
+
+.parallax_varices{
+  background-image: linear-gradient(rgba(0, 46, 81, 0.6), rgba(0, 46, 81, 0.6)),
+    url('{{"img/tratamiento-varices-en-bogota.avif" | relative_url}}');
+}
+
+.parallax_tatuajes {
+  background-image: linear-gradient(rgba(0, 46, 81, 0.6), rgba(0, 46, 81, 0.6)),
+    url('{{"img/eliminacion-tatuajes-laser-centro-estetico.avif" | relative_url}}');
+}
 /* overlay */
 .section-overlay {
   background: var(--principal);
