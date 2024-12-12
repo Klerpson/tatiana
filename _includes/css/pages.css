@@ -228,6 +228,11 @@
   background-image: linear-gradient(rgba(0, 46, 81, 0.6), rgba(0, 46, 81, 0.6)),
     url('{{"img/vitamina-c-facial.avif" | relative_url}}');
 }
+
+.parallax_moldeamiento-corporal {
+  background-image: linear-gradient(rgba(0, 46, 81, 0.6), rgba(0, 46, 81, 0.6)),
+    url('{{"img/moldeamiento-corporal-en-bogota.avif" | relative_url}}');
+}
 /* overlay */
 .section-overlay {
   background: var(--principal);
