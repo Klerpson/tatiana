@@ -1,5 +1,5 @@
 ---
-layout: main
+layout: legal
 ref: legal
 lang: es
 title: Términos y Codiciones de Uso | dratatianaleal.com
@@ -9,6 +9,11 @@ hero: img/favicon/apple-touch-icon-180x180.png
 noindex: true
 ---
 [Inicio]({{site.baseurl}}/) - Términos y Condiciones
+
+## Enlaces de interés inmediatos
+
+* This will become a table of contents (this text will be scrapped).
+{:toc}
 
 ## Marco Legal y Regulatorio
 
@@ -245,7 +250,7 @@ Sobrevivirán a la terminación de la relación entre el paciente y el centro m�
 
 ### Fecha de Última Actualización
 
-Este documento fue actualizado por última vez el 09 de diciembre de 2024. Se recomienda a los usuarios revisar periódicamente estos Términos y Condiciones para mantenerse informados sobre cualquier modificación.
+Este documento fue actualizado por última vez el [FECHA]. Se recomienda a los usuarios revisar periódicamente estos Términos y Condiciones para mantenerse informados sobre cualquier modificación.
 
 ## Aceptación
 
@@ -258,4 +263,7 @@ Para cualquier duda o aclaración sobre estos Términos y Condiciones, puede con
 - Correo electrónico: {{site.email}}
 - Teléfono: {{site.telefono}}
 - Dirección: {{site.direccion}}
-- Horario de atención: lunes a viernes, de 8am a 12 y de 2pm a 6pm. Sábados de 8am a 12m. Domingos y festivos sin atención al público.
+- Horario de atención:  
+   Lunes-Jueves: 8 AM - 7 PM  
+   Viernes: 7 AM - 8 PM  
+   Sábado: 8 AM - 2 PM

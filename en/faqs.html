@@ -10,7 +10,7 @@ h1: "Answers to Your Questions about Aesthetic Medicine"
 description: "Find answers to all your questions about aesthetic treatments in Bogotá. Safe procedures, natural results, and personalized care by our specialized medical team."
 ---
 
-<main class="gallery-container padding seccion">
+<main class="padding seccion">
   <div class="intro flow center">
     <h2>Everything You Need to Know About Our Treatments</h2>
     <p>We understand that taking the first step toward an aesthetic treatment can raise questions. That's why we've compiled and answered our patients' most frequent questions, based on over 15 years of experience in aesthetic medicine.</p>
@@ -40,9 +40,9 @@ description: "Find answers to all your questions about aesthetic treatments in B
   </div>
 </section>
 
-<section class="section padding">
+<section class="padding">
   <div class="accordion">
-    <h2 class="center">Frequently Asked Questions about Procedures and Results</h2>
+    <h2>Frequently Asked Questions about Procedures and Results</h2>
 
     <input type="checkbox" id="acc1" class="accordion-toggle">
     <label for="acc1" class="accordion-header">Will the results look natural?</label>
@@ -118,18 +118,18 @@ description: "Find answers to all your questions about aesthetic treatments in B
   </div>
 </section>
 
-<article class="section img-bgr text-container-center" style="background-image: url('/img/centro-medicina-estetica-doctora-tatiana-leal.avif'); background-attachment: fixed;">
-  <div class="hero-content flow">
-    <h2 class="center">Our Patients' Experience</h2>
-    <p class="center">"After researching several clinics in Bogotá and the United States, I chose Dr. Tatiana Leal for her transparency in answering all my questions and concerns. I was worried about undergoing any aesthetic procedure, but her team made me feel safe throughout the process. The results exceeded my expectations - my face looks natural and rejuvenated, exactly what I was looking for."</p>
-    <p class="center"><strong>- Jennifer Smith, age 47, International Executive</strong></p>
+<section class="parallax padding parallax_hilos-tensores">
+  <div class="parallax_copy intro flow">
+    <h2>Our Patients' Experience</h2>
+    <p>"After researching several clinics in Bogotá and the United States, I chose Dr. Tatiana Leal for her transparency in answering all my questions and concerns. I was worried about undergoing any aesthetic procedure, but her team made me feel safe throughout the process. The results exceeded my expectations - my face looks natural and rejuvenated, exactly what I was looking for."</p>
+    <p><strong>- Jennifer Smith, age 47, International Executive</strong></p>
   </div>
-</article>
+</section>
 
 <section class="seccion padding">
-  <div class="flow">
-    <h2 class="center">Take the First Step Toward Your Transformation</h2>
-    <p class="center">Schedule your free consultation and get all your questions answered by our specialized medical team</p>
+  <div class="flow intro">
+    <h2>Take the First Step Toward Your Transformation</h2>
+    <p>Schedule your free consultation and get all your questions answered by our specialized medical team</p>
 
     <div class="service-cards three_columns">
       <div class="card">
@@ -148,15 +148,9 @@ description: "Find answers to all your questions about aesthetic treatments in B
       </div>
     </div>
 
-    <div class="center" style="margin-top: 2em;">
-      <a href="#" class="boton boton_principal" id="lead_whatsapp" title="{% if page.lang == 'es' %}WhatsApp de Tatiana Leal{% else %}Tatiana Leal's WhatsApp{% endif %}">
-        {% if page.lang == "es" %}
-        Agenda tu consulta gratuita
-        {% else %}
-        Schedule your free consultation
-        {% endif %}
-      </a>
-      <p class="center" style="margin-top: 1em;"><small>* Limited spots available this week</small></p>
+    <div class="intro">
+      {% include boton.html %}
+      <p><small>* Limited spots available this week</small></p>
     </div>
   </div>
 </section>
