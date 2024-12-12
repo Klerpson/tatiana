@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: articulo
 lang: es               # es o en
 ref: nombre-unico-post # Identificador único del post para vincular las versiones en diferentes idiomas
 date: 2024-03-15      # Fecha de publicación
