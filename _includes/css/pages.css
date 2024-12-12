@@ -248,6 +248,16 @@
   background-image: linear-gradient(rgba(0, 46, 81, 0.6), rgba(0, 46, 81, 0.6)),
     url('{{"img/sueroterapia-detox-en -bogota.avif" | relative_url}}');
 }
+
+.parallax_tonificacion {
+  background-image: linear-gradient(rgba(0, 46, 81, 0.6), rgba(0, 46, 81, 0.6)),
+    url('{{"img/tonificacion-muscular-en-colombia.avif" | relative_url}}');
+}
+
+.parallax_depilacion-laser {
+  background-image: linear-gradient(rgba(0, 46, 81, 0.6), rgba(0, 46, 81, 0.6)),
+    url('{{"img/depilacion-laser-permanente.avif" | relative_url}}');
+}
 /* overlay */
 .section-overlay {
   background: var(--principal);
