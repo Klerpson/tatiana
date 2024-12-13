@@ -7,38 +7,7 @@
     
     
     <url>
-        <loc>http://localhost:4000/es/blog/beneficios-rejuvenecimiento-facial/</loc>
-        
-        <!-- Alternate Language Versions -->
-        
-        
-        <!-- Last Modified Date -->
-        <lastmod>
-            2024-11-29T00:00:00-05:00
-            
-        </lastmod>
-        
-        <!-- Featured Image -->
-        
-        
-        <!-- News-specific tags for medical content -->
-        <news:news>
-            <news:publication>
-                <news:name>Tatiana Leal</news:name>
-                <news:language>en</news:language>
-            </news:publication>
-            <news:publication_date>2024-11-29T00:00:00-05:00</news:publication_date>
-            <news:title>5 Beneficios del Rejuvenecimiento Facial - Dra. Tatiana Leal</news:title>
-            
-        </news:news>
-        
-        <!-- Priority and Change Frequency -->
-        <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/es/blog/beneficios-rejuvenecimiento-facial/</loc>
+        <loc>http://localhost:4000/es/blog/lip-filler-techniques/</loc>
         
         <!-- Alternate Language Versions -->
         
@@ -57,9 +26,51 @@
         <!-- Featured Image -->
         
         <image:image>
-            <image:loc>http://localhost:4000/img/blog/acido-hialuronico-vs-botox.jpg</image:loc>
-            <image:title>Comparativa entre tratamientos de ácido hialurónico y bótox realizada por especialistas</image:title>
-            <image:caption>Descubre las diferencias entre el ácido hialurónico y el bótox, sus beneficios, duración y qué tratamiento es el más adecuado para tus necesidades específicas. Guía avalada por especialistas.</image:caption>
+            <image:loc>http://localhost:4000/img/blog/natural-lip-filler-techniques.jpg</image:loc>
+            <image:title>Before and after lip filler treatment performed by Dr. Tatiana Leal</image:title>
+            <image:caption>Considering lip fillers? Discover the most advanced techniques, duration, costs, and advice from board-certified specialists. Natural results guaranteed.</image:caption>
+        </image:image>
+        
+        
+        <!-- News-specific tags for medical content -->
+        <news:news>
+            <news:publication>
+                <news:name>Tatiana Leal</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>2024-03-15T00:00:00-05:00</news:publication_date>
+            <news:title>Lip Filler Techniques: The Ultimate Guide for 2024 by Expert Doctors</news:title>
+            
+        </news:news>
+        
+        <!-- Priority and Change Frequency -->
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/es/blog/tecnicas-rellenos-labios/</loc>
+        
+        <!-- Alternate Language Versions -->
+        
+            
+            
+                
+            
+        
+        
+        <!-- Last Modified Date -->
+        <lastmod>
+            2024-03-15T00:00:00-05:00
+            
+        </lastmod>
+        
+        <!-- Featured Image -->
+        
+        <image:image>
+            <image:loc>http://localhost:4000/img/blog/tecnicas-relleno-labios-naturales.jpg</image:loc>
+            <image:title>Antes y después de tratamiento de relleno de labios realizado por la Dra. Tatiana Leal</image:title>
+            <image:caption>¿Pensando en un relleno de labios? Descubre las técnicas más avanzadas, duración, costos y consejos de especialistas certificados. Resultados naturales garantizados.</image:caption>
         </image:image>
         
         
@@ -70,7 +81,7 @@
                 <news:language>es</news:language>
             </news:publication>
             <news:publication_date>2024-03-15T00:00:00-05:00</news:publication_date>
-            <news:title>Ácido Hialurónico vs Bótox: ¿Cuál es Mejor para Ti? Guía Completa 2024</news:title>
+            <news:title>Técnicas para relleno de labios: La guía definitiva 2024 por expertos</news:title>
             
         </news:news>
         
