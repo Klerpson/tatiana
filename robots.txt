@@ -1,0 +1,67 @@
+# www.robotstxt.org
+# Configuración optimizada para SEO y seguridad
+
+# Buscadores principales permitidos
+User-agent: Googlebot
+User-agent: Bingbot
+User-agent: Slurp
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 5
+
+# Googlebot específicos
+User-agent: Googlebot-Image
+Allow: /img/
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.gif$
+Allow: /*.png$
+Allow: /*.webp$
+Allow: /*.avif$
+
+# Reglas generales para todos los bots
+User-agent: *
+Allow: /
+Allow: /es/
+Allow: /en/
+Allow: /sitemap.xml
+Allow: /sitemap-*.xml
+Allow: /feed.xml
+
+# Bloqueo de rutas y archivos del sistema
+Disallow: /css/
+Disallow: /js/
+Disallow: /assets/
+Disallow: /admin/
+Disallow: /*?*
+Disallow: /*.md$
+Disallow: /*.json$
+Disallow: /404/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+
+# Bloqueo específico de bots maliciosos conocidos
+User-agent: 360Spider
+User-agent: Bytespider
+User-agent: PetalBot
+User-agent: SemrushBot
+User-agent: DotBot
+User-agent: MJ12bot
+User-agent: Rogerbot
+User-agent: BLEXBot
+User-agent: DataForSeoBot
+User-agent: ZoominfoBot
+User-agent: NetSystemsResearch
+User-agent: serpstatbot
+User-agent: BacklinkCrawler
+Disallow: /
+
+Allow: /feed-es.xml
+Allow: /feed-en.xml
+Allow: /feed-treatments.xml
+Allow: /security.txt
+Allow: /humans.txt
+Allow: /news-sitemap.xml
+
+# Sitemap Index
+Sitemap: https://dratatianaleal.com/sitemap-index.xml

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" 
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:webfeeds="http://webfeeds.org/rss/1.0"
+     xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Tatiana Leal - Blog de Medicina Estética</title>
+    <description></description>
+    <link>http://localhost:4000/es/</link>
+    <atom:link href="http://localhost:4000/feed-es.xml" rel="self" type="application/rss+xml" />
+    <language>es-CO</language>
+    <copyright>Copyright 2024, Tatiana Leal</copyright>
+    <webfeeds:cover image="http://localhost:4000/img/banner-social.jpg" />
+    <webfeeds:icon>http://localhost:4000/img/favicon/favicon-32x32.png</webfeeds:icon>
+    <webfeeds:logo>http://localhost:4000/img/logo-tatiana-leal.webp</webfeeds:logo>
+    <webfeeds:accentColor>0085CA</webfeeds:accentColor>
+    <webfeeds:related layout="card" target="browser"/>
+    
+    <image>
+      <url>http://localhost:4000/img/logo-tatiana-leal.webp</url>
+      <title>Tatiana Leal</title>
+      <link>http://localhost:4000/es/</link>
+    </image>
+
+    
+    
+    <item>
+      <title>Ácido Hialurónico vs Bótox: ¿Cuál es Mejor para Ti? Guía Completa 2024</title>
+      <description>Descubre las diferencias entre el ácido hialurónico y el bótox, sus beneficios, duración y qué tratamiento es el más adecuado para tus necesidades específicas. Guía avalada por especialistas.</description>
+      <content:encoded><![CDATA[<h2 id="la-verdad-sobre-el-rejuvenecimiento-facial-no-invasivo">La Verdad Sobre el Rejuvenecimiento Facial No Invasivo</h2>
+
+<p>El envejecimiento facial es una preocupación natural que afecta a muchas personas. En nuestra clínica en Bogotá, frecuentemente nos consultan sobre las diferencias entre el ácido hialurónico y el bótox. Este artículo, respaldado por nuestra experiencia con más de 1,000 tratamientos realizados, te ayudará a tomar una decisión informada.</p>
+
+<h3 id="entendiendo-las-diferencias-principales">Entendiendo las Diferencias Principales</h3>
+
+<p>El <strong>ácido hialurónico</strong> y el <strong>bótox</strong> tienen diferentes mecanismos de acción:</p>
+
+<ul>
+  <li>El ácido hialurónico rellena y da volumen</li>
+  <li>El bótox relaja los músculos que causan las arrugas</li>
+</ul>
+
+<h3 id="cuál-es-mejor-para-ti">¿Cuál es Mejor para Ti?</h3>
+
+<p>La elección depende de varios factores:</p>
+
+<ol>
+  <li><strong>Tipo de arruga o área a tratar</strong></li>
+  <li><strong>Resultado deseado</strong></li>
+  <li><strong>Duración del tratamiento</strong></li>
+  <li><strong>Presupuesto</strong></li>
+</ol>
+
+<h2 id="seguridad-y-efectividad-lo-que-debes-saber">Seguridad y Efectividad: Lo Que Debes Saber</h2>
+
+<p>[Sección sobre seguridad respaldada por estudios y experiencia clínica…]</p>
+
+<h3 id="resultados-reales-de-nuestras-pacientes">Resultados Reales de Nuestras Pacientes</h3>
+
+<p>[Casos de éxito con descripción detallada…]</p>
+
+<h2 id="conclusión-toma-una-decisión-informada">Conclusión: Toma una Decisión Informada</h2>
+
+<p>[Resumen y llamado a la acción…]</p>
+
+<!-- _includes/cta-blog.html -->
+<div class="cta-blog padding flow">
+  <div class="intro flow center">
+      <h3>¿Quieres saber más sobre este tratamiento?</h3>
+      
+      <p>Agenda una consulta gratuita con nuestros especialistas y descubre el tratamiento ideal para ti</p>
+      
+      <a href="#" class="boton boton_principal" id="lead_whatsapp" title="WhatsApp de Tatiana Leal">
+  
+  Agenda tu cita ahora
+  
+</a>
+      
+      <small>
+          
+              * Cupos limitados esta semana
+          
+      </small>
+  </div>
+</div>
+]]></content:encoded>
+      <pubDate>Fri, 15 Mar 2024 00:00:00 -0500</pubDate>
+      <link>http://localhost:4000/es/blog/beneficios-rejuvenecimiento-facial/</link>
+      <guid isPermaLink="true">http://localhost:4000/es/blog/beneficios-rejuvenecimiento-facial/</guid>
+      
+      
+      <dc:creator>dra-tatiana-leal</dc:creator>
+      
+
+      
+      <category>tratamientos-faciales</category>
+      
+      
+      
+        
+      <category>botox</category>
+        
+      <category>acido-hialuronico</category>
+        
+      <category>rejuvenecimiento-facial</category>
+        
+      
+      
+      
+      <description>¿Dudas entre el ácido hialurónico y el bótox? Esta guía, avalada por nuestros especialistas, te ayudará a entender las diferencias y elegir el tratamiento más adecuado para ti.</description>
+      
+      
+      
+      <media:content 
+        url="http://localhost:4000/img/blog/acido-hialuronico-vs-botox.jpg" 
+        medium="image"
+        type="image/jpeg"
+        width="1200"
+        height="630">
+        <media:title type="plain">Ácido Hialurónico vs Bótox: ¿Cuál es Mejor para Ti? Guía Completa 2024</media:title>
+        <media:description type="plain">Descubre las diferencias entre el ácido hialurónico y el bótox, sus beneficios, duración y qué tratamiento es el más adecuado para tus necesidades específicas. Guía avalada por especialistas.</media:description>
+      </media:content>
+      
+
+      <source url="http://localhost:4000/feed-es.xml">Tatiana Leal - Blog ES</source>
+    </item>
+    
+  </channel>

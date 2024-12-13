@@ -7,8 +7,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }} | {{ site.name }}</title>
-  <meta name="description"
-    content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.name }} ES" href="{{ site.url }}/feed-es.xml">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.name }} EN" href="{{ site.url }}/feed-en.xml">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.name }} Treatments" href="{{ site.url }}/feed-treatments.xml">
   <!-- MANEJO DE IDIOMAS -->
   {% assign current_lang = page.lang | default: site.default_lang %}
   <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
@@ -77,9 +79,23 @@
   <link rel="dns-prefetch" href="//www.google-analytics.com">
   <link rel="dns-prefetch" href="//www.googletagmanager.com">
 
-  <!-- Schema.org markup -->
-  <script type="application/ld+json">
-    {% include schema.html %}
-    </script>
+  {% include schema-treatments.html %}
+  {% include schema-doctors.html %}
+  {% include schema-blog.html %}
 
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#004070">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Dra. Tatiana Leal">
+  <link rel="apple-touch-icon" href="/img/favicon/icon-152x152.png">
+
+  <!-- Agregar en _includes/head.html -->
+  <meta name="msapplication-config" content="/browserconfig.xml">
+  <meta name="msapplication-TileColor" content="#004070">
+  <meta name="msapplication-TileImage" content="/img/favicon/ms-icon-144x144.png">
+
+  <link rel="author" href="/humans.txt">
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
 </head>

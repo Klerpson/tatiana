@@ -1,0 +1,64 @@
+---
+layout: null
+sitemap: false
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+    
+    {% assign all_posts = site.posts | sort: 'date' | reverse %}
+    {% for post in all_posts %}
+    <url>
+        <loc>{{ site.url }}{{ post.url }}</loc>
+        
+        <!-- Alternate Language Versions -->
+        {% if post.ref %}
+            {% assign versions=site.posts | where:"ref", post.ref %}
+            {% for version in versions %}
+                {% if version.lang != post.lang %}
+        <xhtml:link 
+            rel="alternate"
+            hreflang="{{ version.lang }}"
+            href="{{ site.url }}{{ version.url }}"
+        />
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+        
+        <!-- Last Modified Date -->
+        <lastmod>
+            {% if post.last_modified_at %}{{ post.last_modified_at | date_to_xmlschema }}
+            {% else %}{{ post.date | date_to_xmlschema }}
+            {% endif %}
+        </lastmod>
+        
+        <!-- Featured Image -->
+        {% if post.jpg %}
+        <image:image>
+            <image:loc>{{ site.url }}/{{ post.jpg }}</image:loc>
+            <image:title>{{ post.alt | default: post.title | xml_escape }}</image:title>
+            <image:caption>{{ post.description | xml_escape }}</image:caption>
+        </image:image>
+        {% endif %}
+        
+        <!-- News-specific tags for medical content -->
+        <news:news>
+            <news:publication>
+                <news:name>{{ site.name }}</news:name>
+                <news:language>{{ post.lang }}</news:language>
+            </news:publication>
+            <news:publication_date>{{ post.date | date_to_xmlschema }}</news:publication_date>
+            <news:title>{{ post.title | xml_escape }}</news:title>
+            {% if post.keywords %}
+            <news:keywords>{{ post.keywords | join: ", " | xml_escape }}</news:keywords>
+            {% endif %}
+        </news:news>
+        
+        <!-- Priority and Change Frequency -->
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    {% endfor %}
+</urlset>

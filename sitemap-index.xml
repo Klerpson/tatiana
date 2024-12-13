@@ -1,0 +1,24 @@
+---
+layout: null
+sitemap: false
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- Sitemap principal para páginas estáticas -->
+    <sitemap>
+        <loc>{{ site.url }}/sitemap-main.xml</loc>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    </sitemap>
+    
+    <!-- Sitemap para posts del blog -->
+    <sitemap>
+        <loc>{{ site.url }}/sitemap-posts.xml</loc>
+        <lastmod>{% for post in site.posts limit:1 %}{{ post.last_modified_at | default: post.date | date_to_xmlschema }}{% endfor %}</lastmod>
+    </sitemap>
+    
+    <!-- Sitemap para tratamientos -->
+    <sitemap>
+        <loc>{{ site.url }}/sitemap-treatments.xml</loc>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    </sitemap>
+</sitemapindex>
