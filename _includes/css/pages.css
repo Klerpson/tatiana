@@ -233,6 +233,46 @@
   background-image: linear-gradient(rgba(0, 46, 81, 0.6), rgba(0, 46, 81, 0.6)),
     url('{{"img/moldeamiento-corporal-en-bogota.avif" | relative_url}}');
 }
+
+.parallax_celulitis {
+  background-image: linear-gradient(rgba(0, 46, 81, 0.6), rgba(0, 46, 81, 0.6)),
+    url('{{"img/tratamiento-celulitis-en-bogota.avif" | relative_url}}');
+}
+
+.parallax_gluteos {
+  background-image: linear-gradient(rgba(0, 46, 81, 0.6), rgba(0, 46, 81, 0.6)),
+    url('{{"img/levantamiento-gluteos-sin-cirugia.avif" | relative_url}}');
+}
+
+.parallax_detox {
+  background-image: linear-gradient(rgba(0, 46, 81, 0.6), rgba(0, 46, 81, 0.6)),
+    url('{{"img/sueroterapia-detox-en -bogota.avif" | relative_url}}');
+}
+
+.parallax_tonificacion {
+  background-image: linear-gradient(rgba(0, 46, 81, 0.6), rgba(0, 46, 81, 0.6)),
+    url('{{"img/tonificacion-muscular-en-colombia.avif" | relative_url}}');
+}
+
+.parallax_depilacion-laser {
+  background-image: linear-gradient(rgba(0, 46, 81, 0.6), rgba(0, 46, 81, 0.6)),
+    url('{{"img/depilacion-laser-permanente.avif" | relative_url}}');
+}
+
+.parallax_radiofrecuencia {
+  background-image: linear-gradient(rgba(0, 46, 81, 0.6), rgba(0, 46, 81, 0.6)),
+    url('{{"img/radiofrecuencia-corporal-bogota.avif" | relative_url}}');
+}
+
+.parallax_varices{
+  background-image: linear-gradient(rgba(0, 46, 81, 0.6), rgba(0, 46, 81, 0.6)),
+    url('{{"img/tratamiento-varices-en-bogota.avif" | relative_url}}');
+}
+
+.parallax_tatuajes {
+  background-image: linear-gradient(rgba(0, 46, 81, 0.6), rgba(0, 46, 81, 0.6)),
+    url('{{"img/eliminacion-tatuajes-laser-centro-estetico.avif" | relative_url}}');
+}
 /* overlay */
 .section-overlay {
   background: var(--principal);
