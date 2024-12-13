@@ -41,30 +41,4 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
-/*contador*/
-function animateCounter(id, end) {
-  const obj = document.getElementById(id);
-  const duration = 3000;
-  const frames = 60;
-  let current = 0;
-  
-  const step = end / frames;
-  const interval = duration / frames;
-  
-  const timer = setInterval(() => {
-    current += step;
-    obj.innerText = Math.round(current).toLocaleString();
-    
-    if (current >= end) {
-      obj.innerText = end.toLocaleString();
-      clearInterval(timer);
-    }
-  }, interval);
-}
 
-document.addEventListener('DOMContentLoaded', () => {
-  animateCounter('patients', 4320);
-  animateCounter('years', 15);
-  animateCounter('professionals', 3);
-  animateCounter('procedures', 12000);
-});
