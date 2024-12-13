@@ -42,3 +42,18 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+// Agregar al archivo main.js
+function handleYouTubeError() {
+  const youtubeFrames = document.querySelectorAll('iframe[src*="youtube.com"]');
+  youtubeFrames.forEach(frame => {
+    frame.addEventListener('error', () => {
+      frame.style.display = 'none';
+      const errorMessage = document.createElement('div');
+      errorMessage.className = 'youtube-error';
+      errorMessage.innerHTML = 'Video no disponible. Por favor, verifique su conexión.';
+      frame.parentNode.insertBefore(errorMessage, frame);
+    });
+  });
+}
+
+document.addEventListener('DOMContentLoaded', handleYouTubeError);
