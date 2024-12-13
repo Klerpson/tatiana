@@ -48,7 +48,6 @@ layout: compress
 {% include css/home.css %}
 {% include css/galeria.css %}
 {% include css/youtube.css %}
-{% include css/footer.css %}
 {% include css/comparacion.css %}
 {% include css/buscador.css %}
 {% include css/landing.css %}
