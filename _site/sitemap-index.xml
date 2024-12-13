@@ -3,7 +3,7 @@
     <!-- Sitemap principal para páginas estáticas -->
     <sitemap>
         <loc>http://localhost:4000/sitemap-main.xml</loc>
-        <lastmod>2024-12-13T08:08:20-05:00</lastmod>
+        <lastmod>2024-12-13T08:13:15-05:00</lastmod>
     </sitemap>
     
     <!-- Sitemap para posts del blog -->
@@ -15,6 +15,6 @@
     <!-- Sitemap para tratamientos -->
     <sitemap>
         <loc>http://localhost:4000/sitemap-treatments.xml</loc>
-        <lastmod>2024-12-13T08:08:20-05:00</lastmod>
+        <lastmod>2024-12-13T08:13:15-05:00</lastmod>
     </sitemap>
 </sitemapindex>
