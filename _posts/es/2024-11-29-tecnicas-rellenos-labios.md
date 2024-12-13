@@ -2,8 +2,8 @@
 layout: post
 lang: es
 ref: relleno-labios-naturales
-date: 2024-03-15
-last_modified_at: 2024-03-15
+date: 2024-11-29
+last_modified_at: 2024-11-29
 category: [tratamientos-faciales]
 tags: [relleno-labios, acido-hialuronico, aumento-labios, belleza-facial]
 author: dra-tatiana-leal
@@ -17,8 +17,8 @@ alt: "Antes y después de tratamiento de relleno de labios realizado por la Dra.
 excerpt: "Descubre todo sobre el relleno de labios: desde las técnicas más modernas hasta consejos de expertos para lograr resultados naturales y duraderos."
 tiempo_lectura: 12
 referencias:
-  - ["Journal of Clinical and Aesthetic Dermatology - Long-term Safety of Hyaluronic Acid Fillers", "https://jcadonline.com/ha-fillers-safety"]
-  - ["American Society of Plastic Surgeons - Lip Augmentation Statistics", "https://www.plasticsurgery.org/statistics"]
+  - Journal of Clinical and Aesthetic Dermatology - Long-term Safety of Hyaluronic Acid Fillers: "https://jcadonline.com/ha-fillers-safety"
+  - American Society of Plastic Surgeons - Lip Augmentation Statistics: "https://www.plasticsurgery.org/statistics"
 word_count: 2500
 ---
 
@@ -404,11 +404,10 @@ Agenda tu consulta gratuita y descubre cómo podemos ayudarte a lograr los labio
 3. Crear un plan personalizado
 4. Acompañarte en todo el proceso
 
-**Contáctanos ahora:**
-{% include boton.html %}
-
-*Cupos limitados disponibles esta semana*
+-----
 
 {% include cta-blog.html %}
+
+-----
 
 *Actualizado: Noviembre 29, 2024*

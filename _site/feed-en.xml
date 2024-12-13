@@ -418,14 +418,7 @@
   <li>Support you throughout the process</li>
 </ol>
 
-<p><strong>Contact us now:</strong>
-<a href="#" class="boton boton_principal" id="lead_whatsapp" title="Tatiana Leal's WhatsApp"></a></p>
-
-<p>Schedule your appointment now</p>
-
-<p>&lt;/a&gt;</p>
-
-<p><em>Limited appointments available this week</em></p>
+<hr />
 
 <!-- _includes/cta-blog.html -->
 <div class="cta-blog padding flow">
@@ -434,11 +427,7 @@
       
       <p>Schedule a free consultation with our specialists and discover the ideal treatment for you</p>
       
-      <a href="#" class="boton boton_principal" id="lead_whatsapp" title="Tatiana Leal's WhatsApp">
-  
-  Schedule your appointment now
-  
-</a>
+      <a href="#" class="boton boton_principal" id="lead_whatsapp" title="Tatiana Leal's WhatsApp">Schedule your appointment now</a>
       
       <small>
           
@@ -448,11 +437,13 @@
   </div>
 </div>
 
+<hr />
+
 <p><em>Updated: Nov 29, 2024</em></p>
 
 <p><em>Disclaimer: Individual results may vary. All procedures are performed by board-certified specialists in our state-of-the-art facility.</em></p>
 ]]></content:encoded>
-      <pubDate>Fri, 15 Mar 2024 00:00:00 -0500</pubDate>
+      <pubDate>Fri, 29 Nov 2024 00:00:00 -0500</pubDate>
       <link>http://localhost:4000/es/blog/lip-filler-techniques/</link>
       <guid isPermaLink="true">http://localhost:4000/es/blog/lip-filler-techniques/</guid>
       

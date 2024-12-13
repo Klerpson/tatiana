@@ -2,8 +2,8 @@
 layout: post
 lang: en
 ref: natural-lip-fillers
-date: 2024-03-15
-last_modified_at: 2024-03-15
+date: 2024-11-29
+last_modified_at: 2024-11-29
 category: [facial-treatments]
 tags: [lip-fillers, hyaluronic-acid, lip-augmentation, facial-beauty]
 author: tatiana-leal
@@ -316,12 +316,11 @@ Schedule your free consultation and discover how we can help you achieve the lip
 3. Create a personalized plan
 4. Support you throughout the process
 
-**Contact us now:**
-{% include boton.html %}
-
-*Limited appointments available this week*
+-----
 
 {% include cta-blog.html %}
+
+-----
 
 *Updated: Nov 29, 2024*
 

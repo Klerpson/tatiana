@@ -11,7 +11,6 @@ layout: default
 
 <main class="articulo wrapper" role="main">
   <article class="flow">
-    <h1>{% if page.h1 %}{{ page.h1 }}{% else %}{{ page.title }}{% endif %}</h1>
     {{ content }}
     
     <div class="share wrapper">
@@ -35,15 +34,12 @@ layout: default
   </article>
 
   <aside>
-    <h4>{% if page.lang == "es" %}¿Tienes un página web rentable? Si no, escríbeme{% else %}Do you have a profitable website? If not, write to me{% endif %}</h4>
-    <a href="mailto:{{site.email}}" rel="nofollow noopener" class="boton" target="_blank" 
-       title="{% if page.lang == 'es' %}Solicitar una página web{% else %}Request a website{% endif %}">
-      📧 {% if page.lang == "es" %}Escribe tu consulta{% else %}Write your inquiry{% endif %}
-    </a>
+    <h4>{% if page.lang == "es" %}¿Necesitas hacer una consulta? Escríbenos{% else %}Do you have a question? Write to us{% endif %}</h4>
+    {% include boton.html %}
     
     <hr>
     
-    <h4>{% if page.lang == "es" %}Aprende más aquí{% else %}Learn more here{% endif %}</h4>
+    <h4>{% if page.lang == "es" %}Info relacionada{% else %}Related info{% endif %}</h4>
     
     {% assign posts_in_lang = site.posts | where: "lang", page.lang %}
     {% assign related_posts = "" | split: "" %}

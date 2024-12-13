@@ -2,15 +2,28 @@
 
 #breadcrumbs {
   font-family: var(--fuenteTitulos);  
-  padding: 16px 0;
-  border-top: 2px solid var(--acento);
-  border-bottom: 2px solid var(--acento);
+  padding: 20px;
   max-width: max-content;
 }
 
-#breadcrumbs small,
-#breadcrumbs small a{
-  font-size: 16px;
+#breadcrumbs .small{
+  display: flex;
+  flex-wrap: wrap;
+
+  li{
+    margin: 0;
+    list-style: none;
+    font-size: 16px;
+    
+    &::after{
+      content: '/';
+    }
+    
+    a{
+      color: var(--accion);
+      font-size: 16px;
+    }
+  }
 }
 
 .articulo{

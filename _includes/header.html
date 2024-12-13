@@ -30,6 +30,15 @@
   </div>
 </section>
 
+{% when "post" %}
+<header class="intro flow padding">
+  <h1>{% if page.h1 %}{{ page.h1 }}{% else %}{{ page.title }}{% endif %}</h1>
+  <figure>
+    <img src="{{page.jpg|relative_url}}" alt="{{page.title}}" loading="eager">
+    <figcaption>{{page.excerpt}}</figcaption>
+  </figure>
+</header>
+
 {% else %}
   <header class="hero">
     <picture class="bg bg1" style="background-image: url('{{ page.hero | relative_url }}');"></picture>
