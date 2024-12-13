@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: en
-ref: natural-lip-fillers
+ref: relleno-labios-naturales
 date: 2024-11-29
 last_modified_at: 2024-11-29
 category: [facial-treatments]
@@ -17,8 +17,8 @@ alt: "Before and after lip filler treatment performed by Dr. Tatiana Leal"
 excerpt: "Discover everything about lip fillers: from modern techniques to expert advice for achieving natural, long-lasting results."
 reading_time: 12
 references:
-  - ["Journal of Clinical and Aesthetic Dermatology - Long-term Safety of Hyaluronic Acid Fillers", "https://jcadonline.com/ha-fillers-safety"]
-  - ["American Society of Plastic Surgeons - Lip Augmentation Statistics", "https://www.plasticsurgery.org/statistics"]
+  - Journal of Clinical and Aesthetic Dermatology - Long-term Safety of Hyaluronic Acid Fillers: "https://jcadonline.com/ha-fillers-safety"
+  - American Society of Plastic Surgeons - Lip Augmentation Statistics: "https://www.plasticsurgery.org/statistics"
 word_count: 2500
 ---
 
