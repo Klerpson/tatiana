@@ -15,23 +15,21 @@ layout: compress
   <script defer src="/js/main.js"></script>
 
   <!-- JavaScript para la rotación de imágenes -->
+  {% if page.layout == "servicios" %}
   <script>
-    let isBg1Visible = true;
-    setInterval(() => {
-      const bg1 = document.querySelector(".bg1");
-      const bg2 = document.querySelector(".bg2");
+    document.addEventListener('DOMContentLoaded', () => {
+        const bg1 = document.querySelector(".bg1");
+        const bg2 = document.querySelector(".bg2");
+        let isBg1Visible = true;
 
-      if (isBg1Visible) {
-        bg1.style.opacity = "0";
-        bg2.style.opacity = "1";
-      } else {
-        bg1.style.opacity = "1";
-        bg2.style.opacity = "0";
-      }
-
-      isBg1Visible = !isBg1Visible;
-    }, 8000);
+        setInterval(() => {
+            bg1.style.opacity = isBg1Visible ? "0" : "1";
+            bg2.style.opacity = isBg1Visible ? "1" : "0";
+            isBg1Visible = !isBg1Visible;
+        }, 5000);
+    });
   </script>
+  {% endif %}
 
   {% if page.cases %}
   <script>

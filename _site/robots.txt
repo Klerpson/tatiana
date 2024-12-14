@@ -1,15 +1,10 @@
 # www.robotstxt.org
-# Configuración optimizada para SEO y seguridad
 
-# Buscadores principales permitidos
+# Reglas específicas para bots principales
 User-agent: Googlebot
-User-agent: Bingbot
-User-agent: Slurp
-User-agent: DuckDuckBot
 Allow: /
 Crawl-delay: 5
 
-# Googlebot específicos
 User-agent: Googlebot-Image
 Allow: /img/
 Allow: /*.jpg$
@@ -19,28 +14,19 @@ Allow: /*.png$
 Allow: /*.webp$
 Allow: /*.avif$
 
-# Reglas generales para todos los bots
-User-agent: *
+User-agent: Bingbot
 Allow: /
-Allow: /es/
-Allow: /en/
-Allow: /sitemap.xml
-Allow: /sitemap-*.xml
-Allow: /feed.xml
+Crawl-delay: 10
 
-# Bloqueo de rutas y archivos del sistema
-Disallow: /css/
-Disallow: /js/
-Disallow: /assets/
-Disallow: /admin/
-Disallow: /*?*
-Disallow: /*.md$
-Disallow: /*.json$
-Disallow: /404/
-Disallow: /cgi-bin/
-Disallow: /tmp/
+User-agent: Slurp
+Allow: /
+Crawl-delay: 10
 
-# Bloqueo específico de bots maliciosos conocidos
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 10
+
+# Bloqueo específico de bots maliciosos
 User-agent: 360Spider
 User-agent: Bytespider
 User-agent: PetalBot
@@ -56,12 +42,39 @@ User-agent: serpstatbot
 User-agent: BacklinkCrawler
 Disallow: /
 
+# Reglas generales para todos los demás bots
+User-agent: *
+Allow: /
+Allow: /es/
+Allow: /en/
+
+# Permitir explícitamente sitemaps y feeds
+Allow: /sitemap.xml
+Allow: /sitemap-index.xml
+Allow: /sitemap-main.xml
+Allow: /sitemap-posts.xml
+Allow: /sitemap-treatments.xml
 Allow: /feed-es.xml
 Allow: /feed-en.xml
 Allow: /feed-treatments.xml
-Allow: /security.txt
 Allow: /humans.txt
 Allow: /news-sitemap.xml
+Allow: /security.txt
 
-# Sitemap Index
+# Archivos y directorios a no indexar
+Disallow: /css/
+Disallow: /js/
+Disallow: /assets/
+Disallow: /admin/
+Disallow: /*?*
+Disallow: /*.md$
+Disallow: /*.json$
+Disallow: /404/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+
+# Tiempo de crawl por defecto
+Crawl-delay: 10
+
+# Sitemap Principal
 Sitemap: https://dratatianaleal.com/sitemap-index.xml
