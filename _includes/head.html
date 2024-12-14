@@ -517,7 +517,15 @@
 
       .dropdown:hover .dropdown-content {
         transform: none;
+        display: none;
+      }
+
+      .dropdown.active .dropdown-content {
         display: block;
+      }
+
+      .dropdown.active > span {
+        color: var(--accion);
       }
 
       .dropdown-content a {
@@ -555,6 +563,15 @@
 
       .logo-nav img {
         height: 32px;
+      }
+    }
+
+    @media screen and (min-width: 1025px) {
+      .dropdown:hover .dropdown-content {
+        opacity: 1;
+        visibility: visible;
+        transform: translateX(-50%) translateY(8px);
+        display: block;
       }
     }
 
