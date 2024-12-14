@@ -5,7 +5,7 @@
 <div class="gallery-container">
   {% for item in treatments limit:4 %}
     <a href="{{item.url | relative_url }}" class="gallery-item gallery-item-home" >
-      <img src="{{ item.img | relative_url }}" alt="{{ item.alt }}" loading="lazy" width="520" height="780" decoding="async" >
+      <img src="{{ item.img | relative_url }}" alt="{{ item.alt }}" loading="lazy" width="316" height="422" decoding="async" >
       <h4 class="gallery-item-text">{{ item.title }}</h4>
     </a>
   {% endfor %}

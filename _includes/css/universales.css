@@ -177,3 +177,76 @@ hr {
 .icons {
   max-width: 180px;
 }
+
+
+.footer {
+  background-color: #002b4d;
+  color: white;
+  padding: 2rem 1rem;
+  font-family: Arial, sans-serif;
+}
+
+.footer-content {
+  width: min(100%, 1440px);
+  margin: 0 auto;
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo {
+  flex: 1 1 200px;
+  margin-bottom: 1rem;
+}
+
+.footer-logo img {
+  max-width: 200px;
+  width: 100%;
+  height: auto;
+}
+
+.footer-section {
+  flex: 1 1 200px;
+  margin: 0 1rem 1rem 0;
+  min-width: 0; /* Permite que las secciones se reduzcan más allá de su contenido */
+}
+
+.footer-section h3 {
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  margin-bottom: 0.5rem;
+}
+
+.footer-section p {
+  margin: 0.25rem 0;
+  font-size: clamp(0.8rem, 1.5vw, 0.9rem);
+}
+
+.social-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.social-icon {
+  width: clamp(20px, 4vw, 24px);
+  height: clamp(20px, 4vw, 24px);
+  fill: white;
+}
+
+.footer-bottom {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: clamp(0.7rem, 1.5vw, 0.8rem);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 1rem;
+  width: 100%;
+
+  a {
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+  }
+}
