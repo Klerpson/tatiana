@@ -1,59 +1,4 @@
 @media screen and (width <= 1200px) {
-  nav ul {
-    float: none;
-    position: fixed;
-    flex-direction: column;
-    z-index: 99;
-    left: 0;
-    right: 0;
-    bottom: 100%;
-    top: 120px;
-    width: auto;
-    height: auto;
-    overflow: auto;
-    transition: all 0.4s ease-out;
-    background-color: #e5e5e5;
-    background-image: url("/img/bg.webp");
-    align-items: center;
-  }
-
-  .navegacion > a:not(:last-child),
-  .navegacion > li,
-  .dropdown-content a {
-    padding: 8px;
-    border-radius: var(--radius);
-    border: 3.6px solid var(--secundario);
-    width: min(100%, 320px);
-  }
-
-  .dropdown-content {
-    top: 48px;
-  }
-
-  nav :checked ~ ul {
-    bottom: 0;
-  }
-
-  nav .icono-nav {
-    display: block;
-    position: absolute;
-    right: 12px;
-    top: 32px;
-    transform: translateY(-50%);
-  }
-
-  nav :checked ~ .icono-nav .line:nth-child(1) {
-    transform: translateY(10px) rotate(225deg);
-  }
-
-  nav :checked ~ .icono-nav .line:nth-child(2) {
-    opacity: 0;
-  }
-
-  nav :checked ~ .icono-nav .line:nth-child(3) {
-    transform: translateY(-10px) rotate(-225deg);
-  }
-
   .block_section {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto auto auto;
@@ -111,9 +56,6 @@
 }
 
 @media screen and (width <= 540px) {
-  nav ul {
-    top: 164px;
-  }
 
   .two_columns_left {
     flex-direction: row;
