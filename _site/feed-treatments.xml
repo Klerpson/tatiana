@@ -127,7 +127,7 @@
 </section>
 
 
-<section class="before-after-section padding">
+<!-- <section class="before-after-section padding">
   <div class="intro flow">
     <h2 class="center">Resultados reales: Ácido hialurónico: redescubre tu belleza natural</h2>
     <p class="center">Transforma tu apariencia con resultados naturales comprobados</p>
@@ -138,11 +138,10 @@
     <h3>Rejuvenecimiento de labios</h3>
     <div class="before-after-container">
       <div class="before-after-wrapper">
-        <!-- Cambiamos el orden: después va primero como base -->
         <div class="after-image-container">
           <img class="after-image" src="/img/despues-acido-hialuronico-labios.avif" alt="Después del Rejuvenecimiento de labios" loading="lazy" decoding="async" width="800" height="600">
         </div>
-        <!-- El contenedor before se ajustará con clip-path -->
+        
         <div class="before-image-container">
           <img class="before-image" src="/img/antes-acido-hialuronico-labios.avif" alt="Antes del Rejuvenecimiento de labios" loading="lazy" decoding="async" width="800" height="600">
         </div>
@@ -164,11 +163,10 @@
     <h3>Tratamiento de ojeras</h3>
     <div class="before-after-container">
       <div class="before-after-wrapper">
-        <!-- Cambiamos el orden: después va primero como base -->
         <div class="after-image-container">
           <img class="after-image" src="/img/despues-acido-hialuronico-ojeras.avif" alt="Después del Tratamiento de ojeras" loading="lazy" decoding="async" width="800" height="600">
         </div>
-        <!-- El contenedor before se ajustará con clip-path -->
+        
         <div class="before-image-container">
           <img class="before-image" src="/img/antes-acido-hialuronico-ojeras.avif" alt="Antes del Tratamiento de ojeras" loading="lazy" decoding="async" width="800" height="600">
         </div>
@@ -190,11 +188,10 @@
     <h3>Definición de rostro</h3>
     <div class="before-after-container">
       <div class="before-after-wrapper">
-        <!-- Cambiamos el orden: después va primero como base -->
         <div class="after-image-container">
           <img class="after-image" src="/img/despues-acido-hialuronico-rostro.avif" alt="Después del Definición de rostro" loading="lazy" decoding="async" width="800" height="600">
         </div>
-        <!-- El contenedor before se ajustará con clip-path -->
+        
         <div class="before-image-container">
           <img class="before-image" src="/img/antes-acido-hialuronico-rostro.avif" alt="Antes del Definición de rostro" loading="lazy" decoding="async" width="800" height="600">
         </div>
@@ -212,7 +209,7 @@
     <p class="case-description">Definición y armonización facial con ácido hialurónico. Resultados naturales que realzan tu belleza sin alterar tus rasgos.</p>
   </div>
   
-</section>
+</section> -->
 
 
 <aside class="padding" id="consulta">
@@ -346,7 +343,7 @@
 </section>
 
 
-<section class="before-after-section padding">
+<!-- <section class="before-after-section padding">
   <div class="intro flow">
     <h2 class="center">Resultados reales: Aumento de labios: belleza natural y armoniosa</h2>
     <p class="center">Transforma tu apariencia con resultados naturales comprobados</p>
@@ -357,11 +354,10 @@
     <h3>Perfilado labial natural</h3>
     <div class="before-after-container">
       <div class="before-after-wrapper">
-        <!-- Cambiamos el orden: después va primero como base -->
         <div class="after-image-container">
           <img class="after-image" src="/img/tatiana-leal-medicina-laser-1024.avif" alt="Después del Perfilado labial natural" loading="lazy" decoding="async" width="800" height="600">
         </div>
-        <!-- El contenedor before se ajustará con clip-path -->
+        
         <div class="before-image-container">
           <img class="before-image" src="/img/tatiana-leal-medicina-estetica-1024.avif" alt="Antes del Perfilado labial natural" loading="lazy" decoding="async" width="800" height="600">
         </div>
@@ -383,11 +379,10 @@
     <h3>Armonización labial</h3>
     <div class="before-after-container">
       <div class="before-after-wrapper">
-        <!-- Cambiamos el orden: después va primero como base -->
         <div class="after-image-container">
           <img class="after-image" src="/img/tatiana-leal-medicina-laser-1024.avif" alt="Después del Armonización labial" loading="lazy" decoding="async" width="800" height="600">
         </div>
-        <!-- El contenedor before se ajustará con clip-path -->
+        
         <div class="before-image-container">
           <img class="before-image" src="/img/tatiana-leal-medicina-estetica-1024.avif" alt="Antes del Armonización labial" loading="lazy" decoding="async" width="800" height="600">
         </div>
@@ -409,11 +404,10 @@
     <h3>Rejuvenecimiento labial</h3>
     <div class="before-after-container">
       <div class="before-after-wrapper">
-        <!-- Cambiamos el orden: después va primero como base -->
         <div class="after-image-container">
           <img class="after-image" src="/img/tatiana-leal-medicina-laser-1024.avif" alt="Después del Rejuvenecimiento labial" loading="lazy" decoding="async" width="800" height="600">
         </div>
-        <!-- El contenedor before se ajustará con clip-path -->
+        
         <div class="before-image-container">
           <img class="before-image" src="/img/tatiana-leal-medicina-estetica-1024.avif" alt="Antes del Rejuvenecimiento labial" loading="lazy" decoding="async" width="800" height="600">
         </div>
@@ -431,7 +425,7 @@
     <p class="case-description">Transformación sutil y elegante, evidenciando una notable mejoría en el volumen y la hidratación labial.</p>
   </div>
   
-</section>
+</section> -->
 
 
 <aside class="padding" id="consulta">
@@ -567,7 +561,7 @@
 </section>
 
 
-<section class="before-after-section padding">
+<!-- <section class="before-after-section padding">
   <div class="intro flow">
     <h2 class="center">Resultados reales: Biorevitalización facial: despierta la vitalidad natural de tu piel</h2>
     <p class="center">Transforma tu apariencia con resultados naturales comprobados</p>
@@ -578,11 +572,10 @@
     <h3>Revitalización facial completa</h3>
     <div class="before-after-container">
       <div class="before-after-wrapper">
-        <!-- Cambiamos el orden: después va primero como base -->
         <div class="after-image-container">
           <img class="after-image" src="/img/despues-biorevitalizacion-facial-1.avif" alt="Después del Revitalización facial completa" loading="lazy" decoding="async" width="800" height="600">
         </div>
-        <!-- El contenedor before se ajustará con clip-path -->
+        
         <div class="before-image-container">
           <img class="before-image" src="/img/antes-biorevitalizacion-facial-1.avif" alt="Antes del Revitalización facial completa" loading="lazy" decoding="async" width="800" height="600">
         </div>
@@ -604,11 +597,10 @@
     <h3>Rejuvenecimiento natural</h3>
     <div class="before-after-container">
       <div class="before-after-wrapper">
-        <!-- Cambiamos el orden: después va primero como base -->
         <div class="after-image-container">
           <img class="after-image" src="/img/despues-biorevitalizacion-facial-2.avif" alt="Después del Rejuvenecimiento natural" loading="lazy" decoding="async" width="800" height="600">
         </div>
-        <!-- El contenedor before se ajustará con clip-path -->
+        
         <div class="before-image-container">
           <img class="before-image" src="/img/antes-biorevitalizacion-facial-2.avif" alt="Antes del Rejuvenecimiento natural" loading="lazy" decoding="async" width="800" height="600">
         </div>
@@ -630,11 +622,10 @@
     <h3>Tratamiento anti-edad</h3>
     <div class="before-after-container">
       <div class="before-after-wrapper">
-        <!-- Cambiamos el orden: después va primero como base -->
         <div class="after-image-container">
           <img class="after-image" src="/img/despues-biorevitalizacion-facial-3.avif" alt="Después del Tratamiento anti-edad" loading="lazy" decoding="async" width="800" height="600">
         </div>
-        <!-- El contenedor before se ajustará con clip-path -->
+        
         <div class="before-image-container">
           <img class="before-image" src="/img/antes-biorevitalizacion-facial-3.avif" alt="Antes del Tratamiento anti-edad" loading="lazy" decoding="async" width="800" height="600">
         </div>
@@ -652,7 +643,7 @@
     <p class="case-description">Transformación natural después de 4 sesiones, mostrando una piel más joven y revitalizada.</p>
   </div>
   
-</section>
+</section> -->
 
 
 <aside class="padding" id="consulta">
@@ -816,7 +807,7 @@
 </section>
 
 
-<section class="before-after-section padding">
+<!-- <section class="before-after-section padding">
   <div class="intro flow">
     <h2 class="center">Resultados reales: Tratamiento efectivo para la caída del cabello en Bogotá</h2>
     <p class="center">Transforma tu apariencia con resultados naturales comprobados</p>
@@ -827,11 +818,10 @@
     <h3>Recuperación capilar con PRP</h3>
     <div class="before-after-container">
       <div class="before-after-wrapper">
-        <!-- Cambiamos el orden: después va primero como base -->
         <div class="after-image-container">
           <img class="after-image" src="/img/tratamiento-prp-despues.avif" alt="Después del Recuperación capilar con PRP" loading="lazy" decoding="async" width="800" height="600">
         </div>
-        <!-- El contenedor before se ajustará con clip-path -->
+        
         <div class="before-image-container">
           <img class="before-image" src="/img/tratamiento-prp-antes.avif" alt="Antes del Recuperación capilar con PRP" loading="lazy" decoding="async" width="800" height="600">
         </div>
@@ -853,11 +843,10 @@
     <h3>Regeneración con intradermoterapia</h3>
     <div class="before-after-container">
       <div class="before-after-wrapper">
-        <!-- Cambiamos el orden: después va primero como base -->
         <div class="after-image-container">
           <img class="after-image" src="/img/intradermoterapia-despues.avif" alt="Después del Regeneración con intradermoterapia" loading="lazy" decoding="async" width="800" height="600">
         </div>
-        <!-- El contenedor before se ajustará con clip-path -->
+        
         <div class="before-image-container">
           <img class="before-image" src="/img/intradermoterapia-antes.avif" alt="Antes del Regeneración con intradermoterapia" loading="lazy" decoding="async" width="800" height="600">
         </div>
@@ -875,7 +864,7 @@
     <p class="case-description">Resultados después de 6 sesiones, mostrando una significativa reducción en la caída y mayor volumen capilar.</p>
   </div>
   
-</section>
+</section> -->
 
 
 <aside class="padding" id="consulta">
@@ -1011,7 +1000,7 @@
 </section>
 
 
-<section class="before-after-section padding">
+<!-- <section class="before-after-section padding">
   <div class="intro flow">
     <h2 class="center">Resultados reales: Eliminar manchas: soluciones para una piel impecable</h2>
     <p class="center">Transforma tu apariencia con resultados naturales comprobados</p>
@@ -1022,11 +1011,10 @@
     <h3>Tratamiento profesional para manchas solares</h3>
     <div class="before-after-container">
       <div class="before-after-wrapper">
-        <!-- Cambiamos el orden: después va primero como base -->
         <div class="after-image-container">
           <img class="after-image" src="/img/manchas-despues.avif" alt="Después del Tratamiento profesional para manchas solares" loading="lazy" decoding="async" width="800" height="600">
         </div>
-        <!-- El contenedor before se ajustará con clip-path -->
+        
         <div class="before-image-container">
           <img class="before-image" src="/img/manchas-antes.avif" alt="Antes del Tratamiento profesional para manchas solares" loading="lazy" decoding="async" width="800" height="600">
         </div>
@@ -1048,11 +1036,10 @@
     <h3>Reducción de manchas oscuras en la cara</h3>
     <div class="before-after-container">
       <div class="before-after-wrapper">
-        <!-- Cambiamos el orden: después va primero como base -->
         <div class="after-image-container">
           <img class="after-image" src="/img/cara-despues.avif" alt="Después del Reducción de manchas oscuras en la cara" loading="lazy" decoding="async" width="800" height="600">
         </div>
-        <!-- El contenedor before se ajustará con clip-path -->
+        
         <div class="before-image-container">
           <img class="before-image" src="/img/cara-antes.avif" alt="Antes del Reducción de manchas oscuras en la cara" loading="lazy" decoding="async" width="800" height="600">
         </div>
@@ -1070,7 +1057,7 @@
     <p class="case-description">Resultados efectivos tras utilizar cremas dermatológicas avanzadas.</p>
   </div>
   
-</section>
+</section> -->
 
 
 <!-- Llamado final -->
@@ -1206,7 +1193,7 @@
 </section>
 
 
-<section class="before-after-section padding">
+<!-- <section class="before-after-section padding">
   <div class="intro flow">
     <h2 class="center">Resultados reales: Hilos tensores: rejuvenecimiento facial natural y duradero</h2>
     <p class="center">Transforma tu apariencia con resultados naturales comprobados</p>
@@ -1217,11 +1204,10 @@
     <h3>Lifting facial con hilos tensores</h3>
     <div class="before-after-container">
       <div class="before-after-wrapper">
-        <!-- Cambiamos el orden: después va primero como base -->
         <div class="after-image-container">
           <img class="after-image" src="/img/tatiana-leal-medicina-laser-1024.avif" alt="Después del Lifting facial con hilos tensores" loading="lazy" decoding="async" width="800" height="600">
         </div>
-        <!-- El contenedor before se ajustará con clip-path -->
+        
         <div class="before-image-container">
           <img class="before-image" src="/img/tatiana-leal-medicina-estetica-1024.avif" alt="Antes del Lifting facial con hilos tensores" loading="lazy" decoding="async" width="800" height="600">
         </div>
@@ -1243,11 +1229,10 @@
     <h3>Rejuvenecimiento de cuello</h3>
     <div class="before-after-container">
       <div class="before-after-wrapper">
-        <!-- Cambiamos el orden: después va primero como base -->
         <div class="after-image-container">
           <img class="after-image" src="/img/tatiana-leal-medicina-laser-1024.avif" alt="Después del Rejuvenecimiento de cuello" loading="lazy" decoding="async" width="800" height="600">
         </div>
-        <!-- El contenedor before se ajustará con clip-path -->
+        
         <div class="before-image-container">
           <img class="before-image" src="/img/tatiana-leal-medicina-estetica-1024.avif" alt="Antes del Rejuvenecimiento de cuello" loading="lazy" decoding="async" width="800" height="600">
         </div>
@@ -1269,11 +1254,10 @@
     <h3>Definición mandibular</h3>
     <div class="before-after-container">
       <div class="before-after-wrapper">
-        <!-- Cambiamos el orden: después va primero como base -->
         <div class="after-image-container">
           <img class="after-image" src="/img/tatiana-leal-medicina-laser-1024.avif" alt="Después del Definición mandibular" loading="lazy" decoding="async" width="800" height="600">
         </div>
-        <!-- El contenedor before se ajustará con clip-path -->
+        
         <div class="before-image-container">
           <img class="before-image" src="/img/tatiana-leal-medicina-estetica-1024.avif" alt="Antes del Definición mandibular" loading="lazy" decoding="async" width="800" height="600">
         </div>
@@ -1291,7 +1275,7 @@
     <p class="case-description">Transformación del contorno facial después de la aplicación de hilos tensores, logrando una mandíbula más definida y un rostro más estilizado.</p>
   </div>
   
-</section>
+</section> -->
 
 
 <aside class="padding" id="consulta">
@@ -1427,7 +1411,7 @@
 </section>
 
 
-<section class="before-after-section padding">
+<!-- <section class="before-after-section padding">
   <div class="intro flow">
     <h2 class="center">Resultados reales: Lifting facial sin cirugía: rejuvenecimiento natural sin riesgos</h2>
     <p class="center">Transforma tu apariencia con resultados naturales comprobados</p>
@@ -1438,11 +1422,10 @@
     <h3>Lifting no quirúrgico</h3>
     <div class="before-after-container">
       <div class="before-after-wrapper">
-        <!-- Cambiamos el orden: después va primero como base -->
         <div class="after-image-container">
           <img class="after-image" src="/img/despues-lifting-facial-1.avif" alt="Después del Lifting no quirúrgico" loading="lazy" decoding="async" width="800" height="600">
         </div>
-        <!-- El contenedor before se ajustará con clip-path -->
+        
         <div class="before-image-container">
           <img class="before-image" src="/img/antes-lifting-facial-1.avif" alt="Antes del Lifting no quirúrgico" loading="lazy" decoding="async" width="800" height="600">
         </div>
@@ -1464,11 +1447,10 @@
     <h3>Rejuvenecimiento natural</h3>
     <div class="before-after-container">
       <div class="before-after-wrapper">
-        <!-- Cambiamos el orden: después va primero como base -->
         <div class="after-image-container">
           <img class="after-image" src="/img/despues-lifting-facial-2.avif" alt="Después del Rejuvenecimiento natural" loading="lazy" decoding="async" width="800" height="600">
         </div>
-        <!-- El contenedor before se ajustará con clip-path -->
+        
         <div class="before-image-container">
           <img class="before-image" src="/img/antes-lifting-facial-2.avif" alt="Antes del Rejuvenecimiento natural" loading="lazy" decoding="async" width="800" height="600">
         </div>
@@ -1490,11 +1472,10 @@
     <h3>Reafirmación facial</h3>
     <div class="before-after-container">
       <div class="before-after-wrapper">
-        <!-- Cambiamos el orden: después va primero como base -->
         <div class="after-image-container">
           <img class="after-image" src="/img/despues-lifting-facial-3.avif" alt="Después del Reafirmación facial" loading="lazy" decoding="async" width="800" height="600">
         </div>
-        <!-- El contenedor before se ajustará con clip-path -->
+        
         <div class="before-image-container">
           <img class="before-image" src="/img/antes-lifting-facial-3.avif" alt="Antes del Reafirmación facial" loading="lazy" decoding="async" width="800" height="600">
         </div>
@@ -1512,7 +1493,7 @@
     <p class="case-description">Mejoría significativa en el óvalo facial y firmeza después del tratamiento sin cirugía.</p>
   </div>
   
-</section>
+</section> -->
 
 
 <aside class="padding" id="consulta">
@@ -1656,7 +1637,7 @@
 </section>
 
 
-<section class="before-after-section padding">
+<!-- <section class="before-after-section padding">
   <div class="intro flow">
     <h2 class="center">Resultados reales: Limpieza Facial Profunda en Bogotá</h2>
     <p class="center">Transforma tu apariencia con resultados naturales comprobados</p>
@@ -1667,11 +1648,10 @@
     <h3>Piel grasa y obstrucción de poros</h3>
     <div class="before-after-container">
       <div class="before-after-wrapper">
-        <!-- Cambiamos el orden: después va primero como base -->
         <div class="after-image-container">
           <img class="after-image" src="/img/limpieza-despues.avif" alt="Después del Piel grasa y obstrucción de poros" loading="lazy" decoding="async" width="800" height="600">
         </div>
-        <!-- El contenedor before se ajustará con clip-path -->
+        
         <div class="before-image-container">
           <img class="before-image" src="/img/limpieza-antes.avif" alt="Antes del Piel grasa y obstrucción de poros" loading="lazy" decoding="async" width="800" height="600">
         </div>
@@ -1693,11 +1673,10 @@
     <h3>Hidratación profunda y rejuvenecimiento</h3>
     <div class="before-after-container">
       <div class="before-after-wrapper">
-        <!-- Cambiamos el orden: después va primero como base -->
         <div class="after-image-container">
           <img class="after-image" src="/img/rejuvenecimiento-despues.avif" alt="Después del Hidratación profunda y rejuvenecimiento" loading="lazy" decoding="async" width="800" height="600">
         </div>
-        <!-- El contenedor before se ajustará con clip-path -->
+        
         <div class="before-image-container">
           <img class="before-image" src="/img/rejuvenecimiento-antes.avif" alt="Antes del Hidratación profunda y rejuvenecimiento" loading="lazy" decoding="async" width="800" height="600">
         </div>
@@ -1715,7 +1694,7 @@
     <p class="case-description">Mejora notable en la textura y luminosidad de la piel después de un tratamiento complementario con péptidos.</p>
   </div>
   
-</section>
+</section> -->
 
 
 <aside class="padding" id="consulta">
@@ -1861,7 +1840,7 @@
 </section>
 
 
-<section class="before-after-section padding">
+<!-- <section class="before-after-section padding">
   <div class="intro flow">
     <h2 class="center">Resultados reales: Tratamiento para eliminar ojeras</h2>
     <p class="center">Transforma tu apariencia con resultados naturales comprobados</p>
@@ -1872,11 +1851,10 @@
     <h3>Rejuvenecimiento periocular</h3>
     <div class="before-after-container">
       <div class="before-after-wrapper">
-        <!-- Cambiamos el orden: después va primero como base -->
         <div class="after-image-container">
           <img class="after-image" src="/img/despues-tratamiento-ojeras-1.avif" alt="Después del Rejuvenecimiento periocular" loading="lazy" decoding="async" width="800" height="600">
         </div>
-        <!-- El contenedor before se ajustará con clip-path -->
+        
         <div class="before-image-container">
           <img class="before-image" src="/img/antes-tratamiento-ojeras-1.avif" alt="Antes del Rejuvenecimiento periocular" loading="lazy" decoding="async" width="800" height="600">
         </div>
@@ -1898,11 +1876,10 @@
     <h3>Renovación completa</h3>
     <div class="before-after-container">
       <div class="before-after-wrapper">
-        <!-- Cambiamos el orden: después va primero como base -->
         <div class="after-image-container">
           <img class="after-image" src="/img/despues-tratamiento-ojeras-2.avif" alt="Después del Renovación completa" loading="lazy" decoding="async" width="800" height="600">
         </div>
-        <!-- El contenedor before se ajustará con clip-path -->
+        
         <div class="before-image-container">
           <img class="before-image" src="/img/antes-tratamiento-ojeras-2.avif" alt="Antes del Renovación completa" loading="lazy" decoding="async" width="800" height="600">
         </div>
@@ -1924,11 +1901,10 @@
     <h3>Revitalización periocular</h3>
     <div class="before-after-container">
       <div class="before-after-wrapper">
-        <!-- Cambiamos el orden: después va primero como base -->
         <div class="after-image-container">
           <img class="after-image" src="/img/despues-tratamiento-ojeras-3.avif" alt="Después del Revitalización periocular" loading="lazy" decoding="async" width="800" height="600">
         </div>
-        <!-- El contenedor before se ajustará con clip-path -->
+        
         <div class="before-image-container">
           <img class="before-image" src="/img/antes-tratamiento-ojeras-3.avif" alt="Antes del Revitalización periocular" loading="lazy" decoding="async" width="800" height="600">
         </div>
@@ -1946,7 +1922,7 @@
     <p class="case-description">Mejoría significativa en apariencia y luminosidad de la zona periocular.</p>
   </div>
   
-</section>
+</section> -->
 
 
 <aside class="padding" id="consulta">
@@ -2088,7 +2064,7 @@
 </section>
 
 
-<section class="before-after-section padding">
+<!-- <section class="before-after-section padding">
   <div class="intro flow">
     <h2 class="center">Resultados reales: Peeling químico facial</h2>
     <p class="center">Transforma tu apariencia con resultados naturales comprobados</p>
@@ -2099,11 +2075,10 @@
     <h3>Renovación facial</h3>
     <div class="before-after-container">
       <div class="before-after-wrapper">
-        <!-- Cambiamos el orden: después va primero como base -->
         <div class="after-image-container">
           <img class="after-image" src="/img/despues-peeling-quimico-1.avif" alt="Después del Renovación facial" loading="lazy" decoding="async" width="800" height="600">
         </div>
-        <!-- El contenedor before se ajustará con clip-path -->
+        
         <div class="before-image-container">
           <img class="before-image" src="/img/antes-peeling-quimico-1.avif" alt="Antes del Renovación facial" loading="lazy" decoding="async" width="800" height="600">
         </div>
@@ -2125,11 +2100,10 @@
     <h3>Control de manchas</h3>
     <div class="before-after-container">
       <div class="before-after-wrapper">
-        <!-- Cambiamos el orden: después va primero como base -->
         <div class="after-image-container">
           <img class="after-image" src="/img/despues-peeling-quimico-2.avif" alt="Después del Control de manchas" loading="lazy" decoding="async" width="800" height="600">
         </div>
-        <!-- El contenedor before se ajustará con clip-path -->
+        
         <div class="before-image-container">
           <img class="before-image" src="/img/antes-peeling-quimico-2.avif" alt="Antes del Control de manchas" loading="lazy" decoding="async" width="800" height="600">
         </div>
@@ -2151,11 +2125,10 @@
     <h3>Rejuvenecimiento</h3>
     <div class="before-after-container">
       <div class="before-after-wrapper">
-        <!-- Cambiamos el orden: después va primero como base -->
         <div class="after-image-container">
           <img class="after-image" src="/img/despues-peeling-quimico-3.avif" alt="Después del Rejuvenecimiento" loading="lazy" decoding="async" width="800" height="600">
         </div>
-        <!-- El contenedor before se ajustará con clip-path -->
+        
         <div class="before-image-container">
           <img class="before-image" src="/img/antes-peeling-quimico-3.avif" alt="Antes del Rejuvenecimiento" loading="lazy" decoding="async" width="800" height="600">
         </div>
@@ -2173,7 +2146,7 @@
     <p class="case-description">Transformación visible en la calidad y textura de la piel.</p>
   </div>
   
-</section>
+</section> -->
 
 
 <aside class="padding" id="consulta">
@@ -2424,7 +2397,7 @@
 </section>
 
 
-<section class="before-after-section padding">
+<!-- <section class="before-after-section padding">
   <div class="intro flow">
     <h2 class="center">Resultados reales: Rejuvenecimiento facial con láser en Bogotá</h2>
     <p class="center">Transforma tu apariencia con resultados naturales comprobados</p>
@@ -2435,11 +2408,10 @@
     <h3>Rejuvenecimiento facial completo</h3>
     <div class="before-after-container">
       <div class="before-after-wrapper">
-        <!-- Cambiamos el orden: después va primero como base -->
         <div class="after-image-container">
           <img class="after-image" src="/img/tatiana-leal-medicina-laser-1024.avif" alt="Después del Rejuvenecimiento facial completo" loading="lazy" decoding="async" width="800" height="600">
         </div>
-        <!-- El contenedor before se ajustará con clip-path -->
+        
         <div class="before-image-container">
           <img class="before-image" src="/img/tatiana-leal-medicina-estetica-1024.avif" alt="Antes del Rejuvenecimiento facial completo" loading="lazy" decoding="async" width="800" height="600">
         </div>
@@ -2461,11 +2433,10 @@
     <h3>Tratamiento de manchas solares</h3>
     <div class="before-after-container">
       <div class="before-after-wrapper">
-        <!-- Cambiamos el orden: después va primero como base -->
         <div class="after-image-container">
           <img class="after-image" src="/img/tatiana-leal-medicina-laser-1024.avif" alt="Después del Tratamiento de manchas solares" loading="lazy" decoding="async" width="800" height="600">
         </div>
-        <!-- El contenedor before se ajustará con clip-path -->
+        
         <div class="before-image-container">
           <img class="before-image" src="/img/tatiana-leal-medicina-estetica-1024.avif" alt="Antes del Tratamiento de manchas solares" loading="lazy" decoding="async" width="800" height="600">
         </div>
@@ -2487,11 +2458,10 @@
     <h3>Reducción de cicatrices</h3>
     <div class="before-after-container">
       <div class="before-after-wrapper">
-        <!-- Cambiamos el orden: después va primero como base -->
         <div class="after-image-container">
           <img class="after-image" src="/img/tatiana-leal-medicina-laser-1024.avif" alt="Después del Reducción de cicatrices" loading="lazy" decoding="async" width="800" height="600">
         </div>
-        <!-- El contenedor before se ajustará con clip-path -->
+        
         <div class="before-image-container">
           <img class="before-image" src="/img/tatiana-leal-medicina-estetica-1024.avif" alt="Antes del Reducción de cicatrices" loading="lazy" decoding="async" width="800" height="600">
         </div>
@@ -2509,7 +2479,7 @@
     <p class="case-description">Transformación después de 4 sesiones, evidenciando una notable mejoría en la textura de la piel y reducción de cicatrices.</p>
   </div>
   
-</section>
+</section> -->
 
 
 <aside class="padding" id="consulta">
@@ -2647,7 +2617,7 @@
 </section>
 
 
-<section class="before-after-section padding">
+<!-- <section class="before-after-section padding">
   <div class="intro flow">
     <h2 class="center">Resultados reales: Vitamina C facial: el poder antioxidante para tu piel</h2>
     <p class="center">Transforma tu apariencia con resultados naturales comprobados</p>
@@ -2658,11 +2628,10 @@
     <h3>Renovación facial completa</h3>
     <div class="before-after-container">
       <div class="before-after-wrapper">
-        <!-- Cambiamos el orden: después va primero como base -->
         <div class="after-image-container">
           <img class="after-image" src="/img/despues-vitamina-c-facial-1.avif" alt="Después del Renovación facial completa" loading="lazy" decoding="async" width="800" height="600">
         </div>
-        <!-- El contenedor before se ajustará con clip-path -->
+        
         <div class="before-image-container">
           <img class="before-image" src="/img/antes-vitamina-c-facial-1.avif" alt="Antes del Renovación facial completa" loading="lazy" decoding="async" width="800" height="600">
         </div>
@@ -2684,11 +2653,10 @@
     <h3>Tratamiento antimanchas</h3>
     <div class="before-after-container">
       <div class="before-after-wrapper">
-        <!-- Cambiamos el orden: después va primero como base -->
         <div class="after-image-container">
           <img class="after-image" src="/img/despues-vitamina-c-facial-2.avif" alt="Después del Tratamiento antimanchas" loading="lazy" decoding="async" width="800" height="600">
         </div>
-        <!-- El contenedor before se ajustará con clip-path -->
+        
         <div class="before-image-container">
           <img class="before-image" src="/img/antes-vitamina-c-facial-2.avif" alt="Antes del Tratamiento antimanchas" loading="lazy" decoding="async" width="800" height="600">
         </div>
@@ -2710,11 +2678,10 @@
     <h3>Rejuvenecimiento natural</h3>
     <div class="before-after-container">
       <div class="before-after-wrapper">
-        <!-- Cambiamos el orden: después va primero como base -->
         <div class="after-image-container">
           <img class="after-image" src="/img/despues-vitamina-c-facial-3.avif" alt="Después del Rejuvenecimiento natural" loading="lazy" decoding="async" width="800" height="600">
         </div>
-        <!-- El contenedor before se ajustará con clip-path -->
+        
         <div class="before-image-container">
           <img class="before-image" src="/img/antes-vitamina-c-facial-3.avif" alt="Antes del Rejuvenecimiento natural" loading="lazy" decoding="async" width="800" height="600">
         </div>
@@ -2732,7 +2699,7 @@
     <p class="case-description">Piel más firme y radiante después de 4 sesiones de vitamina C facial.</p>
   </div>
   
-</section>
+</section> -->
 
 
 <aside class="padding" id="consulta">
@@ -2896,7 +2863,7 @@
 </section>
 
 
-<section class="before-after-section padding">
+<!-- <section class="before-after-section padding">
   <div class="intro flow">
     <h2 class="center">Resultados reales: Tratamiento efectivo para la celulitis en Bogotá</h2>
     <p class="center">Transforma tu apariencia con resultados naturales comprobados</p>
@@ -2907,11 +2874,10 @@
     <h3>Tratamiento de muslos</h3>
     <div class="before-after-container">
       <div class="before-after-wrapper">
-        <!-- Cambiamos el orden: después va primero como base -->
         <div class="after-image-container">
           <img class="after-image" src="/img/tratamiento-celulitis-despues.avif" alt="Después del Tratamiento de muslos" loading="lazy" decoding="async" width="800" height="600">
         </div>
-        <!-- El contenedor before se ajustará con clip-path -->
+        
         <div class="before-image-container">
           <img class="before-image" src="/img/tratamiento-celulitis-antes.avif" alt="Antes del Tratamiento de muslos" loading="lazy" decoding="async" width="800" height="600">
         </div>
@@ -2933,11 +2899,10 @@
     <h3>Tratamiento de abdomen</h3>
     <div class="before-after-container">
       <div class="before-after-wrapper">
-        <!-- Cambiamos el orden: después va primero como base -->
         <div class="after-image-container">
           <img class="after-image" src="/img/celulitis-abdomen-despues.avif" alt="Después del Tratamiento de abdomen" loading="lazy" decoding="async" width="800" height="600">
         </div>
-        <!-- El contenedor before se ajustará con clip-path -->
+        
         <div class="before-image-container">
           <img class="before-image" src="/img/celulitis-abdomen-antes.avif" alt="Antes del Tratamiento de abdomen" loading="lazy" decoding="async" width="800" height="600">
         </div>
@@ -2955,7 +2920,7 @@
     <p class="case-description">Resultados después de 10 sesiones, mostrando una significativa reducción de la piel de naranja y mejor firmeza.</p>
   </div>
   
-</section>
+</section> -->
 
 
 <aside class="padding" id="consulta">
@@ -3098,7 +3063,7 @@
 </section>
 
 
-<section class="before-after-section padding">
+<!-- <section class="before-after-section padding">
   <div class="intro flow">
     <h2 class="center">Resultados reales: Depilación láser con diodo</h2>
     <p class="center">Transforma tu apariencia con resultados naturales comprobados</p>
@@ -3109,11 +3074,10 @@
     <h3>Depilación láser axilas</h3>
     <div class="before-after-container">
       <div class="before-after-wrapper">
-        <!-- Cambiamos el orden: después va primero como base -->
         <div class="after-image-container">
           <img class="after-image" src="/img/despues-depilacion-laser-axilas.avif" alt="Después del Depilación láser axilas" loading="lazy" decoding="async" width="800" height="600">
         </div>
-        <!-- El contenedor before se ajustará con clip-path -->
+        
         <div class="before-image-container">
           <img class="before-image" src="/img/antes-depilacion-laser-axilas.avif" alt="Antes del Depilación láser axilas" loading="lazy" decoding="async" width="800" height="600">
         </div>
@@ -3135,11 +3099,10 @@
     <h3>Depilación láser piernas</h3>
     <div class="before-after-container">
       <div class="before-after-wrapper">
-        <!-- Cambiamos el orden: después va primero como base -->
         <div class="after-image-container">
           <img class="after-image" src="/img/despues-depilacion-laser-piernas.avif" alt="Después del Depilación láser piernas" loading="lazy" decoding="async" width="800" height="600">
         </div>
-        <!-- El contenedor before se ajustará con clip-path -->
+        
         <div class="before-image-container">
           <img class="before-image" src="/img/antes-depilacion-laser-piernas.avif" alt="Antes del Depilación láser piernas" loading="lazy" decoding="async" width="800" height="600">
         </div>
@@ -3161,11 +3124,10 @@
     <h3>Depilación láser zona íntima</h3>
     <div class="before-after-container">
       <div class="before-after-wrapper">
-        <!-- Cambiamos el orden: después va primero como base -->
         <div class="after-image-container">
           <img class="after-image" src="/img/despues-depilacion-laser-bikini.avif" alt="Después del Depilación láser zona íntima" loading="lazy" decoding="async" width="800" height="600">
         </div>
-        <!-- El contenedor before se ajustará con clip-path -->
+        
         <div class="before-image-container">
           <img class="before-image" src="/img/antes-depilacion-laser-bikini.avif" alt="Antes del Depilación láser zona íntima" loading="lazy" decoding="async" width="800" height="600">
         </div>
@@ -3183,7 +3145,7 @@
     <p class="case-description">Tratamiento seguro y efectivo en zona íntima con resultados permanentes.</p>
   </div>
   
-</section>
+</section> -->
 
 
 <aside class="padding" id="consulta">
@@ -3326,7 +3288,7 @@
 </section>
 
 
-<section class="before-after-section padding">
+<!-- <section class="before-after-section padding">
   <div class="intro flow">
     <h2 class="center">Resultados reales: Eliminación de tatuajes con láser</h2>
     <p class="center">Transforma tu apariencia con resultados naturales comprobados</p>
@@ -3337,11 +3299,10 @@
     <h3>Eliminación completa</h3>
     <div class="before-after-container">
       <div class="before-after-wrapper">
-        <!-- Cambiamos el orden: después va primero como base -->
         <div class="after-image-container">
           <img class="after-image" src="/img/tatiana-leal-medicina-laser-1024.avif" alt="Después del Eliminación completa" loading="lazy" decoding="async" width="800" height="600">
         </div>
-        <!-- El contenedor before se ajustará con clip-path -->
+        
         <div class="before-image-container">
           <img class="before-image" src="/img/tatiana-leal-medicina-estetica-1024.avif" alt="Antes del Eliminación completa" loading="lazy" decoding="async" width="800" height="600">
         </div>
@@ -3363,11 +3324,10 @@
     <h3>Aclaramiento progresivo</h3>
     <div class="before-after-container">
       <div class="before-after-wrapper">
-        <!-- Cambiamos el orden: después va primero como base -->
         <div class="after-image-container">
           <img class="after-image" src="/img/tatiana-leal-medicina-laser-1024.avif" alt="Después del Aclaramiento progresivo" loading="lazy" decoding="async" width="800" height="600">
         </div>
-        <!-- El contenedor before se ajustará con clip-path -->
+        
         <div class="before-image-container">
           <img class="before-image" src="/img/tatiana-leal-medicina-estetica-1024.avif" alt="Antes del Aclaramiento progresivo" loading="lazy" decoding="async" width="800" height="600">
         </div>
@@ -3385,7 +3345,7 @@
     <p class="case-description">Proceso de eliminación gradual mostrando resultados significativos.</p>
   </div>
   
-</section>
+</section> -->
 
 
 <aside class="padding" id="consulta">
@@ -3528,7 +3488,7 @@
 </section>
 
 
-<section class="before-after-section padding">
+<!-- <section class="before-after-section padding">
   <div class="intro flow">
     <h2 class="center">Resultados reales: Levantamiento de glúteos sin cirugía</h2>
     <p class="center">Transforma tu apariencia con resultados naturales comprobados</p>
@@ -3539,11 +3499,10 @@
     <h3>Levantamiento natural</h3>
     <div class="before-after-container">
       <div class="before-after-wrapper">
-        <!-- Cambiamos el orden: después va primero como base -->
         <div class="after-image-container">
           <img class="after-image" src="/img/despues-levantamiento-gluteos-1.avif" alt="Después del Levantamiento natural" loading="lazy" decoding="async" width="800" height="600">
         </div>
-        <!-- El contenedor before se ajustará con clip-path -->
+        
         <div class="before-image-container">
           <img class="before-image" src="/img/antes-levantamiento-gluteos-1.avif" alt="Antes del Levantamiento natural" loading="lazy" decoding="async" width="800" height="600">
         </div>
@@ -3565,11 +3524,10 @@
     <h3>Definición y tonificación</h3>
     <div class="before-after-container">
       <div class="before-after-wrapper">
-        <!-- Cambiamos el orden: después va primero como base -->
         <div class="after-image-container">
           <img class="after-image" src="/img/despues-levantamiento-gluteos-2.avif" alt="Después del Definición y tonificación" loading="lazy" decoding="async" width="800" height="600">
         </div>
-        <!-- El contenedor before se ajustará con clip-path -->
+        
         <div class="before-image-container">
           <img class="before-image" src="/img/antes-levantamiento-gluteos-2.avif" alt="Antes del Definición y tonificación" loading="lazy" decoding="async" width="800" height="600">
         </div>
@@ -3591,11 +3549,10 @@
     <h3>Reafirmación glútea</h3>
     <div class="before-after-container">
       <div class="before-after-wrapper">
-        <!-- Cambiamos el orden: después va primero como base -->
         <div class="after-image-container">
           <img class="after-image" src="/img/despues-levantamiento-gluteos-3.avif" alt="Después del Reafirmación glútea" loading="lazy" decoding="async" width="800" height="600">
         </div>
-        <!-- El contenedor before se ajustará con clip-path -->
+        
         <div class="before-image-container">
           <img class="before-image" src="/img/antes-levantamiento-gluteos-3.avif" alt="Antes del Reafirmación glútea" loading="lazy" decoding="async" width="800" height="600">
         </div>
@@ -3613,7 +3570,7 @@
     <p class="case-description">Mejoría significativa en forma y firmeza después del tratamiento sin cirugía.</p>
   </div>
   
-</section>
+</section> -->
 
 
 <aside class="padding" id="consulta">
@@ -3777,7 +3734,7 @@
 </section>
 
 
-<section class="before-after-section padding">
+<!-- <section class="before-after-section padding">
   <div class="intro flow">
     <h2 class="center">Resultados reales: Tonificación muscular avanzada con tecnología HIFEM</h2>
     <p class="center">Transforma tu apariencia con resultados naturales comprobados</p>
@@ -3788,11 +3745,10 @@
     <h3>Tonificación abdominal</h3>
     <div class="before-after-container">
       <div class="before-after-wrapper">
-        <!-- Cambiamos el orden: después va primero como base -->
         <div class="after-image-container">
           <img class="after-image" src="/img/tonificacion-abdomen-despues.avif" alt="Después del Tonificación abdominal" loading="lazy" decoding="async" width="800" height="600">
         </div>
-        <!-- El contenedor before se ajustará con clip-path -->
+        
         <div class="before-image-container">
           <img class="before-image" src="/img/tonificacion-abdomen-antes.avif" alt="Antes del Tonificación abdominal" loading="lazy" decoding="async" width="800" height="600">
         </div>
@@ -3814,11 +3770,10 @@
     <h3>Definición de glúteos</h3>
     <div class="before-after-container">
       <div class="before-after-wrapper">
-        <!-- Cambiamos el orden: después va primero como base -->
         <div class="after-image-container">
           <img class="after-image" src="/img/tonificacion-gluteos-despues.avif" alt="Después del Definición de glúteos" loading="lazy" decoding="async" width="800" height="600">
         </div>
-        <!-- El contenedor before se ajustará con clip-path -->
+        
         <div class="before-image-container">
           <img class="before-image" src="/img/tonificacion-gluteos-antes.avif" alt="Antes del Definición de glúteos" loading="lazy" decoding="async" width="800" height="600">
         </div>
@@ -3836,7 +3791,7 @@
     <p class="case-description">Resultados después de 6 sesiones, mostrando significativo aumento en volumen y firmeza muscular.</p>
   </div>
   
-</section>
+</section> -->
 
 
 <aside class="padding" id="consulta">
@@ -3979,7 +3934,7 @@
 </section>
 
 
-<section class="before-after-section padding">
+<!-- <section class="before-after-section padding">
   <div class="intro flow">
     <h2 class="center">Resultados reales: Lipolisis láser: moldea tu cuerpo sin cirugía mayor</h2>
     <p class="center">Transforma tu apariencia con resultados naturales comprobados</p>
@@ -3990,11 +3945,10 @@
     <h3>Reducción abdominal</h3>
     <div class="before-after-container">
       <div class="before-after-wrapper">
-        <!-- Cambiamos el orden: después va primero como base -->
         <div class="after-image-container">
           <img class="after-image" src="/img/tatiana-leal-medicina-laser-1024.avif" alt="Después del Reducción abdominal" loading="lazy" decoding="async" width="800" height="600">
         </div>
-        <!-- El contenedor before se ajustará con clip-path -->
+        
         <div class="before-image-container">
           <img class="before-image" src="/img/tatiana-leal-medicina-estetica-1024.avif" alt="Antes del Reducción abdominal" loading="lazy" decoding="async" width="800" height="600">
         </div>
@@ -4016,11 +3970,10 @@
     <h3>Contorno corporal</h3>
     <div class="before-after-container">
       <div class="before-after-wrapper">
-        <!-- Cambiamos el orden: después va primero como base -->
         <div class="after-image-container">
           <img class="after-image" src="/img/tatiana-leal-medicina-laser-1024.avif" alt="Después del Contorno corporal" loading="lazy" decoding="async" width="800" height="600">
         </div>
-        <!-- El contenedor before se ajustará con clip-path -->
+        
         <div class="before-image-container">
           <img class="before-image" src="/img/tatiana-leal-medicina-estetica-1024.avif" alt="Antes del Contorno corporal" loading="lazy" decoding="async" width="800" height="600">
         </div>
@@ -4042,11 +3995,10 @@
     <h3>Remodelación completa</h3>
     <div class="before-after-container">
       <div class="before-after-wrapper">
-        <!-- Cambiamos el orden: después va primero como base -->
         <div class="after-image-container">
           <img class="after-image" src="/img/tatiana-leal-medicina-laser-1024.avif" alt="Después del Remodelación completa" loading="lazy" decoding="async" width="800" height="600">
         </div>
-        <!-- El contenedor before se ajustará con clip-path -->
+        
         <div class="before-image-container">
           <img class="before-image" src="/img/tatiana-leal-medicina-estetica-1024.avif" alt="Antes del Remodelación completa" loading="lazy" decoding="async" width="800" height="600">
         </div>
@@ -4064,7 +4016,7 @@
     <p class="case-description">Transformación integral mostrando reducción de grasa y mejora en la firmeza de la piel.</p>
   </div>
   
-</section>
+</section> -->
 
 
 <aside class="padding" id="consulta">
@@ -4207,7 +4159,7 @@
 </section>
 
 
-<section class="before-after-section padding">
+<!-- <section class="before-after-section padding">
   <div class="intro flow">
     <h2 class="center">Resultados reales: Moldeamiento corporal avanzado</h2>
     <p class="center">Transforma tu apariencia con resultados naturales comprobados</p>
@@ -4218,11 +4170,10 @@
     <h3>Transformación total</h3>
     <div class="before-after-container">
       <div class="before-after-wrapper">
-        <!-- Cambiamos el orden: después va primero como base -->
         <div class="after-image-container">
           <img class="after-image" src="/img/despues-moldeamiento-corporal-1.avif" alt="Después del Transformación total" loading="lazy" decoding="async" width="800" height="600">
         </div>
-        <!-- El contenedor before se ajustará con clip-path -->
+        
         <div class="before-image-container">
           <img class="before-image" src="/img/antes-moldeamiento-corporal-1.avif" alt="Antes del Transformación total" loading="lazy" decoding="async" width="800" height="600">
         </div>
@@ -4244,11 +4195,10 @@
     <h3>Definición corporal</h3>
     <div class="before-after-container">
       <div class="before-after-wrapper">
-        <!-- Cambiamos el orden: después va primero como base -->
         <div class="after-image-container">
           <img class="after-image" src="/img/despues-moldeamiento-corporal-2.avif" alt="Después del Definición corporal" loading="lazy" decoding="async" width="800" height="600">
         </div>
-        <!-- El contenedor before se ajustará con clip-path -->
+        
         <div class="before-image-container">
           <img class="before-image" src="/img/antes-moldeamiento-corporal-2.avif" alt="Antes del Definición corporal" loading="lazy" decoding="async" width="800" height="600">
         </div>
@@ -4270,11 +4220,10 @@
     <h3>Reafirmación corporal</h3>
     <div class="before-after-container">
       <div class="before-after-wrapper">
-        <!-- Cambiamos el orden: después va primero como base -->
         <div class="after-image-container">
           <img class="after-image" src="/img/despues-moldeamiento-corporal-3.avif" alt="Después del Reafirmación corporal" loading="lazy" decoding="async" width="800" height="600">
         </div>
-        <!-- El contenedor before se ajustará con clip-path -->
+        
         <div class="before-image-container">
           <img class="before-image" src="/img/antes-moldeamiento-corporal-3.avif" alt="Antes del Reafirmación corporal" loading="lazy" decoding="async" width="800" height="600">
         </div>
@@ -4292,7 +4241,7 @@
     <p class="case-description">Mejoría significativa en forma y firmeza después del tratamiento.</p>
   </div>
   
-</section>
+</section> -->
 
 
 <aside class="padding" id="consulta">
@@ -4435,7 +4384,7 @@
 </section>
 
 
-<section class="before-after-section padding">
+<!-- <section class="before-after-section padding">
   <div class="intro flow">
     <h2 class="center">Resultados reales: Radiofrecuencia estética</h2>
     <p class="center">Transforma tu apariencia con resultados naturales comprobados</p>
@@ -4446,11 +4395,10 @@
     <h3>Reafirmación facial</h3>
     <div class="before-after-container">
       <div class="before-after-wrapper">
-        <!-- Cambiamos el orden: después va primero como base -->
         <div class="after-image-container">
           <img class="after-image" src="/img/despues-radiofrecuencia-facial-1.avif" alt="Después del Reafirmación facial" loading="lazy" decoding="async" width="800" height="600">
         </div>
-        <!-- El contenedor before se ajustará con clip-path -->
+        
         <div class="before-image-container">
           <img class="before-image" src="/img/antes-radiofrecuencia-facial-1.avif" alt="Antes del Reafirmación facial" loading="lazy" decoding="async" width="800" height="600">
         </div>
@@ -4472,11 +4420,10 @@
     <h3>Tratamiento corporal</h3>
     <div class="before-after-container">
       <div class="before-after-wrapper">
-        <!-- Cambiamos el orden: después va primero como base -->
         <div class="after-image-container">
           <img class="after-image" src="/img/despues-radiofrecuencia-corporal-2.avif" alt="Después del Tratamiento corporal" loading="lazy" decoding="async" width="800" height="600">
         </div>
-        <!-- El contenedor before se ajustará con clip-path -->
+        
         <div class="before-image-container">
           <img class="before-image" src="/img/antes-radiofrecuencia-corporal-2.avif" alt="Antes del Tratamiento corporal" loading="lazy" decoding="async" width="800" height="600">
         </div>
@@ -4498,11 +4445,10 @@
     <h3>Tensado facial</h3>
     <div class="before-after-container">
       <div class="before-after-wrapper">
-        <!-- Cambiamos el orden: después va primero como base -->
         <div class="after-image-container">
           <img class="after-image" src="/img/despues-radiofrecuencia-facial-3.avif" alt="Después del Tensado facial" loading="lazy" decoding="async" width="800" height="600">
         </div>
-        <!-- El contenedor before se ajustará con clip-path -->
+        
         <div class="before-image-container">
           <img class="before-image" src="/img/antes-radiofrecuencia-facial-3.avif" alt="Antes del Tensado facial" loading="lazy" decoding="async" width="800" height="600">
         </div>
@@ -4520,7 +4466,7 @@
     <p class="case-description">Notable mejoría en el contorno facial y tensado de la piel.</p>
   </div>
   
-</section>
+</section> -->
 
 
 <aside class="padding" id="consulta">
@@ -4859,7 +4805,7 @@
 </section>
 
 
-<section class="before-after-section padding">
+<!-- <section class="before-after-section padding">
   <div class="intro flow">
     <h2 class="center">Resultados reales: Tratamiento profesional de várices en Bogotá</h2>
     <p class="center">Transforma tu apariencia con resultados naturales comprobados</p>
@@ -4870,11 +4816,10 @@
     <h3>Eliminación de várices en piernas</h3>
     <div class="before-after-container">
       <div class="before-after-wrapper">
-        <!-- Cambiamos el orden: después va primero como base -->
         <div class="after-image-container">
           <img class="after-image" src="/img/tratamiento-varices-despues.avif" alt="Después del Eliminación de várices en piernas" loading="lazy" decoding="async" width="800" height="600">
         </div>
-        <!-- El contenedor before se ajustará con clip-path -->
+        
         <div class="before-image-container">
           <img class="before-image" src="/img/tratamiento-varices-antes.avif" alt="Antes del Eliminación de várices en piernas" loading="lazy" decoding="async" width="800" height="600">
         </div>
@@ -4896,11 +4841,10 @@
     <h3>Tratamiento de arañitas vasculares</h3>
     <div class="before-after-container">
       <div class="before-after-wrapper">
-        <!-- Cambiamos el orden: después va primero como base -->
         <div class="after-image-container">
           <img class="after-image" src="/img/aranitas-vasculares-despues.avif" alt="Después del Tratamiento de arañitas vasculares" loading="lazy" decoding="async" width="800" height="600">
         </div>
-        <!-- El contenedor before se ajustará con clip-path -->
+        
         <div class="before-image-container">
           <img class="before-image" src="/img/aranitas-vasculares-antes.avif" alt="Antes del Tratamiento de arañitas vasculares" loading="lazy" decoding="async" width="800" height="600">
         </div>
@@ -4918,7 +4862,7 @@
     <p class="case-description">Resultados después de 4 sesiones, mostrando significativa reducción de telangiectasias y mejor textura de la piel.</p>
   </div>
   
-</section>
+</section> -->
 
 
 <aside class="padding" id="consulta">
@@ -5061,7 +5005,7 @@
 </section>
 
 
-<section class="before-after-section padding">
+<!-- <section class="before-after-section padding">
   <div class="intro flow">
     <h2 class="center">Resultados reales: Aclaramiento genital con láser en Bogotá</h2>
     <p class="center">Transforma tu apariencia con resultados naturales comprobados</p>
@@ -5072,11 +5016,10 @@
     <h3>Rejuvenecimiento íntimo integral</h3>
     <div class="before-after-container">
       <div class="before-after-wrapper">
-        <!-- Cambiamos el orden: después va primero como base -->
         <div class="after-image-container">
           <img class="after-image" src="/img/tatiana-leal-medicina-laser-1024.avif" alt="Después del Rejuvenecimiento íntimo integral" loading="lazy" decoding="async" width="800" height="600">
         </div>
-        <!-- El contenedor before se ajustará con clip-path -->
+        
         <div class="before-image-container">
           <img class="before-image" src="/img/tatiana-leal-medicina-estetica-1024.avif" alt="Antes del Rejuvenecimiento íntimo integral" loading="lazy" decoding="async" width="800" height="600">
         </div>
@@ -5098,11 +5041,10 @@
     <h3>Tratamiento de hiperpigmentación</h3>
     <div class="before-after-container">
       <div class="before-after-wrapper">
-        <!-- Cambiamos el orden: después va primero como base -->
         <div class="after-image-container">
           <img class="after-image" src="/img/tatiana-leal-medicina-laser-1024.avif" alt="Después del Tratamiento de hiperpigmentación" loading="lazy" decoding="async" width="800" height="600">
         </div>
-        <!-- El contenedor before se ajustará con clip-path -->
+        
         <div class="before-image-container">
           <img class="before-image" src="/img/tatiana-leal-medicina-estetica-1024.avif" alt="Antes del Tratamiento de hiperpigmentación" loading="lazy" decoding="async" width="800" height="600">
         </div>
@@ -5120,7 +5062,7 @@
     <p class="case-description">Resultados visibles después de 3 sesiones, mostrando una significativa mejoría en la tonalidad de la piel.</p>
   </div>
   
-</section>
+</section> -->
 
 
 <aside class="padding" id="consulta">
@@ -5254,7 +5196,7 @@
 </section>
 
 
-<section class="before-after-section padding">
+<!-- <section class="before-after-section padding">
   <div class="intro flow">
     <h2 class="center">Resultados reales: Aumento de labios mayores con ácido hialurónico en Bogotá</h2>
     <p class="center">Transforma tu apariencia con resultados naturales comprobados</p>
@@ -5265,11 +5207,10 @@
     <h3>Rejuvenecimiento íntimo completo</h3>
     <div class="before-after-container">
       <div class="before-after-wrapper">
-        <!-- Cambiamos el orden: después va primero como base -->
         <div class="after-image-container">
           <img class="after-image" src="/img/tatiana-leal-medicina-laser-1024.avif" alt="Después del Rejuvenecimiento íntimo completo" loading="lazy" decoding="async" width="800" height="600">
         </div>
-        <!-- El contenedor before se ajustará con clip-path -->
+        
         <div class="before-image-container">
           <img class="before-image" src="/img/tatiana-leal-medicina-estetica-1024.avif" alt="Antes del Rejuvenecimiento íntimo completo" loading="lazy" decoding="async" width="800" height="600">
         </div>
@@ -5291,11 +5232,10 @@
     <h3>Tratamiento de flacidez</h3>
     <div class="before-after-container">
       <div class="before-after-wrapper">
-        <!-- Cambiamos el orden: después va primero como base -->
         <div class="after-image-container">
           <img class="after-image" src="/img/tatiana-leal-medicina-laser-1024.avif" alt="Después del Tratamiento de flacidez" loading="lazy" decoding="async" width="800" height="600">
         </div>
-        <!-- El contenedor before se ajustará con clip-path -->
+        
         <div class="before-image-container">
           <img class="before-image" src="/img/tatiana-leal-medicina-estetica-1024.avif" alt="Antes del Tratamiento de flacidez" loading="lazy" decoding="async" width="800" height="600">
         </div>
@@ -5313,7 +5253,7 @@
     <p class="case-description">Resultados después de una sesión, mostrando una significativa mejoría en la textura y elasticidad de la piel.</p>
   </div>
   
-</section>
+</section> -->
 
 
 <aside class="padding" id="consulta">
@@ -5477,7 +5417,7 @@
 </section>
 
 
-<section class="before-after-section padding">
+<!-- <section class="before-after-section padding">
   <div class="intro flow">
     <h2 class="center">Resultados reales: Tratamiento especializado para incontinencia urinaria de esfuerzo</h2>
     <p class="center">Transforma tu apariencia con resultados naturales comprobados</p>
@@ -5488,11 +5428,10 @@
     <h3>Tratamiento integral</h3>
     <div class="before-after-container">
       <div class="before-after-wrapper">
-        <!-- Cambiamos el orden: después va primero como base -->
         <div class="after-image-container">
           <img class="after-image" src="/img/tratamiento-incontinencia-despues.avif" alt="Después del Tratamiento integral" loading="lazy" decoding="async" width="800" height="600">
         </div>
-        <!-- El contenedor before se ajustará con clip-path -->
+        
         <div class="before-image-container">
           <img class="before-image" src="/img/tratamiento-incontinencia-antes.avif" alt="Antes del Tratamiento integral" loading="lazy" decoding="async" width="800" height="600">
         </div>
@@ -5510,7 +5449,7 @@
     <p class="case-description">Paciente después de combinar láser CO2 y tecnología HIFEM. Notable mejoría en control urinario y calidad de vida.</p>
   </div>
   
-</section>
+</section> -->
 
 
 <aside class="padding" id="consulta">
@@ -5782,7 +5721,7 @@
 </section>
 
 
-<section class="before-after-section padding">
+<!-- <section class="before-after-section padding">
   <div class="intro flow">
     <h2 class="center">Resultados reales: Rejuvenecimiento vaginal con láser en Bogotá</h2>
     <p class="center">Transforma tu apariencia con resultados naturales comprobados</p>
@@ -5793,11 +5732,10 @@
     <h3>Tratamiento integral</h3>
     <div class="before-after-container">
       <div class="before-after-wrapper">
-        <!-- Cambiamos el orden: después va primero como base -->
         <div class="after-image-container">
           <img class="after-image" src="/img/tratamiento-laser-despues.avif" alt="Después del Tratamiento integral" loading="lazy" decoding="async" width="800" height="600">
         </div>
-        <!-- El contenedor before se ajustará con clip-path -->
+        
         <div class="before-image-container">
           <img class="before-image" src="/img/tratamiento-laser-antes.avif" alt="Antes del Tratamiento integral" loading="lazy" decoding="async" width="800" height="600">
         </div>
@@ -5815,7 +5753,7 @@
     <p class="case-description">Paciente después de 3 sesiones de láser CO2. Notable mejoría en salud íntima y calidad de vida.</p>
   </div>
   
-</section>
+</section> -->
 
 
 <aside class="padding" id="consulta">
