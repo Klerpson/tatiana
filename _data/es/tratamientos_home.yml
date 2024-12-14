@@ -1,7 +1,8 @@
 primera-fila:
   - img: img/tratamiento-varices-escleroterapia.avif
     alt: Foto de una mujer después de la escleroterapia para varices
-    title: Tratamiento de várices
+    title: Tratamiento de várices con escleroterapia
+    url: es/tratamientos-corporales/varices
   - img: img/lipolisis-laser-bogota.avif
     alt: Foto del resultado de una lipolisis laser
     title: Lipólisis con laser

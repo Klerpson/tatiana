@@ -47,12 +47,9 @@
     href="{{ site.url }}/{{ site.default_lang }}/"
   >
   <!-- FIN MANEJO DE IDIOMAS -->
-  <link
-    rel="alternate"
-    type="application/rss+xml"
-    title="{{ site.title }}"
-    href="{{ '/feed.xml' | absolute_url }}"
-  >
+  <link rel="alternate" type="application/rss+xml" title="{{ site.name }} ES" href="{{ site.url }}/feed-es.xml">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.name }} EN" href="{{ site.url }}/feed-en.xml">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.name }} Treatments" href="{{ site.url }}/feed-treatments.xml">
   <meta
     name="robots"
     content="{% if page.noindex %}noindex, nofollow{% else %}index, follow{% endif %}"
