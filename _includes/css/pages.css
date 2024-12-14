@@ -273,6 +273,41 @@
   background-image: linear-gradient(rgba(0, 46, 81, 0.6), rgba(0, 46, 81, 0.6)),
     url('{{"img/eliminacion-tatuajes-laser-centro-estetico.avif" | relative_url}}');
 }
+
+.parallax_lipolisis {
+  background-image: linear-gradient(rgba(0, 46, 81, 0.6), rgba(0, 46, 81, 0.6)),
+    url('{{"img/lipolisis-laser-centro-estetico.avif" | relative_url}}');
+}
+
+.parallax_aclaramiento {
+  background-image: linear-gradient(rgba(0, 46, 81, 0.6), rgba(0, 46, 81, 0.6)),
+    url('{{"img/aclaramiento-genital-beneficios.avif" | relative_url}}');
+}
+
+.parallax_aumento-labios {
+  background-image: linear-gradient(rgba(0, 46, 81, 0.6), rgba(0, 46, 81, 0.6)),
+    url('{{"img/aumento-labios-mayores-ginecologia-estetica.avif" | relative_url}}');
+}
+
+.parallax_incontinencia {
+  background-image: linear-gradient(rgba(0, 46, 81, 0.6), rgba(0, 46, 81, 0.6)),
+    url('{{"img/incontinencia-urinaria.avif" | relative_url}}');
+}
+
+.parallax_vaginal {
+  background-image: linear-gradient(rgba(0, 46, 81, 0.6), rgba(0, 46, 81, 0.6)),
+    url('{{"img/rejuvenecimiento-vaginal-laser-bogota.avif" | relative_url}}');
+}
+
+.parallax_analisis {
+  background-image: linear-gradient(rgba(0, 46, 81, 0.6), rgba(0, 46, 81, 0.6)),
+    url('{{"img/analisis-facial-janus-bogota.avif" | relative_url}}');
+}
+
+.parallax_inbody {
+  background-image: linear-gradient(rgba(0, 46, 81, 0.6), rgba(0, 46, 81, 0.6)),
+    url('{{"img/radiofrecuencia-corporal-bogota.avif" | relative_url}}');
+}
 /* overlay */
 .section-overlay {
   background: var(--principal);
