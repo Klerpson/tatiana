@@ -161,3 +161,8 @@ plugins:
 # Whitelist
 whitelist:
   - jekyll-redirect-from
+
+# Redirecciones específicas
+redirect_from:
+  enabled: true
+  strip_index: true

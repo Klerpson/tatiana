@@ -2,145 +2,109 @@
 {% assign alt_lang = current_lang == "es" ? "en" : "es" %}
 
 <!DOCTYPE html>
-
 <head>
-  <meta charset="utf-8" >
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }} | {{ site.name }}</title>
-  <meta
-    name="description"
-    content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}"
-  >
-  <link
-    rel="alternate"
-    type="application/rss+xml"
-    title="{{ site.name }} ES"
-    href="{{ site.url }}/feed-es.xml"
-  >
-  <link
-    rel="alternate"
-    type="application/rss+xml"
-    title="{{ site.name }} EN"
-    href="{{ site.url }}/feed-en.xml"
-  >
-  <link
-    rel="alternate"
-    type="application/rss+xml"
-    title="{{ site.name }} Treatments"
-    href="{{ site.url }}/feed-treatments.xml"
-  >
-  <!-- MANEJO DE IDIOMAS -->
+
+  <!-- Meta tags principales -->
+  <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="robots" content="{% if page.noindex %}noindex, nofollow{% else %}index, follow{% endif %}">
+  <meta name="country" content="COL">
+  <meta name="geo.region" content="CO-CUN">
+  <meta name="author" content="{% if page.autor %}{{ page.autor }}{% else %}{{ site.author.name }}{% endif %}">
+  <meta name="copyright" content="{% if page.copyright %}{{ page.copyright }}{% else %}{{ site.name }}{% endif %}">
+  <meta name="owner" content="Tatiana Leal">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+
+  <!-- Sistema de redirecciones -->
+  {% if page.redirect_from %}
+    {% for redirect in page.redirect_from %}
+      <link rel="alternate" href="{{ redirect | absolute_url }}">
+    {% endfor %}
+  {% endif %}
+
+  {% if page.redirect_to %}
+    <meta http-equiv="refresh" content="0;url={{ page.redirect_to | absolute_url }}">
+    <script>
+      window.location.href = "{{ page.redirect_to | absolute_url }}";
+    </script>
+    <link rel="canonical" href="{{ page.redirect_to | absolute_url }}">
+  {% endif %}
+
+  <!-- Manejo de idiomas y URLs canónicas -->
   {% assign current_lang = page.lang | default: site.default_lang %}
-  <link rel="canonical" href="{{ site.url }}{{ page.url }}" >
   {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
   {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
   {% assign faciales=site.tratamientos-faciales_es | where:"ref", page.ref | sort: 'lang' %}
   {% assign all_pages = pages | concat: posts | concat: faciales %}
-  {% if all_pages.size > 1 %}
-  {% for p in all_pages %}
-  <link rel="alternate" hreflang="{{ p.lang }}" href="{{ site.url }}{{ p.url }}">
-  {% endfor %}
+
+  {% if page.redirect_to %}
+    <link rel="canonical" href="{{ page.redirect_to | absolute_url }}">
+  {% elsif page.canonical_url %}
+    <link rel="canonical" href="{{ page.canonical_url | absolute_url }}">
+  {% else %}
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
   {% endif %}
-  <link
-    rel="alternate"
-    hreflang="x-default"
-    href="{{ site.url }}/{{ site.default_lang }}/"
-  >
-  <!-- FIN MANEJO DE IDIOMAS -->
+
+  {% if all_pages.size > 1 %}
+    {% for p in all_pages %}
+      <link rel="alternate" hreflang="{{ p.lang }}" href="{{ site.url }}{{ p.url }}">
+    {% endfor %}
+  {% endif %}
+  <link rel="alternate" hreflang="x-default" href="{{ site.url }}/{{ site.default_lang }}/">
+
+  <!-- RSS Feeds -->
   <link rel="alternate" type="application/rss+xml" title="{{ site.name }} ES" href="{{ site.url }}/feed-es.xml">
   <link rel="alternate" type="application/rss+xml" title="{{ site.name }} EN" href="{{ site.url }}/feed-en.xml">
   <link rel="alternate" type="application/rss+xml" title="{{ site.name }} Treatments" href="{{ site.url }}/feed-treatments.xml">
-  <meta
-    name="robots"
-    content="{% if page.noindex %}noindex, nofollow{% else %}index, follow{% endif %}"
-  >
-  <meta name="country" content="COL" >
-  <meta name="geo.region" content="CO-CUN" >
-  <meta
-    name="author"
-    content="{% if page.autor %}{{ page.autor }}{% else %}{{ site.author.name }}{% endif %}"
-  >
-  <meta
-    name="copyright"
-    content="{% if page.copyright %}{{ page.copyright }}{% else %}{{ site.name }}{% endif %}"
-  >
-  <meta name="owner" content="Tatiana Leal" >
 
+  <!-- Meta tags para artículos -->
   {% if page.layout == 'post' %}
-  <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
-  <meta property="article:modified_time"content="{% if page.last_modified_at %}{{ page.last_modified_at | date_to_xmlschema }}{% else %}{{ page.date | date_to_xmlschema }}{% endif %}"
-  >
-  {% if page.category %}
-  <meta property="article:section" content="{{ page.category }}" >
-  {% endif %}
-  {% if page.tags %}
-  <meta property="article:tag" content="{{ page.tags | join: ',' }}" >
-  {% endif %}
+    <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
+    <meta property="article:modified_time" content="{% if page.last_modified_at %}{{ page.last_modified_at | date_to_xmlschema }}{% else %}{{ page.date | date_to_xmlschema }}{% endif %}">
+    {% if page.category %}
+      <meta property="article:section" content="{{ page.category }}">
+    {% endif %}
+    {% if page.tags %}
+      <meta property="article:tag" content="{{ page.tags | join: ',' }}">
+    {% endif %}
   {% endif %}
 
   <!-- Open Graph / Facebook -->
-  <meta
-    property="og:type"
-    content="{% if page.layout == 'post' %}article{% else %}website{% endif %}"
-  >
-  <meta property="og:url" content="{{ page.url | absolute_url }}" >
-  <meta
-    property="og:title"
-    content="{% if page.h1 %}{{ page.h1 | strip_html }}{% else %}{{ page.title }}{% endif %}"
-  >
-  <meta
-    property="og:description"
-    content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"
-  >
-  <meta
-    property="og:image"
-    content="{% if page.jpg %}{{ page.jpg | absolute_url }}{% else %}{{ site.default_image | absolute_url }}{% endif %}"
-  >
-  <meta
-    property="og:locale"
-    content="{{ current_lang }}_{{ current_lang | upcase }}"
-  >
-  <meta
-    property="og:site_name"
-    content="{{ site.name }} {% if current_lang == 'es' %}Colombia{% else %}Colombia{% endif %}"
-  >
+  <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:title" content="{% if page.h1 %}{{ page.h1 | strip_html }}{% else %}{{ page.title }}{% endif %}">
+  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <meta property="og:image" content="{% if page.jpg %}{{ page.jpg | absolute_url }}{% else %}{{ site.default_image | absolute_url }}{% endif %}">
+  <meta property="og:locale" content="{{ current_lang }}_{{ current_lang | upcase }}">
+  <meta property="og:site_name" content="{{ site.name }} {% if current_lang == 'es' %}Colombia{% else %}Colombia{% endif %}">
 
   <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image" >
-  <meta name="twitter:site" content="@dratatianaleal" >
-  <meta name="twitter:title" content="{{ page.title }}" >
-  <meta
-    name="twitter:description"
-    content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"
-  >
-  <meta
-    name="twitter:image"
-    content="{% if page.jpg %}{{ page.jpg | absolute_url }}{% else %}{{ site.default_image | absolute_url }}{% endif %}"
-  >
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@dratatianaleal">
+  <meta name="twitter:title" content="{{ page.title }}">
+  <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="twitter:image" content="{% if page.jpg %}{{ page.jpg | absolute_url }}{% else %}{{ site.default_image | absolute_url }}{% endif %}">
+
+  <!-- DNS Prefetch y Preconnect -->
+  <link rel="dns-prefetch" href="//www.googletagmanager.com">
+  {% if page.url == '/es/' or page.url == '/en/' or page.url == '/es/contacto/' or page.url == '/en/contact/' %}
+  <link rel="preconnect" href="https://maps.googleapis.com">
+  <link rel="preconnect" href="https://maps.gstatic.com">
+  {% endif %}
 
   <!-- Favicon -->
-  <link
-    rel="icon"
-    href="{{ 'img/favicon/favicon.ico' | relative_url }}"
-    type="image/x-icon"
-  >
-  <link
-    rel="apple-touch-icon"
-    href="{{ 'img/favicon/apple-touch-icon.png' | relative_url }}"
-  >
+  <link rel="icon" href="{{ 'img/favicon/favicon.ico' | relative_url }}" type="image/x-icon">
+  <link rel="apple-touch-icon" href="{{ 'img/favicon/apple-touch-icon.png' | relative_url }}">
 
-  <!-- DNS Prefetch -->
-  <link rel="dns-prefetch" href="//ajax.googleapis.com" >
-  <link rel="dns-prefetch" href="//www.google-analytics.com" >
-  <link rel="dns-prefetch" href="//www.googletagmanager.com" >
-
+  <!-- Schemas -->
   {% include schema-treatments.html %}
   {% include schema-doctors.html %}
   {% include schema-blog.html %}
 
-  <link rel="author" href="/humans.txt" >
-  <link rel="canonical" href="{{ site.url }}{{ page.url }}" >
-  <meta name="referrer" content="strict-origin-when-cross-origin" >
+  <!-- Enlaces adicionales -->
+  <link rel="author" href="/humans.txt">
 
   <style>
     :root {
@@ -717,15 +681,7 @@
 
   </style>
 
-  <!-- Preloads and Links -->
-  <link
-    rel="preload"
-    href="{{ 'css/style.css' | relative_url }}"
-    as="style"
-    onload="this.onload=null;this.rel='stylesheet'"
-  >
-  <noscript
-    ><link rel="stylesheet" href="{{ 'css/style.css' | relative_url }}"
-  ></noscript>
-  <!-- Add your font preloads here -->
-</head>
+   <!-- Preloads and Links -->
+   <link rel="preload" href="{{ 'css/style.css' | relative_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+   <noscript><link rel="stylesheet" href="{{ 'css/style.css' | relative_url }}"></noscript>
+ </head>
