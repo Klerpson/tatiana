@@ -2,8 +2,8 @@
 layout: post
 lang: es
 ref: lipolisis-laser-no-invasiva
-date: 2024-03-15
-last_modified_at: 2024-03-15
+date: 2024-11-20
+last_modified_at: 2024-11-20
 category: [tratamientos-corporales]
 tags: [lipolisis-laser, reduccion-grasa, tratamientos-no-invasivos, belleza-corporal]
 author: dra-tatiana-leal
