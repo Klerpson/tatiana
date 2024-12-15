@@ -54,7 +54,7 @@
 }
 
 .articulo article a:not(.boton){
-  color: var(--accion);
+  color: var(--secundario);
   text-decoration: underline 3px;
   transition: ease-in-out 0.5s;
   font-weight: 700;
