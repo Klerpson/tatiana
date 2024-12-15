@@ -13,6 +13,7 @@ title: "Lip Filler Techniques: The Ultimate Guide for 2024 by Expert Doctors"
 h1: "Lip Fillers: Everything You Need to Know Before Taking the Step"
 description: "Considering lip fillers? Discover the most advanced techniques, duration, costs, and advice from board-certified specialists. Natural results guaranteed."
 jpg: "img/blog/natural-lip-filler-techniques.jpg"
+hero: "img/analisis-janus-facial.avif"
 alt: "Before and after lip filler treatment performed by Dr. Tatiana Leal"
 excerpt: "Discover everything about lip fillers: from modern techniques to expert advice for achieving natural, long-lasting results."
 reading_time: 12
