@@ -106,4 +106,77 @@
         <priority>0.6</priority>
     </url>
     
+    <url>
+        <loc>http://localhost:4000/es/blog/laser-lipolysis-risks/</loc>
+        
+        <!-- Alternate Language Versions -->
+        
+        
+        <!-- Last Modified Date -->
+        <lastmod>
+            2024-11-20T00:00:00-05:00
+            
+        </lastmod>
+        
+        <!-- Featured Image -->
+        
+        
+        <!-- News-specific tags for medical content -->
+        <news:news>
+            <news:publication>
+                <news:name>Tatiana Leal</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>2024-11-20T00:00:00-05:00</news:publication_date>
+            <news:title>Laser Lipolysis Risks</news:title>
+            
+        </news:news>
+        
+        <!-- Priority and Change Frequency -->
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/es/blog/riesgos-lipolisis-laser/</loc>
+        
+        <!-- Alternate Language Versions -->
+        
+            
+            
+                
+            
+        
+        
+        <!-- Last Modified Date -->
+        <lastmod>
+            2024-03-15T00:00:00-05:00
+            
+        </lastmod>
+        
+        <!-- Featured Image -->
+        
+        <image:image>
+            <image:loc>http://localhost:4000/img/blog/lipolisis-laser-riesgos.jpg</image:loc>
+            <image:title>Procedimiento de lipólisis láser realizado por especialistas certificados</image:title>
+            <image:caption>Descubre la verdad sobre la lipólisis láser no invasiva: riesgos, beneficios y contraindicaciones explicados por especialistas certificados. Resultados reales y seguros.</image:caption>
+        </image:image>
+        
+        
+        <!-- News-specific tags for medical content -->
+        <news:news>
+            <news:publication>
+                <news:name>Tatiana Leal</news:name>
+                <news:language>es</news:language>
+            </news:publication>
+            <news:publication_date>2024-03-15T00:00:00-05:00</news:publication_date>
+            <news:title>Lipólisis láser no invasiva: Riesgos y contraindicaciones que debes conocer en 2024</news:title>
+            
+        </news:news>
+        
+        <!-- Priority and Change Frequency -->
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
 </urlset>
