@@ -70,7 +70,7 @@ collections:
     permalink: /es/tecnologia/:slug/
   tecnologia_en:
     output: true
-    permalink: /en/tegnology/:slug/
+    permalink: /en/technology/:slug/
 
 # Valores por defecto
 defaults:
