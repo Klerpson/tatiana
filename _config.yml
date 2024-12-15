@@ -153,3 +153,11 @@ compress_html:
     blanklines: false
     profile: false
     startings: []
+
+# Plugins
+plugins:
+  - jekyll-redirect-from
+
+# Whitelist
+whitelist:
+  - jekyll-redirect-from
