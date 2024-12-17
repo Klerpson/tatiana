@@ -2,7 +2,8 @@
 {% assign alt_lang = current_lang == "es" ? "en" : "es" %}
 
 <!DOCTYPE html>
-<head>
+{% assign current_lang = page.lang | default: site.default_lang %}
+<head lang="{{page.lang}}">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }} | {{ site.name }}</title>
@@ -36,8 +37,15 @@
   {% assign current_lang = page.lang | default: site.default_lang %}
   {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
   {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
-  {% assign faciales=site.tratamientos-faciales_es | where:"ref", page.ref | sort: 'lang' %}
-  {% assign all_pages = pages | concat: posts | concat: faciales %}
+  {% assign faciales_es=site.tratamientos-faciales_es | where:"ref", page.ref | sort: 'lang' %}
+  {% assign faciales_en=site.tratamientos-faciales_en | where:"ref", page.ref | sort: 'lang' %}
+  {% assign corporales_es=site.tratamientos-corporales_es | where:"ref", page.ref | sort: 'lang' %}
+  {% assign corporales_en=site.tratamientos-corporales_en | where:"ref", page.ref | sort: 'lang' %}
+  {% assign intimos_es=site.tratamientos-intimos_es | where:"ref", page.ref | sort: 'lang' %}
+  {% assign intimos_en=site.tratamientos-intimos_en | where:"ref", page.ref | sort: 'lang' %}
+  {% assign tecnologia_es=site.tecnologia_es | where:"ref", page.ref | sort: 'lang' %}
+  {% assign tecnologia_en=site.tecnologia_en | where:"ref", page.ref | sort: 'lang' %}
+  {% assign all_pages = pages | concat: posts | concat: faciales_es | concat: faciales_en | concat: corporales_en | concat: corporales_es | concat: intimos_es | concat: intimos_en | concat: tecnologia_es | concat: tecnologia_en %}
 
   {% if page.redirect_to %}
     <link rel="canonical" href="{{ page.redirect_to | absolute_url }}">
