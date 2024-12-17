@@ -2,17 +2,19 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": ["MedicalProcedure", "MedicalTherapy"],
+  "@type": "MedicalProcedure",
   "name": "{{ page.title }}",
   "alternateName": "{{ page.h1 }}",
   "description": "{{ page.description }}",
   "url": "{{ site.url }}{{ page.url }}",
-  "image": [
-    "{{ site.url }}/{{ page.hero }}",
-    {% if page.hero1 %}"{{ site.url }}/{{ page.hero1 }}"{% endif %}
-  ],
-  "medicalSpecialty": ["Medicina Estética", "Dermatología Cosmética"],
-  "relevantSpecialty": {
+  "image": "{{ site.url }}/{{ page.hero }}"{% if page.hero1 %},
+  "additionalProperty": {
+    "@type": "PropertyValue",
+    "name": "SecondaryImage",
+    "value": "{{ site.url }}/{{ page.hero1 }}"
+  }{% endif %},
+  "medicineSystem": "Conventional",
+  "specialty": {
     "@type": "MedicalSpecialty",
     "name": "Medicina Estética"
   },
@@ -24,14 +26,12 @@
     }
   },
   "howPerformed": "Procedimiento no invasivo realizado en consultorio",
-  "preparation": [
-    "Evaluación médica previa",
-    "No requiere anestesia general",
-    "Procedimiento ambulatorio"
-  ],
-  "procedure": "{{ page.description }}",
+  "preparation": {
+    "@type": "MedicalEntity",
+    "description": "Evaluación médica previa. No requiere anestesia general. Procedimiento ambulatorio."
+  },
+  "procedureType": "{{ page.description }}",
   "followup": "Seguimiento personalizado post-tratamiento",
-  "status": "Aprobado por FDA e INVIMA",
   {% if page.cases %}
   "review": [
     {% for case in page.cases %}
@@ -47,10 +47,7 @@
   ],
   {% endif %}
   "typicalAgeRange": "18-",
-  "availableLanguage": [
-    "Spanish",
-    "English"
-  ],
+  "availableLanguage": ["es", "en"],
   "provider": {
     "@type": "HealthAndBeautyBusiness",
     "name": "{{ site.name }}",
@@ -76,11 +73,10 @@
       "{{ site.author.youtube }}"
     ]
   },
-  "medicalAudience": {
+  "audience": {
     "@type": "MedicalAudience",
     "audienceType": "Pacientes que buscan mejoras estéticas no invasivas"
   },
-  "hasMedicalAudienceType": "Pacientes adultos",
   {% if page.faqs %}
   "mainEntity": [
     {% for faq in page.faqs %}
