@@ -2,11 +2,11 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": ["Person", "Physician"],
+  "@type": "Physician",
   "name": "{% if page.url contains 'tatiana-leal' %}Dra. Tatiana Leal{% elsif page.url contains 'marco-bonilla' %}Dr. Marco Bonilla{% elsif page.url contains 'andrea-rincon' %}Dra. Andrea Rincón{% endif %}",
   "givenName": "{% if page.url contains 'tatiana-leal' %}Tatiana{% elsif page.url contains 'marco-bonilla' %}Marco{% elsif page.url contains 'andrea-rincon' %}Andrea{% endif %}",
   "familyName": "{% if page.url contains 'tatiana-leal' %}Leal{% elsif page.url contains 'marco-bonilla' %}Bonilla{% elsif page.url contains 'andrea-rincon' %}Rincón{% endif %}",
-  "honorificPrefix": "Dr.",
+  "honorificPrefix": "{% if page.url contains 'marco-bonilla' %}Dr.{% else %}Dra.{% endif %}",
   "gender": "{% if page.url contains 'marco-bonilla' %}Male{% else %}Female{% endif %}",
   "image": "{{ site.url }}/{{ page.hero }}",
   "description": "{{ page.description }}",
@@ -26,13 +26,13 @@
     }
     {% if page.url contains 'tatiana-leal' %},
     {
-      "@type": "Organization",
+      "@type": "CollegeOrUniversity",
       "name": "Universidad del Rosario",
       "url": "https://www.urosario.edu.co/"
     }
     {% endif %}
   ],
-  "medicalSpecialty": [
+  "specialty": [
     {% if page.url contains 'tatiana-leal' %}
     {
       "@type": "MedicalSpecialty",
@@ -58,53 +58,43 @@
     }
     {% endif %}
   ],
-  "hasCredential": [
+  "qualification": [
     {% if page.url contains 'tatiana-leal' %}
     {
       "@type": "EducationalOccupationalCredential",
-      "credentialCategory": "Especialización",
+      "credentialCategory": "degree",
       "name": "Especialista en Medicina Estética y Láser",
-      "organizations": [{
-        "@type": "Organization",
+      "recognizedBy": {
+        "@type": "CollegeOrUniversity",
         "name": "Universidad del Rosario"
-      }]
+      }
     }
     {% elsif page.url contains 'marco-bonilla' %}
     {
       "@type": "EducationalOccupationalCredential",
-      "credentialCategory": "Especialización",
+      "credentialCategory": "degree",
       "name": "Especialista en Ginecología y Obstetricia",
-      "organizations": [{
-        "@type": "Organization",
+      "recognizedBy": {
+        "@type": "CollegeOrUniversity",
         "name": "Universidad Militar Nueva Granada"
-      }]
+      }
     }
     {% elsif page.url contains 'andrea-rincon' %}
     {
       "@type": "EducationalOccupationalCredential",
-      "credentialCategory": "Título",
+      "credentialCategory": "degree",
       "name": "Médico Cirujano",
-      "organizations": [{
-        "@type": "Organization",
+      "recognizedBy": {
+        "@type": "CollegeOrUniversity",
         "name": "Universidad John F Kennedy"
-      }]
+      }
     }
     {% endif %}
   ],
-  "worksFor": {
-    "@type": "HealthAndBeautyBusiness",
+  "workLocation": {
+    "@type": "MedicalClinic",
     "name": "{{ site.name }}",
     "url": "{{ site.url }}",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "{{ site.direccion }}",
-      "addressLocality": "Bogotá",
-      "addressRegion": "DC",
-      "addressCountry": "CO"
-    }
-  },
-  "workLocation": {
-    "@type": "Place",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "{{ site.direccion }}",
@@ -118,10 +108,7 @@
       "longitude": "-74.0692314"
     }
   },
-  "availableLanguage": [
-    "Spanish",
-    "English"
-  ],
+  "availableLanguage": ["es", "en"],
   {% if page.url contains 'tatiana-leal' %}
   "knowsAbout": [
     "Rejuvenecimiento facial no quirúrgico",
@@ -132,14 +119,7 @@
     "Medicina estética avanzada"
   ],
   {% endif %}
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "{{ site.author.job_title }}",
-    "occupationLocation": {
-      "@type": "City",
-      "name": "Bogotá"
-    }
-  }
+  "jobTitle": "{{ site.author.job_title }}"
 }
 </script>
 {% endif %}
