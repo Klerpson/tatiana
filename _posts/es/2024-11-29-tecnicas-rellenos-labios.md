@@ -6,7 +6,7 @@ date: 2024-11-29
 last_modified_at: 2024-11-29
 category: [tratamientos-faciales]
 tags: [relleno-labios, acido-hialuronico, aumento-labios, belleza-facial]
-author: dra-tatiana-leal
+author: Tatiana Leal
 reviewer: dr-marco-bonilla
 expertise: "Medicina estética, rellenos dérmicos, tratamientos faciales"
 title: "Técnicas para relleno de labios: La guía definitiva 2024 por expertos"

@@ -6,7 +6,7 @@ date: 2024-11-20
 last_modified_at: 2024-11-20
 category: [tratamientos-corporales]
 tags: [lipolisis-laser, reduccion-grasa, tratamientos-no-invasivos, belleza-corporal]
-author: dra-tatiana-leal
+author: Tatiana Leal
 reviewer: dr-marco-bonilla
 expertise: "Medicina estética, tratamientos corporales, tecnología láser"
 title: "Lipólisis láser no invasiva: Riesgos y contraindicaciones que debes conocer en 2024"

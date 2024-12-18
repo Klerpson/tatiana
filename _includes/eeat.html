@@ -1,0 +1,41 @@
+{% if page.author == "Tatiana Leal" %}
+<div class="eeat-author">
+  <img src="{{ 'img/dra-tatiana-leal.avif' | relative_url }}" alt="Dra. Tatiana Leal" width="120" height="120" loading="lazy">
+  <div class="eeat-author-info">
+    <h3>Dra. Tatiana Leal</h3>
+    <p class="eeat-credentials">Especialista en Medicina Estética - Universidad del Rosario</p>
+    <p>Con más de 15 años de experiencia, la Dra. Tatiana Leal es especialista en medicina estética y experta en tratamientos láser avanzados. Su formación internacional y compromiso con la excelencia garantizan resultados seguros y naturales para sus pacientes.</p>
+    <div class="eeat-social">
+      <a href="#" class="social-link" target="_blank" rel="noopener noreferrer">
+        <span class="sr-only">LinkedIn</span>
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+      </a>
+      <a href="#" class="social-link" target="_blank" rel="noopener noreferrer">
+        <span class="sr-only">Instagram</span>
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+      </a>
+    </div>
+    <a href="{{'doctora-tatiana-leal' | relative_url}}" class="eeat-profile-link">Ver perfil completo</a>
+  </div>
+</div>
+{% elsif page.author == "Marco Bonilla" %}
+<div class="eeat-author">
+  <img src="{{ 'img/dr-marco-bonilla.avif' | relative_url }}" alt="Dr. Marco Bonilla" width="120" height="120" loading="lazy">
+  <div class="eeat-author-info">
+    <h3>Dr. Marco Bonilla</h3>
+    <p class="eeat-credentials">Especialista en Ginecología y Obstetricia - Universidad Militar Nueva Granada</p>
+    <p>El Dr. Marco Bonilla combina su especialidad en Ginecología y Obstetricia con técnicas avanzadas en medicina estética, ofreciendo un enfoque holístico para el bienestar y la salud femenina. Su formación incluye especializaciones en ecografía obstétrica y patología cervical.</p>
+    <div class="eeat-social">
+      <a href="#" class="social-link" target="_blank" rel="noopener noreferrer">
+        <span class="sr-only">LinkedIn</span>
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+      </a>
+      <a href="#" class="social-link" target="_blank" rel="noopener noreferrer">
+        <span class="sr-only">Instagram</span>
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+      </a>
+    </div>
+    <a href="{{'doctor-marco-bonilla' | relative_url}}" class="eeat-profile-link">Ver perfil completo</a>
+  </div>
+</div>
+{% endif %}

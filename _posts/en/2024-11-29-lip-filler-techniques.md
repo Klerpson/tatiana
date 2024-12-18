@@ -6,7 +6,7 @@ date: 2024-11-29
 last_modified_at: 2024-11-29
 category: [facial-treatments]
 tags: [lip-fillers, hyaluronic-acid, lip-augmentation, facial-beauty]
-author: tatiana-leal
+author: Tatiana Leal
 reviewer: marco-bonilla
 expertise: "Aesthetic medicine, dermal fillers, facial treatments"
 title: "Lip Filler Techniques: The Ultimate Guide for 2024 by Expert Doctors"

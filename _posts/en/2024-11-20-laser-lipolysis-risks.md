@@ -6,7 +6,7 @@ date: 2024-11-20
 last_modified_at: 2024-11-20
 category: [body-treatments]
 tags: [laser-lipolysis, fat-reduction, non-invasive-treatments, body-contouring]
-author: tatiana-leal
+author: Tatiana Leal
 reviewer: marco-bonilla
 expertise: "Aesthetic medicine, body treatments, laser technology"
 title: "Non-Invasive Laser Lipolysis: Risks and Contraindications You Need to Know in 2024"
