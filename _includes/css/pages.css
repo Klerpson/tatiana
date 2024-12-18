@@ -312,6 +312,10 @@
 .section-overlay {
   background: var(--principal);
   color: #fff;
+
+  h2{
+    color: #fefefe;
+  }
 }
 
 .three_blocks {
