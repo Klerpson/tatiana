@@ -1,3 +1,4 @@
+# Configuración básica del sitio
 baseurl: ''
 url: 'https://dratatianaleal.com'
 name: Tatiana Leal
@@ -5,6 +6,8 @@ email: asistentetatianaleal@gmail.com
 maps: https://maps.app.goo.gl/bvbNFb82J7X3s1q16
 direccion: "Torre Magna PI, Av Suba #114 - 59 Piso 6, Cons G14, Bogotá"
 telefono: 3222010384
+
+# Información del autor y social
 author:
   name: Tatiana Leal
   email: asistentetatianaleal@gmail.com
@@ -14,39 +17,45 @@ author:
   job_title: "Especialista en medicina estética y láser"
   bio: "La Dra. Tatiana Leal es una destacada especialista en Medicina Estética..."
 
+# SEO Configuration
 title: Doctora Tatiana Leal
+tagline: "Especialista en medicina estética y láser"
+description: "Clínica de Medicina Estética especializada en rejuvenecimiento facial y corporal en Bogotá"
 logo: /img/logo-tatiana-leal.webp
+social:
+  name: Dra. Tatiana Leal
+  links:
+    - https://www.instagram.com/dratatianaleal/
+    - https://www.facebook.com/Dra.TatianaLealSandoval
+    - https://www.youtube.com/channel/UCxF-X7in4xUFxYYwCMyC5OQ
 
-markdown: kramdown
-
+# Publisher
 publisher:
   name: Tatiana Leal
   logo: /img/logo-tatiana-leal.webp
 
-# Configuración de idiomas
+markdown: kramdown
+
+# Configuración de idiomas mejorada
 language: "es"
 default_lang: "es"
 languages: ["es", "en"]
+t:
+  es:
+    name: "Español"
+    icon: "🇪🇸"
+  en:
+    name: "English"
+    icon: "🇺🇸"
 exclude_from_localization: ["css", "img", "js"]
 
 # Configuración de URLs y colecciones
-permalink: /:lang/:slug/
+permalink: /:lang/:collection/:title/
 
 collections:
   posts:
     output: true
-    permalink: /es/blog/:title/ # Cambia esto
-    defaults:
-      - scope:
-          path: "_posts/es"
-          type: "posts"
-        values:
-          permalink: /es/blog/:title/
-      - scope:
-          path: "_posts/en"
-          type: "posts"
-        values:
-          permalink: /en/blog/:title/
+    permalink: /:lang/blog/:title/
   tratamientos-faciales_es:
     output: true
     permalink: /es/tratamientos-faciales/:slug/
@@ -74,6 +83,10 @@ collections:
 
 # Valores por defecto
 defaults:
+  - scope:
+      path: "index.html"
+    values:
+      redirect_to: "/es/"
   - scope:
       path: ""
     values:
@@ -141,28 +154,46 @@ defaults:
     values:
       lang: "en"
       layout: "servicios"
+  - scope:
+      path: "sitemap.xml"
+    values:
+      layout: null
 
 keep_files: [/img]
 
+# Optimización de Sass
+sass:
+  style: compressed
+  sourcemap: never
+
+# Optimización HTML
 compress_html:
-    clippings: []
-    comments: []
-    endings: []
-    ignore:
-    envs: []
-    blanklines: false
-    profile: false
-    startings: []
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: [development]
+  blanklines: false
+  profile: false
+  startings: [html, head, body]
 
 # Plugins
 plugins:
   - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 # Whitelist
 whitelist:
   - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
-# Redirecciones específicas
+
+include: ['_redirects']
+
+# Redirecciones
 redirect_from:
   enabled: true
   strip_index: true
+  collections: true
