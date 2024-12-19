@@ -6,7 +6,13 @@
 <head lang="{{page.lang}}">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title }} | {{ site.name }}</title>
+  <title>
+    {% if current_lang == "es" %}
+      {% if page.title %}{{ page.title }}{% else %}Clínica de Medicina Estética en Bogotá | Dra. Tatiana Leal{% endif %}
+    {% else %}
+      {% if page.title %}{{ page.title }}{% else %}Aesthetic Medicine Clinic in Bogotá | Dr. Tatiana Leal{% endif %}
+    {% endif %}
+  </title>
 
   <!-- Meta tags principales -->
   <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
