@@ -1,15 +1,15 @@
 document.addEventListener("DOMContentLoaded", function () {
   // Detectar si el usuario está en móvil o escritorio
-  var isMobile =
-    /iPhone|Android|iPad|iPod|Windows Phone|webOS|BlackBerry|Opera Mini|IEMobile|Mobile/i.test(
-      navigator.userAgent
-    );
+  var isMobile = /iPhone|Android|iPad|iPod|Windows Phone|webOS|BlackBerry|Opera Mini|IEMobile|Mobile/i.test(
+    navigator.userAgent
+  );
 
   // Obtener la URL actual de la página
   var currentURL = window.location.href;
 
-  // Obtener el idioma de la página
-  var pageLanguage = document.documentElement.lang;
+  // Mejorar la detección del idioma
+  var pageLanguage = document.documentElement.lang || 
+                    (window.location.pathname.includes('/en/') ? 'en' : 'es');
 
   // Definir los mensajes en español e inglés
   var messages = {
