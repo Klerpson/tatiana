@@ -1,0 +1,8 @@
+# Redirección de la página principal a español
+/   /es/    302
+/index.html   /es/    302
+
+# Redireccionamiento de URLs antiguas o comunes
+/inicio     /es/    301
+/home       /es/    301
+/index      /es/    301

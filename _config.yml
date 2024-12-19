@@ -84,6 +84,10 @@ collections:
 # Valores por defecto
 defaults:
   - scope:
+      path: "index.html"
+    values:
+      redirect_to: "/es/"
+  - scope:
       path: ""
     values:
       lang: "es"
@@ -184,6 +188,9 @@ whitelist:
   - jekyll-redirect-from
   - jekyll-sitemap
   - jekyll-seo-tag
+
+
+include: ['_redirects']
 
 # Redirecciones
 redirect_from:

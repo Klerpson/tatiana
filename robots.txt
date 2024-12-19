@@ -78,3 +78,4 @@ Crawl-delay: 10
 
 # Sitemap Principal
 Sitemap: https://dratatianaleal.com/sitemap-index.xml
+Sitemap: https://dratatianaleal.com/sitemap.xml
