@@ -1,3 +1,4 @@
+# Configuración básica del sitio
 baseurl: ''
 url: 'https://dratatianaleal.com'
 name: Tatiana Leal
@@ -35,128 +36,101 @@ publisher:
 
 markdown: kramdown
 
-# Configuración de idiomas mejorada
-language: "es"
-default_lang: "es"
-languages: ["es", "en"]
-t:
-  es:
-    name: "Español"
-    icon: "🇪🇸"
-  en:
-    name: "English"
-    icon: "🇺🇸"
-exclude_from_localization: ["css", "img", "js"]
-
 # Configuración de URLs y colecciones
-permalink: /:lang/:collection/:title/
+permalink: /:categories/:title/
+
+collections:
+  tratamientos-faciales_es:
+    output: true
+    permalink: /tratamientos-faciales/:title/
+  tratamientos-faciales_en:
+    output: true
+    permalink: /en/facial-treatments/:title/
+  tratamientos-corporales_es:
+    output: true
+    permalink: /tratamientos-corporales/:title/
+  tratamientos-corporales_en:
+    output: true
+    permalink: /en/body-treatments/:title/
+  tratamientos-intimos_es:
+    output: true
+    permalink: /tratamientos-intimos/:title/
+  tratamientos-intimos_en:
+    output: true
+    permalink: /en/intimate-treatments/:title/
+  tecnologia_es:
+    output: true
+    permalink: /tecnologia/:title/
+  tecnologia_en:
+    output: true
+    permalink: /en/technology/:title/
 
 # Valores por defecto
 defaults:
-  - scope:
-      path: "index.html"
-    values:
-      redirect_to: "/es/"
-  - scope:
+  -
+    scope:
       path: ""
     values:
-      lang: "es"
       layout: "default"
-  - scope:
+  -
+    scope:
       path: "en"
     values:
       lang: "en"
-  - scope:
-      path: "_posts/es"
+  -
+    scope:
+      path: "_posts"
+      type: "posts"
     values:
-      lang: "es"
       layout: "articulo"
-  - scope:
-      path: "_posts/en"
-    values:
-      lang: "en"
-      layout: "articulo"
-  - scope:
+  -
+    scope:
       path: ""
       type: "tratamientos-faciales_es"
     values:
-      lang: "es"
       layout: "servicios"
-  - scope:
+  -
+    scope:
       path: ""
       type: "tratamientos-faciales_en"
     values:
-      lang: "en"
       layout: "servicios"
-  - scope:
+  -
+    scope:
       path: ""
       type: "tratamientos-corporales_es"
     values:
-      lang: "es"
       layout: "servicios"
-  - scope:
+  -
+    scope:
       path: ""
       type: "tratamientos-corporales_en"
     values:
-      lang: "en"
       layout: "servicios"
-  - scope:
+  -
+    scope:
       path: ""
       type: "tratamientos-intimos_es"
     values:
-      lang: "es"
       layout: "servicios"
-  - scope:
+  -
+    scope:
       path: ""
       type: "tratamientos-intimos_en"
     values:
-      lang: "en"
       layout: "servicios"
-  - scope:
+  -
+    scope:
       path: ""
       type: "tecnologia_es"
     values:
-      lang: "es"
       layout: "servicios"
-  - scope:
+  -
+    scope:
       path: ""
       type: "tecnologia_en"
     values:
-      lang: "en"
       layout: "servicios"
-  - scope:
-      path: "sitemap.xml"
-    values:
-      layout: null
-
-collections:
-  posts:
-    output: true
-    permalink: /:lang/blog/:title/
-  tratamientos-faciales_es:
-    output: true
-    permalink: /es/tratamientos-faciales/:slug/
-  tratamientos-faciales_en:
-    output: true
-    permalink: /en/facial-treatments/:slug/
-  tratamientos-corporales_es:
-    output: true
-    permalink: /es/tratamientos-corporales/:slug/
-  tratamientos-corporales_en:
-    output: true
-    permalink: /en/body-treatments/:slug/
-  tratamientos-intimos_es:
-    output: true
-    permalink: /es/tratamientos-intimos/:slug/
-  tratamientos-intimos_en:
-    output: true
-    permalink: /en/intimate-treatments/:slug/
-  tecnologia_es:
-    output: true
-    permalink: /es/tecnologia/:slug/
-  tecnologia_en:
-    output: true
-    permalink: /en/technology/:slug/
 
 keep_files: [/img]
 
@@ -188,7 +162,6 @@ whitelist:
   - jekyll-sitemap
   - jekyll-seo-tag
 
-
 include: ['_redirects']
 
 # Redirecciones
@@ -196,6 +169,3 @@ redirect_from:
   enabled: true
   strip_index: true
   collections: true
-  default_lang: "es"
-  lang_keys: ["es", "en"]
-  collections_from_prefix: false

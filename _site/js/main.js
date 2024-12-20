@@ -7,18 +7,18 @@ document.addEventListener("DOMContentLoaded", function () {
   // Obtener la URL actual de la página
   var currentURL = window.location.href;
 
-  // Mejorar la detección del idioma
+  // Obtener el idioma de la página (mejorado)
   var pageLanguage = document.documentElement.lang || 
-                    (window.location.pathname.includes('/en/') ? 'en' : 'es');
+                    (window.location.pathname.indexOf('/en/') > -1 ? 'en' : 'es');
 
   // Definir los mensajes en español e inglés
   var messages = {
     es: "Hola! Me gustaría recibir más información de esta página: ",
-    en: "Hello! I would like to receive more information about this page: ",
+    en: "Hello! I would like to receive more information about this page: "
   };
 
   // Seleccionar el mensaje según el idioma de la página
-  var messageStart = messages[pageLanguage] || messages["en"]; // Default to English if language not found
+  var messageStart = messages[pageLanguage] || messages["es"]; // Default to Spanish if language not found
 
   // Obtener todos los enlaces de WhatsApp en la página
   var whatsappLinks = document.querySelectorAll("a#lead_whatsapp");
@@ -30,8 +30,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Enlaces de WhatsApp para móvil y escritorio con el mensaje dinámico
     var mobileLink = "https://wa.me/573222010384?text=" + message;
-    var desktopLink =
-      "https://web.whatsapp.com/send?phone=573222010384&text=" + message;
+    var desktopLink = "https://web.whatsapp.com/send?phone=573222010384&text=" + message;
 
     // Asignar el enlace adecuado según el dispositivo
     if (isMobile) {
