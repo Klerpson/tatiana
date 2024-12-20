@@ -36,128 +36,101 @@ publisher:
 
 markdown: kramdown
 
-# Configuración de idiomas mejorada
-language: "es"
-default_lang: "es"
-languages: ["es", "en"]
-t:
-  es:
-    name: "Español"
-    icon: "🇪🇸"
-  en:
-    name: "English"
-    icon: "🇺🇸"
-exclude_from_localization: ["css", "img", "js"]
-
 # Configuración de URLs y colecciones
-permalink: /:lang/:collection/:title/
+permalink: /:categories/:title/
 
 collections:
-  posts:
-    output: true
-    permalink: /:lang/blog/:title/
   tratamientos-faciales_es:
     output: true
-    permalink: /es/tratamientos-faciales/:slug/
+    permalink: /tratamientos-faciales/:title/
   tratamientos-faciales_en:
     output: true
-    permalink: /en/facial-treatments/:slug/
+    permalink: /en/facial-treatments/:title/
   tratamientos-corporales_es:
     output: true
-    permalink: /es/tratamientos-corporales/:slug/
+    permalink: /tratamientos-corporales/:title/
   tratamientos-corporales_en:
     output: true
-    permalink: /en/body-treatments/:slug/
+    permalink: /en/body-treatments/:title/
   tratamientos-intimos_es:
     output: true
-    permalink: /es/tratamientos-intimos/:slug/
+    permalink: /tratamientos-intimos/:title/
   tratamientos-intimos_en:
     output: true
-    permalink: /en/intimate-treatments/:slug/
+    permalink: /en/intimate-treatments/:title/
   tecnologia_es:
     output: true
-    permalink: /es/tecnologia/:slug/
+    permalink: /tecnologia/:title/
   tecnologia_en:
     output: true
-    permalink: /en/technology/:slug/
+    permalink: /en/technology/:title/
 
 # Valores por defecto
 defaults:
-  - scope:
-      path: "index.html"
-    values:
-      redirect_to: "/es/"
-  - scope:
+  -
+    scope:
       path: ""
     values:
-      lang: "es"
       layout: "default"
-  - scope:
+  -
+    scope:
       path: "en"
     values:
       lang: "en"
-  - scope:
-      path: "_posts/es"
+  -
+    scope:
+      path: "_posts"
+      type: "posts"
     values:
-      lang: "es"
       layout: "articulo"
-  - scope:
-      path: "_posts/en"
-    values:
-      lang: "en"
-      layout: "articulo"
-  - scope:
+  -
+    scope:
       path: ""
       type: "tratamientos-faciales_es"
     values:
-      lang: "es"
       layout: "servicios"
-  - scope:
+  -
+    scope:
       path: ""
       type: "tratamientos-faciales_en"
     values:
-      lang: "en"
       layout: "servicios"
-  - scope:
+  -
+    scope:
       path: ""
       type: "tratamientos-corporales_es"
     values:
-      lang: "es"
       layout: "servicios"
-  - scope:
+  -
+    scope:
       path: ""
       type: "tratamientos-corporales_en"
     values:
-      lang: "en"
       layout: "servicios"
-  - scope:
+  -
+    scope:
       path: ""
       type: "tratamientos-intimos_es"
     values:
-      lang: "es"
       layout: "servicios"
-  - scope:
+  -
+    scope:
       path: ""
       type: "tratamientos-intimos_en"
     values:
-      lang: "en"
       layout: "servicios"
-  - scope:
+  -
+    scope:
       path: ""
       type: "tecnologia_es"
     values:
-      lang: "es"
       layout: "servicios"
-  - scope:
+  -
+    scope:
       path: ""
       type: "tecnologia_en"
     values:
-      lang: "en"
       layout: "servicios"
-  - scope:
-      path: "sitemap.xml"
-    values:
-      layout: null
 
 keep_files: [/img]
 
@@ -188,7 +161,6 @@ whitelist:
   - jekyll-redirect-from
   - jekyll-sitemap
   - jekyll-seo-tag
-
 
 include: ['_redirects']
 

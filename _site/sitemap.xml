@@ -6,42 +6,6 @@
 
   <!-- Home Pages -->
   
-  <url>
-    <loc>http://localhost:4000/es/</loc>
-    
-      
-    
-      
-    <xhtml:link 
-      rel="alternate"
-      hreflang="en"
-      href="http://localhost:4000/en/"
-    />
-      
-    
-    <lastmod>2024-12-19T16:27:22-05:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:4000/en/</loc>
-    
-      
-    <xhtml:link 
-      rel="alternate"
-      hreflang="es"
-      href="http://localhost:4000/es/"
-    />
-      
-    
-      
-    
-    <lastmod>2024-12-19T16:27:22-05:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
 
   <!-- Corporate/Vertical Pages -->
   
@@ -73,7 +37,7 @@
         <image:title>Medical professionals at Dr. Tatiana Leal&apos;s aesthetic medicine center in Bogotá</image:title>
       </image:image>
       
-      <lastmod>2024-12-19T16:27:22-05:00</lastmod>
+      <lastmod>2024-12-20T13:46:51-05:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
     </url>
@@ -102,7 +66,7 @@
         <image:title>Aesthetic medicine clinic in Bogotá, Dr. Tatiana Leal</image:title>
       </image:image>
       
-      <lastmod>2024-12-19T16:27:22-05:00</lastmod>
+      <lastmod>2024-12-20T13:46:51-05:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
     </url>
@@ -131,7 +95,7 @@
         <image:title>Clínica de medicina estética en Bogotá, Dra. Tatiana Leal</image:title>
       </image:image>
       
-      <lastmod>2024-12-19T16:27:22-05:00</lastmod>
+      <lastmod>2024-12-20T13:46:51-05:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
     </url>
@@ -160,7 +124,7 @@
         <image:title>Non-invasive body treatments by Dr. Tatiana Leal - Natural and safe results</image:title>
       </image:image>
       
-      <lastmod>2024-12-19T16:27:22-05:00</lastmod>
+      <lastmod>2024-12-20T13:46:51-05:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
     </url>
@@ -189,7 +153,7 @@
         <image:title>Profesionales del centro de medicina estética en Bogotá, de la doctora Tatiana Leal</image:title>
       </image:image>
       
-      <lastmod>2024-12-19T16:27:22-05:00</lastmod>
+      <lastmod>2024-12-20T13:46:51-05:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
     </url>
@@ -213,7 +177,7 @@
         
       
       
-      <lastmod>2024-12-19T16:27:22-05:00</lastmod>
+      <lastmod>2024-12-20T13:46:51-05:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
     </url>
@@ -237,7 +201,7 @@
         
       
       
-      <lastmod>2024-12-19T16:27:22-05:00</lastmod>
+      <lastmod>2024-12-20T13:46:51-05:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
     </url>
@@ -266,7 +230,7 @@
         <image:title>Dr. Marco Bonilla - Ginecólogo y Obstetra Especializado en Medicina Estética</image:title>
       </image:image>
       
-      <lastmod>2024-12-19T16:27:22-05:00</lastmod>
+      <lastmod>2024-12-20T13:46:51-05:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
     </url>
@@ -295,7 +259,7 @@
         <image:title>Dra. Andrea Rincón - Especialista en Medicina Antienvejecimiento y Tecnología Láser</image:title>
       </image:image>
       
-      <lastmod>2024-12-19T16:27:22-05:00</lastmod>
+      <lastmod>2024-12-20T13:46:51-05:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
     </url>
@@ -324,7 +288,7 @@
         <image:title>Dra. Tatiana Leal - Especialista en Medicina Estética y Láser en Bogotá</image:title>
       </image:image>
       
-      <lastmod>2024-12-19T16:27:22-05:00</lastmod>
+      <lastmod>2024-12-20T13:46:51-05:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
     </url>
@@ -353,7 +317,7 @@
         <image:title>Dr. Andrea Rincon - Anti-aging Medicine and Laser Technology Specialist</image:title>
       </image:image>
       
-      <lastmod>2024-12-19T16:27:22-05:00</lastmod>
+      <lastmod>2024-12-20T13:46:51-05:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
     </url>
@@ -382,7 +346,7 @@
         <image:title>Dr. Marco Bonilla - Gynecologist &amp; Obstetrician Specialized in Aesthetic Medicine</image:title>
       </image:image>
       
-      <lastmod>2024-12-19T16:27:22-05:00</lastmod>
+      <lastmod>2024-12-20T13:46:51-05:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
     </url>
@@ -411,7 +375,7 @@
         <image:title>Dr. Tatiana Leal - Aesthetic Medicine and Laser Specialist in Bogotá</image:title>
       </image:image>
       
-      <lastmod>2024-12-19T16:27:22-05:00</lastmod>
+      <lastmod>2024-12-20T13:46:51-05:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
     </url>
@@ -440,7 +404,7 @@
         <image:title>Non-invasive facial treatments by Dr. Tatiana Leal - Natural and safe results</image:title>
       </image:image>
       
-      <lastmod>2024-12-19T16:27:22-05:00</lastmod>
+      <lastmod>2024-12-20T13:46:51-05:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
     </url>
@@ -469,7 +433,7 @@
         <image:title>Frequently Asked Questions about Aesthetic Medicine in Bogotá | Dr. Tatiana Leal Clinic</image:title>
       </image:image>
       
-      <lastmod>2024-12-19T16:27:22-05:00</lastmod>
+      <lastmod>2024-12-20T13:46:51-05:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
     </url>
@@ -499,7 +463,7 @@
         
       
       
-      <lastmod>2024-12-19T16:27:22-05:00</lastmod>
+      <lastmod>2024-12-20T13:46:51-05:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
     </url>
@@ -523,12 +487,10 @@
         
       
       
-      <lastmod>2024-12-19T16:27:22-05:00</lastmod>
+      <lastmod>2024-12-20T13:46:51-05:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
     </url>
-    
-  
     
   
     
@@ -554,7 +516,7 @@
         <image:title>Derechos y Deberes del Paciente | Dra. Tatiana Leal</image:title>
       </image:image>
       
-      <lastmod>2024-12-19T16:27:22-05:00</lastmod>
+      <lastmod>2024-12-20T13:46:51-05:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
     </url>
@@ -583,7 +545,7 @@
         <image:title>Female intimate treatments by Dr. Tatiana Leal - Natural and safe results</image:title>
       </image:image>
       
-      <lastmod>2024-12-19T16:27:22-05:00</lastmod>
+      <lastmod>2024-12-20T13:46:51-05:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
     </url>
@@ -612,7 +574,7 @@
         <image:title>Terms and Conditions | dratatianaleal.com</image:title>
       </image:image>
       
-      <lastmod>2024-12-19T16:27:22-05:00</lastmod>
+      <lastmod>2024-12-20T13:46:51-05:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
     </url>
@@ -641,7 +603,7 @@
         <image:title>Términos y Codiciones de Uso | dratatianaleal.com</image:title>
       </image:image>
       
-      <lastmod>2024-12-19T16:27:22-05:00</lastmod>
+      <lastmod>2024-12-20T13:46:51-05:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
     </url>
@@ -672,7 +634,7 @@
         <image:title>Patient Rights and Duties | Dr. Tatiana Leal</image:title>
       </image:image>
       
-      <lastmod>2024-12-19T16:27:22-05:00</lastmod>
+      <lastmod>2024-12-20T13:46:51-05:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
     </url>
@@ -701,7 +663,7 @@
         <image:title>Preguntas Frecuentes sobre Medicina Estética en Bogotá | Clínica Dra. Tatiana Leal</image:title>
       </image:image>
       
-      <lastmod>2024-12-19T16:27:22-05:00</lastmod>
+      <lastmod>2024-12-20T13:46:51-05:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
     </url>
@@ -744,7 +706,7 @@
         <image:title>Tratamientos corporales no invasivos con la Dra. Tatiana Leal - Resultados naturales y seguros</image:title>
       </image:image>
       
-      <lastmod>2024-12-19T16:27:22-05:00</lastmod>
+      <lastmod>2024-12-20T13:46:51-05:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
     </url>
@@ -773,7 +735,7 @@
         <image:title>Tratamientos faciales no invasivos realizados por la Dra. Tatiana Leal - Resultados naturales y seguros</image:title>
       </image:image>
       
-      <lastmod>2024-12-19T16:27:22-05:00</lastmod>
+      <lastmod>2024-12-20T13:46:51-05:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
     </url>
@@ -802,7 +764,7 @@
         <image:title>Tratamientos íntimos femeninos por la Dra. Tatiana Leal - Resultados naturales y seguros</image:title>
       </image:image>
       
-      <lastmod>2024-12-19T16:27:22-05:00</lastmod>
+      <lastmod>2024-12-20T13:46:51-05:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
     </url>
@@ -991,7 +953,7 @@
   
   
     <url>
-      <loc>http://localhost:4000/es/blog/tecnicas-rellenos-labios/</loc>
+      <loc>http://localhost:4000/tratamientos-faciales/tecnicas-rellenos-labios/</loc>
       
         
         
@@ -1001,7 +963,7 @@
       <xhtml:link 
         rel="alternate"
         hreflang="en"
-        href="http://localhost:4000/es/blog/lip-filler-techniques/"
+        href="http://localhost:4000/facial-treatments/lip-filler-techniques/"
       />
           
         
@@ -1018,7 +980,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/es/blog/riesgos-lipolisis-laser/</loc>
+      <loc>http://localhost:4000/tratamientos-corporales/riesgos-lipolisis-laser/</loc>
       
         
         
@@ -1028,7 +990,7 @@
       <xhtml:link 
         rel="alternate"
         hreflang="en"
-        href="http://localhost:4000/es/blog/laser-lipolysis-risks/"
+        href="http://localhost:4000/body-treatments/laser-lipolysis-risks/"
       />
           
         
@@ -1045,7 +1007,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/es/blog/lip-filler-techniques/</loc>
+      <loc>http://localhost:4000/facial-treatments/lip-filler-techniques/</loc>
       
         
         
@@ -1053,7 +1015,7 @@
       <xhtml:link 
         rel="alternate"
         hreflang="es"
-        href="http://localhost:4000/es/blog/tecnicas-rellenos-labios/"
+        href="http://localhost:4000/tratamientos-faciales/tecnicas-rellenos-labios/"
       />
           
         
@@ -1072,7 +1034,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/es/blog/laser-lipolysis-risks/</loc>
+      <loc>http://localhost:4000/body-treatments/laser-lipolysis-risks/</loc>
       
         
         
@@ -1080,7 +1042,7 @@
       <xhtml:link 
         rel="alternate"
         hreflang="es"
-        href="http://localhost:4000/es/blog/riesgos-lipolisis-laser/"
+        href="http://localhost:4000/tratamientos-corporales/riesgos-lipolisis-laser/"
       />
           
         
@@ -1104,7 +1066,7 @@
   
   
     <url>
-      <loc>http://localhost:4000/es/tratamientos-faciales/acido-hialuronico/</loc>
+      <loc>http://localhost:4000/tratamientos-faciales/acido-hialuronico/</loc>
       
       
       <xhtml:link 
@@ -1119,13 +1081,13 @@
         <image:title>Tratamiento con ácido hialurónico - Resultados naturales y seguros</image:title>
       </image:image>
       
-      <lastmod>2024-12-19T16:27:22-05:00</lastmod>
+      <lastmod>2024-12-20T13:46:51-05:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.7</priority>
     </url>
   
     <url>
-      <loc>http://localhost:4000/es/tratamientos-faciales/aumento-labios/</loc>
+      <loc>http://localhost:4000/tratamientos-faciales/aumento-labios/</loc>
       
       
       <xhtml:link 
@@ -1140,13 +1102,13 @@
         <image:title>Aumento de labios natural por la Dra. Tatiana Leal - Resultados hermosos y seguros</image:title>
       </image:image>
       
-      <lastmod>2024-12-19T16:27:22-05:00</lastmod>
+      <lastmod>2024-12-20T13:46:51-05:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.7</priority>
     </url>
   
     <url>
-      <loc>http://localhost:4000/es/tratamientos-faciales/biorevitalizacion/</loc>
+      <loc>http://localhost:4000/tratamientos-faciales/biorevitalizacion/</loc>
       
       
       <xhtml:link 
@@ -1161,13 +1123,13 @@
         <image:title>Biorevitalización facial - Rejuvenecimiento natural y efectivo</image:title>
       </image:image>
       
-      <lastmod>2024-12-19T16:27:22-05:00</lastmod>
+      <lastmod>2024-12-20T13:46:51-05:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.7</priority>
     </url>
   
     <url>
-      <loc>http://localhost:4000/es/tratamientos-faciales/caida-del-cabello/</loc>
+      <loc>http://localhost:4000/tratamientos-faciales/caida-del-cabello/</loc>
       
       
       <xhtml:link 
@@ -1182,13 +1144,13 @@
         <image:title>Tratamiento para la caída del cabello con PRP realizado por especialistas</image:title>
       </image:image>
       
-      <lastmod>2024-12-19T16:27:22-05:00</lastmod>
+      <lastmod>2024-12-20T13:46:51-05:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.7</priority>
     </url>
   
     <url>
-      <loc>http://localhost:4000/es/tratamientos-faciales/eliminar-manchas/</loc>
+      <loc>http://localhost:4000/tratamientos-faciales/eliminar-manchas/</loc>
       
       
       <xhtml:link 
@@ -1203,13 +1165,13 @@
         <image:title>Tratamientos para eliminar manchas en la piel y cara</image:title>
       </image:image>
       
-      <lastmod>2024-12-19T16:27:22-05:00</lastmod>
+      <lastmod>2024-12-20T13:46:51-05:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.7</priority>
     </url>
   
     <url>
-      <loc>http://localhost:4000/es/tratamientos-faciales/hilos-tensores/</loc>
+      <loc>http://localhost:4000/tratamientos-faciales/hilos-tensores/</loc>
       
       
       <xhtml:link 
@@ -1224,13 +1186,13 @@
         <image:title>Hilos tensores con la Dra. Tatiana Leal - Resultados naturales y seguros</image:title>
       </image:image>
       
-      <lastmod>2024-12-19T16:27:22-05:00</lastmod>
+      <lastmod>2024-12-20T13:46:51-05:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.7</priority>
     </url>
   
     <url>
-      <loc>http://localhost:4000/es/tratamientos-faciales/lifting/</loc>
+      <loc>http://localhost:4000/tratamientos-faciales/lifting/</loc>
       
       
       <xhtml:link 
@@ -1245,13 +1207,13 @@
         <image:title>Lifting facial sin cirugía - Resultados naturales y seguros</image:title>
       </image:image>
       
-      <lastmod>2024-12-19T16:27:22-05:00</lastmod>
+      <lastmod>2024-12-20T13:46:51-05:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.7</priority>
     </url>
   
     <url>
-      <loc>http://localhost:4000/es/tratamientos-faciales/limpieza-facial/</loc>
+      <loc>http://localhost:4000/tratamientos-faciales/limpieza-facial/</loc>
       
       
       <xhtml:link 
@@ -1266,13 +1228,13 @@
         <image:title>Limpieza facial profunda realizada por la Dra. Tatiana Leal en Bogotá</image:title>
       </image:image>
       
-      <lastmod>2024-12-19T16:27:22-05:00</lastmod>
+      <lastmod>2024-12-20T13:46:51-05:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.7</priority>
     </url>
   
     <url>
-      <loc>http://localhost:4000/es/tratamientos-faciales/ojeras/</loc>
+      <loc>http://localhost:4000/tratamientos-faciales/ojeras/</loc>
       
       
       <xhtml:link 
@@ -1287,13 +1249,13 @@
         <image:title>Tratamiento para eliminar ojeras - Resultados naturales y seguros</image:title>
       </image:image>
       
-      <lastmod>2024-12-19T16:27:22-05:00</lastmod>
+      <lastmod>2024-12-20T13:46:51-05:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.7</priority>
     </url>
   
     <url>
-      <loc>http://localhost:4000/es/tratamientos-faciales/peeling-quimico/</loc>
+      <loc>http://localhost:4000/tratamientos-faciales/peeling-quimico/</loc>
       
       
       <xhtml:link 
@@ -1308,13 +1270,13 @@
         <image:title>Peeling químico facial - Resultados seguros y naturales</image:title>
       </image:image>
       
-      <lastmod>2024-12-19T16:27:22-05:00</lastmod>
+      <lastmod>2024-12-20T13:46:51-05:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.7</priority>
     </url>
   
     <url>
-      <loc>http://localhost:4000/es/tratamientos-faciales/rejuve-face/</loc>
+      <loc>http://localhost:4000/tratamientos-faciales/rejuve-face/</loc>
       
       
       <xhtml:link 
@@ -1329,13 +1291,13 @@
         <image:title>Crema antiedad Rejuve Face de la Dra. Tatiana Leal</image:title>
       </image:image>
       
-      <lastmod>2024-12-19T16:27:22-05:00</lastmod>
+      <lastmod>2024-12-20T13:46:51-05:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.7</priority>
     </url>
   
     <url>
-      <loc>http://localhost:4000/es/tratamientos-faciales/rejuvenecimiento-laser/</loc>
+      <loc>http://localhost:4000/tratamientos-faciales/rejuvenecimiento-laser/</loc>
       
       
       <xhtml:link 
@@ -1350,13 +1312,13 @@
         <image:title>Rejuvenecimiento facial con láser realizado por la Dra. Tatiana Leal</image:title>
       </image:image>
       
-      <lastmod>2024-12-19T16:27:22-05:00</lastmod>
+      <lastmod>2024-12-20T13:46:51-05:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.7</priority>
     </url>
   
     <url>
-      <loc>http://localhost:4000/es/tratamientos-faciales/vitamina-c-facial/</loc>
+      <loc>http://localhost:4000/tratamientos-faciales/vitamina-c-facial/</loc>
       
       
       <xhtml:link 
@@ -1371,7 +1333,7 @@
         <image:title>Tratamiento facial con vitamina C - Luminosidad y juventud natural</image:title>
       </image:image>
       
-      <lastmod>2024-12-19T16:27:22-05:00</lastmod>
+      <lastmod>2024-12-20T13:46:51-05:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.7</priority>
     </url>
@@ -1382,7 +1344,7 @@
   
   
     <url>
-      <loc>http://localhost:4000/es/tratamientos-corporales/celulitis/</loc>
+      <loc>http://localhost:4000/tratamientos-corporales/celulitis/</loc>
       
       
       <xhtml:link 
@@ -1397,13 +1359,13 @@
         <image:title>Tratamiento para celulitis con tecnología Contour Shape</image:title>
       </image:image>
       
-      <lastmod>2024-12-19T16:27:22-05:00</lastmod>
+      <lastmod>2024-12-20T13:46:51-05:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.7</priority>
     </url>
   
     <url>
-      <loc>http://localhost:4000/es/tratamientos-corporales/depilacion-laser/</loc>
+      <loc>http://localhost:4000/tratamientos-corporales/depilacion-laser/</loc>
       
       
       <xhtml:link 
@@ -1418,13 +1380,13 @@
         <image:title>Depilación láser en Bogotá - Resultados permanentes y seguros</image:title>
       </image:image>
       
-      <lastmod>2024-12-19T16:27:22-05:00</lastmod>
+      <lastmod>2024-12-20T13:46:51-05:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.7</priority>
     </url>
   
     <url>
-      <loc>http://localhost:4000/es/tratamientos-corporales/eliminacion-tatuajes/</loc>
+      <loc>http://localhost:4000/tratamientos-corporales/eliminacion-tatuajes/</loc>
       
       
       <xhtml:link 
@@ -1439,13 +1401,13 @@
         <image:title>Eliminación de tatuajes con láser - Resultados comprobados</image:title>
       </image:image>
       
-      <lastmod>2024-12-19T16:27:22-05:00</lastmod>
+      <lastmod>2024-12-20T13:46:51-05:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.7</priority>
     </url>
   
     <url>
-      <loc>http://localhost:4000/es/tratamientos-corporales/gluteos/</loc>
+      <loc>http://localhost:4000/tratamientos-corporales/gluteos/</loc>
       
       
       <xhtml:link 
@@ -1460,13 +1422,13 @@
         <image:title>Levantamiento de glúteos sin cirugía - Resultados naturales y seguros</image:title>
       </image:image>
       
-      <lastmod>2024-12-19T16:27:22-05:00</lastmod>
+      <lastmod>2024-12-20T13:46:51-05:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.7</priority>
     </url>
   
     <url>
-      <loc>http://localhost:4000/es/tratamientos-corporales/hifem-sculptor/</loc>
+      <loc>http://localhost:4000/tratamientos-corporales/hifem-sculptor/</loc>
       
       
       <xhtml:link 
@@ -1481,13 +1443,13 @@
         <image:title>Tratamiento de tonificación muscular con tecnología HIFEM</image:title>
       </image:image>
       
-      <lastmod>2024-12-19T16:27:22-05:00</lastmod>
+      <lastmod>2024-12-20T13:46:51-05:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.7</priority>
     </url>
   
     <url>
-      <loc>http://localhost:4000/es/tratamientos-corporales/lipolisis/</loc>
+      <loc>http://localhost:4000/tratamientos-corporales/lipolisis/</loc>
       
       
       <xhtml:link 
@@ -1502,13 +1464,13 @@
         <image:title>Lipolisis láser con la Dra. Tatiana Leal - Resultados seguros y naturales</image:title>
       </image:image>
       
-      <lastmod>2024-12-19T16:27:22-05:00</lastmod>
+      <lastmod>2024-12-20T13:46:51-05:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.7</priority>
     </url>
   
     <url>
-      <loc>http://localhost:4000/es/tratamientos-corporales/moldeamiento/</loc>
+      <loc>http://localhost:4000/tratamientos-corporales/moldeamiento/</loc>
       
       
       <xhtml:link 
@@ -1523,13 +1485,13 @@
         <image:title>Moldeamiento corporal - Resultados visibles y duraderos</image:title>
       </image:image>
       
-      <lastmod>2024-12-19T16:27:22-05:00</lastmod>
+      <lastmod>2024-12-20T13:46:51-05:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.7</priority>
     </url>
   
     <url>
-      <loc>http://localhost:4000/es/tratamientos-corporales/radiofrecuencia/</loc>
+      <loc>http://localhost:4000/tratamientos-corporales/radiofrecuencia/</loc>
       
       
       <xhtml:link 
@@ -1544,13 +1506,13 @@
         <image:title>Radiofrecuencia estética - Resultados visibles y duraderos</image:title>
       </image:image>
       
-      <lastmod>2024-12-19T16:27:22-05:00</lastmod>
+      <lastmod>2024-12-20T13:46:51-05:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.7</priority>
     </url>
   
     <url>
-      <loc>http://localhost:4000/es/tratamientos-corporales/sueroterapia-detox/</loc>
+      <loc>http://localhost:4000/tratamientos-corporales/sueroterapia-detox/</loc>
       
       
       <xhtml:link 
@@ -1565,13 +1527,13 @@
         <image:title>Tratamiento de sueroterapia detox realizado por especialistas</image:title>
       </image:image>
       
-      <lastmod>2024-12-19T16:27:22-05:00</lastmod>
+      <lastmod>2024-12-20T13:46:51-05:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.7</priority>
     </url>
   
     <url>
-      <loc>http://localhost:4000/es/tratamientos-corporales/varices/</loc>
+      <loc>http://localhost:4000/tratamientos-corporales/varices/</loc>
       
       
       <xhtml:link 
@@ -1586,7 +1548,7 @@
         <image:title>Tratamiento de várices con escleroterapia realizado por especialistas</image:title>
       </image:image>
       
-      <lastmod>2024-12-19T16:27:22-05:00</lastmod>
+      <lastmod>2024-12-20T13:46:51-05:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.7</priority>
     </url>
@@ -1597,7 +1559,7 @@
   
   
     <url>
-      <loc>http://localhost:4000/es/tratamientos-intimos/aclaramiento-genital/</loc>
+      <loc>http://localhost:4000/tratamientos-intimos/aclaramiento-genital/</loc>
       
       
       <xhtml:link 
@@ -1612,13 +1574,13 @@
         <image:title>Tratamiento de aclaramiento genital realizado por la Dra. Tatiana Leal</image:title>
       </image:image>
       
-      <lastmod>2024-12-19T16:27:22-05:00</lastmod>
+      <lastmod>2024-12-20T13:46:51-05:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.7</priority>
     </url>
   
     <url>
-      <loc>http://localhost:4000/es/tratamientos-intimos/aumento-labios-mayores/</loc>
+      <loc>http://localhost:4000/tratamientos-intimos/aumento-labios-mayores/</loc>
       
       
       <xhtml:link 
@@ -1633,13 +1595,13 @@
         <image:title>Tratamiento de aumento de labios mayores realizado por la Dra. Tatiana Leal</image:title>
       </image:image>
       
-      <lastmod>2024-12-19T16:27:22-05:00</lastmod>
+      <lastmod>2024-12-20T13:46:51-05:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.7</priority>
     </url>
   
     <url>
-      <loc>http://localhost:4000/es/tratamientos-intimos/incontinencia-urinaria-esfuerzo/</loc>
+      <loc>http://localhost:4000/tratamientos-intimos/incontinencia-urinaria-esfuerzo/</loc>
       
       
       <xhtml:link 
@@ -1654,13 +1616,13 @@
         <image:title>Tratamiento especializado para incontinencia urinaria de esfuerzo</image:title>
       </image:image>
       
-      <lastmod>2024-12-19T16:27:22-05:00</lastmod>
+      <lastmod>2024-12-20T13:46:51-05:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.7</priority>
     </url>
   
     <url>
-      <loc>http://localhost:4000/es/tratamientos-intimos/lesiones-benignas/</loc>
+      <loc>http://localhost:4000/tratamientos-intimos/lesiones-benignas/</loc>
       
       
       <xhtml:link 
@@ -1675,13 +1637,13 @@
         <image:title>Eliminación de Lesiones Benignas - Tratamiento Seguro y Efectivo</image:title>
       </image:image>
       
-      <lastmod>2024-12-19T16:27:22-05:00</lastmod>
+      <lastmod>2024-12-20T13:46:51-05:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.7</priority>
     </url>
   
     <url>
-      <loc>http://localhost:4000/es/tratamientos-intimos/rejuvenecimiento-vaginal/</loc>
+      <loc>http://localhost:4000/tratamientos-intimos/rejuvenecimiento-vaginal/</loc>
       
       
       <xhtml:link 
@@ -1696,7 +1658,7 @@
         <image:title>Consultorio especializado en rejuvenecimiento vaginal láser</image:title>
       </image:image>
       
-      <lastmod>2024-12-19T16:27:22-05:00</lastmod>
+      <lastmod>2024-12-20T13:46:51-05:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.7</priority>
     </url>
