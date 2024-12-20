@@ -50,7 +50,7 @@ t:
 exclude_from_localization: ["css", "img", "js"]
 
 # Configuración de URLs y colecciones
-permalink: /:lang/:collection/:title/
+permalink: /:collection/:title/
 
 collections:
   posts:
@@ -83,10 +83,6 @@ collections:
 
 # Valores por defecto
 defaults:
-  - scope:
-      path: "index.html"
-    values:
-      redirect_to: "/es/"
   - scope:
       path: ""
     values:
@@ -197,3 +193,5 @@ redirect_from:
   enabled: true
   strip_index: true
   collections: true
+  default_lang: "es"
+  lang_keys: ["es", "en"]
