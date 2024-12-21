@@ -67,8 +67,6 @@
     
       <link rel="alternate" hreflang="" href="http://localhost:4000/sitemap-treatments.xml">
     
-      <link rel="alternate" hreflang="" href="http://localhost:4000/sitemap.xml">
-    
       <link rel="alternate" hreflang="" href="http://localhost:4000/css/style.css">
     
       <link rel="alternate" hreflang="" href="http://localhost:4000/cuales-son-los-riesgos-de-la-lipolisis-laser/">
@@ -247,6 +245,8 @@
     
       <link rel="alternate" hreflang="" href="http://localhost:4000/redirects.json">
     
+      <link rel="alternate" hreflang="" href="http://localhost:4000/sitemap.xml">
+    
       <link rel="alternate" hreflang="en" href="http://localhost:4000/en/404/">
     
       <link rel="alternate" hreflang="en" href="http://localhost:4000/en/aesthetic-center/">
@@ -311,31 +311,31 @@
     
       <link rel="alternate" hreflang="es" href="http://localhost:4000/tratamientos-corporales/riesgos-lipolisis-laser/">
     
-      <link rel="alternate" hreflang="es" href="http://localhost:4000/tratamientos-faciales/acido-hialuronico/">
+      <link rel="alternate" hreflang="es" href="http://localhost:4000/es/tratamientos-faciales/acido-hialuronico/">
     
-      <link rel="alternate" hreflang="es" href="http://localhost:4000/tratamientos-faciales/aumento-labios/">
+      <link rel="alternate" hreflang="es" href="http://localhost:4000/es/tratamientos-faciales/aumento-labios/">
     
-      <link rel="alternate" hreflang="es" href="http://localhost:4000/tratamientos-faciales/biorevitalizacion/">
+      <link rel="alternate" hreflang="es" href="http://localhost:4000/es/tratamientos-faciales/biorevitalizacion/">
     
-      <link rel="alternate" hreflang="es" href="http://localhost:4000/tratamientos-faciales/caida-del-cabello/">
+      <link rel="alternate" hreflang="es" href="http://localhost:4000/es/tratamientos-faciales/caida-del-cabello/">
     
-      <link rel="alternate" hreflang="es" href="http://localhost:4000/tratamientos-faciales/eliminar-manchas/">
+      <link rel="alternate" hreflang="es" href="http://localhost:4000/es/tratamientos-faciales/eliminar-manchas/">
     
-      <link rel="alternate" hreflang="es" href="http://localhost:4000/tratamientos-faciales/hilos-tensores/">
+      <link rel="alternate" hreflang="es" href="http://localhost:4000/es/tratamientos-faciales/hilos-tensores/">
     
-      <link rel="alternate" hreflang="es" href="http://localhost:4000/tratamientos-faciales/lifting/">
+      <link rel="alternate" hreflang="es" href="http://localhost:4000/es/tratamientos-faciales/lifting/">
     
-      <link rel="alternate" hreflang="es" href="http://localhost:4000/tratamientos-faciales/limpieza-facial/">
+      <link rel="alternate" hreflang="es" href="http://localhost:4000/es/tratamientos-faciales/limpieza-facial/">
     
-      <link rel="alternate" hreflang="es" href="http://localhost:4000/tratamientos-faciales/ojeras/">
+      <link rel="alternate" hreflang="es" href="http://localhost:4000/es/tratamientos-faciales/ojeras/">
     
-      <link rel="alternate" hreflang="es" href="http://localhost:4000/tratamientos-faciales/peeling-quimico/">
+      <link rel="alternate" hreflang="es" href="http://localhost:4000/es/tratamientos-faciales/peeling-quimico/">
     
-      <link rel="alternate" hreflang="es" href="http://localhost:4000/tratamientos-faciales/rejuve-face/">
+      <link rel="alternate" hreflang="es" href="http://localhost:4000/es/tratamientos-faciales/rejuve-face/">
     
-      <link rel="alternate" hreflang="es" href="http://localhost:4000/tratamientos-faciales/rejuvenecimiento-laser/">
+      <link rel="alternate" hreflang="es" href="http://localhost:4000/es/tratamientos-faciales/rejuvenecimiento-laser/">
     
-      <link rel="alternate" hreflang="es" href="http://localhost:4000/tratamientos-faciales/vitamina-c-facial/">
+      <link rel="alternate" hreflang="es" href="http://localhost:4000/es/tratamientos-faciales/vitamina-c-facial/">
     
       <link rel="alternate" hreflang="en" href="http://localhost:4000/en/facial-treatments/biorevitalization/">
     
@@ -383,35 +383,35 @@
     
       <link rel="alternate" hreflang="en" href="http://localhost:4000/en/body-treatments/varicose/">
     
-      <link rel="alternate" hreflang="es" href="http://localhost:4000/tratamientos-corporales/celulitis/">
+      <link rel="alternate" hreflang="es" href="http://localhost:4000/es/tratamientos-corporales/celulitis/">
     
-      <link rel="alternate" hreflang="es" href="http://localhost:4000/tratamientos-corporales/depilacion-laser/">
+      <link rel="alternate" hreflang="es" href="http://localhost:4000/es/tratamientos-corporales/depilacion-laser/">
     
-      <link rel="alternate" hreflang="es" href="http://localhost:4000/tratamientos-corporales/eliminacion-tatuajes/">
+      <link rel="alternate" hreflang="es" href="http://localhost:4000/es/tratamientos-corporales/eliminacion-tatuajes/">
     
-      <link rel="alternate" hreflang="es" href="http://localhost:4000/tratamientos-corporales/gluteos/">
+      <link rel="alternate" hreflang="es" href="http://localhost:4000/es/tratamientos-corporales/gluteos/">
     
-      <link rel="alternate" hreflang="es" href="http://localhost:4000/tratamientos-corporales/hifem-sculptor/">
+      <link rel="alternate" hreflang="es" href="http://localhost:4000/es/tratamientos-corporales/hifem-sculptor/">
     
-      <link rel="alternate" hreflang="es" href="http://localhost:4000/tratamientos-corporales/lipolisis/">
+      <link rel="alternate" hreflang="es" href="http://localhost:4000/es/tratamientos-corporales/lipolisis/">
     
-      <link rel="alternate" hreflang="es" href="http://localhost:4000/tratamientos-corporales/moldeamiento/">
+      <link rel="alternate" hreflang="es" href="http://localhost:4000/es/tratamientos-corporales/moldeamiento/">
     
-      <link rel="alternate" hreflang="es" href="http://localhost:4000/tratamientos-corporales/radiofrecuencia/">
+      <link rel="alternate" hreflang="es" href="http://localhost:4000/es/tratamientos-corporales/radiofrecuencia/">
     
-      <link rel="alternate" hreflang="es" href="http://localhost:4000/tratamientos-corporales/sueroterapia-detox/">
+      <link rel="alternate" hreflang="es" href="http://localhost:4000/es/tratamientos-corporales/sueroterapia-detox/">
     
-      <link rel="alternate" hreflang="es" href="http://localhost:4000/tratamientos-corporales/varices/">
+      <link rel="alternate" hreflang="es" href="http://localhost:4000/es/tratamientos-corporales/varices/">
     
-      <link rel="alternate" hreflang="es" href="http://localhost:4000/tratamientos-intimos/aclaramiento-genital/">
+      <link rel="alternate" hreflang="es" href="http://localhost:4000/es/tratamientos-intimos/aclaramiento-genital/">
     
-      <link rel="alternate" hreflang="es" href="http://localhost:4000/tratamientos-intimos/aumento-labios-mayores/">
+      <link rel="alternate" hreflang="es" href="http://localhost:4000/es/tratamientos-intimos/aumento-labios-mayores/">
     
-      <link rel="alternate" hreflang="es" href="http://localhost:4000/tratamientos-intimos/incontinencia-urinaria-esfuerzo/">
+      <link rel="alternate" hreflang="es" href="http://localhost:4000/es/tratamientos-intimos/incontinencia-urinaria-esfuerzo/">
     
-      <link rel="alternate" hreflang="es" href="http://localhost:4000/tratamientos-intimos/lesiones-benignas/">
+      <link rel="alternate" hreflang="es" href="http://localhost:4000/es/tratamientos-intimos/lesiones-benignas/">
     
-      <link rel="alternate" hreflang="es" href="http://localhost:4000/tratamientos-intimos/rejuvenecimiento-vaginal/">
+      <link rel="alternate" hreflang="es" href="http://localhost:4000/es/tratamientos-intimos/rejuvenecimiento-vaginal/">
     
       <link rel="alternate" hreflang="en" href="http://localhost:4000/en/intimate-treatments/benign-lesions/">
     
@@ -423,11 +423,11 @@
     
       <link rel="alternate" hreflang="en" href="http://localhost:4000/en/intimate-treatments/vaginal-rejuvenation/">
     
-      <link rel="alternate" hreflang="es" href="http://localhost:4000/tecnologia/analisis-facial-janus/">
+      <link rel="alternate" hreflang="es" href="http://localhost:4000/es/tecnologia/analisis-facial-janus/">
     
-      <link rel="alternate" hreflang="es" href="http://localhost:4000/tecnologia/inbody/">
+      <link rel="alternate" hreflang="es" href="http://localhost:4000/es/tecnologia/inbody/">
     
-      <link rel="alternate" hreflang="es" href="http://localhost:4000/tecnologia/plasma/">
+      <link rel="alternate" hreflang="es" href="http://localhost:4000/es/tecnologia/plasma/">
     
       <link rel="alternate" hreflang="en" href="http://localhost:4000/en/technology/facial-analysis-janus/">
     

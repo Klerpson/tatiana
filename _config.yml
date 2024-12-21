@@ -42,25 +42,25 @@ permalink: /:categories/:title/
 collections:
   tratamientos-faciales_es:
     output: true
-    permalink: /tratamientos-faciales/:title/
+    permalink: /es/tratamientos-faciales/:title/
   tratamientos-faciales_en:
     output: true
     permalink: /en/facial-treatments/:title/
   tratamientos-corporales_es:
     output: true
-    permalink: /tratamientos-corporales/:title/
+    permalink: /es/tratamientos-corporales/:title/
   tratamientos-corporales_en:
     output: true
     permalink: /en/body-treatments/:title/
   tratamientos-intimos_es:
     output: true
-    permalink: /tratamientos-intimos/:title/
+    permalink: /es/tratamientos-intimos/:title/
   tratamientos-intimos_en:
     output: true
     permalink: /en/intimate-treatments/:title/
   tecnologia_es:
     output: true
-    permalink: /tecnologia/:title/
+    permalink: /es/tecnologia/:title/
   tecnologia_en:
     output: true
     permalink: /en/technology/:title/
