@@ -21,6 +21,8 @@ referencias:
   - Journal of Clinical and Aesthetic Dermatology - Long-term Safety of Hyaluronic Acid Fillers: "https://jcadonline.com/ha-fillers-safety"
   - American Society of Plastic Surgeons - Lip Augmentation Statistics: "https://www.plasticsurgery.org/statistics"
 word_count: 2500
+redirect_from:
+  - /en/que-tecnicas-no-quirurgicas-existen-para-el-aumento-de-labios/
 ---
 
 "Doctora, ¿me voy a ver como esas chicas de Instagram con labios exagerados?" 
