@@ -22,6 +22,7 @@ referencias:
   - American Society for Dermatologic Surgery - Guidelines for Non-Invasive Body Contouring: "https://www.asds.net/example"
 word_count: 3000
 redirect_from:
+  - /es_co/cuales-son-los-riesgos-de-la-lipolisis-laser/
   - /cuales-son-los-riesgos-de-la-lipolisis-laser/
 canonical_url: "https://dratatianaleal.com/es/blog/riesgos-lipolisis-laser/"
 ---
