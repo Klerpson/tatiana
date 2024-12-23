@@ -384,7 +384,7 @@
         <!-- Featured Image -->
         
         <image:image>
-            <image:loc>http://localhost:4000/img/blog/lindsay-lohan-transformacion.jpg</image:loc>
+            <image:loc>http://localhost:4000/img/blog/que-se-hizo-lindsay.jpg</image:loc>
             <image:title>Antes y después de la transformación facial de Lindsay Lohan</image:title>
             <image:caption>Descubre los tratamientos que utilizó Lindsay Lohan para su increíble transformación. Expertos revelan las técnicas detrás de su rejuvenecimiento facial en 2024.</image:caption>
         </image:image>
