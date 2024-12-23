@@ -71,6 +71,8 @@
     
       <link rel="alternate" hreflang="" href="http://localhost:4000/cuales-son-los-riesgos-de-la-lipolisis-laser/">
     
+      <link rel="alternate" hreflang="" href="http://localhost:4000/what-is-platelet-rich-plasma/">
+    
       <link rel="alternate" hreflang="" href="http://localhost:4000/rejuvenecimiento-facial/acido-hialuronico/">
     
       <link rel="alternate" hreflang="" href="http://localhost:4000/acido-hialuronico/">
@@ -303,9 +305,13 @@
     
       <link rel="alternate" hreflang="es" href="http://localhost:4000/es/tratamientos-intimos/">
     
+      <link rel="alternate" hreflang="en" href="http://localhost:4000/en/technology/platelet-rich-plasma/">
+    
       <link rel="alternate" hreflang="en" href="http://localhost:4000/facial-treatments/lip-filler-techniques/">
     
       <link rel="alternate" hreflang="en" href="http://localhost:4000/body-treatments/laser-lipolysis-risks/">
+    
+      <link rel="alternate" hreflang="es" href="http://localhost:4000/tecnologia/plasma-rico-plaquetas/">
     
       <link rel="alternate" hreflang="es" href="http://localhost:4000/tratamientos-faciales/tecnicas-rellenos-labios/">
     
@@ -1331,6 +1337,18 @@
   
       [
   
+   {
+  "title": "Plasma Rico en Plaquetas (PRP): Beneficios y aplicaciones en medicina estética 2024",
+  "url": "/tecnologia/plasma-rico-plaquetas/",
+  "category": "tecnologia",
+  "tags": "prp, tratamientos-regenerativos, medicina-regenerativa, belleza-facial"
+  } ,  
+   {
+  "title": "Platelet-Rich Plasma (PRP): Benefits and Applications in Aesthetic Medicine 2024",
+  "url": "/en/technology/platelet-rich-plasma/",
+  "category": "technology",
+  "tags": "prp, janus-facial-analysis, inbody"
+  } ,  
    {
   "title": "Técnicas para relleno de labios: La guía definitiva 2024 por expertos",
   "url": "/tratamientos-faciales/tecnicas-rellenos-labios/",
