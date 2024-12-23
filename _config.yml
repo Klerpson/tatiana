@@ -79,10 +79,16 @@ defaults:
       lang: "en"
   -
     scope:
-      path: "_posts"
-      type: "posts"
+      path: "_posts/es"
     values:
-      layout: "articulo"
+      lang: "es"
+      permalink: /es/blog/:title/
+  -
+    scope:
+      path: "_posts/en"
+    values:
+      lang: "en"
+      permalink: /en/blog/:title/
   -
     scope:
       path: ""
@@ -164,7 +170,7 @@ whitelist:
 
 include: ['_redirects']
 
-# Redirecciones
+# Configuración de redirecciones
 redirect_from:
   enabled: true
   strip_index: true
