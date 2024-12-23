@@ -7,6 +7,106 @@
     
     
     <url>
+        <loc>http://localhost:4000/en/technology/platelet-rich-plasma/</loc>
+        
+        <!-- Alternate Language Versions -->
+        
+            
+            
+                
+        <xhtml:link 
+            rel="alternate"
+            hreflang="es"
+            href="http://localhost:4000/es/blog/plasma-rico-plaquetas/"
+        />
+                
+            
+                
+            
+        
+        
+        <!-- Last Modified Date -->
+        <lastmod>
+            2024-12-23T00:00:00-05:00
+            
+        </lastmod>
+        
+        <!-- Featured Image -->
+        
+        <image:image>
+            <image:loc>http://localhost:4000/img/blog/plasma-rico-plaquetas-bogota.jpg</image:loc>
+            <image:title>PRP procedure performed by certified specialists</image:title>
+            <image:caption>Discover the benefits of Platelet-Rich Plasma: from facial rejuvenation to hair treatments. A natural and effective treatment for your skin.</image:caption>
+        </image:image>
+        
+        
+        <!-- News-specific tags for medical content -->
+        <news:news>
+            <news:publication>
+                <news:name>Tatiana Leal</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>2024-12-23T00:00:00-05:00</news:publication_date>
+            <news:title>Platelet-Rich Plasma (PRP): Benefits and Applications in Aesthetic Medicine 2024</news:title>
+            
+        </news:news>
+        
+        <!-- Priority and Change Frequency -->
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/es/blog/plasma-rico-plaquetas/</loc>
+        
+        <!-- Alternate Language Versions -->
+        
+            
+            
+                
+            
+                
+        <xhtml:link 
+            rel="alternate"
+            hreflang="en"
+            href="http://localhost:4000/en/technology/platelet-rich-plasma/"
+        />
+                
+            
+        
+        
+        <!-- Last Modified Date -->
+        <lastmod>
+            2024-12-23T00:00:00-05:00
+            
+        </lastmod>
+        
+        <!-- Featured Image -->
+        
+        <image:image>
+            <image:loc>http://localhost:4000/img/blog/plasma-rico-plaquetas-bogota.jpg</image:loc>
+            <image:title>Procedimiento de PRP realizado por especialistas certificados</image:title>
+            <image:caption>Descubre los beneficios del Plasma Rico en Plaquetas: desde rejuvenecimiento facial hasta tratamientos capilares. Un tratamiento natural y efectivo para tu piel.</image:caption>
+        </image:image>
+        
+        
+        <!-- News-specific tags for medical content -->
+        <news:news>
+            <news:publication>
+                <news:name>Tatiana Leal</news:name>
+                <news:language>es</news:language>
+            </news:publication>
+            <news:publication_date>2024-12-23T00:00:00-05:00</news:publication_date>
+            <news:title>Plasma Rico en Plaquetas (PRP): Beneficios y aplicaciones en medicina estética 2024</news:title>
+            
+        </news:news>
+        
+        <!-- Priority and Change Frequency -->
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
         <loc>http://localhost:4000/en/blog/lip-filler-techniques/</loc>
         
         <!-- Alternate Language Versions -->

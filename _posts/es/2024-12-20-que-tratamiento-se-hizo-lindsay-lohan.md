@@ -12,8 +12,8 @@ expertise: "Medicina estética, rejuvenecimiento facial, tecnologías no invasiv
 title: "¿Qué se hizo Lindsay Lohan en el rostro? La verdad detrás de su sorprendente transformación"
 h1: "Lindsay Lohan y su transformación: La verdad sobre los tratamientos que la hicieron lucir más joven"
 description: "Descubre los tratamientos que utilizó Lindsay Lohan para su increíble transformación. Expertos revelan las técnicas detrás de su rejuvenecimiento facial en 2024."
-hero: "img/blog/lindsay-lohan-transformacion.avif"
-jpg: "img/blog/lindsay-lohan-transformacion.jpg"
+hero: "img/blog/que-se-hizo-lindsay.avif"
+jpg: "img/blog/que-se-hizo-lindsay.jpg"
 alt: "Antes y después de la transformación facial de Lindsay Lohan"
 excerpt: "Análisis experto de la transformación de Lindsay Lohan: desde los tratamientos utilizados hasta las técnicas que la ayudaron a lucir más joven y radiante."
 tiempo_lectura: 8
