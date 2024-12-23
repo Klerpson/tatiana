@@ -51,6 +51,7 @@
 
 .articulo img{
   border-radius: var(--radius);
+  height: auto;
 }
 
 .articulo article a:not(.boton){
