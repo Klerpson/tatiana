@@ -7,6 +7,10 @@ description: "Dr. Tatiana Leal's terms and conditions for open and using our web
 h1: Terms and Conditions | dratatianaleal.com
 hero: img/favicon/apple-touch-icon-180x180.png
 noindex: true
+redirect_from:
+  - /en/deberes-del-paciente/?A=Politicas-Privacidad-Proteccion-de-Datos/
+  - /en/privacy-policy/
+  - /privacy-policy/
 ---
 
 [Home]({{site.baseurl}}/) - Terms and Conditions
