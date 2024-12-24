@@ -16,7 +16,7 @@ jpg: "img/blog/plasma-rico-plaquetas-bogota.jpg"
 hero: "img/plasma-rico-plaquetas-bogota-colombia.avif"
 alt: "Procedimiento de PRP realizado por especialistas certificados"
 excerpt: "Descubre todo sobre el Plasma Rico en Plaquetas: desde sus beneficios regenerativos hasta consejos de expertos para lograr resultados naturales y duraderos."
-tiempo_lectura: 12
+tiempo_lectura: 6
 referencias:
  - Journal of Clinical Medicine - Platelet-Rich Plasma in Aesthetic Medicine: "https://www.jcm.net/example"
  - International Journal of Molecular Sciences - Growth Factors in PRP: "https://www.ijms.net/example"

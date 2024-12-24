@@ -16,7 +16,7 @@ jpg: "img/blog/plasma-rico-plaquetas-bogota.jpg"
 hero: "img/plasma-rico-plaquetas-bogota-colombia.avif"
 alt: "PRP procedure performed by certified specialists"
 excerpt: "Platelet-Rich Plasma is an aesthetic treatment based on using components from the patient's own blood, aimed at improving skin health and appearance."
-reading_time: 12
+reading_time: 6
 references:
  - Journal of Clinical Medicine - Platelet-Rich Plasma in Aesthetic Medicine: "https://www.jcm.net/example"
  - International Journal of Molecular Sciences - Growth Factors in PRP: "https://www.ijms.net/example"
