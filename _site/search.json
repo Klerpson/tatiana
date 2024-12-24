@@ -401,12 +401,6 @@
     
       <link rel="alternate" hreflang="" href="http://localhost:4000/dr-marco-bonilla/">
     
-      <link rel="alternate" hreflang="" href="http://localhost:4000/profesionales/dra-andrea-rincon/">
-    
-      <link rel="alternate" hreflang="" href="http://localhost:4000/dra-andrea-rincon/">
-    
-      <link rel="alternate" hreflang="" href="http://localhost:4000/es_co/profesionales/dra-andrea-rincon/">
-    
       <link rel="alternate" hreflang="" href="http://localhost:4000/profesionales/dra-tatiana-leal/">
     
       <link rel="alternate" hreflang="" href="http://localhost:4000/doctora-tatiana-leal">
@@ -416,10 +410,6 @@
       <link rel="alternate" hreflang="" href="http://localhost:4000/tatiana-leal/">
     
       <link rel="alternate" hreflang="" href="http://localhost:4000/es_co/profesionales/dra-tatiana-leal/">
-    
-      <link rel="alternate" hreflang="" href="http://localhost:4000/en/dra-andrea-rincon-2/">
-    
-      <link rel="alternate" hreflang="" href="http://localhost:4000/en/profesionales/dra-andrea-rincon/">
     
       <link rel="alternate" hreflang="" href="http://localhost:4000/en/profesionales/dr-marco-bonilla/">
     
@@ -469,6 +459,8 @@
     
       <link rel="alternate" hreflang="" href="http://localhost:4000/en/home-english/?s={search_term_string}">
     
+      <link rel="alternate" hreflang="" href="http://localhost:4000/en/dr-andrea-rincon/">
+    
       <link rel="alternate" hreflang="" href="http://localhost:4000/inicio/">
     
       <link rel="alternate" hreflang="" href="http://localhost:4000/home/">
@@ -482,6 +474,8 @@
       <link rel="alternate" hreflang="" href="http://localhost:4000/index?A=index-">
     
       <link rel="alternate" hreflang="" href="http://localhost:4000/dra-johana-pena-valderrama/">
+    
+      <link rel="alternate" hreflang="" href="http://localhost:4000/es/doctora-andrea-rincon/">
     
       <link rel="alternate" hreflang="" href="http://localhost:4000/pacientes/">
     
@@ -597,8 +591,6 @@
     
       <link rel="alternate" hreflang="en" href="http://localhost:4000/en/contact/">
     
-      <link rel="alternate" hreflang="en" href="http://localhost:4000/en/dr-andrea-rincon/">
-    
       <link rel="alternate" hreflang="en" href="http://localhost:4000/en/dr-marco-bonilla/">
     
       <link rel="alternate" hreflang="en" href="http://localhost:4000/en/dr-tatiana-leal/">
@@ -625,8 +617,6 @@
     
       <link rel="alternate" hreflang="es" href="http://localhost:4000/es/doctor-marco-bonilla/">
     
-      <link rel="alternate" hreflang="es" href="http://localhost:4000/es/doctora-andrea-rincon/">
-    
       <link rel="alternate" hreflang="es" href="http://localhost:4000/es/doctora-tatiana-leal/">
     
       <link rel="alternate" hreflang="es" href="http://localhost:4000/es/">
@@ -645,19 +635,19 @@
     
       <link rel="alternate" hreflang="en" href="http://localhost:4000/en/technology/platelet-rich-plasma/">
     
-      <link rel="alternate" hreflang="en" href="http://localhost:4000/en/blog/lip-filler-techniques/">
+      <link rel="alternate" hreflang="en" href="http://localhost:4000/facial-treatments/lip-filler-techniques/">
     
-      <link rel="alternate" hreflang="en" href="http://localhost:4000/en/blog/laser-lipolysis-risks/">
+      <link rel="alternate" hreflang="en" href="http://localhost:4000/body-treatments/laser-lipolysis-risks/">
     
-      <link rel="alternate" hreflang="en" href="http://localhost:4000/en/blog/what-did-lindsay-lohan-do-to-her-face/">
+      <link rel="alternate" hreflang="en" href="http://localhost:4000/facial-treatments/what-did-lindsay-lohan-do-to-her-face/">
     
-      <link rel="alternate" hreflang="es" href="http://localhost:4000/es/blog/plasma-rico-plaquetas/">
+      <link rel="alternate" hreflang="es" href="http://localhost:4000/tecnologia/plasma-rico-plaquetas/">
     
-      <link rel="alternate" hreflang="es" href="http://localhost:4000/es/blog/tecnicas-rellenos-labios/">
+      <link rel="alternate" hreflang="es" href="http://localhost:4000/tratamientos-faciales/tecnicas-rellenos-labios/">
     
-      <link rel="alternate" hreflang="es" href="http://localhost:4000/es/blog/riesgos-lipolisis-laser/">
+      <link rel="alternate" hreflang="es" href="http://localhost:4000/tratamientos-corporales/riesgos-lipolisis-laser/">
     
-      <link rel="alternate" hreflang="es" href="http://localhost:4000/es/blog/que-tratamiento-se-hizo-lindsay-lohan/">
+      <link rel="alternate" hreflang="es" href="http://localhost:4000/tratamientos-faciales/que-tratamiento-se-hizo-lindsay-lohan/">
     
       <link rel="alternate" hreflang="es" href="http://localhost:4000/es/tratamientos-faciales/acido-hialuronico/">
     
@@ -1681,7 +1671,7 @@
   
    {
   "title": "Plasma Rico en Plaquetas (PRP): Beneficios y aplicaciones en medicina estética 2024",
-  "url": "/es/blog/plasma-rico-plaquetas/",
+  "url": "/tecnologia/plasma-rico-plaquetas/",
   "category": "tecnologia",
   "tags": "prp, tratamientos-regenerativos, medicina-regenerativa, belleza-facial"
   } ,  
@@ -1693,37 +1683,37 @@
   } ,  
    {
   "title": "Técnicas para relleno de labios: La guía definitiva 2024 por expertos",
-  "url": "/es/blog/tecnicas-rellenos-labios/",
+  "url": "/tratamientos-faciales/tecnicas-rellenos-labios/",
   "category": "tratamientos-faciales",
   "tags": "relleno-labios, acido-hialuronico, aumento-labios, belleza-facial"
   } ,  
    {
   "title": "Lip Filler Techniques: The Ultimate Guide for 2024 by Expert Doctors",
-  "url": "/en/blog/lip-filler-techniques/",
+  "url": "/facial-treatments/lip-filler-techniques/",
   "category": "facial-treatments",
   "tags": "lip-fillers, hyaluronic-acid, lip-augmentation, facial-beauty"
   } ,  
    {
   "title": "Lipólisis láser no invasiva: Riesgos y contraindicaciones que debes conocer en 2024",
-  "url": "/es/blog/riesgos-lipolisis-laser/",
+  "url": "/tratamientos-corporales/riesgos-lipolisis-laser/",
   "category": "tratamientos-corporales",
   "tags": "lipolisis-laser, reduccion-grasa, tratamientos-no-invasivos, belleza-corporal"
   } ,  
    {
   "title": "Non-Invasive Laser Lipolysis: Risks and Contraindications You Need to Know in 2024",
-  "url": "/en/blog/laser-lipolysis-risks/",
+  "url": "/body-treatments/laser-lipolysis-risks/",
   "category": "body-treatments",
   "tags": "laser-lipolysis, fat-reduction, non-invasive-treatments, body-contouring"
   } ,  
    {
   "title": "¿Qué se hizo Lindsay Lohan en el rostro? La verdad detrás de su sorprendente transformación",
-  "url": "/es/blog/que-tratamiento-se-hizo-lindsay-lohan/",
+  "url": "/tratamientos-faciales/que-tratamiento-se-hizo-lindsay-lohan/",
   "category": "tratamientos-faciales",
   "tags": "rejuvenecimiento-facial, tratamientos-antiedad, morpheus8, radiofrecuencia, belleza-facial"
   } ,  
    {
   "title": "What Did Lindsay Lohan Do to Her Face? The Truth Behind Her Amazing Transformation",
-  "url": "/en/blog/what-did-lindsay-lohan-do-to-her-face/",
+  "url": "/facial-treatments/what-did-lindsay-lohan-do-to-her-face/",
   "category": "facial-treatments",
   "tags": "facial-rejuvenation, anti-aging-treatments, morpheus8, radiofrequency, facial-beauty"
   }  
