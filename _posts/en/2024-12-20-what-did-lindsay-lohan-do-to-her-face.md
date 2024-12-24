@@ -2,8 +2,8 @@
 layout: post
 lang: en
 ref: lindsay-lohan-rejuvenecimiento
-date: 2024-03-15
-last_modified_at: 2024-03-15
+date: 2024-12-20
+last_modified_at: 2024-12-20
 category: [facial-treatments]
 tags: [facial-rejuvenation, anti-aging-treatments, morpheus8, radiofrequency, facial-beauty]
 author: Tatiana Leal
