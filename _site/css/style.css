@@ -1295,6 +1295,9 @@ hr {
   max-width: 1200px;
   margin: 0 auto;
   padding: 2rem;
+  background-color: var(--secundario);
+  box-shadow: 0 0 0 100vmax var(--secundario);
+  clip-path: inset(0 -100vmax);
 }
 
 .grid {
