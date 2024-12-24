@@ -107,6 +107,106 @@
     </url>
     
     <url>
+        <loc>http://localhost:4000/facial-treatments/what-did-lindsay-lohan-do-to-her-face/</loc>
+        
+        <!-- Alternate Language Versions -->
+        
+            
+            
+                
+        <xhtml:link 
+            rel="alternate"
+            hreflang="es"
+            href="http://localhost:4000/tratamientos-faciales/que-tratamiento-se-hizo-lindsay-lohan/"
+        />
+                
+            
+                
+            
+        
+        
+        <!-- Last Modified Date -->
+        <lastmod>
+            2024-12-20T00:00:00-05:00
+            
+        </lastmod>
+        
+        <!-- Featured Image -->
+        
+        <image:image>
+            <image:loc>http://localhost:4000/img/blog/que-se-hizo-lindsay.jpg</image:loc>
+            <image:title>Before and after of Lindsay Lohan&apos;s facial transformation</image:title>
+            <image:caption>Discover the treatments Lindsay Lohan used for her incredible transformation. Experts reveal the techniques behind her facial rejuvenation in 2024.</image:caption>
+        </image:image>
+        
+        
+        <!-- News-specific tags for medical content -->
+        <news:news>
+            <news:publication>
+                <news:name>Tatiana Leal</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>2024-12-20T00:00:00-05:00</news:publication_date>
+            <news:title>What Did Lindsay Lohan Do to Her Face? The Truth Behind Her Amazing Transformation</news:title>
+            
+        </news:news>
+        
+        <!-- Priority and Change Frequency -->
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/tratamientos-faciales/que-tratamiento-se-hizo-lindsay-lohan/</loc>
+        
+        <!-- Alternate Language Versions -->
+        
+            
+            
+                
+            
+                
+        <xhtml:link 
+            rel="alternate"
+            hreflang="en"
+            href="http://localhost:4000/facial-treatments/what-did-lindsay-lohan-do-to-her-face/"
+        />
+                
+            
+        
+        
+        <!-- Last Modified Date -->
+        <lastmod>
+            2024-12-20T00:00:00-05:00
+            
+        </lastmod>
+        
+        <!-- Featured Image -->
+        
+        <image:image>
+            <image:loc>http://localhost:4000/img/blog/que-se-hizo-lindsay.jpg</image:loc>
+            <image:title>Antes y después de la transformación facial de Lindsay Lohan</image:title>
+            <image:caption>Descubre los tratamientos que utilizó Lindsay Lohan para su increíble transformación. Expertos revelan las técnicas detrás de su rejuvenecimiento facial en 2024.</image:caption>
+        </image:image>
+        
+        
+        <!-- News-specific tags for medical content -->
+        <news:news>
+            <news:publication>
+                <news:name>Tatiana Leal</news:name>
+                <news:language>es</news:language>
+            </news:publication>
+            <news:publication_date>2024-12-20T00:00:00-05:00</news:publication_date>
+            <news:title>¿Qué se hizo Lindsay Lohan en el rostro? La verdad detrás de su sorprendente transformación</news:title>
+            
+        </news:news>
+        
+        <!-- Priority and Change Frequency -->
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
         <loc>http://localhost:4000/facial-treatments/lip-filler-techniques/</loc>
         
         <!-- Alternate Language Versions -->
@@ -234,7 +334,7 @@
         <!-- Featured Image -->
         
         <image:image>
-            <image:loc>http://localhost:4000/img/blog/laser-lipolysis-risks.jpg</image:loc>
+            <image:loc>http://localhost:4000/img/blog/lipolisis-laser-riesgos.jpg</image:loc>
             <image:title>Laser lipolysis procedure performed by board-certified specialists</image:title>
             <image:caption>Discover the truth about non-invasive laser lipolysis: risks, benefits, and contraindications explained by board-certified specialists. Real and safe results.</image:caption>
         </image:image>
@@ -298,106 +398,6 @@
             </news:publication>
             <news:publication_date>2024-11-20T00:00:00-05:00</news:publication_date>
             <news:title>Lipólisis láser no invasiva: Riesgos y contraindicaciones que debes conocer en 2024</news:title>
-            
-        </news:news>
-        
-        <!-- Priority and Change Frequency -->
-        <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/facial-treatments/what-did-lindsay-lohan-do-to-her-face/</loc>
-        
-        <!-- Alternate Language Versions -->
-        
-            
-            
-                
-        <xhtml:link 
-            rel="alternate"
-            hreflang="es"
-            href="http://localhost:4000/tratamientos-faciales/que-tratamiento-se-hizo-lindsay-lohan/"
-        />
-                
-            
-                
-            
-        
-        
-        <!-- Last Modified Date -->
-        <lastmod>
-            2024-03-15T00:00:00-05:00
-            
-        </lastmod>
-        
-        <!-- Featured Image -->
-        
-        <image:image>
-            <image:loc>http://localhost:4000/img/blog/lindsay-lohan-transformation.jpg</image:loc>
-            <image:title>Before and after of Lindsay Lohan&apos;s facial transformation</image:title>
-            <image:caption>Discover the treatments Lindsay Lohan used for her incredible transformation. Experts reveal the techniques behind her facial rejuvenation in 2024.</image:caption>
-        </image:image>
-        
-        
-        <!-- News-specific tags for medical content -->
-        <news:news>
-            <news:publication>
-                <news:name>Tatiana Leal</news:name>
-                <news:language>en</news:language>
-            </news:publication>
-            <news:publication_date>2024-03-15T00:00:00-05:00</news:publication_date>
-            <news:title>What Did Lindsay Lohan Do to Her Face? The Truth Behind Her Amazing Transformation</news:title>
-            
-        </news:news>
-        
-        <!-- Priority and Change Frequency -->
-        <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/tratamientos-faciales/que-tratamiento-se-hizo-lindsay-lohan/</loc>
-        
-        <!-- Alternate Language Versions -->
-        
-            
-            
-                
-            
-                
-        <xhtml:link 
-            rel="alternate"
-            hreflang="en"
-            href="http://localhost:4000/facial-treatments/what-did-lindsay-lohan-do-to-her-face/"
-        />
-                
-            
-        
-        
-        <!-- Last Modified Date -->
-        <lastmod>
-            2024-03-15T00:00:00-05:00
-            
-        </lastmod>
-        
-        <!-- Featured Image -->
-        
-        <image:image>
-            <image:loc>http://localhost:4000/img/blog/que-se-hizo-lindsay.jpg</image:loc>
-            <image:title>Antes y después de la transformación facial de Lindsay Lohan</image:title>
-            <image:caption>Descubre los tratamientos que utilizó Lindsay Lohan para su increíble transformación. Expertos revelan las técnicas detrás de su rejuvenecimiento facial en 2024.</image:caption>
-        </image:image>
-        
-        
-        <!-- News-specific tags for medical content -->
-        <news:news>
-            <news:publication>
-                <news:name>Tatiana Leal</news:name>
-                <news:language>es</news:language>
-            </news:publication>
-            <news:publication_date>2024-03-15T00:00:00-05:00</news:publication_date>
-            <news:title>¿Qué se hizo Lindsay Lohan en el rostro? La verdad detrás de su sorprendente transformación</news:title>
             
         </news:news>
         
