@@ -13,7 +13,7 @@ title: "Técnicas para relleno de labios: La guía definitiva 2024 por expertos"
 h1: "Relleno de labios: Todo lo que necesitas saber antes de dar el paso"
 description: "¿Pensando en un relleno de labios? Descubre las técnicas más avanzadas, duración, costos y consejos de especialistas certificados. Resultados naturales garantizados."
 jpg: "img/blog/tecnicas-relleno-labios-naturales.jpg"
-hero: "img/relleno-labios-bogota.avif"
+hero: "img/tecnicas-relleno-labios-naturales.avif"
 alt: "Antes y después de tratamiento de relleno de labios realizado por la Dra. Tatiana Leal"
 excerpt: "Descubre todo sobre el relleno de labios: desde las técnicas más modernas hasta consejos de expertos para lograr resultados naturales y duraderos."
 tiempo_lectura: 12
