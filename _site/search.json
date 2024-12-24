@@ -401,12 +401,6 @@
     
       <link rel="alternate" hreflang="" href="http://localhost:4000/dr-marco-bonilla/">
     
-      <link rel="alternate" hreflang="" href="http://localhost:4000/profesionales/dra-andrea-rincon/">
-    
-      <link rel="alternate" hreflang="" href="http://localhost:4000/dra-andrea-rincon/">
-    
-      <link rel="alternate" hreflang="" href="http://localhost:4000/es_co/profesionales/dra-andrea-rincon/">
-    
       <link rel="alternate" hreflang="" href="http://localhost:4000/profesionales/dra-tatiana-leal/">
     
       <link rel="alternate" hreflang="" href="http://localhost:4000/doctora-tatiana-leal">
@@ -416,10 +410,6 @@
       <link rel="alternate" hreflang="" href="http://localhost:4000/tatiana-leal/">
     
       <link rel="alternate" hreflang="" href="http://localhost:4000/es_co/profesionales/dra-tatiana-leal/">
-    
-      <link rel="alternate" hreflang="" href="http://localhost:4000/en/dra-andrea-rincon-2/">
-    
-      <link rel="alternate" hreflang="" href="http://localhost:4000/en/profesionales/dra-andrea-rincon/">
     
       <link rel="alternate" hreflang="" href="http://localhost:4000/en/profesionales/dr-marco-bonilla/">
     
@@ -469,6 +459,8 @@
     
       <link rel="alternate" hreflang="" href="http://localhost:4000/en/home-english/?s={search_term_string}">
     
+      <link rel="alternate" hreflang="" href="http://localhost:4000/en/dr-andrea-rincon/">
+    
       <link rel="alternate" hreflang="" href="http://localhost:4000/inicio/">
     
       <link rel="alternate" hreflang="" href="http://localhost:4000/home/">
@@ -482,6 +474,8 @@
       <link rel="alternate" hreflang="" href="http://localhost:4000/index?A=index-">
     
       <link rel="alternate" hreflang="" href="http://localhost:4000/dra-johana-pena-valderrama/">
+    
+      <link rel="alternate" hreflang="" href="http://localhost:4000/es/doctora-andrea-rincon/">
     
       <link rel="alternate" hreflang="" href="http://localhost:4000/pacientes/">
     
@@ -597,8 +591,6 @@
     
       <link rel="alternate" hreflang="en" href="http://localhost:4000/en/contact/">
     
-      <link rel="alternate" hreflang="en" href="http://localhost:4000/en/dr-andrea-rincon/">
-    
       <link rel="alternate" hreflang="en" href="http://localhost:4000/en/dr-marco-bonilla/">
     
       <link rel="alternate" hreflang="en" href="http://localhost:4000/en/dr-tatiana-leal/">
@@ -624,8 +616,6 @@
       <link rel="alternate" hreflang="es" href="http://localhost:4000/es/contacto/">
     
       <link rel="alternate" hreflang="es" href="http://localhost:4000/es/doctor-marco-bonilla/">
-    
-      <link rel="alternate" hreflang="es" href="http://localhost:4000/es/doctora-andrea-rincon/">
     
       <link rel="alternate" hreflang="es" href="http://localhost:4000/es/doctora-tatiana-leal/">
     

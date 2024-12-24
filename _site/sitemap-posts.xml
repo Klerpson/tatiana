@@ -234,7 +234,7 @@
         <!-- Featured Image -->
         
         <image:image>
-            <image:loc>http://localhost:4000/img/blog/natural-lip-filler-techniques.jpg</image:loc>
+            <image:loc>http://localhost:4000/img/blog/tecnicas-relleno-labios-naturales.jpg</image:loc>
             <image:title>Before and after lip filler treatment performed by Dr. Tatiana Leal</image:title>
             <image:caption>Considering lip fillers? Discover the most advanced techniques, duration, costs, and advice from board-certified specialists. Natural results guaranteed.</image:caption>
         </image:image>
