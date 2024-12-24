@@ -334,7 +334,7 @@
         <!-- Featured Image -->
         
         <image:image>
-            <image:loc>http://localhost:4000/img/blog/laser-lipolysis-risks.jpg</image:loc>
+            <image:loc>http://localhost:4000/img/blog/lipolisis-laser-riesgos.jpg</image:loc>
             <image:title>Laser lipolysis procedure performed by board-certified specialists</image:title>
             <image:caption>Discover the truth about non-invasive laser lipolysis: risks, benefits, and contraindications explained by board-certified specialists. Real and safe results.</image:caption>
         </image:image>
