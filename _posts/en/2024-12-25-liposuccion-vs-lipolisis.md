@@ -16,7 +16,7 @@ hero: "img/liposuccion-vs-lipolisis.avif"
 jpg: "img/blog/liposuccion-vs-lipolisis.jpg"
 alt: "Comparison between liposuction and lipolysis procedures"
 excerpt: "Detailed analysis of the differences between liposuction and lipolysis: from techniques and results to recovery times. Complete guide to choosing the right treatment."
-tiempo_lectura: 11
+tiempo_lectura: 9
 referencias:
  - Journal of Plastic Surgery - Comparative Analysis of Liposuction and Non-invasive Fat Reduction: "https://www.plasticsurgery.org/example"
  - American Academy of Cosmetic Surgery - Guidelines for Body Contouring: "https://www.cosmeticsurgery.org/example"
@@ -25,7 +25,7 @@ redirect_from:
   - /en/cual-es-la-diferencia-entre-lipolisis-laser-invasiva-y-no-invasiva/
   - /en/facial-bioreavilitalization-in-bogota/A=Cual-es-la-diferencia-entre-lipolisis-laser-invasiva-y-no-invasiva
   - /en/facelift-in-bogota/?A=Cual-es-diferencia-entre-lipolisis-laser-invasiva-y-no-invasiva
-canonical_url: "https://dratatianaleal.com/en/blog/differences-liposuction-lipolysis/"
+canonical_url: "https://dratatianaleal.com/en/blog/liposuccion-vs-lipolisis/"
 ---
 
 Liposuction and lipolysis are two aesthetic treatments used to eliminate localized fat. Despite their similar objective, they differ in their technique and approach. [Liposuction]({{'en/body-treatments/liposuction' | relative_url}}) is a surgical procedure, while [lipolysis]({{'en/body-treatments/lipolysis' | relative_url}}) is a non-invasive treatment. The choice between these procedures depends on the patient's needs and specific conditions. Both have their own characteristics, benefits, and recovery times. Below we will explore these differences in detail.
