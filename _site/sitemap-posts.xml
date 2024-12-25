@@ -7,6 +7,106 @@
     
     
     <url>
+        <loc>http://localhost:4000/en/blog/liposuccion-vs-lipolisis/</loc>
+        
+        <!-- Alternate Language Versions -->
+        
+            
+            
+                
+        <xhtml:link 
+            rel="alternate"
+            hreflang="es"
+            href="http://localhost:4000/es/blog/liposuccion-vs-lipolisis/"
+        />
+                
+            
+                
+            
+        
+        
+        <!-- Last Modified Date -->
+        <lastmod>
+            2024-12-25T00:00:00-05:00
+            
+        </lastmod>
+        
+        <!-- Featured Image -->
+        
+        <image:image>
+            <image:loc>http://localhost:4000/img/blog/liposuccion-vs-lipolisis.jpg</image:loc>
+            <image:title>Comparison between liposuction and lipolysis procedures</image:title>
+            <image:caption>Discover the differences between liposuction and lipolysis: techniques, benefits, and results explained by certified specialists. Complete information to choose the best treatment.</image:caption>
+        </image:image>
+        
+        
+        <!-- News-specific tags for medical content -->
+        <news:news>
+            <news:publication>
+                <news:name>Tatiana Leal</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>2024-12-25T00:00:00-05:00</news:publication_date>
+            <news:title>Liposuction vs Lipolysis in Colombia: Which is Better for You in 2024?</news:title>
+            
+        </news:news>
+        
+        <!-- Priority and Change Frequency -->
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/es/blog/liposuccion-vs-lipolisis/</loc>
+        
+        <!-- Alternate Language Versions -->
+        
+            
+            
+                
+            
+                
+        <xhtml:link 
+            rel="alternate"
+            hreflang="en"
+            href="http://localhost:4000/en/blog/liposuccion-vs-lipolisis/"
+        />
+                
+            
+        
+        
+        <!-- Last Modified Date -->
+        <lastmod>
+            2024-12-25T00:00:00-05:00
+            
+        </lastmod>
+        
+        <!-- Featured Image -->
+        
+        <image:image>
+            <image:loc>http://localhost:4000/img/blog/liposuccion-vs-lipolisis.jpg</image:loc>
+            <image:title>Comparación entre procedimientos de liposucción y lipólisis</image:title>
+            <image:caption>Descubre las diferencias entre liposucción y lipólisis: técnicas, beneficios y resultados explicados por especialistas certificados. Información completa para elegir el mejor tratamiento.</image:caption>
+        </image:image>
+        
+        
+        <!-- News-specific tags for medical content -->
+        <news:news>
+            <news:publication>
+                <news:name>Tatiana Leal</news:name>
+                <news:language>es</news:language>
+            </news:publication>
+            <news:publication_date>2024-12-25T00:00:00-05:00</news:publication_date>
+            <news:title>Liposucción vs Lipólisis en Colombia: ¿Cuál es mejor para ti en 2024?</news:title>
+            
+        </news:news>
+        
+        <!-- Priority and Change Frequency -->
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
         <loc>http://localhost:4000/en/technology/platelet-rich-plasma/</loc>
         
         <!-- Alternate Language Versions -->
