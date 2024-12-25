@@ -7,7 +7,7 @@ last_modified_at: 2024-12-25
 category: [tratamientos-corporales]
 tags: [liposuction, lipolysis, fat-reduction, body-treatments, cosmetic-surgery]
 author: Tatiana Leal
-reviewer: dr-marco-bonilla
+reviewer: dr-tatiana-leal
 expertise: "Aesthetic medicine, plastic surgery, body treatments"
 title: "Liposuction vs Lipolysis in Colombia: Which is Better for You in 2024?"
 h1: "Differences Between Liposuction and Lipolysis: Everything You Need to Know"

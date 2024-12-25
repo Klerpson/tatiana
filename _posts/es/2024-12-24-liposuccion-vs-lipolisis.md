@@ -7,7 +7,7 @@ last_modified_at: 2024-12-25
 category: [tratamientos-corporales]
 tags: [liposuccion, lipolisis, reduccion-grasa, tratamientos-corporales, cirugia-estetica]
 author: Tatiana Leal
-reviewer: dr-marco-bonilla
+reviewer: dra-tatiana-leal
 expertise: "Medicina estética, cirugía plástica, tratamientos corporales"
 title: "Liposucción vs Lipólisis en Colombia: ¿Cuál es mejor para ti en 2024?"
 h1: "Diferencias entre Liposucción y Lipólisis: Todo lo que necesitas saber"
