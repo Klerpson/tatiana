@@ -12,11 +12,11 @@ expertise: "Medicina estética, cirugía plástica, tratamientos corporales"
 title: "Liposucción vs Lipólisis en Colombia: ¿Cuál es mejor para ti en 2024?"
 h1: "Diferencias entre Liposucción y Lipólisis: Todo lo que necesitas saber"
 description: "Descubre las diferencias entre liposucción y lipólisis: técnicas, beneficios y resultados explicados por especialistas certificados. Información completa para elegir el mejor tratamiento."
-hero: "img/liposuccion-vs-lipolisis.avif"
+hero: "img/blog/liposuccion-vs-lipolisis.avif"
 jpg: "img/blog/liposuccion-vs-lipolisis.jpg"
 alt: "Comparación entre procedimientos de liposucción y lipólisis"
 excerpt: "Análisis detallado de las diferencias entre liposucción y lipólisis: desde técnicas y resultados hasta tiempos de recuperación. Guía completa para elegir el tratamiento adecuado."
-tiempo_lectura: 9
+tiempo_lectura: 11
 referencias:
   - Journal of Plastic Surgery - Comparative Analysis of Liposuction and Non-invasive Fat Reduction: "https://www.plasticsurgery.org/example"
   - American Academy of Cosmetic Surgery - Guidelines for Body Contouring: "https://www.cosmeticsurgery.org/example"
