@@ -164,8 +164,6 @@ plugins:
 whitelist:
   - jekyll-redirect-from
 
-include: ['_redirects']
-
 # Configuración de redirecciones
 redirect_from:
   enabled: true
