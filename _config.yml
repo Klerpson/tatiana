@@ -159,14 +159,10 @@ compress_html:
 # Plugins
 plugins:
   - jekyll-redirect-from
-  - jekyll-sitemap
-  - jekyll-seo-tag
 
 # Whitelist
 whitelist:
   - jekyll-redirect-from
-  - jekyll-sitemap
-  - jekyll-seo-tag
 
 include: ['_redirects']
 
