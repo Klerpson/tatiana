@@ -95,40 +95,40 @@
   <!-- Schemas -->
   
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "MedicalProcedure",
-  "name": "InBody Body Composition Analysis in Bogota | Dr. Tatiana Leal",
-  "alternateName": "Body composition analysis with InBody",
-  "description": "Precise body analysis with InBody technology. Complete evaluation of muscle mass, fat, and metabolism. Immediate results and personalized plan.",
-  "url": "http://localhost:4000/en/technology/inbody/",
-  "image": "http://localhost:4000/img/analisis-corporal-inbody.avif",
-  "additionalProperty": {
-    "@type": "PropertyValue",
-    "name": "SecondaryImage",
-    "value": "http://localhost:4000/img/inbody-centro-estetico-bogota.avif"
-  },
-  "medicineSystem": "Conventional",
-  "specialty": {
-    "@type": "MedicalSpecialty",
-    "name": "Medicina Estética"
-  },
-  "study": {
-    "@type": "MedicalStudy",
-    "healthCondition": {
-      "@type": "MedicalCondition",
-      "name": "Envejecimiento cutáneo"
-    }
-  },
-  "howPerformed": "Procedimiento no invasivo realizado en consultorio",
-  "preparation": {
-    "@type": "MedicalEntity",
-    "description": "Evaluación médica previa. No requiere anestesia general. Procedimiento ambulatorio."
-  },
-  "procedureType": "Precise body analysis with InBody technology. Complete evaluation of muscle mass, fat, and metabolism. Immediate results and personalized plan.",
-  "followup": "Seguimiento personalizado post-tratamiento",
-  
-  "review": [
+  {
+    "@context": "https://schema.org",
+    "@type": "MedicalProcedure",
+    "name": "InBody Body Composition Analysis in Bogota | Dr. Tatiana Leal",
+    "alternateName": "Body composition analysis with InBody",
+    "description": "Precise body analysis with InBody technology. Complete evaluation of muscle mass, fat, and metabolism. Immediate results and personalized plan.",
+    "url": "http://localhost:4000/en/technology/inbody/",
+    "image": "http://localhost:4000/img/analisis-corporal-inbody.avif",
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "name": "SecondaryImage",
+      "value": "http://localhost:4000/img/inbody-centro-estetico-bogota.avif"
+    },
+    "medicineSystem": "Conventional",
+    "specialty": {
+      "@type": "MedicalSpecialty",
+      "name": "Medicina Estética"
+    },
+    "study": {
+      "@type": "MedicalStudy",
+      "healthCondition": {
+        "@type": "MedicalCondition",
+        "name": "Envejecimiento cutáneo"
+      }
+    },
+    "howPerformed": "Procedimiento no invasivo realizado en consultorio",
+    "preparation": {
+      "@type": "MedicalEntity",
+      "description": "Evaluación médica previa. No requiere anestesia general. Procedimiento ambulatorio."
+    },
+    "procedureType": "Precise body analysis with InBody technology. Complete evaluation of muscle mass, fat, and metabolism. Immediate results and personalized plan.",
+    "followup": "Seguimiento personalizado post-tratamiento",
+    
+  "procedureReview": [
     
     {
       "@type": "Review",
@@ -140,98 +140,104 @@
     }
     
   ],
-  
-  "typicalAgeRange": "18-",
-  "availableLanguage": ["es", "en"],
-  "provider": {
-    "@type": "HealthAndBeautyBusiness",
-    "name": "Tatiana Leal",
-    "image": "http://localhost:4000/img/logo-tatiana-leal.webp",
-    "priceRange": "$$$",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "Torre Magna PI, Av Suba #114 - 59 Piso 6, Cons G14, Bogotá",
-      "addressLocality": "Bogotá",
-      "addressRegion": "DC",
-      "addressCountry": "CO"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": "4.6964387",
-      "longitude": "-74.0692314"
-    },
-    "telephone": "3222010384",
-    "url": "http://localhost:4000",
-    "sameAs": [
-      "https://www.instagram.com/dratatianaleal/",
-      "https://www.facebook.com/Dra.TatianaLealSandoval",
-      "https://www.youtube.com/channel/UCxF-X7in4xUFxYYwCMyC5OQ"
-    ]
-  },
-  "audience": {
-    "@type": "MedicalAudience",
-    "audienceType": "Pacientes que buscan mejoras estéticas no invasivas"
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "reviewCount": "1"
   },
   
-  "mainEntity": [
-    
-    {
-      "@type": "Question",
-      "name": "Do I need any special preparation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For most accurate results, we recommend getting the analysis on an empty stomach or at least 2 hours after eating. Avoid intense exercise and alcohol consumption the day before"
-      }
-    },
-    
-    {
-      "@type": "Question",
-      "name": "How long does the analysis take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The complete analysis takes less than 60 seconds, and results are immediate. The consultation session where we analyze the results takes approximately 30 minutes"
-      }
-    },
-    
-    {
-      "@type": "Question",
-      "name": "How often should I get the analysis?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "We recommend analysis every 4-6 weeks for optimal progress tracking. This interval allows observation of significant changes in body composition"
-      }
-    },
-    
-    {
-      "@type": "Question",
-      "name": "Is the procedure safe?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, completely. InBody technology uses low-voltage bioelectrical impedance, which is totally safe and non-invasive"
-      }
-    }
-    
-  ],
-  
-  "offers": {
-    "@type": "Offer",
-    "availability": "https://schema.org/InStock",
-    "priceCurrency": "COP",
-    "priceValidUntil": "2025-12-31",
-    "availableAtOrFrom": {
+    "typicalAgeRange": "18-",
+    "availableLanguage": ["es", "en"],
+    "provider": {
       "@type": "HealthAndBeautyBusiness",
       "name": "Tatiana Leal",
+      "image": "http://localhost:4000/img/logo-tatiana-leal.webp",
+      "priceRange": "$$$",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Torre Magna PI, Av Suba #114 - 59 Piso 6, Cons G14, Bogotá",
         "addressLocality": "Bogotá",
         "addressRegion": "DC",
         "addressCountry": "CO"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "4.6964387",
+        "longitude": "-74.0692314"
+      },
+      "telephone": "3222010384",
+      "url": "http://localhost:4000",
+      "sameAs": [
+        "https://www.instagram.com/dratatianaleal/",
+        "https://www.facebook.com/Dra.TatianaLealSandoval",
+        "https://www.youtube.com/channel/UCxF-X7in4xUFxYYwCMyC5OQ"
+      ]
+    },
+    "audience": {
+      "@type": "MedicalAudience",
+      "audienceType": "Pacientes que buscan mejoras estéticas no invasivas"
+    },
+    
+    "mainEntity": [
+      
+      {
+        "@type": "Question",
+        "name": "Do I need any special preparation?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "For most accurate results, we recommend getting the analysis on an empty stomach or at least 2 hours after eating. Avoid intense exercise and alcohol consumption the day before"
+        }
+      },
+      
+      {
+        "@type": "Question",
+        "name": "How long does the analysis take?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The complete analysis takes less than 60 seconds, and results are immediate. The consultation session where we analyze the results takes approximately 30 minutes"
+        }
+      },
+      
+      {
+        "@type": "Question",
+        "name": "How often should I get the analysis?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We recommend analysis every 4-6 weeks for optimal progress tracking. This interval allows observation of significant changes in body composition"
+        }
+      },
+      
+      {
+        "@type": "Question",
+        "name": "Is the procedure safe?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, completely. InBody technology uses low-voltage bioelectrical impedance, which is totally safe and non-invasive"
+        }
+      }
+      
+    ],
+    
+    "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "priceCurrency": "COP",
+      "priceValidUntil": "2025-12-31",
+      "availableAtOrFrom": {
+        "@type": "HealthAndBeautyBusiness",
+        "name": "Tatiana Leal",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Torre Magna PI, Av Suba #114 - 59 Piso 6, Cons G14, Bogotá",
+          "addressLocality": "Bogotá",
+          "addressRegion": "DC",
+          "addressCountry": "CO"
+        }
       }
     }
   }
-}
 </script>
+
 
   
   
