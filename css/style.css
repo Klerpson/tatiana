@@ -821,6 +821,11 @@ hr {
     justify-content: center;
   }
 }
+
+.cta-blog{
+  background-color: var(--acento);
+  border-radius: var(--radius);
+}
 /* SHARE */
 
 .share{
