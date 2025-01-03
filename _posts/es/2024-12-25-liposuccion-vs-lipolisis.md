@@ -102,7 +102,7 @@ Entre las ventajas que ofrece la lipólisis, destacan:
     
 - Procedimiento ambulatorio, lo que significa que generalmente no se requiere hospitalización.
     
-- [Bajo riesgo de complicaciones]({% post_url 2024-11-20-riesgos-lipolisis-laser %}), ya que no involucra anestesia general ni incisiones profundas.
+- - [Bajo riesgo de complicaciones]({% post_url es/2024-11-20-riesgos-lipolisis-laser %}), ya que no involucra anestesia general ni incisiones profundas.
     
 
 ### Lipólisis en comparación con la cirugía plástica
