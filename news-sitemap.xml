@@ -5,8 +5,7 @@
   
   
   
-    
-    
+  
   
     
     
@@ -19,5 +18,22 @@
   
     
     
+  
+    
+    
+  
+  
+  
+    <url>
+      <loc>https://dratatianaleal.com</loc>
+      <news:news>
+        <news:publication>
+          <news:name>Tatiana Leal</news:name>
+          <news:language>es</news:language>
+        </news:publication>
+        <news:publication_date>2025-01-03T04:31:25+00:00</news:publication_date>
+        <news:title>Doctora Tatiana Leal</news:title>
+      </news:news>
+    </url>
   
 </urlset>
