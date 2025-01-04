@@ -5,8 +5,7 @@
   
   
   
-    
-    
+  
   
     
     
@@ -19,5 +18,22 @@
   
     
     
+  
+    
+    
+  
+  
+  
+    <url>
+      <loc>http://localhost:4000</loc>
+      <news:news>
+        <news:publication>
+          <news:name>Tatiana Leal</news:name>
+          <news:language>es</news:language>
+        </news:publication>
+        <news:publication_date>2025-01-02T23:23:40-05:00</news:publication_date>
+        <news:title>Doctora Tatiana Leal</news:title>
+      </news:news>
+    </url>
   
 </urlset>
