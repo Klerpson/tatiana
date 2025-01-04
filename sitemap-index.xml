@@ -3,7 +3,7 @@
     <!-- Sitemap principal para páginas estáticas -->
     <sitemap>
         <loc>https://dratatianaleal.com/sitemap-main.xml</loc>
-        <lastmod>2025-01-03T04:31:25+00:00</lastmod>
+        <lastmod>2025-01-04T00:12:50+00:00</lastmod>
     </sitemap>
     
     <!-- Sitemap para posts del blog -->
@@ -15,6 +15,6 @@
     <!-- Sitemap para tratamientos -->
     <sitemap>
         <loc>https://dratatianaleal.com/sitemap-treatments.xml</loc>
-        <lastmod>2025-01-03T04:31:25+00:00</lastmod>
+        <lastmod>2025-01-04T00:12:50+00:00</lastmod>
     </sitemap>
 </sitemapindex>
