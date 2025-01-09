@@ -95,56 +95,98 @@
   <!-- Schemas -->
   
 <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "MedicalProcedure",
-    "name": "Eliminación de Tatuajes con Láser | Resultados Garantizados - Dra. Tatiana Leal",
-    "alternateName": "Eliminación de tatuajes con láser",
-    "description": "Elimina tus tatuajes de forma segura y efectiva con la última tecnología láser. Especialistas en remoción de tatuajes en Bogotá.",
-    "url": "http://localhost:4000/es/tratamientos-corporales/eliminacion-tatuajes/",
-    "image": "http://localhost:4000/img/eliminacion-tatuajes-laser.avif",
-    "additionalProperty": {
-      "@type": "PropertyValue",
-      "name": "SecondaryImage",
-      "value": "http://localhost:4000/img/eliminar-tatuajelaser-bogota.avif"
-    },
-    "medicineSystem": "Conventional",
-    "specialty": {
-      "@type": "MedicalSpecialty",
-      "name": "Medicina Estética"
-    },
-    "study": {
-      "@type": "MedicalStudy",
-      "healthCondition": {
-        "@type": "MedicalCondition",
-        "name": "Envejecimiento cutáneo"
-      }
-    },
-    "howPerformed": "Procedimiento no invasivo realizado en consultorio",
-    "preparation": {
-      "@type": "MedicalEntity",
-      "description": "Evaluación médica previa. No requiere anestesia general. Procedimiento ambulatorio."
-    },
-    "procedureType": "Elimina tus tatuajes de forma segura y efectiva con la última tecnología láser. Especialistas en remoción de tatuajes en Bogotá.",
-    "followup": "Seguimiento personalizado post-tratamiento",
-    
-  "procedureReview": [
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalProcedure",
+  "name": "Eliminación de Tatuajes con Láser | Resultados Garantizados - Dra. Tatiana Leal",
+  "description": "Elimina tus tatuajes de forma segura y efectiva con la última tecnología láser. Especialistas en remoción de tatuajes en Bogotá.",
+  "url": "http://localhost:4000/es/tratamientos-corporales/eliminacion-tatuajes/",
+  "image": {
+    "@type": "ImageObject",
+    "url": "http://localhost:4000/img/eliminacion-tatuajes-laser.avif",
+    "height": "1200",
+    "width": "1200"
+  },
+  "medicineSystem": "Conventional",
+  "howPerformed": "Procedimiento no invasivo realizado en consultorio",
+  "preparation": "Evaluación médica previa. No requiere anestesia general. Procedimiento ambulatorio.",
+  "procedureType": "Elimina tus tatuajes de forma segura y efectiva con la última tecnología láser. Especialistas en remoción de tatuajes en Bogotá.",
+  "followup": "Seguimiento personalizado post-tratamiento",
+  "performer": {
+    "@type": "MedicalOrganization",
+    "name": "Tatiana Leal",
+    "url": "http://localhost:4000"
+  },
+  
+  "review": [
     
     {
       "@type": "Review",
       "reviewBody": "Eliminación total de tatuaje después del tratamiento con láser Q-Switched.",
+      "itemReviewed": {
+        "@type": "MedicalProcedure",
+        "name": "Eliminación de Tatuajes con Láser | Resultados Garantizados - Dra. Tatiana Leal"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Paciente Anónimo"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
       "image": [
-        "http://localhost:4000/img/tatiana-leal-medicina-estetica-1024.avif",
-        "http://localhost:4000/img/tatiana-leal-medicina-laser-1024.avif"
+        {
+          "@type": "ImageObject",
+          "url": "http://localhost:4000/img/tatiana-leal-medicina-estetica-1024.avif",
+          "height": "800",
+          "width": "800",
+          "caption": "Antes del tratamiento"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "http://localhost:4000/img/tatiana-leal-medicina-laser-1024.avif",
+          "height": "800",
+          "width": "800",
+          "caption": "Después del tratamiento"
+        }
       ]
     },
     
     {
       "@type": "Review",
       "reviewBody": "Proceso de eliminación gradual mostrando resultados significativos.",
+      "itemReviewed": {
+        "@type": "MedicalProcedure",
+        "name": "Eliminación de Tatuajes con Láser | Resultados Garantizados - Dra. Tatiana Leal"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Paciente Anónimo"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
       "image": [
-        "http://localhost:4000/img/tatiana-leal-medicina-estetica-1024.avif",
-        "http://localhost:4000/img/tatiana-leal-medicina-laser-1024.avif"
+        {
+          "@type": "ImageObject",
+          "url": "http://localhost:4000/img/tatiana-leal-medicina-estetica-1024.avif",
+          "height": "800",
+          "width": "800",
+          "caption": "Antes del tratamiento"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "http://localhost:4000/img/tatiana-leal-medicina-laser-1024.avif",
+          "height": "800",
+          "width": "800",
+          "caption": "Después del tratamiento"
+        }
       ]
     }
     
@@ -152,119 +194,89 @@
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "4.8",
-    "reviewCount": "2"
+    "reviewCount": "2",
+    "bestRating": "5",
+    "worstRating": "1"
   },
   
-    "typicalAgeRange": "18-",
-    "availableLanguage": ["es", "en"],
-    "provider": {
-      "@type": "HealthAndBeautyBusiness",
-      "name": "Tatiana Leal",
-      "image": "http://localhost:4000/img/logo-tatiana-leal.webp",
-      "priceRange": "$$$",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Torre Magna PI, Av Suba #114 - 59 Piso 6, Cons G14, Bogotá",
-        "addressLocality": "Bogotá",
-        "addressRegion": "DC",
-        "addressCountry": "CO"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": "4.6964387",
-        "longitude": "-74.0692314"
-      },
-      "telephone": "3222010384",
-      "url": "http://localhost:4000",
-      "sameAs": [
-        "https://www.instagram.com/dratatianaleal/",
-        "https://www.facebook.com/Dra.TatianaLealSandoval",
-        "https://www.youtube.com/channel/UCxF-X7in4xUFxYYwCMyC5OQ"
-      ]
-    },
-    "audience": {
-      "@type": "MedicalAudience",
-      "audienceType": "Pacientes que buscan mejoras estéticas no invasivas"
-    },
+  
+  "mainEntity": [
     
-    "mainEntity": [
-      
-      {
-        "@type": "Question",
-        "name": "¿Es doloroso el procedimiento de eliminación?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "La sensación varía de persona a persona, pero la mayoría de nuestros pacientes la describen como menos incómoda que hacerse el tatuaje original. Utilizamos una crema anestésica especial y nuestra tecnología láser Q-Switched está diseñada para maximizar tu comodidad durante el tratamiento"
-        }
-      },
-      
-      {
-        "@type": "Question",
-        "name": "¿Cuánto tiempo tarda en desaparecer el tatuaje?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Cada tatuaje es único, pero generalmente verás resultados notables después de 3-4 sesiones. El proceso completo depende de factores como el tamaño, los colores utilizados y la antigüedad del tatuaje. Durante tu consulta gratuita, podremos darte un estimado más preciso basado en tus características específicas"
-        }
-      },
-      
-      {
-        "@type": "Question",
-        "name": "¿Qué tipos de tatuajes pueden eliminarse?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Nuestra tecnología láser Q-Switched es efectiva para la mayoría de los tatuajes, siendo especialmente eficaz con pigmentos negros, azules y rojos. Incluso los tatuajes más antiguos o los que otras clínicas han considerado difíciles pueden tratarse exitosamente con nuestro protocolo personalizado"
-        }
-      },
-      
-      {
-        "@type": "Question",
-        "name": "¿Quedará alguna marca en mi piel?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Nuestro tratamiento está diseñado para minimizar cualquier riesgo de cicatrización. Utilizamos la tecnología más avanzada y protocolos específicos que respetan la integridad de tu piel, permitiendo que se vea natural una vez eliminado el tatuaje"
-        }
-      },
-      
-      {
-        "@type": "Question",
-        "name": "¿Qué cuidados necesito después del tratamiento?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Los cuidados post-tratamiento son simples pero importantes. Te proporcionaremos una guía detallada que incluye evitar la exposición solar directa por 15 días, mantener la zona hidratada y aplicar los productos específicos que te recomendaremos. La mayoría de nuestros pacientes retoman sus actividades normales en 24-48 horas"
-        }
-      },
-      
-      {
-        "@type": "Question",
-        "name": "¿Por qué elegir la Dra. Tatiana Leal para mi tratamiento?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Nos especializamos exclusivamente en tratamientos láser y contamos con la tecnología más avanzada del mercado. Nuestro equipo está certificado y actualizado en las últimas técnicas de eliminación de tatuajes. Además, diseñamos un plan personalizado para cada paciente, garantizando los mejores resultados posibles"
-        }
+    {
+      "@type": "Question",
+      "name": "¿Es doloroso el procedimiento de eliminación?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "La sensación varía de persona a persona, pero la mayoría de nuestros pacientes la describen como menos incómoda que hacerse el tatuaje original. Utilizamos una crema anestésica especial y nuestra tecnología láser Q-Switched está diseñada para maximizar tu comodidad durante el tratamiento"
       }
-      
-    ],
+    },
     
-    "offers": {
-      "@type": "Offer",
-      "availability": "https://schema.org/InStock",
-      "priceCurrency": "COP",
-      "priceValidUntil": "2025-12-31",
-      "availableAtOrFrom": {
-        "@type": "HealthAndBeautyBusiness",
-        "name": "Tatiana Leal",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Torre Magna PI, Av Suba #114 - 59 Piso 6, Cons G14, Bogotá",
-          "addressLocality": "Bogotá",
-          "addressRegion": "DC",
-          "addressCountry": "CO"
-        }
+    {
+      "@type": "Question",
+      "name": "¿Cuánto tiempo tarda en desaparecer el tatuaje?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Cada tatuaje es único, pero generalmente verás resultados notables después de 3-4 sesiones. El proceso completo depende de factores como el tamaño, los colores utilizados y la antigüedad del tatuaje. Durante tu consulta gratuita, podremos darte un estimado más preciso basado en tus características específicas"
+      }
+    },
+    
+    {
+      "@type": "Question",
+      "name": "¿Qué tipos de tatuajes pueden eliminarse?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nuestra tecnología láser Q-Switched es efectiva para la mayoría de los tatuajes, siendo especialmente eficaz con pigmentos negros, azules y rojos. Incluso los tatuajes más antiguos o los que otras clínicas han considerado difíciles pueden tratarse exitosamente con nuestro protocolo personalizado"
+      }
+    },
+    
+    {
+      "@type": "Question",
+      "name": "¿Quedará alguna marca en mi piel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nuestro tratamiento está diseñado para minimizar cualquier riesgo de cicatrización. Utilizamos la tecnología más avanzada y protocolos específicos que respetan la integridad de tu piel, permitiendo que se vea natural una vez eliminado el tatuaje"
+      }
+    },
+    
+    {
+      "@type": "Question",
+      "name": "¿Qué cuidados necesito después del tratamiento?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Los cuidados post-tratamiento son simples pero importantes. Te proporcionaremos una guía detallada que incluye evitar la exposición solar directa por 15 días, mantener la zona hidratada y aplicar los productos específicos que te recomendaremos. La mayoría de nuestros pacientes retoman sus actividades normales en 24-48 horas"
+      }
+    },
+    
+    {
+      "@type": "Question",
+      "name": "¿Por qué elegir la Dra. Tatiana Leal para mi tratamiento?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nos especializamos exclusivamente en tratamientos láser y contamos con la tecnología más avanzada del mercado. Nuestro equipo está certificado y actualizado en las últimas técnicas de eliminación de tatuajes. Además, diseñamos un plan personalizado para cada paciente, garantizando los mejores resultados posibles"
       }
     }
+    
+  ],
+  
+  "provider": {
+    "@type": "MedicalOrganization",
+    "name": "Tatiana Leal",
+    "image": {
+      "@type": "ImageObject",
+      "url": "http://localhost:4000/img/logo-tatiana-leal.webp",
+      "height": "60",
+      "width": "600"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Torre Magna PI, Av Suba #114 - 59 Piso 6, Cons G14, Bogotá",
+      "addressLocality": "Bogotá",
+      "addressRegion": "DC",
+      "addressCountry": "CO"
+    }
   }
+}
 </script>
-
 
   
   

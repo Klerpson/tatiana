@@ -97,65 +97,133 @@
   <!-- Schemas -->
   
 <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "MedicalProcedure",
-    "name": "Elimina Ojeras 2024: -40% en Ácido Hialurónico ▷ Consulta Gratis",
-    "alternateName": "Tratamiento para eliminar ojeras",
-    "description": "Adiós ojeras definitivo desde $299.900. Ácido hialurónico + IPL de última generación. ¡30% OFF + hidratación premium gratis este mes! → Agenda ahora",
-    "url": "http://localhost:4000/es/tratamientos-faciales/ojeras/",
-    "image": "http://localhost:4000/img/tratamiento-ojeras.avif",
-    "additionalProperty": {
-      "@type": "PropertyValue",
-      "name": "SecondaryImage",
-      "value": "http://localhost:4000/img/centro-medicina-estetica-ojeras.avif"
-    },
-    "medicineSystem": "Conventional",
-    "specialty": {
-      "@type": "MedicalSpecialty",
-      "name": "Medicina Estética"
-    },
-    "study": {
-      "@type": "MedicalStudy",
-      "healthCondition": {
-        "@type": "MedicalCondition",
-        "name": "Envejecimiento cutáneo"
-      }
-    },
-    "howPerformed": "Procedimiento no invasivo realizado en consultorio",
-    "preparation": {
-      "@type": "MedicalEntity",
-      "description": "Evaluación médica previa. No requiere anestesia general. Procedimiento ambulatorio."
-    },
-    "procedureType": "Adiós ojeras definitivo desde $299.900. Ácido hialurónico + IPL de última generación. ¡30% OFF + hidratación premium gratis este mes! → Agenda ahora",
-    "followup": "Seguimiento personalizado post-tratamiento",
-    
-  "procedureReview": [
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalProcedure",
+  "name": "Elimina Ojeras 2024: -40% en Ácido Hialurónico ▷ Consulta Gratis",
+  "description": "Adiós ojeras definitivo desde $299.900. Ácido hialurónico + IPL de última generación. ¡30% OFF + hidratación premium gratis este mes! → Agenda ahora",
+  "url": "http://localhost:4000/es/tratamientos-faciales/ojeras/",
+  "image": {
+    "@type": "ImageObject",
+    "url": "http://localhost:4000/img/tratamiento-ojeras.avif",
+    "height": "1200",
+    "width": "1200"
+  },
+  "medicineSystem": "Conventional",
+  "howPerformed": "Procedimiento no invasivo realizado en consultorio",
+  "preparation": "Evaluación médica previa. No requiere anestesia general. Procedimiento ambulatorio.",
+  "procedureType": "Adiós ojeras definitivo desde $299.900. Ácido hialurónico + IPL de última generación. ¡30% OFF + hidratación premium gratis este mes! → Agenda ahora",
+  "followup": "Seguimiento personalizado post-tratamiento",
+  "performer": {
+    "@type": "MedicalOrganization",
+    "name": "Tatiana Leal",
+    "url": "http://localhost:4000"
+  },
+  
+  "review": [
     
     {
       "@type": "Review",
       "reviewBody": "Notable reducción de ojeras y bolsas con ácido hialurónico.",
+      "itemReviewed": {
+        "@type": "MedicalProcedure",
+        "name": "Elimina Ojeras 2024: -40% en Ácido Hialurónico ▷ Consulta Gratis"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Paciente Anónimo"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
       "image": [
-        "http://localhost:4000/img/antes-tratamiento-ojeras-1.avif",
-        "http://localhost:4000/img/despues-tratamiento-ojeras-1.avif"
+        {
+          "@type": "ImageObject",
+          "url": "http://localhost:4000/img/antes-tratamiento-ojeras-1.avif",
+          "height": "800",
+          "width": "800",
+          "caption": "Antes del tratamiento"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "http://localhost:4000/img/despues-tratamiento-ojeras-1.avif",
+          "height": "800",
+          "width": "800",
+          "caption": "Después del tratamiento"
+        }
       ]
     },
     
     {
       "@type": "Review",
       "reviewBody": "Transformación visible con protocolo combinado de IPL y ácido hialurónico.",
+      "itemReviewed": {
+        "@type": "MedicalProcedure",
+        "name": "Elimina Ojeras 2024: -40% en Ácido Hialurónico ▷ Consulta Gratis"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Paciente Anónimo"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
       "image": [
-        "http://localhost:4000/img/antes-tratamiento-ojeras-2.avif",
-        "http://localhost:4000/img/despues-tratamiento-ojeras-2.avif"
+        {
+          "@type": "ImageObject",
+          "url": "http://localhost:4000/img/antes-tratamiento-ojeras-2.avif",
+          "height": "800",
+          "width": "800",
+          "caption": "Antes del tratamiento"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "http://localhost:4000/img/despues-tratamiento-ojeras-2.avif",
+          "height": "800",
+          "width": "800",
+          "caption": "Después del tratamiento"
+        }
       ]
     },
     
     {
       "@type": "Review",
       "reviewBody": "Mejoría significativa en apariencia y luminosidad de la zona periocular.",
+      "itemReviewed": {
+        "@type": "MedicalProcedure",
+        "name": "Elimina Ojeras 2024: -40% en Ácido Hialurónico ▷ Consulta Gratis"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Paciente Anónimo"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
       "image": [
-        "http://localhost:4000/img/antes-tratamiento-ojeras-3.avif",
-        "http://localhost:4000/img/despues-tratamiento-ojeras-3.avif"
+        {
+          "@type": "ImageObject",
+          "url": "http://localhost:4000/img/antes-tratamiento-ojeras-3.avif",
+          "height": "800",
+          "width": "800",
+          "caption": "Antes del tratamiento"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "http://localhost:4000/img/despues-tratamiento-ojeras-3.avif",
+          "height": "800",
+          "width": "800",
+          "caption": "Después del tratamiento"
+        }
       ]
     }
     
@@ -163,119 +231,89 @@
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "4.8",
-    "reviewCount": "3"
+    "reviewCount": "3",
+    "bestRating": "5",
+    "worstRating": "1"
   },
   
-    "typicalAgeRange": "18-",
-    "availableLanguage": ["es", "en"],
-    "provider": {
-      "@type": "HealthAndBeautyBusiness",
-      "name": "Tatiana Leal",
-      "image": "http://localhost:4000/img/logo-tatiana-leal.webp",
-      "priceRange": "$$$",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Torre Magna PI, Av Suba #114 - 59 Piso 6, Cons G14, Bogotá",
-        "addressLocality": "Bogotá",
-        "addressRegion": "DC",
-        "addressCountry": "CO"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": "4.6964387",
-        "longitude": "-74.0692314"
-      },
-      "telephone": "3222010384",
-      "url": "http://localhost:4000",
-      "sameAs": [
-        "https://www.instagram.com/dratatianaleal/",
-        "https://www.facebook.com/Dra.TatianaLealSandoval",
-        "https://www.youtube.com/channel/UCxF-X7in4xUFxYYwCMyC5OQ"
-      ]
-    },
-    "audience": {
-      "@type": "MedicalAudience",
-      "audienceType": "Pacientes que buscan mejoras estéticas no invasivas"
-    },
+  
+  "mainEntity": [
     
-    "mainEntity": [
-      
-      {
-        "@type": "Question",
-        "name": "¿Cuáles son los tipos de tratamiento disponibles?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Ofrecemos un enfoque personalizado que puede incluir ácido hialurónico para restaurar volumen, IPL para tratar la pigmentación y peelings especializados para la zona periocular. Durante tu consulta, determinaremos la mejor combinación según tus necesidades específicas"
-        }
-      },
-      
-      {
-        "@type": "Question",
-        "name": "¿Es doloroso el procedimiento?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "El tratamiento es prácticamente indoloro gracias a nuestros protocolos especializados y el uso de anestésicos tópicos. La mayoría de pacientes describe solo una ligera sensación durante la aplicación"
-        }
-      },
-      
-      {
-        "@type": "Question",
-        "name": "¿Cuánto duran los resultados?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Los resultados con ácido hialurónico suelen durar entre 12-18 meses. Los tratamientos con IPL y peeling ofrecen mejoras progresivas que pueden mantenerse con sesiones de mantenimiento periódicas"
-        }
-      },
-      
-      {
-        "@type": "Question",
-        "name": "¿Es seguro para la zona de los ojos?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Sí, utilizamos productos y tecnologías específicamente diseñados para la delicada zona periocular. Nuestros protocolos siguen los más altos estándares de seguridad y son realizados por profesionales especializados"
-        }
-      },
-      
-      {
-        "@type": "Question",
-        "name": "¿Cuándo veré resultados?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Con el ácido hialurónico, los resultados son inmediatos. Los tratamientos con IPL y peeling muestran mejoras graduales que se optimizan durante las semanas siguientes"
-        }
-      },
-      
-      {
-        "@type": "Question",
-        "name": "¿Requiere tiempo de recuperación?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "El tiempo de recuperación es mínimo. Podrías experimentar una ligera hinchazón durante 24-48 horas con el ácido hialurónico. Los tratamientos con IPL y peeling permiten reincorporarte inmediatamente a tus actividades"
-        }
+    {
+      "@type": "Question",
+      "name": "¿Cuáles son los tipos de tratamiento disponibles?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ofrecemos un enfoque personalizado que puede incluir ácido hialurónico para restaurar volumen, IPL para tratar la pigmentación y peelings especializados para la zona periocular. Durante tu consulta, determinaremos la mejor combinación según tus necesidades específicas"
       }
-      
-    ],
+    },
     
-    "offers": {
-      "@type": "Offer",
-      "availability": "https://schema.org/InStock",
-      "priceCurrency": "COP",
-      "priceValidUntil": "2025-12-31",
-      "availableAtOrFrom": {
-        "@type": "HealthAndBeautyBusiness",
-        "name": "Tatiana Leal",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Torre Magna PI, Av Suba #114 - 59 Piso 6, Cons G14, Bogotá",
-          "addressLocality": "Bogotá",
-          "addressRegion": "DC",
-          "addressCountry": "CO"
-        }
+    {
+      "@type": "Question",
+      "name": "¿Es doloroso el procedimiento?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "El tratamiento es prácticamente indoloro gracias a nuestros protocolos especializados y el uso de anestésicos tópicos. La mayoría de pacientes describe solo una ligera sensación durante la aplicación"
+      }
+    },
+    
+    {
+      "@type": "Question",
+      "name": "¿Cuánto duran los resultados?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Los resultados con ácido hialurónico suelen durar entre 12-18 meses. Los tratamientos con IPL y peeling ofrecen mejoras progresivas que pueden mantenerse con sesiones de mantenimiento periódicas"
+      }
+    },
+    
+    {
+      "@type": "Question",
+      "name": "¿Es seguro para la zona de los ojos?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí, utilizamos productos y tecnologías específicamente diseñados para la delicada zona periocular. Nuestros protocolos siguen los más altos estándares de seguridad y son realizados por profesionales especializados"
+      }
+    },
+    
+    {
+      "@type": "Question",
+      "name": "¿Cuándo veré resultados?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Con el ácido hialurónico, los resultados son inmediatos. Los tratamientos con IPL y peeling muestran mejoras graduales que se optimizan durante las semanas siguientes"
+      }
+    },
+    
+    {
+      "@type": "Question",
+      "name": "¿Requiere tiempo de recuperación?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "El tiempo de recuperación es mínimo. Podrías experimentar una ligera hinchazón durante 24-48 horas con el ácido hialurónico. Los tratamientos con IPL y peeling permiten reincorporarte inmediatamente a tus actividades"
       }
     }
+    
+  ],
+  
+  "provider": {
+    "@type": "MedicalOrganization",
+    "name": "Tatiana Leal",
+    "image": {
+      "@type": "ImageObject",
+      "url": "http://localhost:4000/img/logo-tatiana-leal.webp",
+      "height": "60",
+      "width": "600"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Torre Magna PI, Av Suba #114 - 59 Piso 6, Cons G14, Bogotá",
+      "addressLocality": "Bogotá",
+      "addressRegion": "DC",
+      "addressCountry": "CO"
+    }
   }
+}
 </script>
-
 
   
   

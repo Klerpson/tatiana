@@ -93,65 +93,133 @@
   <!-- Schemas -->
   
 <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "MedicalProcedure",
-    "name": "Professional vitamin C facial in Bogota | Natural radiance | Dr. Tatiana Leal",
-    "alternateName": "Professional vitamin C facial: antioxidant power for your skin",
-    "description": "Revolutionary facial treatment with high-concentration pure vitamin C. Targets dark spots, wrinkles, and dullness. Visible results from the first session.",
-    "url": "http://localhost:4000/en/facial-treatments/vitamin-c-facial/",
-    "image": "http://localhost:4000/img/tratamiento-vitamina-c-facial.avif",
-    "additionalProperty": {
-      "@type": "PropertyValue",
-      "name": "SecondaryImage",
-      "value": "http://localhost:4000/img/centro-medicina-estetica-vitamina-c.avif"
-    },
-    "medicineSystem": "Conventional",
-    "specialty": {
-      "@type": "MedicalSpecialty",
-      "name": "Medicina Estética"
-    },
-    "study": {
-      "@type": "MedicalStudy",
-      "healthCondition": {
-        "@type": "MedicalCondition",
-        "name": "Envejecimiento cutáneo"
-      }
-    },
-    "howPerformed": "Procedimiento no invasivo realizado en consultorio",
-    "preparation": {
-      "@type": "MedicalEntity",
-      "description": "Evaluación médica previa. No requiere anestesia general. Procedimiento ambulatorio."
-    },
-    "procedureType": "Revolutionary facial treatment with high-concentration pure vitamin C. Targets dark spots, wrinkles, and dullness. Visible results from the first session.",
-    "followup": "Seguimiento personalizado post-tratamiento",
-    
-  "procedureReview": [
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalProcedure",
+  "name": "Professional vitamin C facial in Bogota | Natural radiance | Dr. Tatiana Leal",
+  "description": "Revolutionary facial treatment with high-concentration pure vitamin C. Targets dark spots, wrinkles, and dullness. Visible results from the first session.",
+  "url": "http://localhost:4000/en/facial-treatments/vitamin-c-facial/",
+  "image": {
+    "@type": "ImageObject",
+    "url": "http://localhost:4000/img/tratamiento-vitamina-c-facial.avif",
+    "height": "1200",
+    "width": "1200"
+  },
+  "medicineSystem": "Conventional",
+  "howPerformed": "Procedimiento no invasivo realizado en consultorio",
+  "preparation": "Evaluación médica previa. No requiere anestesia general. Procedimiento ambulatorio.",
+  "procedureType": "Revolutionary facial treatment with high-concentration pure vitamin C. Targets dark spots, wrinkles, and dullness. Visible results from the first session.",
+  "followup": "Seguimiento personalizado post-tratamiento",
+  "performer": {
+    "@type": "MedicalOrganization",
+    "name": "Tatiana Leal",
+    "url": "http://localhost:4000"
+  },
+  
+  "review": [
     
     {
       "@type": "Review",
       "reviewBody": "Results after 3 sessions of professional vitamin C treatment. Notable improvement in radiance and texture.",
+      "itemReviewed": {
+        "@type": "MedicalProcedure",
+        "name": "Professional vitamin C facial in Bogota | Natural radiance | Dr. Tatiana Leal"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Paciente Anónimo"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
       "image": [
-        "http://localhost:4000/img/antes-vitamina-c-facial-1.avif",
-        "http://localhost:4000/img/despues-vitamina-c-facial-1.avif"
+        {
+          "@type": "ImageObject",
+          "url": "http://localhost:4000/img/antes-vitamina-c-facial-1.avif",
+          "height": "800",
+          "width": "800",
+          "caption": "Antes del tratamiento"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "http://localhost:4000/img/despues-vitamina-c-facial-1.avif",
+          "height": "800",
+          "width": "800",
+          "caption": "Después del tratamiento"
+        }
       ]
     },
     
     {
       "@type": "Review",
       "reviewBody": "Visible reduction in dark spots and improved skin tone uniformity after treatment.",
+      "itemReviewed": {
+        "@type": "MedicalProcedure",
+        "name": "Professional vitamin C facial in Bogota | Natural radiance | Dr. Tatiana Leal"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Paciente Anónimo"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
       "image": [
-        "http://localhost:4000/img/antes-vitamina-c-facial-2.avif",
-        "http://localhost:4000/img/despues-vitamina-c-facial-2.avif"
+        {
+          "@type": "ImageObject",
+          "url": "http://localhost:4000/img/antes-vitamina-c-facial-2.avif",
+          "height": "800",
+          "width": "800",
+          "caption": "Antes del tratamiento"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "http://localhost:4000/img/despues-vitamina-c-facial-2.avif",
+          "height": "800",
+          "width": "800",
+          "caption": "Después del tratamiento"
+        }
       ]
     },
     
     {
       "@type": "Review",
       "reviewBody": "Firmer and more radiant skin after 4 sessions of professional vitamin C.",
+      "itemReviewed": {
+        "@type": "MedicalProcedure",
+        "name": "Professional vitamin C facial in Bogota | Natural radiance | Dr. Tatiana Leal"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Paciente Anónimo"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
       "image": [
-        "http://localhost:4000/img/antes-vitamina-c-facial-3.avif",
-        "http://localhost:4000/img/despues-vitamina-c-facial-3.avif"
+        {
+          "@type": "ImageObject",
+          "url": "http://localhost:4000/img/antes-vitamina-c-facial-3.avif",
+          "height": "800",
+          "width": "800",
+          "caption": "Antes del tratamiento"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "http://localhost:4000/img/despues-vitamina-c-facial-3.avif",
+          "height": "800",
+          "width": "800",
+          "caption": "Después del tratamiento"
+        }
       ]
     }
     
@@ -159,101 +227,71 @@
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "4.8",
-    "reviewCount": "3"
+    "reviewCount": "3",
+    "bestRating": "5",
+    "worstRating": "1"
   },
   
-    "typicalAgeRange": "18-",
-    "availableLanguage": ["es", "en"],
-    "provider": {
-      "@type": "HealthAndBeautyBusiness",
-      "name": "Tatiana Leal",
-      "image": "http://localhost:4000/img/logo-tatiana-leal.webp",
-      "priceRange": "$$$",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Torre Magna PI, Av Suba #114 - 59 Piso 6, Cons G14, Bogotá",
-        "addressLocality": "Bogotá",
-        "addressRegion": "DC",
-        "addressCountry": "CO"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": "4.6964387",
-        "longitude": "-74.0692314"
-      },
-      "telephone": "3222010384",
-      "url": "http://localhost:4000",
-      "sameAs": [
-        "https://www.instagram.com/dratatianaleal/",
-        "https://www.facebook.com/Dra.TatianaLealSandoval",
-        "https://www.youtube.com/channel/UCxF-X7in4xUFxYYwCMyC5OQ"
-      ]
-    },
-    "audience": {
-      "@type": "MedicalAudience",
-      "audienceType": "Pacientes que buscan mejoras estéticas no invasivas"
-    },
+  
+  "mainEntity": [
     
-    "mainEntity": [
-      
-      {
-        "@type": "Question",
-        "name": "How often should I get the treatment?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "For optimal results, we recommend an initial protocol of 4-6 sessions, spaced 1-2 weeks apart. Afterward, monthly maintenance sessions can be scheduled based on your skin's specific needs. Many patients schedule treatments around important events for an extra glow"
-        }
-      },
-      
-      {
-        "@type": "Question",
-        "name": "Is this better than using vitamin C products at home?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Our professional treatment uses pure vitamin C at concentrations up to 20 times higher than available in home care products. Combined with our advanced penetration technology, this ensures the active ingredients reach the deep skin layers where they can make a real difference"
-        }
-      },
-      
-      {
-        "@type": "Question",
-        "name": "Is it safe for all skin types?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes, our vitamin C treatment is safe and beneficial for all skin types, including sensitive skin. Vitamin C has natural anti-inflammatory properties, and we work with formulas adapted to each skin type. We perform a thorough assessment to ensure the most suitable protocol for you"
-        }
-      },
-      
-      {
-        "@type": "Question",
-        "name": "When will I see results?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "You'll notice an immediate improvement in skin brightness and texture after your first session. Results continue to enhance with each treatment, especially in reducing dark spots and stimulating collagen. Many patients schedule treatments before special events for an extra glow"
-        }
+    {
+      "@type": "Question",
+      "name": "How often should I get the treatment?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For optimal results, we recommend an initial protocol of 4-6 sessions, spaced 1-2 weeks apart. Afterward, monthly maintenance sessions can be scheduled based on your skin's specific needs. Many patients schedule treatments around important events for an extra glow"
       }
-      
-    ],
+    },
     
-    "offers": {
-      "@type": "Offer",
-      "availability": "https://schema.org/InStock",
-      "priceCurrency": "COP",
-      "priceValidUntil": "2025-12-31",
-      "availableAtOrFrom": {
-        "@type": "HealthAndBeautyBusiness",
-        "name": "Tatiana Leal",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Torre Magna PI, Av Suba #114 - 59 Piso 6, Cons G14, Bogotá",
-          "addressLocality": "Bogotá",
-          "addressRegion": "DC",
-          "addressCountry": "CO"
-        }
+    {
+      "@type": "Question",
+      "name": "Is this better than using vitamin C products at home?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our professional treatment uses pure vitamin C at concentrations up to 20 times higher than available in home care products. Combined with our advanced penetration technology, this ensures the active ingredients reach the deep skin layers where they can make a real difference"
+      }
+    },
+    
+    {
+      "@type": "Question",
+      "name": "Is it safe for all skin types?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, our vitamin C treatment is safe and beneficial for all skin types, including sensitive skin. Vitamin C has natural anti-inflammatory properties, and we work with formulas adapted to each skin type. We perform a thorough assessment to ensure the most suitable protocol for you"
+      }
+    },
+    
+    {
+      "@type": "Question",
+      "name": "When will I see results?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You'll notice an immediate improvement in skin brightness and texture after your first session. Results continue to enhance with each treatment, especially in reducing dark spots and stimulating collagen. Many patients schedule treatments before special events for an extra glow"
       }
     }
+    
+  ],
+  
+  "provider": {
+    "@type": "MedicalOrganization",
+    "name": "Tatiana Leal",
+    "image": {
+      "@type": "ImageObject",
+      "url": "http://localhost:4000/img/logo-tatiana-leal.webp",
+      "height": "60",
+      "width": "600"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Torre Magna PI, Av Suba #114 - 59 Piso 6, Cons G14, Bogotá",
+      "addressLocality": "Bogotá",
+      "addressRegion": "DC",
+      "addressCountry": "CO"
+    }
   }
+}
 </script>
-
 
   
   

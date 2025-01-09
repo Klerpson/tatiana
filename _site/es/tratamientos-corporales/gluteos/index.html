@@ -97,65 +97,133 @@
   <!-- Schemas -->
   
 <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "MedicalProcedure",
-    "name": "Glúteos Perfectos Sin Cirugía 2024 ✨ -40% + 1 Sesión Gratis",
-    "alternateName": "Levantamiento de glúteos sin cirugía",
-    "description": "Eleva y reafirma sin bisturí desde $199.900. Última tecnología HIFU + RF. Resultados visibles en 2 semanas ¡Consulta gratis este mes! → Agenda",
-    "url": "http://localhost:4000/es/tratamientos-corporales/gluteos/",
-    "image": "http://localhost:4000/img/tratamiento-levantamiento-gluteos.avif",
-    "additionalProperty": {
-      "@type": "PropertyValue",
-      "name": "SecondaryImage",
-      "value": "http://localhost:4000/img/centro-medicina-estetica-gluteos.avif"
-    },
-    "medicineSystem": "Conventional",
-    "specialty": {
-      "@type": "MedicalSpecialty",
-      "name": "Medicina Estética"
-    },
-    "study": {
-      "@type": "MedicalStudy",
-      "healthCondition": {
-        "@type": "MedicalCondition",
-        "name": "Envejecimiento cutáneo"
-      }
-    },
-    "howPerformed": "Procedimiento no invasivo realizado en consultorio",
-    "preparation": {
-      "@type": "MedicalEntity",
-      "description": "Evaluación médica previa. No requiere anestesia general. Procedimiento ambulatorio."
-    },
-    "procedureType": "Eleva y reafirma sin bisturí desde $199.900. Última tecnología HIFU + RF. Resultados visibles en 2 semanas ¡Consulta gratis este mes! → Agenda",
-    "followup": "Seguimiento personalizado post-tratamiento",
-    
-  "procedureReview": [
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalProcedure",
+  "name": "Glúteos Perfectos Sin Cirugía 2024 ✨ -40% + 1 Sesión Gratis",
+  "description": "Eleva y reafirma sin bisturí desde $199.900. Última tecnología HIFU + RF. Resultados visibles en 2 semanas ¡Consulta gratis este mes! → Agenda",
+  "url": "http://localhost:4000/es/tratamientos-corporales/gluteos/",
+  "image": {
+    "@type": "ImageObject",
+    "url": "http://localhost:4000/img/tratamiento-levantamiento-gluteos.avif",
+    "height": "1200",
+    "width": "1200"
+  },
+  "medicineSystem": "Conventional",
+  "howPerformed": "Procedimiento no invasivo realizado en consultorio",
+  "preparation": "Evaluación médica previa. No requiere anestesia general. Procedimiento ambulatorio.",
+  "procedureType": "Eleva y reafirma sin bisturí desde $199.900. Última tecnología HIFU + RF. Resultados visibles en 2 semanas ¡Consulta gratis este mes! → Agenda",
+  "followup": "Seguimiento personalizado post-tratamiento",
+  "performer": {
+    "@type": "MedicalOrganization",
+    "name": "Tatiana Leal",
+    "url": "http://localhost:4000"
+  },
+  
+  "review": [
     
     {
       "@type": "Review",
       "reviewBody": "Resultados visibles después de 6 sesiones de tratamiento combinado. Notable mejoría en firmeza y elevación.",
+      "itemReviewed": {
+        "@type": "MedicalProcedure",
+        "name": "Glúteos Perfectos Sin Cirugía 2024 ✨ -40% + 1 Sesión Gratis"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Paciente Anónimo"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
       "image": [
-        "http://localhost:4000/img/antes-levantamiento-gluteos-1.avif",
-        "http://localhost:4000/img/despues-levantamiento-gluteos-1.avif"
+        {
+          "@type": "ImageObject",
+          "url": "http://localhost:4000/img/antes-levantamiento-gluteos-1.avif",
+          "height": "800",
+          "width": "800",
+          "caption": "Antes del tratamiento"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "http://localhost:4000/img/despues-levantamiento-gluteos-1.avif",
+          "height": "800",
+          "width": "800",
+          "caption": "Después del tratamiento"
+        }
       ]
     },
     
     {
       "@type": "Review",
       "reviewBody": "Transformación completa con protocolo personalizado de tratamientos no invasivos.",
+      "itemReviewed": {
+        "@type": "MedicalProcedure",
+        "name": "Glúteos Perfectos Sin Cirugía 2024 ✨ -40% + 1 Sesión Gratis"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Paciente Anónimo"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
       "image": [
-        "http://localhost:4000/img/antes-levantamiento-gluteos-2.avif",
-        "http://localhost:4000/img/despues-levantamiento-gluteos-2.avif"
+        {
+          "@type": "ImageObject",
+          "url": "http://localhost:4000/img/antes-levantamiento-gluteos-2.avif",
+          "height": "800",
+          "width": "800",
+          "caption": "Antes del tratamiento"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "http://localhost:4000/img/despues-levantamiento-gluteos-2.avif",
+          "height": "800",
+          "width": "800",
+          "caption": "Después del tratamiento"
+        }
       ]
     },
     
     {
       "@type": "Review",
       "reviewBody": "Mejoría significativa en forma y firmeza después del tratamiento sin cirugía.",
+      "itemReviewed": {
+        "@type": "MedicalProcedure",
+        "name": "Glúteos Perfectos Sin Cirugía 2024 ✨ -40% + 1 Sesión Gratis"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Paciente Anónimo"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
       "image": [
-        "http://localhost:4000/img/antes-levantamiento-gluteos-3.avif",
-        "http://localhost:4000/img/despues-levantamiento-gluteos-3.avif"
+        {
+          "@type": "ImageObject",
+          "url": "http://localhost:4000/img/antes-levantamiento-gluteos-3.avif",
+          "height": "800",
+          "width": "800",
+          "caption": "Antes del tratamiento"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "http://localhost:4000/img/despues-levantamiento-gluteos-3.avif",
+          "height": "800",
+          "width": "800",
+          "caption": "Después del tratamiento"
+        }
       ]
     }
     
@@ -163,119 +231,89 @@
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "4.8",
-    "reviewCount": "3"
+    "reviewCount": "3",
+    "bestRating": "5",
+    "worstRating": "1"
   },
   
-    "typicalAgeRange": "18-",
-    "availableLanguage": ["es", "en"],
-    "provider": {
-      "@type": "HealthAndBeautyBusiness",
-      "name": "Tatiana Leal",
-      "image": "http://localhost:4000/img/logo-tatiana-leal.webp",
-      "priceRange": "$$$",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Torre Magna PI, Av Suba #114 - 59 Piso 6, Cons G14, Bogotá",
-        "addressLocality": "Bogotá",
-        "addressRegion": "DC",
-        "addressCountry": "CO"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": "4.6964387",
-        "longitude": "-74.0692314"
-      },
-      "telephone": "3222010384",
-      "url": "http://localhost:4000",
-      "sameAs": [
-        "https://www.instagram.com/dratatianaleal/",
-        "https://www.facebook.com/Dra.TatianaLealSandoval",
-        "https://www.youtube.com/channel/UCxF-X7in4xUFxYYwCMyC5OQ"
-      ]
-    },
-    "audience": {
-      "@type": "MedicalAudience",
-      "audienceType": "Pacientes que buscan mejoras estéticas no invasivas"
-    },
+  
+  "mainEntity": [
     
-    "mainEntity": [
-      
-      {
-        "@type": "Question",
-        "name": "¿Cuántas sesiones necesitaré?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "El número de sesiones varía según tus objetivos y el estado inicial de la piel. Generalmente, recomendamos 8-12 sesiones, realizadas semanalmente o cada 10 días. Durante tu consulta gratuita evaluaremos tu caso y diseñaremos un protocolo personalizado"
-        }
-      },
-      
-      {
-        "@type": "Question",
-        "name": "¿Los resultados son permanentes?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Los resultados pueden mantenerse a largo plazo con un estilo de vida saludable y sesiones de mantenimiento periódicas. El tratamiento estimula la producción natural de colágeno y la tonificación muscular. Recomendamos sesiones de mantenimiento cada 1-2 meses después del protocolo inicial"
-        }
-      },
-      
-      {
-        "@type": "Question",
-        "name": "¿El tratamiento es doloroso?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "No, el tratamiento es prácticamente indoloro. La mayoría de nuestras pacientes lo describen como una experiencia relajante. Podrías experimentar un ligero enrojecimiento temporal que desaparece en pocas horas"
-        }
-      },
-      
-      {
-        "@type": "Question",
-        "name": "¿Cuándo veré resultados?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Verás una mejoría inmediata en la firmeza desde la primera sesión. Los resultados óptimos se desarrollan progresivamente durante el tratamiento, con una mejora notable en la forma y elevación después de 4-6 sesiones"
-        }
-      },
-      
-      {
-        "@type": "Question",
-        "name": "¿Puedo hacer ejercicio después del tratamiento?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Sí, puedes mantener tu rutina normal de ejercicio inmediatamente después del tratamiento. De hecho, combinar el tratamiento con ejercicio regular potencia los resultados y ayuda a mantenerlos a largo plazo"
-        }
-      },
-      
-      {
-        "@type": "Question",
-        "name": "¿Funciona para todo tipo de glúteos?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Sí, nuestro protocolo se adapta a diferentes tipos de glúteos y objetivos. Ya sea que busques más firmeza, elevación, definición o reducción de celulitis, personalizamos el tratamiento para alcanzar tus objetivos específicos"
-        }
+    {
+      "@type": "Question",
+      "name": "¿Cuántas sesiones necesitaré?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "El número de sesiones varía según tus objetivos y el estado inicial de la piel. Generalmente, recomendamos 8-12 sesiones, realizadas semanalmente o cada 10 días. Durante tu consulta gratuita evaluaremos tu caso y diseñaremos un protocolo personalizado"
       }
-      
-    ],
+    },
     
-    "offers": {
-      "@type": "Offer",
-      "availability": "https://schema.org/InStock",
-      "priceCurrency": "COP",
-      "priceValidUntil": "2025-12-31",
-      "availableAtOrFrom": {
-        "@type": "HealthAndBeautyBusiness",
-        "name": "Tatiana Leal",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Torre Magna PI, Av Suba #114 - 59 Piso 6, Cons G14, Bogotá",
-          "addressLocality": "Bogotá",
-          "addressRegion": "DC",
-          "addressCountry": "CO"
-        }
+    {
+      "@type": "Question",
+      "name": "¿Los resultados son permanentes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Los resultados pueden mantenerse a largo plazo con un estilo de vida saludable y sesiones de mantenimiento periódicas. El tratamiento estimula la producción natural de colágeno y la tonificación muscular. Recomendamos sesiones de mantenimiento cada 1-2 meses después del protocolo inicial"
+      }
+    },
+    
+    {
+      "@type": "Question",
+      "name": "¿El tratamiento es doloroso?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No, el tratamiento es prácticamente indoloro. La mayoría de nuestras pacientes lo describen como una experiencia relajante. Podrías experimentar un ligero enrojecimiento temporal que desaparece en pocas horas"
+      }
+    },
+    
+    {
+      "@type": "Question",
+      "name": "¿Cuándo veré resultados?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Verás una mejoría inmediata en la firmeza desde la primera sesión. Los resultados óptimos se desarrollan progresivamente durante el tratamiento, con una mejora notable en la forma y elevación después de 4-6 sesiones"
+      }
+    },
+    
+    {
+      "@type": "Question",
+      "name": "¿Puedo hacer ejercicio después del tratamiento?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí, puedes mantener tu rutina normal de ejercicio inmediatamente después del tratamiento. De hecho, combinar el tratamiento con ejercicio regular potencia los resultados y ayuda a mantenerlos a largo plazo"
+      }
+    },
+    
+    {
+      "@type": "Question",
+      "name": "¿Funciona para todo tipo de glúteos?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí, nuestro protocolo se adapta a diferentes tipos de glúteos y objetivos. Ya sea que busques más firmeza, elevación, definición o reducción de celulitis, personalizamos el tratamiento para alcanzar tus objetivos específicos"
       }
     }
+    
+  ],
+  
+  "provider": {
+    "@type": "MedicalOrganization",
+    "name": "Tatiana Leal",
+    "image": {
+      "@type": "ImageObject",
+      "url": "http://localhost:4000/img/logo-tatiana-leal.webp",
+      "height": "60",
+      "width": "600"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Torre Magna PI, Av Suba #114 - 59 Piso 6, Cons G14, Bogotá",
+      "addressLocality": "Bogotá",
+      "addressRegion": "DC",
+      "addressCountry": "CO"
+    }
   }
+}
 </script>
-
 
   
   
