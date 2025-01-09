@@ -21,6 +21,12 @@
   font-family: var(--fuenteTitulos);
   letter-spacing: -0.01em;
   line-height: 1.1;
+  font-weight: 900;
+}
+
+.block_section_content,
+.block_section_knowledge {
+  line-height: 1.6;
 }
 
 .block_section_content {
@@ -63,16 +69,6 @@
   }
 }
 
-.block_section_title {
-  font-weight: bold;
-  font-family: var(--fuenteTitulos);
-}
-
-.block_section_content,
-.block_section_knowledge {
-  line-height: 1.6;
-}
-
 .cta {
   position: relative;
   width: 100%;
@@ -90,6 +86,11 @@
     flex: 1 0 320px;
     min-height: 450px;
   }
+}
+
+.block_section_title {
+  font-weight: bold;
+  font-family: var(--fuenteTitulos);
 }
 
 .cta h2{
