@@ -533,11 +533,30 @@
 </nav>
   
 
-<header class="hero" aria-label="Service featured images">
-  <div class="bg bg1" role="img" aria-label="" style="background-image: url('/img/sueroterapia-detox.avif');"></div>
-  <div class="bg bg2" role="img" aria-label="" style="background-image: url('/img/centro-estetico-bogota.avif');"></div>
+<header class="hero">
+  <div class="hero-images">
+    <picture class="hero-image hero-image-1">
+      <source type="image/avif" srcset="/img/sueroterapia-detox.avif">
+      <img src="/img/sueroterapia-detox.jpg"
+           alt=""
+           width="1920"
+           height="1080"
+           loading="eager"
+           fetchpriority="high"
+           decoding="async">
+    </picture>
+    <picture class="hero-image hero-image-2">
+      <source type="image/avif" srcset="/img/centro-estetico-bogota.avif">
+      <img src="/img/centro-estetico-bogota.jpg"
+           alt=""
+           width="1920"
+           height="1080"
+           loading="eager"
+           decoding="async">
+    </picture>
+  </div>
   <div class="two_columns hero-content flow">
-    <div class=" flow">
+    <div class="flow">
       <h1>Detox IV therapy: natural and effective detoxification</h1>
       <p>Advanced detox IV therapy with vitamins and minerals. Natural detoxification, skin health improvement, and stress relief. Free first consultation.</p>
       <a href="#" class="boton boton_principal" id="lead_whatsapp" title="Tatiana Leal's WhatsApp">Schedule your appointment now</a>

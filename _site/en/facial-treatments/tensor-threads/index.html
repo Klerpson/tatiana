@@ -573,11 +573,30 @@
 </nav>
   
 
-<header class="hero" aria-label="Service featured images">
-  <div class="bg bg1" role="img" aria-label="" style="background-image: url('/img/hilo-tensores-tatiana-leal.avif');"></div>
-  <div class="bg bg2" role="img" aria-label="" style="background-image: url('/img/hilos-tensores-centro-estetico-bogota.avif');"></div>
+<header class="hero">
+  <div class="hero-images">
+    <picture class="hero-image hero-image-1">
+      <source type="image/avif" srcset="/img/hilo-tensores-tatiana-leal.avif">
+      <img src="/img/hilo-tensores-tatiana-leal.jpg"
+           alt=""
+           width="1920"
+           height="1080"
+           loading="eager"
+           fetchpriority="high"
+           decoding="async">
+    </picture>
+    <picture class="hero-image hero-image-2">
+      <source type="image/avif" srcset="/img/hilos-tensores-centro-estetico-bogota.avif">
+      <img src="/img/hilos-tensores-centro-estetico-bogota.jpg"
+           alt=""
+           width="1920"
+           height="1080"
+           loading="eager"
+           decoding="async">
+    </picture>
+  </div>
   <div class="two_columns hero-content flow">
-    <div class=" flow">
+    <div class="flow">
       <h1>PDO Thread Lift: Natural facial rejuvenation that lasts</h1>
       <p>Premium PDO thread lift treatment in Bogota. Immediate and long-lasting lifting effect. Minimally invasive procedure by certified specialists. Natural-looking results.</p>
       <a href="#" class="boton boton_principal" id="lead_whatsapp" title="Tatiana Leal's WhatsApp">Schedule your appointment now</a>

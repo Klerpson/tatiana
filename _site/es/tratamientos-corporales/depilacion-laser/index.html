@@ -599,11 +599,30 @@
 </nav>
   
 
-<header class="hero" aria-label="Imágenes destacadas del servicio">
-  <div class="bg bg1" role="img" aria-label="" style="background-image: url('/img/tratamiento-depilacion-laser.avif');"></div>
-  <div class="bg bg2" role="img" aria-label="" style="background-image: url('/img/centro-medicina-estetica-depilacion-laser.avif');"></div>
+<header class="hero">
+  <div class="hero-images">
+    <picture class="hero-image hero-image-1">
+      <source type="image/avif" srcset="/img/tratamiento-depilacion-laser.avif">
+      <img src="/img/tratamiento-depilacion-laser.jpg"
+           alt=""
+           width="1920"
+           height="1080"
+           loading="eager"
+           fetchpriority="high"
+           decoding="async">
+    </picture>
+    <picture class="hero-image hero-image-2">
+      <source type="image/avif" srcset="/img/centro-medicina-estetica-depilacion-laser.avif">
+      <img src="/img/centro-medicina-estetica-depilacion-laser.jpg"
+           alt=""
+           width="1920"
+           height="1080"
+           loading="eager"
+           decoding="async">
+    </picture>
+  </div>
   <div class="two_columns hero-content flow">
-    <div class=" flow">
+    <div class="flow">
       <h1>Depilación láser con diodo</h1>
       <p>¿Cansada del vello? Elimínalo para siempre desde $89.900 por zona. Tecnología láser diodo alemana, resultados desde la 1ª sesión. ¡Consulta gratis + Dto. 35% este mes! → Agenda ahora</p>
       <a href="#" class="boton boton_principal" id="lead_whatsapp" title="WhatsApp de Tatiana Leal">Agenda tu cita ahora</a>

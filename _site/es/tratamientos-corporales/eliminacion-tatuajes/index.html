@@ -582,11 +582,30 @@
 </nav>
   
 
-<header class="hero" aria-label="Imágenes destacadas del servicio">
-  <div class="bg bg1" role="img" aria-label="" style="background-image: url('/img/eliminacion-tatuajes-laser.avif');"></div>
-  <div class="bg bg2" role="img" aria-label="" style="background-image: url('/img/eliminar-tatuajelaser-bogota.avif');"></div>
+<header class="hero">
+  <div class="hero-images">
+    <picture class="hero-image hero-image-1">
+      <source type="image/avif" srcset="/img/eliminacion-tatuajes-laser.avif">
+      <img src="/img/eliminacion-tatuajes-laser.jpg"
+           alt=""
+           width="1920"
+           height="1080"
+           loading="eager"
+           fetchpriority="high"
+           decoding="async">
+    </picture>
+    <picture class="hero-image hero-image-2">
+      <source type="image/avif" srcset="/img/eliminar-tatuajelaser-bogota.avif">
+      <img src="/img/eliminar-tatuajelaser-bogota.jpg"
+           alt=""
+           width="1920"
+           height="1080"
+           loading="eager"
+           decoding="async">
+    </picture>
+  </div>
   <div class="two_columns hero-content flow">
-    <div class=" flow">
+    <div class="flow">
       <h1>Eliminación de tatuajes con láser</h1>
       <p>Elimina tus tatuajes de forma segura y efectiva con la última tecnología láser. Especialistas en remoción de tatuajes en Bogotá.</p>
       <a href="#" class="boton boton_principal" id="lead_whatsapp" title="WhatsApp de Tatiana Leal">Agenda tu cita ahora</a>

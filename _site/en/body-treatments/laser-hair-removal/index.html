@@ -589,11 +589,30 @@
 </nav>
   
 
-<header class="hero" aria-label="Service featured images">
-  <div class="bg bg1" role="img" aria-label="" style="background-image: url('/img/tratamiento-depilacion-laser.avif');"></div>
-  <div class="bg bg2" role="img" aria-label="" style="background-image: url('/img/centro-medicina-estetica-depilacion-laser.avif');"></div>
+<header class="hero">
+  <div class="hero-images">
+    <picture class="hero-image hero-image-1">
+      <source type="image/avif" srcset="/img/tratamiento-depilacion-laser.avif">
+      <img src="/img/tratamiento-depilacion-laser.jpg"
+           alt=""
+           width="1920"
+           height="1080"
+           loading="eager"
+           fetchpriority="high"
+           decoding="async">
+    </picture>
+    <picture class="hero-image hero-image-2">
+      <source type="image/avif" srcset="/img/centro-medicina-estetica-depilacion-laser.avif">
+      <img src="/img/centro-medicina-estetica-depilacion-laser.jpg"
+           alt=""
+           width="1920"
+           height="1080"
+           loading="eager"
+           decoding="async">
+    </picture>
+  </div>
   <div class="two_columns hero-content flow">
-    <div class=" flow">
+    <div class="flow">
       <h1>Diode laser hair removal</h1>
       <p>Premium laser hair removal at Colombian prices! Advanced German diode technology, results from 1st session. Book your free consultation + 35% OFF this month! → Pain-free treatments</p>
       <a href="#" class="boton boton_principal" id="lead_whatsapp" title="Tatiana Leal's WhatsApp">Schedule your appointment now</a>

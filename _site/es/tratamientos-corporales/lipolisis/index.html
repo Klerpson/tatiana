@@ -595,11 +595,30 @@
 </nav>
   
 
-<header class="hero" aria-label="Imágenes destacadas del servicio">
-  <div class="bg bg1" role="img" aria-label="" style="background-image: url('/img/lipolisis-laser-en-bogota.avif');"></div>
-  <div class="bg bg2" role="img" aria-label="" style="background-image: url('/img/perder-grasa-lipolisis-laser.avif');"></div>
+<header class="hero">
+  <div class="hero-images">
+    <picture class="hero-image hero-image-1">
+      <source type="image/avif" srcset="/img/lipolisis-laser-en-bogota.avif">
+      <img src="/img/lipolisis-laser-en-bogota.jpg"
+           alt=""
+           width="1920"
+           height="1080"
+           loading="eager"
+           fetchpriority="high"
+           decoding="async">
+    </picture>
+    <picture class="hero-image hero-image-2">
+      <source type="image/avif" srcset="/img/perder-grasa-lipolisis-laser.avif">
+      <img src="/img/perder-grasa-lipolisis-laser.jpg"
+           alt=""
+           width="1920"
+           height="1080"
+           loading="eager"
+           decoding="async">
+    </picture>
+  </div>
   <div class="two_columns hero-content flow">
-    <div class=" flow">
+    <div class="flow">
       <h1>Lipólisis láser: moldea tu cuerpo sin cirugía mayor</h1>
       <p>Elimina grasa localizada SIN CIRUGÍA en Bogotá. Centro de medicina estética con última tecnología alemana; resultados en 1 sesión → Agenda ya</p>
       <a href="#" class="boton boton_principal" id="lead_whatsapp" title="WhatsApp de Tatiana Leal">Agenda tu cita ahora</a>

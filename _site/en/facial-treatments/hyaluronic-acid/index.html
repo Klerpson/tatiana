@@ -571,11 +571,30 @@
 </nav>
   
 
-<header class="hero" aria-label="Service featured images">
-  <div class="bg bg1" role="img" aria-label="" style="background-image: url('/img/tratamiento-acido-hialuronico-facial.avif');"></div>
-  <div class="bg bg2" role="img" aria-label="" style="background-image: url('/img/acido-hialuronico-bogota.avif');"></div>
+<header class="hero">
+  <div class="hero-images">
+    <picture class="hero-image hero-image-1">
+      <source type="image/avif" srcset="/img/tratamiento-acido-hialuronico-facial.avif">
+      <img src="/img/tratamiento-acido-hialuronico-facial.jpg"
+           alt=""
+           width="1920"
+           height="1080"
+           loading="eager"
+           fetchpriority="high"
+           decoding="async">
+    </picture>
+    <picture class="hero-image hero-image-2">
+      <source type="image/avif" srcset="/img/acido-hialuronico-bogota.avif">
+      <img src="/img/acido-hialuronico-bogota.jpg"
+           alt=""
+           width="1920"
+           height="1080"
+           loading="eager"
+           decoding="async">
+    </picture>
+  </div>
   <div class="two_columns hero-content flow">
-    <div class=" flow">
+    <div class="flow">
       <h1>Dermal fillers: rediscover your natural beauty</h1>
       <p>Premium hyaluronic acid dermal fillers in Bogota. Specialists in lip enhancement, chin augmentation, and cheek contouring. Immediate natural results. FDA-approved premium brands.</p>
       <a href="#" class="boton boton_principal" id="lead_whatsapp" title="Tatiana Leal's WhatsApp">Schedule your appointment now</a>
