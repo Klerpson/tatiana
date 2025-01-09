@@ -1592,7 +1592,8 @@ header img{height: auto;}
 .service-cards .card-image img {
   width: 100%;
   height: auto;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .card:hover {
@@ -1693,6 +1694,8 @@ header img{height: auto;}
 
 /* SECCIONES PARALLAX */
 .parallax {
+  min-height: -webkit-min-content;
+  min-height: -moz-min-content;
   min-height: min-content;
   display: grid;
   place-items: center;
@@ -1886,6 +1889,23 @@ header img{height: auto;}
   li::marker{
     color: #fefefe;
   }
+}
+
+.gallery-video {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: var(--radius);
+}
+
+
+.gallery-video {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: var(--radius);
 }
 .container {
   max-width: 1200px;
