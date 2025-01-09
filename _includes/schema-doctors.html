@@ -2,13 +2,18 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Physician",
+  "@type": "Person",
   "name": "{% if page.url contains 'tatiana-leal' %}Dra. Tatiana Leal{% elsif page.url contains 'marco-bonilla' %}Dr. Marco Bonilla{% elsif page.url contains 'andrea-rincon' %}Dra. Andrea Rincón{% endif %}",
   "givenName": "{% if page.url contains 'tatiana-leal' %}Tatiana{% elsif page.url contains 'marco-bonilla' %}Marco{% elsif page.url contains 'andrea-rincon' %}Andrea{% endif %}",
   "familyName": "{% if page.url contains 'tatiana-leal' %}Leal{% elsif page.url contains 'marco-bonilla' %}Bonilla{% elsif page.url contains 'andrea-rincon' %}Rincón{% endif %}",
   "honorificPrefix": "{% if page.url contains 'marco-bonilla' %}Dr.{% else %}Dra.{% endif %}",
   "gender": "{% if page.url contains 'marco-bonilla' %}Male{% else %}Female{% endif %}",
-  "image": "{{ site.url }}/{{ page.hero }}",
+  "image": {
+    "@type": "ImageObject",
+    "url": "{{ site.url }}/{{ page.hero }}",
+    "height": "800",
+    "width": "800"
+  },
   "description": "{{ page.description }}",
   "url": "{{ site.url }}{{ page.url }}",
   {% if page.url contains 'tatiana-leal' %}
@@ -18,47 +23,30 @@
     "{{ site.author.youtube }}"
   ],
   {% endif %}
-  "memberOf": [
-    {
-      "@type": "MedicalOrganization",
-      "name": "{{ site.name }}",
-      "url": "{{ site.url }}"
-    }
-    {% if page.url contains 'tatiana-leal' %},
-    {
-      "@type": "CollegeOrUniversity",
-      "name": "Universidad del Rosario",
-      "url": "https://www.urosario.edu.co/"
-    }
-    {% endif %}
-  ],
-  "specialty": [
+  "jobTitle": "{{ site.author.job_title }}",
+  "worksFor": {
+    "@type": "MedicalOrganization",
+    "name": "{{ site.name }}",
+    "url": "{{ site.url }}"
+  },
+  "knowsAbout": [
     {% if page.url contains 'tatiana-leal' %}
-    {
-      "@type": "MedicalSpecialty",
-      "name": "Medicina Estética y Láser"
-    },
-    {
-      "@type": "MedicalSpecialty",
-      "name": "Rejuvenecimiento Facial No Quirúrgico"
-    }
+    "Rejuvenecimiento facial no quirúrgico",
+    "Tratamientos con láser",
+    "Bioestimuladores de colágeno",
+    "Toxina botulínica",
+    "Ácido hialurónico",
+    "Medicina estética avanzada"
     {% elsif page.url contains 'marco-bonilla' %}
-    {
-      "@type": "MedicalSpecialty",
-      "name": "Ginecología y Obstetricia"
-    },
-    {
-      "@type": "MedicalSpecialty",
-      "name": "Ginecología Estética"
-    }
+    "Ginecología",
+    "Obstetricia",
+    "Ginecología Estética"
     {% elsif page.url contains 'andrea-rincon' %}
-    {
-      "@type": "MedicalSpecialty",
-      "name": "Medicina Estética"
-    }
+    "Medicina Estética",
+    "Tratamientos no invasivos"
     {% endif %}
   ],
-  "qualification": [
+  "hasCredential": [
     {% if page.url contains 'tatiana-leal' %}
     {
       "@type": "EducationalOccupationalCredential",
@@ -90,36 +78,7 @@
       }
     }
     {% endif %}
-  ],
-  "workLocation": {
-    "@type": "MedicalClinic",
-    "name": "{{ site.name }}",
-    "url": "{{ site.url }}",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "{{ site.direccion }}",
-      "addressLocality": "Bogotá",
-      "addressRegion": "DC",
-      "addressCountry": "CO"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": "4.6964387",
-      "longitude": "-74.0692314"
-    }
-  },
-  "availableLanguage": ["es", "en"],
-  {% if page.url contains 'tatiana-leal' %}
-  "knowsAbout": [
-    "Rejuvenecimiento facial no quirúrgico",
-    "Tratamientos con láser",
-    "Bioestimuladores de colágeno",
-    "Toxina botulínica",
-    "Ácido hialurónico",
-    "Medicina estética avanzada"
-  ],
-  {% endif %}
-  "jobTitle": "{{ site.author.job_title }}"
+  ]
 }
 </script>
 {% endif %}

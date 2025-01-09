@@ -1,46 +1,62 @@
 {% if page.layout == "servicios" %}
 <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "MedicalProcedure",
-    "name": "{{ page.title }}",
-    "alternateName": "{{ page.h1 }}",
-    "description": "{{ page.description }}",
-    "url": "{{ site.url }}{{ page.url }}",
-    "image": "{{ site.url }}/{{ page.hero }}"{% if page.hero1 %},
-    "additionalProperty": {
-      "@type": "PropertyValue",
-      "name": "SecondaryImage",
-      "value": "{{ site.url }}/{{ page.hero1 }}"
-    }{% endif %},
-    "medicineSystem": "Conventional",
-    "specialty": {
-      "@type": "MedicalSpecialty",
-      "name": "Medicina Estética"
-    },
-    "study": {
-      "@type": "MedicalStudy",
-      "healthCondition": {
-        "@type": "MedicalCondition",
-        "name": "Envejecimiento cutáneo"
-      }
-    },
-    "howPerformed": "Procedimiento no invasivo realizado en consultorio",
-    "preparation": {
-      "@type": "MedicalEntity",
-      "description": "Evaluación médica previa. No requiere anestesia general. Procedimiento ambulatorio."
-    },
-    "procedureType": "{{ page.description }}",
-    "followup": "Seguimiento personalizado post-tratamiento",
-    {% if page.cases %}
-  "procedureReview": [
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalProcedure",
+  "name": "{{ page.title }}",
+  "description": "{{ page.description }}",
+  "url": "{{ site.url }}{{ page.url }}",
+  "image": {
+    "@type": "ImageObject",
+    "url": "{{ site.url }}/{{ page.hero }}",
+    "height": "1200",
+    "width": "1200"
+  },
+  "medicineSystem": "Conventional",
+  "howPerformed": "Procedimiento no invasivo realizado en consultorio",
+  "preparation": "Evaluación médica previa. No requiere anestesia general. Procedimiento ambulatorio.",
+  "procedureType": "{{ page.description }}",
+  "followup": "Seguimiento personalizado post-tratamiento",
+  "performer": {
+    "@type": "MedicalOrganization",
+    "name": "{{ site.name }}",
+    "url": "{{ site.url }}"
+  },
+  {% if page.cases %}
+  "review": [
     {% for case in page.cases %}
     {
       "@type": "Review",
       "reviewBody": {{ case.description | jsonify }},
+      "itemReviewed": {
+        "@type": "MedicalProcedure",
+        "name": "{{ page.title }}"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Paciente Anónimo"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
       "image": [
-        "{{ site.url }}{{ case.before_image }}",
-        "{{ site.url }}{{ case.after_image }}"
+        {
+          "@type": "ImageObject",
+          "url": "{{ site.url }}{{ case.before_image }}",
+          "height": "800",
+          "width": "800",
+          "caption": "Antes del tratamiento"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "{{ site.url }}{{ case.after_image }}",
+          "height": "800",
+          "width": "800",
+          "caption": "Después del tratamiento"
+        }
       ]
     }{% unless forloop.last %},{% endunless %}
     {% endfor %}
@@ -48,71 +64,42 @@
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "{{ page.rating | default: '4.8' }}",
-    "reviewCount": "{{ page.cases | size }}"
+    "reviewCount": "{{ page.cases | size }}",
+    "bestRating": "5",
+    "worstRating": "1"
   },
   {% endif %}
-    "typicalAgeRange": "18-",
-    "availableLanguage": ["es", "en"],
-    "provider": {
-      "@type": "HealthAndBeautyBusiness",
-      "name": "{{ site.name }}",
-      "image": "{{ site.url }}{{ site.logo }}",
-      "priceRange": "$$$",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "{{ site.direccion }}",
-        "addressLocality": "Bogotá",
-        "addressRegion": "DC",
-        "addressCountry": "CO"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": "4.6964387",
-        "longitude": "-74.0692314"
-      },
-      "telephone": "{{ site.telefono }}",
-      "url": "{{ site.url }}",
-      "sameAs": [
-        "{{ site.author.instagram }}",
-        "{{ site.author.facebook }}",
-        "{{ site.author.youtube }}"
-      ]
-    },
-    "audience": {
-      "@type": "MedicalAudience",
-      "audienceType": "Pacientes que buscan mejoras estéticas no invasivas"
-    },
-    {% if page.faqs %}
-    "mainEntity": [
-      {% for faq in page.faqs %}
-      {
-        "@type": "Question",
-        "name": "{{ faq.pregunta }}",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "{{ faq.respuesta }}"
-        }
-      }{% unless forloop.last %},{% endunless %}
-      {% endfor %}
-    ],
-    {% endif %}
-    "offers": {
-      "@type": "Offer",
-      "availability": "https://schema.org/InStock",
-      "priceCurrency": "COP",
-      "priceValidUntil": "{{ 'now' | date: '%Y' }}-12-31",
-      "availableAtOrFrom": {
-        "@type": "HealthAndBeautyBusiness",
-        "name": "{{ site.name }}",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "{{ site.direccion }}",
-          "addressLocality": "Bogotá",
-          "addressRegion": "DC",
-          "addressCountry": "CO"
-        }
+  {% if page.faqs %}
+  "mainEntity": [
+    {% for faq in page.faqs %}
+    {
+      "@type": "Question",
+      "name": "{{ faq.pregunta }}",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "{{ faq.respuesta }}"
       }
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ],
+  {% endif %}
+  "provider": {
+    "@type": "MedicalOrganization",
+    "name": "{{ site.name }}",
+    "image": {
+      "@type": "ImageObject",
+      "url": "{{ site.url }}{{ site.logo }}",
+      "height": "60",
+      "width": "600"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "{{ site.direccion }}",
+      "addressLocality": "Bogotá",
+      "addressRegion": "DC",
+      "addressCountry": "CO"
     }
   }
+}
 </script>
 {% endif %}
