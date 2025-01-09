@@ -579,11 +579,30 @@
 </nav>
   
 
-<header class="hero" aria-label="Imágenes destacadas del servicio">
-  <div class="bg bg1" role="img" aria-label="" style="background-image: url('/img/relleno-y-aumento-de-labios-1.avif');"></div>
-  <div class="bg bg2" role="img" aria-label="" style="background-image: url('/img/relleno-de-labios-con-acido-hialuronico-en-colombia.avif');"></div>
+<header class="hero">
+  <div class="hero-images">
+    <picture class="hero-image hero-image-1">
+      <source type="image/avif" srcset="/img/relleno-y-aumento-de-labios-1.avif">
+      <img src="/img/relleno-y-aumento-de-labios-1.jpg"
+           alt=""
+           width="1920"
+           height="1080"
+           loading="eager"
+           fetchpriority="high"
+           decoding="async">
+    </picture>
+    <picture class="hero-image hero-image-2">
+      <source type="image/avif" srcset="/img/relleno-de-labios-con-acido-hialuronico-en-colombia.avif">
+      <img src="/img/relleno-de-labios-con-acido-hialuronico-en-colombia.jpg"
+           alt=""
+           width="1920"
+           height="1080"
+           loading="eager"
+           decoding="async">
+    </picture>
+  </div>
   <div class="two_columns hero-content flow">
-    <div class=" flow">
+    <div class="flow">
       <h1>Aumento de labios: belleza natural y armoniosa</h1>
       <p>Perfilado y volumen labial con ácido hialurónico de primera calidad. Técnica avanzada europea personalizada. Efecto natural inmediato. Productos certificados.</p>
       <a href="#" class="boton boton_principal" id="lead_whatsapp" title="WhatsApp de Tatiana Leal">Agenda tu cita ahora</a>

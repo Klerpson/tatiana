@@ -497,11 +497,30 @@
 </nav>
   
 
-<header class="hero" aria-label="Imágenes destacadas del servicio">
-  <div class="bg bg1" role="img" aria-label="" style="background-image: url('/img/rejuvenecimiento-facial-bogota-colombia.avif');"></div>
-  <div class="bg bg2" role="img" aria-label="" style="background-image: url('/img/rejuvenecimiento-estetico-bogota.avif');"></div>
+<header class="hero">
+  <div class="hero-images">
+    <picture class="hero-image hero-image-1">
+      <source type="image/avif" srcset="/img/rejuvenecimiento-facial-bogota-colombia.avif">
+      <img src="/img/rejuvenecimiento-facial-bogota-colombia.jpg"
+           alt=""
+           width="1920"
+           height="1080"
+           loading="eager"
+           fetchpriority="high"
+           decoding="async">
+    </picture>
+    <picture class="hero-image hero-image-2">
+      <source type="image/avif" srcset="/img/rejuvenecimiento-estetico-bogota.avif">
+      <img src="/img/rejuvenecimiento-estetico-bogota.jpg"
+           alt=""
+           width="1920"
+           height="1080"
+           loading="eager"
+           decoding="async">
+    </picture>
+  </div>
   <div class="two_columns hero-content flow">
-    <div class=" flow">
+    <div class="flow">
       <h1>Rejuve Face - crema antiedad profesional</h1>
       <p>Crema antiedad con 4 potentes antioxidantes: vitamina E, liposomas Q10, vitamina C y ácido lactobiónico. Tratamiento antienvejecimiento efectivo. Consulta gratis.</p>
       <a href="#" class="boton boton_principal" id="lead_whatsapp" title="WhatsApp de Tatiana Leal">Agenda tu cita ahora</a>

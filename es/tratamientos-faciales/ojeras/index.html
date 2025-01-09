@@ -593,11 +593,30 @@
 </nav>
   
 
-<header class="hero" aria-label="Imágenes destacadas del servicio">
-  <div class="bg bg1" role="img" aria-label="" style="background-image: url('/img/tratamiento-ojeras.avif');"></div>
-  <div class="bg bg2" role="img" aria-label="" style="background-image: url('/img/centro-medicina-estetica-ojeras.avif');"></div>
+<header class="hero">
+  <div class="hero-images">
+    <picture class="hero-image hero-image-1">
+      <source type="image/avif" srcset="/img/tratamiento-ojeras.avif">
+      <img src="/img/tratamiento-ojeras.jpg"
+           alt=""
+           width="1920"
+           height="1080"
+           loading="eager"
+           fetchpriority="high"
+           decoding="async">
+    </picture>
+    <picture class="hero-image hero-image-2">
+      <source type="image/avif" srcset="/img/centro-medicina-estetica-ojeras.avif">
+      <img src="/img/centro-medicina-estetica-ojeras.jpg"
+           alt=""
+           width="1920"
+           height="1080"
+           loading="eager"
+           decoding="async">
+    </picture>
+  </div>
   <div class="two_columns hero-content flow">
-    <div class=" flow">
+    <div class="flow">
       <h1>Tratamiento para eliminar ojeras</h1>
       <p>Adiós ojeras definitivo desde $299.900. Ácido hialurónico + IPL de última generación. ¡30% OFF + hidratación premium gratis este mes! → Agenda ahora</p>
       <a href="#" class="boton boton_principal" id="lead_whatsapp" title="WhatsApp de Tatiana Leal">Agenda tu cita ahora</a>

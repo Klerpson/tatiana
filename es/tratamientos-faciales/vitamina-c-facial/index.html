@@ -573,11 +573,30 @@
 </nav>
   
 
-<header class="hero" aria-label="Imágenes destacadas del servicio">
-  <div class="bg bg1" role="img" aria-label="" style="background-image: url('/img/tratamiento-vitamina-c-facial.avif');"></div>
-  <div class="bg bg2" role="img" aria-label="" style="background-image: url('/img/centro-medicina-estetica-vitamina-c.avif');"></div>
+<header class="hero">
+  <div class="hero-images">
+    <picture class="hero-image hero-image-1">
+      <source type="image/avif" srcset="/img/tratamiento-vitamina-c-facial.avif">
+      <img src="/img/tratamiento-vitamina-c-facial.jpg"
+           alt=""
+           width="1920"
+           height="1080"
+           loading="eager"
+           fetchpriority="high"
+           decoding="async">
+    </picture>
+    <picture class="hero-image hero-image-2">
+      <source type="image/avif" srcset="/img/centro-medicina-estetica-vitamina-c.avif">
+      <img src="/img/centro-medicina-estetica-vitamina-c.jpg"
+           alt=""
+           width="1920"
+           height="1080"
+           loading="eager"
+           decoding="async">
+    </picture>
+  </div>
   <div class="two_columns hero-content flow">
-    <div class=" flow">
+    <div class="flow">
       <h1>Vitamina C facial: el poder antioxidante para tu piel</h1>
       <p>Revolucionario tratamiento facial con vitamina C pura de alta concentración. Combate manchas, arrugas y pérdida de luminosidad. Resultados visibles desde primera sesión.</p>
       <a href="#" class="boton boton_principal" id="lead_whatsapp" title="WhatsApp de Tatiana Leal">Agenda tu cita ahora</a>

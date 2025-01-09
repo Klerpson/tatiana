@@ -557,11 +557,30 @@
 </nav>
   
 
-<header class="hero" aria-label="Imágenes destacadas del servicio">
-  <div class="bg bg1" role="img" aria-label="" style="background-image: url('/img/limpieza-facial-bogota.avif');"></div>
-  <div class="bg bg2" role="img" aria-label="" style="background-image: url('/img/limpieza-facial-colombia.avif');"></div>
+<header class="hero">
+  <div class="hero-images">
+    <picture class="hero-image hero-image-1">
+      <source type="image/avif" srcset="/img/limpieza-facial-bogota.avif">
+      <img src="/img/limpieza-facial-bogota.jpg"
+           alt=""
+           width="1920"
+           height="1080"
+           loading="eager"
+           fetchpriority="high"
+           decoding="async">
+    </picture>
+    <picture class="hero-image hero-image-2">
+      <source type="image/avif" srcset="/img/limpieza-facial-colombia.avif">
+      <img src="/img/limpieza-facial-colombia.jpg"
+           alt=""
+           width="1920"
+           height="1080"
+           loading="eager"
+           decoding="async">
+    </picture>
+  </div>
   <div class="two_columns hero-content flow">
-    <div class=" flow">
+    <div class="flow">
       <h1>Limpieza Facial Profunda en Bogotá</h1>
       <p>Descubre la limpieza facial profunda con hidrofacial en Bogotá, realizada por la Dra. Tatiana Leal. Logra una piel limpia, luminosa y saludable.</p>
       <a href="#" class="boton boton_principal" id="lead_whatsapp" title="WhatsApp de Tatiana Leal">Agenda tu cita ahora</a>

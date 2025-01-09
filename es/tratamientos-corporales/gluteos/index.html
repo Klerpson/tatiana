@@ -593,11 +593,30 @@
 </nav>
   
 
-<header class="hero" aria-label="Imágenes destacadas del servicio">
-  <div class="bg bg1" role="img" aria-label="" style="background-image: url('/img/tratamiento-levantamiento-gluteos.avif');"></div>
-  <div class="bg bg2" role="img" aria-label="" style="background-image: url('/img/centro-medicina-estetica-gluteos.avif');"></div>
+<header class="hero">
+  <div class="hero-images">
+    <picture class="hero-image hero-image-1">
+      <source type="image/avif" srcset="/img/tratamiento-levantamiento-gluteos.avif">
+      <img src="/img/tratamiento-levantamiento-gluteos.jpg"
+           alt=""
+           width="1920"
+           height="1080"
+           loading="eager"
+           fetchpriority="high"
+           decoding="async">
+    </picture>
+    <picture class="hero-image hero-image-2">
+      <source type="image/avif" srcset="/img/centro-medicina-estetica-gluteos.avif">
+      <img src="/img/centro-medicina-estetica-gluteos.jpg"
+           alt=""
+           width="1920"
+           height="1080"
+           loading="eager"
+           decoding="async">
+    </picture>
+  </div>
   <div class="two_columns hero-content flow">
-    <div class=" flow">
+    <div class="flow">
       <h1>Levantamiento de glúteos sin cirugía</h1>
       <p>Eleva y reafirma sin bisturí desde $199.900. Última tecnología HIFU + RF. Resultados visibles en 2 semanas ¡Consulta gratis este mes! → Agenda</p>
       <a href="#" class="boton boton_principal" id="lead_whatsapp" title="WhatsApp de Tatiana Leal">Agenda tu cita ahora</a>

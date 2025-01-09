@@ -593,11 +593,30 @@
 </nav>
   
 
-<header class="hero" aria-label="Imágenes destacadas del servicio">
-  <div class="bg bg1" role="img" aria-label="" style="background-image: url('/img/tratamiento-radiofrecuencia-estetica.avif');"></div>
-  <div class="bg bg2" role="img" aria-label="" style="background-image: url('/img/centro-medicina-estetica-radiofrecuencia.avif');"></div>
+<header class="hero">
+  <div class="hero-images">
+    <picture class="hero-image hero-image-1">
+      <source type="image/avif" srcset="/img/tratamiento-radiofrecuencia-estetica.avif">
+      <img src="/img/tratamiento-radiofrecuencia-estetica.jpg"
+           alt=""
+           width="1920"
+           height="1080"
+           loading="eager"
+           fetchpriority="high"
+           decoding="async">
+    </picture>
+    <picture class="hero-image hero-image-2">
+      <source type="image/avif" srcset="/img/centro-medicina-estetica-radiofrecuencia.avif">
+      <img src="/img/centro-medicina-estetica-radiofrecuencia.jpg"
+           alt=""
+           width="1920"
+           height="1080"
+           loading="eager"
+           decoding="async">
+    </picture>
+  </div>
   <div class="two_columns hero-content flow">
-    <div class=" flow">
+    <div class="flow">
       <h1>Radiofrecuencia estética</h1>
       <p>Reafirma y tensa SIN CIRUGÍA desde $99.900/zona. Tecnología alemana de última generación. ¡40% OFF + masaje tensor gratis este mes! → Agenda ya</p>
       <a href="#" class="boton boton_principal" id="lead_whatsapp" title="WhatsApp de Tatiana Leal">Agenda tu cita ahora</a>

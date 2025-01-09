@@ -566,11 +566,30 @@
 </nav>
   
 
-<header class="hero" aria-label="Service featured images">
-  <div class="bg bg1" role="img" aria-label="" style="background-image: url('/img/tratamiento-celulitis.avif');"></div>
-  <div class="bg bg2" role="img" aria-label="" style="background-image: url('/img/centro-estetico-bogota.avif');"></div>
+<header class="hero">
+  <div class="hero-images">
+    <picture class="hero-image hero-image-1">
+      <source type="image/avif" srcset="/img/tratamiento-celulitis.avif">
+      <img src="/img/tratamiento-celulitis.jpg"
+           alt=""
+           width="1920"
+           height="1080"
+           loading="eager"
+           fetchpriority="high"
+           decoding="async">
+    </picture>
+    <picture class="hero-image hero-image-2">
+      <source type="image/avif" srcset="/img/centro-estetico-bogota.avif">
+      <img src="/img/centro-estetico-bogota.jpg"
+           alt=""
+           width="1920"
+           height="1080"
+           loading="eager"
+           decoding="async">
+    </picture>
+  </div>
   <div class="two_columns hero-content flow">
-    <div class=" flow">
+    <div class="flow">
       <h1>Effective cellulite treatment in Bogota</h1>
       <p>Effective cellulite treatment with Contour Shape technology. Reduce orange-peel skin and improve skin texture. Visible results from first sessions. Free consultation.</p>
       <a href="#" class="boton boton_principal" id="lead_whatsapp" title="Tatiana Leal's WhatsApp">Schedule your appointment now</a>
