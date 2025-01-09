@@ -99,47 +99,63 @@
   <!-- Schemas -->
   
 <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "MedicalProcedure",
-    "name": "Rejuvenecimiento Vaginal con Láser en Bogotá | Dra. Tatiana Leal",
-    "alternateName": "Rejuvenecimiento vaginal con láser en Bogotá",
-    "description": "Tratamiento de rejuvenecimiento vaginal con láser CO2 en Bogotá. Procedimiento indoloro y sin tiempo de recuperación. Resultados desde la primera sesión.",
-    "url": "http://localhost:4000/es/tratamientos-intimos/rejuvenecimiento-vaginal/",
-    "image": "http://localhost:4000/img/rejuvenecimiento-vaginal-laser.avif",
-    "additionalProperty": {
-      "@type": "PropertyValue",
-      "name": "SecondaryImage",
-      "value": "http://localhost:4000/img/rejuvenecimiento-vaginal-centro-estetico-bogota.avif"
-    },
-    "medicineSystem": "Conventional",
-    "specialty": {
-      "@type": "MedicalSpecialty",
-      "name": "Medicina Estética"
-    },
-    "study": {
-      "@type": "MedicalStudy",
-      "healthCondition": {
-        "@type": "MedicalCondition",
-        "name": "Envejecimiento cutáneo"
-      }
-    },
-    "howPerformed": "Procedimiento no invasivo realizado en consultorio",
-    "preparation": {
-      "@type": "MedicalEntity",
-      "description": "Evaluación médica previa. No requiere anestesia general. Procedimiento ambulatorio."
-    },
-    "procedureType": "Tratamiento de rejuvenecimiento vaginal con láser CO2 en Bogotá. Procedimiento indoloro y sin tiempo de recuperación. Resultados desde la primera sesión.",
-    "followup": "Seguimiento personalizado post-tratamiento",
-    
-  "procedureReview": [
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalProcedure",
+  "name": "Rejuvenecimiento Vaginal con Láser en Bogotá | Dra. Tatiana Leal",
+  "description": "Tratamiento de rejuvenecimiento vaginal con láser CO2 en Bogotá. Procedimiento indoloro y sin tiempo de recuperación. Resultados desde la primera sesión.",
+  "url": "http://localhost:4000/es/tratamientos-intimos/rejuvenecimiento-vaginal/",
+  "image": {
+    "@type": "ImageObject",
+    "url": "http://localhost:4000/img/rejuvenecimiento-vaginal-laser.avif",
+    "height": "1200",
+    "width": "1200"
+  },
+  "medicineSystem": "Conventional",
+  "howPerformed": "Procedimiento no invasivo realizado en consultorio",
+  "preparation": "Evaluación médica previa. No requiere anestesia general. Procedimiento ambulatorio.",
+  "procedureType": "Tratamiento de rejuvenecimiento vaginal con láser CO2 en Bogotá. Procedimiento indoloro y sin tiempo de recuperación. Resultados desde la primera sesión.",
+  "followup": "Seguimiento personalizado post-tratamiento",
+  "performer": {
+    "@type": "MedicalOrganization",
+    "name": "Tatiana Leal",
+    "url": "http://localhost:4000"
+  },
+  
+  "review": [
     
     {
       "@type": "Review",
       "reviewBody": "Paciente después de 3 sesiones de láser CO2. Notable mejoría en salud íntima y calidad de vida.",
+      "itemReviewed": {
+        "@type": "MedicalProcedure",
+        "name": "Rejuvenecimiento Vaginal con Láser en Bogotá | Dra. Tatiana Leal"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Paciente Anónimo"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
       "image": [
-        "http://localhost:4000/img/tratamiento-laser-antes.avif",
-        "http://localhost:4000/img/tratamiento-laser-despues.avif"
+        {
+          "@type": "ImageObject",
+          "url": "http://localhost:4000/img/tratamiento-laser-antes.avif",
+          "height": "800",
+          "width": "800",
+          "caption": "Antes del tratamiento"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "http://localhost:4000/img/tratamiento-laser-despues.avif",
+          "height": "800",
+          "width": "800",
+          "caption": "Después del tratamiento"
+        }
       ]
     }
     
@@ -147,101 +163,71 @@
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "4.8",
-    "reviewCount": "1"
+    "reviewCount": "1",
+    "bestRating": "5",
+    "worstRating": "1"
   },
   
-    "typicalAgeRange": "18-",
-    "availableLanguage": ["es", "en"],
-    "provider": {
-      "@type": "HealthAndBeautyBusiness",
-      "name": "Tatiana Leal",
-      "image": "http://localhost:4000/img/logo-tatiana-leal.webp",
-      "priceRange": "$$$",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Torre Magna PI, Av Suba #114 - 59 Piso 6, Cons G14, Bogotá",
-        "addressLocality": "Bogotá",
-        "addressRegion": "DC",
-        "addressCountry": "CO"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": "4.6964387",
-        "longitude": "-74.0692314"
-      },
-      "telephone": "3222010384",
-      "url": "http://localhost:4000",
-      "sameAs": [
-        "https://www.instagram.com/dratatianaleal/",
-        "https://www.facebook.com/Dra.TatianaLealSandoval",
-        "https://www.youtube.com/channel/UCxF-X7in4xUFxYYwCMyC5OQ"
-      ]
-    },
-    "audience": {
-      "@type": "MedicalAudience",
-      "audienceType": "Pacientes que buscan mejoras estéticas no invasivas"
-    },
+  
+  "mainEntity": [
     
-    "mainEntity": [
-      
-      {
-        "@type": "Question",
-        "name": "¿Es doloroso el procedimiento?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "No, el rejuvenecimiento vaginal con láser CO2 es un procedimiento indoloro. Algunas mujeres pueden experimentar una ligera sensación de calor, pero es completamente tolerable"
-        }
-      },
-      
-      {
-        "@type": "Question",
-        "name": "¿Cuánto tiempo dura cada sesión?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Cada sesión tiene una duración aproximada de 30 minutos, permitiéndote retomar tus actividades diarias inmediatamente después"
-        }
-      },
-      
-      {
-        "@type": "Question",
-        "name": "¿Cuántas sesiones necesitaré?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "El número de sesiones varía según las necesidades individuales. Generalmente se recomiendan de 2 a 3 sesiones para obtener resultados óptimos"
-        }
-      },
-      
-      {
-        "@type": "Question",
-        "name": "¿Cuándo empiezo a ver resultados?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "La mayoría de pacientes nota mejoras desde la primera sesión. Los resultados completos se aprecian después de 4 a 6 semanas, cuando el colágeno se ha regenerado completamente"
-        }
+    {
+      "@type": "Question",
+      "name": "¿Es doloroso el procedimiento?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No, el rejuvenecimiento vaginal con láser CO2 es un procedimiento indoloro. Algunas mujeres pueden experimentar una ligera sensación de calor, pero es completamente tolerable"
       }
-      
-    ],
+    },
     
-    "offers": {
-      "@type": "Offer",
-      "availability": "https://schema.org/InStock",
-      "priceCurrency": "COP",
-      "priceValidUntil": "2025-12-31",
-      "availableAtOrFrom": {
-        "@type": "HealthAndBeautyBusiness",
-        "name": "Tatiana Leal",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Torre Magna PI, Av Suba #114 - 59 Piso 6, Cons G14, Bogotá",
-          "addressLocality": "Bogotá",
-          "addressRegion": "DC",
-          "addressCountry": "CO"
-        }
+    {
+      "@type": "Question",
+      "name": "¿Cuánto tiempo dura cada sesión?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Cada sesión tiene una duración aproximada de 30 minutos, permitiéndote retomar tus actividades diarias inmediatamente después"
+      }
+    },
+    
+    {
+      "@type": "Question",
+      "name": "¿Cuántas sesiones necesitaré?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "El número de sesiones varía según las necesidades individuales. Generalmente se recomiendan de 2 a 3 sesiones para obtener resultados óptimos"
+      }
+    },
+    
+    {
+      "@type": "Question",
+      "name": "¿Cuándo empiezo a ver resultados?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "La mayoría de pacientes nota mejoras desde la primera sesión. Los resultados completos se aprecian después de 4 a 6 semanas, cuando el colágeno se ha regenerado completamente"
       }
     }
+    
+  ],
+  
+  "provider": {
+    "@type": "MedicalOrganization",
+    "name": "Tatiana Leal",
+    "image": {
+      "@type": "ImageObject",
+      "url": "http://localhost:4000/img/logo-tatiana-leal.webp",
+      "height": "60",
+      "width": "600"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Torre Magna PI, Av Suba #114 - 59 Piso 6, Cons G14, Bogotá",
+      "addressLocality": "Bogotá",
+      "addressRegion": "DC",
+      "addressCountry": "CO"
+    }
   }
+}
 </script>
-
 
   
   
