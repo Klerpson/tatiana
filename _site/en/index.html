@@ -451,27 +451,23 @@
     <picture>
       <source media="(max-width: 559px)" 
               srcset="/img/tatiana-leal-medicina-estetica.avif"
-              sizes="(max-width: 559px) 100vw">
-      
+              sizes="100vw">
       <source media="(max-width: 992px)" 
               srcset="/img/tatiana-leal-medicina-estetica-640.avif"
-              sizes="(min-width: 560px) and (max-width: 992px) 640px">
-      
+              sizes="640px">
       <source media="(max-width: 1439px)" 
               srcset="/img/tatiana-leal-medicina-estetica-720.avif"
-              sizes="(min-width: 993px) and (max-width: 1439px) 720px">
-      
+              sizes="720px">
       <source media="(min-width: 1440px)" 
               srcset="/img/tatiana-leal-medicina-estetica-960.avif"
-              sizes="(min-width: 1440px) 960px">
-      
+              sizes="960px">
       <img src="/img/tatiana-leal-medicina-estetica-1024.avif" 
            alt="Dr. Tatiana Leal Beauty Center" 
-           title="Dr. Tatiana Leal" 
-           loading="eager" 
-           decoding="auto" 
            width="960" 
-           height="540">
+           height="540"
+           loading="eager"
+           fetchpriority="high"
+           decoding="async">
     </picture>
   </div>
 </header>
