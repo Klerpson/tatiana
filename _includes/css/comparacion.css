@@ -8,7 +8,8 @@
     text-align: center;
     max-width: min(100%, 800px);
     margin-inline: auto;
-    margin-block-end: 3rem;
+    -webkit-margin-after: 3rem;
+            margin-block-end: 3rem;
   }
 }
 
@@ -19,7 +20,8 @@
 
   & h3 {
     text-align: center;
-    margin-block-end: 1rem;
+    -webkit-margin-after: 1rem;
+            margin-block-end: 1rem;
   }
 }
 
@@ -38,7 +40,9 @@
   position: absolute;
   inset: 0;
   cursor: col-resize;
-  user-select: none;
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
   -webkit-user-select: none;
 }
 
@@ -54,8 +58,11 @@
   inset: 0;
   width: 100%;
   height: 100%;
-  clip-path: inset(0 50% 0 0);
+  -webkit-clip-path: inset(0 50% 0 0);
+          clip-path: inset(0 50% 0 0);
+  transition: -webkit-clip-path 0.1s ease-out;
   transition: clip-path 0.1s ease-out;
+  transition: clip-path 0.1s ease-out, -webkit-clip-path 0.1s ease-out;
   will-change: clip-path;
 }
 
@@ -65,7 +72,8 @@
   inset: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   pointer-events: none;
   -webkit-user-drag: none;
 }
@@ -143,7 +151,8 @@
 
 .case-description {
   text-align: center;
-  margin-block-start: 1rem;
+  -webkit-margin-before: 1rem;
+          margin-block-start: 1rem;
   font-size: 0.9375rem;
   max-width: min(100%, 600px);
   margin-inline: auto;
@@ -207,7 +216,8 @@
 .before-after-wrapper,
 .slider-line,
 .before-image-container {
-  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
   transform-style: preserve-3d;
   perspective: 1000px;
 }

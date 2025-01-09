@@ -79,7 +79,7 @@
         
         
         
-        <lastmod>2025-01-04T15:12:17-05:00</lastmod>
+        <lastmod>2025-01-09T07:59:52-05:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -155,7 +155,7 @@
         
         
         
-        <lastmod>2025-01-04T15:12:17-05:00</lastmod>
+        <lastmod>2025-01-09T07:59:52-05:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -231,7 +231,7 @@
         
         
         
-        <lastmod>2025-01-04T15:12:17-05:00</lastmod>
+        <lastmod>2025-01-09T07:59:52-05:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -296,7 +296,7 @@
         
         
         
-        <lastmod>2025-01-04T15:12:17-05:00</lastmod>
+        <lastmod>2025-01-09T07:59:52-05:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -361,7 +361,7 @@
         
         
         
-        <lastmod>2025-01-04T15:12:17-05:00</lastmod>
+        <lastmod>2025-01-09T07:59:52-05:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -437,7 +437,7 @@
         
         
         
-        <lastmod>2025-01-04T15:12:17-05:00</lastmod>
+        <lastmod>2025-01-09T07:59:52-05:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -513,7 +513,7 @@
         
         
         
-        <lastmod>2025-01-04T15:12:17-05:00</lastmod>
+        <lastmod>2025-01-09T07:59:52-05:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -578,7 +578,7 @@
         
         
         
-        <lastmod>2025-01-04T15:12:17-05:00</lastmod>
+        <lastmod>2025-01-09T07:59:52-05:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -654,7 +654,7 @@
         
         
         
-        <lastmod>2025-01-04T15:12:17-05:00</lastmod>
+        <lastmod>2025-01-09T07:59:52-05:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -730,7 +730,83 @@
         
         
         
-        <lastmod>2025-01-04T15:12:17-05:00</lastmod>
+        <lastmod>2025-01-09T07:59:52-05:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/es/tratamientos-faciales/plasma/</loc>
+        
+        <!-- Versión en inglés -->
+        
+        
+        <xhtml:link 
+            rel="alternate"
+            hreflang="en"
+            href="http://localhost:4000/en/facial-treatments/plasma/"
+        />
+        <xhtml:link 
+            rel="alternate"
+            hreflang="es"
+            href="http://localhost:4000/es/tratamientos-faciales/plasma/"
+        />
+        
+        
+        <!-- Imágenes del tratamiento -->
+        
+        <image:image>
+            <image:loc>http://localhost:4000/img/tratamiento-plasma-rico-plaquetas.avif</image:loc>
+            <image:title>Plasma rico en plaquetas - Rejuvenecimiento natural con tu propia sangre</image:title>
+            <image:caption>Rejuvenecimiento facial con plasma rico en plaquetas. Protocolo médico europeo certificado. Estimula colágeno natural. Resultados progresivos y duraderos.</image:caption>
+        </image:image>
+        
+        
+        <image:image>
+            <image:loc>http://localhost:4000/img/centro-medicina-estetica-prp.avif</image:loc>
+            <image:title>PRP facial en Bogotá | Regeneración natural | Dra. Tatiana Leal</image:title>
+        </image:image>
+        
+        
+        <!-- Cases/Antes y Después -->
+        
+        
+        <image:image>
+            <image:loc>http://localhost:4000/img/antes-plasma-rico-plaquetas-1.avif</image:loc>
+            <image:title>Antes - Rejuvenecimiento facial</image:title>
+            <image:caption>Resultados visibles después de 3 sesiones de PRP facial. Notable mejoría en textura y luminosidad.</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://localhost:4000/img/despues-plasma-rico-plaquetas-1.avif</image:loc>
+            <image:title>Después - Rejuvenecimiento facial</image:title>
+            <image:caption>Resultados visibles después de 3 sesiones de PRP facial. Notable mejoría en textura y luminosidad.</image:caption>
+        </image:image>
+        
+        <image:image>
+            <image:loc>http://localhost:4000/img/antes-plasma-rico-plaquetas-2.avif</image:loc>
+            <image:title>Antes - Tratamiento capilar</image:title>
+            <image:caption>Fortalecimiento y regeneración capilar después de 4 sesiones de PRP.</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://localhost:4000/img/despues-plasma-rico-plaquetas-2.avif</image:loc>
+            <image:title>Después - Tratamiento capilar</image:title>
+            <image:caption>Fortalecimiento y regeneración capilar después de 4 sesiones de PRP.</image:caption>
+        </image:image>
+        
+        <image:image>
+            <image:loc>http://localhost:4000/img/antes-plasma-rico-plaquetas-3.avif</image:loc>
+            <image:title>Antes - Rejuvenecimiento de manos</image:title>
+            <image:caption>Mejoría significativa en la calidad y textura de la piel después del tratamiento.</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://localhost:4000/img/despues-plasma-rico-plaquetas-3.avif</image:loc>
+            <image:title>Después - Rejuvenecimiento de manos</image:title>
+            <image:caption>Mejoría significativa en la calidad y textura de la piel después del tratamiento.</image:caption>
+        </image:image>
+        
+        
+        
+        <lastmod>2025-01-09T07:59:52-05:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -771,7 +847,7 @@
         <!-- Cases/Antes y Después -->
         
         
-        <lastmod>2025-01-04T15:12:17-05:00</lastmod>
+        <lastmod>2025-01-09T07:59:52-05:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -847,7 +923,7 @@
         
         
         
-        <lastmod>2025-01-04T15:12:17-05:00</lastmod>
+        <lastmod>2025-01-09T07:59:52-05:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -923,7 +999,7 @@
         
         
         
-        <lastmod>2025-01-04T15:12:17-05:00</lastmod>
+        <lastmod>2025-01-09T07:59:52-05:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -990,7 +1066,7 @@
         
         
         
-        <lastmod>2025-01-04T15:12:17-05:00</lastmod>
+        <lastmod>2025-01-09T07:59:52-05:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -1063,7 +1139,7 @@
         
         
         
-        <lastmod>2025-01-04T15:12:17-05:00</lastmod>
+        <lastmod>2025-01-09T07:59:52-05:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -1125,7 +1201,7 @@
         
         
         
-        <lastmod>2025-01-04T15:12:17-05:00</lastmod>
+        <lastmod>2025-01-09T07:59:52-05:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -1198,7 +1274,7 @@
         
         
         
-        <lastmod>2025-01-04T15:12:17-05:00</lastmod>
+        <lastmod>2025-01-09T07:59:52-05:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -1260,7 +1336,7 @@
         
         
         
-        <lastmod>2025-01-04T15:12:17-05:00</lastmod>
+        <lastmod>2025-01-09T07:59:52-05:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -1333,7 +1409,7 @@
         
         
         
-        <lastmod>2025-01-04T15:12:17-05:00</lastmod>
+        <lastmod>2025-01-09T07:59:52-05:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -1359,13 +1435,13 @@
         <image:image>
             <image:loc>http://localhost:4000/img/tratamiento-moldeamiento-corporal.avif</image:loc>
             <image:title>Moldeamiento corporal - Resultados visibles y duraderos</image:title>
-            <image:caption>Moldea y reduce sin cirugía desde $129.900/zona. Última tecnología HIFU + RF + ultrasonido. ¡40% OFF + 3 drenajes gratis este mes! → Agenda ahora</image:caption>
+            <image:caption>Moldea y redefine tu cuerpo con tecnología premium: SCIZER, Contour Shape y Maximus. Resultados visibles desde la primera sesión. Centro especializado en remodelación corporal.</image:caption>
         </image:image>
         
         
         <image:image>
             <image:loc>http://localhost:4000/img/centro-medicina-estetica-corporal.avif</image:loc>
-            <image:title>Moldeamiento Corporal 2024: 3x2 en Zonas ▷ Primera Cita Gratis</image:title>
+            <image:title>Moldeamiento corporal sin cirugía | Tecnología exclusiva en Bogotá</image:title>
         </image:image>
         
         
@@ -1406,7 +1482,7 @@
         
         
         
-        <lastmod>2025-01-04T15:12:17-05:00</lastmod>
+        <lastmod>2025-01-09T07:59:52-05:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -1479,7 +1555,7 @@
         
         
         
-        <lastmod>2025-01-04T15:12:17-05:00</lastmod>
+        <lastmod>2025-01-09T07:59:52-05:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -1517,7 +1593,7 @@
         
         
         
-        <lastmod>2025-01-04T15:12:17-05:00</lastmod>
+        <lastmod>2025-01-09T07:59:52-05:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -1579,7 +1655,7 @@
         
         
         
-        <lastmod>2025-01-04T15:12:17-05:00</lastmod>
+        <lastmod>2025-01-09T07:59:52-05:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -1646,7 +1722,7 @@
         
         
         
-        <lastmod>2025-01-04T15:12:17-05:00</lastmod>
+        <lastmod>2025-01-09T07:59:52-05:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -1708,7 +1784,7 @@
         
         
         
-        <lastmod>2025-01-04T15:12:17-05:00</lastmod>
+        <lastmod>2025-01-09T07:59:52-05:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -1759,7 +1835,7 @@
         
         
         
-        <lastmod>2025-01-04T15:12:17-05:00</lastmod>
+        <lastmod>2025-01-09T07:59:52-05:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -1832,7 +1908,7 @@
         
         
         
-        <lastmod>2025-01-04T15:12:17-05:00</lastmod>
+        <lastmod>2025-01-09T07:59:52-05:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -1883,7 +1959,7 @@
         
         
         
-        <lastmod>2025-01-04T15:12:17-05:00</lastmod>
+        <lastmod>2025-01-09T07:59:52-05:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>

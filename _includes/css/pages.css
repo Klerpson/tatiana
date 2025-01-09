@@ -28,7 +28,7 @@
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
   place-content: center;
   gap: 1em;
-  padding: 2rem;
+  padding: 6rem 2rem;
 }
 
 .card {
@@ -75,6 +75,8 @@
 .card ul li {
   font-size: 1rem;
   color: var(--grey-1);
+  list-style: none;
+  margin-bottom: 1rem;
 }
 
 /* Acordeon */
@@ -232,6 +234,8 @@
 .parallax_moldeamiento-corporal {
   background-image: linear-gradient(rgba(0, 46, 81, 0.6), rgba(0, 46, 81, 0.6)),
     url('{{"img/moldeamiento-corporal-en-bogota.avif" | relative_url}}');
+
+    h2{color: #ffffff;}
 }
 
 .parallax_celulitis {
@@ -305,6 +309,11 @@
 }
 
 .parallax_inbody {
+  background-image: linear-gradient(rgba(0, 46, 81, 0.6), rgba(0, 46, 81, 0.6)),
+    url('{{"img/radiofrecuencia-corporal-bogota.avif" | relative_url}}');
+}
+
+.parallax_scizer {
   background-image: linear-gradient(rgba(0, 46, 81, 0.6), rgba(0, 46, 81, 0.6)),
     url('{{"img/radiofrecuencia-corporal-bogota.avif" | relative_url}}');
 }

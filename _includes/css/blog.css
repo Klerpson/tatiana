@@ -3,6 +3,8 @@
 #breadcrumbs {
   font-family: var(--fuenteTitulos);  
   padding: 20px;
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
   max-width: max-content;
 }
 
@@ -56,12 +58,14 @@
 
 .articulo article a:not(.boton){
   color: var(--secundario);
-  text-decoration: underline 3px;
+  -webkit-text-decoration: underline 3px;
+          text-decoration: underline 3px;
   transition: ease-in-out 0.5s;
   font-weight: 700;
 }
 
 .articulo aside{
+  position: -webkit-sticky;
   position: sticky;
   top: 80px;
   flex: 1;
@@ -69,6 +73,8 @@
   text-align: center;
   border: 1.6px solid var(--acento);
   border-radius: var(--radius);
+  height: -webkit-max-content;
+  height: -moz-max-content;
   height: max-content;
   display: grid;
   gap: 32px;
@@ -81,7 +87,8 @@
   padding: 4em 0;
   background-color: var(--gris1);
   box-shadow: 0 0 0 100vmax var(--gris1);
-  clip-path: inset(0 -100vmax);
+  -webkit-clip-path: inset(0 -100vmax);
+          clip-path: inset(0 -100vmax);
 
   li a{
     color: var(--principal);
@@ -100,7 +107,8 @@
 
 .eeat-author img {
   border-radius: 50%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .eeat-author-info {
