@@ -102,7 +102,116 @@
 
   <!-- Enlaces adicionales -->
   <link rel="author" href="/humans.txt">
-  
+  <style>
+    :root {
+      --principal: #002e51;
+      --accion: #cfbaa3;
+      --secundario: #82a7c1;
+      --complemento: #004070;
+      --acento: #002e513f;
+      --gris1: #eeeeee;
+      --gris2: #8c8c8c;
+      --grisTexto: #111313;
+      --shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+      --radius: 28px;
+      --radius-cards: 12px;
+      --fuenteTitulos: "Lexend Deca", sans-serif;
+      --fuenteTexto: "DM Sans", sans-serif;
+    }
+
+    *,
+    *::after,
+    *::before {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      line-height: 1.6;
+      -webkit-text-size-adjust: 100%;
+      scroll-padding-top: 8em;
+    }
+
+    body {
+      color: var(--grisFuentes);
+      font-family: var(--fuenteTexto);
+      background-color: #fefefe;
+      width: min(100%, 1920px);
+      margin-inline: auto;
+      box-shadow: var(--shadow);
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+      font-family: var(--fuenteTitulos);
+      text-transform: initial;
+      line-height: 1.2;
+      max-width: 732px;
+    }
+
+    h1 {
+      font-size: clamp(2rem, 1.5rem + 1vw, 2.5rem);
+      margin: 0;
+      font-weight: 700;
+    }
+
+    h2 {
+      font-size: clamp(1.75rem, 1.3rem + 0.7vw, 2.25rem);
+      color: var(--complemento);
+    }
+
+    h3 {
+      font-size: clamp(1.5rem, 1.2rem + 0.5vw, 2rem);
+    }
+
+    h4 {
+      font-size: clamp(1.375rem, 1.1rem + 0.4vw, 1.75rem);
+    }
+
+    p,
+    a,
+    li {
+      word-wrap: break-word;
+      font-size: clamp(1.125rem, 1rem + 0.2vw, 1.5rem);
+      max-width: 70ch;
+    }
+
+    li {
+      margin-left: 2em;
+    }
+
+    ol li {
+      margin-left: 3em;
+      list-style: decimal;
+    }
+
+    a {
+      color: var(--principal);
+      text-decoration: underline;
+      text-decoration-thickness: 3px;
+      font-weight: 700;
+      transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+
+    a:hover {
+      color: var(--secundario);
+    }
+
+    small {
+      color: #666;
+      font-size: 16px;
+      margin-bottom: 1em;
+    }
+
+    img {
+      border-style: none;
+      max-width: 100%;
+    }
+  </style>
    <!-- Preloads and Links -->
    <link rel="preload" href="/css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
    <noscript><link rel="stylesheet" href="/css/style.css"></noscript>
