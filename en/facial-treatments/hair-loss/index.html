@@ -93,56 +93,98 @@
   <!-- Schemas -->
   
 <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "MedicalProcedure",
-    "name": "Hair Loss Treatment in Bogota | PRP Hair Restoration Specialists",
-    "alternateName": "Effective hair loss treatment in Bogota",
-    "description": "Effective hair loss treatments in Bogota. Platelet-Rich Plasma (PRP) and capillary intradermal therapy. Guaranteed results with minimal invasion. Free initial consultation.",
-    "url": "https://dratatianaleal.com/en/facial-treatments/hair-loss/",
-    "image": "https://dratatianaleal.com/img/caida-cabello-bogota.avif",
-    "additionalProperty": {
-      "@type": "PropertyValue",
-      "name": "SecondaryImage",
-      "value": "https://dratatianaleal.com/img/tratamiento-alopecia-bogota.avif"
-    },
-    "medicineSystem": "Conventional",
-    "specialty": {
-      "@type": "MedicalSpecialty",
-      "name": "Medicina Estética"
-    },
-    "study": {
-      "@type": "MedicalStudy",
-      "healthCondition": {
-        "@type": "MedicalCondition",
-        "name": "Envejecimiento cutáneo"
-      }
-    },
-    "howPerformed": "Procedimiento no invasivo realizado en consultorio",
-    "preparation": {
-      "@type": "MedicalEntity",
-      "description": "Evaluación médica previa. No requiere anestesia general. Procedimiento ambulatorio."
-    },
-    "procedureType": "Effective hair loss treatments in Bogota. Platelet-Rich Plasma (PRP) and capillary intradermal therapy. Guaranteed results with minimal invasion. Free initial consultation.",
-    "followup": "Seguimiento personalizado post-tratamiento",
-    
-  "procedureReview": [
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalProcedure",
+  "name": "Hair Loss Treatment in Bogota | PRP Hair Restoration Specialists",
+  "description": "Effective hair loss treatments in Bogota. Platelet-Rich Plasma (PRP) and capillary intradermal therapy. Guaranteed results with minimal invasion. Free initial consultation.",
+  "url": "https://dratatianaleal.com/en/facial-treatments/hair-loss/",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://dratatianaleal.com/img/caida-cabello-bogota.avif",
+    "height": "1200",
+    "width": "1200"
+  },
+  "medicineSystem": "Conventional",
+  "howPerformed": "Procedimiento no invasivo realizado en consultorio",
+  "preparation": "Evaluación médica previa. No requiere anestesia general. Procedimiento ambulatorio.",
+  "procedureType": "Effective hair loss treatments in Bogota. Platelet-Rich Plasma (PRP) and capillary intradermal therapy. Guaranteed results with minimal invasion. Free initial consultation.",
+  "followup": "Seguimiento personalizado post-tratamiento",
+  "performer": {
+    "@type": "MedicalOrganization",
+    "name": "Tatiana Leal",
+    "url": "https://dratatianaleal.com"
+  },
+  
+  "review": [
     
     {
       "@type": "Review",
       "reviewBody": "35-year-old male patient after 4 sessions of PRP treatment. Notable improvement in hair density and thickness.",
+      "itemReviewed": {
+        "@type": "MedicalProcedure",
+        "name": "Hair Loss Treatment in Bogota | PRP Hair Restoration Specialists"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Paciente Anónimo"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
       "image": [
-        "https://dratatianaleal.com/img/tratamiento-prp-antes.avif",
-        "https://dratatianaleal.com/img/tratamiento-prp-despues.avif"
+        {
+          "@type": "ImageObject",
+          "url": "https://dratatianaleal.com/img/tratamiento-prp-antes.avif",
+          "height": "800",
+          "width": "800",
+          "caption": "Antes del tratamiento"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://dratatianaleal.com/img/tratamiento-prp-despues.avif",
+          "height": "800",
+          "width": "800",
+          "caption": "Después del tratamiento"
+        }
       ]
     },
     
     {
       "@type": "Review",
       "reviewBody": "Results after 6 sessions, showing significant reduction in hair loss and increased volume.",
+      "itemReviewed": {
+        "@type": "MedicalProcedure",
+        "name": "Hair Loss Treatment in Bogota | PRP Hair Restoration Specialists"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Paciente Anónimo"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
       "image": [
-        "https://dratatianaleal.com/img/intradermoterapia-antes.avif",
-        "https://dratatianaleal.com/img/intradermoterapia-despues.avif"
+        {
+          "@type": "ImageObject",
+          "url": "https://dratatianaleal.com/img/intradermoterapia-antes.avif",
+          "height": "800",
+          "width": "800",
+          "caption": "Antes del tratamiento"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://dratatianaleal.com/img/intradermoterapia-despues.avif",
+          "height": "800",
+          "width": "800",
+          "caption": "Después del tratamiento"
+        }
       ]
     }
     
@@ -150,101 +192,71 @@
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "4.8",
-    "reviewCount": "2"
+    "reviewCount": "2",
+    "bestRating": "5",
+    "worstRating": "1"
   },
   
-    "typicalAgeRange": "18-",
-    "availableLanguage": ["es", "en"],
-    "provider": {
-      "@type": "HealthAndBeautyBusiness",
-      "name": "Tatiana Leal",
-      "image": "https://dratatianaleal.com/img/logo-tatiana-leal.webp",
-      "priceRange": "$$$",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Torre Magna PI, Av Suba #114 - 59 Piso 6, Cons G14, Bogotá",
-        "addressLocality": "Bogotá",
-        "addressRegion": "DC",
-        "addressCountry": "CO"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": "4.6964387",
-        "longitude": "-74.0692314"
-      },
-      "telephone": "3222010384",
-      "url": "https://dratatianaleal.com",
-      "sameAs": [
-        "https://www.instagram.com/dratatianaleal/",
-        "https://www.facebook.com/Dra.TatianaLealSandoval",
-        "https://www.youtube.com/channel/UCxF-X7in4xUFxYYwCMyC5OQ"
-      ]
-    },
-    "audience": {
-      "@type": "MedicalAudience",
-      "audienceType": "Pacientes que buscan mejoras estéticas no invasivas"
-    },
+  
+  "mainEntity": [
     
-    "mainEntity": [
-      
-      {
-        "@type": "Question",
-        "name": "How long does each treatment session take?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Sessions last approximately 30-45 minutes. The treatment is minimally invasive and you can resume your activities immediately"
-        }
-      },
-      
-      {
-        "@type": "Question",
-        "name": "When will I start seeing results?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Most of our patients notice a significant reduction in hair loss after the second session. Optimal results are typically observed after 3-4 sessions"
-        }
-      },
-      
-      {
-        "@type": "Question",
-        "name": "Is the treatment painful?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "No. We use minimally invasive techniques and local anesthesia to ensure your comfort throughout the procedure. Most patients only describe a slight pressure sensation"
-        }
-      },
-      
-      {
-        "@type": "Question",
-        "name": "Is the treatment safe?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes. Both PRP and intradermal therapy are safe procedures using either natural elements from your own body or biocompatible substances. There's no risk of rejection or significant side effects"
-        }
+    {
+      "@type": "Question",
+      "name": "How long does each treatment session take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sessions last approximately 30-45 minutes. The treatment is minimally invasive and you can resume your activities immediately"
       }
-      
-    ],
+    },
     
-    "offers": {
-      "@type": "Offer",
-      "availability": "https://schema.org/InStock",
-      "priceCurrency": "COP",
-      "priceValidUntil": "2025-12-31",
-      "availableAtOrFrom": {
-        "@type": "HealthAndBeautyBusiness",
-        "name": "Tatiana Leal",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Torre Magna PI, Av Suba #114 - 59 Piso 6, Cons G14, Bogotá",
-          "addressLocality": "Bogotá",
-          "addressRegion": "DC",
-          "addressCountry": "CO"
-        }
+    {
+      "@type": "Question",
+      "name": "When will I start seeing results?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most of our patients notice a significant reduction in hair loss after the second session. Optimal results are typically observed after 3-4 sessions"
+      }
+    },
+    
+    {
+      "@type": "Question",
+      "name": "Is the treatment painful?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. We use minimally invasive techniques and local anesthesia to ensure your comfort throughout the procedure. Most patients only describe a slight pressure sensation"
+      }
+    },
+    
+    {
+      "@type": "Question",
+      "name": "Is the treatment safe?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Both PRP and intradermal therapy are safe procedures using either natural elements from your own body or biocompatible substances. There's no risk of rejection or significant side effects"
       }
     }
+    
+  ],
+  
+  "provider": {
+    "@type": "MedicalOrganization",
+    "name": "Tatiana Leal",
+    "image": {
+      "@type": "ImageObject",
+      "url": "https://dratatianaleal.com/img/logo-tatiana-leal.webp",
+      "height": "60",
+      "width": "600"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Torre Magna PI, Av Suba #114 - 59 Piso 6, Cons G14, Bogotá",
+      "addressLocality": "Bogotá",
+      "addressRegion": "DC",
+      "addressCountry": "CO"
+    }
   }
+}
 </script>
-
 
   
   

@@ -89,56 +89,98 @@
   <!-- Schemas -->
   
 <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "MedicalProcedure",
-    "name": "Tratamiento SCIZER en Bogotá | Reducción de grasa y flacidez | Dra. Tatiana Leal",
-    "alternateName": "Tratamiento corporal SCIZER en Bogotá",
-    "description": "SCIZER: tecnología avanzada para eliminación de grasa localizada y flacidez. Resultados visibles desde la primera sesión. Procedimiento no invasivo con resultados permanentes.",
-    "url": "https://dratatianaleal.com/es/tecnologia/scizer/",
-    "image": "https://dratatianaleal.com/img/inbody-centro-estetico-bogota.avif",
-    "additionalProperty": {
-      "@type": "PropertyValue",
-      "name": "SecondaryImage",
-      "value": "https://dratatianaleal.com/img/moldeamiento-corporal-en-bogota.avif"
-    },
-    "medicineSystem": "Conventional",
-    "specialty": {
-      "@type": "MedicalSpecialty",
-      "name": "Medicina Estética"
-    },
-    "study": {
-      "@type": "MedicalStudy",
-      "healthCondition": {
-        "@type": "MedicalCondition",
-        "name": "Envejecimiento cutáneo"
-      }
-    },
-    "howPerformed": "Procedimiento no invasivo realizado en consultorio",
-    "preparation": {
-      "@type": "MedicalEntity",
-      "description": "Evaluación médica previa. No requiere anestesia general. Procedimiento ambulatorio."
-    },
-    "procedureType": "SCIZER: tecnología avanzada para eliminación de grasa localizada y flacidez. Resultados visibles desde la primera sesión. Procedimiento no invasivo con resultados permanentes.",
-    "followup": "Seguimiento personalizado post-tratamiento",
-    
-  "procedureReview": [
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalProcedure",
+  "name": "Tratamiento SCIZER en Bogotá | Reducción de grasa y flacidez | Dra. Tatiana Leal",
+  "description": "SCIZER: tecnología avanzada para eliminación de grasa localizada y flacidez. Resultados visibles desde la primera sesión. Procedimiento no invasivo con resultados permanentes.",
+  "url": "https://dratatianaleal.com/es/tecnologia/scizer/",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://dratatianaleal.com/img/inbody-centro-estetico-bogota.avif",
+    "height": "1200",
+    "width": "1200"
+  },
+  "medicineSystem": "Conventional",
+  "howPerformed": "Procedimiento no invasivo realizado en consultorio",
+  "preparation": "Evaluación médica previa. No requiere anestesia general. Procedimiento ambulatorio.",
+  "procedureType": "SCIZER: tecnología avanzada para eliminación de grasa localizada y flacidez. Resultados visibles desde la primera sesión. Procedimiento no invasivo con resultados permanentes.",
+  "followup": "Seguimiento personalizado post-tratamiento",
+  "performer": {
+    "@type": "MedicalOrganization",
+    "name": "Tatiana Leal",
+    "url": "https://dratatianaleal.com"
+  },
+  
+  "review": [
     
     {
       "@type": "Review",
       "reviewBody": "Resultados después de 4 sesiones de SCIZER, mostrando notable reducción de grasa abdominal y mejora en la firmeza de la piel.",
+      "itemReviewed": {
+        "@type": "MedicalProcedure",
+        "name": "Tratamiento SCIZER en Bogotá | Reducción de grasa y flacidez | Dra. Tatiana Leal"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Paciente Anónimo"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
       "image": [
-        "https://dratatianaleal.com/img/antes-scizer-abdomen.avif",
-        "https://dratatianaleal.com/img/despues-scizer-abdomen.avif"
+        {
+          "@type": "ImageObject",
+          "url": "https://dratatianaleal.com/img/antes-scizer-abdomen.avif",
+          "height": "800",
+          "width": "800",
+          "caption": "Antes del tratamiento"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://dratatianaleal.com/img/despues-scizer-abdomen.avif",
+          "height": "800",
+          "width": "800",
+          "caption": "Después del tratamiento"
+        }
       ]
     },
     
     {
       "@type": "Review",
       "reviewBody": "Significativa mejora en la firmeza y contorno corporal después de 6 sesiones de SCIZER.",
+      "itemReviewed": {
+        "@type": "MedicalProcedure",
+        "name": "Tratamiento SCIZER en Bogotá | Reducción de grasa y flacidez | Dra. Tatiana Leal"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Paciente Anónimo"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
       "image": [
-        "https://dratatianaleal.com/img/antes-scizer-flacidez.avif",
-        "https://dratatianaleal.com/img/despues-scizer-flacidez.avif"
+        {
+          "@type": "ImageObject",
+          "url": "https://dratatianaleal.com/img/antes-scizer-flacidez.avif",
+          "height": "800",
+          "width": "800",
+          "caption": "Antes del tratamiento"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "https://dratatianaleal.com/img/despues-scizer-flacidez.avif",
+          "height": "800",
+          "width": "800",
+          "caption": "Después del tratamiento"
+        }
       ]
     }
     
@@ -146,101 +188,71 @@
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "4.8",
-    "reviewCount": "2"
+    "reviewCount": "2",
+    "bestRating": "5",
+    "worstRating": "1"
   },
   
-    "typicalAgeRange": "18-",
-    "availableLanguage": ["es", "en"],
-    "provider": {
-      "@type": "HealthAndBeautyBusiness",
-      "name": "Tatiana Leal",
-      "image": "https://dratatianaleal.com/img/logo-tatiana-leal.webp",
-      "priceRange": "$$$",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Torre Magna PI, Av Suba #114 - 59 Piso 6, Cons G14, Bogotá",
-        "addressLocality": "Bogotá",
-        "addressRegion": "DC",
-        "addressCountry": "CO"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": "4.6964387",
-        "longitude": "-74.0692314"
-      },
-      "telephone": "3222010384",
-      "url": "https://dratatianaleal.com",
-      "sameAs": [
-        "https://www.instagram.com/dratatianaleal/",
-        "https://www.facebook.com/Dra.TatianaLealSandoval",
-        "https://www.youtube.com/channel/UCxF-X7in4xUFxYYwCMyC5OQ"
-      ]
-    },
-    "audience": {
-      "@type": "MedicalAudience",
-      "audienceType": "Pacientes que buscan mejoras estéticas no invasivas"
-    },
+  
+  "mainEntity": [
     
-    "mainEntity": [
-      
-      {
-        "@type": "Question",
-        "name": "¿Qué es SCIZER y cómo funciona?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "SCIZER es una tecnología avanzada que combina ultrasonido focalizado de alta intensidad (HIFU) con radiofrecuencia para eliminar grasa localizada y reducir la flacidez. El tratamiento trabaja a diferentes profundidades de la piel, estimulando la producción de colágeno y eliminando células grasas de forma permanente"
-        }
-      },
-      
-      {
-        "@type": "Question",
-        "name": "¿Es doloroso el tratamiento?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "El procedimiento es prácticamente indoloro. La mayoría de los pacientes experimenta una sensación de calor y ligero hormigueo durante la sesión, que es completamente tolerable. No requiere anestesia ni tiempo de recuperación"
-        }
-      },
-      
-      {
-        "@type": "Question",
-        "name": "¿Cuántas sesiones necesitaré?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "El número de sesiones varía según los objetivos y el área a tratar. Generalmente, se recomiendan entre 4 y 6 sesiones para resultados óptimos. Diseñamos un plan personalizado durante tu consulta inicial"
-        }
-      },
-      
-      {
-        "@type": "Question",
-        "name": "¿Cuándo veré los resultados?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Los primeros resultados son visibles desde la primera sesión, con una mejora progresiva durante las siguientes semanas a medida que el cuerpo elimina naturalmente las células grasas tratadas. Los resultados óptimos se aprecian entre 2 y 3 meses después de completar el tratamiento"
-        }
+    {
+      "@type": "Question",
+      "name": "¿Qué es SCIZER y cómo funciona?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "SCIZER es una tecnología avanzada que combina ultrasonido focalizado de alta intensidad (HIFU) con radiofrecuencia para eliminar grasa localizada y reducir la flacidez. El tratamiento trabaja a diferentes profundidades de la piel, estimulando la producción de colágeno y eliminando células grasas de forma permanente"
       }
-      
-    ],
+    },
     
-    "offers": {
-      "@type": "Offer",
-      "availability": "https://schema.org/InStock",
-      "priceCurrency": "COP",
-      "priceValidUntil": "2025-12-31",
-      "availableAtOrFrom": {
-        "@type": "HealthAndBeautyBusiness",
-        "name": "Tatiana Leal",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Torre Magna PI, Av Suba #114 - 59 Piso 6, Cons G14, Bogotá",
-          "addressLocality": "Bogotá",
-          "addressRegion": "DC",
-          "addressCountry": "CO"
-        }
+    {
+      "@type": "Question",
+      "name": "¿Es doloroso el tratamiento?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "El procedimiento es prácticamente indoloro. La mayoría de los pacientes experimenta una sensación de calor y ligero hormigueo durante la sesión, que es completamente tolerable. No requiere anestesia ni tiempo de recuperación"
+      }
+    },
+    
+    {
+      "@type": "Question",
+      "name": "¿Cuántas sesiones necesitaré?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "El número de sesiones varía según los objetivos y el área a tratar. Generalmente, se recomiendan entre 4 y 6 sesiones para resultados óptimos. Diseñamos un plan personalizado durante tu consulta inicial"
+      }
+    },
+    
+    {
+      "@type": "Question",
+      "name": "¿Cuándo veré los resultados?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Los primeros resultados son visibles desde la primera sesión, con una mejora progresiva durante las siguientes semanas a medida que el cuerpo elimina naturalmente las células grasas tratadas. Los resultados óptimos se aprecian entre 2 y 3 meses después de completar el tratamiento"
       }
     }
+    
+  ],
+  
+  "provider": {
+    "@type": "MedicalOrganization",
+    "name": "Tatiana Leal",
+    "image": {
+      "@type": "ImageObject",
+      "url": "https://dratatianaleal.com/img/logo-tatiana-leal.webp",
+      "height": "60",
+      "width": "600"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Torre Magna PI, Av Suba #114 - 59 Piso 6, Cons G14, Bogotá",
+      "addressLocality": "Bogotá",
+      "addressRegion": "DC",
+      "addressCountry": "CO"
+    }
   }
+}
 </script>
-
 
   
   
