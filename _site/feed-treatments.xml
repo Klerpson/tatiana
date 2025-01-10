@@ -2171,14 +2171,10 @@
       <description>Rejuvenecimiento facial con plasma rico en plaquetas. Protocolo médico europeo certificado. Estimula colágeno natural. Resultados progresivos y duraderos.</description>
       <content:encoded><![CDATA[<main class="block_section">
   <small class="block_section_header">Medicina regenerativa avanzada</small>
-  <h2 class="block_section_title">La revolución en regeneración natural</h2>
+  <h2 class="block_section_title">Plasma Rico en Plaquetas: La revolución en regeneración natural</h2>
   <div class="block_section_content">
-    <p>
-      "¿Existe realmente un tratamiento 100% natural que funcione?" se preguntaba Patricia, una profesional de 42 años, mientras observaba su botiquín lleno de cremas y suplementos que prometían milagros. Como muchas personas, estaba cansada de gastar en productos que no daban resultados y buscaba algo respaldado científicamente que utilizara los recursos de su propio cuerpo.
-
-      El <strong>plasma rico en plaquetas (PRP)</strong> revolucionó su perspectiva. Este tratamiento innovador utiliza los factores de crecimiento presentes en tu propia sangre para estimular la regeneración natural de tu piel y cabello. Es como darle a tu cuerpo las herramientas que naturalmente produce para repararse y rejuvenecerse, pero concentradas exactamente donde las necesitas.
-    </p>
-    
+    <p><i>"¿Existe realmente un tratamiento 100% natural que funcione?"</i> nos preguntaba Patricia, una profesional de 42 años de Bogotá. Nos contaba sobre su botiquín lleno de cremas y suplementos que prometían milagros. Como muchas personas, estaba cansada de gastar en productos que no daban resultados y buscaba algo respaldado científicamente que utilizara los recursos de su propio cuerpo.</p>
+    <p>El <strong>plasma rico en plaquetas (PRP)</strong> revolucionó su perspectiva. Este tratamiento innovador utiliza los factores de crecimiento presentes en tu propia sangre para estimular la regeneración natural de tu piel y cabello. Es como darle a tu cuerpo las herramientas que naturalmente produce para repararse y rejuvenecerse, pero concentradas exactamente donde las necesitas.</p>
     <a href="#" class="boton boton_principal" id="lead_whatsapp" title="WhatsApp de Tatiana Leal">Agenda tu cita ahora</a>
   </div>
   <img class="block_section_image_right" loading="eager" decoding="async" title="Doctora Tatiana Leal realizando tratamiento PRP" src="/img/plasma-facial-colombia.avif" alt="Tratamiento con plasma rico en plaquetas en Bogotá" width="640" height="1056">
@@ -2201,8 +2197,8 @@
 
 <section class="padding flow">
   <header class="intro">
-    <small>PRP con la Doctora Tatiana Leal</small>
-    <h2>¿Por qué el PRP supera otros tratamientos?</h2>
+    <small>PRP en el Centro de Medicina Estética Tatiana Leal</small>
+    <h2>¿Por qué el Plasma Rico en Plaquetas supera otros tratamientos?</h2>
   </header>
 
   <section aria-labelledby="precio-section" class="intro flow">
@@ -2210,7 +2206,7 @@
     <p>Mientras que la mayoría de los tratamientos introducen sustancias externas en tu cuerpo, el <strong>PRP</strong> trabaja con tus propios factores de crecimiento. Es como crear una versión superconcentrada de los elementos regenerativos que tu cuerpo produce naturalmente. El resultado es una regeneración profunda y duradera que mejora progresivamente.</p>
 
     <blockquote>
-      <p>Durante tu consulta gratuita, analizaremos tus necesidades específicas y diseñaremos un protocolo personalizado que maximice los beneficios del PRP. Te explicaremos en detalle cómo tus propios factores de crecimiento trabajarán para lograr la regeneración que deseas.</p>
+      <p>Durante tu consulta, analizaremos tus necesidades específicas y diseñaremos un protocolo personalizado que maximice los beneficios del PRP. Te explicaremos en detalle cómo tus propios factores de crecimiento trabajarán para lograr la regeneración que deseas.</p>
       <a href="#" class="boton boton_principal" id="lead_whatsapp" title="WhatsApp de Tatiana Leal">Agenda tu cita ahora</a>
     </blockquote>
   </section>
@@ -2218,7 +2214,7 @@
 
 <section class="two_columns seccion" aria-labelledby="experiencia-section">
   <div class="flow padding">
-    <h2 id="experiencia-section">Tu experiencia con el PRP</h2>
+    <h2 id="experiencia-section">El tratamiento con Plasma Rico en Plaquetas</h2>
     <p>El tratamiento comienza con una pequeña extracción de sangre, similar a un análisis rutinario. Mientras procesamos tu plasma utilizando tecnología de última generación, aplicamos anestesia tópica para garantizar tu comodidad. La sesión completa dura aproximadamente 45 minutos, durante los cuales nuestros especialistas trabajan con precisión para aplicar el PRP en los puntos estratégicos.</p>
     <p>La mayoría de nuestros pacientes se sorprenden por lo cómodo y rápido que resulta el procedimiento. Podrías experimentar un ligero enrojecimiento que desaparece en 24-48 horas, mientras tus factores de crecimiento comienzan su trabajo de regeneración. Los resultados mejoran progresivamente durante las siguientes semanas.</p>
   </div>
@@ -2229,7 +2225,7 @@
 
 <section class="two_columns two_columns_left" aria-labelledby="resultados-section">
   <div class="flow padding">
-    <h2 id="resultados-section">Resultados naturales y duraderos</h2>
+    <h2 id="resultados-section">Resultados naturales y duraderos del PRP</h2>
     <ul role="list">
       <li>Regeneración profunda y natural</li>
       <li>Mejora progresiva en la calidad de la piel</li>
@@ -2258,7 +2254,7 @@
       <input type="checkbox" id="acc1" class="accordion-toggle" role="tab">
       <label for="acc1" class="accordion-header">¿Cuántas sesiones necesitaré?</label>
       <div class="accordion-content" role="tabpanel">
-        <p>El número de sesiones varía según el área y objetivos específicos. Generalmente, recomendamos 3-4 sesiones iniciales, espaciadas cada 3-4 semanas. Para tratamientos capilares, podría requerirse un protocolo más extenso. Durante tu consulta gratuita, diseñaremos un plan personalizado.</p>
+        <p>El número de sesiones varía según el área y objetivos específicos. Generalmente, recomendamos 3-4 sesiones iniciales, espaciadas cada 3-4 semanas. Para tratamientos capilares, podría requerirse un protocolo más extenso. Durante tu consulta, diseñaremos un plan personalizado.</p>
       </div>
       
       <input type="checkbox" id="acc2" class="accordion-toggle" role="tab">
@@ -2371,8 +2367,8 @@
 
 <aside class="padding" id="consulta">
   <div class="intro flow">
-    <h2>Descubre el poder regenerativo de tu sangre</h2>
-    <p>El PRP puede transformar tu piel y cabello de forma natural y segura. Agenda tu consulta gratuita hoy y descubre cómo tus propios factores de crecimiento pueden trabajar por ti.</p>
+    <h2>Recupera tu belleza con el Plasma Rico en Plaquetas</h2>
+    <p>El PRP puede transformar tu piel y cabello de forma natural y segura. Agenda tu consulta hoy y renueva tu piel con el poder de las células regenerativas.</p>
     <a href="#" class="boton boton_principal" id="lead_whatsapp" title="WhatsApp de Tatiana Leal">Agenda tu cita ahora</a>
   </div>
 </aside>]]></content:encoded>
@@ -2386,7 +2382,7 @@
     
     <item>
       <title>Rejuve Face crema antiedad | Tratamiento antienvejecimiento | Dra. Tatiana Leal</title>
-      <description>Crema antiedad con 4 potentes antioxidantes: vitamina E, liposomas Q10, vitamina C y ácido lactobiónico. Tratamiento antienvejecimiento efectivo. Consulta gratis.</description>
+      <description>Crema antiedad con 4 potentes antioxidantes: vitamina E, liposomas Q10, vitamina C y ácido lactobiónico. Tratamiento antienvejecimiento efectivo.</description>
       <content:encoded><![CDATA[<main class="block_section">
   <small class="block_section_header">Cuidado facial avanzado</small>
   <h2 class="block_section_title">Crema rejuve-face: Una innovación para tu piel</h2>
