@@ -7,6 +7,106 @@
     
     
     <url>
+        <loc>https://dratatianaleal.com/en/blog/when-to-use-thread-lifting/</loc>
+        
+        <!-- Alternate Language Versions -->
+        
+            
+            
+                
+        <xhtml:link 
+            rel="alternate"
+            hreflang="es"
+            href="https://dratatianaleal.com/es/blog/cuando-escoger-hilos-tensores/"
+        />
+                
+            
+                
+            
+        
+        
+        <!-- Last Modified Date -->
+        <lastmod>
+            2025-01-10T00:00:00+00:00
+            
+        </lastmod>
+        
+        <!-- Featured Image -->
+        
+        <image:image>
+            <image:loc>https://dratatianaleal.com/img/blog/hilos-tensores-guia-completa.jpg</image:loc>
+            <image:title>Woman satisfied after a thread lifting treatment</image:title>
+            <image:caption>Discover if PDO thread lifting is the ideal solution for your aesthetic concerns. Learn when is the best time to consider this treatment and what to expect.</image:caption>
+        </image:image>
+        
+        
+        <!-- News-specific tags for medical content -->
+        <news:news>
+            <news:publication>
+                <news:name>Tatiana Leal</news:name>
+                <news:language>en</news:language>
+            </news:publication>
+            <news:publication_date>2025-01-10T00:00:00+00:00</news:publication_date>
+            <news:title>When is PDO thread lifting the best option for your face?</news:title>
+            
+        </news:news>
+        
+        <!-- Priority and Change Frequency -->
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://dratatianaleal.com/es/blog/cuando-escoger-hilos-tensores/</loc>
+        
+        <!-- Alternate Language Versions -->
+        
+            
+            
+                
+            
+                
+        <xhtml:link 
+            rel="alternate"
+            hreflang="en"
+            href="https://dratatianaleal.com/en/blog/when-to-use-thread-lifting/"
+        />
+                
+            
+        
+        
+        <!-- Last Modified Date -->
+        <lastmod>
+            2025-01-10T00:00:00+00:00
+            
+        </lastmod>
+        
+        <!-- Featured Image -->
+        
+        <image:image>
+            <image:loc>https://dratatianaleal.com/img/blog/hilos-tensores-guia-completa.jpg</image:loc>
+            <image:title>Mujer satisfecha después de un tratamiento con hilos tensores</image:title>
+            <image:caption>Descubre si los hilos tensores son la solución ideal para tus preocupaciones estéticas. Aprende cuándo es el mejor momento para considerar este tratamiento y qué puedes esperar.</image:caption>
+        </image:image>
+        
+        
+        <!-- News-specific tags for medical content -->
+        <news:news>
+            <news:publication>
+                <news:name>Tatiana Leal</news:name>
+                <news:language>es</news:language>
+            </news:publication>
+            <news:publication_date>2025-01-10T00:00:00+00:00</news:publication_date>
+            <news:title>¿Cuándo son los hilos tensores la mejor opción para tu rostro?</news:title>
+            
+        </news:news>
+        
+        <!-- Priority and Change Frequency -->
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
         <loc>https://dratatianaleal.com/en/blog/liposuccion-vs-lipolisis/</loc>
         
         <!-- Alternate Language Versions -->

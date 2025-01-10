@@ -1481,6 +1481,12 @@ hr {
   background-image: linear-gradient(rgba(0, 46, 81, 0.6), rgba(0, 46, 81, 0.6)),
     url('/img/radiofrecuencia-corporal-bogota.avif');
 }
+
+.parallax_maximus {
+  background-image: linear-gradient(rgba(0, 46, 81, 0.6), rgba(0, 46, 81, 0.6)),
+    url('/img/parallax_maximus.avif');
+}
+
 /* overlay */
 .section-overlay {
   background: var(--principal);
