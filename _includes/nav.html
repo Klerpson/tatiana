@@ -19,11 +19,11 @@
     <li class="dropdown">
       <span>{% if current_lang == 'en' %}Face & beauty{% else %}Rostro y belleza{% endif %}</span>
       <div class="dropdown-content">
-        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}facial-treatments/laser-rejuvenation/{% else %}tratamientos-faciales/rejuvenecimiento-laser/{% endif %}">
-          {% if current_lang == 'en' %}Laser Facial Rejuvenation{% else %}Rejuvenecimiento Facial con Láser{% endif %}
-        </a>
         <a href="/{{ current_lang }}/{% if current_lang == 'en' %}facial-treatments/tensor-threads/{% else %}tratamientos-faciales/hilos-tensores/{% endif %}">
           {% if current_lang == 'en' %}Tensor Threads{% else %}Hilos Tensores{% endif %}
+        </a>
+        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}facial-treatments/laser-rejuvenation/{% else %}tratamientos-faciales/rejuvenecimiento-laser/{% endif %}">
+          {% if current_lang == 'en' %}Laser Facial Rejuvenation{% else %}Rejuvenecimiento Facial con Láser{% endif %}
         </a>
         <a href="/{{ current_lang }}/{% if current_lang == 'en' %}facial-treatments/lip-enhancement/{% else %}tratamientos-faciales/aumento-labios/{% endif %}">
           {% if current_lang == 'en' %}Lip Fillers and Enhancement{% else %}Relleno y Aumento de Labios{% endif %}
@@ -96,6 +96,9 @@
         </a>
         <a href="/{{ current_lang }}/{% if current_lang == 'en' %}technology/scizer{% else %}tecnologia/scizer{% endif %}/">
           {% if current_lang == 'en' %}Scizer{% else %}Scizer{% endif %}
+        </a>
+        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}technology/maximus{% else %}tecnologia/maximus{% endif %}/">
+          {% if current_lang == 'en' %}Maximus{% else %}Maximus{% endif %}
         </a>
       </div>
     </li>

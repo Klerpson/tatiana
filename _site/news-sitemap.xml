@@ -9,6 +9,20 @@
   
     
     
+      
+      <url>
+        <loc>http://localhost:4000/es/blog/cuando-escoger-hilos-tensores/</loc>
+        <news:news>
+          <news:publication>
+            <news:name>Tatiana Leal</news:name>
+            <news:language>es</news:language>
+          </news:publication>
+          <news:publication_date>2025-01-10T00:00:00-05:00</news:publication_date>
+          <news:title>¿Cuándo son los hilos tensores la mejor opción para tu rostro?</news:title>
+          
+        </news:news>
+      </url>
+    
   
     
     
@@ -22,18 +36,9 @@
     
     
   
+    
+    
   
   
-    <url>
-      <loc>http://localhost:4000</loc>
-      <news:news>
-        <news:publication>
-          <news:name>Tatiana Leal</news:name>
-          <news:language>es</news:language>
-        </news:publication>
-        <news:publication_date>2025-01-10T15:51:02-05:00</news:publication_date>
-        <news:title>Doctora Tatiana Leal</news:title>
-      </news:news>
-    </url>
   
 </urlset>
