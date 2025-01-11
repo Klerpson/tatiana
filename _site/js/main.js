@@ -56,30 +56,3 @@ function handleYouTubeError() {
 }
 
 document.addEventListener('DOMContentLoaded', handleYouTubeError);
-
-// LOADING VIDEOS EMBEDED
-document.addEventListener('DOMContentLoaded', function() {
-  // Lazy loading para videos
-  const lazyVideos = document.querySelectorAll('.lazy-video');
-  
-  const videoObserver = new IntersectionObserver((entries, observer) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        const video = entry.target;
-        const source = video.querySelector('source');
-        
-        if (source.dataset.src) {
-          source.src = source.dataset.src;
-          video.load();
-          video.play();
-          
-          observer.unobserve(video);
-        }
-      }
-    });
-  });
-  
-  lazyVideos.forEach(video => {
-    videoObserver.observe(video);
-  });
-});

@@ -556,7 +556,7 @@ hr {
 }
 
 .specialist-features li {
-  margin-bottom: 0.5rem;
+  margin: 0;
   list-style: none;
   position: relative;
 
@@ -1256,7 +1256,7 @@ hr {
   width: 100%;
   height: auto;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .card:hover {
@@ -1365,6 +1365,10 @@ hr {
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
+
+  h2 {
+    color: #ffffff;
+  }
 }
 
 .parallax_copy,
@@ -1445,8 +1449,6 @@ hr {
 .parallax_moldeamiento-corporal {
   background-image: linear-gradient(rgba(0, 46, 81, 0.6), rgba(0, 46, 81, 0.6)),
     url('/img/moldeamiento-corporal-en-bogota.avif');
-
-    h2{color: #ffffff;}
 }
 
 .parallax_celulitis {
@@ -1479,7 +1481,7 @@ hr {
     url('/img/radiofrecuencia-corporal-bogota.avif');
 }
 
-.parallax_varices{
+.parallax_varices {
   background-image: linear-gradient(rgba(0, 46, 81, 0.6), rgba(0, 46, 81, 0.6)),
     url('/img/tratamiento-varices-en-bogota.avif');
 }
@@ -1539,7 +1541,7 @@ hr {
   background: var(--principal);
   color: #fff;
 
-  h2{
+  h2 {
     color: #fefefe;
   }
 }
@@ -1547,16 +1549,22 @@ hr {
 .three_blocks {
   display: flex;
   justify-content: space-around;
-  align-items: center;
   flex-wrap: wrap;
 }
 
-.block{
+.block {
   width: min(max(300px, 80vw), 480px);
   flex: 1 1 300px;
 
-  li::marker{
-    color: #fefefe;
+  li {
+    margin: 0;
+    list-style: none;
+
+    &::before {
+      content: "✓";
+      color: var(--accion);
+      padding-right: 4px;
+    }
   }
 }
 
@@ -1564,18 +1572,29 @@ hr {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-radius: var(--radius);
 }
-
 
 .gallery-video {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-radius: var(--radius);
 }
+
+.benefits-option ul li {
+  margin: 0 0 8px;
+  list-style: none;
+
+  &::before {
+    content: "✓";
+    color: var(--accion);
+    padding-right: 4px;
+  }
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;

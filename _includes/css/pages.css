@@ -48,7 +48,7 @@
   width: 100%;
   height: auto;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .card:hover {
@@ -157,6 +157,10 @@
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
+
+  h2 {
+    color: #ffffff;
+  }
 }
 
 .parallax_copy,
@@ -237,8 +241,6 @@
 .parallax_moldeamiento-corporal {
   background-image: linear-gradient(rgba(0, 46, 81, 0.6), rgba(0, 46, 81, 0.6)),
     url('{{"img/moldeamiento-corporal-en-bogota.avif" | relative_url}}');
-
-    h2{color: #ffffff;}
 }
 
 .parallax_celulitis {
@@ -271,7 +273,7 @@
     url('{{"img/radiofrecuencia-corporal-bogota.avif" | relative_url}}');
 }
 
-.parallax_varices{
+.parallax_varices {
   background-image: linear-gradient(rgba(0, 46, 81, 0.6), rgba(0, 46, 81, 0.6)),
     url('{{"img/tratamiento-varices-en-bogota.avif" | relative_url}}');
 }
@@ -331,7 +333,7 @@
   background: var(--principal);
   color: #fff;
 
-  h2{
+  h2 {
     color: #fefefe;
   }
 }
@@ -339,16 +341,22 @@
 .three_blocks {
   display: flex;
   justify-content: space-around;
-  align-items: center;
   flex-wrap: wrap;
 }
 
-.block{
+.block {
   width: min(max(300px, 80vw), 480px);
   flex: 1 1 300px;
 
-  li::marker{
-    color: #fefefe;
+  li {
+    margin: 0;
+    list-style: none;
+
+    &::before {
+      content: "✓";
+      color: var(--accion);
+      padding-right: 4px;
+    }
   }
 }
 
@@ -356,15 +364,25 @@
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-radius: var(--radius);
 }
-
 
 .gallery-video {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-radius: var(--radius);
+}
+
+.benefits-option ul li {
+  margin: 0 0 8px;
+  list-style: none;
+
+  &::before {
+    content: "✓";
+    color: var(--accion);
+    padding-right: 4px;
+  }
 }

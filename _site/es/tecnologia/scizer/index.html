@@ -408,8 +408,8 @@ li {
 .intro {
   width: 100%;
   display: grid;
-  place-items: center;
   text-align: center;
+  justify-items: center;
 
   figcaption{
     max-width: 992px;
@@ -1054,18 +1054,7 @@ nav {
 </section>
 <section class="gallery-container seccion">
   <div class="gallery-item gallery-item-home">
-    <video 
-      class="lazy-video" 
-      autoplay 
-      muted 
-      loop 
-      playsinline 
-      poster="/img/centro-estetico-bogota-doctora-tatiana-leal.avif"
-      width="520" 
-      height="780">
-      <source data-src="/videos/tratamiento-scizer-resultados.mp4" type="video/mp4">
-      Su navegador no soporta videos HTML5.
-    </video>
+    <img src="/img/centro-estetico-bogota-doctora-tatiana-leal.avif" alt="Tratamiento Scizer en la clínica Dra Tatiana Leal" loading="lazy" decoding="async" height="604" width="452">
     <div class="video-overlay">
       <h4>Resultados SCIZER</h4>
       <p>Transformaciones reales</p>
@@ -1073,26 +1062,14 @@ nav {
   </div>
   
   <div class="gallery-item gallery-item-home">
-    <video 
-      class="lazy-video" 
-      autoplay 
-      muted 
-      loop 
-      playsinline 
-      poster="/img/doctora-tatiana-leal-bogota.avif"
-      width="520" 
-      height="780">
-      <source data-src="/videos/procedimiento-scizer.mp4" type="video/mp4">
-      Su navegador no soporta videos HTML5.
-    </video>
+    <img src="/img/doctora-tatiana-leal-bogota.avif" alt="Doctora Tatiana Leal especialista en tratamiento Scizer" loading="lazy" decoding="async" height="604" width="452">
     <div class="video-overlay">
-      <h4>Procedimiento SCIZER</h4>
+      <h4>Especialista en SCIZER</h4>
       <p>Tecnología de última generación</p>
     </div>
   </div>
-
+  
   <div class="gallery-item intro">
-    <strong>Médica Especialista</strong>
     <h3>Dra. Tatiana Leal</h3>
     <p>Especialista en <strong>Medicina Estética y Láser</strong> de la Universidad del Rosario</p>
     <ul class="specialist-features">
@@ -1102,20 +1079,9 @@ nav {
     </ul>
     <a href="#" class="boton boton_principal" id="lead_whatsapp" title="WhatsApp de Tatiana Leal">Agenda tu cita ahora</a>
   </div>
-
+  
   <div class="gallery-item gallery-item-home">
-    <video 
-    class="lazy-video" 
-    autoplay 
-    muted 
-    loop 
-    playsinline 
-    poster="/img/maquina-scizer.avif"
-    width="520" 
-    height="780">
-    <source data-src="/videos/instalaciones-scizer.mp4" type="video/mp4">
-    Su navegador no soporta videos HTML5.
-  </video>
+    <img src="/img/maquina-scizer.avif" alt="Máquina Scizer para tratamiento corporal" loading="lazy" decoding="async" height="604" width="452">
     <div class="video-overlay">
       <h4>Centro de Excelencia</h4>
       <p>Tecnología exclusiva SCIZER</p>
@@ -1129,9 +1095,9 @@ nav {
     <p>En el centro estético de la Dra. Tatiana Leal, contamos con una de las dos únicas máquinas SCIZER disponibles en todo Colombia. Esta exclusiva tecnología, con una inversión superior a los equipos convencionales, representa el más alto estándar en tratamientos de remodelación corporal no invasiva.</p>
   </div>
 </section>
-<main class="block_section">
-  <article class="block_section_image_left padding img_seccion intro flow">
-    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" width="200" height="200" class="intro">
+<main class="three_blocks seccion intro">
+  <article class="block padding flow">
+    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" width="160" height="160" class="intro">
       <path d="M12 3V8M12 8L15 5M12 8L9 5" stroke="#cfbaa3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
       <path d="M12 21V16M12 16L15 19M12 16L9 19" stroke="#cfbaa3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
       <path d="M3 12H8M8 12L5 15M8 12L5 9" stroke="#cfbaa3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -1149,8 +1115,8 @@ nav {
     <a href="#consulta" class="boton boton_auxiliar">Agenda tu consulta</a>
   </article>
 
-  <article class="block_section_knowledge img_seccion intro flow">
-    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" width="200" height="200" class="intro">
+  <article class="block padding section-overlay flow intro">
+    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" width="160" height="160" class="intro">
       <path d="M21 6L15.7071 11.2929C15.3166 11.6834 14.6834 11.6834 14.2929 11.2929L12.7071 9.70711C12.3166 9.31658 11.6834 9.31658 11.2929 9.70711L3 18" stroke="#cfbaa3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
       <path d="M21 6H15" stroke="#cfbaa3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
       <path d="M21 6V12" stroke="#cfbaa3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -1166,8 +1132,8 @@ nav {
     </ul>
   </article>
 
-  <article class="block_section_image_right img_seccion padding intro flow">
-    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" width="200" height="200" class="intro">
+  <article class="block padding flow intro">
+    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" width="160" height="160" class="intro">
       <path d="M12 4L3 8L12 12L21 8L12 4Z" stroke="#cfbaa3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
       <path d="M7.5 10L3 12L12 16L21 12L16.5 10" stroke="#cfbaa3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
       <path d="M7.5 14L3 16L12 20L21 16L16.5 14" stroke="#cfbaa3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -1180,7 +1146,6 @@ nav {
       <li>Equipo médico especializado</li>
       <li>Seguimiento personalizado</li>
     </ul>
-    <a href="#casos" class="boton boton_auxiliar">Ver resultados</a>
   </article>
 </main>
 
