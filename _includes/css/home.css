@@ -7,6 +7,11 @@
     "title title image-right"
     "content content image-right"
     "image-left knowledge image-right";
+
+    .feature-list li{
+      list-style: none;
+      margin-bottom: 8px;
+    }
 }
 
 .block_section_header {
