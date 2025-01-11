@@ -147,6 +147,8 @@
     
       <link rel="alternate" hreflang="" href="https://dratatianaleal.com/lifting-facial-en-bogota/">
     
+      <link rel="alternate" hreflang="" href="https://dratatianaleal.com/es_co/lifting-facial-en-bogota/">
+    
       <link rel="alternate" hreflang="" href="https://dratatianaleal.com/rejuvenecimiento-facial/limpieza-facial-profunda/">
     
       <link rel="alternate" hreflang="" href="https://dratatianaleal.com/en/rejuvenecimiento-facial/limpieza-facial-profunda-2/">
@@ -177,6 +179,10 @@
     
       <link rel="alternate" hreflang="" href="https://dratatianaleal.com/B?A=Rejuvenecimiento-Facial">
     
+      <link rel="alternate" hreflang="" href="https://dratatianaleal.com/D?A=Medicina-Estetica-Laser">
+    
+      <link rel="alternate" hreflang="" href="https://dratatianaleal.com/services_group/rejuvenecimiento-facial/">
+    
       <link rel="alternate" hreflang="" href="https://dratatianaleal.com/rejuvenecimiento-facial/vitamina-c-facial/">
     
       <link rel="alternate" hreflang="" href="https://dratatianaleal.com/hydrate-vitamina-c-facial/">
@@ -199,9 +205,13 @@
     
       <link rel="alternate" hreflang="" href="https://dratatianaleal.com/en/hyaluronic-acid/">
     
+      <link rel="alternate" hreflang="" href="https://dratatianaleal.com/en/rejuvenecimiento-facial/acido-hialuronico/">
+    
       <link rel="alternate" hreflang="" href="https://dratatianaleal.com/en/laser-facial-rejuvenation-in-bogota/">
     
       <link rel="alternate" hreflang="" href="https://dratatianaleal.com/en/rejuvenecimiento-facial-con-laser-en-bogota/">
+    
+      <link rel="alternate" hreflang="" href="https://dratatianaleal.com/en/lifting-facial-en-bogota/">
     
       <link rel="alternate" hreflang="" href="https://dratatianaleal.com/en/lip-filling-and-augmentation-in-bogota/">
     
@@ -264,6 +274,8 @@
       <link rel="alternate" hreflang="" href="https://dratatianaleal.com/services/lipolisis-laser-en-bogota/">
     
       <link rel="alternate" hreflang="" href="https://dratatianaleal.com/F?A=Partes-para-reducir-con-lipolisis">
+    
+      <link rel="alternate" hreflang="" href="https://dratatianaleal.com/es_co/lipolisis-laser/">
     
       <link rel="alternate" hreflang="" href="https://dratatianaleal.com/corporales/moldeamiento-corporal/">
     
@@ -334,6 +346,8 @@
       <link rel="alternate" hreflang="" href="https://dratatianaleal.com/ginecologia-estetica/eliminacion-lesiones-benignas/">
     
       <link rel="alternate" hreflang="" href="https://dratatianaleal.com/remocion-de-lesiones-benignas/">
+    
+      <link rel="alternate" hreflang="" href="https://dratatianaleal.com/es_co/remocion-de-lesiones-benignas/">
     
       <link rel="alternate" hreflang="" href="https://dratatianaleal.com/ginecologia-estetica/rejuvenecimiento-vaginal/">
     
@@ -1452,6 +1466,9 @@ nav {
     <li class="dropdown">
       <span>Medicina estética íntima</span>
       <div class="dropdown-content">
+        <a href="/es/tratamientos-intimos/aclaramiento-genital/">
+          Despigmentación genital
+        </a>
         <a href="/es/tratamientos-intimos/rejuvenecimiento-vaginal/">
           Rejuvenecimiento Vaginal
         </a>
