@@ -94,18 +94,22 @@
 
   <!-- Schemas -->
   
-
   
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Physician",
+  "@type": "Person",
   "name": "Dra. Tatiana Leal",
   "givenName": "Tatiana",
   "familyName": "Leal",
   "honorificPrefix": "Dra.",
   "gender": "Female",
-  "image": "http://localhost:4000/img/doctora-tatiana-leal-medicina-estetica.avif",
+  "image": {
+    "@type": "ImageObject",
+    "url": "http://localhost:4000/img/doctora-tatiana-leal-medicina-estetica.avif",
+    "height": "800",
+    "width": "800"
+  },
   "description": "Dr. Tatiana Leal, aesthetic medicine specialist with over 15 years of experience, offers personalized treatments and natural results in Bogotá.",
   "url": "http://localhost:4000/en/dr-tatiana-leal/",
   
@@ -115,33 +119,23 @@
     "https://www.youtube.com/channel/UCxF-X7in4xUFxYYwCMyC5OQ"
   ],
   
-  "memberOf": [
-    {
-      "@type": "MedicalOrganization",
-      "name": "Tatiana Leal",
-      "url": "http://localhost:4000"
-    }
-    ,
-    {
-      "@type": "CollegeOrUniversity",
-      "name": "Universidad del Rosario",
-      "url": "https://www.urosario.edu.co/"
-    }
+  "jobTitle": "Especialista en medicina estética y láser",
+  "worksFor": {
+    "@type": "MedicalOrganization",
+    "name": "Tatiana Leal",
+    "url": "http://localhost:4000"
+  },
+  "knowsAbout": [
+    
+    "Rejuvenecimiento facial no quirúrgico",
+    "Tratamientos con láser",
+    "Bioestimuladores de colágeno",
+    "Toxina botulínica",
+    "Ácido hialurónico",
+    "Medicina estética avanzada"
     
   ],
-  "specialty": [
-    
-    {
-      "@type": "MedicalSpecialty",
-      "name": "Medicina Estética y Láser"
-    },
-    {
-      "@type": "MedicalSpecialty",
-      "name": "Rejuvenecimiento Facial No Quirúrgico"
-    }
-    
-  ],
-  "qualification": [
+  "hasCredential": [
     
     {
       "@type": "EducationalOccupationalCredential",
@@ -153,36 +147,7 @@
       }
     }
     
-  ],
-  "workLocation": {
-    "@type": "MedicalClinic",
-    "name": "Tatiana Leal",
-    "url": "http://localhost:4000",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "Torre Magna PI, Av Suba #114 - 59 Piso 6, Cons G14, Bogotá",
-      "addressLocality": "Bogotá",
-      "addressRegion": "DC",
-      "addressCountry": "CO"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": "4.6964387",
-      "longitude": "-74.0692314"
-    }
-  },
-  "availableLanguage": ["es", "en"],
-  
-  "knowsAbout": [
-    "Rejuvenecimiento facial no quirúrgico",
-    "Tratamientos con láser",
-    "Bioestimuladores de colágeno",
-    "Toxina botulínica",
-    "Ácido hialurónico",
-    "Medicina estética avanzada"
-  ],
-  
-  "jobTitle": "Especialista en medicina estética y láser"
+  ]
 }
 </script>
 
@@ -740,11 +705,11 @@ nav {
     <li class="dropdown">
       <span>Face & beauty</span>
       <div class="dropdown-content">
-        <a href="/en/facial-treatments/laser-rejuvenation/">
-          Laser Facial Rejuvenation
-        </a>
         <a href="/en/facial-treatments/tensor-threads/">
           Tensor Threads
+        </a>
+        <a href="/en/facial-treatments/laser-rejuvenation/">
+          Laser Facial Rejuvenation
         </a>
         <a href="/en/facial-treatments/lip-enhancement/">
           Lip Fillers and Enhancement
@@ -791,6 +756,9 @@ nav {
     <li class="dropdown">
       <span>Intimate aesthetic medicina</span>
       <div class="dropdown-content">
+        <a href="/en/intimate-treatments/intimate-lightening/">
+          Intimate depigmentation
+        </a>
         <a href="/en/intimate-treatments/vaginal-rejuvenation/">
           Vaginal Rejuvenation
         </a>
@@ -817,6 +785,9 @@ nav {
         </a>
         <a href="/en/technology/scizer/">
           Scizer
+        </a>
+        <a href="/en/technology/maximus/">
+          Maximus
         </a>
       </div>
     </li>
@@ -1176,12 +1147,9 @@ nav {
   </div>
 </footer>
   
- 
   <script defer src="/js/main.js"></script>
-
   <!-- JavaScript para la rotación de imágenes -->
   
-
   
 
   
@@ -1247,6 +1215,8 @@ nav {
     });
   });
   </script>
+
+  
 </body>
 </html>
 

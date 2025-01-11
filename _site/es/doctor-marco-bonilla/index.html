@@ -96,42 +96,39 @@
 
   <!-- Schemas -->
   
-
   
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Physician",
+  "@type": "Person",
   "name": "Dr. Marco Bonilla",
   "givenName": "Marco",
   "familyName": "Bonilla",
   "honorificPrefix": "Dr.",
   "gender": "Male",
-  "image": "http://localhost:4000/img/doctor-marco-bonilla-medicina-estetica.avif",
+  "image": {
+    "@type": "ImageObject",
+    "url": "http://localhost:4000/img/doctor-marco-bonilla-medicina-estetica.avif",
+    "height": "800",
+    "width": "800"
+  },
   "description": "El Dr. Marco Bonilla, especialista en Ginecología y Obstetricia con más de una década de experiencia, ofrece atención médica personalizada y tratamientos estéticos especializados para la mujer.",
   "url": "http://localhost:4000/es/doctor-marco-bonilla/",
   
-  "memberOf": [
-    {
-      "@type": "MedicalOrganization",
-      "name": "Tatiana Leal",
-      "url": "http://localhost:4000"
-    }
+  "jobTitle": "Especialista en medicina estética y láser",
+  "worksFor": {
+    "@type": "MedicalOrganization",
+    "name": "Tatiana Leal",
+    "url": "http://localhost:4000"
+  },
+  "knowsAbout": [
+    
+    "Ginecología",
+    "Obstetricia",
+    "Ginecología Estética"
     
   ],
-  "specialty": [
-    
-    {
-      "@type": "MedicalSpecialty",
-      "name": "Ginecología y Obstetricia"
-    },
-    {
-      "@type": "MedicalSpecialty",
-      "name": "Ginecología Estética"
-    }
-    
-  ],
-  "qualification": [
+  "hasCredential": [
     
     {
       "@type": "EducationalOccupationalCredential",
@@ -143,27 +140,7 @@
       }
     }
     
-  ],
-  "workLocation": {
-    "@type": "MedicalClinic",
-    "name": "Tatiana Leal",
-    "url": "http://localhost:4000",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "Torre Magna PI, Av Suba #114 - 59 Piso 6, Cons G14, Bogotá",
-      "addressLocality": "Bogotá",
-      "addressRegion": "DC",
-      "addressCountry": "CO"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": "4.6964387",
-      "longitude": "-74.0692314"
-    }
-  },
-  "availableLanguage": ["es", "en"],
-  
-  "jobTitle": "Especialista en medicina estética y láser"
+  ]
 }
 </script>
 
@@ -721,11 +698,11 @@ nav {
     <li class="dropdown">
       <span>Rostro y belleza</span>
       <div class="dropdown-content">
-        <a href="/es/tratamientos-faciales/rejuvenecimiento-laser/">
-          Rejuvenecimiento Facial con Láser
-        </a>
         <a href="/es/tratamientos-faciales/hilos-tensores/">
           Hilos Tensores
+        </a>
+        <a href="/es/tratamientos-faciales/rejuvenecimiento-laser/">
+          Rejuvenecimiento Facial con Láser
         </a>
         <a href="/es/tratamientos-faciales/aumento-labios/">
           Relleno y Aumento de Labios
@@ -772,6 +749,9 @@ nav {
     <li class="dropdown">
       <span>Medicina estética íntima</span>
       <div class="dropdown-content">
+        <a href="/es/tratamientos-intimos/aclaramiento-genital/">
+          Despigmentación genital
+        </a>
         <a href="/es/tratamientos-intimos/rejuvenecimiento-vaginal/">
           Rejuvenecimiento Vaginal
         </a>
@@ -798,6 +778,9 @@ nav {
         </a>
         <a href="/es/tecnologia/scizer/">
           Scizer
+        </a>
+        <a href="/es/tecnologia/maximus/">
+          Maximus
         </a>
       </div>
     </li>
@@ -1126,12 +1109,9 @@ nav {
   </div>
 </footer>
   
- 
   <script defer src="/js/main.js"></script>
-
   <!-- JavaScript para la rotación de imágenes -->
   
-
   
 
   
@@ -1197,6 +1177,8 @@ nav {
     });
   });
   </script>
+
+  
 </body>
 </html>
 

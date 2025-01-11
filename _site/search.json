@@ -97,6 +97,14 @@
     
       <link rel="alternate" hreflang="" href="http://localhost:4000/F?A=Cual-es-diferencia-entre-lipolisis-laser-invasiva-y-no-invasiva">
     
+      <link rel="alternate" hreflang="" href="http://localhost:4000/when-to-get-thread-lifting/">
+    
+      <link rel="alternate" hreflang="" href="http://localhost:4000/en/ideal-time-thread-lifting/">
+    
+      <link rel="alternate" hreflang="" href="http://localhost:4000/cuando-aplicar-hilos-tensores/">
+    
+      <link rel="alternate" hreflang="" href="http://localhost:4000/es-co/momento-ideal-hilos-tensores/">
+    
       <link rel="alternate" hreflang="" href="http://localhost:4000/rejuvenecimiento-facial/acido-hialuronico/">
     
       <link rel="alternate" hreflang="" href="http://localhost:4000/acido-hialuronico/">
@@ -135,17 +143,11 @@
     
       <link rel="alternate" hreflang="" href="http://localhost:4000/hilos-tensores-en-bogota/">
     
-      <link rel="alternate" hreflang="" href="http://localhost:4000/E?A=Hilos-Tensores-Faciales-Bogota">
-    
-      <link rel="alternate" hreflang="" href="http://localhost:4000/hilos-tensores-en-bogota/">
-    
-      <link rel="alternate" hreflang="" href="http://localhost:4000/es_co/rejuvenecimiento-facial/hilos-tensores/">
-    
-      <link rel="alternate" hreflang="" href="http://localhost:4000/es_co/tratamientos-hilos-tensores/">
-    
       <link rel="alternate" hreflang="" href="http://localhost:4000/rejuvenecimiento-facial/lifting-facial-sin-cirugia/">
     
       <link rel="alternate" hreflang="" href="http://localhost:4000/lifting-facial-en-bogota/">
+    
+      <link rel="alternate" hreflang="" href="http://localhost:4000/es_co/lifting-facial-en-bogota/">
     
       <link rel="alternate" hreflang="" href="http://localhost:4000/rejuvenecimiento-facial/limpieza-facial-profunda/">
     
@@ -177,6 +179,10 @@
     
       <link rel="alternate" hreflang="" href="http://localhost:4000/B?A=Rejuvenecimiento-Facial">
     
+      <link rel="alternate" hreflang="" href="http://localhost:4000/D?A=Medicina-Estetica-Laser">
+    
+      <link rel="alternate" hreflang="" href="http://localhost:4000/services_group/rejuvenecimiento-facial/">
+    
       <link rel="alternate" hreflang="" href="http://localhost:4000/rejuvenecimiento-facial/vitamina-c-facial/">
     
       <link rel="alternate" hreflang="" href="http://localhost:4000/hydrate-vitamina-c-facial/">
@@ -199,9 +205,13 @@
     
       <link rel="alternate" hreflang="" href="http://localhost:4000/en/hyaluronic-acid/">
     
+      <link rel="alternate" hreflang="" href="http://localhost:4000/en/rejuvenecimiento-facial/acido-hialuronico/">
+    
       <link rel="alternate" hreflang="" href="http://localhost:4000/en/laser-facial-rejuvenation-in-bogota/">
     
       <link rel="alternate" hreflang="" href="http://localhost:4000/en/rejuvenecimiento-facial-con-laser-en-bogota/">
+    
+      <link rel="alternate" hreflang="" href="http://localhost:4000/en/lifting-facial-en-bogota/">
     
       <link rel="alternate" hreflang="" href="http://localhost:4000/en/lip-filling-and-augmentation-in-bogota/">
     
@@ -264,6 +274,8 @@
       <link rel="alternate" hreflang="" href="http://localhost:4000/services/lipolisis-laser-en-bogota/">
     
       <link rel="alternate" hreflang="" href="http://localhost:4000/F?A=Partes-para-reducir-con-lipolisis">
+    
+      <link rel="alternate" hreflang="" href="http://localhost:4000/es_co/lipolisis-laser/">
     
       <link rel="alternate" hreflang="" href="http://localhost:4000/corporales/moldeamiento-corporal/">
     
@@ -334,6 +346,8 @@
       <link rel="alternate" hreflang="" href="http://localhost:4000/ginecologia-estetica/eliminacion-lesiones-benignas/">
     
       <link rel="alternate" hreflang="" href="http://localhost:4000/remocion-de-lesiones-benignas/">
+    
+      <link rel="alternate" hreflang="" href="http://localhost:4000/es_co/remocion-de-lesiones-benignas/">
     
       <link rel="alternate" hreflang="" href="http://localhost:4000/ginecologia-estetica/rejuvenecimiento-vaginal/">
     
@@ -655,6 +669,8 @@
     
       <link rel="alternate" hreflang="es" href="http://localhost:4000/es/tratamientos-intimos/">
     
+      <link rel="alternate" hreflang="en" href="http://localhost:4000/en/blog/when-to-use-thread-lifting/">
+    
       <link rel="alternate" hreflang="en" href="http://localhost:4000/en/blog/liposuccion-vs-lipolisis/">
     
       <link rel="alternate" hreflang="en" href="http://localhost:4000/en/technology/platelet-rich-plasma/">
@@ -664,6 +680,8 @@
       <link rel="alternate" hreflang="en" href="http://localhost:4000/en/blog/lip-filler-techniques/">
     
       <link rel="alternate" hreflang="en" href="http://localhost:4000/en/blog/laser-lipolysis-risks/">
+    
+      <link rel="alternate" hreflang="es" href="http://localhost:4000/es/blog/cuando-escoger-hilos-tensores/">
     
       <link rel="alternate" hreflang="es" href="http://localhost:4000/es/blog/liposuccion-vs-lipolisis/">
     
@@ -842,7 +860,6 @@
 
   <!-- Schemas -->
   
-
   
   
 
@@ -1398,11 +1415,11 @@ nav {
     <li class="dropdown">
       <span>Rostro y belleza</span>
       <div class="dropdown-content">
-        <a href="/es/tratamientos-faciales/rejuvenecimiento-laser/">
-          Rejuvenecimiento Facial con Láser
-        </a>
         <a href="/es/tratamientos-faciales/hilos-tensores/">
           Hilos Tensores
+        </a>
+        <a href="/es/tratamientos-faciales/rejuvenecimiento-laser/">
+          Rejuvenecimiento Facial con Láser
         </a>
         <a href="/es/tratamientos-faciales/aumento-labios/">
           Relleno y Aumento de Labios
@@ -1449,6 +1466,9 @@ nav {
     <li class="dropdown">
       <span>Medicina estética íntima</span>
       <div class="dropdown-content">
+        <a href="/es/tratamientos-intimos/aclaramiento-genital/">
+          Despigmentación genital
+        </a>
         <a href="/es/tratamientos-intimos/rejuvenecimiento-vaginal/">
           Rejuvenecimiento Vaginal
         </a>
@@ -1475,6 +1495,9 @@ nav {
         </a>
         <a href="/es/tecnologia/scizer/">
           Scizer
+        </a>
+        <a href="/es/tecnologia/maximus/">
+          Maximus
         </a>
       </div>
     </li>
@@ -1607,6 +1630,18 @@ nav {
       [
   
    {
+  "title": "¿Cuándo son los hilos tensores la mejor opción para tu rostro?",
+  "url": "/es/blog/cuando-escoger-hilos-tensores/",
+  "category": "tratamientos-faciales",
+  "tags": "hilos-tensores, rejuvenecimiento-facial, medicina-estetica, pdo, flacidez-facial"
+  } ,  
+   {
+  "title": "When is PDO thread lifting the best option for your face?",
+  "url": "/en/blog/when-to-use-thread-lifting/",
+  "category": "facial-treatments",
+  "tags": "thread-lifting, facial-rejuvenation, aesthetic-medicine, pdo-threads, facial-sagging"
+  } ,  
+   {
   "title": "Liposucción vs Lipólisis en Colombia: ¿Cuál es mejor para ti en 2024?",
   "url": "/es/blog/liposuccion-vs-lipolisis/",
   "category": "tratamientos-corporales",
@@ -1719,12 +1754,9 @@ nav {
   </div>
 </footer>
   
- 
   <script defer src="/js/main.js"></script>
-
   <!-- JavaScript para la rotación de imágenes -->
   
-
   
 
   
@@ -1790,6 +1822,8 @@ nav {
     });
   });
   </script>
+
+  
 </body>
 </html>
 

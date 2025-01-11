@@ -93,65 +93,133 @@
   <!-- Schemas -->
   
 <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "MedicalProcedure",
-    "name": "PRP treatment in Bogota | Natural regeneration | Dr. Tatiana Leal",
-    "alternateName": "Platelet-rich plasma: your body's regenerative power",
-    "description": "Premium platelet-rich plasma treatment for facial rejuvenation. Certified European medical protocol. Natural collagen stimulation. Progressive, long-lasting results.",
-    "url": "http://localhost:4000/en/facial-treatments/plasma/",
-    "image": "http://localhost:4000/img/tratamiento-plasma-rico-plaquetas.avif",
-    "additionalProperty": {
-      "@type": "PropertyValue",
-      "name": "SecondaryImage",
-      "value": "http://localhost:4000/img/centro-medicina-estetica-prp.avif"
-    },
-    "medicineSystem": "Conventional",
-    "specialty": {
-      "@type": "MedicalSpecialty",
-      "name": "Medicina Estética"
-    },
-    "study": {
-      "@type": "MedicalStudy",
-      "healthCondition": {
-        "@type": "MedicalCondition",
-        "name": "Envejecimiento cutáneo"
-      }
-    },
-    "howPerformed": "Procedimiento no invasivo realizado en consultorio",
-    "preparation": {
-      "@type": "MedicalEntity",
-      "description": "Evaluación médica previa. No requiere anestesia general. Procedimiento ambulatorio."
-    },
-    "procedureType": "Premium platelet-rich plasma treatment for facial rejuvenation. Certified European medical protocol. Natural collagen stimulation. Progressive, long-lasting results.",
-    "followup": "Seguimiento personalizado post-tratamiento",
-    
-  "procedureReview": [
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalProcedure",
+  "name": "PRP treatment in Bogota | Natural regeneration | Dr. Tatiana Leal",
+  "description": "Premium platelet-rich plasma treatment for facial rejuvenation. Certified European medical protocol. Natural collagen stimulation. Progressive, long-lasting results.",
+  "url": "http://localhost:4000/en/facial-treatments/plasma/",
+  "image": {
+    "@type": "ImageObject",
+    "url": "http://localhost:4000/img/tratamiento-plasma-rico-plaquetas.avif",
+    "height": "1200",
+    "width": "1200"
+  },
+  "medicineSystem": "Conventional",
+  "howPerformed": "Procedimiento no invasivo realizado en consultorio",
+  "preparation": "Evaluación médica previa. No requiere anestesia general. Procedimiento ambulatorio.",
+  "procedureType": "Premium platelet-rich plasma treatment for facial rejuvenation. Certified European medical protocol. Natural collagen stimulation. Progressive, long-lasting results.",
+  "followup": "Seguimiento personalizado post-tratamiento",
+  "performer": {
+    "@type": "MedicalOrganization",
+    "name": "Tatiana Leal",
+    "url": "http://localhost:4000"
+  },
+  
+  "review": [
     
     {
       "@type": "Review",
       "reviewBody": "Visible results after 3 sessions of facial PRP. Notable improvement in texture and radiance.",
+      "itemReviewed": {
+        "@type": "MedicalProcedure",
+        "name": "PRP treatment in Bogota | Natural regeneration | Dr. Tatiana Leal"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Paciente Anónimo"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
       "image": [
-        "http://localhost:4000/img/antes-plasma-rico-plaquetas-1.avif",
-        "http://localhost:4000/img/despues-plasma-rico-plaquetas-1.avif"
+        {
+          "@type": "ImageObject",
+          "url": "http://localhost:4000/img/antes-plasma-rico-plaquetas-1.avif",
+          "height": "800",
+          "width": "800",
+          "caption": "Antes del tratamiento"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "http://localhost:4000/img/despues-plasma-rico-plaquetas-1.avif",
+          "height": "800",
+          "width": "800",
+          "caption": "Después del tratamiento"
+        }
       ]
     },
     
     {
       "@type": "Review",
       "reviewBody": "Hair strengthening and regeneration after 4 PRP sessions.",
+      "itemReviewed": {
+        "@type": "MedicalProcedure",
+        "name": "PRP treatment in Bogota | Natural regeneration | Dr. Tatiana Leal"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Paciente Anónimo"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
       "image": [
-        "http://localhost:4000/img/antes-plasma-rico-plaquetas-2.avif",
-        "http://localhost:4000/img/despues-plasma-rico-plaquetas-2.avif"
+        {
+          "@type": "ImageObject",
+          "url": "http://localhost:4000/img/antes-plasma-rico-plaquetas-2.avif",
+          "height": "800",
+          "width": "800",
+          "caption": "Antes del tratamiento"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "http://localhost:4000/img/despues-plasma-rico-plaquetas-2.avif",
+          "height": "800",
+          "width": "800",
+          "caption": "Después del tratamiento"
+        }
       ]
     },
     
     {
       "@type": "Review",
       "reviewBody": "Significant improvement in skin quality and texture after treatment.",
+      "itemReviewed": {
+        "@type": "MedicalProcedure",
+        "name": "PRP treatment in Bogota | Natural regeneration | Dr. Tatiana Leal"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Paciente Anónimo"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
       "image": [
-        "http://localhost:4000/img/antes-plasma-rico-plaquetas-3.avif",
-        "http://localhost:4000/img/despues-plasma-rico-plaquetas-3.avif"
+        {
+          "@type": "ImageObject",
+          "url": "http://localhost:4000/img/antes-plasma-rico-plaquetas-3.avif",
+          "height": "800",
+          "width": "800",
+          "caption": "Antes del tratamiento"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "http://localhost:4000/img/despues-plasma-rico-plaquetas-3.avif",
+          "height": "800",
+          "width": "800",
+          "caption": "Después del tratamiento"
+        }
       ]
     }
     
@@ -159,101 +227,71 @@
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "4.8",
-    "reviewCount": "3"
+    "reviewCount": "3",
+    "bestRating": "5",
+    "worstRating": "1"
   },
   
-    "typicalAgeRange": "18-",
-    "availableLanguage": ["es", "en"],
-    "provider": {
-      "@type": "HealthAndBeautyBusiness",
-      "name": "Tatiana Leal",
-      "image": "http://localhost:4000/img/logo-tatiana-leal.webp",
-      "priceRange": "$$$",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Torre Magna PI, Av Suba #114 - 59 Piso 6, Cons G14, Bogotá",
-        "addressLocality": "Bogotá",
-        "addressRegion": "DC",
-        "addressCountry": "CO"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": "4.6964387",
-        "longitude": "-74.0692314"
-      },
-      "telephone": "3222010384",
-      "url": "http://localhost:4000",
-      "sameAs": [
-        "https://www.instagram.com/dratatianaleal/",
-        "https://www.facebook.com/Dra.TatianaLealSandoval",
-        "https://www.youtube.com/channel/UCxF-X7in4xUFxYYwCMyC5OQ"
-      ]
-    },
-    "audience": {
-      "@type": "MedicalAudience",
-      "audienceType": "Pacientes que buscan mejoras estéticas no invasivas"
-    },
+  
+  "mainEntity": [
     
-    "mainEntity": [
-      
-      {
-        "@type": "Question",
-        "name": "How many sessions will I need?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "The number of sessions varies depending on the treatment area and your specific goals. Generally, we recommend 3-4 initial sessions, spaced 3-4 weeks apart. Hair restoration may require a more extensive protocol. During your complimentary consultation, we'll design a personalized plan"
-        }
-      },
-      
-      {
-        "@type": "Question",
-        "name": "Is the treatment painful?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "The treatment is very comfortable. The blood draw is minimal, similar to a routine blood test. We use topical anesthesia and specialized techniques for the application to minimize any discomfort. Many patients schedule treatments during their lunch break"
-        }
-      },
-      
-      {
-        "@type": "Question",
-        "name": "How long do results last?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Results are progressive and long-lasting as they stimulate your body's natural regeneration processes. Many patients find their results improve with subsequent treatments. We recommend maintenance sessions every 6-12 months to optimize results"
-        }
-      },
-      
-      {
-        "@type": "Question",
-        "name": "Is PRP safe?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes, PRP is extraordinarily safe because it uses your own growth factors. As an autologous treatment (using your own blood), there's no risk of rejection or allergic reactions. It's one of the safest regenerative treatments available"
-        }
+    {
+      "@type": "Question",
+      "name": "How many sessions will I need?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The number of sessions varies depending on the treatment area and your specific goals. Generally, we recommend 3-4 initial sessions, spaced 3-4 weeks apart. Hair restoration may require a more extensive protocol. During your complimentary consultation, we'll design a personalized plan"
       }
-      
-    ],
+    },
     
-    "offers": {
-      "@type": "Offer",
-      "availability": "https://schema.org/InStock",
-      "priceCurrency": "COP",
-      "priceValidUntil": "2025-12-31",
-      "availableAtOrFrom": {
-        "@type": "HealthAndBeautyBusiness",
-        "name": "Tatiana Leal",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Torre Magna PI, Av Suba #114 - 59 Piso 6, Cons G14, Bogotá",
-          "addressLocality": "Bogotá",
-          "addressRegion": "DC",
-          "addressCountry": "CO"
-        }
+    {
+      "@type": "Question",
+      "name": "Is the treatment painful?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The treatment is very comfortable. The blood draw is minimal, similar to a routine blood test. We use topical anesthesia and specialized techniques for the application to minimize any discomfort. Many patients schedule treatments during their lunch break"
+      }
+    },
+    
+    {
+      "@type": "Question",
+      "name": "How long do results last?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Results are progressive and long-lasting as they stimulate your body's natural regeneration processes. Many patients find their results improve with subsequent treatments. We recommend maintenance sessions every 6-12 months to optimize results"
+      }
+    },
+    
+    {
+      "@type": "Question",
+      "name": "Is PRP safe?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, PRP is extraordinarily safe because it uses your own growth factors. As an autologous treatment (using your own blood), there's no risk of rejection or allergic reactions. It's one of the safest regenerative treatments available"
       }
     }
+    
+  ],
+  
+  "provider": {
+    "@type": "MedicalOrganization",
+    "name": "Tatiana Leal",
+    "image": {
+      "@type": "ImageObject",
+      "url": "http://localhost:4000/img/logo-tatiana-leal.webp",
+      "height": "60",
+      "width": "600"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Torre Magna PI, Av Suba #114 - 59 Piso 6, Cons G14, Bogotá",
+      "addressLocality": "Bogotá",
+      "addressRegion": "DC",
+      "addressCountry": "CO"
+    }
   }
+}
 </script>
-
 
   
   
@@ -810,11 +848,11 @@ nav {
     <li class="dropdown">
       <span>Face & beauty</span>
       <div class="dropdown-content">
-        <a href="/en/facial-treatments/laser-rejuvenation/">
-          Laser Facial Rejuvenation
-        </a>
         <a href="/en/facial-treatments/tensor-threads/">
           Tensor Threads
+        </a>
+        <a href="/en/facial-treatments/laser-rejuvenation/">
+          Laser Facial Rejuvenation
         </a>
         <a href="/en/facial-treatments/lip-enhancement/">
           Lip Fillers and Enhancement
@@ -861,6 +899,9 @@ nav {
     <li class="dropdown">
       <span>Intimate aesthetic medicina</span>
       <div class="dropdown-content">
+        <a href="/en/intimate-treatments/intimate-lightening/">
+          Intimate depigmentation
+        </a>
         <a href="/en/intimate-treatments/vaginal-rejuvenation/">
           Vaginal Rejuvenation
         </a>
@@ -887,6 +928,9 @@ nav {
         </a>
         <a href="/en/technology/scizer/">
           Scizer
+        </a>
+        <a href="/en/technology/maximus/">
+          Maximus
         </a>
       </div>
     </li>
@@ -1293,9 +1337,7 @@ nav {
   </div>
 </footer>
   
- 
   <script defer src="/js/main.js"></script>
-
   <!-- JavaScript para la rotación de imágenes -->
   
   <script>
@@ -1312,7 +1354,6 @@ nav {
     });
   </script>
   
-
   
   <script>
     document.addEventListener('DOMContentLoaded', function() {
@@ -1427,6 +1468,8 @@ nav {
     });
   });
   </script>
+
+  
 </body>
 </html>
 

@@ -100,18 +100,22 @@
 
   <!-- Schemas -->
   
-
   
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Physician",
+  "@type": "Person",
   "name": "Dra. Tatiana Leal",
   "givenName": "Tatiana",
   "familyName": "Leal",
   "honorificPrefix": "Dra.",
   "gender": "Female",
-  "image": "http://localhost:4000/",
+  "image": {
+    "@type": "ImageObject",
+    "url": "http://localhost:4000/",
+    "height": "800",
+    "width": "800"
+  },
   "description": "La Dra. Tatiana Leal, especialista en medicina estética con más de 15 años de experiencia, ofrece tratamientos personalizados y resultados naturales en Bogotá.",
   "url": "http://localhost:4000/es/doctora-tatiana-leal/",
   
@@ -121,33 +125,23 @@
     "https://www.youtube.com/channel/UCxF-X7in4xUFxYYwCMyC5OQ"
   ],
   
-  "memberOf": [
-    {
-      "@type": "MedicalOrganization",
-      "name": "Tatiana Leal",
-      "url": "http://localhost:4000"
-    }
-    ,
-    {
-      "@type": "CollegeOrUniversity",
-      "name": "Universidad del Rosario",
-      "url": "https://www.urosario.edu.co/"
-    }
+  "jobTitle": "Especialista en medicina estética y láser",
+  "worksFor": {
+    "@type": "MedicalOrganization",
+    "name": "Tatiana Leal",
+    "url": "http://localhost:4000"
+  },
+  "knowsAbout": [
+    
+    "Rejuvenecimiento facial no quirúrgico",
+    "Tratamientos con láser",
+    "Bioestimuladores de colágeno",
+    "Toxina botulínica",
+    "Ácido hialurónico",
+    "Medicina estética avanzada"
     
   ],
-  "specialty": [
-    
-    {
-      "@type": "MedicalSpecialty",
-      "name": "Medicina Estética y Láser"
-    },
-    {
-      "@type": "MedicalSpecialty",
-      "name": "Rejuvenecimiento Facial No Quirúrgico"
-    }
-    
-  ],
-  "qualification": [
+  "hasCredential": [
     
     {
       "@type": "EducationalOccupationalCredential",
@@ -159,36 +153,7 @@
       }
     }
     
-  ],
-  "workLocation": {
-    "@type": "MedicalClinic",
-    "name": "Tatiana Leal",
-    "url": "http://localhost:4000",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "Torre Magna PI, Av Suba #114 - 59 Piso 6, Cons G14, Bogotá",
-      "addressLocality": "Bogotá",
-      "addressRegion": "DC",
-      "addressCountry": "CO"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": "4.6964387",
-      "longitude": "-74.0692314"
-    }
-  },
-  "availableLanguage": ["es", "en"],
-  
-  "knowsAbout": [
-    "Rejuvenecimiento facial no quirúrgico",
-    "Tratamientos con láser",
-    "Bioestimuladores de colágeno",
-    "Toxina botulínica",
-    "Ácido hialurónico",
-    "Medicina estética avanzada"
-  ],
-  
-  "jobTitle": "Especialista en medicina estética y láser"
+  ]
 }
 </script>
 
@@ -746,11 +711,11 @@ nav {
     <li class="dropdown">
       <span>Rostro y belleza</span>
       <div class="dropdown-content">
-        <a href="/es/tratamientos-faciales/rejuvenecimiento-laser/">
-          Rejuvenecimiento Facial con Láser
-        </a>
         <a href="/es/tratamientos-faciales/hilos-tensores/">
           Hilos Tensores
+        </a>
+        <a href="/es/tratamientos-faciales/rejuvenecimiento-laser/">
+          Rejuvenecimiento Facial con Láser
         </a>
         <a href="/es/tratamientos-faciales/aumento-labios/">
           Relleno y Aumento de Labios
@@ -797,6 +762,9 @@ nav {
     <li class="dropdown">
       <span>Medicina estética íntima</span>
       <div class="dropdown-content">
+        <a href="/es/tratamientos-intimos/aclaramiento-genital/">
+          Despigmentación genital
+        </a>
         <a href="/es/tratamientos-intimos/rejuvenecimiento-vaginal/">
           Rejuvenecimiento Vaginal
         </a>
@@ -823,6 +791,9 @@ nav {
         </a>
         <a href="/es/tecnologia/scizer/">
           Scizer
+        </a>
+        <a href="/es/tecnologia/maximus/">
+          Maximus
         </a>
       </div>
     </li>
@@ -1183,12 +1154,9 @@ nav {
   </div>
 </footer>
   
- 
   <script defer src="/js/main.js"></script>
-
   <!-- JavaScript para la rotación de imágenes -->
   
-
   
 
   
@@ -1254,6 +1222,8 @@ nav {
     });
   });
   </script>
+
+  
 </body>
 </html>
 

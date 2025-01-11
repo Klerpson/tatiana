@@ -320,6 +320,12 @@
   background-image: linear-gradient(rgba(0, 46, 81, 0.6), rgba(0, 46, 81, 0.6)),
     url('{{"img/radiofrecuencia-corporal-bogota.avif" | relative_url}}');
 }
+
+.parallax_maximus {
+  background-image: linear-gradient(rgba(0, 46, 81, 0.6), rgba(0, 46, 81, 0.6)),
+    url('{{"img/parallax_maximus.avif" | relative_url}}');
+}
+
 /* overlay */
 .section-overlay {
   background: var(--principal);

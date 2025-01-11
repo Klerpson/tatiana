@@ -93,65 +93,133 @@
   <!-- Schemas -->
   
 <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "MedicalProcedure",
-    "name": "Premium skin boosters in Bogota | Natural glow treatment | Dr. Tatiana Leal",
-    "alternateName": "Skin boosters: awaken your skin's natural vitality",
-    "description": "Transform your skin with our premium skin booster treatment. Personalized therapy with high-purity vitamins and antioxidants. Visible results from your first session.",
-    "url": "http://localhost:4000/en/facial-treatments/biorevitalization/",
-    "image": "http://localhost:4000/img/biorevitalizacion-facial-bogota.avif",
-    "additionalProperty": {
-      "@type": "PropertyValue",
-      "name": "SecondaryImage",
-      "value": "http://localhost:4000/img/biorevitalizacion-facial-bogota-colombia.avif"
-    },
-    "medicineSystem": "Conventional",
-    "specialty": {
-      "@type": "MedicalSpecialty",
-      "name": "Medicina Estética"
-    },
-    "study": {
-      "@type": "MedicalStudy",
-      "healthCondition": {
-        "@type": "MedicalCondition",
-        "name": "Envejecimiento cutáneo"
-      }
-    },
-    "howPerformed": "Procedimiento no invasivo realizado en consultorio",
-    "preparation": {
-      "@type": "MedicalEntity",
-      "description": "Evaluación médica previa. No requiere anestesia general. Procedimiento ambulatorio."
-    },
-    "procedureType": "Transform your skin with our premium skin booster treatment. Personalized therapy with high-purity vitamins and antioxidants. Visible results from your first session.",
-    "followup": "Seguimiento personalizado post-tratamiento",
-    
-  "procedureReview": [
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalProcedure",
+  "name": "Premium skin boosters in Bogota | Natural glow treatment | Dr. Tatiana Leal",
+  "description": "Transform your skin with our premium skin booster treatment. Personalized therapy with high-purity vitamins and antioxidants. Visible results from your first session.",
+  "url": "http://localhost:4000/en/facial-treatments/biorevitalization/",
+  "image": {
+    "@type": "ImageObject",
+    "url": "http://localhost:4000/img/biorevitalizacion-facial-bogota.avif",
+    "height": "1200",
+    "width": "1200"
+  },
+  "medicineSystem": "Conventional",
+  "howPerformed": "Procedimiento no invasivo realizado en consultorio",
+  "preparation": "Evaluación médica previa. No requiere anestesia general. Procedimiento ambulatorio.",
+  "procedureType": "Transform your skin with our premium skin booster treatment. Personalized therapy with high-purity vitamins and antioxidants. Visible results from your first session.",
+  "followup": "Seguimiento personalizado post-tratamiento",
+  "performer": {
+    "@type": "MedicalOrganization",
+    "name": "Tatiana Leal",
+    "url": "http://localhost:4000"
+  },
+  
+  "review": [
     
     {
       "@type": "Review",
       "reviewBody": "45-year-old patient after 3 sessions. Remarkable improvement in radiance, hydration, and skin texture.",
+      "itemReviewed": {
+        "@type": "MedicalProcedure",
+        "name": "Premium skin boosters in Bogota | Natural glow treatment | Dr. Tatiana Leal"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Paciente Anónimo"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
       "image": [
-        "http://localhost:4000/img/antes-biorevitalizacion-facial-1.avif",
-        "http://localhost:4000/img/despues-biorevitalizacion-facial-1.avif"
+        {
+          "@type": "ImageObject",
+          "url": "http://localhost:4000/img/antes-biorevitalizacion-facial-1.avif",
+          "height": "800",
+          "width": "800",
+          "caption": "Antes del tratamiento"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "http://localhost:4000/img/despues-biorevitalizacion-facial-1.avif",
+          "height": "800",
+          "width": "800",
+          "caption": "Después del tratamiento"
+        }
       ]
     },
     
     {
       "@type": "Review",
       "reviewBody": "Visible results in firmness and elasticity after 2 skin booster sessions.",
+      "itemReviewed": {
+        "@type": "MedicalProcedure",
+        "name": "Premium skin boosters in Bogota | Natural glow treatment | Dr. Tatiana Leal"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Paciente Anónimo"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
       "image": [
-        "http://localhost:4000/img/antes-biorevitalizacion-facial-2.avif",
-        "http://localhost:4000/img/despues-biorevitalizacion-facial-2.avif"
+        {
+          "@type": "ImageObject",
+          "url": "http://localhost:4000/img/antes-biorevitalizacion-facial-2.avif",
+          "height": "800",
+          "width": "800",
+          "caption": "Antes del tratamiento"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "http://localhost:4000/img/despues-biorevitalizacion-facial-2.avif",
+          "height": "800",
+          "width": "800",
+          "caption": "Después del tratamiento"
+        }
       ]
     },
     
     {
       "@type": "Review",
       "reviewBody": "Natural transformation after 4 sessions, showing younger and revitalized skin.",
+      "itemReviewed": {
+        "@type": "MedicalProcedure",
+        "name": "Premium skin boosters in Bogota | Natural glow treatment | Dr. Tatiana Leal"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Paciente Anónimo"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
       "image": [
-        "http://localhost:4000/img/antes-biorevitalizacion-facial-3.avif",
-        "http://localhost:4000/img/despues-biorevitalizacion-facial-3.avif"
+        {
+          "@type": "ImageObject",
+          "url": "http://localhost:4000/img/antes-biorevitalizacion-facial-3.avif",
+          "height": "800",
+          "width": "800",
+          "caption": "Antes del tratamiento"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "http://localhost:4000/img/despues-biorevitalizacion-facial-3.avif",
+          "height": "800",
+          "width": "800",
+          "caption": "Después del tratamiento"
+        }
       ]
     }
     
@@ -159,101 +227,71 @@
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "4.8",
-    "reviewCount": "3"
+    "reviewCount": "3",
+    "bestRating": "5",
+    "worstRating": "1"
   },
   
-    "typicalAgeRange": "18-",
-    "availableLanguage": ["es", "en"],
-    "provider": {
-      "@type": "HealthAndBeautyBusiness",
-      "name": "Tatiana Leal",
-      "image": "http://localhost:4000/img/logo-tatiana-leal.webp",
-      "priceRange": "$$$",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Torre Magna PI, Av Suba #114 - 59 Piso 6, Cons G14, Bogotá",
-        "addressLocality": "Bogotá",
-        "addressRegion": "DC",
-        "addressCountry": "CO"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": "4.6964387",
-        "longitude": "-74.0692314"
-      },
-      "telephone": "3222010384",
-      "url": "http://localhost:4000",
-      "sameAs": [
-        "https://www.instagram.com/dratatianaleal/",
-        "https://www.facebook.com/Dra.TatianaLealSandoval",
-        "https://www.youtube.com/channel/UCxF-X7in4xUFxYYwCMyC5OQ"
-      ]
-    },
-    "audience": {
-      "@type": "MedicalAudience",
-      "audienceType": "Pacientes que buscan mejoras estéticas no invasivas"
-    },
+  
+  "mainEntity": [
     
-    "mainEntity": [
-      
-      {
-        "@type": "Question",
-        "name": "How many sessions will I need?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "The number of sessions is determined by your skin condition and goals. Generally, we recommend an initial protocol of 3-4 sessions, spaced 2-3 weeks apart, for optimal results. Each plan is customized to ensure the best outcome for your specific needs"
-        }
-      },
-      
-      {
-        "@type": "Question",
-        "name": "Is the treatment painful?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "The procedure is performed with topical anesthesia for your comfort. Most patients describe feeling only slight pinpricks during application. We use advanced techniques and ultra-fine needles to minimize any discomfort"
-        }
-      },
-      
-      {
-        "@type": "Question",
-        "name": "How long do the results last?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Results are progressive and long-lasting, typically between 6-12 months depending on factors like age, lifestyle, and aftercare. Many patients find their results improve with subsequent treatments. We recommend maintenance sessions every 4-6 months"
-        }
-      },
-      
-      {
-        "@type": "Question",
-        "name": "When will I see results?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "You'll notice an immediate improvement in your skin's radiance and texture after your first session. Results continue to enhance over the following weeks as the bioactive components stimulate your natural collagen production"
-        }
+    {
+      "@type": "Question",
+      "name": "How many sessions will I need?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The number of sessions is determined by your skin condition and goals. Generally, we recommend an initial protocol of 3-4 sessions, spaced 2-3 weeks apart, for optimal results. Each plan is customized to ensure the best outcome for your specific needs"
       }
-      
-    ],
+    },
     
-    "offers": {
-      "@type": "Offer",
-      "availability": "https://schema.org/InStock",
-      "priceCurrency": "COP",
-      "priceValidUntil": "2025-12-31",
-      "availableAtOrFrom": {
-        "@type": "HealthAndBeautyBusiness",
-        "name": "Tatiana Leal",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Torre Magna PI, Av Suba #114 - 59 Piso 6, Cons G14, Bogotá",
-          "addressLocality": "Bogotá",
-          "addressRegion": "DC",
-          "addressCountry": "CO"
-        }
+    {
+      "@type": "Question",
+      "name": "Is the treatment painful?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The procedure is performed with topical anesthesia for your comfort. Most patients describe feeling only slight pinpricks during application. We use advanced techniques and ultra-fine needles to minimize any discomfort"
+      }
+    },
+    
+    {
+      "@type": "Question",
+      "name": "How long do the results last?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Results are progressive and long-lasting, typically between 6-12 months depending on factors like age, lifestyle, and aftercare. Many patients find their results improve with subsequent treatments. We recommend maintenance sessions every 4-6 months"
+      }
+    },
+    
+    {
+      "@type": "Question",
+      "name": "When will I see results?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You'll notice an immediate improvement in your skin's radiance and texture after your first session. Results continue to enhance over the following weeks as the bioactive components stimulate your natural collagen production"
       }
     }
+    
+  ],
+  
+  "provider": {
+    "@type": "MedicalOrganization",
+    "name": "Tatiana Leal",
+    "image": {
+      "@type": "ImageObject",
+      "url": "http://localhost:4000/img/logo-tatiana-leal.webp",
+      "height": "60",
+      "width": "600"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Torre Magna PI, Av Suba #114 - 59 Piso 6, Cons G14, Bogotá",
+      "addressLocality": "Bogotá",
+      "addressRegion": "DC",
+      "addressCountry": "CO"
+    }
   }
+}
 </script>
-
 
   
   
@@ -810,11 +848,11 @@ nav {
     <li class="dropdown">
       <span>Face & beauty</span>
       <div class="dropdown-content">
-        <a href="/en/facial-treatments/laser-rejuvenation/">
-          Laser Facial Rejuvenation
-        </a>
         <a href="/en/facial-treatments/tensor-threads/">
           Tensor Threads
+        </a>
+        <a href="/en/facial-treatments/laser-rejuvenation/">
+          Laser Facial Rejuvenation
         </a>
         <a href="/en/facial-treatments/lip-enhancement/">
           Lip Fillers and Enhancement
@@ -861,6 +899,9 @@ nav {
     <li class="dropdown">
       <span>Intimate aesthetic medicina</span>
       <div class="dropdown-content">
+        <a href="/en/intimate-treatments/intimate-lightening/">
+          Intimate depigmentation
+        </a>
         <a href="/en/intimate-treatments/vaginal-rejuvenation/">
           Vaginal Rejuvenation
         </a>
@@ -887,6 +928,9 @@ nav {
         </a>
         <a href="/en/technology/scizer/">
           Scizer
+        </a>
+        <a href="/en/technology/maximus/">
+          Maximus
         </a>
       </div>
     </li>
@@ -1293,9 +1337,7 @@ nav {
   </div>
 </footer>
   
- 
   <script defer src="/js/main.js"></script>
-
   <!-- JavaScript para la rotación de imágenes -->
   
   <script>
@@ -1312,7 +1354,6 @@ nav {
     });
   </script>
   
-
   
   <script>
     document.addEventListener('DOMContentLoaded', function() {
@@ -1427,6 +1468,8 @@ nav {
     });
   });
   </script>
+
+  
 </body>
 </html>
 

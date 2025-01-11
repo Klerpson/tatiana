@@ -89,65 +89,133 @@
   <!-- Schemas -->
   
 <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "MedicalProcedure",
-    "name": "Laser Removal of Benign Lesions ❅ Advanced Medical Technology",
-    "alternateName": "Benign Lesion Removal",
-    "description": "Safe removal of benign skin lesions with precision laser technology. Painless procedure performed by board-certified specialists. Guaranteed definitive results.",
-    "url": "http://localhost:4000/en/intimate-treatments/benign-lesions/",
-    "image": "http://localhost:4000/img/tratamiento-lesiones-benignas.avif",
-    "additionalProperty": {
-      "@type": "PropertyValue",
-      "name": "SecondaryImage",
-      "value": "http://localhost:4000/img/centro-medicina-estetica-lesiones.avif"
-    },
-    "medicineSystem": "Conventional",
-    "specialty": {
-      "@type": "MedicalSpecialty",
-      "name": "Medicina Estética"
-    },
-    "study": {
-      "@type": "MedicalStudy",
-      "healthCondition": {
-        "@type": "MedicalCondition",
-        "name": "Envejecimiento cutáneo"
-      }
-    },
-    "howPerformed": "Procedimiento no invasivo realizado en consultorio",
-    "preparation": {
-      "@type": "MedicalEntity",
-      "description": "Evaluación médica previa. No requiere anestesia general. Procedimiento ambulatorio."
-    },
-    "procedureType": "Safe removal of benign skin lesions with precision laser technology. Painless procedure performed by board-certified specialists. Guaranteed definitive results.",
-    "followup": "Seguimiento personalizado post-tratamiento",
-    
-  "procedureReview": [
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalProcedure",
+  "name": "Laser Removal of Benign Lesions ❅ Advanced Medical Technology",
+  "description": "Safe removal of benign skin lesions with precision laser technology. Painless procedure performed by board-certified specialists. Guaranteed definitive results.",
+  "url": "http://localhost:4000/en/intimate-treatments/benign-lesions/",
+  "image": {
+    "@type": "ImageObject",
+    "url": "http://localhost:4000/img/tratamiento-lesiones-benignas.avif",
+    "height": "1200",
+    "width": "1200"
+  },
+  "medicineSystem": "Conventional",
+  "howPerformed": "Procedimiento no invasivo realizado en consultorio",
+  "preparation": "Evaluación médica previa. No requiere anestesia general. Procedimiento ambulatorio.",
+  "procedureType": "Safe removal of benign skin lesions with precision laser technology. Painless procedure performed by board-certified specialists. Guaranteed definitive results.",
+  "followup": "Seguimiento personalizado post-tratamiento",
+  "performer": {
+    "@type": "MedicalOrganization",
+    "name": "Tatiana Leal",
+    "url": "http://localhost:4000"
+  },
+  
+  "review": [
     
     {
       "@type": "Review",
       "reviewBody": "Facial mole removal with natural results and no visible scarring.",
+      "itemReviewed": {
+        "@type": "MedicalProcedure",
+        "name": "Laser Removal of Benign Lesions ❅ Advanced Medical Technology"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Paciente Anónimo"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
       "image": [
-        "http://localhost:4000/img/antes-eliminacion-lunar-1.avif",
-        "http://localhost:4000/img/despues-eliminacion-lunar-1.avif"
+        {
+          "@type": "ImageObject",
+          "url": "http://localhost:4000/img/antes-eliminacion-lunar-1.avif",
+          "height": "800",
+          "width": "800",
+          "caption": "Antes del tratamiento"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "http://localhost:4000/img/despues-eliminacion-lunar-1.avif",
+          "height": "800",
+          "width": "800",
+          "caption": "Después del tratamiento"
+        }
       ]
     },
     
     {
       "@type": "Review",
       "reviewBody": "Benign lesion removal with optimal aesthetic results.",
+      "itemReviewed": {
+        "@type": "MedicalProcedure",
+        "name": "Laser Removal of Benign Lesions ❅ Advanced Medical Technology"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Paciente Anónimo"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
       "image": [
-        "http://localhost:4000/img/antes-eliminacion-lesion-2.avif",
-        "http://localhost:4000/img/despues-eliminacion-lesion-2.avif"
+        {
+          "@type": "ImageObject",
+          "url": "http://localhost:4000/img/antes-eliminacion-lesion-2.avif",
+          "height": "800",
+          "width": "800",
+          "caption": "Antes del tratamiento"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "http://localhost:4000/img/despues-eliminacion-lesion-2.avif",
+          "height": "800",
+          "width": "800",
+          "caption": "Después del tratamiento"
+        }
       ]
     },
     
     {
       "@type": "Review",
       "reviewBody": "Safe wart removal without leaving marks.",
+      "itemReviewed": {
+        "@type": "MedicalProcedure",
+        "name": "Laser Removal of Benign Lesions ❅ Advanced Medical Technology"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Paciente Anónimo"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
       "image": [
-        "http://localhost:4000/img/antes-eliminacion-verruga-3.avif",
-        "http://localhost:4000/img/despues-eliminacion-verruga-3.avif"
+        {
+          "@type": "ImageObject",
+          "url": "http://localhost:4000/img/antes-eliminacion-verruga-3.avif",
+          "height": "800",
+          "width": "800",
+          "caption": "Antes del tratamiento"
+        },
+        {
+          "@type": "ImageObject",
+          "url": "http://localhost:4000/img/despues-eliminacion-verruga-3.avif",
+          "height": "800",
+          "width": "800",
+          "caption": "Después del tratamiento"
+        }
       ]
     }
     
@@ -155,61 +223,31 @@
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "4.8",
-    "reviewCount": "3"
+    "reviewCount": "3",
+    "bestRating": "5",
+    "worstRating": "1"
   },
   
-    "typicalAgeRange": "18-",
-    "availableLanguage": ["es", "en"],
-    "provider": {
-      "@type": "HealthAndBeautyBusiness",
-      "name": "Tatiana Leal",
-      "image": "http://localhost:4000/img/logo-tatiana-leal.webp",
-      "priceRange": "$$$",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Torre Magna PI, Av Suba #114 - 59 Piso 6, Cons G14, Bogotá",
-        "addressLocality": "Bogotá",
-        "addressRegion": "DC",
-        "addressCountry": "CO"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": "4.6964387",
-        "longitude": "-74.0692314"
-      },
-      "telephone": "3222010384",
-      "url": "http://localhost:4000",
-      "sameAs": [
-        "https://www.instagram.com/dratatianaleal/",
-        "https://www.facebook.com/Dra.TatianaLealSandoval",
-        "https://www.youtube.com/channel/UCxF-X7in4xUFxYYwCMyC5OQ"
-      ]
+  
+  "provider": {
+    "@type": "MedicalOrganization",
+    "name": "Tatiana Leal",
+    "image": {
+      "@type": "ImageObject",
+      "url": "http://localhost:4000/img/logo-tatiana-leal.webp",
+      "height": "60",
+      "width": "600"
     },
-    "audience": {
-      "@type": "MedicalAudience",
-      "audienceType": "Pacientes que buscan mejoras estéticas no invasivas"
-    },
-    
-    "offers": {
-      "@type": "Offer",
-      "availability": "https://schema.org/InStock",
-      "priceCurrency": "COP",
-      "priceValidUntil": "2025-12-31",
-      "availableAtOrFrom": {
-        "@type": "HealthAndBeautyBusiness",
-        "name": "Tatiana Leal",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Torre Magna PI, Av Suba #114 - 59 Piso 6, Cons G14, Bogotá",
-          "addressLocality": "Bogotá",
-          "addressRegion": "DC",
-          "addressCountry": "CO"
-        }
-      }
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Torre Magna PI, Av Suba #114 - 59 Piso 6, Cons G14, Bogotá",
+      "addressLocality": "Bogotá",
+      "addressRegion": "DC",
+      "addressCountry": "CO"
     }
   }
+}
 </script>
-
 
   
   
@@ -766,11 +804,11 @@ nav {
     <li class="dropdown">
       <span>Face & beauty</span>
       <div class="dropdown-content">
-        <a href="/en/facial-treatments/laser-rejuvenation/">
-          Laser Facial Rejuvenation
-        </a>
         <a href="/en/facial-treatments/tensor-threads/">
           Tensor Threads
+        </a>
+        <a href="/en/facial-treatments/laser-rejuvenation/">
+          Laser Facial Rejuvenation
         </a>
         <a href="/en/facial-treatments/lip-enhancement/">
           Lip Fillers and Enhancement
@@ -817,6 +855,9 @@ nav {
     <li class="dropdown">
       <span>Intimate aesthetic medicina</span>
       <div class="dropdown-content">
+        <a href="/en/intimate-treatments/intimate-lightening/">
+          Intimate depigmentation
+        </a>
         <a href="/en/intimate-treatments/vaginal-rejuvenation/">
           Vaginal Rejuvenation
         </a>
@@ -843,6 +884,9 @@ nav {
         </a>
         <a href="/en/technology/scizer/">
           Scizer
+        </a>
+        <a href="/en/technology/maximus/">
+          Maximus
         </a>
       </div>
     </li>
@@ -983,7 +1027,7 @@ nav {
 
     Imagine being free from those concerning lesions without worrying about unsightly scars. With our advanced technology and specialized expertise, achieving natural and safe results is possible.
     
-    <a href="#consulta" class="boton boton_auxiliar">Schedule Your Free Assessment</a>
+    <a href="#consulta" class="boton boton_auxiliar">Schedule your assessment</a>
   </p>
 
   <img class="block_section_image_left" loading="lazy" title="Dr. Tatiana Leal in her office" src="/img/lesiones-benignas-bogota.avif" alt="Dr. Tatiana Leal's office in Bogota">
@@ -1012,7 +1056,7 @@ nav {
     <strong>Technology and Specialized Expertise</strong>
     <p>We use state-of-the-art laser technology that removes benign lesions with maximum precision and minimal damage to surrounding tissue. Each procedure is performed by board-certified specialists with extensive experience in aesthetic dermatology, ensuring safe and natural results.</p>
     
-    <p>During your free assessment, we'll perform a detailed examination of the lesion to determine the best treatment approach. We'll explain the procedure step by step and answer all your questions so you feel completely confident.</p>
+    <p>During your assessment, we'll perform a detailed examination of the lesion to determine the best treatment approach. We'll explain the procedure step by step and answer all your questions so you feel completely confident.</p>
   </div>
 </section>
 
@@ -1065,7 +1109,7 @@ nav {
 <section class="padding" id="consulta">
   <div class="intro flow">
     <h2 class="center">Safe and Natural Results</h2>
-    <p>Ready to remove those concerning lesions? Schedule your free assessment and receive a personalized treatment plan for your case.</p>
+    <p>Ready to remove those concerning lesions? Schedule your assessment and receive a personalized treatment plan for your case.</p>
     <div class="center">
       <a href="#" class="boton boton_principal" id="lead_whatsapp" title="Tatiana Leal's WhatsApp">Schedule your appointment now</a>
     </div>
@@ -1123,9 +1167,7 @@ nav {
   </div>
 </footer>
   
- 
   <script defer src="/js/main.js"></script>
-
   <!-- JavaScript para la rotación de imágenes -->
   
   <script>
@@ -1142,7 +1184,6 @@ nav {
     });
   </script>
   
-
   
   <script>
     document.addEventListener('DOMContentLoaded', function() {
@@ -1257,6 +1298,8 @@ nav {
     });
   });
   </script>
+
+  
 </body>
 </html>
 
