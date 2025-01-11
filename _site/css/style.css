@@ -162,6 +162,8 @@ hr {
   align-items: center;
   gap: 3em;
   justify-content: space-around;
+  height: -webkit-min-content;
+  height: -moz-min-content;
   height: min-content;
 
   & > div,
@@ -172,8 +174,10 @@ hr {
   img {
     width: 100%;
     min-height: 100%;
-    object-fit: cover;
-    object-position: center right;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center right;
+       object-position: center right;
   }
   .two_columns-image {
     line-height: 0;
@@ -1290,8 +1294,7 @@ hr {
 
 /* Acordeon */
 .accordion {
-  display: flex;
-  flex-direction: column;
+  display: grid;
   gap: 1.5rem;
 }
 

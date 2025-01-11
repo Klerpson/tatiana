@@ -799,6 +799,8 @@
     
       <link rel="alternate" hreflang="es" href="http://localhost:4000/es/tecnologia/scizer/">
     
+      <link rel="alternate" hreflang="es" href="http://localhost:4000/es/tecnologia/thork/">
+    
       <link rel="alternate" hreflang="en" href="http://localhost:4000/en/technology/facial-analysis-janus/">
     
       <link rel="alternate" hreflang="en" href="http://localhost:4000/en/technology/inbody/">
@@ -806,6 +808,8 @@
       <link rel="alternate" hreflang="en" href="http://localhost:4000/en/technology/maximus/">
     
       <link rel="alternate" hreflang="en" href="http://localhost:4000/en/technology/scizer/">
+    
+      <link rel="alternate" hreflang="en" href="http://localhost:4000/en/technology/thork/">
     
   
   <link rel="alternate" hreflang="x-default" href="http://localhost:4000//">
@@ -1310,8 +1314,10 @@ nav {
 .hero-image img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  object-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
 }
 
 .hero-image-1 {
