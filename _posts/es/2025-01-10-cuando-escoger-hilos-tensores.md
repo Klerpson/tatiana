@@ -26,6 +26,10 @@ redirect_from:
   - /es-co/momento-ideal-hilos-tensores/
 canonical_url: "https://dratatianaleal.com/es/blog/cuando-aplicar-hilos-tensores/"
 ---
+Te contaré una historia común.
+
+Puede ser tu historia.
+
 Ana tenía 45 años cuando comenzó a notar esos pequeños cambios en su rostro que tanto nos preocupan: una ligera caída en las mejillas, el óvalo facial menos definido y esa sensación de que su reflejo en el espejo ya no transmitía la **vitalidad** que ella sentía por dentro.
 
 Como directora de su firma de alto nivel, su imagen era importante, pero la idea de someterse a una cirugía le parecía excesiva. Fue entonces cuando descubrió los [hilos tensores]({{'es/tratamientos-faciales/hilos-tensores' | relative_url}}).

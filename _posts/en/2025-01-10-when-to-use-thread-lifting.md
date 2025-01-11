@@ -26,8 +26,13 @@ redirect_from:
   - /en/ideal-time-thread-lifting/
 canonical_url: "https://dratatianaleal.com/en/blog/when-to-get-thread-lifting/"
 ---
+I'll tell you a common history.
 
-Sarah was 45 when she started noticing those subtle changes in her face that concern so many of us: a slight drop in the cheeks, a less defined jawline, and that feeling that her mirror reflection no longer conveyed the **vitality** she felt inside. As a high-level executive, her image was important, but the idea of undergoing surgery seemed excessive. That's when she discovered [PDO thread lifting]({{'en/facial-treatments/thread-lifting' | relative_url}}).
+Maybe your history.
+
+Sarah was 45 when she started noticing those subtle changes in her face that concern so many of us: a slight drop in the cheeks, a less defined jawline, and that feeling that her mirror reflection no longer conveyed the **vitality** she felt inside. As a high-level executive, her image was important, but the idea of undergoing surgery seemed excessive.
+
+That's when she discovered [PDO thread lifting]({{'en/facial-treatments/thread-lifting' | relative_url}}).
 
 ## The perfect timing for thread lifting
 
