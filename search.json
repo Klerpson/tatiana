@@ -371,24 +371,6 @@
     
       <link rel="alternate" hreflang="" href="https://dratatianaleal.com/en/rejuvenecimiento-vaginal/">
     
-      <link rel="alternate" hreflang="" href="https://dratatianaleal.com/rejuvenecimiento-facial/analisis-facial-janus/">
-    
-      <link rel="alternate" hreflang="" href="https://dratatianaleal.com/janus-ii-para-analisis-facial-en-bogota/">
-    
-      <link rel="alternate" hreflang="" href="https://dratatianaleal.com/en/janus-ii-para-analisis-facial-en-bogota/">
-    
-      <link rel="alternate" hreflang="" href="https://dratatianaleal.com/es_co/janus-ii-para-analisis-facial-en-bogota/">
-    
-      <link rel="alternate" hreflang="" href="https://dratatianaleal.com/corporales/analisis-corporal-inbody/">
-    
-      <link rel="alternate" hreflang="" href="https://dratatianaleal.com/inbody-analizador-de-composicion/">
-    
-      <link rel="alternate" hreflang="" href="https://dratatianaleal.com/es_co/inbody-analizador-de-composicion/">
-    
-      <link rel="alternate" hreflang="" href="https://dratatianaleal.com/en/janus-ii-for-facial-analysis-in-bogota/">
-    
-      <link rel="alternate" hreflang="" href="https://dratatianaleal.com/en/inbody-composition-analyzer/">
-    
       <link rel="alternate" hreflang="" href="https://dratatianaleal.com/en/?A=Medicina-Estetica-Laser">
     
       <link rel="alternate" hreflang="" href="https://dratatianaleal.com/en/our-team/">
@@ -821,6 +803,8 @@
     
       <link rel="alternate" hreflang="en" href="https://dratatianaleal.com/en/technology/inbody/">
     
+      <link rel="alternate" hreflang="en" href="https://dratatianaleal.com/en/technology/maximus/">
+    
       <link rel="alternate" hreflang="en" href="https://dratatianaleal.com/en/technology/scizer/">
     
   
@@ -1014,8 +998,8 @@ li {
 .intro {
   width: 100%;
   display: grid;
-  place-items: center;
   text-align: center;
+  justify-items: center;
 
   figcaption{
     max-width: 992px;
