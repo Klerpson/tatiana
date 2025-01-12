@@ -621,6 +621,8 @@
     
       <link rel="alternate" hreflang="en" href="https://dratatianaleal.com/en/patient-info/">
     
+      <link rel="alternate" hreflang="en" href="https://dratatianaleal.com/en/technologies/">
+    
       <link rel="alternate" hreflang="en" href="https://dratatianaleal.com/en/thanks/">
     
       <link rel="alternate" hreflang="es" href="https://dratatianaleal.com/es/404/">
@@ -644,6 +646,8 @@
       <link rel="alternate" hreflang="es" href="https://dratatianaleal.com/es/legal/">
     
       <link rel="alternate" hreflang="es" href="https://dratatianaleal.com/es/preguntas-frecuentes/">
+    
+      <link rel="alternate" hreflang="es" href="https://dratatianaleal.com/es/tecnologias/">
     
       <link rel="alternate" hreflang="es" href="https://dratatianaleal.com/es/tratamientos-corporales/">
     
@@ -793,6 +797,8 @@
     
       <link rel="alternate" hreflang="es" href="https://dratatianaleal.com/es/tecnologia/analisis-facial-janus/">
     
+      <link rel="alternate" hreflang="es" href="https://dratatianaleal.com/es/tecnologia/contour-shape/">
+    
       <link rel="alternate" hreflang="es" href="https://dratatianaleal.com/es/tecnologia/inbody/">
     
       <link rel="alternate" hreflang="es" href="https://dratatianaleal.com/es/tecnologia/maximus/">
@@ -800,6 +806,8 @@
       <link rel="alternate" hreflang="es" href="https://dratatianaleal.com/es/tecnologia/scizer/">
     
       <link rel="alternate" hreflang="es" href="https://dratatianaleal.com/es/tecnologia/thork/">
+    
+      <link rel="alternate" hreflang="en" href="https://dratatianaleal.com/en/technology/contour-shape/">
     
       <link rel="alternate" hreflang="en" href="https://dratatianaleal.com/en/technology/facial-analysis-janus/">
     
@@ -1473,7 +1481,7 @@ nav {
         </a>
       </div>
     </li>
-
+    
     <li class="dropdown">
       <span>Tecnología y diagnóstico</span>
       <div class="dropdown-content">
@@ -1488,6 +1496,9 @@ nav {
         </a>
         <a href="/es/tecnologia/maximus/">
           Maximus
+        </a>
+        <a href="/es/tecnologias/">
+          Ver más...
         </a>
       </div>
     </li>
