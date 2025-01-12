@@ -87,7 +87,7 @@
         </a>
       </div>
     </li>
-
+    
     <li class="dropdown">
       <span>{% if current_lang == 'en' %}Technology & diagnosis{% else %}Tecnología y diagnóstico{% endif %}</span>
       <div class="dropdown-content">
@@ -102,6 +102,9 @@
         </a>
         <a href="/{{ current_lang }}/{% if current_lang == 'en' %}technology/maximus{% else %}tecnologia/maximus{% endif %}/">
           {% if current_lang == 'en' %}Maximus{% else %}Maximus{% endif %}
+        </a>
+        <a href="/{{ current_lang }}/{% if current_lang == 'en' %}technologies{% else %}tecnologias{% endif %}/">
+          {% if current_lang == 'en' %}See more...{% else %}Ver más...{% endif %}
         </a>
       </div>
     </li>
