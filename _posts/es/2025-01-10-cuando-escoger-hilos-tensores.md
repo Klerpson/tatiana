@@ -21,9 +21,6 @@ referencias:
   - Journal of Aesthetic Medicine - Clinical Applications of PDO Threads: "https://www.aestheticmedicine.org/example"
   - International Journal of Aesthetic Surgery - Non-Surgical Facial Rejuvenation: "https://www.aestheticsurgery.org/example"
 word_count: 1800
-redirect_from:
-  - /cuando-aplicar-hilos-tensores/
-  - /es-co/momento-ideal-hilos-tensores/
 canonical_url: "https://dratatianaleal.com/es/blog/cuando-aplicar-hilos-tensores/"
 ---
 Te contaré una historia común.

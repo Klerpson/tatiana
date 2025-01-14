@@ -21,10 +21,6 @@ referencias:
   - Journal of Plastic Surgery - Comparative Analysis of Liposuction and Non-invasive Fat Reduction: "https://www.plasticsurgery.org/example"
   - American Academy of Cosmetic Surgery - Guidelines for Body Contouring: "https://www.cosmeticsurgery.org/example"
 word_count: 3000
-redirect_from:
-  - /cual-es-la-diferencia-entre-lipolisis-laser-invasiva-y-no-invasiva/
-  - /es-co/cual-es-la-diferencia-entre-lipolisis-laser-invasiva-y-no-invasiva/
-  - /F?A=Cual-es-diferencia-entre-lipolisis-laser-invasiva-y-no-invasiva
 canonical_url: "https://dratatianaleal.com/es/blog/liposuccion-vs-lipolisis/"
 ---
 

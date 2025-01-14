@@ -21,8 +21,6 @@ referencias:
   - Lucia Clinic Dubai - Official Treatment Records: "https://luciaclinic.com"
   - Journal of Aesthetic Medicine - Advanced Facial Rejuvenation Techniques: "https://journalofaesthetics.com"
 word_count: 2000
-redirect_from:
-  - /lindsay-lohan-treatments/
 canonical_url: "https://dratatianaleal.com/en/blog/lindsay-lohan-transformation/"
 ---
 

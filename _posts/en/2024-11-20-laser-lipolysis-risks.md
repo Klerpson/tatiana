@@ -21,9 +21,6 @@ referencias:
   - Journal of Cosmetic and Laser Therapy - Safety and Efficacy of Laser Lipolysis: "https://www.tandfonline.com/doi/full/example"
   - American Society for Dermatologic Surgery - Guidelines for Non-Invasive Body Contouring: "https://www.asds.net/example"
 word_count: 3000
-redirect_from:
-  - /en/facelift-in-bogota/?A=riesgos-lipolisis-laser
-  - /en/facial-biorevitalization-in-bogota/?A=riesgos-lipolisis-laser
 ---
 
 "Do I really not need general anesthesia?" asked Sarah, a 35-year-old tech executive, during her first consultation last week. Like many of my patients in New York, she was attracted by the promise of a "non-invasive" procedure but had concerns about its safety and effectiveness.

@@ -21,10 +21,6 @@ referencias:
   - Journal of Cosmetic and Laser Therapy - Safety and Efficacy of Laser Lipolysis: "https://www.tandfonline.com/doi/full/example"
   - American Society for Dermatologic Surgery - Guidelines for Non-Invasive Body Contouring: "https://www.asds.net/example"
 word_count: 3000
-redirect_from:
-  - /es_co/cuales-son-los-riesgos-de-la-lipolisis-laser/
-  - /cuales-son-los-riesgos-de-la-lipolisis-laser/
-  - /F?A=riesgos-lipolisis-laser
 canonical_url: "https://dratatianaleal.com/es/blog/riesgos-lipolisis-laser/"
 ---
 "¿De verdad no necesito anestesia general?" me preguntó Camila, una ejecutiva de 35 años, durante su primera consulta la semana pasada. Como muchos de mis pacientes, llegó atraída por la promesa de un procedimiento "no invasivo", pero con dudas sobre su seguridad y efectividad.

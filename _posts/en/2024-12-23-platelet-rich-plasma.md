@@ -22,8 +22,6 @@ references:
  - International Journal of Molecular Sciences - Growth Factors in PRP: "https://www.ijms.net/example"
 word_count: 2500
 permalink: /en/technology/platelet-rich-plasma/
-redirect_from:
- - /what-is-platelet-rich-plasma/
 ---
 
 **Platelet-Rich Plasma (PRP)** is an aesthetic treatment based on using **components from your own blood**. This procedure aims to **improve skin health and appearance**, as well as treat various scalp conditions. PRP benefits range from **facial rejuvenation** to **improved skin texture**.

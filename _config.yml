@@ -40,6 +40,8 @@ markdown: kramdown
 permalink: /:categories/:title/
 
 collections:
+  redirects:
+      output: true
   tratamientos-faciales_es:
     output: true
     permalink: /es/tratamientos-faciales/:title/
@@ -155,17 +157,3 @@ compress_html:
   blanklines: false
   profile: false
   startings: [html, head, body]
-
-# Plugins
-plugins:
-  - jekyll-redirect-from
-
-# Whitelist
-whitelist:
-  - jekyll-redirect-from
-
-# Configuración de redirecciones
-redirect_from:
-  enabled: true
-  strip_index: true
-  collections: true

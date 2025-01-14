@@ -7,10 +7,6 @@ description: Términos y condiciones de uso de la página dratatianaleal.com
 h1: Términos y Condiciones de Uso | dratatianaleal.com
 hero: img/favicon/apple-touch-icon-180x180.png
 noindex: true
-redirect_from:
-  - /deberes-del-paciente/?A=Politicas-Privacidad-Proteccion-de-Datos%2F
-  - /deberes-del-paciente/?A=Politicas-Privacidad-Proteccion-de-Datos/
-  - /deberes-del-paciente/?A=Politicas-Privacidad-Proteccion-de-Datos
 ---
 [Inicio]({{site.baseurl}}/) - Términos y Condiciones
 
