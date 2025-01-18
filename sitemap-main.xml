@@ -3,15 +3,12 @@ layout: null
 permalink: /sitemap-main.xml
 sitemap: false
 ---
-<?xml version="1.0" encoding="UTF-8"?>{% assign spaces = "" %}
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml"
-  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">{% assign pages = site.html_pages | where_exp: "page", "page.sitemap != false" %}{% for page in pages %}{% unless page.url contains "404" or page.url contains "gracias" or page.url contains "thanks" or page.url contains ".xml" %}
-  <url>
-    <loc>{{ site.url }}{{ page.url | remove: "index.html" | xml_escape }}</loc>
-    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>{% if page.lang %}{% assign versions=site.pages | where:"ref", page.ref %}{% for version in versions %}
-    <xhtml:link rel="alternate" hreflang="{{ version.lang }}" href="{{ site.url }}{{ version.url | xml_escape }}"/>{% endfor %}{% endif %}
-    <changefreq>{% if page.url == "/" %}daily{% else %}weekly{% endif %}</changefreq>
-    <priority>{% if page.url == "/" %}1.0{% elsif page.url contains "/es/" or page.url contains "/en/" %}0.9{% else %}0.8{% endif %}</priority>
-  </url>{% endunless %}{% endfor %}
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">{% assign pages = site.html_pages | where_exp: "page", "page.sitemap != false" %}{% for page in pages %}{% unless page.url contains "404" or page.url contains "gracias" or page.url contains "thanks" or page.url contains ".xml" %}
+<url>
+<loc>{{ site.url }}{{ page.url | remove: "index.html" | xml_escape }}</loc>
+<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+<changefreq>{% if page.url == "/" %}daily{% else %}weekly{% endif %}</changefreq>
+<priority>{% if page.url == "/" %}1.0{% elsif page.url contains "/es/" or page.url contains "/en/" %}0.9{% else %}0.8{% endif %}</priority>
+</url>{% endunless %}{% endfor %}
 </urlset>

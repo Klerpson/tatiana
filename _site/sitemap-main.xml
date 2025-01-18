@@ -1,213 +1,159 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml"
-  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-  <url>
-    <loc>http://localhost:4000/en/aesthetic-center/</loc>
-    <lastmod>2025-01-18T11:49:33-05:00</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/en/aesthetic-center/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="http://localhost:4000/es/centro-estetico/"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>http://localhost:4000/en/blog/</loc>
-    <lastmod>2025-01-18T11:49:33-05:00</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/en/blog/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="http://localhost:4000/es/blog/"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>http://localhost:4000/es/blog/</loc>
-    <lastmod>2025-01-18T11:49:33-05:00</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/en/blog/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="http://localhost:4000/es/blog/"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>http://localhost:4000/en/body-treatments/</loc>
-    <lastmod>2025-01-18T11:49:33-05:00</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/en/body-treatments/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="http://localhost:4000/es/tratamientos-corporales/"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>http://localhost:4000/es/centro-estetico/</loc>
-    <lastmod>2025-01-18T11:49:33-05:00</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/en/aesthetic-center/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="http://localhost:4000/es/centro-estetico/"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>http://localhost:4000/en/contact/</loc>
-    <lastmod>2025-01-18T11:49:33-05:00</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/en/contact/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="http://localhost:4000/es/contacto/"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>http://localhost:4000/es/contacto/</loc>
-    <lastmod>2025-01-18T11:49:33-05:00</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/en/contact/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="http://localhost:4000/es/contacto/"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>http://localhost:4000/es/doctor-marco-bonilla/</loc>
-    <lastmod>2025-01-18T11:49:33-05:00</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="http://localhost:4000/es/doctor-marco-bonilla/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/en/dr-marco-bonilla/"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>http://localhost:4000/es/doctora-tatiana-leal/</loc>
-    <lastmod>2025-01-18T11:49:33-05:00</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="http://localhost:4000/es/doctora-tatiana-leal/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/en/dr-tatiana-leal/"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>http://localhost:4000/en/dr-marco-bonilla/</loc>
-    <lastmod>2025-01-18T11:49:33-05:00</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="http://localhost:4000/es/doctor-marco-bonilla/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/en/dr-marco-bonilla/"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>http://localhost:4000/en/dr-tatiana-leal/</loc>
-    <lastmod>2025-01-18T11:49:33-05:00</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="http://localhost:4000/es/doctora-tatiana-leal/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/en/dr-tatiana-leal/"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>http://localhost:4000/en/facial-treatments/</loc>
-    <lastmod>2025-01-18T11:49:33-05:00</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/en/facial-treatments/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="http://localhost:4000/es/tratamientos-faciales/"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>http://localhost:4000/en/faqs/</loc>
-    <lastmod>2025-01-18T11:49:33-05:00</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/en/faqs/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="http://localhost:4000/es/preguntas-frecuentes/"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>http://localhost:4000/en/</loc>
-    <lastmod>2025-01-18T11:49:33-05:00</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/en/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="http://localhost:4000/es/"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>http://localhost:4000/es/</loc>
-    <lastmod>2025-01-18T11:49:33-05:00</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/en/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="http://localhost:4000/es/"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>http://localhost:4000/es/informacion-paciente/</loc>
-    <lastmod>2025-01-18T11:49:33-05:00</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="http://localhost:4000/es/informacion-paciente/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/en/patient-info/"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>http://localhost:4000/en/intimate-treatments/</loc>
-    <lastmod>2025-01-18T11:49:33-05:00</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/en/intimate-treatments/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="http://localhost:4000/es/tratamientos-intimos/"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>http://localhost:4000/en/legal/</loc>
-    <lastmod>2025-01-18T11:49:33-05:00</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/en/legal/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="http://localhost:4000/es/legal/"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>http://localhost:4000/es/legal/</loc>
-    <lastmod>2025-01-18T11:49:33-05:00</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/en/legal/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="http://localhost:4000/es/legal/"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>http://localhost:4000/en/patient-info/</loc>
-    <lastmod>2025-01-18T11:49:33-05:00</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="http://localhost:4000/es/informacion-paciente/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/en/patient-info/"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>http://localhost:4000/es/preguntas-frecuentes/</loc>
-    <lastmod>2025-01-18T11:49:33-05:00</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/en/faqs/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="http://localhost:4000/es/preguntas-frecuentes/"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>http://localhost:4000/en/technologies/</loc>
-    <lastmod>2025-01-18T11:49:33-05:00</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/en/technologies/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="http://localhost:4000/es/tecnologias/"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>http://localhost:4000/es/tecnologias/</loc>
-    <lastmod>2025-01-18T11:49:33-05:00</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/en/technologies/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="http://localhost:4000/es/tecnologias/"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>http://localhost:4000/es/tratamientos-corporales/</loc>
-    <lastmod>2025-01-18T11:49:33-05:00</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/en/body-treatments/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="http://localhost:4000/es/tratamientos-corporales/"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>http://localhost:4000/es/tratamientos-faciales/</loc>
-    <lastmod>2025-01-18T11:49:33-05:00</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/en/facial-treatments/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="http://localhost:4000/es/tratamientos-faciales/"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>http://localhost:4000/es/tratamientos-intimos/</loc>
-    <lastmod>2025-01-18T11:49:33-05:00</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:4000/en/intimate-treatments/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="http://localhost:4000/es/tratamientos-intimos/"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<url>
+<loc>http://localhost:4000/en/aesthetic-center/</loc>
+<lastmod>2025-01-18T11:56:29-05:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>http://localhost:4000/en/blog/</loc>
+<lastmod>2025-01-18T11:56:29-05:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>http://localhost:4000/es/blog/</loc>
+<lastmod>2025-01-18T11:56:29-05:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>http://localhost:4000/en/body-treatments/</loc>
+<lastmod>2025-01-18T11:56:29-05:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>http://localhost:4000/es/centro-estetico/</loc>
+<lastmod>2025-01-18T11:56:29-05:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>http://localhost:4000/en/contact/</loc>
+<lastmod>2025-01-18T11:56:29-05:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>http://localhost:4000/es/contacto/</loc>
+<lastmod>2025-01-18T11:56:29-05:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>http://localhost:4000/es/doctor-marco-bonilla/</loc>
+<lastmod>2025-01-18T11:56:29-05:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>http://localhost:4000/es/doctora-tatiana-leal/</loc>
+<lastmod>2025-01-18T11:56:29-05:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>http://localhost:4000/en/dr-marco-bonilla/</loc>
+<lastmod>2025-01-18T11:56:29-05:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>http://localhost:4000/en/dr-tatiana-leal/</loc>
+<lastmod>2025-01-18T11:56:29-05:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>http://localhost:4000/en/facial-treatments/</loc>
+<lastmod>2025-01-18T11:56:29-05:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>http://localhost:4000/en/faqs/</loc>
+<lastmod>2025-01-18T11:56:29-05:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>http://localhost:4000/en/</loc>
+<lastmod>2025-01-18T11:56:29-05:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>http://localhost:4000/es/</loc>
+<lastmod>2025-01-18T11:56:29-05:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>http://localhost:4000/es/informacion-paciente/</loc>
+<lastmod>2025-01-18T11:56:29-05:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>http://localhost:4000/en/intimate-treatments/</loc>
+<lastmod>2025-01-18T11:56:29-05:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>http://localhost:4000/en/legal/</loc>
+<lastmod>2025-01-18T11:56:29-05:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>http://localhost:4000/es/legal/</loc>
+<lastmod>2025-01-18T11:56:29-05:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>http://localhost:4000/en/patient-info/</loc>
+<lastmod>2025-01-18T11:56:29-05:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>http://localhost:4000/es/preguntas-frecuentes/</loc>
+<lastmod>2025-01-18T11:56:29-05:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>http://localhost:4000/en/technologies/</loc>
+<lastmod>2025-01-18T11:56:29-05:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>http://localhost:4000/es/tecnologias/</loc>
+<lastmod>2025-01-18T11:56:29-05:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>http://localhost:4000/es/tratamientos-corporales/</loc>
+<lastmod>2025-01-18T11:56:29-05:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>http://localhost:4000/es/tratamientos-faciales/</loc>
+<lastmod>2025-01-18T11:56:29-05:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>http://localhost:4000/es/tratamientos-intimos/</loc>
+<lastmod>2025-01-18T11:56:29-05:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
 </urlset>

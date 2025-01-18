@@ -3,29 +3,12 @@ layout: null
 permalink: /sitemap-posts.xml
 sitemap: false
 ---
-<?xml version="1.0" encoding="UTF-8"?>{% assign spaces = "" %}
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml"
-  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
-  xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">{% assign posts = site.posts | sort: 'date' | reverse %}{% for post in posts %}
-  <url>
-    <loc>{{ site.url }}{{ post.url | xml_escape }}</loc>
-    <lastmod>{% if post.last_modified_at %}{{ post.last_modified_at | date_to_xmlschema }}{% else %}{{ post.date | date_to_xmlschema }}{% endif %}</lastmod>{% if post.lang %}{% assign versions=site.posts | where:"ref", post.ref %}{% for version in versions %}
-    <xhtml:link rel="alternate" hreflang="{{ version.lang }}" href="{{ site.url }}{{ version.url | xml_escape }}"/>{% endfor %}{% endif %}{% if post.hero %}
-    <image:image>
-      <image:loc>{{ site.url }}{{ post.hero | xml_escape }}</image:loc>
-      <image:title>{{ post.title | xml_escape }}</image:title>{% if post.description %}
-      <image:caption>{{ post.description | xml_escape }}</image:caption>{% endif %}
-    </image:image>{% endif %}
-    <news:news>
-      <news:publication>
-        <news:name>{{ site.name }}</news:name>
-        <news:language>{{ post.lang }}</news:language>
-      </news:publication>
-      <news:publication_date>{{ post.date | date_to_xmlschema }}</news:publication_date>
-      <news:title>{{ post.title | xml_escape }}</news:title>
-    </news:news>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>{% endfor %}
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">{% assign posts = site.posts | sort: 'date' | reverse %}{% for post in posts %}
+<url>
+<loc>{{ site.url }}{{ post.url | xml_escape }}</loc>
+<lastmod>{% if post.last_modified_at %}{{ post.last_modified_at | date_to_xmlschema }}{% else %}{{ post.date | date_to_xmlschema }}{% endif %}</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>{% endfor %}
 </urlset>
