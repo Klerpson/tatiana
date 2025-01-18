@@ -1,1 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?> <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> <sitemap> <loc>http://localhost:4000/sitemap-main.xml</loc> <lastmod>2025-01-17T13:46:43-05:00</lastmod> </sitemap> <sitemap> <loc>http://localhost:4000/sitemap-posts.xml</loc> <lastmod>2025-01-10T00:00:00-05:00</lastmod> </sitemap> <sitemap> <loc>http://localhost:4000/sitemap-treatments.xml</loc> <lastmod>2025-01-17T13:46:43-05:00</lastmod> </sitemap> </sitemapindex>
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- Sitemap principal para páginas estáticas -->
+    <sitemap>
+        <loc>http://localhost:4000/sitemap-main.xml</loc>
+        <lastmod>2025-01-18T08:43:31-05:00</lastmod>
+    </sitemap>
+    
+    <!-- Sitemap para posts del blog -->
+    <sitemap>
+        <loc>http://localhost:4000/sitemap-posts.xml</loc>
+        <lastmod>2025-01-17T00:00:00-05:00</lastmod>
+    </sitemap>
+    
+    <!-- Sitemap para tratamientos -->
+    <sitemap>
+        <loc>http://localhost:4000/sitemap-treatments.xml</loc>
+        <lastmod>2025-01-18T08:43:31-05:00</lastmod>
+    </sitemap>
+</sitemapindex>
