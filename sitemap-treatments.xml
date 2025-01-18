@@ -2,21 +2,20 @@
 layout: null
 sitemap: false
 ---
+<!-- DEBUG: site.url = {{ site.url }} -->
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
-        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
-    <!-- Tratamientos Faciales -->
-    {% assign faciales_es = site.tratamientos-faciales_es %}
-    {% assign faciales_en = site.tratamientos-faciales_en %}
-    {% for tratamiento in faciales_es %}
+    {% assign treatments_es = site.tratamientos-faciales_es | concat: site.tratamientos-corporales_es | concat: site.tratamientos-intimos_es %}
+    {% assign treatments_en = site.tratamientos-faciales_en | concat: site.tratamientos-corporales_en | concat: site.tratamientos-intimos_en %}
+    
+    {% for treatment in treatments_es %}
     <url>
-        <loc>{{ site.url }}{{ tratamiento.url }}</loc>
+        <loc>{{ site.url }}{{ treatment.url }}</loc>
         
-        <!-- Versión en inglés -->
-        {% assign en_version = faciales_en | where:"ref", tratamiento.ref | first %}
+        {% assign en_version = treatments_en | where: "ref", treatment.ref | first %}
         {% if en_version %}
         <xhtml:link 
             rel="alternate"
@@ -26,39 +25,8 @@ sitemap: false
         <xhtml:link 
             rel="alternate"
             hreflang="es"
-            href="{{ site.url }}{{ tratamiento.url }}"
+            href="{{ site.url }}{{ treatment.url }}"
         />
-        {% endif %}
-        
-        <!-- Imágenes del tratamiento -->
-        {% if tratamiento.hero %}
-        <image:image>
-            <image:loc>{{ site.url }}/{{ tratamiento.hero }}</image:loc>
-            <image:title>{{ tratamiento.alt | default: tratamiento.title | xml_escape }}</image:title>
-            <image:caption>{{ tratamiento.description | xml_escape }}</image:caption>
-        </image:image>
-        {% endif %}
-        {% if tratamiento.hero1 %}
-        <image:image>
-            <image:loc>{{ site.url }}/{{ tratamiento.hero1 }}</image:loc>
-            <image:title>{{ tratamiento.title | xml_escape }}</image:title>
-        </image:image>
-        {% endif %}
-        
-        <!-- Cases/Antes y Después -->
-        {% if tratamiento.cases %}
-        {% for case in tratamiento.cases %}
-        <image:image>
-            <image:loc>{{ site.url }}{{ case.before_image }}</image:loc>
-            <image:title>Antes - {{ case.title | xml_escape }}</image:title>
-            <image:caption>{{ case.description | xml_escape }}</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>{{ site.url }}{{ case.after_image }}</image:loc>
-            <image:title>Después - {{ case.title | xml_escape }}</image:title>
-            <image:caption>{{ case.description | xml_escape }}</image:caption>
-        </image:image>
-        {% endfor %}
         {% endif %}
         
         <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
@@ -67,110 +35,22 @@ sitemap: false
     </url>
     {% endfor %}
 
-    <!-- Tratamientos Corporales -->
-    {% assign corporales_es = site.tratamientos-corporales_es %}
-    {% assign corporales_en = site.tratamientos-corporales_en %}
-    {% for tratamiento in corporales_es %}
+    {% for treatment in treatments_en %}
     <url>
-        <loc>{{ site.url }}{{ tratamiento.url }}</loc>
+        <loc>{{ site.url }}{{ treatment.url }}</loc>
         
-        {% assign en_version = corporales_en | where:"ref", tratamiento.ref | first %}
-        {% if en_version %}
-        <xhtml:link 
-            rel="alternate"
-            hreflang="en"
-            href="{{ site.url }}{{ en_version.url }}"
-        />
+        {% assign es_version = treatments_es | where: "ref", treatment.ref | first %}
+        {% if es_version %}
         <xhtml:link 
             rel="alternate"
             hreflang="es"
-            href="{{ site.url }}{{ tratamiento.url }}"
+            href="{{ site.url }}{{ es_version.url }}"
         />
-        {% endif %}
-        
-        {% if tratamiento.hero %}
-        <image:image>
-            <image:loc>{{ site.url }}/{{ tratamiento.hero }}</image:loc>
-            <image:title>{{ tratamiento.alt | default: tratamiento.title | xml_escape }}</image:title>
-            <image:caption>{{ tratamiento.description | xml_escape }}</image:caption>
-        </image:image>
-        {% endif %}
-        {% if tratamiento.hero1 %}
-        <image:image>
-            <image:loc>{{ site.url }}/{{ tratamiento.hero1 }}</image:loc>
-            <image:title>{{ tratamiento.title | xml_escape }}</image:title>
-        </image:image>
-        {% endif %}
-        
-        {% if tratamiento.cases %}
-        {% for case in tratamiento.cases %}
-        <image:image>
-            <image:loc>{{ site.url }}{{ case.before_image }}</image:loc>
-            <image:title>Antes - {{ case.title | xml_escape }}</image:title>
-            <image:caption>{{ case.description | xml_escape }}</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>{{ site.url }}{{ case.after_image }}</image:loc>
-            <image:title>Después - {{ case.title | xml_escape }}</image:title>
-            <image:caption>{{ case.description | xml_escape }}</image:caption>
-        </image:image>
-        {% endfor %}
-        {% endif %}
-        
-        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    {% endfor %}
-
-    <!-- Tratamientos Íntimos -->
-    {% assign intimos_es = site.tratamientos-intimos_es %}
-    {% assign intimos_en = site.tratamientos-intimos_en %}
-    {% for tratamiento in intimos_es %}
-    <url>
-        <loc>{{ site.url }}{{ tratamiento.url }}</loc>
-        
-        {% assign en_version = intimos_en | where:"ref", tratamiento.ref | first %}
-        {% if en_version %}
         <xhtml:link 
             rel="alternate"
             hreflang="en"
-            href="{{ site.url }}{{ en_version.url }}"
+            href="{{ site.url }}{{ treatment.url }}"
         />
-        <xhtml:link 
-            rel="alternate"
-            hreflang="es"
-            href="{{ site.url }}{{ tratamiento.url }}"
-        />
-        {% endif %}
-        
-        {% if tratamiento.hero %}
-        <image:image>
-            <image:loc>{{ site.url }}/{{ tratamiento.hero }}</image:loc>
-            <image:title>{{ tratamiento.alt | default: tratamiento.title | xml_escape }}</image:title>
-            <image:caption>{{ tratamiento.description | xml_escape }}</image:caption>
-        </image:image>
-        {% endif %}
-        {% if tratamiento.hero1 %}
-        <image:image>
-            <image:loc>{{ site.url }}/{{ tratamiento.hero1 }}</image:loc>
-            <image:title>{{ tratamiento.title | xml_escape }}</image:title>
-        </image:image>
-        {% endif %}
-        
-        {% if tratamiento.cases %}
-        {% for case in tratamiento.cases %}
-        <image:image>
-            <image:loc>{{ site.url }}{{ case.before_image }}</image:loc>
-            <image:title>Antes - {{ case.title | xml_escape }}</image:title>
-            <image:caption>{{ case.description | xml_escape }}</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>{{ site.url }}{{ case.after_image }}</image:loc>
-            <image:title>Después - {{ case.title | xml_escape }}</image:title>
-            <image:caption>{{ case.description | xml_escape }}</image:caption>
-        </image:image>
-        {% endfor %}
         {% endif %}
         
         <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
