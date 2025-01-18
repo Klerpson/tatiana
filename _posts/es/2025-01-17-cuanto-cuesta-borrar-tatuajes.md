@@ -25,11 +25,15 @@ canonical_url: "https://dratatianaleal.com/es/blog/precio-eliminar-tatuajes-lase
 ---
 Era un martes por la mañana cuando Carolina, secretaria del Banco de Bogotá de 34 años, se miraba al espejo ajustando su blazer.
 
-Allí estaba, asomándose por debajo de la manga: el tatuaje tribal que se había hecho a los 18 años. "*En ese momento parecía una gran idea*", pensó mientras intentaba cubrir el diseño que ahora sentía tan alejado de su imagen profesional 🤭.
+Allí estaba, asomándose por debajo de la manga. ¿Qué cosa? Un tatuaje tribal que se había hecho a los 18 años.
 
-Ese mismo día, durante una presentación importante, notó cómo uno de los inversores seguía con la mirada el tatuaje en su muñeca cada vez que señalaba algo en la pantalla.
+"*En ese momento parecía una gran idea*", me contó en el consultorio, mientras intentaba cubrir el diseño que ahora sentía tan alejado de su imagen profesional 🤭.
 
-No era la primera vez que se sentía incómoda por esta situación, pero fue el momento que la impulsó a **buscar opciones para eliminarlo**.
+Ese mismo día, durante una presentación importante le pasó un situación incómoda y repetida.
+
+Notó cómo uno de los inversores seguía con la mirada el tatuaje en su muñeca cada vez que señalaba algo en la pantalla.
+
+Ese fue el momento que la impulsó a **buscar el precio para eliminar su tatuaje**.
 
 ## El verdadero costo de eliminar un tatuaje en 2025
 
@@ -55,9 +59,7 @@ Cuando hablamos del costo de eliminar un tatuaje con láser en Colombia, es impo
 Carolina, como muchos de mis pacientes, inicialmente se sorprendió por el costo. "*Pensé que sería más económico que hacérmelo*", me comentó en su primera consulta. Sin embargo, hay aspectos cruciales que justifican la inversión:
 
 1. **Tecnología de última generación**: En nuestra [clínica de medicina estética]({{'es' | relative_url}}), utilizamos el láser PicoSure®, considerado el estándar de oro en eliminación de tatuajes
-
 2. **Seguridad garantizada**: El procedimiento es realizado por [especialistas certificados]({{'es/nosotros' | relative_url}}) con años de experiencia
-
 3. **Resultados predecibles**: Nuestro protocolo permite estimar con precisión el número de sesiones necesarias
 
 ## El proceso paso a paso: ¿qué estás pagando realmente?
