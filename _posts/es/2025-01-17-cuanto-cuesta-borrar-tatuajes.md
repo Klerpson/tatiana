@@ -126,18 +126,16 @@ El precio por sesión incluye todos los elementos necesarios para el tratamiento
 
 Carolina completó su tratamiento hace seis meses. "*El costo inicial me preocupaba*", admite, "*pero cuando vi cómo mejoraba mi confianza en el trabajo y mi libertad para vestir lo que quisiera, entendí que era una inversión en mí misma*."
 
-[Mira más historias de éxito]({{'es/testimonios' | relative_url}}) de pacientes que han transformado su imagen con nuestros tratamientos.
+## ¿Lista para dar el primer paso? Elminemos ese tatuaje
 
-## ¿Lista para dar el primer paso?
-
-Si, como Carolina, estás considerando eliminar un tatuaje, el primer paso es una [consulta especializada]({{'es/tratamientos-corporales/eliminar-tatuajes' | relative_url}}). Durante esta evaluación:
+Si, como Carolina, estás considerando eliminar un tatuaje, el primer paso es una [consulta especializada]({{'es/tratamientos-corporales/eliminacion-tatuajes' | relative_url}}). Durante esta evaluación:
 
 - Analizaremos tu tatuaje en detalle
 - Crearemos un plan personalizado
 - Discutiremos opciones de financiamiento
 - Resolveremos todas tus dudas
 
-> ¿Quieres saber exactamente cuánto costaría eliminar tu tatuaje? [Agenda una consulta]({{'es/tratamientos-corporales/eliminar-tatuajes/#consulta' | relative_url}}) y obtén un presupuesto personalizado. Tu transformación está a solo un clic de distancia.
+> ¿Quieres saber exactamente cuánto costaría eliminar tu tatuaje? [Agenda una consulta]({{'es/tratamientos-corporales/eliminacion-tatuajes/#consulta' | relative_url}}) y obtén un presupuesto personalizado. Tu transformación está a solo un clic de distancia.
 
 {% include cta-blog.html %}
 
