@@ -126,7 +126,7 @@ El precio por sesión incluye todos los elementos necesarios para el tratamiento
 
 Carolina completó su tratamiento hace seis meses. "*El costo inicial me preocupaba*", admite, "*pero cuando vi cómo mejoraba mi confianza en el trabajo y mi libertad para vestir lo que quisiera, entendí que era una inversión en mí misma*."
 
-## ¿Lista para dar el primer paso? Elminemos ese tatuaje
+## ¿Lista para dar el primer paso? Eliminemos ese tatuaje
 
 Si, como Carolina, estás considerando eliminar un tatuaje, el primer paso es una [consulta especializada]({{'es/tratamientos-corporales/eliminacion-tatuajes' | relative_url}}). Durante esta evaluación:
 
