@@ -136,7 +136,7 @@ If, like Caroline, you're considering tattoo removal, the first step is a [speci
 - Discuss financing options
 - Answer all your questions
 
-> Want to know exactly how much it would cost to remove your tattoo? [Schedule a consultation]({{'en/body-treatments/tattoo-removal/#consultation' | relative_url}}) and get a personalized quote. Your transformation is just one click away.
+> Want to know exactly how much it would cost to remove your tattoo? [Schedule a consultation]({{'en/body-treatments/tattoo-removal/#consulta' | relative_url}}) and get a personalized quote. Your transformation is just one click away.
 
 {% include cta-blog.html %}
 
