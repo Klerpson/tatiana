@@ -385,3 +385,163 @@
     padding-right: 4px;
   }
 }
+
+
+/* Estilos para los videos */
+.video-wrapper {
+  position: relative;
+  width: min(100%, 355px);
+  height: 664px;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: var(--radius);
+  margin-inline: auto;
+  margin-bottom: 1.5rem;
+  background-color: var(--gris1);
+}
+
+.video-play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  opacity: 0.9;
+}
+
+.video-play-button svg {
+  -webkit-filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));
+          filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));
+}
+
+.video-wrapper:hover .video-play-button {
+  transform: translate(-50%, -50%) scale(1.1);
+}
+
+.video-wrapper.playing .video-play-button {
+  opacity: 0;
+}
+
+.gallery-video {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.video-wrapper:hover .gallery-video {
+  transform: scale(1.05);
+}
+
+/* Loader para los videos */
+.video-wrapper::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+  height: 40px;
+  border: 3px solid var(--principal);
+  border-top-color: transparent;
+  border-radius: 50%;
+  -webkit-animation: spin 1s linear infinite;
+          animation: spin 1s linear infinite;
+  opacity: 0;
+}
+
+.video-wrapper.loading::before {
+  opacity: 1;
+}
+
+@-webkit-keyframes spin {
+  to { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+@keyframes spin {
+  to { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+
+/* Estilos para destacar el video del medio */
+.video-wrapper-featured {
+  width: min(100%, 400px); /* Un poco más ancho */
+  height: 700px; /* Un poco más alto */
+  border: 2px solid var(--accion); /* Borde especial */
+  box-shadow: 0 8px 32px rgba(207, 186, 163, 0.15); /* Sombra elegante */
+  transform: translateY(-20px); /* Elevación sutil */
+}
+
+/* Efecto hover mejorado para el video destacado */
+.video-wrapper-featured:hover {
+  border-color: var(--principal);
+  box-shadow: 0 12px 48px rgba(207, 186, 163, 0.25);
+}
+
+/* Botón de play más grande para el video destacado */
+.video-wrapper-featured .video-play-button svg {
+  width: 64px;
+  height: 64px;
+  -webkit-filter: drop-shadow(0 4px 8px rgba(0,0,0,0.4));
+          filter: drop-shadow(0 4px 8px rgba(0,0,0,0.4));
+}
+
+/* Overlay especial para el video destacado */
+.video-wrapper-featured::after {
+  content: 'Tecnología Premium';
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: linear-gradient(135deg, var(--principal), var(--complemento));
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius);
+  font-size: 0.875rem;
+  font-weight: 500;
+  opacity: 0.9;
+  z-index: 2;
+}
+
+/* Ajuste del contenedor para acomodar el video más grande */
+.block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Aseguramos que el texto se mantenga alineado */
+.block h3,
+.block p {
+  text-align: center;
+  max-width: 90%;
+}
+
+/* Animación suave al cargar */
+.video-wrapper-featured {
+  -webkit-animation: fadeInUp 0.6s ease-out;
+          animation: fadeInUp 0.6s ease-out;
+}
+
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(-20px);
+  }
+}

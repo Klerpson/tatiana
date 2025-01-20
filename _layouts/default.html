@@ -199,5 +199,77 @@ layout: compress
   </script>
   
   {% endif %}
-</body>
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const videoWrappers = document.querySelectorAll('.video-wrapper');
+    
+    videoWrappers.forEach(wrapper => {
+      const video = wrapper.querySelector('.gallery-video');
+      
+      video.addEventListener('error', function(e) {
+        console.error('Error loading video:', video.src);
+        console.error('Error details:', e);
+        wrapper.classList.add('error');
+      });
+  
+      video.addEventListener('loadstart', function() {
+        wrapper.classList.add('loading');
+      });
+  
+      video.addEventListener('loadeddata', function() {
+        wrapper.classList.remove('loading');
+        console.log('Video loaded successfully:', video.src);
+      });
+  
+      wrapper.addEventListener('click', () => {
+        if (video.paused) {
+          document.querySelectorAll('.gallery-video').forEach(v => {
+            if (v !== video) {
+              v.pause();
+              v.parentElement.classList.remove('playing');
+            }
+          });
+          
+          video.play();
+          wrapper.classList.add('playing');
+        } else {
+          video.pause();
+          wrapper.classList.remove('playing');
+        }
+      });
+  
+      wrapper.addEventListener('mouseenter', () => {
+        if (!wrapper.classList.contains('playing')) {
+          video.play();
+        }
+      });
+  
+      wrapper.addEventListener('mouseleave', () => {
+        if (!wrapper.classList.contains('playing')) {
+          video.pause();
+          video.currentTime = 0;
+        }
+      });
+  
+      video.addEventListener('ended', () => {
+        if (!video.loop) {
+          wrapper.classList.remove('playing');
+        }
+      });
+  
+      video.addEventListener('stalled', function() {
+        wrapper.classList.add('error');
+      });
+  
+      video.addEventListener('waiting', function() {
+        wrapper.classList.add('loading');
+      });
+  
+      video.addEventListener('playing', function() {
+        wrapper.classList.remove('loading');
+        wrapper.classList.remove('error');
+      });
+    });
+  });
+  </script>
 </html>
