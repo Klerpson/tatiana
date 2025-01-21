@@ -174,8 +174,43 @@ faqs:
   </article>
 </section>
 
+<section class="two_columns seccion" aria-labelledby="tecnologia-section">
+  <div class="flow padding">
+    <h2 id="tecnologia-section">Tecnología Maximus: La nueva era en rejuvenecimiento</h2>
+    <p>Maximus utiliza radiofrecuencia tripolar avanzada que estimula la producción natural de colágeno en las capas profundas de tu piel. El tratamiento proporciona calor controlado y preciso al tejido, activando la regeneración celular y mejorando la firmeza de forma natural y segura.</p>
+    
+    <ul class="feature-list">
+      <li>Control térmico inteligente en tiempo real</li>
+      <li>Resultados visibles desde la primera sesión</li>
+      <li>Sin tiempo de recuperación necesario</li>
+      <li>Tratamiento no invasivo y seguro</li>
+    </ul>
+
+    {% include boton.html %}
+  </div>
+
+  <div class="video-wrapper">
+    <video class="gallery-video"
+      poster="{{ 'img/analisis-janus-facial.avif' | relative_url }}"
+      alt="Tecnología avanzada Maximus" 
+      title="Tecnología Maximus"
+      preload="metadata"
+      loop 
+      playsinline>
+      <source src="{{ '/videos/maximus-analisis-personalizado-bogota.mp4' | relative_url }}" type="video/mp4">
+      Tu navegador no soporta el elemento video.
+    </video>
+    <div class="video-play-button" aria-label="Reproducir video">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" aria-hidden="true">
+        <circle cx="12" cy="12" r="11" fill="rgba(255,255,255,0.9)"/>
+        <path d="M9.5 7.5v9l7-4.5-7-4.5z" fill="#002b4d"/>
+      </svg>
+    </div>
+  </div>
+</section>
+
 <!-- Segunda sección: Resultados y beneficios -->
-<section class="three_blocks seccion padding" aria-labelledby="maximus-beneficios">
+<section class="three_blocks padding" aria-labelledby="maximus-beneficios">
   <header class="intro">
     <small>Beneficios comprobados</small>
     <h2 id="maximus-beneficios">Resultados excepcionales</h2>
