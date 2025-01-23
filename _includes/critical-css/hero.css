@@ -72,3 +72,7 @@
   width: 100%;
   min-height: 50vh;
 }
+
+.hero_post-image{
+  height: auto;
+}
