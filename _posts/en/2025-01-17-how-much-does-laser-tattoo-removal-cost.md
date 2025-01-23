@@ -16,12 +16,11 @@ hero: "img/blog/laser-tattoo-removal-prices.avif"
 jpg: "img/blog/laser-tattoo-removal-prices.jpg"
 alt: "Laser tattoo removal procedure in progress"
 excerpt: "Regretting that tattoo and worried about removal costs? Discover real prices, influencing factors, and how to choose the best treatment for your case."
-reading_time: 12
+reading_time: 6
 references:
   - "Clinical Effectiveness of Laser Tattoo Removal: 'https://www.dermatologyjournal.org/example'"
   - "Cost Analysis of Laser Tattoo Removal Procedures: 'https://www.aestheticmedicine.org/example'"
 word_count: 2400
-canonical_url: "https://dratatianaleal.com/en/blog/laser-tattoo-removal-prices/"
 ---
 
 It was a Tuesday morning when Caroline, a 34-year-old investment bank executive, was adjusting her blazer in the mirror.

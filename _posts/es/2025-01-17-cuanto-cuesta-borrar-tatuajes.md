@@ -16,12 +16,11 @@ hero: "img/blog/eliminar-tatuaje-laser-precios.avif"
 jpg: "img/blog/eliminar-tatuaje-laser-precios.jpg"
 alt: "Procedimiento de eliminación de tatuaje con láser en progreso"
 excerpt: "¿Te arrepientes de ese tatuaje y te preocupa el costo de eliminarlo? Descubre los precios reales, factores que influyen y cómo elegir el mejor tratamiento láser para tu caso."
-tiempo_lectura: 12
+tiempo_lectura: 6
 referencias:
   - "Clinical Effectiveness of Laser Tattoo Removal: 'https://www.dermatologyjournal.org/example'"
   - "Cost Analysis of Laser Tattoo Removal Procedures: 'https://www.aestheticmedicine.org/example'"
 word_count: 2400
-canonical_url: "https://dratatianaleal.com/es/blog/precio-eliminar-tatuajes-laser-colombia/"
 ---
 Era un martes por la mañana cuando Carolina, secretaria del Banco de Bogotá de 34 años, se miraba al espejo ajustando su blazer.
 
