@@ -26,7 +26,7 @@ canonical_url: "https://dratatianaleal.com/es/blog/"
   <div class="service-cards">
     {% assign current_lang = page.lang | default: site.default_lang %}
     {% assign posts = site.posts | where: "lang", current_lang %}
-    {% for post in posts limit:6 %}
+    {% for post in posts %}
     <div class="card flow">
       <div class="card-image">
         <img src="{{ post.hero | relative_url }}" alt="{{ post.alt }}">
