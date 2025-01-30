@@ -3648,23 +3648,23 @@
     <h2>Arsenal completo de tecnologías para resultados excepcionales</h2>
   </header>
 
-  <div class="tratamientos-grid">
-    <div class="tratamiento">
+  <div class="service-cards">
+    <div class="card">
       <h3>HIFU y Radiofrecuencia</h3>
       <p>Tecnología de ultrasonido focalizado de alta intensidad combinada con radiofrecuencia para estimular el colágeno en profundidad y reafirmar los tejidos desde el interior. La radiofrecuencia transfiere energía en forma de calor a las capas profundas de la dermis, estimulando la producción de colágeno y favoreciendo la llegada de nutrientes a la zona tratada.</p>
     </div>
 
-    <div class="tratamiento">
+    <div class="card">
       <h3>Maximus con Trilipo®</h3>
       <p>Sistema patentado que combina radiofrecuencia tripolar y manipulación dinámica del músculo para tonificar, definir y mejorar el contorno corporal de forma no invasiva. Ideal para definir el contorno corporal, levantamiento de glúteos y mejorar la flacidez y la celulitis.</p>
     </div>
 
-    <div class="tratamiento">
+    <div class="card">
       <h3>Ondas de Choque Thork</h3>
       <p>Tecnología acústica que mejora la circulación, reduce la celulitis y favorece la elasticidad cutánea mediante estimulación mecánica profunda. Este tratamiento no invasivo mejora la circulación sanguínea local, la irrigación de los tejidos y brinda más elasticidad y firmeza.</p>
     </div>
 
-    <div class="tratamiento">
+    <div class="card">
       <h3>Contour Shape</h3>
       <p>Sistema versátil que combina radiofrecuencia y endermología para corregir irregularidades de la piel y mejorar el aspecto de la celulitis. Se complementa con intradermoterapia, un método tonificante que acelera el metabolismo y favorece la quema de grasa localizada.</p>
     </div>
