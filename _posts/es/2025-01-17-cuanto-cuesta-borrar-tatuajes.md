@@ -141,3 +141,4 @@ Si, como Carolina, estás considerando eliminar un tatuaje, el primer paso es un
 *Actualizado: Enero 2025*
 
 *Disclaimer: Los precios mencionados son aproximados y pueden variar según las características específicas de cada caso. Todos los procedimientos son realizados por especialistas certificados en nuestras instalaciones de última generación.*
+

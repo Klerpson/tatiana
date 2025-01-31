@@ -59,13 +59,13 @@ En ciudades como Bogotá y Medellín, la liposucción es ampliamente ofrecida po
 
 La anestesia utilizada puede ser general o local, dependiendo de la extensión de la liposucción y de la recomendación del cirujano. El equipo médico involucrado incluye:
 
--   Cirujanos plásticos certificados.
+- Cirujanos plásticos certificados.
     
--   Anestesistas calificados.
+- Anestesistas calificados.
     
--   Personal de enfermería especializado en cuidados postoperatorios.
+- Personal de enfermería especializado en cuidados postoperatorios.
     
--   Instrumental quirúrgico adecuado y tecnología moderna para garantizar la seguridad del procedimiento.
+- Instrumental quirúrgico adecuado y tecnología moderna para garantizar la seguridad del procedimiento.
     
 
 ## Lipólisis: Tratamiento no quirúrgico
@@ -81,10 +81,10 @@ La lipólisis utiliza distintas técnicas para **destruir las células de grasa 
 
 ### Técnicas de lipólisis, incluyendo lipoláser
 
--   Lipólisis láser  
+- Lipólisis láser  
     Esta técnica emplea energía láser para licuar la grasa, facilitando su eliminación sin incisiones. Aparte de reducir la grasa, puede estimular la producción de colágeno, mejorando la firmeza de la piel.
     
--   Mesoterapia lipolítica  
+- Mesoterapia lipolítica  
     A través de inyecciones locales de sustancias específicas, esta técnica ayuda a disolver la grasa acumulada en áreas problemáticas, siendo menos invasiva que la cirugía tradicional.
     
 
@@ -92,9 +92,9 @@ La lipólisis utiliza distintas técnicas para **destruir las células de grasa 
 
 Entre las ventajas que ofrece la lipólisis, destacan:
 
--   Menor tiempo de recuperación en comparación con la liposucción.
+- Menor tiempo de recuperación en comparación con la liposucción.
     
--   Resultados visibles que mejoran gradualmente durante el tiempo, ya que el organismo elimina las células grasas descompuestas.
+- Resultados visibles que mejoran gradualmente durante el tiempo, ya que el organismo elimina las células grasas descompuestas.
     
 - Procedimiento ambulatorio, lo que significa que generalmente no se requiere hospitalización.
     
@@ -113,81 +113,77 @@ La liposucción y la lipólisis son dos procedimientos que buscan eliminar grasa
 
 Una de las diferencias más marcadas entre la liposucción y la lipólisis es que la primera es un **procedimiento quirúrgico**, mientras que la segunda es un **tratamiento no invasivo**.
 
--   Liposucción: Implica incisiones en la piel para succionar la grasa de áreas problemáticas. Esto requiere anestesia y un entorno quirúrgico controlado.
+- Liposucción: Implica incisiones en la piel para succionar la grasa de áreas problemáticas. Esto requiere anestesia y un entorno quirúrgico controlado.
     
--   Lipólisis: Se lleva a cabo mediante técnicas no invasivas, como el uso de láser o inyecciones, que descomponen las células grasa sin la necesidad de cirugía.
-    
+- Lipólisis: Se lleva a cabo mediante técnicas no invasivas, como el uso de láser o inyecciones, que descomponen las células grasa sin la necesidad de cirugía.
 
 ### Resultados esperados y tiempo de recuperación
 
 El tiempo que se requiere para ver resultados y el proceso de recuperación difiere considerablemente entre los tratamientos.
 
--   Liposucción: Los resultados son inmediatos y claros, pero la recuperación puede ser prolongada, a menudo de varias semanas, dependiendo de la cantidad de grasa extraída.
-    
--   Lipólisis: Los efectos son más sutiles y progresivos, pudiendo tardar varias semanas en ser visibles a medida que el cuerpo elimina la grasa descompuesta.
-    
-<img src="{{'img/procedimiento-lipolisis-laser.avif' | relative_url}}"/>
+- Liposucción: Los resultados son inmediatos y claros, pero la recuperación puede ser prolongada, a menudo de varias semanas, dependiendo de la cantidad de grasa extraída.
+- Lipólisis: Los efectos son más sutiles y progresivos, pudiendo tardar varias semanas en ser visibles a medida que el cuerpo elimina la grasa descompuesta.
+
+![Paciente de Bogotá haciéndose un procedimiento de lipólisis láser con la doctora Tatiana Leal]({{'img/procedimiento-lipolisis-laser.avif' | relative_url }} "Paciente de lipólisis láser"){:width="832" height="312" loading="lazy" decoding="async"}
 
 ### Candidatos ideales para cada tratamiento
 
 Los ideales candidatos para cada procedimiento varían según el tipo de grasa que deseen eliminar y sus objetivos estéticos.
 
--   Liposucción: Se recomienda para personas con depósitos de grasa más grandes y localizados que buscan transformaciones significativas. Puede no ser indicado para quienes tienen flacidez severa de la piel.
-    
--   Lipólisis: Es más apta para quienes desean mejorar áreas pequeñas de grasa y no requieren cambios dramáticos en su figura. Es ideal para personas que prefieren procedimientos menos invasivos.
-    
+- Liposucción: Se recomienda para personas con depósitos de grasa más grandes y localizados que buscan transformaciones significativas. Puede no ser indicado para quienes tienen flacidez severa de la piel.
+- Lipólisis: Es más apta para quienes desean mejorar áreas pequeñas de grasa y no requieren cambios dramáticos en su figura. Es ideal para personas que prefieren procedimientos menos invasivos.
 
 ### Impacto en el contorno corporal
 
 Ambos procedimientos tienen diferentes impactos en el contorno corporal, en función de la cantidad de grasa eliminada y la técnica utilizada.
 
--   Liposucción: Ofrece una remodelación significativa del contorno, permitiendo definir mejor las proporciones del cuerpo tras la eliminación de grandes volúmenes de grasa.
+- Liposucción: Ofrece una remodelación significativa del contorno, permitiendo definir mejor las proporciones del cuerpo tras la eliminación de grandes volúmenes de grasa.
     
--   Lipólisis: Mejora sutilmente la apariencia general al reducir la grasa localizada sin alterar de manera drástica el contorno del cuerpo.
+- Lipólisis: Mejora sutilmente la apariencia general al reducir la grasa localizada sin alterar de manera drástica el contorno del cuerpo.
     
 
 ## Experiencia del paciente y recuperación
 
 La experiencia post-tratamiento y el proceso de recuperación son aspectos fundamentales para quienes se someten a procedimientos estéticos. Tanto en la liposucción como en la lipólisis, los pacientes pueden esperar diferentes realidades, dependiendo del enfoque aplicado.
 
-### Experiencia postoperatoria en liposucción
+### Experiencia post-operatoria en liposucción
 
 Los pacientes que optan por la liposucción generalmente experimentan una fase de recuperación más intensa. Esto se debe a que se trata de un procedimiento quirúrgico. Entre las características de esta experiencia se pueden destacar:
 
--   Dolor y malestar en las áreas tratadas, que pueden ser controlados con medicamentos prescritos.
+- Dolor y malestar en las áreas tratadas, que pueden ser controlados con medicamentos prescritos.
     
--   Hematomas e inflamación, que son comunes y suelen ir disminuyendo con el tiempo.
+- Hematomas e inflamación, que son comunes y suelen ir disminuyendo con el tiempo.
     
--   Uso de prendas de compresión, que ayudan a reducir la hinchazón y a modelar el contorno del cuerpo.
+- Uso de prendas de compresión, que ayudan a reducir la hinchazón y a modelar el contorno del cuerpo.
     
--   Restricciones en actividades físicas, recomendándose reposo durante un tiempo específico para evitar complicaciones.
+- Restricciones en actividades físicas, recomendándose reposo durante un tiempo específico para evitar complicaciones.
     
 
 ### Proceso de recuperación en lipólisis
 
 En contraste, la recuperación para quienes eligen la lipólisis es generalmente más rápida y menos complicada. Este procedimiento no invasivo permite a los pacientes retomar sus actividades cotidianas sin mayores inconvenientes. Las características clave del proceso de recuperación incluyen:
 
--   Molestias leves que suelen ser temporales y menores en comparación con la liposucción.
+- Molestias leves que suelen ser temporales y menores en comparación con la liposucción.
     
--   Sin necesidad de prendas de compresión, dado que no hay incisiones ni extracción de grasa.
+- Sin necesidad de prendas de compresión, dado que no hay incisiones ni extracción de grasa.
     
--   El paciente puede empezar a notar cambios en su cuerpo gradualmente, a medida que el organismo elimina las células de grasa descompuestas.
+- El paciente puede empezar a notar cambios en su cuerpo gradualmente, a medida que el organismo elimina las células de grasa descompuestas.
     
 
 ### Efectos secundarios potenciales y cuidados posteriores
 
 Tanto en la liposucción como en la lipólisis, es fundamental estar al tanto de los posibles efectos secundarios y seguir los cuidados recomendados por los profesionales de la salud. En el caso de la liposucción, los efectos secundarios pueden incluir:
 
--   Infecciones en el sitio de incisión, que aunque son poco comunes, requieren atención médica.
+- Infecciones en el sitio de incisión, que aunque son poco comunes, requieren atención médica.
     
--   Alteraciones en la sensibilidad de la piel, que pueden ser temporales o, en algunos casos, prolongadas.
+- Alteraciones en la sensibilidad de la piel, que pueden ser temporales o, en algunos casos, prolongadas.
     
 
 En la lipólisis, los efectos son menos comunes, pero pueden incluir:
 
--   Enrojecimiento o inflamación en el área tratada, que normalmente desaparece en poco tiempo.
+- Enrojecimiento o inflamación en el área tratada, que normalmente desaparece en poco tiempo.
     
--   Reacciones adversas a los productos utilizados, aunque estas son poco frecuentes y controlables.
+- Reacciones adversas a los productos utilizados, aunque estas son poco frecuentes y controlables.
     
 
 Es esencial seguir las indicaciones del especialista y mantener una comunicación abierta durante el proceso de recuperación para asegurar resultados óptimos y minimizar complicaciones.
@@ -200,24 +196,24 @@ La selección del tratamiento estético más conveniente es fundamental para log
 
 La consulta con un profesional calificado es un paso esencial. Durante la evaluación, se deben considerar:
 
--   Estado de salud general y condiciones médicas existentes.
+- Estado de salud general y condiciones médicas existentes.
     
--   Objetivos estéticos específicos de cada paciente.
+- Objetivos estéticos específicos de cada paciente.
     
--   La cantidad de grasa que se desea eliminar y su localización en el cuerpo.
+- La cantidad de grasa que se desea eliminar y su localización en el cuerpo.
     
--   Expectativas sobre recuperación y resultados a corto y largo plazo.
+- Expectativas sobre recuperación y resultados a corto y largo plazo.
     
 
 ### Importancia de un estilo de vida saludable post-tratamiento
 
 Mantener un estilo de vida adecuado es crucial para conservar los resultados de cualquier procedimiento estético. A continuación, algunos puntos a tener en cuenta:
 
--   Adopción de una dieta equilibrada y nutritiva.
+- Adopción de una dieta equilibrada y nutritiva.
     
--   Ejercicio regular para fortalecer y tonificar el cuerpo.
+- Ejercicio regular para fortalecer y tonificar el cuerpo.
     
--   Hidratación adecuada y limitación de la ingesta de alcohol y tabaco.
+- Hidratación adecuada y limitación de la ingesta de alcohol y tabaco.
     
 
 ### Opiniones de expertos locales en Colombia
