@@ -22,21 +22,6 @@
   <meta name="owner" content="Tatiana Leal">
   <meta name="referrer" content="strict-origin-when-cross-origin">
 
-  <!-- Sistema de redirecciones -->
-  {% if page.redirect_from %}
-    {% for redirect in page.redirect_from %}
-      <link rel="alternate" href="{{ redirect | absolute_url }}">
-    {% endfor %}
-  {% endif %}
-
-  {% if page.redirect_to %}
-    <meta http-equiv="refresh" content="0;url={{ page.redirect_to | absolute_url }}">
-    <script>
-      window.location.href = "{{ page.redirect_to | absolute_url }}";
-    </script>
-    <link rel="canonical" href="{{ page.redirect_to | absolute_url }}">
-  {% endif %}
-
   <!-- Manejo de idiomas y URLs canónicas -->
   {% assign current_lang = page.lang | default: site.default_lang %}
   {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
