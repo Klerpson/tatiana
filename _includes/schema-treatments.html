@@ -17,12 +17,21 @@
   "preparation": "Evaluación médica previa. No requiere anestesia general. Procedimiento ambulatorio.",
   "procedureType": "{{ page.description }}",
   "followup": "Seguimiento personalizado post-tratamiento",
-  "performer": {
+  "provider": {
     "@type": "MedicalOrganization",
-    "name": "{{ site.name }}",
-    "url": "{{ site.url }}"
+    "@id": "{{ site.url }}/#organization"
   },
-  {% if page.cases %}
+  "performedBy": {
+    "@type": "Physician",
+    "name": "Dra. Tatiana Leal",
+    "url": "{{ site.url }}/es/doctora-tatiana-leal/"
+  },
+  "availableService": {
+    "@type": "MedicalTherapy",
+    "name": "{{ page.title }}",
+    "description": "{{ page.description }}"
+  }
+  {% if page.cases %},
   "review": [
     {% for case in page.cases %}
     {
@@ -42,64 +51,15 @@
         "bestRating": "5",
         "worstRating": "1"
       },
-      "image": [
-        {
-          "@type": "ImageObject",
-          "url": "{{ site.url }}{{ case.before_image }}",
-          "height": "800",
-          "width": "800",
-          "caption": "Antes del tratamiento"
-        },
-        {
-          "@type": "ImageObject",
-          "url": "{{ site.url }}{{ case.after_image }}",
-          "height": "800",
-          "width": "800",
-          "caption": "Después del tratamiento"
-        }
-      ]
-    }{% unless forloop.last %},{% endunless %}
-    {% endfor %}
-  ],
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "{{ page.rating | default: '4.8' }}",
-    "reviewCount": "{{ page.cases | size }}",
-    "bestRating": "5",
-    "worstRating": "1"
-  },
-  {% endif %}
-  {% if page.faqs %}
-  "mainEntity": [
-    {% for faq in page.faqs %}
-    {
-      "@type": "Question",
-      "name": "{{ faq.pregunta }}",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "{{ faq.respuesta }}"
+      "datePublished": "{{ "now" | date: "%Y-%m-%d" }}",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "{{ site.url }}/#organization"
       }
     }{% unless forloop.last %},{% endunless %}
     {% endfor %}
-  ],
+  ]
   {% endif %}
-  "provider": {
-    "@type": "MedicalOrganization",
-    "name": "{{ site.name }}",
-    "image": {
-      "@type": "ImageObject",
-      "url": "{{ site.url }}{{ site.logo }}",
-      "height": "60",
-      "width": "600"
-    },
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "{{ site.direccion }}",
-      "addressLocality": "Bogotá",
-      "addressRegion": "DC",
-      "addressCountry": "CO"
-    }
-  }
 }
 </script>
 {% endif %}
