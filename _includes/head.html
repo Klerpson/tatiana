@@ -1,7 +1,8 @@
 {% assign current_lang = page.lang | default: site.default_lang | default: "es" %}
 {% assign alt_lang = current_lang == "es" ? "en" : "es" %}
 <!DOCTYPE html>
-<head lang="{{page.lang}}">
+<html lang="{{page.lang}}">
+<head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>
@@ -113,4 +114,4 @@
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-M2G8W6JV');</script>
     <!-- End Google Tag Manager -->
- </head>
+  </head>
