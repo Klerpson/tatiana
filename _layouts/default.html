@@ -2,8 +2,17 @@
 layout: compress
 ---
 {% assign current_lang = page.lang | default: site.default_lang | default: "es" %}
+{% if current_lang == "es" %}
+  {% assign alt_lang = "en" %}
+{% else %}
+  {% assign alt_lang = "es" %}
+{% endif %}
 {% capture home_url %}/{{ current_lang }}/{% endcapture %}
-{% include head.html %}
+<!DOCTYPE html>
+<html lang="{{ current_lang }}">
+<head>
+  {% include head.html %}
+</head>
 <body class="lang-{{ current_lang }}">
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M2G8W6JV"

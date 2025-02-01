@@ -153,10 +153,10 @@ compress_html:
   comments: ["<!-- ", " -->"]
   endings: all
   ignore:
-    envs: []  # Quita [development]
+    envs: []
   blanklines: false
   profile: false
-  startings: [html, head, body]
+  startings: []
 
 include:
   - videos
