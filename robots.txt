@@ -1,9 +1,8 @@
 # www.robotstxt.org
 
-# Reglas específicas para bots principales
+# Google Bots
 User-agent: Googlebot
 Allow: /
-Crawl-delay: 5
 
 User-agent: Googlebot-Image
 Allow: /img/
@@ -14,6 +13,7 @@ Allow: /*.png$
 Allow: /*.webp$
 Allow: /*.avif$
 
+# Otros motores principales
 User-agent: Bingbot
 Allow: /
 Crawl-delay: 10
@@ -26,40 +26,49 @@ User-agent: DuckDuckBot
 Allow: /
 Crawl-delay: 10
 
-# Bloqueo específico de bots maliciosos
+# Bloqueo de bots maliciosos
 User-agent: 360Spider
+Disallow: /
+
 User-agent: Bytespider
+Disallow: /
+
 User-agent: PetalBot
+Disallow: /
+
 User-agent: SemrushBot
+Disallow: /
+
 User-agent: DotBot
+Disallow: /
+
 User-agent: MJ12bot
+Disallow: /
+
 User-agent: Rogerbot
+Disallow: /
+
 User-agent: BLEXBot
+Disallow: /
+
 User-agent: DataForSeoBot
+Disallow: /
+
 User-agent: ZoominfoBot
+Disallow: /
+
 User-agent: NetSystemsResearch
+Disallow: /
+
 User-agent: serpstatbot
+Disallow: /
+
 User-agent: BacklinkCrawler
 Disallow: /
 
-# Reglas generales para todos los demás bots
+# Reglas generales
 User-agent: *
 Allow: /
-Allow: /es/
-Allow: /en/
-
-# Permitir explícitamente sitemaps y feeds
-Allow: /sitemap.xml
-Allow: /sitemap-index.xml
-Allow: /sitemap-main.xml
-Allow: /sitemap-posts.xml
-Allow: /sitemap-treatments.xml
-Allow: /feed-es.xml
-Allow: /feed-en.xml
-Allow: /feed-treatments.xml
-Allow: /humans.txt
-Allow: /news-sitemap.xml
-Allow: /security.txt
 
 # Archivos y directorios a no indexar
 Disallow: /css/
@@ -73,9 +82,5 @@ Disallow: /404/
 Disallow: /cgi-bin/
 Disallow: /tmp/
 
-# Tiempo de crawl por defecto
-Crawl-delay: 10
-
-# Sitemap Principal
-Sitemap: https://dratatianaleal.com/sitemap-index.xml
+# Sitemaps
 Sitemap: https://dratatianaleal.com/sitemap.xml
