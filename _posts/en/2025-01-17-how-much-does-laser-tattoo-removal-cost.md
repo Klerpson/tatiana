@@ -9,7 +9,7 @@ tags: [tattoo-removal, laser-tattoo, remove-tattoos, tattoo-removal-price, laser
 author: Tatiana Leal
 reviewer: dr-tatiana-leal
 expertise: "Aesthetic medicine, tattoo removal, laser treatments"
-title: "How much does laser tattoo removal cost? Get the real prices"
+title: "How much does laser tattoo removal cost? Get the real Colombian prices"
 h1: "Laser tattoo removal prices: what you need to know"
 description: "Want to know the real cost of tattoo removal? Discover updated prices, influencing factors, and how to choose the best laser treatment for you."
 hero: "img/blog/eliminar-tatuaje-laser-precios.avif"
