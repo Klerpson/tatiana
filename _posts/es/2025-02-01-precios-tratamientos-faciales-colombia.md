@@ -23,7 +23,7 @@ referencias:
 word_count: 2800
 ---
 
-## Lo que nadie te dice sobre los precios de tratamientos faciales en Colombia. Estos son los costos reales que necesitas conocer.
+## Estos son los costos reales de un tratamiento facial en Colombia que necesitas conocer
 
 ### ¿Cansada de buscar Google "precios de tratamientos faciales" sin encontrar ninguna información clara?
 
