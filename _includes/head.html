@@ -44,8 +44,8 @@
 {% assign all_pages = pages | concat: posts | concat: faciales_es | concat: faciales_en | concat: corporales_en | concat: corporales_es | concat: intimos_es | concat: intimos_en | concat: tecnologia_es | concat: tecnologia_en %}
 
 <!-- Canonical y alternates -->
-{% if page.redirect_to %}
-  <link rel="canonical" href="{{ page.redirect_to | absolute_url }}">
+{% if page.layout == "redirections" %}
+  <link rel="canonical" href="{{ page.redireccion | absolute_url }}">
 {% elsif page.canonical_url %}
   <link rel="canonical" href="{{ page.canonical_url | absolute_url }}">
 {% else %}
@@ -58,7 +58,7 @@
     <link rel="alternate" hreflang="{{ p.lang }}" href="{{ site.url }}{{ p.url }}">
   {% endfor %}
 {% endif %}
-<link rel="alternate" hreflang="x-default" href="{{ site.url }}/{{ site.default_lang }}/">
+<link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ page.url }}">
 
 <!-- RSS Feeds -->
 <link rel="alternate" type="application/rss+xml" title="{{ site.name }} ES" href="{{ site.url }}/feed-es.xml">
@@ -103,8 +103,16 @@
 <link rel="preconnect" href="https://maps.gstatic.com" crossorigin>
 
 <!-- Favicon -->
-<link rel="icon" href="{{ 'img/favicon/favicon.ico' | relative_url }}" type="image/x-icon">
-<link rel="apple-touch-icon" href="{{ 'img/favicon/apple-touch-icon.png' | relative_url }}">
+<link rel="shortcut icon" href="{{'img/favicon/favicon.ico' | relative_url}}" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="{{'img/favicon/apple-touch-icon.png' | relative_url}}" />
+  <link rel="apple-touch-icon" sizes="57x57" href="{{'img/favicon/apple-touch-icon-57x57.png' | relative_url}}" />
+  <link rel="apple-touch-icon" sizes="72x72" href="{{'img/favicon/apple-touch-icon-72x72.png' | relative_url}}" />
+  <link rel="apple-touch-icon" sizes="76x76" href="{{'img/favicon/apple-touch-icon-76x76.png' | relative_url}}" />
+  <link rel="apple-touch-icon" sizes="114x114" href="{{'img/favicon/apple-touch-icon-114x114.png' | relative_url}}" />
+  <link rel="apple-touch-icon" sizes="120x120" href="{{'img/favicon/apple-touch-icon-120x120.png' | relative_url}}" />
+  <link rel="apple-touch-icon" sizes="144x144" href="{{'img/favicon/apple-touch-icon-144x144.png' | relative_url}}" />
+  <link rel="apple-touch-icon" sizes="152x152" href="{{'img/favicon/apple-touch-icon-152x152.png' | relative_url}}" />
+  <link rel="apple-touch-icon" sizes="180x180" href="{{'img/favicon/apple-touch-icon-180x180.png' | relative_url}}" />
 
 <!-- Schemas -->
 {% include schema-organization.html %}
@@ -131,4 +139,7 @@
   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-M2G8W6JV');</script>
-  <!-- End Google Tag Manager -->
+<!-- End Google Tag Manager -->
+
+<!-- Ahrefs Web Analytics -->
+<script src="https://analytics.ahrefs.com/analytics.js" data-key="uUJi8BKfxhZ4A4Cd3gYpNg" async></script>
