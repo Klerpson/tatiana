@@ -41,6 +41,8 @@ Tranquila, tu preocupación es supeeer normal.
 
 Por eso, hoy te mostraré, cuánto cuestan los tratamientos faciales en Colombia, con datos actualizados a 2025 y verificados por los especialistas de mi clínica.
 
+>Claro está, te recomiendo contactarnos para recibir una valoración más exacta del precio del tratamiento facial que buscas. Es más, [¿te gustaría una financiación? Pregúntanos](#){:id="lead_whatsapp" rel="nofollow noreferrer" target="_blank"}
+
 ## ¿Cuánto cuesta realmente el bótox en Colombia?
 
 El **precio promedio del bótox en Colombia para 2024** está entre $1,100,000 y $1,800,000 por sesión.
