@@ -18,8 +18,8 @@ alt: "Mujer recibiendo tratamiento facial estético"
 excerpt: "Conoce los precios actualizados de tratamientos faciales en Colombia: biotecnología y tratamientos de última generación. Información verificada por especialistas."
 tiempo_lectura: 8
 referencias:
- - "Guía de Precios en Tratamientos Estéticos: 'https://medicinaestetica.org/example'"
- - "Análisis del Mercado Estético en Colombia: 'https://estadisticassalud.gov.co/example'"
+ - Guía de Precios en Tratamientos Estéticos: 'https://medicinaestetica.org/example'
+ - Análisis del Mercado Estético en Colombia: 'https://estadisticassalud.gov.co/example'
 word_count: 2800
 ---
 
