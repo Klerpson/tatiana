@@ -40,11 +40,7 @@
           <news:name>Tatiana Leal</news:name>
           <news:language>es</news:language>
         </news:publication>
-<<<<<<< Updated upstream
-        <news:publication_date>2025-02-03T11:34:02-05:00</news:publication_date>
-=======
-        <news:publication_date>2025-02-03T10:22:39-05:00</news:publication_date>
->>>>>>> Stashed changes
+        <news:publication_date>2025-02-07T18:36:03-05:00</news:publication_date>
         <news:title>Doctora Tatiana Leal</news:title>
       </news:news>
     </url>
