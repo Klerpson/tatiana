@@ -22,7 +22,6 @@ referencias:
  - Análisis del Mercado Estético en Colombia: 'https://estadisticassalud.gov.co/example'
 word_count: 2800
 ---
-
 ## Estos son los costos reales de un tratamiento facial en Colombia que necesitas conocer
 
 ### ¿Cansada de buscar Google "precios de tratamientos faciales" sin encontrar ninguna información clara?
@@ -184,6 +183,6 @@ Para que te hagas una idea clara, esto es lo que deberías considerar al año:
 
 Ahora que conoces los precios reales del bótox y entiendes la importancia de elegir tratamientos faciales profesionales, ¿por qué no descubres todas tus opciones de rejuvenecimiento?
 
-[Explora nuestra guía de tratamientos faciales]({{'/es/tratamientos-faciales/' | relative_url}}) y encuentra la solución perfecta para tu piel.
+[Explora nuestra guía de tratamientos faciales]({{'/es/tratamientos-faciales/'|relative_url}}) y encuentra la solución perfecta para tu piel.
 
-**No estás segura de qué tratamiento es mejor para ti?** [Agenda una consulta gratuita]({{'/es/contacto/' | relative_url}} "pagina de contacto") y juntos crearemos tu plan personalizado de rejuvenecimiento.
+**No estás segura de qué tratamiento es mejor para ti?** [Agenda una consulta gratuita]({{'/es/contacto/'|relative_url}} "pagina de contacto") y juntos crearemos tu plan personalizado de rejuvenecimiento.
