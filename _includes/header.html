@@ -57,7 +57,6 @@
 <header class="hero">
   <div class="hero-images">
     <picture class="hero-image hero-image-1">
-      <!-- AVIF versions -->
       <source media="(max-width: 559px)" 
               type="image/avif"
               srcset="{{ page.hero | replace: '.avif', '-440.avif' | relative_url }}"
@@ -74,34 +73,9 @@
               type="image/avif"
               srcset="{{ page.hero | relative_url }}"
               sizes="1920px">
-      
-      <source media="(max-width: 559px)" 
-              type="image/webp"
-              srcset="{{ page.hero | replace: '.avif', '-480.webp' | relative_url }}"
-              sizes="100vw">
-      <source media="(max-width: 992px)" 
-              type="image/webp"
-              srcset="{{ page.hero | replace: '.avif', '-768.webp' | relative_url }}"
-              sizes="768px">
-      <source media="(max-width: 1439px)" 
-              type="image/webp"
-              srcset="{{ page.hero | replace: '.avif', '-1024.webp' | relative_url }}"
-              sizes="1024px">
-      <source media="(min-width: 1440px)" 
-              type="image/webp"
-              srcset="{{ page.hero | replace: '.avif', '.webp' | relative_url }}"
-              sizes="1920px">
-    
-      <!-- JPG as final fallback -->
-      <img src="{{ page.hero | replace: '.avif', '-1024.jpg' | relative_url }}"
-          width="1920"
-          height="1080"
-          loading="eager"
-          fetchpriority="high"
-          decoding="async">
+    </picture>
 
     <picture class="hero-image hero-image-2">
-      <!-- AVIF sources -->
       <source media="(max-width: 559px)" 
               type="image/avif"
               srcset="{{ page.hero1 | relative_url }}"
@@ -118,32 +92,6 @@
               type="image/avif"
               srcset="{{ page.hero1 | replace: '.avif', '-960.avif' | relative_url }}"
               sizes="960px">
-      
-      <!-- WebP sources como fallback -->
-      <source media="(max-width: 559px)" 
-              type="image/webp"
-              srcset="{{ page.hero1 | replace: '.avif', '.webp' | relative_url }}"
-              sizes="100vw">
-      <source media="(max-width: 992px)" 
-              type="image/webp"
-              srcset="{{ page.hero1 | replace: '.avif', '-640.webp' | relative_url }}"
-              sizes="640px">
-      <source media="(max-width: 1439px)" 
-              type="image/webp"
-              srcset="{{ page.hero1 | replace: '.avif', '-720.webp' | relative_url }}"
-              sizes="720px">
-      <source media="(min-width: 1440px)" 
-              type="image/webp"
-              srcset="{{ page.hero1 | replace: '.avif', '-960.webp' | relative_url }}"
-              sizes="960px">
-
-      <!-- Imagen JPG como último fallback -->
-      <img src="{{ page.hero1 | replace: '.avif', '-1024.jpg' | relative_url }}"
-           alt="{{ page.hero1_alt }}"
-           width="1920"
-           height="1080"
-           loading="eager"
-           decoding="async">
     </picture>
   </div>
 
