@@ -137,9 +137,9 @@ sass:
 
 # Optimización HTML
 compress_html:
+  endings: ["li", "dt", "dd", "optgroup", "option", "colgroup", "caption", "thead", "tbody", "tfoot", "tr", "td", "th"]
   clippings: all
   comments: ["<!-- ", " -->"]
-  endings: all
   ignore:
     envs: []
   blanklines: false
