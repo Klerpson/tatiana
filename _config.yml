@@ -69,77 +69,65 @@ collections:
 
 # Valores por defecto
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
     values:
       layout: "default"
-  -
-    scope:
+  - scope:
       path: "en"
     values:
       lang: "en"
-  -
-    scope:
+  - scope:
       path: "_posts/es"
     values:
       lang: "es"
       permalink: /es/blog/:title/
-  -
-    scope:
+  - scope:
       path: "_posts/en"
     values:
       lang: "en"
       permalink: /en/blog/:title/
-  -
-    scope:
+  - scope:
       path: ""
       type: "tratamientos-faciales_es"
     values:
       layout: "servicios"
-  -
-    scope:
+  - scope:
       path: ""
       type: "tratamientos-faciales_en"
     values:
       layout: "servicios"
-  -
-    scope:
+  - scope:
       path: ""
       type: "tratamientos-corporales_es"
     values:
       layout: "servicios"
-  -
-    scope:
+  - scope:
       path: ""
       type: "tratamientos-corporales_en"
     values:
       layout: "servicios"
-  -
-    scope:
+  - scope:
       path: ""
       type: "tratamientos-intimos_es"
     values:
       layout: "servicios"
-  -
-    scope:
+  - scope:
       path: ""
       type: "tratamientos-intimos_en"
     values:
       layout: "servicios"
-  -
-    scope:
+  - scope:
       path: ""
       type: "tecnologia_es"
     values:
       layout: "servicios"
-  -
-    scope:
+  - scope:
       path: ""
       type: "tecnologia_en"
     values:
       layout: "servicios"
-
+ 
 keep_files: [/img]
 
 # Optimización de Sass
@@ -149,9 +137,9 @@ sass:
 
 # Optimización HTML
 compress_html:
+  endings: ["li", "dt", "dd", "optgroup", "option", "colgroup", "caption", "thead", "tbody", "tfoot", "tr", "td", "th"]
   clippings: all
   comments: ["<!-- ", " -->"]
-  endings: all
   ignore:
     envs: []
   blanklines: false
