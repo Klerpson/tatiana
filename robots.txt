@@ -1,86 +1,144 @@
-# www.robotstxt.org
+# robots.txt for Dra Tatiana Leal
+# {{ site.url }}{{ site.baseurl }}/
 
-# Google Bots
+# Allow legitimate search engines
 User-agent: Googlebot
 Allow: /
 
-User-agent: Googlebot-Image
-Allow: /img/
-Allow: /*.jpg$
-Allow: /*.jpeg$
-Allow: /*.gif$
-Allow: /*.png$
-Allow: /*.webp$
-Allow: /*.avif$
-
-# Otros motores principales
 User-agent: Bingbot
 Allow: /
-Crawl-delay: 10
-
-User-agent: Slurp
-Allow: /
-Crawl-delay: 10
 
 User-agent: DuckDuckBot
 Allow: /
-Crawl-delay: 10
 
-# Bloqueo de bots maliciosos
-User-agent: 360Spider
-Disallow: /
+User-agent: facebookexternalhit
+Allow: /
 
-User-agent: Bytespider
-Disallow: /
+User-agent: Applebot
+Allow: /
 
-User-agent: PetalBot
+# Block known malicious bots and crawlers
+User-agent: AhrefsBot
 Disallow: /
 
 User-agent: SemrushBot
 Disallow: /
 
-User-agent: DotBot
-Disallow: /
-
 User-agent: MJ12bot
 Disallow: /
 
-User-agent: Rogerbot
+User-agent: YandexBot
 Disallow: /
 
-User-agent: BLEXBot
+User-agent: YandexImages
 Disallow: /
 
-User-agent: DataForSeoBot
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: Sogou web spider
+Disallow: /
+
+User-agent: Sogou inst spider
+Disallow: /
+
+User-agent: PetalBot
 Disallow: /
 
 User-agent: ZoominfoBot
 Disallow: /
 
-User-agent: NetSystemsResearch
+User-agent: 360Spider
 Disallow: /
 
-User-agent: serpstatbot
+# Block common scraping tools
+User-agent: HTTrack
 Disallow: /
 
-User-agent: BacklinkCrawler
+User-agent: WebCopier
 Disallow: /
 
-# Reglas generales
+User-agent: WebReaper
+Disallow: /
+
+User-agent: WebStripper
+Disallow: /
+
+User-agent: WebZIP
+Disallow: /
+
+User-agent: Wget
+Disallow: /
+
+User-agent: Xaldon WebSpider
+Disallow: /
+
+# Main rules for all other bots
 User-agent: *
 Allow: /
+Allow: /es/
+Allow: /en/
+Allow: /es/blog/
+Allow: /en/blog/
+Allow: /es/tratamientos-faciales/
+Allow: /en/facial-treatments/
+Allow: /es/tratamientos-corporales/
+Allow: /en/body-treatments/
+Allow: /es/tratamientos-intimos/
+Allow: /en/intimate-treatments/
+Allow: /es/tecnologias/
+Allow: /en/technologies/
 
-# Archivos y directorios a no indexar
-Disallow: /css/
-Disallow: /js/
-Disallow: /assets/
+# Protect sensitive areas and old URLs
 Disallow: /admin/
+Disallow: /includes/
+Disallow: /layouts/
+Disallow: /portfolio/
+Disallow: /data/
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /wp-content/
+Disallow: /search
+Disallow: /feed/
+Disallow: /trackback/
+Disallow: /comments/
+Disallow: /*?
 Disallow: /*?*
-Disallow: /*.md$
+Disallow: /*.php$
 Disallow: /*.json$
-Disallow: /404/
+Disallow: /*.xml$
 Disallow: /cgi-bin/
 Disallow: /tmp/
+Disallow: /es_co/
+Disallow: /corporales/
+Disallow: /rejuvenecimiento-facial/
+Disallow: /ginecologia-estetica/
+Disallow: /services/
+
+# Media and resource protection
+Allow: /img/*.avif$ 
+Allow: /img/*.jpg$
+Allow: /img/*.png$
+Allow: /img/*.webp$
+Disallow: /css/
+Disallow: /js/
+Disallow: /fonts/
+Disallow: /images/
+
+# Critical files
+Allow: /sitemap.xml
+
+# Rate limiting
+Crawl-delay: 10
 
 # Sitemaps
-Sitemap: https://dratatianaleal.com/sitemap.xml
+Sitemap: {{ site.url }}{{ site.baseurl }}/sitemap.xml
+
+# Define preferred domain
+Host: {{ site.url | replace: 'https://', '' | replace: 'http://', '' }}
+
+# Additional Security Headers (add these to your .htaccess or server config)
+# X-Robots-Tag: noarchive, noimageindex
+# X-Frame-Options: SAMEORIGIN
+# X-Content-Type-Options: nosniff
+# Referrer-Policy: strict-origin-when-cross-origin
