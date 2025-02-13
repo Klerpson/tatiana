@@ -78,20 +78,20 @@
     <picture class="hero-image hero-image-2">
       <source media="(max-width: 559px)" 
               type="image/avif"
-              srcset="{{ page.hero1 | relative_url }}"
+              srcset="{{ page.hero1 | replace: '.avif', '-440.avif' | relative_url }}"
               sizes="100vw">
       <source media="(max-width: 992px)" 
               type="image/avif"
-              srcset="{{ page.hero1 | replace: '.avif', '-640.avif' | relative_url }}"
-              sizes="640px">
+              srcset="{{ page.hero1 | replace: '.avif', '-768.avif' | relative_url }}"
+              sizes="768px">
       <source media="(max-width: 1439px)" 
               type="image/avif"
-              srcset="{{ page.hero1 | replace: '.avif', '-720.avif' | relative_url }}"
-              sizes="720px">
+              srcset="{{ page.hero1 | replace: '.avif', '-1024.avif' | relative_url }}"
+              sizes="1024px">
       <source media="(min-width: 1440px)" 
               type="image/avif"
-              srcset="{{ page.hero1 | replace: '.avif', '-960.avif' | relative_url }}"
-              sizes="960px">
+              srcset="{{ page.hero1 | relative_url }}"
+              sizes="1920px">
     </picture>
   </div>
 
