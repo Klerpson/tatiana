@@ -25,7 +25,7 @@ layout: compress
   {{ content }}
   {% include footer.html %}
   <!-- boton whatssapp -->
-  <a href="https://wa.me/573102532737?text=Hola%2C%20me%20gustar%C3%ADa%20agendar%20una%20consulta"
+  <a href="#"
     class="boton-whatsapp" id="lead_whatsapp"
     title="{% if page.lang == 'es' %}WhatsApp Dra. Tatiana Leal{% else %}WhatsApp Dr. Tatiana Leal{% endif %}"
     target="_blank" rel="nofollow noopener noreferrer">
@@ -46,29 +46,29 @@ layout: compress
   <!-- JavaScript para la rotación de imágenes -->
 
   <script>
-    document.addEventListener('DOMContentLoaded', function() {
-  const scrollBtn = document.getElementById('scrollTop');
-  
-  function checkScrollPosition() {
-    if (window.scrollY > 300) {
-      scrollBtn.classList.add('visible');
-    } else {
-      scrollBtn.classList.remove('visible');
-    }
-  }
+    document.addEventListener('DOMContentLoaded', function () {
+      const scrollBtn = document.getElementById('scrollTop');
 
-  checkScrollPosition();
-  
-  window.addEventListener('scroll', checkScrollPosition);
-  
-  scrollBtn.addEventListener('click', function(e) {
-    e.preventDefault();
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth'
+      function checkScrollPosition() {
+        if (window.scrollY > 300) {
+          scrollBtn.classList.add('visible');
+        } else {
+          scrollBtn.classList.remove('visible');
+        }
+      }
+
+      checkScrollPosition();
+
+      window.addEventListener('scroll', checkScrollPosition);
+
+      scrollBtn.addEventListener('click', function (e) {
+        e.preventDefault();
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
+      });
     });
-  });
-});
 
   </script>
   {% if page.layout == "servicios" %}
