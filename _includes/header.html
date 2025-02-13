@@ -56,7 +56,7 @@
 {% when "servicios" %}
 <header class="hero">
   <div class="hero-images">
-    <picture class="hero-image hero-image-1">
+    <picture class="hero-image hero-image-1 bg1">
       <source media="(max-width: 559px)" 
               type="image/avif"
               srcset="{{ page.hero | replace: '.avif', '-440.avif' | relative_url }}"
@@ -75,7 +75,7 @@
               sizes="1920px">
     </picture>
 
-    <picture class="hero-image hero-image-2">
+    <picture class="hero-image hero-image-2 bg2">
       <source media="(max-width: 559px)" 
               type="image/avif"
               srcset="{{ page.hero1 | replace: '.avif', '-440.avif' | relative_url }}"
