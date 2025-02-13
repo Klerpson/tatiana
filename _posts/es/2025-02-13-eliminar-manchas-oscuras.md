@@ -18,8 +18,8 @@ alt: "Antes y después de tratamiento para manchas oscuras en la piel"
 excerpt: "Aprende a eliminar las manchas oscuras de tu piel de forma segura y efectiva. Descubre qué tratamientos realmente funcionan según especialistas."
 tiempo_lectura: 8
 referencias:
-  - "Guía Clínica de Hiperpigmentación: 'https://dermatologia.org/example'"
-  - "Tratamientos Láser en Medicina Estética: 'https://laser-treatments.org/example'"
+  - Guía Clínica de Hiperpigmentación: 'https://dermatologia.org/example'
+  - Tratamientos Láser en Medicina Estética: 'https://laser-treatments.org/example'
 word_count: 2500
 ---
 
