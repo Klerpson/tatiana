@@ -22,8 +22,7 @@ referencias:
  - Aesthetic Market Analysis in Colombia: 'https://estadisticassalud.gov.co/example'
 word_count: 2800
 ---
-
-## What Nobody Tells You About Facial Treatment Prices in Colombia. These Are the Real Costs You Need to Know.
+## These Are the Real Costs in Colombia that You Need to Know.
 
 ### Tired of Googling "facial treatment prices" without finding any clear information?
 
