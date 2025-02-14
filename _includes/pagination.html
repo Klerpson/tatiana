@@ -1,0 +1,48 @@
+<section id="posts" class="padding">
+  <h2 class="center">{% if page.lang == "en" %}Recommended Articles{% else %}Artículos Recomendados{% endif %}</h2>
+  <div class="service-cards">
+    {% assign posts = paginator.posts | where: "lang", page.lang %}
+    {% for post in posts %}
+    <div class="card flow">
+      <div class="card-image">
+        <img src="{{ post.hero | relative_url }}" alt="{{ post.alt }}">
+      </div>
+      <div class="card-content">
+        <h3>{{ post.title }}</h3>
+        <p>{{ post.excerpt | truncate: 144 }}</p>
+        <a href="{{ post.url | relative_url }}" class="boton">
+          {% if page.lang == "en" %}Read more{% else %}Leer más{% endif %}
+        </a>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+{% if paginator.total_pages > 1 %}
+<div class="pagination center padding-top">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="boton">
+      {% if page.lang == "en" %}Previous{% else %}Anterior{% endif %}
+    </a>
+  {% endif %}
+
+  {% for pageNum in (1..paginator.total_pages) %}
+    {% if pageNum == paginator.page %}
+      <span class="boton current">{{ pageNum }}</span>
+    {% else %}
+      {% if pageNum == 1 %}
+        <a href="/{{ page.lang }}/blog/" class="boton">{{ pageNum }}</a>
+      {% else %}
+        <a href="/{{ page.lang }}/blog/page/{{ pageNum }}/" class="boton">{{ pageNum }}</a>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="boton">
+      {% if page.lang == "en" %}Next{% else %}Siguiente{% endif %}
+    </a>
+  {% endif %}
+</div>
+{% endif %}

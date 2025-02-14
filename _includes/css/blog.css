@@ -182,3 +182,21 @@
   background-color: var(--acento);
   border-radius: var(--radius);
 }
+
+.pagination {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.pagination .boton {
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+}
+
+.pagination .current {
+  background-color: #666;
+  color: white;
+}

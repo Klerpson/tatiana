@@ -10,38 +10,27 @@ h1: "Bienvenido al Blog de la Dra. Tatiana Leal: Salud, Belleza y Bienestar"
 parallax: parallax_gluteos
 alt: "Clínica de medicina estética en Bogotá, Dra. Tatiana Leal"
 canonical_url: "https://dratatianaleal.com/es/blog/"
+pagination:
+  enabled: true
+  per_page: 9
+  permalink: '/page/:num/'
+  sort_field: 'date'
+  sort_reverse: true
+  filter:
+    lang: es
 ---
 
 <section class="center flow padding seccion">
-  <small class="center">Blog</small>
-  <h2 class="center">Secretos de la Belleza y el Bienestar</h2>
+  <small class="center">Blog del centro de medicina estética Dra. Tatiana Leal</small>
+  <h2 class="center">Secretos de la belleza y el bienestar en nuestro blog</h2>
   <p class="center">
     En este blog, la Dra. Tatiana Leal comparte sus conocimientos sobre medicina estética, tratamientos avanzados, 
     y consejos para lucir y sentirte mejor. Descubre cómo mejorar tu calidad de vida y potenciar tu belleza natural.
   </p>
 </section>
 
-<section id="posts" class="padding">
-  <h2 class="center">Artículos Recomendados</h2>
-  <div class="service-cards">
-    {% assign current_lang = page.lang | default: site.default_lang %}
-    {% assign posts = site.posts | where: "lang", current_lang %}
-    {% for post in posts %}
-    <div class="card flow">
-      <div class="card-image">
-        <img src="{{ post.hero | relative_url }}" alt="{{ post.alt }}">
-      </div>
-      <div class="card-content">
-        <h3>{{ post.title }}</h3>
-        <p>{{ post.excerpt | truncate: 144 }}</p>
-        <a href="{{ post.url | relative_url }}" class="boton">
-          {% if current_lang == "en" %}Read more{% else %}Leer más{% endif %}
-        </a>
-      </div>
-    </div>
-    {% endfor %}
-  </div>
-</section>
+{% include pagination.html %}
+
 
 <section class="two_columns two_columns_left">
   <div class="flow padding">

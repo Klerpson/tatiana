@@ -130,11 +130,6 @@ defaults:
  
 keep_files: [/img]
 
-# Optimización de Sass
-sass:
-  style: compressed
-  sourcemap: never
-
 # Optimización HTML
 compress_html:
   endings: ["li", "dt", "dd", "optgroup", "option", "colgroup", "caption", "thead", "tbody", "tfoot", "tr", "td", "th"]
@@ -148,3 +143,15 @@ compress_html:
 
 include:
   - videos
+
+plugins:
+  - jekyll-paginate-v2
+
+############################################################
+# Site configuration for the Jekyll 3 Pagination Gem
+# The values here represent the defaults if nothing is set
+pagination:
+  enabled: true
+  per_page: 9
+  sort_field: 'date'
+  sort_reverse: true

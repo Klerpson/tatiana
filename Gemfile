@@ -6,6 +6,7 @@ gem "webrick", "~> 1.8"
 group :jekyll_plugins do
   gem "jekyll-redirect-from"
   gem "faraday-retry"
+  gem "jekyll-paginate-v2"
 end
 
 platforms :mingw, :mswin do
