@@ -22,7 +22,6 @@ references:
   - Laser Treatments in Aesthetic Medicine: 'https://laser-treatments.org/example'
 word_count: 2500
 ---
-
 ## How to Remove Dark Spots Safely and Effectively
 
 ### Welcome! Let’s Talk About Those Pesky Dark Spots
