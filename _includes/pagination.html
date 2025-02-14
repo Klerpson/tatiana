@@ -1,8 +1,8 @@
 <section id="posts" class="padding">
   <h2 class="center">{% if page.lang == "en" %}Recommended Articles{% else %}Artículos Recomendados{% endif %}</h2>
   <div class="service-cards">
-    {% assign posts = paginator.posts | where: "lang", page.lang %}
-    {% for post in posts %}
+    {% for post in paginator.posts %}
+    {% if post.lang == page.lang %}
     <div class="card flow">
       <div class="card-image">
         <img src="{{ post.hero | relative_url }}" alt="{{ post.alt }}">
@@ -15,7 +15,8 @@
         </a>
       </div>
     </div>
-    {% endfor %}
+    {% endif %}
+    {% endfor %}    
   </div>
 </section>
 
@@ -27,17 +28,25 @@
     </a>
   {% endif %}
 
-  {% for pageNum in (1..paginator.total_pages) %}
-    {% if pageNum == paginator.page %}
-      <span class="boton current">{{ pageNum }}</span>
-    {% else %}
-      {% if pageNum == 1 %}
-        <a href="/{{ page.lang }}/blog/" class="boton">{{ pageNum }}</a>
+  {% if paginator.page_trail %}
+    {% for trail in paginator.page_trail %}
+      {% if page.lang == "en" %}
+        {% assign path_prefix = "/en/blog" %}
       {% else %}
-        <a href="/{{ page.lang }}/blog/page/{{ pageNum }}/" class="boton">{{ pageNum }}</a>
+        {% assign path_prefix = "/es/blog" %}
       {% endif %}
-    {% endif %}
-  {% endfor %}
+      
+      {% if trail.num == paginator.page %}
+        <span class="boton current">{{ trail.num }}</span>
+      {% else %}
+        {% if trail.num == 1 %}
+          <a href="{{ path_prefix }}/" class="boton">{{ trail.num }}</a>
+        {% else %}
+          <a href="{{ path_prefix }}/page/{{ trail.num }}/" class="boton">{{ trail.num }}</a>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
 
   {% if paginator.next_page %}
     <a href="{{ paginator.next_page_path }}" class="boton">
