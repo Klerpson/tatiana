@@ -161,6 +161,6 @@ To give you a clear idea, this is what you should consider per year:
 
 Now that you know the real prices of Botox and understand the importance of choosing professional facial treatments, why not discover all your rejuvenation options?
 
-[Explore our facial treatments guide]({{'/es/tratamientos-faciales/' | relative_url}}) and find the perfect solution for your skin.
+[Explore our facial treatments guide]({{'/en/facial-treatments/' | relative_url}}) and find the perfect solution for your skin.
 
-**Not sure which treatment is best for you?** [Schedule a free consultation]({{'/es/contacto/' | relative_url}} "contact page") and together we'll create your personalized rejuvenation plan.
+**Not sure which treatment is best for you?** [Schedule a free consultation]({{'/en/contact/' | relative_url}} "contact page") and together we'll create your personalized rejuvenation plan.

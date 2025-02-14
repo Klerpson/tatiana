@@ -58,8 +58,8 @@ When we talk about laser tattoo removal costs, it's important to understand ther
 
 Like many of my patients, Caroline was initially surprised by the cost. "*I thought it would be cheaper than getting it*," she mentioned in her first consultation. However, there are crucial aspects that justify the investment:
 
-1. **Cutting-edge technology**: In our [aesthetic medicine clinic]({{'en' | relative_url}}), we use PicoSure® laser, considered the gold standard in tattoo removal
-2. **Guaranteed safety**: The procedure is performed by [certified specialists]({{'en/about-us' | relative_url}}) with years of experience
+1. **Cutting-edge technology**: In our [aesthetic medicine clinic]({{'/en/aesthetic-center/' | relative_url}}), we use PicoSure® laser, considered the gold standard in tattoo removal
+2. **Guaranteed safety**: The procedure is performed by certified specialists with years of experience
 3. **Predictable results**: Our protocol allows us to accurately estimate the number of sessions needed
 
 ## The step-by-step process: what are you really paying for?
@@ -128,7 +128,7 @@ Caroline completed her treatment six months ago. "*The initial cost worried me*,
 
 ## Ready to take the first step? Let's remove that tattoo
 
-If, like Caroline, you're considering tattoo removal, the first step is a [specialized consultation]({{'en/body-treatments/tattoo-removal' | relative_url}}). During this evaluation:
+If, like Caroline, you're [considering tattoo removal]({{'en/body-treatments/tattoo-removal' | relative_url}}), the first step is a specialized consultation. During this evaluation:
 
 - We'll analyze your tattoo in detail
 - Create a personalized plan
