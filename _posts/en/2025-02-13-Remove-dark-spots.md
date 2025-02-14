@@ -28,7 +28,7 @@ word_count: 2500
 
 If you’re here, it’s probably because, like many of my patients, **you’re concerned about those dark spots** that have appeared on your skin. Whether they’re on your face, back, or… those intimate areas we’re often too embarrassed to mention.
 
-Relax, **you’re not alone in this**. As a [specialist in aesthetic medicine]({{ 'es/doctora-tatiana-leal/' | relative_url }} "Let’s get to know each other better..."), I can assure you that this is one of the most common concerns I see in my practice. And yes, there’s a solution.
+Relax, **you’re not alone in this**. As a [specialist in aesthetic medicine]({{ 'en/dr-tatiana-leal/' | relative_url }} "Let’s get to know each other better..."), I can assure you that this is one of the most common concerns I see in my practice. And yes, there’s a solution.
 
 But before I share all the secrets to achieving clearer skin, there’s something super important you need to understand: **not all remedies you find on the internet are safe**. In fact, some can make the spots even worse.
 
@@ -111,7 +111,7 @@ Professional dark spot treatments:
 
 ### Types of Professional Treatments
 
-At [our clinic]({{ '/es/tratamientos-faciales/eliminar-manchas/' | relative_url }} "Check out our dark spot treatment"), we use different technologies depending on each case. Here are the most effective ones:
+At [our clinic]({{ '/en/facial-treatments/remove-dark-spots/' | relative_url }} "Check out our dark spot treatment"), we use different technologies depending on each case. Here are the most effective ones:
 
 #### Q-Switched Laser
 
@@ -178,7 +178,7 @@ Absolutely! The key is **an accurate professional diagnosis**. That’s why cons
 
 I know taking the first step can be scary. But ask yourself: **how much longer will you wait** for the clear, even skin you deserve?
 
-[Schedule your free consultation]({{ '/es/contacto' | relative_url }} "Contact me and let me help you") and let’s create a personalized plan to get rid of those dark spots for good!
+[Schedule your free consultation]({{ '/en/contact' | relative_url }} "Contact me and let me help you") and let’s create a personalized plan to get rid of those dark spots for good!
 
 
 
