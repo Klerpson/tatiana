@@ -37,7 +37,7 @@ But don’t worry, we’re going to change that today.
 
 Look, this isn’t just “another facial.” It’s like giving your skin that **total reset** it desperately needs. It goes far beyond what your usual at-home products can do (which, let’s be honest, are probably piling up in your bathroom, right?).
 
-Imagine your skin is like your phone when it starts glitching: sometimes, closing apps isn’t enough. It needs a full reset to function at its best again. Well, that’s exactly what a [deep facial cleansing]({{'/es/tratamientos-faciales/limpieza-facial/' | relative_url}} "Acne facial treatment") does.
+Imagine your skin is like your phone when it starts glitching: sometimes, closing apps isn’t enough. It needs a full reset to function at its best again. Well, that’s exactly what a [deep facial cleansing]({{'/en/facial-treatments/deep-facial-cleansing/' | relative_url}} "Acne facial treatment") does.
 
 ## The Benefits That Will Make You Say, "Why Didn’t I Do This Sooner?"
 
@@ -178,7 +178,7 @@ So:
 
 ## Why Choose Us for Your Facial Cleansing?
 
-At [our clinic]({{'centro-estetico' | relative_url}} "Learn more about our aesthetic medicine center"), we don’t just perform facial cleansings—we create transformative experiences:
+At [our clinic]({{'/en/aesthetic-center/' | relative_url}} "Learn more about our aesthetic medicine center"), we don’t just perform facial cleansings—we create transformative experiences:
 
 - **State-of-the-art technology**
 - **Sterile environment**
@@ -189,7 +189,7 @@ At [our clinic]({{'centro-estetico' | relative_url}} "Learn more about our aesth
 
 Don’t let acne control your life any longer.
 
-[Schedule your free consultation]({{'contacto' | relative_url}} "Book your acne facial treatment with me!").
+[Schedule your free consultation]({{'en/contact/' | relative_url}} "Book your acne facial treatment with me!").
 
 Your skin deserves this gift.
 
