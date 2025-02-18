@@ -25,13 +25,36 @@ pagination:
 <section class="center flow padding seccion">
   <small class="center">Blog del centro de medicina estética Dra. Tatiana Leal</small>
   <h2 class="center">Secretos de la belleza y el bienestar en nuestro blog</h2>
-  <p class="center">
-    En este blog, la Dra. Tatiana Leal comparte sus conocimientos sobre medicina estética, tratamientos avanzados, 
-    y consejos para lucir y sentirte mejor. Descubre cómo mejorar tu calidad de vida y potenciar tu belleza natural.
-  </p>
+  <p class="center">En este blog, la Dra. Tatiana Leal comparte sus conocimientos sobre medicina estética, tratamientos avanzados, y consejos para lucir y sentirte mejor. Descubre cómo mejorar tu calidad de vida y potenciar tu belleza natural.</p>
 </section>
 
-{% include pagination.html %}
+{% assign posts = site.posts | where: "lang", page.lang %}
+<section id="blog-posts" class="service-cards padding">
+  {% for post in posts %}
+  <div class="card flow">
+    <div class="card-image">
+      <img data-src="{{ post.hero | relative_url }}" alt="{{ post.alt }}" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" loading="lazy">
+    </div>
+    <div class="card-content">
+      <h3>{{ post.title }}</h3>
+      <p>{{ post.excerpt | truncate: 144 }}</p>
+      <a href="{{ post.url | relative_url }}" class="boton">
+        {% if page.lang == "en" %}Read more{% else %}Leer más{% endif %}
+      </a>
+    </div>
+  </div>
+  {% endfor %}
+</section>
+
+<div class="pagination center padding-top">
+  <button class="boton" id="prev-page" disabled>
+    {% if page.lang == "en" %}Previous{% else %}Anterior{% endif %}
+  </button>
+  <div id="page-numbers" class="pagination-numbers"></div>
+  <button class="boton" id="next-page">
+    {% if page.lang == "en" %}Next{% else %}Siguiente{% endif %}
+  </button>
+</div>
 
 
 <section class="two_columns two_columns_left">

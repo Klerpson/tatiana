@@ -40,6 +40,8 @@ markdown: kramdown
 permalink: /:categories/:title/
 
 collections:
+  posts:
+    output: true
   redirects:
       output: true
   tratamientos-faciales_es:
@@ -143,15 +145,3 @@ compress_html:
 
 include:
   - videos
-
-plugins:
-  - jekyll-paginate-v2
-
-pagination:
-  enabled: true
-  per_page: 9
-  permalink: '/page/:num/'
-  title: ':title - página :num'
-  limit: 0
-  sort_field: 'date'
-  sort_reverse: true
