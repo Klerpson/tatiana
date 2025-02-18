@@ -24,8 +24,8 @@ jobs:
     - name: Install dependencies
       run: |
         bundle config set --local path 'vendor/bundle'
+        bundle lock --add-platform x86_64-linux  # Agregar esta línea
         bundle install
-        bundle add webrick
     
     - name: Build site
       run: bundle exec jekyll build
@@ -38,4 +38,4 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./_site
-        enable_jekyll: false
+        enable_jekyll: true
