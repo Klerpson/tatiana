@@ -29,6 +29,8 @@ sitemap: false
       {%- if treatment.alt %}
       <image:caption>{{ treatment.alt | xml_escape }}</image:caption>
       {%- endif %}
+      <image:geo_location>Bogotá, Colombia</image:geo_location>
+      <image:license>Copyright © {{ site.time | date: '%Y' }} Dra. Tatiana Leal</image:license>
     </image:image>
     {%- endif %}
     <changefreq>weekly</changefreq>
