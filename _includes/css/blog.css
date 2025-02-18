@@ -183,20 +183,142 @@
   border-radius: var(--radius);
 }
 
+#blog-posts {
+  container-type: inline-size;
+}
+
+.service-cards {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+}
+
+.card {
+  background: white;
+  border-radius: var(--radius-cards);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  opacity: 0;
+  transform: translateY(20px);
+  transition: 
+    transform 0.5s cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.card-image {
+  aspect-ratio: 16/9;
+  overflow: hidden;
+}
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.card:hover .card-image img {
+  transform: scale(1.05);
+}
+
+.card-content {
+  padding: 1.5rem;
+}
+
+.card h3 {
+  color: var(--principal);
+  margin-bottom: 1rem;
+  font-size: clamp(1.25rem, 1.1rem + 0.3vw, 1.5rem);
+}
+
+.card p {
+  color: var(--grisTexto);
+  margin-bottom: 1.5rem;
+  font-size: clamp(1rem, 0.9rem + 0.2vw, 1.125rem);
+}
+
+/* Paginación */
 .pagination {
+  --gap: 0.5rem;
   display: flex;
-  gap: 1rem;
-  justify-content: center;
+  gap: var(--gap);
   align-items: center;
-  margin-top: 2rem;
+  justify-content: center;
+  padding-block: 2rem;
+}
+
+.pagination-numbers {
+  display: flex;
+  gap: var(--gap);
 }
 
 .pagination .boton {
-  padding: 0.5rem 1rem;
-  text-decoration: none;
+  min-width: 2.5rem;
+  height: 2.5rem;
+  padding-inline: 1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--gris1);
+  border: none;
+  border-radius: var(--radius);
+  color: var(--principal);
+  font-weight: 500;
+  transition: all 0.2s ease;
 }
 
-.pagination .current {
-  background-color: #666;
+.pagination .boton:not(:disabled):hover {
+  background: var(--accion);
+  transform: translateY(-2px);
+}
+
+.pagination .boton.current {
+  background: var(--principal);
   color: white;
+}
+
+.pagination .boton:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.pagination-ellipsis {
+  padding-inline: 0.5rem;
+  color: var(--gris2);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card {
+    transition: none;
+  }
+  
+  .card-image img {
+    transition: none;
+  }
+  
+  .pagination .boton:hover {
+    transform: none;
+  }
+}
+
+@container (max-width: 768px) {
+  .pagination {
+    --gap: 0.25rem;
+  }
+  
+  .pagination .boton {
+    min-width: 2rem;
+    height: 2rem;
+    padding-inline: 0.75rem;
+    font-size: 0.875rem;
+  }
+  
+  .pagination-numbers .boton:not(.current):not(:first-child):not(:last-child) {
+    display: none;
+  }
 }

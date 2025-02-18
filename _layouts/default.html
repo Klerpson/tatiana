@@ -284,13 +284,17 @@ layout: compress
         iframe.style.left = '0';
         iframe.style.width = '100%';
         iframe.style.height = '100%';
-
+        
         this.parentElement.replaceChild(iframe, this);
       });
     });
-  </script>
-
+    </script>
   {% endif %}
+
+  {% if page.url == "/en/blog/" or page.url == "/es/blog/" %}
+  <script defer src="{{ '/js/pagination.js' | relative_url }}"></script>
+  {% endif %}
+
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       const videoWrappers = document.querySelectorAll('.video-wrapper');
