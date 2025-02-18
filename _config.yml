@@ -151,7 +151,7 @@ plugins:
 
 pagination:
   enabled: true
-  per_page: 4
+  per_page: 9
   permalink: '/page/:num/'
   title: ':title - página :num'
   sort_field: 'date'
