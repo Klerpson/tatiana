@@ -58,7 +58,7 @@
   display: grid;
   gap: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
-  place-items: center;
+  justify-content: center;
 }
 
 .card {
