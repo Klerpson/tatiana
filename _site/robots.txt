@@ -1,7 +1,7 @@
-# robots.txt for Dra Tatiana Leal
+# robots.txt para Dra Tatiana Leal
 # {{ site.url }}{{ site.baseurl }}/
 
-# Allow legitimate search engines
+# Bots amigables (¡estos sí son bienvenidos! 🤗)
 User-agent: Googlebot
 Allow: /
 
@@ -17,7 +17,7 @@ Allow: /
 User-agent: Applebot
 Allow: /
 
-# Block known malicious bots and crawlers
+# ¡Stop! Bots maliciosos y crawlers no deseados 🚫
 User-agent: AhrefsBot
 Disallow: /
 
@@ -51,7 +51,7 @@ Disallow: /
 User-agent: 360Spider
 Disallow: /
 
-# Block common scraping tools
+# ¡Fuera herramientas de scraping! 🛡️
 User-agent: HTTrack
 Disallow: /
 
@@ -73,7 +73,7 @@ Disallow: /
 User-agent: Xaldon WebSpider
 Disallow: /
 
-# Main rules for all other bots
+# Reglas principales para todos los bots
 User-agent: *
 Allow: /
 Allow: /es/
@@ -89,15 +89,13 @@ Allow: /en/intimate-treatments/
 Allow: /es/tecnologias/
 Allow: /en/technologies/
 
-# Protect sensitive areas and old URLs
+# Bloqueo de áreas sensibles y URLs antiguas 🔒
 Disallow: /admin/
 Disallow: /includes/
 Disallow: /layouts/
 Disallow: /portfolio/
 Disallow: /data/
-Disallow: /wp-admin/
-Disallow: /wp-includes/
-Disallow: /wp-content/
+Disallow: /wp-*/
 Disallow: /search
 Disallow: /feed/
 Disallow: /trackback/
@@ -106,17 +104,37 @@ Disallow: /*?
 Disallow: /*?*
 Disallow: /*.php$
 Disallow: /*.json$
-Disallow: /*.xml$
 Disallow: /cgi-bin/
 Disallow: /tmp/
+
+# Bloqueo específico de patrones WordPress y URLs legacy
+Disallow: */wp-*
+Disallow: */category/*
+Disallow: */tag/*
+Disallow: */author/*
+Disallow: *?s=*
+Disallow: *?p=*
+Disallow: */page/*
+Disallow: */feed/*
+Disallow: */comments/*
+Disallow: */attachment/*
+Disallow: */?author=*
+Disallow: */portfolio_group/*
+Disallow: */layouts_group/*
+Disallow: */services_group/*
+Disallow: */testimonials_group/*
+Disallow: /D?A=*
+Disallow: /E?A=*
+Disallow: /F?A=*
+Disallow: /?A=*
 Disallow: /es_co/
 Disallow: /corporales/
 Disallow: /rejuvenecimiento-facial/
 Disallow: /ginecologia-estetica/
 Disallow: /services/
 
-# Media and resource protection
-Allow: /img/*.avif$ 
+# Protección de recursos y medios
+Allow: /img/*.avif$
 Allow: /img/*.jpg$
 Allow: /img/*.png$
 Allow: /img/*.webp$
@@ -125,19 +143,17 @@ Disallow: /js/
 Disallow: /fonts/
 Disallow: /images/
 
-# Critical files
+# Archivos críticos y sitemaps
 Allow: /sitemap.xml
-
-# Rate limiting
-Crawl-delay: 10
-
-# Sitemaps
 Sitemap: {{ site.url }}{{ site.baseurl }}/sitemap.xml
 
-# Define preferred domain
+# Control de rastreo
+Crawl-delay: 10
+
+# Dominio preferido
 Host: {{ site.url | replace: 'https://', '' | replace: 'http://', '' }}
 
-# Additional Security Headers (add these to your .htaccess or server config)
+# Headers de seguridad adicionales (agregar en .htaccess o config del servidor)
 # X-Robots-Tag: noarchive, noimageindex
 # X-Frame-Options: SAMEORIGIN
 # X-Content-Type-Options: nosniff

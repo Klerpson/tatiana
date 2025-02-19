@@ -7,7 +7,7 @@
   --gris1: #eeeeee;
   --gris2: #8c8c8c;
   --grisTexto: #111313;
-  --shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  --shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.05);
   --radius: 28px;
   --radius-cards: 12px;
   --fuenteTitulos: "Lexend Deca", sans-serif;
@@ -145,6 +145,7 @@ li {
   display: grid;
   text-align: center;
   justify-items: center;
+  align-items: center;
 
   figcaption{
     max-width: 992px;

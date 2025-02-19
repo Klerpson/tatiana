@@ -642,7 +642,7 @@
     <p class="case-description">Transformación natural después de 4 sesiones, mostrando una piel más joven y revitalizada.</p>
   </div>
   
-</section> -->
+</section>s -->
 
 
 <aside class="padding" id="consulta">
@@ -3446,26 +3446,21 @@
     <h2>Cómo funciona nuestro tratamiento láser</h2>
   </header>
 
-  <div class="block_section_content flow">
-    <p>El proceso de eliminación láser funciona mediante un mecanismo preciso y científicamente probado. Cuando el láser impacta sobre el tatuaje, la energía es absorbida selectivamente por las partículas de tinta, dejando intacto el tejido circundante. Esta interacción fragmenta los pigmentos en partículas minúsculas que el sistema inmunológico puede procesar y eliminar naturalmente.</p>
-
+  <div class="block_section_content flow intro">
+    <p>El proceso de eliminación láser funciona mediante un mecanismo preciso y científicamente probado. Cuando el láser impacta sobre el tatuaje, la energía es absorbida selectivamente por las partículas de tinta, dejando intacto el tejido circundante. Esta interacción <strong>fragmenta los pigmentos en partículas minúsculas</strong> que el sistema inmunológico puede procesar y eliminar naturalmente.</p>
     <p>La efectividad del tratamiento varía según diversos factores, incluyendo el tipo y la profundidad de la tinta, así como las características de tu piel. Durante la consulta inicial, realizamos una evaluación completa para diseñar un plan de tratamiento personalizado que optimice tus resultados.</p>
   </div>
 
-  <section aria-labelledby="precio-section" class="intro flow">
+  <section aria-labelledby="precio-section" class="intro flow seccion padding">
     <h3 id="precio-section">Inversión en tu tratamiento</h3>
-    <div class="pricing_container">
+    <div class="flow">
       <p>El costo del tratamiento se determina después de una evaluación detallada de tu caso específico. Consideramos diversos factores para asegurar un presupuesto justo y transparente:</p>
-      
-      <div class="price_factors">
-        <p>La evaluación incluye un análisis del tamaño y ubicación del tatuaje, los tipos de colores presentes, la densidad de la tinta y las características específicas de tu piel. Con esta información, podemos determinar el número aproximado de sesiones necesarias y proporcionarte un presupuesto detallado.</p>
-      </div>
-
-      <blockquote>
-        <p>Durante tu consulta inicial, recibirás un plan personalizado que incluye el número estimado de sesiones y el costo total del tratamiento. Ofrecemos diferentes opciones de financiamiento para hacer el tratamiento más accesible.</p>
-        <a href="#" class="boton boton_principal" id="lead_whatsapp" title="WhatsApp de Tatiana Leal">Agenda tu cita ahora</a>
-      </blockquote>
+      <p>La evaluación incluye un análisis del tamaño y ubicación del tatuaje, los tipos de colores presentes, la densidad de la tinta y las características específicas de tu piel. Con esta información, podemos determinar el número aproximado de sesiones necesarias y proporcionarte un presupuesto detallado.</p>
     </div>
+    <blockquote>
+      <p>Durante tu consulta inicial, recibirás un plan personalizado que incluye el número estimado de sesiones y el costo total del tratamiento. Ofrecemos diferentes opciones de financiamiento para hacer el tratamiento más accesible.</p>
+      <a href="#" class="boton boton_principal" id="lead_whatsapp" title="WhatsApp de Tatiana Leal">Agenda tu cita ahora</a>
+    </blockquote>
   </section>
 </section>
 
@@ -3480,7 +3475,7 @@
   </figure>
 </section>
 
-<section class="two_columns two_columns_left" aria-labelledby="resultados-section">
+<section class="two_columns two_columns_left seccion" aria-labelledby="resultados-section">
   <div class="flow padding">
     <h2 id="resultados-section">Resultados comprobados con tecnología láser Q-Switched</h2>
     <ul class="block_section_list">
@@ -3626,20 +3621,18 @@
     </item>
     
     <item>
-      <title>Glúteos Perfectos Sin Cirugía ✨ Dra. Tatiana Leal - Bogotá</title>
-      <description>Eleva y reafirma sin bisturí. Última tecnología HIFU + RF + Maximus. Resultados visibles en 2 semanas ¡Consulta hoy! → Agenda tu cita en Bogotá</description>
+      <title>Levantamiento de Glúteos Perfecto Sin Cirugía en Bogotá</title>
+      <description>Levanta tu cola sin bisturí. Última tecnología HIFU + RF + Maximus. Resultados visibles en 2 semanas ¡Consulta hoy! → Agenda tu cita en Bogotá</description>
       <content:encoded><![CDATA[<main class="block_section">
   <small class="block_section_header">Medicina estética corporal avanzada</small>
   <h2 class="block_section_title">Eleva y reafirma tus glúteos con tecnología de vanguardia</h2>
   <div class="block_section_content">
-    <p>
-      Carolina, una ejecutiva de 38 años, deseaba mejorar el aspecto de sus glúteos pero temía los riesgos de una cirugía. Como muchas mujeres, buscaba una solución segura y efectiva. Nuestra clínica ofrece un protocolo completo que combina las tecnologías más avanzadas: HIFU, radiofrecuencia, Maximus con tecnología Trilipo® y ondas de choque Thork. Este enfoque integral representa la evolución definitiva en modelado corporal, actuando en múltiples niveles para reafirmar y elevar de forma natural.
-    </p>
+    <p>Carolina, una ejecutiva de 38 años, deseaba mejorar el aspecto de sus glúteos pero temía los riesgos de una cirugía. Como muchas mujeres, buscaba una solución segura y efectiva. Nuestra clínica ofrece un protocolo completo que combina las tecnologías más avanzadas: HIFU, radiofrecuencia, Maximus con tecnología Trilipo® y ondas de choque Thork. Este enfoque integral representa la evolución definitiva en modelado corporal, actuando en múltiples niveles para el <strong>levantamiento gluteos</strong>con resultados que se ven muy naturales.</p>
   </div>
   <img class="block_section_image_left" loading="lazy" decoding="async" title="Doctora Tatiana Leal realizando tratamiento de glúteos" src="/img/levantamiento-gluteos-en-bogota.avif" alt="Doctora Tatiana Leal aplicando HIFU y radiofrecuencia" width="656" height="656">
 
   <div class="block_section_knowledge flow padding">
-    <h3>Beneficios completos de nuestro protocolo sin cirugía</h3>
+    <h3>Beneficios completos de nuestro levantamiento de glúteos sin cirugía</h3>
     <ul>
       <li>Elevación y firmeza inmediata desde la primera sesión de 40 minutos</li>
       <li>Sin anestesia ni periodo de recuperación - ¡regresa a tus actividades inmediatamente!</li>
@@ -3655,13 +3648,13 @@
   <img class="block_section_image_right" loading="lazy" decoding="async" title="Doctora Tatiana Leal realizando tratamiento de glúteos" src="/img/levantamiento-gluteos-en-colombia.avif" alt="Doctora Tatiana Leal aplicando HIFU y radiofrecuencia" width="656" height="656">
 </main>
 
-<section class="padding flow">
+<section class="padding flow" aria-labelledby="tecnologias-section">
   <header class="intro">
     <small>Tecnología corporal avanzada</small>
-    <h2>Arsenal completo de tecnologías para resultados excepcionales</h2>
+    <h2>Levantamiento de glúteos con tecnologías y resultados excepcionales</h2>
   </header>
 
-  <div class="service-cards">
+  <section class="service-cards">
     <div class="card">
       <h3>HIFU y Radiofrecuencia</h3>
       <p>Tecnología de ultrasonido focalizado de alta intensidad combinada con radiofrecuencia para estimular el colágeno en profundidad y reafirmar los tejidos desde el interior. La radiofrecuencia transfiere energía en forma de calor a las capas profundas de la dermis, estimulando la producción de colágeno y favoreciendo la llegada de nutrientes a la zona tratada.</p>
@@ -3681,9 +3674,9 @@
       <h3>Contour Shape</h3>
       <p>Sistema versátil que combina radiofrecuencia y endermología para corregir irregularidades de la piel y mejorar el aspecto de la celulitis. Se complementa con intradermoterapia, un método tonificante que acelera el metabolismo y favorece la quema de grasa localizada.</p>
     </div>
-  </div>
+  </section>
 
-  <section aria-labelledby="precio-section" class="intro flow">
+  <section aria-labelledby="precio-section" class="intro flow padding">
     <h3 id="precio-section">Inversión en tu bienestar: precios y evaluación</h3>
     <p>Entendemos que mejorar tu figura es una decisión importante. El costo del tratamiento con nuestras tecnologías avanzadas se determina después de una evaluación personalizada, donde analizamos tu tipo de piel y objetivos para diseñar un protocolo adaptado a tus necesidades específicas.</p>
 
@@ -3696,8 +3689,8 @@
 
 <section class="two_columns seccion" aria-labelledby="experiencia-section">
   <div class="flow padding">
-    <h2 id="experiencia-section">Tu experiencia durante el tratamiento integral</h2>
-    <p>Cada sesión de 40 minutos comienza con una suave preparación de la piel. Utilizamos una combinación personalizada de nuestras tecnologías avanzadas según tus necesidades específicas. El tratamiento es completamente indoloro - la mayoría de nuestras pacientes lo describen como una experiencia relajante y placentera.</p>
+    <h2 id="experiencia-section">Así hacemos el mejor levantamiento de glúteos en Colombia</h2>
+    <p>En sesiones de 40 minutos cumplimos tu sueño. Comenzamos con una suave preparación de la piel. Utilizamos una combinación personalizada de nuestras tecnologías avanzadas según tus necesidades específicas. El tratamiento es completamente indoloro - la mayoría de nuestras pacientes lo describen como una experiencia relajante y placentera.</p>
     <p>La mejoría es visible desde la primera sesión, con resultados que continúan desarrollándose durante las siguientes semanas. Recomendamos un protocolo inicial de 8-12 sesiones semanales, seguido de mantenimiento mensual para optimizar y prolongar los resultados. Podrás retomar tus actividades normales inmediatamente después de cada sesión.</p>
   </div>
   <figure class="two_columns-image">
@@ -3707,7 +3700,7 @@
 
 <section class="two_columns two_columns_left" aria-labelledby="resultados-section">
   <div class="flow padding">
-    <h2 id="resultados-section">Resultados visibles y duraderos</h2>
+    <h2 id="resultados-section">Glúteos visiblemente levantados y firmes</h2>
     <ul role="list">
       <li>Mayor firmeza y definición natural desde la primera sesión</li>
       <li>Elevación visible sin necesidad de cirugía</li>
@@ -3724,14 +3717,14 @@
 
 <aside class="parallax padding parallax_gluteos">
   <div class="parallax_copy intro flow">
-    <h2>Transforma tu figura de forma natural y segura</h2>
+    <h2>¡El levantamiento de glúteos funciona!</h2>
     <p>Nuestro objetivo es ayudarte a conseguir los resultados que deseas sin comprometer tu seguridad. Cada tratamiento está diseñado pensando en tus objetivos específicos y las características únicas de tu piel y tejido.</p>
   </div>
 </aside>
 
 <section class="padding" aria-labelledby="faq-section">
   <div class="intro flow">
-    <h2 id="faq-section">Preguntas frecuentes sobre el levantamiento sin cirugía</h2>
+    <h2 id="faq-section">Preguntas frecuentes sobre el levantamiento de glúteos sin cirugía</h2>
 
     <div class="accordion" role="tablist">
       
@@ -3831,31 +3824,6 @@
       </div>
     </div>
     <p class="case-description">Transformación completa con protocolo personalizado de tratamientos no invasivos.</p>
-  </div>
-  
-  <div class="before-after-case">
-    <h3>Reafirmación glútea</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/despues-levantamiento-gluteos-3.avif" alt="Después del Reafirmación glútea" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/antes-levantamiento-gluteos-3.avif" alt="Antes del Reafirmación glútea" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
-          </div>
-        </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
-      </div>
-    </div>
-    <p class="case-description">Mejoría significativa en forma y firmeza después del tratamiento sin cirugía.</p>
   </div>
   
 </section> -->

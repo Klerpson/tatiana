@@ -37,8 +37,7 @@
 .block_section_content {
   grid-area: content;
   padding: 0 2rem 3rem;
-  display: flex;
-  flex-direction: column;
+  display: grid;
   gap: 1em;
   align-items: start;
 }

@@ -17,6 +17,7 @@
   max-width: min(800px, 90%);
   margin-inline: auto;
   margin-block: 2rem;
+  text-align: center;
 
   & h3 {
     text-align: center;

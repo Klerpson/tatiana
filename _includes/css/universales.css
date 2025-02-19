@@ -131,7 +131,7 @@ hr {
   }
   img {
     width: 100%;
-    min-height: 100%;
+    height: revert-layer;
     -o-object-fit: cover;
        object-fit: cover;
     -o-object-position: center right;
