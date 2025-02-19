@@ -1,13 +1,13 @@
 .before-after-section {
   container-type: inline-size;
   container-name: before-after;
-  background-color: var(--gris1);
   padding-block: 4rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 400px), 1fr));
+  place-content: center;
 
   & .intro {
-    text-align: center;
-    max-width: min(100%, 800px);
-    margin-inline: auto;
+    width: 100%;
     -webkit-margin-after: 3rem;
             margin-block-end: 3rem;
   }

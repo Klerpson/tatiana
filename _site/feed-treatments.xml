@@ -127,88 +127,89 @@
 </section>
 
 
-<!-- <section class="before-after-section padding">
-  <div class="intro flow">
-    <h2 class="center">Resultados reales: Ácido hialurónico: redescubre tu belleza natural</h2>
-    <p class="center">Transforma tu apariencia con resultados naturales comprobados</p>
-  </div>
-
-  
-  <div class="before-after-case">
-    <h3>Rejuvenecimiento de labios</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/despues-acido-hialuronico-labios.avif" alt="Después del Rejuvenecimiento de labios" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/antes-acido-hialuronico-labios.avif" alt="Antes del Rejuvenecimiento de labios" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
+<!-- <section class="wrapper">
+  <header class="intro flow">
+    <h2>Resultados reales: Ácido hialurónico: redescubre tu belleza natural</h2>
+    <p>Transforma tu apariencia con resultados naturales comprobados</p>
+  </header>
+  <div class="before-after-section">
+    
+    <div class="before-after-case">
+      <h3>Rejuvenecimiento de labios</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/despues-acido-hialuronico-labios.avif" alt="Después del Rejuvenecimiento de labios" loading="lazy" decoding="async" width="800" height="600">
           </div>
-        </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
-      </div>
-    </div>
-    <p class="case-description">Aumento natural de labios con ácido hialurónico. Resultados armoniosos que mantienen la expresividad natural del rostro.</p>
-  </div>
-  
-  <div class="before-after-case">
-    <h3>Tratamiento de ojeras</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/despues-acido-hialuronico-ojeras.avif" alt="Después del Tratamiento de ojeras" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/antes-acido-hialuronico-ojeras.avif" alt="Antes del Tratamiento de ojeras" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/antes-acido-hialuronico-labios.avif" alt="Antes del Rejuvenecimiento de labios" loading="lazy" decoding="async" width="800" height="600">
           </div>
-        </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
-      </div>
-    </div>
-    <p class="case-description">Eliminación de ojeras profundas con ácido hialurónico. Aspecto descansado y rejuvenecido de la mirada.</p>
-  </div>
-  
-  <div class="before-after-case">
-    <h3>Definición de rostro</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/despues-acido-hialuronico-rostro.avif" alt="Después del Definición de rostro" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/antes-acido-hialuronico-rostro.avif" alt="Antes del Definición de rostro" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
           </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
         </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
       </div>
+      <p class="case-description">Aumento natural de labios con ácido hialurónico. Resultados armoniosos que mantienen la expresividad natural del rostro.</p>
     </div>
-    <p class="case-description">Definición y armonización facial con ácido hialurónico. Resultados naturales que realzan tu belleza sin alterar tus rasgos.</p>
+    
+    <div class="before-after-case">
+      <h3>Tratamiento de ojeras</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/despues-acido-hialuronico-ojeras.avif" alt="Después del Tratamiento de ojeras" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/antes-acido-hialuronico-ojeras.avif" alt="Antes del Tratamiento de ojeras" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
+          </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
+        </div>
+      </div>
+      <p class="case-description">Eliminación de ojeras profundas con ácido hialurónico. Aspecto descansado y rejuvenecido de la mirada.</p>
+    </div>
+    
+    <div class="before-after-case">
+      <h3>Definición de rostro</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/despues-acido-hialuronico-rostro.avif" alt="Después del Definición de rostro" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/antes-acido-hialuronico-rostro.avif" alt="Antes del Definición de rostro" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
+          </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
+        </div>
+      </div>
+      <p class="case-description">Definición y armonización facial con ácido hialurónico. Resultados naturales que realzan tu belleza sin alterar tus rasgos.</p>
+    </div>
+    
   </div>
-  
 </section> -->
 
 
@@ -341,88 +342,89 @@
 </section>
 
 
-<!-- <section class="before-after-section padding">
-  <div class="intro flow">
-    <h2 class="center">Resultados reales: Aumento de labios: belleza natural y armoniosa</h2>
-    <p class="center">Transforma tu apariencia con resultados naturales comprobados</p>
-  </div>
-
-  
-  <div class="before-after-case">
-    <h3>Perfilado labial natural</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/tatiana-leal-medicina-laser-1024.avif" alt="Después del Perfilado labial natural" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/tatiana-leal-medicina-estetica-1024.avif" alt="Antes del Perfilado labial natural" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
+<!-- <section class="wrapper">
+  <header class="intro flow">
+    <h2>Resultados reales: Aumento de labios: belleza natural y armoniosa</h2>
+    <p>Transforma tu apariencia con resultados naturales comprobados</p>
+  </header>
+  <div class="before-after-section">
+    
+    <div class="before-after-case">
+      <h3>Perfilado labial natural</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/tatiana-leal-medicina-laser-1024.avif" alt="Después del Perfilado labial natural" loading="lazy" decoding="async" width="800" height="600">
           </div>
-        </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
-      </div>
-    </div>
-    <p class="case-description">Paciente de 28 años después del tratamiento con ácido hialurónico. Notable mejoría en volumen y definición manteniendo un aspecto natural.</p>
-  </div>
-  
-  <div class="before-after-case">
-    <h3>Armonización labial</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/tatiana-leal-medicina-laser-1024.avif" alt="Después del Armonización labial" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/tatiana-leal-medicina-estetica-1024.avif" alt="Antes del Armonización labial" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/tatiana-leal-medicina-estetica-1024.avif" alt="Antes del Perfilado labial natural" loading="lazy" decoding="async" width="800" height="600">
           </div>
-        </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
-      </div>
-    </div>
-    <p class="case-description">Resultados inmediatos mostrando una significativa mejora en la simetría y definición del contorno labial.</p>
-  </div>
-  
-  <div class="before-after-case">
-    <h3>Rejuvenecimiento labial</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/tatiana-leal-medicina-laser-1024.avif" alt="Después del Rejuvenecimiento labial" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/tatiana-leal-medicina-estetica-1024.avif" alt="Antes del Rejuvenecimiento labial" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
           </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
         </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
       </div>
+      <p class="case-description">Paciente de 28 años después del tratamiento con ácido hialurónico. Notable mejoría en volumen y definición manteniendo un aspecto natural.</p>
     </div>
-    <p class="case-description">Transformación sutil y elegante, evidenciando una notable mejoría en el volumen y la hidratación labial.</p>
+    
+    <div class="before-after-case">
+      <h3>Armonización labial</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/tatiana-leal-medicina-laser-1024.avif" alt="Después del Armonización labial" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/tatiana-leal-medicina-estetica-1024.avif" alt="Antes del Armonización labial" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
+          </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
+        </div>
+      </div>
+      <p class="case-description">Resultados inmediatos mostrando una significativa mejora en la simetría y definición del contorno labial.</p>
+    </div>
+    
+    <div class="before-after-case">
+      <h3>Rejuvenecimiento labial</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/tatiana-leal-medicina-laser-1024.avif" alt="Después del Rejuvenecimiento labial" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/tatiana-leal-medicina-estetica-1024.avif" alt="Antes del Rejuvenecimiento labial" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
+          </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
+        </div>
+      </div>
+      <p class="case-description">Transformación sutil y elegante, evidenciando una notable mejoría en el volumen y la hidratación labial.</p>
+    </div>
+    
   </div>
-  
 </section> -->
 
 
@@ -560,88 +562,89 @@
 </section>
 
 
-<!-- <section class="before-after-section padding">
-  <div class="intro flow">
-    <h2 class="center">Resultados reales: Biorevitalización facial: despierta la vitalidad natural de tu piel</h2>
-    <p class="center">Transforma tu apariencia con resultados naturales comprobados</p>
-  </div>
-
-  
-  <div class="before-after-case">
-    <h3>Revitalización facial completa</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/despues-biorevitalizacion-facial-1.avif" alt="Después del Revitalización facial completa" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/antes-biorevitalizacion-facial-1.avif" alt="Antes del Revitalización facial completa" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
+<!-- <section class="wrapper">
+  <header class="intro flow">
+    <h2>Resultados reales: Biorevitalización facial: despierta la vitalidad natural de tu piel</h2>
+    <p>Transforma tu apariencia con resultados naturales comprobados</p>
+  </header>
+  <div class="before-after-section">
+    
+    <div class="before-after-case">
+      <h3>Revitalización facial completa</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/despues-biorevitalizacion-facial-1.avif" alt="Después del Revitalización facial completa" loading="lazy" decoding="async" width="800" height="600">
           </div>
-        </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
-      </div>
-    </div>
-    <p class="case-description">Paciente de 45 años después de 3 sesiones. Notable mejoría en luminosidad, hidratación y textura de la piel.</p>
-  </div>
-  
-  <div class="before-after-case">
-    <h3>Rejuvenecimiento natural</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/despues-biorevitalizacion-facial-2.avif" alt="Después del Rejuvenecimiento natural" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/antes-biorevitalizacion-facial-2.avif" alt="Antes del Rejuvenecimiento natural" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/antes-biorevitalizacion-facial-1.avif" alt="Antes del Revitalización facial completa" loading="lazy" decoding="async" width="800" height="600">
           </div>
-        </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
-      </div>
-    </div>
-    <p class="case-description">Resultados visibles en firmeza y elasticidad después de 2 sesiones de biorevitalización.</p>
-  </div>
-  
-  <div class="before-after-case">
-    <h3>Tratamiento anti-edad</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/despues-biorevitalizacion-facial-3.avif" alt="Después del Tratamiento anti-edad" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/antes-biorevitalizacion-facial-3.avif" alt="Antes del Tratamiento anti-edad" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
           </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
         </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
       </div>
+      <p class="case-description">Paciente de 45 años después de 3 sesiones. Notable mejoría en luminosidad, hidratación y textura de la piel.</p>
     </div>
-    <p class="case-description">Transformación natural después de 4 sesiones, mostrando una piel más joven y revitalizada.</p>
+    
+    <div class="before-after-case">
+      <h3>Rejuvenecimiento natural</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/despues-biorevitalizacion-facial-2.avif" alt="Después del Rejuvenecimiento natural" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/antes-biorevitalizacion-facial-2.avif" alt="Antes del Rejuvenecimiento natural" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
+          </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
+        </div>
+      </div>
+      <p class="case-description">Resultados visibles en firmeza y elasticidad después de 2 sesiones de biorevitalización.</p>
+    </div>
+    
+    <div class="before-after-case">
+      <h3>Tratamiento anti-edad</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/despues-biorevitalizacion-facial-3.avif" alt="Después del Tratamiento anti-edad" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/antes-biorevitalizacion-facial-3.avif" alt="Antes del Tratamiento anti-edad" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
+          </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
+        </div>
+      </div>
+      <p class="case-description">Transformación natural después de 4 sesiones, mostrando una piel más joven y revitalizada.</p>
+    </div>
+    
   </div>
-  
 </section>s -->
 
 
@@ -807,63 +810,64 @@
 </section>
 
 
-<!-- <section class="before-after-section padding">
-  <div class="intro flow">
-    <h2 class="center">Resultados reales: Tratamiento efectivo para la caída del cabello en Bogotá</h2>
-    <p class="center">Transforma tu apariencia con resultados naturales comprobados</p>
-  </div>
-
-  
-  <div class="before-after-case">
-    <h3>Recuperación capilar con PRP</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/tratamiento-prp-despues.avif" alt="Después del Recuperación capilar con PRP" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/tratamiento-prp-antes.avif" alt="Antes del Recuperación capilar con PRP" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
+<!-- <section class="wrapper">
+  <header class="intro flow">
+    <h2>Resultados reales: Tratamiento efectivo para la caída del cabello en Bogotá</h2>
+    <p>Transforma tu apariencia con resultados naturales comprobados</p>
+  </header>
+  <div class="before-after-section">
+    
+    <div class="before-after-case">
+      <h3>Recuperación capilar con PRP</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/tratamiento-prp-despues.avif" alt="Después del Recuperación capilar con PRP" loading="lazy" decoding="async" width="800" height="600">
           </div>
-        </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
-      </div>
-    </div>
-    <p class="case-description">Paciente masculino de 35 años después de 4 sesiones de PRP capilar. Notable mejoría en densidad y grosor del cabello.</p>
-  </div>
-  
-  <div class="before-after-case">
-    <h3>Regeneración con intradermoterapia</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/intradermoterapia-despues.avif" alt="Después del Regeneración con intradermoterapia" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/intradermoterapia-antes.avif" alt="Antes del Regeneración con intradermoterapia" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/tratamiento-prp-antes.avif" alt="Antes del Recuperación capilar con PRP" loading="lazy" decoding="async" width="800" height="600">
           </div>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
+          </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
         </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
       </div>
+      <p class="case-description">Paciente masculino de 35 años después de 4 sesiones de PRP capilar. Notable mejoría en densidad y grosor del cabello.</p>
     </div>
-    <p class="case-description">Resultados después de 6 sesiones, mostrando una significativa reducción en la caída y mayor volumen capilar.</p>
+    
+    <div class="before-after-case">
+      <h3>Regeneración con intradermoterapia</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/intradermoterapia-despues.avif" alt="Después del Regeneración con intradermoterapia" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/intradermoterapia-antes.avif" alt="Antes del Regeneración con intradermoterapia" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
+          </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
+        </div>
+      </div>
+      <p class="case-description">Resultados después de 6 sesiones, mostrando una significativa reducción en la caída y mayor volumen capilar.</p>
+    </div>
+    
   </div>
-  
 </section> -->
 
 
@@ -1000,63 +1004,64 @@
 </section>
 
 
-<!-- <section class="before-after-section padding">
-  <div class="intro flow">
-    <h2 class="center">Resultados reales: Eliminar manchas: soluciones para una piel impecable</h2>
-    <p class="center">Transforma tu apariencia con resultados naturales comprobados</p>
-  </div>
-
-  
-  <div class="before-after-case">
-    <h3>Tratamiento profesional para manchas solares</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/manchas-despues.avif" alt="Después del Tratamiento profesional para manchas solares" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/manchas-antes.avif" alt="Antes del Tratamiento profesional para manchas solares" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
+<!-- <section class="wrapper">
+  <header class="intro flow">
+    <h2>Resultados reales: Eliminar manchas: soluciones para una piel impecable</h2>
+    <p>Transforma tu apariencia con resultados naturales comprobados</p>
+  </header>
+  <div class="before-after-section">
+    
+    <div class="before-after-case">
+      <h3>Tratamiento profesional para manchas solares</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/manchas-despues.avif" alt="Después del Tratamiento profesional para manchas solares" loading="lazy" decoding="async" width="800" height="600">
           </div>
-        </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
-      </div>
-    </div>
-    <p class="case-description">Transformación evidente después de 2 semanas de uso de tratamientos especializados. Adecuado para pieles sensibles.</p>
-  </div>
-  
-  <div class="before-after-case">
-    <h3>Reducción de manchas oscuras en la cara</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/cara-despues.avif" alt="Después del Reducción de manchas oscuras en la cara" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/cara-antes.avif" alt="Antes del Reducción de manchas oscuras en la cara" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/manchas-antes.avif" alt="Antes del Tratamiento profesional para manchas solares" loading="lazy" decoding="async" width="800" height="600">
           </div>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
+          </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
         </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
       </div>
+      <p class="case-description">Transformación evidente después de 2 semanas de uso de tratamientos especializados. Adecuado para pieles sensibles.</p>
     </div>
-    <p class="case-description">Resultados efectivos tras utilizar cremas dermatológicas avanzadas.</p>
+    
+    <div class="before-after-case">
+      <h3>Reducción de manchas oscuras en la cara</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/cara-despues.avif" alt="Después del Reducción de manchas oscuras en la cara" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/cara-antes.avif" alt="Antes del Reducción de manchas oscuras en la cara" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
+          </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
+        </div>
+      </div>
+      <p class="case-description">Resultados efectivos tras utilizar cremas dermatológicas avanzadas.</p>
+    </div>
+    
   </div>
-  
 </section> -->
 
 
@@ -1198,88 +1203,89 @@
 </section>
 
 
-<!-- <section class="before-after-section padding">
-  <div class="intro flow">
-    <h2 class="center">Resultados reales: Hilos tensores: Rejuvenecimiento facial natural y duradero</h2>
-    <p class="center">Transforma tu apariencia con resultados naturales comprobados</p>
-  </div>
-
-  
-  <div class="before-after-case">
-    <h3>Rejuvenecimiento con hilos tensores</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/tatiana-leal-medicina-laser-1024.avif" alt="Después del Rejuvenecimiento con hilos tensores" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/tatiana-leal-medicina-estetica-1024.avif" alt="Antes del Rejuvenecimiento con hilos tensores" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
+<!-- <section class="wrapper">
+  <header class="intro flow">
+    <h2>Resultados reales: Hilos tensores: Rejuvenecimiento facial natural y duradero</h2>
+    <p>Transforma tu apariencia con resultados naturales comprobados</p>
+  </header>
+  <div class="before-after-section">
+    
+    <div class="before-after-case">
+      <h3>Rejuvenecimiento con hilos tensores</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/tatiana-leal-medicina-laser-1024.avif" alt="Después del Rejuvenecimiento con hilos tensores" loading="lazy" decoding="async" width="800" height="600">
           </div>
-        </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
-      </div>
-    </div>
-    <p class="case-description">Paciente de 48 años después del tratamiento con hilos tensores PDO. Notable mejoría en la definición del óvalo facial y reducción de flacidez.</p>
-  </div>
-  
-  <div class="before-after-case">
-    <h3>Tensado de cuello con hilos PDO</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/tatiana-leal-medicina-laser-1024.avif" alt="Después del Tensado de cuello con hilos PDO" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/tatiana-leal-medicina-estetica-1024.avif" alt="Antes del Tensado de cuello con hilos PDO" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/tatiana-leal-medicina-estetica-1024.avif" alt="Antes del Rejuvenecimiento con hilos tensores" loading="lazy" decoding="async" width="800" height="600">
           </div>
-        </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
-      </div>
-    </div>
-    <p class="case-description">Resultados del tratamiento con hilos tensores en cuello, mostrando una significativa mejora en la firmeza y reducción de papada.</p>
-  </div>
-  
-  <div class="before-after-case">
-    <h3>Definición mandibular con hilos tensores</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/tatiana-leal-medicina-laser-1024.avif" alt="Después del Definición mandibular con hilos tensores" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/tatiana-leal-medicina-estetica-1024.avif" alt="Antes del Definición mandibular con hilos tensores" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
           </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
         </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
       </div>
+      <p class="case-description">Paciente de 48 años después del tratamiento con hilos tensores PDO. Notable mejoría en la definición del óvalo facial y reducción de flacidez.</p>
     </div>
-    <p class="case-description">Transformación del contorno facial después de la aplicación de hilos tensores PDO, logrando una mandíbula más definida y un rostro más estilizado.</p>
+    
+    <div class="before-after-case">
+      <h3>Tensado de cuello con hilos PDO</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/tatiana-leal-medicina-laser-1024.avif" alt="Después del Tensado de cuello con hilos PDO" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/tatiana-leal-medicina-estetica-1024.avif" alt="Antes del Tensado de cuello con hilos PDO" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
+          </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
+        </div>
+      </div>
+      <p class="case-description">Resultados del tratamiento con hilos tensores en cuello, mostrando una significativa mejora en la firmeza y reducción de papada.</p>
+    </div>
+    
+    <div class="before-after-case">
+      <h3>Definición mandibular con hilos tensores</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/tatiana-leal-medicina-laser-1024.avif" alt="Después del Definición mandibular con hilos tensores" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/tatiana-leal-medicina-estetica-1024.avif" alt="Antes del Definición mandibular con hilos tensores" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
+          </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
+        </div>
+      </div>
+      <p class="case-description">Transformación del contorno facial después de la aplicación de hilos tensores PDO, logrando una mandíbula más definida y un rostro más estilizado.</p>
+    </div>
+    
   </div>
-  
 </section> -->
 
 
@@ -1449,88 +1455,89 @@
 </section>
 
 
-<!-- <section class="before-after-section padding">
-  <div class="intro flow">
-    <h2 class="center">Resultados reales: Lifting facial sin cirugía: rejuvenecimiento natural sin riesgos</h2>
-    <p class="center">Transforma tu apariencia con resultados naturales comprobados</p>
-  </div>
-
-  
-  <div class="before-after-case">
-    <h3>Lifting no quirúrgico</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/despues-lifting-facial-1.avif" alt="Después del Lifting no quirúrgico" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/antes-lifting-facial-1.avif" alt="Antes del Lifting no quirúrgico" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
+<!-- <section class="wrapper">
+  <header class="intro flow">
+    <h2>Resultados reales: Lifting facial sin cirugía: rejuvenecimiento natural sin riesgos</h2>
+    <p>Transforma tu apariencia con resultados naturales comprobados</p>
+  </header>
+  <div class="before-after-section">
+    
+    <div class="before-after-case">
+      <h3>Lifting no quirúrgico</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/despues-lifting-facial-1.avif" alt="Después del Lifting no quirúrgico" loading="lazy" decoding="async" width="800" height="600">
           </div>
-        </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
-      </div>
-    </div>
-    <p class="case-description">Resultados después de 3 sesiones de lifting facial sin cirugía. Notable mejoría en firmeza y contorno facial.</p>
-  </div>
-  
-  <div class="before-after-case">
-    <h3>Rejuvenecimiento natural</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/despues-lifting-facial-2.avif" alt="Después del Rejuvenecimiento natural" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/antes-lifting-facial-2.avif" alt="Antes del Rejuvenecimiento natural" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/antes-lifting-facial-1.avif" alt="Antes del Lifting no quirúrgico" loading="lazy" decoding="async" width="800" height="600">
           </div>
-        </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
-      </div>
-    </div>
-    <p class="case-description">Transformación visible con protocolo personalizado de lifting no quirúrgico.</p>
-  </div>
-  
-  <div class="before-after-case">
-    <h3>Reafirmación facial</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/despues-lifting-facial-3.avif" alt="Después del Reafirmación facial" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/antes-lifting-facial-3.avif" alt="Antes del Reafirmación facial" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
           </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
         </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
       </div>
+      <p class="case-description">Resultados después de 3 sesiones de lifting facial sin cirugía. Notable mejoría en firmeza y contorno facial.</p>
     </div>
-    <p class="case-description">Mejoría significativa en el óvalo facial y firmeza después del tratamiento sin cirugía.</p>
+    
+    <div class="before-after-case">
+      <h3>Rejuvenecimiento natural</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/despues-lifting-facial-2.avif" alt="Después del Rejuvenecimiento natural" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/antes-lifting-facial-2.avif" alt="Antes del Rejuvenecimiento natural" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
+          </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
+        </div>
+      </div>
+      <p class="case-description">Transformación visible con protocolo personalizado de lifting no quirúrgico.</p>
+    </div>
+    
+    <div class="before-after-case">
+      <h3>Reafirmación facial</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/despues-lifting-facial-3.avif" alt="Después del Reafirmación facial" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/antes-lifting-facial-3.avif" alt="Antes del Reafirmación facial" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
+          </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
+        </div>
+      </div>
+      <p class="case-description">Mejoría significativa en el óvalo facial y firmeza después del tratamiento sin cirugía.</p>
+    </div>
+    
   </div>
-  
 </section> -->
 
 
@@ -1675,63 +1682,64 @@
 </section>
 
 
-<!-- <section class="before-after-section padding">
-  <div class="intro flow">
-    <h2 class="center">Resultados reales: Limpieza Facial Profunda en Bogotá</h2>
-    <p class="center">Transforma tu apariencia con resultados naturales comprobados</p>
-  </div>
-
-  
-  <div class="before-after-case">
-    <h3>Piel grasa y obstrucción de poros</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/limpieza-despues.avif" alt="Después del Piel grasa y obstrucción de poros" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/limpieza-antes.avif" alt="Antes del Piel grasa y obstrucción de poros" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
+<!-- <section class="wrapper">
+  <header class="intro flow">
+    <h2>Resultados reales: Limpieza Facial Profunda en Bogotá</h2>
+    <p>Transforma tu apariencia con resultados naturales comprobados</p>
+  </header>
+  <div class="before-after-section">
+    
+    <div class="before-after-case">
+      <h3>Piel grasa y obstrucción de poros</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/limpieza-despues.avif" alt="Después del Piel grasa y obstrucción de poros" loading="lazy" decoding="async" width="800" height="600">
           </div>
-        </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
-      </div>
-    </div>
-    <p class="case-description">Transformación visible después de una limpieza facial profunda. Reducción de puntos negros y piel más suave.</p>
-  </div>
-  
-  <div class="before-after-case">
-    <h3>Hidratación profunda y rejuvenecimiento</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/rejuvenecimiento-despues.avif" alt="Después del Hidratación profunda y rejuvenecimiento" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/rejuvenecimiento-antes.avif" alt="Antes del Hidratación profunda y rejuvenecimiento" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/limpieza-antes.avif" alt="Antes del Piel grasa y obstrucción de poros" loading="lazy" decoding="async" width="800" height="600">
           </div>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
+          </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
         </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
       </div>
+      <p class="case-description">Transformación visible después de una limpieza facial profunda. Reducción de puntos negros y piel más suave.</p>
     </div>
-    <p class="case-description">Mejora notable en la textura y luminosidad de la piel después de un tratamiento complementario con péptidos.</p>
+    
+    <div class="before-after-case">
+      <h3>Hidratación profunda y rejuvenecimiento</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/rejuvenecimiento-despues.avif" alt="Después del Hidratación profunda y rejuvenecimiento" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/rejuvenecimiento-antes.avif" alt="Antes del Hidratación profunda y rejuvenecimiento" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
+          </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
+        </div>
+      </div>
+      <p class="case-description">Mejora notable en la textura y luminosidad de la piel después de un tratamiento complementario con péptidos.</p>
+    </div>
+    
   </div>
-  
 </section> -->
 
 
@@ -1878,88 +1886,89 @@
 </section>
 
 
-<!-- <section class="before-after-section padding">
-  <div class="intro flow">
-    <h2 class="center">Resultados reales: Tratamiento para eliminar ojeras</h2>
-    <p class="center">Transforma tu apariencia con resultados naturales comprobados</p>
-  </div>
-
-  
-  <div class="before-after-case">
-    <h3>Rejuvenecimiento periocular</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/despues-tratamiento-ojeras-1.avif" alt="Después del Rejuvenecimiento periocular" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/antes-tratamiento-ojeras-1.avif" alt="Antes del Rejuvenecimiento periocular" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
+<!-- <section class="wrapper">
+  <header class="intro flow">
+    <h2>Resultados reales: Tratamiento para eliminar ojeras</h2>
+    <p>Transforma tu apariencia con resultados naturales comprobados</p>
+  </header>
+  <div class="before-after-section">
+    
+    <div class="before-after-case">
+      <h3>Rejuvenecimiento periocular</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/despues-tratamiento-ojeras-1.avif" alt="Después del Rejuvenecimiento periocular" loading="lazy" decoding="async" width="800" height="600">
           </div>
-        </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
-      </div>
-    </div>
-    <p class="case-description">Notable reducción de ojeras y bolsas con ácido hialurónico.</p>
-  </div>
-  
-  <div class="before-after-case">
-    <h3>Renovación completa</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/despues-tratamiento-ojeras-2.avif" alt="Después del Renovación completa" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/antes-tratamiento-ojeras-2.avif" alt="Antes del Renovación completa" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/antes-tratamiento-ojeras-1.avif" alt="Antes del Rejuvenecimiento periocular" loading="lazy" decoding="async" width="800" height="600">
           </div>
-        </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
-      </div>
-    </div>
-    <p class="case-description">Transformación visible con protocolo combinado de IPL y ácido hialurónico.</p>
-  </div>
-  
-  <div class="before-after-case">
-    <h3>Revitalización periocular</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/despues-tratamiento-ojeras-3.avif" alt="Después del Revitalización periocular" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/antes-tratamiento-ojeras-3.avif" alt="Antes del Revitalización periocular" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
           </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
         </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
       </div>
+      <p class="case-description">Notable reducción de ojeras y bolsas con ácido hialurónico.</p>
     </div>
-    <p class="case-description">Mejoría significativa en apariencia y luminosidad de la zona periocular.</p>
+    
+    <div class="before-after-case">
+      <h3>Renovación completa</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/despues-tratamiento-ojeras-2.avif" alt="Después del Renovación completa" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/antes-tratamiento-ojeras-2.avif" alt="Antes del Renovación completa" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
+          </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
+        </div>
+      </div>
+      <p class="case-description">Transformación visible con protocolo combinado de IPL y ácido hialurónico.</p>
+    </div>
+    
+    <div class="before-after-case">
+      <h3>Revitalización periocular</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/despues-tratamiento-ojeras-3.avif" alt="Después del Revitalización periocular" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/antes-tratamiento-ojeras-3.avif" alt="Antes del Revitalización periocular" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
+          </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
+        </div>
+      </div>
+      <p class="case-description">Mejoría significativa en apariencia y luminosidad de la zona periocular.</p>
+    </div>
+    
   </div>
-  
 </section> -->
 
 
@@ -2102,88 +2111,89 @@
 </section>
 
 
-<!-- <section class="before-after-section padding">
-  <div class="intro flow">
-    <h2 class="center">Resultados reales: Peeling químico facial</h2>
-    <p class="center">Transforma tu apariencia con resultados naturales comprobados</p>
-  </div>
-
-  
-  <div class="before-after-case">
-    <h3>Renovación facial</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/despues-peeling-quimico-1.avif" alt="Después del Renovación facial" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/antes-peeling-quimico-1.avif" alt="Antes del Renovación facial" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
+<!-- <section class="wrapper">
+  <header class="intro flow">
+    <h2>Resultados reales: Peeling químico facial</h2>
+    <p>Transforma tu apariencia con resultados naturales comprobados</p>
+  </header>
+  <div class="before-after-section">
+    
+    <div class="before-after-case">
+      <h3>Renovación facial</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/despues-peeling-quimico-1.avif" alt="Después del Renovación facial" loading="lazy" decoding="async" width="800" height="600">
           </div>
-        </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
-      </div>
-    </div>
-    <p class="case-description">Notable mejoría en textura y luminosidad después del tratamiento.</p>
-  </div>
-  
-  <div class="before-after-case">
-    <h3>Control de manchas</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/despues-peeling-quimico-2.avif" alt="Después del Control de manchas" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/antes-peeling-quimico-2.avif" alt="Antes del Control de manchas" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/antes-peeling-quimico-1.avif" alt="Antes del Renovación facial" loading="lazy" decoding="async" width="800" height="600">
           </div>
-        </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
-      </div>
-    </div>
-    <p class="case-description">Reducción significativa de hiperpigmentación y mejora del tono.</p>
-  </div>
-  
-  <div class="before-after-case">
-    <h3>Rejuvenecimiento</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/despues-peeling-quimico-3.avif" alt="Después del Rejuvenecimiento" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/antes-peeling-quimico-3.avif" alt="Antes del Rejuvenecimiento" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
           </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
         </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
       </div>
+      <p class="case-description">Notable mejoría en textura y luminosidad después del tratamiento.</p>
     </div>
-    <p class="case-description">Transformación visible en la calidad y textura de la piel.</p>
+    
+    <div class="before-after-case">
+      <h3>Control de manchas</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/despues-peeling-quimico-2.avif" alt="Después del Control de manchas" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/antes-peeling-quimico-2.avif" alt="Antes del Control de manchas" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
+          </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
+        </div>
+      </div>
+      <p class="case-description">Reducción significativa de hiperpigmentación y mejora del tono.</p>
+    </div>
+    
+    <div class="before-after-case">
+      <h3>Rejuvenecimiento</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/despues-peeling-quimico-3.avif" alt="Después del Rejuvenecimiento" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/antes-peeling-quimico-3.avif" alt="Antes del Rejuvenecimiento" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
+          </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
+        </div>
+      </div>
+      <p class="case-description">Transformación visible en la calidad y textura de la piel.</p>
+    </div>
+    
   </div>
-  
 </section> -->
 
 
@@ -2318,88 +2328,89 @@
 </section>
 
 
-<!-- <section class="before-after-section padding">
-  <div class="intro flow">
-    <h2 class="center">Resultados reales: Plasma rico en plaquetas: el poder regenerativo de tu cuerpo</h2>
-    <p class="center">Transforma tu apariencia con resultados naturales comprobados</p>
-  </div>
-
-  
-  <div class="before-after-case">
-    <h3>Rejuvenecimiento facial</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/despues-plasma-rico-plaquetas-1.avif" alt="Después del Rejuvenecimiento facial" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/antes-plasma-rico-plaquetas-1.avif" alt="Antes del Rejuvenecimiento facial" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
+<!-- <section class="wrapper">
+  <header class="intro flow">
+    <h2>Resultados reales: Plasma rico en plaquetas: el poder regenerativo de tu cuerpo</h2>
+    <p>Transforma tu apariencia con resultados naturales comprobados</p>
+  </header>
+  <div class="before-after-section">
+    
+    <div class="before-after-case">
+      <h3>Rejuvenecimiento facial</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/despues-plasma-rico-plaquetas-1.avif" alt="Después del Rejuvenecimiento facial" loading="lazy" decoding="async" width="800" height="600">
           </div>
-        </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
-      </div>
-    </div>
-    <p class="case-description">Resultados visibles después de 3 sesiones de PRP facial. Notable mejoría en textura y luminosidad.</p>
-  </div>
-  
-  <div class="before-after-case">
-    <h3>Tratamiento capilar</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/despues-plasma-rico-plaquetas-2.avif" alt="Después del Tratamiento capilar" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/antes-plasma-rico-plaquetas-2.avif" alt="Antes del Tratamiento capilar" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/antes-plasma-rico-plaquetas-1.avif" alt="Antes del Rejuvenecimiento facial" loading="lazy" decoding="async" width="800" height="600">
           </div>
-        </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
-      </div>
-    </div>
-    <p class="case-description">Fortalecimiento y regeneración capilar después de 4 sesiones de PRP.</p>
-  </div>
-  
-  <div class="before-after-case">
-    <h3>Rejuvenecimiento de manos</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/despues-plasma-rico-plaquetas-3.avif" alt="Después del Rejuvenecimiento de manos" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/antes-plasma-rico-plaquetas-3.avif" alt="Antes del Rejuvenecimiento de manos" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
           </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
         </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
       </div>
+      <p class="case-description">Resultados visibles después de 3 sesiones de PRP facial. Notable mejoría en textura y luminosidad.</p>
     </div>
-    <p class="case-description">Mejoría significativa en la calidad y textura de la piel después del tratamiento.</p>
+    
+    <div class="before-after-case">
+      <h3>Tratamiento capilar</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/despues-plasma-rico-plaquetas-2.avif" alt="Después del Tratamiento capilar" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/antes-plasma-rico-plaquetas-2.avif" alt="Antes del Tratamiento capilar" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
+          </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
+        </div>
+      </div>
+      <p class="case-description">Fortalecimiento y regeneración capilar después de 4 sesiones de PRP.</p>
+    </div>
+    
+    <div class="before-after-case">
+      <h3>Rejuvenecimiento de manos</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/despues-plasma-rico-plaquetas-3.avif" alt="Después del Rejuvenecimiento de manos" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/antes-plasma-rico-plaquetas-3.avif" alt="Antes del Rejuvenecimiento de manos" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
+          </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
+        </div>
+      </div>
+      <p class="case-description">Mejoría significativa en la calidad y textura de la piel después del tratamiento.</p>
+    </div>
+    
   </div>
-  
 </section> -->
 
 
@@ -2649,88 +2660,89 @@
 </section>
 
 
-<!-- <section class="before-after-section padding">
-  <div class="intro flow">
-    <h2 class="center">Resultados reales: Rejuvenecimiento facial con láser en Bogotá</h2>
-    <p class="center">Transforma tu apariencia con resultados naturales comprobados</p>
-  </div>
-
-  
-  <div class="before-after-case">
-    <h3>Rejuvenecimiento facial completo</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/tatiana-leal-medicina-laser-1024.avif" alt="Después del Rejuvenecimiento facial completo" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/tatiana-leal-medicina-estetica-1024.avif" alt="Antes del Rejuvenecimiento facial completo" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
+<!-- <section class="wrapper">
+  <header class="intro flow">
+    <h2>Resultados reales: Rejuvenecimiento facial con láser en Bogotá</h2>
+    <p>Transforma tu apariencia con resultados naturales comprobados</p>
+  </header>
+  <div class="before-after-section">
+    
+    <div class="before-after-case">
+      <h3>Rejuvenecimiento facial completo</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/tatiana-leal-medicina-laser-1024.avif" alt="Después del Rejuvenecimiento facial completo" loading="lazy" decoding="async" width="800" height="600">
           </div>
-        </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
-      </div>
-    </div>
-    <p class="case-description">Paciente de 45 años después de 3 sesiones de tratamiento láser CO2 fraccionado. Notable mejoría en textura, tono y reducción de líneas finas.</p>
-  </div>
-  
-  <div class="before-after-case">
-    <h3>Tratamiento de manchas solares</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/tatiana-leal-medicina-laser-1024.avif" alt="Después del Tratamiento de manchas solares" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/tatiana-leal-medicina-estetica-1024.avif" alt="Antes del Tratamiento de manchas solares" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/tatiana-leal-medicina-estetica-1024.avif" alt="Antes del Rejuvenecimiento facial completo" loading="lazy" decoding="async" width="800" height="600">
           </div>
-        </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
-      </div>
-    </div>
-    <p class="case-description">Resultados después de 2 sesiones, mostrando una significativa reducción de hiperpigmentación y mejora en la uniformidad del tono de piel.</p>
-  </div>
-  
-  <div class="before-after-case">
-    <h3>Reducción de cicatrices</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/tatiana-leal-medicina-laser-1024.avif" alt="Después del Reducción de cicatrices" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/tatiana-leal-medicina-estetica-1024.avif" alt="Antes del Reducción de cicatrices" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
           </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
         </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
       </div>
+      <p class="case-description">Paciente de 45 años después de 3 sesiones de tratamiento láser CO2 fraccionado. Notable mejoría en textura, tono y reducción de líneas finas.</p>
     </div>
-    <p class="case-description">Transformación después de 4 sesiones, evidenciando una notable mejoría en la textura de la piel y reducción de cicatrices.</p>
+    
+    <div class="before-after-case">
+      <h3>Tratamiento de manchas solares</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/tatiana-leal-medicina-laser-1024.avif" alt="Después del Tratamiento de manchas solares" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/tatiana-leal-medicina-estetica-1024.avif" alt="Antes del Tratamiento de manchas solares" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
+          </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
+        </div>
+      </div>
+      <p class="case-description">Resultados después de 2 sesiones, mostrando una significativa reducción de hiperpigmentación y mejora en la uniformidad del tono de piel.</p>
+    </div>
+    
+    <div class="before-after-case">
+      <h3>Reducción de cicatrices</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/tatiana-leal-medicina-laser-1024.avif" alt="Después del Reducción de cicatrices" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/tatiana-leal-medicina-estetica-1024.avif" alt="Antes del Reducción de cicatrices" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
+          </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
+        </div>
+      </div>
+      <p class="case-description">Transformación después de 4 sesiones, evidenciando una notable mejoría en la textura de la piel y reducción de cicatrices.</p>
+    </div>
+    
   </div>
-  
 </section> -->
 
 
@@ -2866,88 +2878,89 @@
 </section>
 
 
-<!-- <section class="before-after-section padding">
-  <div class="intro flow">
-    <h2 class="center">Resultados reales: Vitamina C facial: el poder antioxidante para tu piel</h2>
-    <p class="center">Transforma tu apariencia con resultados naturales comprobados</p>
-  </div>
-
-  
-  <div class="before-after-case">
-    <h3>Renovación facial completa</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/despues-vitamina-c-facial-1.avif" alt="Después del Renovación facial completa" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/antes-vitamina-c-facial-1.avif" alt="Antes del Renovación facial completa" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
+<!-- <section class="wrapper">
+  <header class="intro flow">
+    <h2>Resultados reales: Vitamina C facial: el poder antioxidante para tu piel</h2>
+    <p>Transforma tu apariencia con resultados naturales comprobados</p>
+  </header>
+  <div class="before-after-section">
+    
+    <div class="before-after-case">
+      <h3>Renovación facial completa</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/despues-vitamina-c-facial-1.avif" alt="Después del Renovación facial completa" loading="lazy" decoding="async" width="800" height="600">
           </div>
-        </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
-      </div>
-    </div>
-    <p class="case-description">Resultados después de 3 sesiones de tratamiento con vitamina C. Notable mejoría en luminosidad y textura.</p>
-  </div>
-  
-  <div class="before-after-case">
-    <h3>Tratamiento antimanchas</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/despues-vitamina-c-facial-2.avif" alt="Después del Tratamiento antimanchas" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/antes-vitamina-c-facial-2.avif" alt="Antes del Tratamiento antimanchas" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/antes-vitamina-c-facial-1.avif" alt="Antes del Renovación facial completa" loading="lazy" decoding="async" width="800" height="600">
           </div>
-        </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
-      </div>
-    </div>
-    <p class="case-description">Reducción visible de manchas y mejora del tono uniforme después del tratamiento.</p>
-  </div>
-  
-  <div class="before-after-case">
-    <h3>Rejuvenecimiento natural</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/despues-vitamina-c-facial-3.avif" alt="Después del Rejuvenecimiento natural" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/antes-vitamina-c-facial-3.avif" alt="Antes del Rejuvenecimiento natural" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
           </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
         </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
       </div>
+      <p class="case-description">Resultados después de 3 sesiones de tratamiento con vitamina C. Notable mejoría en luminosidad y textura.</p>
     </div>
-    <p class="case-description">Piel más firme y radiante después de 4 sesiones de vitamina C facial.</p>
+    
+    <div class="before-after-case">
+      <h3>Tratamiento antimanchas</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/despues-vitamina-c-facial-2.avif" alt="Después del Tratamiento antimanchas" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/antes-vitamina-c-facial-2.avif" alt="Antes del Tratamiento antimanchas" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
+          </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
+        </div>
+      </div>
+      <p class="case-description">Reducción visible de manchas y mejora del tono uniforme después del tratamiento.</p>
+    </div>
+    
+    <div class="before-after-case">
+      <h3>Rejuvenecimiento natural</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/despues-vitamina-c-facial-3.avif" alt="Después del Rejuvenecimiento natural" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/antes-vitamina-c-facial-3.avif" alt="Antes del Rejuvenecimiento natural" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
+          </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
+        </div>
+      </div>
+      <p class="case-description">Piel más firme y radiante después de 4 sesiones de vitamina C facial.</p>
+    </div>
+    
   </div>
-  
 </section> -->
 
 
@@ -3112,63 +3125,64 @@
 </section>
 
 
-<!-- <section class="before-after-section padding">
-  <div class="intro flow">
-    <h2 class="center">Resultados reales: Tratamiento efectivo para la celulitis en Bogotá</h2>
-    <p class="center">Transforma tu apariencia con resultados naturales comprobados</p>
-  </div>
-
-  
-  <div class="before-after-case">
-    <h3>Tratamiento de muslos</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/tratamiento-celulitis-despues.avif" alt="Después del Tratamiento de muslos" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/tratamiento-celulitis-antes.avif" alt="Antes del Tratamiento de muslos" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
+<!-- <section class="wrapper">
+  <header class="intro flow">
+    <h2>Resultados reales: Tratamiento efectivo para la celulitis en Bogotá</h2>
+    <p>Transforma tu apariencia con resultados naturales comprobados</p>
+  </header>
+  <div class="before-after-section">
+    
+    <div class="before-after-case">
+      <h3>Tratamiento de muslos</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/tratamiento-celulitis-despues.avif" alt="Después del Tratamiento de muslos" loading="lazy" decoding="async" width="800" height="600">
           </div>
-        </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
-      </div>
-    </div>
-    <p class="case-description">Paciente de 38 años después de 8 sesiones de Contour Shape. Notable mejora en la textura de la piel y reducción de celulitis.</p>
-  </div>
-  
-  <div class="before-after-case">
-    <h3>Tratamiento de abdomen</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/celulitis-abdomen-despues.avif" alt="Después del Tratamiento de abdomen" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/celulitis-abdomen-antes.avif" alt="Antes del Tratamiento de abdomen" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/tratamiento-celulitis-antes.avif" alt="Antes del Tratamiento de muslos" loading="lazy" decoding="async" width="800" height="600">
           </div>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
+          </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
         </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
       </div>
+      <p class="case-description">Paciente de 38 años después de 8 sesiones de Contour Shape. Notable mejora en la textura de la piel y reducción de celulitis.</p>
     </div>
-    <p class="case-description">Resultados después de 10 sesiones, mostrando una significativa reducción de la piel de naranja y mejor firmeza.</p>
+    
+    <div class="before-after-case">
+      <h3>Tratamiento de abdomen</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/celulitis-abdomen-despues.avif" alt="Después del Tratamiento de abdomen" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/celulitis-abdomen-antes.avif" alt="Antes del Tratamiento de abdomen" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
+          </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
+        </div>
+      </div>
+      <p class="case-description">Resultados después de 10 sesiones, mostrando una significativa reducción de la piel de naranja y mejor firmeza.</p>
+    </div>
+    
   </div>
-  
 </section> -->
 
 
@@ -3312,88 +3326,89 @@
 </section>
 
 
-<!-- <section class="before-after-section padding">
-  <div class="intro flow">
-    <h2 class="center">Resultados reales: Depilación láser con diodo</h2>
-    <p class="center">Transforma tu apariencia con resultados naturales comprobados</p>
-  </div>
-
-  
-  <div class="before-after-case">
-    <h3>Depilación láser axilas</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/despues-depilacion-laser-axilas.avif" alt="Después del Depilación láser axilas" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/antes-depilacion-laser-axilas.avif" alt="Antes del Depilación láser axilas" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
+<!-- <section class="wrapper">
+  <header class="intro flow">
+    <h2>Resultados reales: Depilación láser con diodo</h2>
+    <p>Transforma tu apariencia con resultados naturales comprobados</p>
+  </header>
+  <div class="before-after-section">
+    
+    <div class="before-after-case">
+      <h3>Depilación láser axilas</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/despues-depilacion-laser-axilas.avif" alt="Después del Depilación láser axilas" loading="lazy" decoding="async" width="800" height="600">
           </div>
-        </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
-      </div>
-    </div>
-    <p class="case-description">Resultados visibles desde la primera sesión. Eliminación permanente del vello en zona de axilas.</p>
-  </div>
-  
-  <div class="before-after-case">
-    <h3>Depilación láser piernas</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/despues-depilacion-laser-piernas.avif" alt="Después del Depilación láser piernas" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/antes-depilacion-laser-piernas.avif" alt="Antes del Depilación láser piernas" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/antes-depilacion-laser-axilas.avif" alt="Antes del Depilación láser axilas" loading="lazy" decoding="async" width="800" height="600">
           </div>
-        </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
-      </div>
-    </div>
-    <p class="case-description">Piernas suaves y libres de vello después de 4 sesiones de tratamiento con láser diodo.</p>
-  </div>
-  
-  <div class="before-after-case">
-    <h3>Depilación láser zona íntima</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/despues-depilacion-laser-bikini.avif" alt="Después del Depilación láser zona íntima" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/antes-depilacion-laser-bikini.avif" alt="Antes del Depilación láser zona íntima" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
           </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
         </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
       </div>
+      <p class="case-description">Resultados visibles desde la primera sesión. Eliminación permanente del vello en zona de axilas.</p>
     </div>
-    <p class="case-description">Tratamiento seguro y efectivo en zona íntima con resultados permanentes.</p>
+    
+    <div class="before-after-case">
+      <h3>Depilación láser piernas</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/despues-depilacion-laser-piernas.avif" alt="Después del Depilación láser piernas" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/antes-depilacion-laser-piernas.avif" alt="Antes del Depilación láser piernas" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
+          </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
+        </div>
+      </div>
+      <p class="case-description">Piernas suaves y libres de vello después de 4 sesiones de tratamiento con láser diodo.</p>
+    </div>
+    
+    <div class="before-after-case">
+      <h3>Depilación láser zona íntima</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/despues-depilacion-laser-bikini.avif" alt="Después del Depilación láser zona íntima" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/antes-depilacion-laser-bikini.avif" alt="Antes del Depilación láser zona íntima" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
+          </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
+        </div>
+      </div>
+      <p class="case-description">Tratamiento seguro y efectivo en zona íntima con resultados permanentes.</p>
+    </div>
+    
   </div>
-  
 </section> -->
 
 
@@ -3545,63 +3560,64 @@
 </section>
 
 
-<!-- <section class="before-after-section padding">
-  <div class="intro flow">
-    <h2 class="center">Resultados reales: Eliminación profesional de tatuajes con láser</h2>
-    <p class="center">Transforma tu apariencia con resultados naturales comprobados</p>
-  </div>
-
-  
-  <div class="before-after-case">
-    <h3>Eliminación completa garantizada</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/tatiana-leal-medicina-laser-1024.avif" alt="Después del Eliminación completa garantizada" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/tatiana-leal-medicina-estetica-1024.avif" alt="Antes del Eliminación completa garantizada" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
+<!-- <section class="wrapper">
+  <header class="intro flow">
+    <h2>Resultados reales: Eliminación profesional de tatuajes con láser</h2>
+    <p>Transforma tu apariencia con resultados naturales comprobados</p>
+  </header>
+  <div class="before-after-section">
+    
+    <div class="before-after-case">
+      <h3>Eliminación completa garantizada</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/tatiana-leal-medicina-laser-1024.avif" alt="Después del Eliminación completa garantizada" loading="lazy" decoding="async" width="800" height="600">
           </div>
-        </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
-      </div>
-    </div>
-    <p class="case-description">Eliminación total del tatuaje usando tecnología láser Q-Switched, respetando la integridad de la piel.</p>
-  </div>
-  
-  <div class="before-after-case">
-    <h3>Proceso de aclaramiento progresivo</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/tatiana-leal-medicina-laser-1024.avif" alt="Después del Proceso de aclaramiento progresivo" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/tatiana-leal-medicina-estetica-1024.avif" alt="Antes del Proceso de aclaramiento progresivo" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/tatiana-leal-medicina-estetica-1024.avif" alt="Antes del Eliminación completa garantizada" loading="lazy" decoding="async" width="800" height="600">
           </div>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
+          </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
         </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
       </div>
+      <p class="case-description">Eliminación total del tatuaje usando tecnología láser Q-Switched, respetando la integridad de la piel.</p>
     </div>
-    <p class="case-description">Evolución gradual del tratamiento mostrando la efectividad del láser en diferentes tipos de pigmentos.</p>
+    
+    <div class="before-after-case">
+      <h3>Proceso de aclaramiento progresivo</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/tatiana-leal-medicina-laser-1024.avif" alt="Después del Proceso de aclaramiento progresivo" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/tatiana-leal-medicina-estetica-1024.avif" alt="Antes del Proceso de aclaramiento progresivo" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
+          </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
+        </div>
+      </div>
+      <p class="case-description">Evolución gradual del tratamiento mostrando la efectividad del láser en diferentes tipos de pigmentos.</p>
+    </div>
+    
   </div>
-  
 </section> -->
 
 
@@ -3769,64 +3785,65 @@
 </section>
 
 
-<!-- <section class="before-after-section padding">
-  <div class="intro flow">
-    <h2 class="center">Resultados reales: Levantamiento de glúteos sin cirugía</h2>
-    <p class="center">Transforma tu apariencia con resultados naturales comprobados</p>
-  </div>
-
-  
-  <div class="before-after-case">
-    <h3>Levantamiento natural</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/despues-levantamiento-gluteos-1.avif" alt="Después del Levantamiento natural" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/antes-levantamiento-gluteos-1.avif" alt="Antes del Levantamiento natural" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
+<section class="wrapper">
+  <header class="intro flow">
+    <h2>Resultados reales: Levantamiento de glúteos sin cirugía</h2>
+    <p>Transforma tu apariencia con resultados naturales comprobados</p>
+  </header>
+  <div class="before-after-section">
+    
+    <div class="before-after-case">
+      <h3>Levantamiento natural</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/despues-levantamiento-gluteos-1.avif" alt="Después del Levantamiento natural" loading="lazy" decoding="async" width="800" height="600">
           </div>
-        </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
-      </div>
-    </div>
-    <p class="case-description">Resultados visibles después de 6 sesiones de tratamiento combinado. Notable mejoría en firmeza y elevación.</p>
-  </div>
-  
-  <div class="before-after-case">
-    <h3>Definición y tonificación</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/despues-levantamiento-gluteos-2.avif" alt="Después del Definición y tonificación" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/antes-levantamiento-gluteos-2.avif" alt="Antes del Definición y tonificación" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/antes-levantamiento-gluteos-1.avif" alt="Antes del Levantamiento natural" loading="lazy" decoding="async" width="800" height="600">
           </div>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
+          </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
         </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
       </div>
+      <p class="case-description">Resultados visibles después de 6 sesiones de tratamiento combinado. Notable mejoría en firmeza y elevación.</p>
     </div>
-    <p class="case-description">Transformación completa con protocolo personalizado de tratamientos no invasivos.</p>
+    
+    <div class="before-after-case">
+      <h3>Definición y tonificación</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/despues-levantamiento-gluteos-2.avif" alt="Después del Definición y tonificación" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/antes-levantamiento-gluteos-2.avif" alt="Antes del Definición y tonificación" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
+          </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
+        </div>
+      </div>
+      <p class="case-description">Transformación completa con protocolo personalizado de tratamientos no invasivos.</p>
+    </div>
+    
   </div>
-  
-</section> -->
+</section>
 
 
 <section class="contacto padding seccion">
@@ -4018,63 +4035,64 @@
 </section>
 
 
-<!-- <section class="before-after-section padding">
-  <div class="intro flow">
-    <h2 class="center">Resultados reales: Tonificación muscular avanzada con tecnología HIFEM</h2>
-    <p class="center">Transforma tu apariencia con resultados naturales comprobados</p>
-  </div>
-
-  
-  <div class="before-after-case">
-    <h3>Tonificación abdominal</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/tonificacion-abdomen-despues.avif" alt="Después del Tonificación abdominal" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/tonificacion-abdomen-antes.avif" alt="Antes del Tonificación abdominal" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
+<!-- <section class="wrapper">
+  <header class="intro flow">
+    <h2>Resultados reales: Tonificación muscular avanzada con tecnología HIFEM</h2>
+    <p>Transforma tu apariencia con resultados naturales comprobados</p>
+  </header>
+  <div class="before-after-section">
+    
+    <div class="before-after-case">
+      <h3>Tonificación abdominal</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/tonificacion-abdomen-despues.avif" alt="Después del Tonificación abdominal" loading="lazy" decoding="async" width="800" height="600">
           </div>
-        </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
-      </div>
-    </div>
-    <p class="case-description">Paciente de 32 años después de 4 sesiones de HIFEM. Notable mejora en definición muscular y reducción de grasa localizada.</p>
-  </div>
-  
-  <div class="before-after-case">
-    <h3>Definición de glúteos</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/tonificacion-gluteos-despues.avif" alt="Después del Definición de glúteos" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/tonificacion-gluteos-antes.avif" alt="Antes del Definición de glúteos" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/tonificacion-abdomen-antes.avif" alt="Antes del Tonificación abdominal" loading="lazy" decoding="async" width="800" height="600">
           </div>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
+          </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
         </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
       </div>
+      <p class="case-description">Paciente de 32 años después de 4 sesiones de HIFEM. Notable mejora en definición muscular y reducción de grasa localizada.</p>
     </div>
-    <p class="case-description">Resultados después de 6 sesiones, mostrando significativo aumento en volumen y firmeza muscular.</p>
+    
+    <div class="before-after-case">
+      <h3>Definición de glúteos</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/tonificacion-gluteos-despues.avif" alt="Después del Definición de glúteos" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/tonificacion-gluteos-antes.avif" alt="Antes del Definición de glúteos" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
+          </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
+        </div>
+      </div>
+      <p class="case-description">Resultados después de 6 sesiones, mostrando significativo aumento en volumen y firmeza muscular.</p>
+    </div>
+    
   </div>
-  
 </section> -->
 
 
@@ -4216,88 +4234,89 @@
 </section>
 
 
-<!-- <section class="before-after-section padding">
-  <div class="intro flow">
-    <h2 class="center">Resultados reales: Lipólisis láser: moldea tu cuerpo sin cirugía mayor</h2>
-    <p class="center">Transforma tu apariencia con resultados naturales comprobados</p>
-  </div>
-
-  
-  <div class="before-after-case">
-    <h3>Reducción abdominal</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/tatiana-leal-medicina-laser-1024.avif" alt="Después del Reducción abdominal" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/tatiana-leal-medicina-estetica-1024.avif" alt="Antes del Reducción abdominal" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
+<!-- <section class="wrapper">
+  <header class="intro flow">
+    <h2>Resultados reales: Lipólisis láser: moldea tu cuerpo sin cirugía mayor</h2>
+    <p>Transforma tu apariencia con resultados naturales comprobados</p>
+  </header>
+  <div class="before-after-section">
+    
+    <div class="before-after-case">
+      <h3>Reducción abdominal</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/tatiana-leal-medicina-laser-1024.avif" alt="Después del Reducción abdominal" loading="lazy" decoding="async" width="800" height="600">
           </div>
-        </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
-      </div>
-    </div>
-    <p class="case-description">Paciente de 35 años después del tratamiento de lipólisis láser. Notable reducción de grasa localizada y mejora en la firmeza de la piel.</p>
-  </div>
-  
-  <div class="before-after-case">
-    <h3>Contorno corporal</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/tatiana-leal-medicina-laser-1024.avif" alt="Después del Contorno corporal" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/tatiana-leal-medicina-estetica-1024.avif" alt="Antes del Contorno corporal" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/tatiana-leal-medicina-estetica-1024.avif" alt="Antes del Reducción abdominal" loading="lazy" decoding="async" width="800" height="600">
           </div>
-        </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
-      </div>
-    </div>
-    <p class="case-description">Resultados visibles en la definición corporal y reducción de medidas tras el tratamiento.</p>
-  </div>
-  
-  <div class="before-after-case">
-    <h3>Remodelación completa</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/tatiana-leal-medicina-laser-1024.avif" alt="Después del Remodelación completa" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/tatiana-leal-medicina-estetica-1024.avif" alt="Antes del Remodelación completa" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
           </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
         </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
       </div>
+      <p class="case-description">Paciente de 35 años después del tratamiento de lipólisis láser. Notable reducción de grasa localizada y mejora en la firmeza de la piel.</p>
     </div>
-    <p class="case-description">Transformación integral mostrando reducción de grasa y mejora en la firmeza de la piel.</p>
+    
+    <div class="before-after-case">
+      <h3>Contorno corporal</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/tatiana-leal-medicina-laser-1024.avif" alt="Después del Contorno corporal" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/tatiana-leal-medicina-estetica-1024.avif" alt="Antes del Contorno corporal" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
+          </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
+        </div>
+      </div>
+      <p class="case-description">Resultados visibles en la definición corporal y reducción de medidas tras el tratamiento.</p>
+    </div>
+    
+    <div class="before-after-case">
+      <h3>Remodelación completa</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/tatiana-leal-medicina-laser-1024.avif" alt="Después del Remodelación completa" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/tatiana-leal-medicina-estetica-1024.avif" alt="Antes del Remodelación completa" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
+          </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
+        </div>
+      </div>
+      <p class="case-description">Transformación integral mostrando reducción de grasa y mejora en la firmeza de la piel.</p>
+    </div>
+    
   </div>
-  
 </section> -->
 
 
@@ -4482,88 +4501,89 @@
 </section>
 
 
-<!-- <section class="before-after-section padding">
-  <div class="intro flow">
-    <h2 class="center">Resultados reales: Moldeamiento corporal con tecnología de élite</h2>
-    <p class="center">Transforma tu apariencia con resultados naturales comprobados</p>
-  </div>
-
-  
-  <div class="before-after-case">
-    <h3>Transformación total</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/despues-moldeamiento-corporal-1.avif" alt="Después del Transformación total" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/antes-moldeamiento-corporal-1.avif" alt="Antes del Transformación total" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
+<!-- <section class="wrapper">
+  <header class="intro flow">
+    <h2>Resultados reales: Moldeamiento corporal con tecnología de élite</h2>
+    <p>Transforma tu apariencia con resultados naturales comprobados</p>
+  </header>
+  <div class="before-after-section">
+    
+    <div class="before-after-case">
+      <h3>Transformación total</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/despues-moldeamiento-corporal-1.avif" alt="Después del Transformación total" loading="lazy" decoding="async" width="800" height="600">
           </div>
-        </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
-      </div>
-    </div>
-    <p class="case-description">Resultados después de 8 sesiones de moldeamiento corporal integral. Notable reducción y definición.</p>
-  </div>
-  
-  <div class="before-after-case">
-    <h3>Definición corporal</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/despues-moldeamiento-corporal-2.avif" alt="Después del Definición corporal" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/antes-moldeamiento-corporal-2.avif" alt="Antes del Definición corporal" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/antes-moldeamiento-corporal-1.avif" alt="Antes del Transformación total" loading="lazy" decoding="async" width="800" height="600">
           </div>
-        </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
-      </div>
-    </div>
-    <p class="case-description">Transformación visible con protocolo personalizado de moldeamiento.</p>
-  </div>
-  
-  <div class="before-after-case">
-    <h3>Reafirmación corporal</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/despues-moldeamiento-corporal-3.avif" alt="Después del Reafirmación corporal" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/antes-moldeamiento-corporal-3.avif" alt="Antes del Reafirmación corporal" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
           </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
         </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
       </div>
+      <p class="case-description">Resultados después de 8 sesiones de moldeamiento corporal integral. Notable reducción y definición.</p>
     </div>
-    <p class="case-description">Mejoría significativa en forma y firmeza después del tratamiento.</p>
+    
+    <div class="before-after-case">
+      <h3>Definición corporal</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/despues-moldeamiento-corporal-2.avif" alt="Después del Definición corporal" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/antes-moldeamiento-corporal-2.avif" alt="Antes del Definición corporal" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
+          </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
+        </div>
+      </div>
+      <p class="case-description">Transformación visible con protocolo personalizado de moldeamiento.</p>
+    </div>
+    
+    <div class="before-after-case">
+      <h3>Reafirmación corporal</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/despues-moldeamiento-corporal-3.avif" alt="Después del Reafirmación corporal" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/antes-moldeamiento-corporal-3.avif" alt="Antes del Reafirmación corporal" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
+          </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
+        </div>
+      </div>
+      <p class="case-description">Mejoría significativa en forma y firmeza después del tratamiento.</p>
+    </div>
+    
   </div>
-  
 </section> -->
 
 
@@ -4707,88 +4727,89 @@
 </section>
 
 
-<!-- <section class="before-after-section padding">
-  <div class="intro flow">
-    <h2 class="center">Resultados reales: Radiofrecuencia estética</h2>
-    <p class="center">Transforma tu apariencia con resultados naturales comprobados</p>
-  </div>
-
-  
-  <div class="before-after-case">
-    <h3>Reafirmación facial</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/despues-radiofrecuencia-facial-1.avif" alt="Después del Reafirmación facial" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/antes-radiofrecuencia-facial-1.avif" alt="Antes del Reafirmación facial" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
+<!-- <section class="wrapper">
+  <header class="intro flow">
+    <h2>Resultados reales: Radiofrecuencia estética</h2>
+    <p>Transforma tu apariencia con resultados naturales comprobados</p>
+  </header>
+  <div class="before-after-section">
+    
+    <div class="before-after-case">
+      <h3>Reafirmación facial</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/despues-radiofrecuencia-facial-1.avif" alt="Después del Reafirmación facial" loading="lazy" decoding="async" width="800" height="600">
           </div>
-        </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
-      </div>
-    </div>
-    <p class="case-description">Mejoría visible en firmeza y textura después de 4 sesiones de radiofrecuencia.</p>
-  </div>
-  
-  <div class="before-after-case">
-    <h3>Tratamiento corporal</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/despues-radiofrecuencia-corporal-2.avif" alt="Después del Tratamiento corporal" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/antes-radiofrecuencia-corporal-2.avif" alt="Antes del Tratamiento corporal" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/antes-radiofrecuencia-facial-1.avif" alt="Antes del Reafirmación facial" loading="lazy" decoding="async" width="800" height="600">
           </div>
-        </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
-      </div>
-    </div>
-    <p class="case-description">Reducción de celulitis y mejora en la firmeza después del tratamiento.</p>
-  </div>
-  
-  <div class="before-after-case">
-    <h3>Tensado facial</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/despues-radiofrecuencia-facial-3.avif" alt="Después del Tensado facial" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/antes-radiofrecuencia-facial-3.avif" alt="Antes del Tensado facial" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
           </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
         </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
       </div>
+      <p class="case-description">Mejoría visible en firmeza y textura después de 4 sesiones de radiofrecuencia.</p>
     </div>
-    <p class="case-description">Notable mejoría en el contorno facial y tensado de la piel.</p>
+    
+    <div class="before-after-case">
+      <h3>Tratamiento corporal</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/despues-radiofrecuencia-corporal-2.avif" alt="Después del Tratamiento corporal" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/antes-radiofrecuencia-corporal-2.avif" alt="Antes del Tratamiento corporal" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
+          </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
+        </div>
+      </div>
+      <p class="case-description">Reducción de celulitis y mejora en la firmeza después del tratamiento.</p>
+    </div>
+    
+    <div class="before-after-case">
+      <h3>Tensado facial</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/despues-radiofrecuencia-facial-3.avif" alt="Después del Tensado facial" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/antes-radiofrecuencia-facial-3.avif" alt="Antes del Tensado facial" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
+          </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
+        </div>
+      </div>
+      <p class="case-description">Notable mejoría en el contorno facial y tensado de la piel.</p>
+    </div>
+    
   </div>
-  
 </section> -->
 
 
@@ -5129,63 +5150,64 @@
 </section>
 
 
-<!-- <section class="before-after-section padding">
-  <div class="intro flow">
-    <h2 class="center">Resultados reales: Tratamiento profesional de várices en Bogotá</h2>
-    <p class="center">Transforma tu apariencia con resultados naturales comprobados</p>
-  </div>
-
-  
-  <div class="before-after-case">
-    <h3>Eliminación de várices en piernas</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/tratamiento-varices-despues.avif" alt="Después del Eliminación de várices en piernas" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/tratamiento-varices-antes.avif" alt="Antes del Eliminación de várices en piernas" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
+<!-- <section class="wrapper">
+  <header class="intro flow">
+    <h2>Resultados reales: Tratamiento profesional de várices en Bogotá</h2>
+    <p>Transforma tu apariencia con resultados naturales comprobados</p>
+  </header>
+  <div class="before-after-section">
+    
+    <div class="before-after-case">
+      <h3>Eliminación de várices en piernas</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/tratamiento-varices-despues.avif" alt="Después del Eliminación de várices en piernas" loading="lazy" decoding="async" width="800" height="600">
           </div>
-        </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
-      </div>
-    </div>
-    <p class="case-description">Paciente de 45 años después de 3 sesiones de escleroterapia. Notable reducción de várices y mejora en la apariencia de las piernas.</p>
-  </div>
-  
-  <div class="before-after-case">
-    <h3>Tratamiento de arañitas vasculares</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/aranitas-vasculares-despues.avif" alt="Después del Tratamiento de arañitas vasculares" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/aranitas-vasculares-antes.avif" alt="Antes del Tratamiento de arañitas vasculares" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/tratamiento-varices-antes.avif" alt="Antes del Eliminación de várices en piernas" loading="lazy" decoding="async" width="800" height="600">
           </div>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
+          </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
         </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
       </div>
+      <p class="case-description">Paciente de 45 años después de 3 sesiones de escleroterapia. Notable reducción de várices y mejora en la apariencia de las piernas.</p>
     </div>
-    <p class="case-description">Resultados después de 4 sesiones, mostrando significativa reducción de telangiectasias y mejor textura de la piel.</p>
+    
+    <div class="before-after-case">
+      <h3>Tratamiento de arañitas vasculares</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/aranitas-vasculares-despues.avif" alt="Después del Tratamiento de arañitas vasculares" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/aranitas-vasculares-antes.avif" alt="Antes del Tratamiento de arañitas vasculares" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
+          </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
+        </div>
+      </div>
+      <p class="case-description">Resultados después de 4 sesiones, mostrando significativa reducción de telangiectasias y mejor textura de la piel.</p>
+    </div>
+    
   </div>
-  
 </section> -->
 
 
@@ -5331,63 +5353,64 @@
 </section>
 
 
-<!-- <section class="before-after-section padding">
-  <div class="intro flow">
-    <h2 class="center">Resultados reales: Aclaramiento genital con láser en Bogotá</h2>
-    <p class="center">Transforma tu apariencia con resultados naturales comprobados</p>
-  </div>
-
-  
-  <div class="before-after-case">
-    <h3>Rejuvenecimiento íntimo integral</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/tatiana-leal-medicina-laser-1024.avif" alt="Después del Rejuvenecimiento íntimo integral" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/tatiana-leal-medicina-estetica-1024.avif" alt="Antes del Rejuvenecimiento íntimo integral" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
+<!-- <section class="wrapper">
+  <header class="intro flow">
+    <h2>Resultados reales: Aclaramiento genital con láser en Bogotá</h2>
+    <p>Transforma tu apariencia con resultados naturales comprobados</p>
+  </header>
+  <div class="before-after-section">
+    
+    <div class="before-after-case">
+      <h3>Rejuvenecimiento íntimo integral</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/tatiana-leal-medicina-laser-1024.avif" alt="Después del Rejuvenecimiento íntimo integral" loading="lazy" decoding="async" width="800" height="600">
           </div>
-        </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
-      </div>
-    </div>
-    <p class="case-description">Paciente de 35 años después del tratamiento de aclaramiento genital. Notable mejoría en la uniformidad del tono de la piel.</p>
-  </div>
-  
-  <div class="before-after-case">
-    <h3>Tratamiento de hiperpigmentación</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/tatiana-leal-medicina-laser-1024.avif" alt="Después del Tratamiento de hiperpigmentación" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/tatiana-leal-medicina-estetica-1024.avif" alt="Antes del Tratamiento de hiperpigmentación" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/tatiana-leal-medicina-estetica-1024.avif" alt="Antes del Rejuvenecimiento íntimo integral" loading="lazy" decoding="async" width="800" height="600">
           </div>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
+          </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
         </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
       </div>
+      <p class="case-description">Paciente de 35 años después del tratamiento de aclaramiento genital. Notable mejoría en la uniformidad del tono de la piel.</p>
     </div>
-    <p class="case-description">Resultados visibles después de 3 sesiones, mostrando una significativa mejoría en la tonalidad de la piel.</p>
+    
+    <div class="before-after-case">
+      <h3>Tratamiento de hiperpigmentación</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/tatiana-leal-medicina-laser-1024.avif" alt="Después del Tratamiento de hiperpigmentación" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/tatiana-leal-medicina-estetica-1024.avif" alt="Antes del Tratamiento de hiperpigmentación" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
+          </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
+        </div>
+      </div>
+      <p class="case-description">Resultados visibles después de 3 sesiones, mostrando una significativa mejoría en la tonalidad de la piel.</p>
+    </div>
+    
   </div>
-  
 </section> -->
 
 
@@ -5522,63 +5545,64 @@
 </section>
 
 
-<!-- <section class="before-after-section padding">
-  <div class="intro flow">
-    <h2 class="center">Resultados reales: Aumento de labios mayores con ácido hialurónico en Bogotá</h2>
-    <p class="center">Transforma tu apariencia con resultados naturales comprobados</p>
-  </div>
-
-  
-  <div class="before-after-case">
-    <h3>Rejuvenecimiento íntimo completo</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/tatiana-leal-medicina-laser-1024.avif" alt="Después del Rejuvenecimiento íntimo completo" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/tatiana-leal-medicina-estetica-1024.avif" alt="Antes del Rejuvenecimiento íntimo completo" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
+<!-- <section class="wrapper">
+  <header class="intro flow">
+    <h2>Resultados reales: Aumento de labios mayores con ácido hialurónico en Bogotá</h2>
+    <p>Transforma tu apariencia con resultados naturales comprobados</p>
+  </header>
+  <div class="before-after-section">
+    
+    <div class="before-after-case">
+      <h3>Rejuvenecimiento íntimo completo</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/tatiana-leal-medicina-laser-1024.avif" alt="Después del Rejuvenecimiento íntimo completo" loading="lazy" decoding="async" width="800" height="600">
           </div>
-        </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
-      </div>
-    </div>
-    <p class="case-description">Paciente de 42 años después del tratamiento de aumento de labios mayores con ácido hialurónico. Notable mejoría en volumen y firmeza.</p>
-  </div>
-  
-  <div class="before-after-case">
-    <h3>Tratamiento de flacidez</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/tatiana-leal-medicina-laser-1024.avif" alt="Después del Tratamiento de flacidez" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/tatiana-leal-medicina-estetica-1024.avif" alt="Antes del Tratamiento de flacidez" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/tatiana-leal-medicina-estetica-1024.avif" alt="Antes del Rejuvenecimiento íntimo completo" loading="lazy" decoding="async" width="800" height="600">
           </div>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
+          </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
         </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
       </div>
+      <p class="case-description">Paciente de 42 años después del tratamiento de aumento de labios mayores con ácido hialurónico. Notable mejoría en volumen y firmeza.</p>
     </div>
-    <p class="case-description">Resultados después de una sesión, mostrando una significativa mejoría en la textura y elasticidad de la piel.</p>
+    
+    <div class="before-after-case">
+      <h3>Tratamiento de flacidez</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/tatiana-leal-medicina-laser-1024.avif" alt="Después del Tratamiento de flacidez" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/tatiana-leal-medicina-estetica-1024.avif" alt="Antes del Tratamiento de flacidez" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
+          </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
+        </div>
+      </div>
+      <p class="case-description">Resultados después de una sesión, mostrando una significativa mejoría en la textura y elasticidad de la piel.</p>
+    </div>
+    
   </div>
-  
 </section> -->
 
 
@@ -5745,38 +5769,39 @@
 </section>
 
 
-<!-- <section class="before-after-section padding">
-  <div class="intro flow">
-    <h2 class="center">Resultados reales: Tratamiento especializado para incontinencia urinaria de esfuerzo</h2>
-    <p class="center">Transforma tu apariencia con resultados naturales comprobados</p>
-  </div>
-
-  
-  <div class="before-after-case">
-    <h3>Tratamiento integral</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/tratamiento-incontinencia-despues.avif" alt="Después del Tratamiento integral" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/tratamiento-incontinencia-antes.avif" alt="Antes del Tratamiento integral" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
+<!-- <section class="wrapper">
+  <header class="intro flow">
+    <h2>Resultados reales: Tratamiento especializado para incontinencia urinaria de esfuerzo</h2>
+    <p>Transforma tu apariencia con resultados naturales comprobados</p>
+  </header>
+  <div class="before-after-section">
+    
+    <div class="before-after-case">
+      <h3>Tratamiento integral</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/tratamiento-incontinencia-despues.avif" alt="Después del Tratamiento integral" loading="lazy" decoding="async" width="800" height="600">
           </div>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/tratamiento-incontinencia-antes.avif" alt="Antes del Tratamiento integral" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
+          </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
         </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
       </div>
+      <p class="case-description">Paciente después de combinar láser CO2 y tecnología HIFEM. Notable mejoría en control urinario y calidad de vida.</p>
     </div>
-    <p class="case-description">Paciente después de combinar láser CO2 y tecnología HIFEM. Notable mejoría en control urinario y calidad de vida.</p>
+    
   </div>
-  
 </section> -->
 
 
@@ -6050,38 +6075,39 @@
 </section>
 
 
-<!-- <section class="before-after-section padding">
-  <div class="intro flow">
-    <h2 class="center">Resultados reales: Rejuvenecimiento vaginal con láser en Bogotá</h2>
-    <p class="center">Transforma tu apariencia con resultados naturales comprobados</p>
-  </div>
-
-  
-  <div class="before-after-case">
-    <h3>Tratamiento integral</h3>
-    <div class="before-after-container">
-      <div class="before-after-wrapper">
-        <div class="after-image-container">
-          <img class="after-image" src="/img/tratamiento-laser-despues.avif" alt="Después del Tratamiento integral" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        
-        <div class="before-image-container">
-          <img class="before-image" src="/img/tratamiento-laser-antes.avif" alt="Antes del Tratamiento integral" loading="lazy" decoding="async" width="800" height="600">
-        </div>
-        <div class="slider-line">
-          <div class="slider-button" aria-label="Deslizar para comparar">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
-            </svg>
+<!-- <section class="wrapper">
+  <header class="intro flow">
+    <h2>Resultados reales: Rejuvenecimiento vaginal con láser en Bogotá</h2>
+    <p>Transforma tu apariencia con resultados naturales comprobados</p>
+  </header>
+  <div class="before-after-section">
+    
+    <div class="before-after-case">
+      <h3>Tratamiento integral</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/tratamiento-laser-despues.avif" alt="Después del Tratamiento integral" loading="lazy" decoding="async" width="800" height="600">
           </div>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/tratamiento-laser-antes.avif" alt="Antes del Tratamiento integral" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
+          </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
         </div>
-        <span class="compare-label before">Before</span>
-        <span class="compare-label after">After</span>
       </div>
+      <p class="case-description">Paciente después de 3 sesiones de láser CO2. Notable mejoría en salud íntima y calidad de vida.</p>
     </div>
-    <p class="case-description">Paciente después de 3 sesiones de láser CO2. Notable mejoría en salud íntima y calidad de vida.</p>
+    
   </div>
-  
 </section> -->
 
 
