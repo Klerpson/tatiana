@@ -122,6 +122,46 @@ layout: compress
       startInterval();
     });
   </script>
+  {% else %}
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const bg1 = document.querySelector(".bg1");
+      const bg2 = document.querySelector(".bg2");
+
+      if (!bg1 || !bg2) {
+        console.warn('Los elementos de fondo no se encontraron');
+        return;
+      }
+
+      let isBg1Visible = true;
+      let intervalId;
+
+      const toggleImages = () => {
+        requestAnimationFrame(() => {
+          bg1.style.opacity = isBg1Visible ? "0" : "1";
+          bg2.style.opacity = isBg1Visible ? "1" : "0";
+          isBg1Visible = !isBg1Visible;
+        });
+      };
+
+      const startInterval = () => {
+        intervalId = setInterval(toggleImages, 5000);
+      };
+
+      document.addEventListener('visibilitychange', () => {
+        if (document.hidden) {
+          clearInterval(intervalId);
+        } else {
+          startInterval();
+        }
+      });
+
+      bg1.style.opacity = "1";
+      bg2.style.opacity = "0";
+
+      startInterval();
+    });
+  </script>
   {% endif %}
   {% if page.cases %}
   <script>
