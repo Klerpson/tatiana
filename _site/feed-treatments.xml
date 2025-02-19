@@ -3842,11 +3842,36 @@
       <p class="case-description">Transformación completa con protocolo personalizado de tratamientos no invasivos.</p>
     </div>
     
+    <div class="before-after-case">
+      <h3>Reafirmación glútea</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/despues-levantamiento-gluteos-con-tatiana-leal-bogota.avif" alt="Después del Reafirmación glútea" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/antes-levantamiento-gluteos-con-tatiana-leal-bogota.avif" alt="Antes del Reafirmación glútea" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
+          </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
+        </div>
+      </div>
+      <p class="case-description">Mejoría significativa en forma y firmeza después del tratamiento sin cirugía.</p>
+    </div>
+    
   </div>
 </section>
 
 
-<section class="contacto padding seccion">
+<section class="contacto padding">
   <div class="intro flow">
     <h2>Contacto y Ubicación</h2>
     <div class="contacto-grid">
@@ -3874,7 +3899,7 @@
     </div>
   </div>
 </section>
-<aside class="padding" id="consulta">
+<aside class="padding seccion" id="consulta">
   <div class="intro flow">
     <h2>Consigue los glúteos que deseas sin cirugía</h2>
     <p>Transforma tu figura de forma natural y segura con nuestro protocolo integral. Agenda tu consulta hoy y descubre cómo nuestras tecnologías avanzadas pueden ayudarte a alcanzar tus objetivos. ¡Tu transformación comienza con una consulta!</p>
