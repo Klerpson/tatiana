@@ -116,7 +116,6 @@ hr {
 .two_columns {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   gap: 3em;
   justify-content: space-around;
   height: -webkit-min-content;

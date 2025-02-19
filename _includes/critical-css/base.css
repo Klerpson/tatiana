@@ -146,7 +146,6 @@ li {
   display: grid;
   text-align: center;
   justify-items: center;
-  align-items: center;
 
   figcaption{
     max-width: 992px;
