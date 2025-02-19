@@ -35,7 +35,7 @@
     {% include boton.html %}
   </div>
 </section>
-
+ 
 {% when "post" %}
 <header class="intro flow padding">
   <h1>{% if page.h1 %}{{ page.h1 }}{% else %}{{ page.title }}{% endif %}</h1>
@@ -136,16 +136,40 @@
 {% else %}
 <header class="hero">
   <div class="hero-images">
-    <picture class="hero-image hero-image-1">
-      <source type="image/avif" srcset="{{ page.hero | relative_url }}">
-      <img src="{{ page.hero | relative_url | replace: '.avif', '.jpg' }}" alt="{{ page.hero_alt }}" width="1920"
-        height="1080" loading="eager" fetchpriority="high" decoding="async">
-    </picture>
-    <picture class="hero-image hero-image-2">
-      <source type="image/avif" srcset="{{ page.hero1 | relative_url }}">
-      <img src="{{ page.hero1 | relative_url | replace: '.avif', '.jpg' }}" alt="{{ page.hero1_alt }}" width="1920"
-        height="1080" loading="eager" decoding="async">
+    <picture class="hero-image hero-image-1 bg1">
+      <source media="(max-width: 559px)" type="image/avif"
+        srcset="{{ page.hero | replace: '.avif', '-440.avif' | relative_url }}" sizes="100vw">
+      <source media="(max-width: 992px)" type="image/avif"
+        srcset="{{ page.hero | replace: '.avif', '-768.avif' | relative_url }}" sizes="768px">
+      <source media="(max-width: 1439px)" type="image/avif"
+        srcset="{{ page.hero | replace: '.avif', '-1024.avif' | relative_url }}" sizes="1024px">
+      <source media="(min-width: 1440px)" type="image/avif" srcset="{{ page.hero | relative_url }}" sizes="1920px">
 
+      <img src="{{ page.hero | replace: '.avif', '-1024.avif' | relative_url }}"
+       alt="{{ page.alt }}"
+       width="1920"
+       height="1080"
+       loading="eager"
+       fetchpriority="high"
+       decoding="async">
+    </picture>
+
+    <picture class="hero-image hero-image-2 bg2">
+      <source media="(max-width: 559px)" type="image/avif"
+        srcset="{{ page.hero1 | replace: '.avif', '-440.avif' | relative_url }}" sizes="100vw">
+      <source media="(max-width: 992px)" type="image/avif"
+        srcset="{{ page.hero1 | replace: '.avif', '-768.avif' | relative_url }}" sizes="768px">
+      <source media="(max-width: 1439px)" type="image/avif"
+        srcset="{{ page.hero1 | replace: '.avif', '-1024.avif' | relative_url }}" sizes="1024px">
+      <source media="(min-width: 1440px)" type="image/avif" srcset="{{ page.hero1 | relative_url }}" sizes="1920px">
+
+      <img src="{{ page.hero | replace: '.avif', '-1024.avif' | relative_url }}"
+       alt="{{ page.alt }}"
+       width="1920"
+       height="1080"
+       loading="eager"
+       fetchpriority="high"
+       decoding="async">
     </picture>
   </div>
   <div class="two_columns hero-content flow">
