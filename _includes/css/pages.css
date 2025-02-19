@@ -65,7 +65,7 @@
   background-color: #fefefe;
   display: grid;
   padding: 2rem;
-  align-items: center;
+  place-items: center;
   text-align: center;
   box-shadow: var(--shadow);
   transition: transform 0.3s ease-in-out;
