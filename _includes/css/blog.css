@@ -71,8 +71,6 @@
   flex: 1;
   padding: 2em 16px;
   text-align: center;
-  border: 1.6px solid var(--acento);
-  border-radius: var(--radius);
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
@@ -81,6 +79,27 @@
   margin-bottom: 2em;
   background-color: var(--gris1);
   box-shadow: var(--shadow);
+
+  .relacionados{
+    display: grid;
+    text-align: left;
+
+    a{
+      text-decoration: none;
+
+      h5{
+        line-height: 1;
+        margin: 0;
+      }
+      
+      img{
+        float: left;
+        border-radius: 0;
+        margin-right: 8px;
+        margin-bottom: 4px;
+      }
+    }
+  }
 }
 
 #markdown-toc{
@@ -100,7 +119,6 @@
   display: flex;
   gap: 2rem;
   padding: 2rem;
-  border-radius: 0.5rem;
   background-color: #f8f9fa;
   margin: 2rem 0;
 }
@@ -180,7 +198,6 @@
 
 .cta-blog{
   background-color: var(--acento);
-  border-radius: var(--radius);
 }
 
 #blog-posts {

@@ -18,8 +18,8 @@ alt: "Procedimiento de eliminación de tatuaje con láser en progreso"
 excerpt: "¿Te arrepientes de ese tatuaje y te preocupa el costo de eliminarlo? Descubre los precios reales, factores que influyen y cómo elegir el mejor tratamiento láser para tu caso."
 tiempo_lectura: 6
 referencias:
-  - "Clinical Effectiveness of Laser Tattoo Removal: 'https://www.dermatologyjournal.org/example'"
-  - "Cost Analysis of Laser Tattoo Removal Procedures: 'https://www.aestheticmedicine.org/example'"
+  - Clinical Effectiveness of Laser Tattoo Removal: 'https://www.dermatologyjournal.org/example'
+  - Cost Analysis of Laser Tattoo Removal Procedures: 'https://www.aestheticmedicine.org/example'
 word_count: 2400
 ---
 Era un martes por la mañana cuando Carolina, secretaria del Banco de Bogotá de 34 años, se miraba al espejo ajustando su blazer.
@@ -57,8 +57,8 @@ Cuando hablamos del costo de eliminar un tatuaje con láser en Colombia, es impo
 
 Carolina, como muchos de mis pacientes, inicialmente se sorprendió por el costo. "*Pensé que sería más económico que hacérmelo*", me comentó en su primera consulta. Sin embargo, hay aspectos cruciales que justifican la inversión:
 
-1. **Tecnología de última generación**: En nuestra [clínica de medicina estética]({{'es' | relative_url}}), utilizamos el láser PicoSure®, considerado el estándar de oro en eliminación de tatuajes
-2. **Seguridad garantizada**: El procedimiento es realizado por [especialistas certificados]({{'es/nosotros' | relative_url}}) con años de experiencia
+1. **Tecnología de última generación**: En nuestra [clínica de medicina estética]({{'/es/' | relative_url}}), utilizamos el láser PicoSure®, considerado el estándar de oro en eliminación de tatuajes
+2. **Seguridad garantizada**: El procedimiento es realizado por [especialistas certificados]({{'/es/centro-estetico/' | relative_url}}) con años de experiencia
 3. **Resultados predecibles**: Nuestro protocolo permite estimar con precisión el número de sesiones necesarias
 
 ## El proceso paso a paso: ¿qué estás pagando realmente?
@@ -100,7 +100,7 @@ Esto se debe a que los tatuajes más antiguos tienden a:
 
 ## Opciones de financiamiento: haciendo accesible tu tratamiento
 
-En [nuestra clínica]({{'es/contacto' | relative_url}}), entendemos que la inversión en eliminar un tatuaje puede ser significativa. Por eso ofrecemos:
+En [nuestra clínica]({{'es/contacto/' | relative_url}}), entendemos que la inversión en eliminar un tatuaje puede ser significativa. Por eso ofrecemos:
 
 - **Planes de pago** flexibles adaptados a tu presupuesto
 - **Descuentos especiales** por paquetes de sesiones
@@ -127,7 +127,7 @@ Carolina completó su tratamiento hace seis meses. "*El costo inicial me preocup
 
 ## ¿Lista para dar el primer paso? Eliminemos ese tatuaje
 
-Si, como Carolina, estás considerando eliminar un tatuaje, el primer paso es una [consulta especializada]({{'es/tratamientos-corporales/eliminacion-tatuajes' | relative_url}}). Durante esta evaluación:
+Si, como Carolina, estás considerando eliminar un tatuaje, el primer paso es una [consulta especializada]({{'es/tratamientos-corporales/eliminacion-tatuajes/' | relative_url}}). Durante esta evaluación:
 
 - Analizaremos tu tatuaje en detalle
 - Crearemos un plan personalizado

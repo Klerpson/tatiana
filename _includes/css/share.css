@@ -3,7 +3,6 @@
 .share{
   background-color: var(--secundario);
   padding: 1em;
-  border-radius: var(--radius);
   box-shadow: var(--shadow);
   color: white;
 }
