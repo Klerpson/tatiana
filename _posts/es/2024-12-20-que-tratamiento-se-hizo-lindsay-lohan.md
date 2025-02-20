@@ -22,7 +22,6 @@ referencias:
   - Journal of Aesthetic Medicine - Advanced Facial Rejuvenation Techniques: "https://journalofaesthetics.com"
 word_count: 2000
 ---
-
 Como especialista en [medicina estética con más de 15 años de experiencia]({{'centro-estetico' | relative_url}}), frecuentemente me preguntan sobre las transformaciones de celebridades. La reciente aparición de **Lindsay Lohan** ha generado un interés particular, especialmente porque su cambio parece desafiar el paso del tiempo.
 
 ## La verdad detrás de la transformación de Lindsay Lohan
