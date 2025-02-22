@@ -3461,7 +3461,7 @@
     <ul>
       <li>Resultados visibles desde la primera sesión</li>
       <li>Tecnología específica para pigmentos negros, azules y rojos</li>
-      <li>Precios competitivos desde $XXX por sesión según tamaño</li>
+      <li>Precios competitivos desde $300.000 por sesión según tamaño</li>
       <li>Emisión precisa de energía adaptada a cada tono de tatuaje</li>
       <li>Fragmentación efectiva de partículas de tinta profundas</li>
       <li>Tratamiento no invasivo con mínimas molestias</li>
@@ -3514,7 +3514,7 @@
     <p>Ofrecemos planes de tratamiento con descuentos por paquete de sesiones y facilidades de pago para hacer el tratamiento más accesible.</p>
   </div>
   <div class="block_section_knowledge flow">
-    <p>Durante tu consulta inicial gratuita con la Dra. Tatiana Leal, recibirás un análisis completo de tu tatuaje y un presupuesto personalizado detallado con el número estimado de sesiones y el costo total del tratamiento. Agenda ahora tu evaluación sin compromiso.</p>
+    <p>Durante tu consulta inicial con la Dra. Tatiana Leal, recibirás un análisis completo de tu tatuaje y un presupuesto personalizado detallado con el número estimado de sesiones y el costo total del tratamiento. Agenda ahora tu evaluación sin compromiso.</p>
     <a href="#" class="boton boton_principal" id="lead_whatsapp" title="WhatsApp de Tatiana Leal">Agenda tu cita ahora</a>
   </div>
 </section>
@@ -3668,7 +3668,7 @@
     <h2 id="borrar-tatuaje-section">Borrar tatuajes en Bogotá: proceso paso a paso</h2>
     <ol class="service-cards">
       <li class="card flow">
-        <h3>Evaluación inicial gratuita</h3>
+        <h3>Evaluación inicial</h3>
         <p>Durante la primera consulta, la Dra. Tatiana Leal evaluará tu tatuaje, analizando factores como tamaño, colores, densidad de tinta, si es profesional o amateur, y su antigüedad. Esta evaluación nos permite determinar el número aproximado de sesiones necesarias y proporcionarte un presupuesto detallado.</p>
       </li>
       <li class="card flow">
@@ -3770,7 +3770,7 @@
       <input type="checkbox" id="acc1" class="accordion-toggle" role="tab">
       <label for="acc1" class="accordion-header">¿Cuánto cuesta quitar un tatuaje en Colombia?</label>
       <div class="accordion-content" role="tabpanel">
-        <p>El costo de quitar un tatuaje en Colombia varía según diversos factores: tamaño (desde $XXX para tatuajes pequeños de 5cm hasta $XXX para tatuajes de 10cm o más), tipo de pigmento, si es profesional o amateur, y su antigüedad. Los tatuajes profesionales suelen requerir más sesiones que los amateur. Durante tu evaluación gratuita, la Dra. Tatiana Leal realizará un presupuesto personalizado considerando todas estas variables.</p>
+        <p>El costo de quitar un tatuaje en Colombia varía según diversos factores: tamaño (desde $300.000 para tatuajes pequeños de 5cm hasta $9'000.000 para tatuajes muy grandes), tipo de pigmento, si es profesional o amateur, y su antigüedad. Los tatuajes profesionales suelen requerir más sesiones que los amateur. Durante tu evaluación, la Dra. Tatiana Leal realizará un presupuesto personalizado considerando todas estas variables.</p>
       </div>
       
       <input type="checkbox" id="acc2" class="accordion-toggle" role="tab">
@@ -3794,7 +3794,7 @@
       <input type="checkbox" id="acc5" class="accordion-toggle" role="tab">
       <label for="acc5" class="accordion-header">¿Cuánto cuesta borrar un tatuaje pequeño vs uno grande?</label>
       <div class="accordion-content" role="tabpanel">
-        <p>El precio varía según el tamaño: para tatuajes pequeños de hasta 5cm, el costo aproximado es de $XXX por sesión. Para tatuajes medianos (5-10cm), el precio oscila entre $XXX y $XXX por sesión. Tatuajes grandes (más de 10cm) pueden costar desde $XXX por sesión. Ofrecemos planes de tratamiento con descuentos por paquete de sesiones y facilidades de pago para hacer el tratamiento más accesible.</p>
+        <p>El precio varía según el tamaño: para tatuajes pequeños de hasta 5cm, el costo aproximado es de $300.000 por sesión. Para tatuajes medianos (5-10cm), el precio oscila entre $500.000 y $700.000 por sesión. Tatuajes grandes (más de 10cm) pueden costar desde $800.000 por sesión. Ofrecemos planes de tratamiento con descuentos por paquete de sesiones y facilidades de pago para hacer el tratamiento más accesible.</p>
       </div>
       
       <input type="checkbox" id="acc6" class="accordion-toggle" role="tab">
@@ -3821,8 +3821,8 @@
 
 <aside class="padding" id="consulta">
   <div class="intro flow">
-    <h2>¿Cuánto cuesta quitar un tatuaje? Agenda tu evaluación gratuita</h2>
-    <p>Descubre el precio exacto para eliminar tu tatuaje con resultados visibles desde la primera sesión. En tu evaluación inicial gratuita con la Dra. Tatiana Leal, analizaremos los pigmentos específicos de tu tatuaje y diseñaremos un plan de tratamiento personalizado con nuestra tecnología láser COLORMAX Q-SWITCHED Nd:YAG, junto con un presupuesto detallado sin compromiso.</p>
+    <h2>¿Cuánto cuesta quitar un tatuaje? Agenda tu evaluación</h2>
+    <p>Descubre el precio exacto para eliminar tu tatuaje con resultados visibles desde la primera sesión. En tu evaluación inicial con la Dra. Tatiana Leal, analizaremos los pigmentos específicos de tu tatuaje y diseñaremos un plan de tratamiento personalizado con nuestra tecnología láser COLORMAX Q-SWITCHED Nd:YAG, junto con un presupuesto detallado sin compromiso.</p>
     <a href="#" class="boton boton_principal" id="lead_whatsapp" title="WhatsApp de Tatiana Leal">Agenda tu cita ahora</a>
   </div>
 </aside>]]></content:encoded>
