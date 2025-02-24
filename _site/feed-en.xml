@@ -8,20 +8,20 @@
   <channel>
     <title>Tatiana Leal - Aesthetic Medicine Blog</title>
     <description>Clínica de Medicina Estética especializada en rejuvenecimiento facial y corporal en Bogotá</description>
-    <link>https://dratatianaleal.com/en/</link>
-    <atom:link href="https://dratatianaleal.com/feed-en.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:4000/en/</link>
+    <atom:link href="http://localhost:4000/feed-en.xml" rel="self" type="application/rss+xml" />
     <language>en-US</language>
     <copyright>Copyright 2025, Tatiana Leal</copyright>
-    <webfeeds:cover image="https://dratatianaleal.com/img/banner-social.jpg" />
-    <webfeeds:icon>https://dratatianaleal.com/img/favicon/favicon-32x32.png</webfeeds:icon>
-    <webfeeds:logo>https://dratatianaleal.com/img/logo-tatiana-leal.webp</webfeeds:logo>
+    <webfeeds:cover image="http://localhost:4000/img/banner-social.jpg" />
+    <webfeeds:icon>http://localhost:4000/img/favicon/favicon-32x32.png</webfeeds:icon>
+    <webfeeds:logo>http://localhost:4000/img/logo-tatiana-leal.webp</webfeeds:logo>
     <webfeeds:accentColor>0085CA</webfeeds:accentColor>
     <webfeeds:related layout="card" target="browser"/>
     
     <image>
-      <url>https://dratatianaleal.com/img/logo-tatiana-leal.webp</url>
+      <url>http://localhost:4000/img/logo-tatiana-leal.webp</url>
       <title>Tatiana Leal</title>
-      <link>https://dratatianaleal.com/en/</link>
+      <link>http://localhost:4000/en/</link>
     </image>
 
     
@@ -252,8 +252,8 @@
 
 ]]></content:encoded>
       <pubDate>Tue, 28 Jan 2025 00:00:00 -0500</pubDate>
-      <link>https://dratatianaleal.com/en/blog/deep-facial-cleansing/</link>
-      <guid isPermaLink="true">https://dratatianaleal.com/en/blog/deep-facial-cleansing/</guid>
+      <link>http://localhost:4000/en/blog/deep-facial-cleansing/</link>
+      <guid isPermaLink="true">http://localhost:4000/en/blog/deep-facial-cleansing/</guid>
       
       
       <dc:creator>Tatiana Leal</dc:creator>
@@ -283,7 +283,7 @@
       
       
       <media:content 
-        url="https://dratatianaleal.com/img/blog/limpieza-facial-profunda.jpg" 
+        url="http://localhost:4000/img/blog/limpieza-facial-profunda.jpg" 
         medium="image"
         type="image/jpeg"
         width="1200"
@@ -293,7 +293,7 @@
       </media:content>
       
 
-      <source url="https://dratatianaleal.com/feed-en.xml">Tatiana Leal - Blog EN</source>
+      <source url="http://localhost:4000/feed-en.xml">Tatiana Leal - Blog EN</source>
     </item>
     
     <item>
@@ -507,8 +507,8 @@
 
 ]]></content:encoded>
       <pubDate>Tue, 28 Jan 2025 00:00:00 -0500</pubDate>
-      <link>https://dratatianaleal.com/en/blog/remove-dark-spots/</link>
-      <guid isPermaLink="true">https://dratatianaleal.com/en/blog/remove-dark-spots/</guid>
+      <link>http://localhost:4000/en/blog/remove-dark-spots/</link>
+      <guid isPermaLink="true">http://localhost:4000/en/blog/remove-dark-spots/</guid>
       
       
       <dc:creator>Tatiana Leal</dc:creator>
@@ -538,7 +538,7 @@
       
       
       <media:content 
-        url="https://dratatianaleal.com/img/blog/eliminar-manchas-de-la-piel.jpg" 
+        url="http://localhost:4000/img/blog/eliminar-manchas-de-la-piel.jpg" 
         medium="image"
         type="image/jpeg"
         width="1200"
@@ -548,7 +548,7 @@
       </media:content>
       
 
-      <source url="https://dratatianaleal.com/feed-en.xml">Tatiana Leal - Blog EN</source>
+      <source url="http://localhost:4000/feed-en.xml">Tatiana Leal - Blog EN</source>
     </item>
     
     <item>
@@ -781,8 +781,8 @@ She ended up with zero facial expression.</p>
 <p><strong>Not sure which treatment is best for you?</strong> <a href="/en/contact/" title="contact page">Schedule a free consultation</a> and together we’ll create your personalized rejuvenation plan.</p>
 ]]></content:encoded>
       <pubDate>Tue, 28 Jan 2025 00:00:00 -0500</pubDate>
-      <link>https://dratatianaleal.com/en/blog/prices-facial-treatments-colombia/</link>
-      <guid isPermaLink="true">https://dratatianaleal.com/en/blog/prices-facial-treatments-colombia/</guid>
+      <link>http://localhost:4000/en/blog/prices-facial-treatments-colombia/</link>
+      <guid isPermaLink="true">http://localhost:4000/en/blog/prices-facial-treatments-colombia/</guid>
       
       
       <dc:creator>Tatiana Leal</dc:creator>
@@ -814,7 +814,7 @@ She ended up with zero facial expression.</p>
       
       
       <media:content 
-        url="https://dratatianaleal.com/img/blog/precios-tratamientos-faciales-colombia.jpg" 
+        url="http://localhost:4000/img/blog/precios-tratamientos-faciales-colombia.jpg" 
         medium="image"
         type="image/jpeg"
         width="1200"
@@ -824,7 +824,7 @@ She ended up with zero facial expression.</p>
       </media:content>
       
 
-      <source url="https://dratatianaleal.com/feed-en.xml">Tatiana Leal - Blog EN</source>
+      <source url="http://localhost:4000/feed-en.xml">Tatiana Leal - Blog EN</source>
     </item>
     
     <item>
@@ -1045,8 +1045,8 @@ She ended up with zero facial expression.</p>
 <p><em>Disclaimer: Mentioned prices are approximate and may vary according to specific case characteristics. All procedures are performed by certified specialists in our state-of-the-art facilities.</em></p>
 ]]></content:encoded>
       <pubDate>Fri, 17 Jan 2025 00:00:00 -0500</pubDate>
-      <link>https://dratatianaleal.com/en/blog/how-much-does-laser-tattoo-removal-cost/</link>
-      <guid isPermaLink="true">https://dratatianaleal.com/en/blog/how-much-does-laser-tattoo-removal-cost/</guid>
+      <link>http://localhost:4000/en/blog/how-much-does-laser-tattoo-removal-cost/</link>
+      <guid isPermaLink="true">http://localhost:4000/en/blog/how-much-does-laser-tattoo-removal-cost/</guid>
       
       
       <dc:creator>Tatiana Leal</dc:creator>
@@ -1076,7 +1076,7 @@ She ended up with zero facial expression.</p>
       
       
       <media:content 
-        url="https://dratatianaleal.com/img/blog/eliminar-tatuaje-laser-precios.jpg" 
+        url="http://localhost:4000/img/blog/eliminar-tatuaje-laser-precios.jpg" 
         medium="image"
         type="image/jpeg"
         width="1200"
@@ -1086,7 +1086,7 @@ She ended up with zero facial expression.</p>
       </media:content>
       
 
-      <source url="https://dratatianaleal.com/feed-en.xml">Tatiana Leal - Blog EN</source>
+      <source url="http://localhost:4000/feed-en.xml">Tatiana Leal - Blog EN</source>
     </item>
     
     <item>
@@ -1184,8 +1184,8 @@ She ended up with zero facial expression.</p>
 <p><em>Disclaimer: Results may vary from person to person. All procedures are performed by certified specialists in our state-of-the-art facilities.</em></p>
 ]]></content:encoded>
       <pubDate>Fri, 10 Jan 2025 00:00:00 -0500</pubDate>
-      <link>https://dratatianaleal.com/en/blog/when-to-use-thread-lifting/</link>
-      <guid isPermaLink="true">https://dratatianaleal.com/en/blog/when-to-use-thread-lifting/</guid>
+      <link>http://localhost:4000/en/blog/when-to-use-thread-lifting/</link>
+      <guid isPermaLink="true">http://localhost:4000/en/blog/when-to-use-thread-lifting/</guid>
       
       
       <dc:creator>Tatiana Leal</dc:creator>
@@ -1215,7 +1215,7 @@ She ended up with zero facial expression.</p>
       
       
       <media:content 
-        url="https://dratatianaleal.com/img/blog/hilos-tensores-guia-completa.jpg" 
+        url="http://localhost:4000/img/blog/hilos-tensores-guia-completa.jpg" 
         medium="image"
         type="image/jpeg"
         width="1200"
@@ -1225,7 +1225,7 @@ She ended up with zero facial expression.</p>
       </media:content>
       
 
-      <source url="https://dratatianaleal.com/feed-en.xml">Tatiana Leal - Blog EN</source>
+      <source url="http://localhost:4000/feed-en.xml">Tatiana Leal - Blog EN</source>
     </item>
     
     <item>
@@ -1577,8 +1577,8 @@ Through local injections of specific substances, this technique helps dissolve a
 <p><em>Disclaimer: Results may vary from person to person. All procedures are performed by certified specialists in our state-of-the-art facilities.</em></p>
 ]]></content:encoded>
       <pubDate>Wed, 25 Dec 2024 00:00:00 -0500</pubDate>
-      <link>https://dratatianaleal.com/en/blog/liposuccion-vs-lipolisis/</link>
-      <guid isPermaLink="true">https://dratatianaleal.com/en/blog/liposuccion-vs-lipolisis/</guid>
+      <link>http://localhost:4000/en/blog/liposuccion-vs-lipolisis/</link>
+      <guid isPermaLink="true">http://localhost:4000/en/blog/liposuccion-vs-lipolisis/</guid>
       
       
       <dc:creator>Tatiana Leal</dc:creator>
@@ -1608,7 +1608,7 @@ Through local injections of specific substances, this technique helps dissolve a
       
       
       <media:content 
-        url="https://dratatianaleal.com/img/blog/liposuccion-vs-lipolisis.jpg" 
+        url="http://localhost:4000/img/blog/liposuccion-vs-lipolisis.jpg" 
         medium="image"
         type="image/jpeg"
         width="1200"
@@ -1618,7 +1618,7 @@ Through local injections of specific substances, this technique helps dissolve a
       </media:content>
       
 
-      <source url="https://dratatianaleal.com/feed-en.xml">Tatiana Leal - Blog EN</source>
+      <source url="http://localhost:4000/feed-en.xml">Tatiana Leal - Blog EN</source>
     </item>
     
     <item>
@@ -1858,8 +1858,8 @@ Through local injections of specific substances, this technique helps dissolve a
 <p><em>Disclaimer: Individual results may vary. All procedures are performed by board-certified specialists in our state-of-the-art facilities.</em></p>
 ]]></content:encoded>
       <pubDate>Mon, 23 Dec 2024 00:00:00 -0500</pubDate>
-      <link>https://dratatianaleal.com/en/technology/platelet-rich-plasma/</link>
-      <guid isPermaLink="true">https://dratatianaleal.com/en/technology/platelet-rich-plasma/</guid>
+      <link>http://localhost:4000/en/technology/platelet-rich-plasma/</link>
+      <guid isPermaLink="true">http://localhost:4000/en/technology/platelet-rich-plasma/</guid>
       
       
       <dc:creator>Tatiana Leal</dc:creator>
@@ -1885,7 +1885,7 @@ Through local injections of specific substances, this technique helps dissolve a
       
       
       <media:content 
-        url="https://dratatianaleal.com/img/blog/plasma-rico-plaquetas-bogota.jpg" 
+        url="http://localhost:4000/img/blog/plasma-rico-plaquetas-bogota.jpg" 
         medium="image"
         type="image/jpeg"
         width="1200"
@@ -1895,7 +1895,7 @@ Through local injections of specific substances, this technique helps dissolve a
       </media:content>
       
 
-      <source url="https://dratatianaleal.com/feed-en.xml">Tatiana Leal - Blog EN</source>
+      <source url="http://localhost:4000/feed-en.xml">Tatiana Leal - Blog EN</source>
     </item>
     
     <item>
@@ -2188,8 +2188,8 @@ Dr. Lukian’s approach evaluates:</p>
 <p><em>Disclaimer: Results may vary from person to person. All procedures are performed by board-certified specialists in our state-of-the-art facilities in compliance with FDA regulations. This article is for informational purposes only and does not constitute medical advice.</em></p>
 ]]></content:encoded>
       <pubDate>Fri, 20 Dec 2024 00:00:00 -0500</pubDate>
-      <link>https://dratatianaleal.com/en/blog/what-did-lindsay-lohan-do-to-her-face/</link>
-      <guid isPermaLink="true">https://dratatianaleal.com/en/blog/what-did-lindsay-lohan-do-to-her-face/</guid>
+      <link>http://localhost:4000/en/blog/what-did-lindsay-lohan-do-to-her-face/</link>
+      <guid isPermaLink="true">http://localhost:4000/en/blog/what-did-lindsay-lohan-do-to-her-face/</guid>
       
       
       <dc:creator>Tatiana Leal</dc:creator>
@@ -2219,7 +2219,7 @@ Dr. Lukian’s approach evaluates:</p>
       
       
       <media:content 
-        url="https://dratatianaleal.com/img/blog/que-se-hizo-lindsay.jpg" 
+        url="http://localhost:4000/img/blog/que-se-hizo-lindsay.jpg" 
         medium="image"
         type="image/jpeg"
         width="1200"
@@ -2229,7 +2229,7 @@ Dr. Lukian’s approach evaluates:</p>
       </media:content>
       
 
-      <source url="https://dratatianaleal.com/feed-en.xml">Tatiana Leal - Blog EN</source>
+      <source url="http://localhost:4000/feed-en.xml">Tatiana Leal - Blog EN</source>
     </item>
     
     <item>
@@ -2650,8 +2650,8 @@ Dr. Lukian’s approach evaluates:</p>
 <p><em>Disclaimer: Individual results may vary. All procedures are performed by board-certified specialists in our state-of-the-art facility.</em></p>
 ]]></content:encoded>
       <pubDate>Fri, 29 Nov 2024 00:00:00 -0500</pubDate>
-      <link>https://dratatianaleal.com/en/blog/lip-filler-techniques/</link>
-      <guid isPermaLink="true">https://dratatianaleal.com/en/blog/lip-filler-techniques/</guid>
+      <link>http://localhost:4000/en/blog/lip-filler-techniques/</link>
+      <guid isPermaLink="true">http://localhost:4000/en/blog/lip-filler-techniques/</guid>
       
       
       <dc:creator>Tatiana Leal</dc:creator>
@@ -2679,7 +2679,7 @@ Dr. Lukian’s approach evaluates:</p>
       
       
       <media:content 
-        url="https://dratatianaleal.com/img/blog/tecnicas-relleno-labios-naturales.jpg" 
+        url="http://localhost:4000/img/blog/tecnicas-relleno-labios-naturales.jpg" 
         medium="image"
         type="image/jpeg"
         width="1200"
@@ -2689,7 +2689,7 @@ Dr. Lukian’s approach evaluates:</p>
       </media:content>
       
 
-      <source url="https://dratatianaleal.com/feed-en.xml">Tatiana Leal - Blog EN</source>
+      <source url="http://localhost:4000/feed-en.xml">Tatiana Leal - Blog EN</source>
     </item>
     
     <item>
@@ -3105,8 +3105,8 @@ Dr. Lukian’s approach evaluates:</p>
 <p><em>Disclaimer: Results may vary from person to person. All procedures are performed by board-certified specialists in our state-of-the-art facilities in compliance with FDA regulations.</em></p>
 ]]></content:encoded>
       <pubDate>Wed, 20 Nov 2024 00:00:00 -0500</pubDate>
-      <link>https://dratatianaleal.com/en/blog/laser-lipolysis-risks/</link>
-      <guid isPermaLink="true">https://dratatianaleal.com/en/blog/laser-lipolysis-risks/</guid>
+      <link>http://localhost:4000/en/blog/laser-lipolysis-risks/</link>
+      <guid isPermaLink="true">http://localhost:4000/en/blog/laser-lipolysis-risks/</guid>
       
       
       <dc:creator>Tatiana Leal</dc:creator>
@@ -3134,7 +3134,7 @@ Dr. Lukian’s approach evaluates:</p>
       
       
       <media:content 
-        url="https://dratatianaleal.com/img/blog/lipolisis-laser-riesgos.jpg" 
+        url="http://localhost:4000/img/blog/lipolisis-laser-riesgos.jpg" 
         medium="image"
         type="image/jpeg"
         width="1200"
@@ -3144,7 +3144,7 @@ Dr. Lukian’s approach evaluates:</p>
       </media:content>
       
 
-      <source url="https://dratatianaleal.com/feed-en.xml">Tatiana Leal - Blog EN</source>
+      <source url="http://localhost:4000/feed-en.xml">Tatiana Leal - Blog EN</source>
     </item>
     
   </channel>

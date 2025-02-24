@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <sitemap>
-    <loc>https://dratatianaleal.com/sitemap-main.xml</loc>
-    <lastmod>2025-02-24T13:21:03-05:00</lastmod>
+    <loc>http://localhost:4000/sitemap-main.xml</loc>
+    <lastmod>2025-02-24T18:25:20-05:00</lastmod>
   </sitemap>
   <sitemap>
-    <loc>https://dratatianaleal.com/sitemap-posts.xml</loc>
-    <lastmod>2025-02-24T13:21:03-05:00</lastmod>
+    <loc>http://localhost:4000/sitemap-posts.xml</loc>
+    <lastmod>2025-02-24T18:25:20-05:00</lastmod>
   </sitemap>
   <sitemap>
-    <loc>https://dratatianaleal.com/sitemap-treatments.xml</loc>
-    <lastmod>2025-02-24T13:21:03-05:00</lastmod>
+    <loc>http://localhost:4000/sitemap-treatments.xml</loc>
+    <lastmod>2025-02-24T18:25:20-05:00</lastmod>
   </sitemap>
 </sitemapindex>

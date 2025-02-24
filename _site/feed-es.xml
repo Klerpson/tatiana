@@ -8,20 +8,20 @@
   <channel>
     <title>Tatiana Leal - Blog de Medicina Estética</title>
     <description>Clínica de Medicina Estética especializada en rejuvenecimiento facial y corporal en Bogotá</description>
-    <link>https://dratatianaleal.com/es/</link>
-    <atom:link href="https://dratatianaleal.com/feed-es.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:4000/es/</link>
+    <atom:link href="http://localhost:4000/feed-es.xml" rel="self" type="application/rss+xml" />
     <language>es-CO</language>
     <copyright>Copyright 2025, Tatiana Leal</copyright>
-    <webfeeds:cover image="https://dratatianaleal.com/img/banner-social.jpg" />
-    <webfeeds:icon>https://dratatianaleal.com/img/favicon/favicon-32x32.png</webfeeds:icon>
-    <webfeeds:logo>https://dratatianaleal.com/img/logo-tatiana-leal.webp</webfeeds:logo>
+    <webfeeds:cover image="http://localhost:4000/img/banner-social.jpg" />
+    <webfeeds:icon>http://localhost:4000/img/favicon/favicon-32x32.png</webfeeds:icon>
+    <webfeeds:logo>http://localhost:4000/img/logo-tatiana-leal.webp</webfeeds:logo>
     <webfeeds:accentColor>0085CA</webfeeds:accentColor>
     <webfeeds:related layout="card" target="browser"/>
     
     <image>
-      <url>https://dratatianaleal.com/img/logo-tatiana-leal.webp</url>
+      <url>http://localhost:4000/img/logo-tatiana-leal.webp</url>
       <title>Tatiana Leal</title>
-      <link>https://dratatianaleal.com/es/</link>
+      <link>http://localhost:4000/es/</link>
     </image>
 
     
@@ -273,8 +273,8 @@
 <p>¿Listo para transformar tu piel? <strong>Agenda tu consulta hoy mismo</strong> y déjame ayudarte a conseguir esos resultados que tanto deseas. Tu futuro yo te lo agradecerá.</p>
 ]]></content:encoded>
       <pubDate>Tue, 28 Jan 2025 00:00:00 -0500</pubDate>
-      <link>https://dratatianaleal.com/es/blog/limpieza-facial-profunda/</link>
-      <guid isPermaLink="true">https://dratatianaleal.com/es/blog/limpieza-facial-profunda/</guid>
+      <link>http://localhost:4000/es/blog/limpieza-facial-profunda/</link>
+      <guid isPermaLink="true">http://localhost:4000/es/blog/limpieza-facial-profunda/</guid>
       
       
       <dc:creator>Tatiana Leal</dc:creator>
@@ -304,7 +304,7 @@
       
       
       <media:content 
-        url="https://dratatianaleal.com/img/blog/limpieza-facial-profunda.jpg" 
+        url="http://localhost:4000/img/blog/limpieza-facial-profunda.jpg" 
         medium="image"
         type="image/jpeg"
         width="1200"
@@ -314,7 +314,7 @@
       </media:content>
       
 
-      <source url="https://dratatianaleal.com/feed-es.xml">Tatiana Leal - Blog ES</source>
+      <source url="http://localhost:4000/feed-es.xml">Tatiana Leal - Blog ES</source>
     </item>
     
     <item>
@@ -538,8 +538,8 @@
 <p><em>Recuerda que este artículo es informativo y no sustituye la consulta con un profesional de la salud. Cada caso es único y requiere una evaluación personalizada.</em></p>
 ]]></content:encoded>
       <pubDate>Tue, 28 Jan 2025 00:00:00 -0500</pubDate>
-      <link>https://dratatianaleal.com/es/blog/eliminar-manchas-oscuras/</link>
-      <guid isPermaLink="true">https://dratatianaleal.com/es/blog/eliminar-manchas-oscuras/</guid>
+      <link>http://localhost:4000/es/blog/eliminar-manchas-oscuras/</link>
+      <guid isPermaLink="true">http://localhost:4000/es/blog/eliminar-manchas-oscuras/</guid>
       
       
       <dc:creator>Tatiana Leal</dc:creator>
@@ -569,7 +569,7 @@
       
       
       <media:content 
-        url="https://dratatianaleal.com/img/blog/eliminar-manchas-de-la-piel.jpg" 
+        url="http://localhost:4000/img/blog/eliminar-manchas-de-la-piel.jpg" 
         medium="image"
         type="image/jpeg"
         width="1200"
@@ -579,7 +579,7 @@
       </media:content>
       
 
-      <source url="https://dratatianaleal.com/feed-es.xml">Tatiana Leal - Blog ES</source>
+      <source url="http://localhost:4000/feed-es.xml">Tatiana Leal - Blog ES</source>
     </item>
     
     <item>
@@ -835,8 +835,8 @@
 <p><strong>No estás segura de qué tratamiento es mejor para ti?</strong> <a href="/es/contacto/" title="pagina de contacto">Agenda una consulta gratuita</a> y juntos crearemos tu plan personalizado de rejuvenecimiento.</p>
 ]]></content:encoded>
       <pubDate>Tue, 28 Jan 2025 00:00:00 -0500</pubDate>
-      <link>https://dratatianaleal.com/es/blog/precios-tratamientos-faciales-colombia/</link>
-      <guid isPermaLink="true">https://dratatianaleal.com/es/blog/precios-tratamientos-faciales-colombia/</guid>
+      <link>http://localhost:4000/es/blog/precios-tratamientos-faciales-colombia/</link>
+      <guid isPermaLink="true">http://localhost:4000/es/blog/precios-tratamientos-faciales-colombia/</guid>
       
       
       <dc:creator>Tatiana Leal</dc:creator>
@@ -868,7 +868,7 @@
       
       
       <media:content 
-        url="https://dratatianaleal.com/img/blog/precios-tratamientos-faciales-colombia.jpg" 
+        url="http://localhost:4000/img/blog/precios-tratamientos-faciales-colombia.jpg" 
         medium="image"
         type="image/jpeg"
         width="1200"
@@ -878,7 +878,7 @@
       </media:content>
       
 
-      <source url="https://dratatianaleal.com/feed-es.xml">Tatiana Leal - Blog ES</source>
+      <source url="http://localhost:4000/feed-es.xml">Tatiana Leal - Blog ES</source>
     </item>
     
     <item>
@@ -1100,8 +1100,8 @@
 
 ]]></content:encoded>
       <pubDate>Fri, 17 Jan 2025 00:00:00 -0500</pubDate>
-      <link>https://dratatianaleal.com/es/blog/cuanto-cuesta-borrar-tatuajes/</link>
-      <guid isPermaLink="true">https://dratatianaleal.com/es/blog/cuanto-cuesta-borrar-tatuajes/</guid>
+      <link>http://localhost:4000/es/blog/cuanto-cuesta-borrar-tatuajes/</link>
+      <guid isPermaLink="true">http://localhost:4000/es/blog/cuanto-cuesta-borrar-tatuajes/</guid>
       
       
       <dc:creator>Tatiana Leal</dc:creator>
@@ -1131,7 +1131,7 @@
       
       
       <media:content 
-        url="https://dratatianaleal.com/img/blog/eliminar-tatuaje-laser-precios.jpg" 
+        url="http://localhost:4000/img/blog/eliminar-tatuaje-laser-precios.jpg" 
         medium="image"
         type="image/jpeg"
         width="1200"
@@ -1141,7 +1141,7 @@
       </media:content>
       
 
-      <source url="https://dratatianaleal.com/feed-es.xml">Tatiana Leal - Blog ES</source>
+      <source url="http://localhost:4000/feed-es.xml">Tatiana Leal - Blog ES</source>
     </item>
     
     <item>
@@ -1239,8 +1239,8 @@
 <p><em>Disclaimer: Los resultados pueden variar de persona a persona. Todos los procedimientos son realizados por especialistas certificados en nuestras instalaciones de última generación.</em></p>
 ]]></content:encoded>
       <pubDate>Fri, 10 Jan 2025 00:00:00 -0500</pubDate>
-      <link>https://dratatianaleal.com/es/blog/cuando-escoger-hilos-tensores/</link>
-      <guid isPermaLink="true">https://dratatianaleal.com/es/blog/cuando-escoger-hilos-tensores/</guid>
+      <link>http://localhost:4000/es/blog/cuando-escoger-hilos-tensores/</link>
+      <guid isPermaLink="true">http://localhost:4000/es/blog/cuando-escoger-hilos-tensores/</guid>
       
       
       <dc:creator>Tatiana Leal</dc:creator>
@@ -1270,7 +1270,7 @@
       
       
       <media:content 
-        url="https://dratatianaleal.com/img/blog/hilos-tensores-guia-completa.jpg" 
+        url="http://localhost:4000/img/blog/hilos-tensores-guia-completa.jpg" 
         medium="image"
         type="image/jpeg"
         width="1200"
@@ -1280,7 +1280,7 @@
       </media:content>
       
 
-      <source url="https://dratatianaleal.com/feed-es.xml">Tatiana Leal - Blog ES</source>
+      <source url="http://localhost:4000/feed-es.xml">Tatiana Leal - Blog ES</source>
     </item>
     
     <item>
@@ -1617,8 +1617,8 @@
 <p><em>Disclaimer: Los resultados pueden variar de persona a persona. Todos los procedimientos son realizados por especialistas certificados en nuestras instalaciones de última generación.</em></p>
 ]]></content:encoded>
       <pubDate>Wed, 25 Dec 2024 00:00:00 -0500</pubDate>
-      <link>https://dratatianaleal.com/es/blog/liposuccion-vs-lipolisis/</link>
-      <guid isPermaLink="true">https://dratatianaleal.com/es/blog/liposuccion-vs-lipolisis/</guid>
+      <link>http://localhost:4000/es/blog/liposuccion-vs-lipolisis/</link>
+      <guid isPermaLink="true">http://localhost:4000/es/blog/liposuccion-vs-lipolisis/</guid>
       
       
       <dc:creator>Tatiana Leal</dc:creator>
@@ -1648,7 +1648,7 @@
       
       
       <media:content 
-        url="https://dratatianaleal.com/img/blog/liposuccion-vs-lipolisis.jpg" 
+        url="http://localhost:4000/img/blog/liposuccion-vs-lipolisis.jpg" 
         medium="image"
         type="image/jpeg"
         width="1200"
@@ -1658,7 +1658,7 @@
       </media:content>
       
 
-      <source url="https://dratatianaleal.com/feed-es.xml">Tatiana Leal - Blog ES</source>
+      <source url="http://localhost:4000/feed-es.xml">Tatiana Leal - Blog ES</source>
     </item>
     
     <item>
@@ -1898,8 +1898,8 @@
 <p><em>Disclaimer: Los resultados pueden variar de persona a persona. Todos los procedimientos son realizados por especialistas certificados en nuestras instalaciones de última generación.</em></p>
 ]]></content:encoded>
       <pubDate>Mon, 23 Dec 2024 00:00:00 -0500</pubDate>
-      <link>https://dratatianaleal.com/es/blog/plasma-rico-plaquetas/</link>
-      <guid isPermaLink="true">https://dratatianaleal.com/es/blog/plasma-rico-plaquetas/</guid>
+      <link>http://localhost:4000/es/blog/plasma-rico-plaquetas/</link>
+      <guid isPermaLink="true">http://localhost:4000/es/blog/plasma-rico-plaquetas/</guid>
       
       
       <dc:creator>Tatiana Leal</dc:creator>
@@ -1927,7 +1927,7 @@
       
       
       <media:content 
-        url="https://dratatianaleal.com/img/blog/plasma-rico-plaquetas-bogota.jpg" 
+        url="http://localhost:4000/img/blog/plasma-rico-plaquetas-bogota.jpg" 
         medium="image"
         type="image/jpeg"
         width="1200"
@@ -1937,7 +1937,7 @@
       </media:content>
       
 
-      <source url="https://dratatianaleal.com/feed-es.xml">Tatiana Leal - Blog ES</source>
+      <source url="http://localhost:4000/feed-es.xml">Tatiana Leal - Blog ES</source>
     </item>
     
     <item>
@@ -2235,8 +2235,8 @@ Incorpora tratamientos suaves de mantenimiento, como máscaras hidratantes y ses
 <p><em>Disclaimer: Los resultados pueden variar de persona a persona. Todos los procedimientos son realizados por especialistas certificados en nuestras instalaciones de última generación.</em></p>
 ]]></content:encoded>
       <pubDate>Fri, 20 Dec 2024 00:00:00 -0500</pubDate>
-      <link>https://dratatianaleal.com/es/blog/que-tratamiento-se-hizo-lindsay-lohan/</link>
-      <guid isPermaLink="true">https://dratatianaleal.com/es/blog/que-tratamiento-se-hizo-lindsay-lohan/</guid>
+      <link>http://localhost:4000/es/blog/que-tratamiento-se-hizo-lindsay-lohan/</link>
+      <guid isPermaLink="true">http://localhost:4000/es/blog/que-tratamiento-se-hizo-lindsay-lohan/</guid>
       
       
       <dc:creator>Tatiana Leal</dc:creator>
@@ -2266,7 +2266,7 @@ Incorpora tratamientos suaves de mantenimiento, como máscaras hidratantes y ses
       
       
       <media:content 
-        url="https://dratatianaleal.com/img/blog/que-se-hizo-lindsay.jpg" 
+        url="http://localhost:4000/img/blog/que-se-hizo-lindsay.jpg" 
         medium="image"
         type="image/jpeg"
         width="1200"
@@ -2276,7 +2276,7 @@ Incorpora tratamientos suaves de mantenimiento, como máscaras hidratantes y ses
       </media:content>
       
 
-      <source url="https://dratatianaleal.com/feed-es.xml">Tatiana Leal - Blog ES</source>
+      <source url="http://localhost:4000/feed-es.xml">Tatiana Leal - Blog ES</source>
     </item>
     
     <item>
@@ -2808,8 +2808,8 @@ Incorpora tratamientos suaves de mantenimiento, como máscaras hidratantes y ses
 <p><em>Actualizado: Noviembre 29, 2024</em></p>
 ]]></content:encoded>
       <pubDate>Fri, 29 Nov 2024 00:00:00 -0500</pubDate>
-      <link>https://dratatianaleal.com/es/blog/tecnicas-rellenos-labios/</link>
-      <guid isPermaLink="true">https://dratatianaleal.com/es/blog/tecnicas-rellenos-labios/</guid>
+      <link>http://localhost:4000/es/blog/tecnicas-rellenos-labios/</link>
+      <guid isPermaLink="true">http://localhost:4000/es/blog/tecnicas-rellenos-labios/</guid>
       
       
       <dc:creator>Tatiana Leal</dc:creator>
@@ -2837,7 +2837,7 @@ Incorpora tratamientos suaves de mantenimiento, como máscaras hidratantes y ses
       
       
       <media:content 
-        url="https://dratatianaleal.com/img/blog/tecnicas-relleno-labios-naturales.jpg" 
+        url="http://localhost:4000/img/blog/tecnicas-relleno-labios-naturales.jpg" 
         medium="image"
         type="image/jpeg"
         width="1200"
@@ -2847,7 +2847,7 @@ Incorpora tratamientos suaves de mantenimiento, como máscaras hidratantes y ses
       </media:content>
       
 
-      <source url="https://dratatianaleal.com/feed-es.xml">Tatiana Leal - Blog ES</source>
+      <source url="http://localhost:4000/feed-es.xml">Tatiana Leal - Blog ES</source>
     </item>
     
     <item>
@@ -3263,8 +3263,8 @@ Incorpora tratamientos suaves de mantenimiento, como máscaras hidratantes y ses
 <p><em>Disclaimer: Los resultados pueden variar de persona a persona. Todos los procedimientos son realizados por especialistas certificados en nuestras instalaciones de última generación.</em></p>
 ]]></content:encoded>
       <pubDate>Wed, 20 Nov 2024 00:00:00 -0500</pubDate>
-      <link>https://dratatianaleal.com/es/blog/riesgos-lipolisis-laser/</link>
-      <guid isPermaLink="true">https://dratatianaleal.com/es/blog/riesgos-lipolisis-laser/</guid>
+      <link>http://localhost:4000/es/blog/riesgos-lipolisis-laser/</link>
+      <guid isPermaLink="true">http://localhost:4000/es/blog/riesgos-lipolisis-laser/</guid>
       
       
       <dc:creator>Tatiana Leal</dc:creator>
@@ -3292,7 +3292,7 @@ Incorpora tratamientos suaves de mantenimiento, como máscaras hidratantes y ses
       
       
       <media:content 
-        url="https://dratatianaleal.com/img/blog/lipolisis-laser-riesgos.jpg" 
+        url="http://localhost:4000/img/blog/lipolisis-laser-riesgos.jpg" 
         medium="image"
         type="image/jpeg"
         width="1200"
@@ -3302,7 +3302,7 @@ Incorpora tratamientos suaves de mantenimiento, como máscaras hidratantes y ses
       </media:content>
       
 
-      <source url="https://dratatianaleal.com/feed-es.xml">Tatiana Leal - Blog ES</source>
+      <source url="http://localhost:4000/feed-es.xml">Tatiana Leal - Blog ES</source>
     </item>
     
   </channel>

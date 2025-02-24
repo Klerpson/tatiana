@@ -6,8 +6,8 @@
   <channel>
     <title>Tatiana Leal - Tratamientos</title>
     <description>Nuevos tratamientos y actualizaciones</description>
-    <link>https://dratatianaleal.com</link>
-    <atom:link href="https://dratatianaleal.com/feed-treatments.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:4000</link>
+    <atom:link href="http://localhost:4000/feed-treatments.xml" rel="self" type="application/rss+xml" />
     
     
     
@@ -220,11 +220,11 @@
     <a href="#" class="boton boton_principal" id="lead_whatsapp" title="WhatsApp de Tatiana Leal">Agenda tu cita ahora</a>
   </div>
 </aside>]]></content:encoded>
-      <link>https://dratatianaleal.com/es/tratamientos-faciales/acido-hialuronico/</link>
-      <guid isPermaLink="true">https://dratatianaleal.com/es/tratamientos-faciales/acido-hialuronico/</guid>
+      <link>http://localhost:4000/es/tratamientos-faciales/acido-hialuronico/</link>
+      <guid isPermaLink="true">http://localhost:4000/es/tratamientos-faciales/acido-hialuronico/</guid>
       
       
-      <enclosure url="https://dratatianaleal.com/img/tratamiento-acido-hialuronico-facial.avif" type="image/jpeg" />
+      <enclosure url="http://localhost:4000/img/tratamiento-acido-hialuronico-facial.avif" type="image/jpeg" />
       
     </item>
     
@@ -435,11 +435,11 @@
     <a href="#" class="boton boton_principal" id="lead_whatsapp" title="WhatsApp de Tatiana Leal">Agenda tu cita ahora</a>
   </div>
 </aside>]]></content:encoded>
-      <link>https://dratatianaleal.com/es/tratamientos-faciales/aumento-labios/</link>
-      <guid isPermaLink="true">https://dratatianaleal.com/es/tratamientos-faciales/aumento-labios/</guid>
+      <link>http://localhost:4000/es/tratamientos-faciales/aumento-labios/</link>
+      <guid isPermaLink="true">http://localhost:4000/es/tratamientos-faciales/aumento-labios/</guid>
       
       
-      <enclosure url="https://dratatianaleal.com/img/relleno-y-aumento-de-labios-1.avif" type="image/jpeg" />
+      <enclosure url="http://localhost:4000/img/relleno-y-aumento-de-labios-1.avif" type="image/jpeg" />
       
     </item>
     
@@ -655,11 +655,11 @@
     <a href="#" class="boton boton_principal" id="lead_whatsapp" title="WhatsApp de Tatiana Leal">Agenda tu cita ahora</a>
   </div>
 </aside>]]></content:encoded>
-      <link>https://dratatianaleal.com/es/tratamientos-faciales/biorevitalizacion/</link>
-      <guid isPermaLink="true">https://dratatianaleal.com/es/tratamientos-faciales/biorevitalizacion/</guid>
+      <link>http://localhost:4000/es/tratamientos-faciales/biorevitalizacion/</link>
+      <guid isPermaLink="true">http://localhost:4000/es/tratamientos-faciales/biorevitalizacion/</guid>
       
       
-      <enclosure url="https://dratatianaleal.com/img/biorevitalizacion-facial-bogota.avif" type="image/jpeg" />
+      <enclosure url="http://localhost:4000/img/biorevitalizacion-facial-bogota.avif" type="image/jpeg" />
       
     </item>
     
@@ -878,11 +878,11 @@
     <a href="#" class="boton boton_principal" id="lead_whatsapp" title="WhatsApp de Tatiana Leal">Agenda tu cita ahora</a>
   </div>
 </aside>]]></content:encoded>
-      <link>https://dratatianaleal.com/es/tratamientos-faciales/caida-del-cabello/</link>
-      <guid isPermaLink="true">https://dratatianaleal.com/es/tratamientos-faciales/caida-del-cabello/</guid>
+      <link>http://localhost:4000/es/tratamientos-faciales/caida-del-cabello/</link>
+      <guid isPermaLink="true">http://localhost:4000/es/tratamientos-faciales/caida-del-cabello/</guid>
       
       
-      <enclosure url="https://dratatianaleal.com/img/caida-cabello-bogota.avif" type="image/jpeg" />
+      <enclosure url="http://localhost:4000/img/caida-cabello-bogota.avif" type="image/jpeg" />
       
     </item>
     
@@ -1077,11 +1077,11 @@
   </div>
 </aside>
 ]]></content:encoded>
-      <link>https://dratatianaleal.com/es/tratamientos-faciales/eliminar-manchas/</link>
-      <guid isPermaLink="true">https://dratatianaleal.com/es/tratamientos-faciales/eliminar-manchas/</guid>
+      <link>http://localhost:4000/es/tratamientos-faciales/eliminar-manchas/</link>
+      <guid isPermaLink="true">http://localhost:4000/es/tratamientos-faciales/eliminar-manchas/</guid>
       
       
-      <enclosure url="https://dratatianaleal.com/img/eliminar-manchas-bogota.avif" type="image/jpeg" />
+      <enclosure url="http://localhost:4000/img/eliminar-manchas-bogota.avif" type="image/jpeg" />
       
     </item>
     
@@ -1344,11 +1344,11 @@
     <a href="#" class="boton boton_principal" id="lead_whatsapp" title="WhatsApp de Tatiana Leal">Agenda tu cita ahora</a>
   </div>
 </aside>]]></content:encoded>
-      <link>https://dratatianaleal.com/es/tratamientos-faciales/hilos-tensores/</link>
-      <guid isPermaLink="true">https://dratatianaleal.com/es/tratamientos-faciales/hilos-tensores/</guid>
+      <link>http://localhost:4000/es/tratamientos-faciales/hilos-tensores/</link>
+      <guid isPermaLink="true">http://localhost:4000/es/tratamientos-faciales/hilos-tensores/</guid>
       
       
-      <enclosure url="https://dratatianaleal.com/img/hilo-tensores-tatiana-leal.avif" type="image/jpeg" />
+      <enclosure url="http://localhost:4000/img/hilo-tensores-tatiana-leal.avif" type="image/jpeg" />
       
     </item>
     
@@ -1563,11 +1563,11 @@
     <a href="#" class="boton boton_principal" id="lead_whatsapp" title="WhatsApp de Tatiana Leal">Agenda tu cita ahora</a>
   </div>
 </aside>]]></content:encoded>
-      <link>https://dratatianaleal.com/es/tratamientos-faciales/lifting/</link>
-      <guid isPermaLink="true">https://dratatianaleal.com/es/tratamientos-faciales/lifting/</guid>
+      <link>http://localhost:4000/es/tratamientos-faciales/lifting/</link>
+      <guid isPermaLink="true">http://localhost:4000/es/tratamientos-faciales/lifting/</guid>
       
       
-      <enclosure url="https://dratatianaleal.com/img/lifting-facial.avif" type="image/jpeg" />
+      <enclosure url="http://localhost:4000/img/lifting-facial.avif" type="image/jpeg" />
       
     </item>
     
@@ -1768,11 +1768,11 @@
   </div>
 </aside>
 ]]></content:encoded>
-      <link>https://dratatianaleal.com/es/tratamientos-faciales/limpieza-facial/</link>
-      <guid isPermaLink="true">https://dratatianaleal.com/es/tratamientos-faciales/limpieza-facial/</guid>
+      <link>http://localhost:4000/es/tratamientos-faciales/limpieza-facial/</link>
+      <guid isPermaLink="true">http://localhost:4000/es/tratamientos-faciales/limpieza-facial/</guid>
       
       
-      <enclosure url="https://dratatianaleal.com/img/limpieza-facial-bogota.avif" type="image/jpeg" />
+      <enclosure url="http://localhost:4000/img/limpieza-facial-bogota.avif" type="image/jpeg" />
       
     </item>
     
@@ -1994,11 +1994,11 @@
     <a href="#" class="boton boton_principal" id="lead_whatsapp" title="WhatsApp de Tatiana Leal">Agenda tu cita ahora</a>
   </div>
 </aside>]]></content:encoded>
-      <link>https://dratatianaleal.com/es/tratamientos-faciales/ojeras/</link>
-      <guid isPermaLink="true">https://dratatianaleal.com/es/tratamientos-faciales/ojeras/</guid>
+      <link>http://localhost:4000/es/tratamientos-faciales/ojeras/</link>
+      <guid isPermaLink="true">http://localhost:4000/es/tratamientos-faciales/ojeras/</guid>
       
       
-      <enclosure url="https://dratatianaleal.com/img/tratamiento-ojeras.avif" type="image/jpeg" />
+      <enclosure url="http://localhost:4000/img/tratamiento-ojeras.avif" type="image/jpeg" />
       
     </item>
     
@@ -2221,11 +2221,11 @@
 </aside>
 </antArtifact>
 ]]></content:encoded>
-      <link>https://dratatianaleal.com/es/tratamientos-faciales/peeling-quimico/</link>
-      <guid isPermaLink="true">https://dratatianaleal.com/es/tratamientos-faciales/peeling-quimico/</guid>
+      <link>http://localhost:4000/es/tratamientos-faciales/peeling-quimico/</link>
+      <guid isPermaLink="true">http://localhost:4000/es/tratamientos-faciales/peeling-quimico/</guid>
       
       
-      <enclosure url="https://dratatianaleal.com/img/peeling-quimico-facial.avif" type="image/jpeg" />
+      <enclosure url="http://localhost:4000/img/peeling-quimico-facial.avif" type="image/jpeg" />
       
     </item>
     
@@ -2436,11 +2436,11 @@
     <a href="#" class="boton boton_principal" id="lead_whatsapp" title="WhatsApp de Tatiana Leal">Agenda tu cita ahora</a>
   </div>
 </aside>]]></content:encoded>
-      <link>https://dratatianaleal.com/es/tratamientos-faciales/plasma/</link>
-      <guid isPermaLink="true">https://dratatianaleal.com/es/tratamientos-faciales/plasma/</guid>
+      <link>http://localhost:4000/es/tratamientos-faciales/plasma/</link>
+      <guid isPermaLink="true">http://localhost:4000/es/tratamientos-faciales/plasma/</guid>
       
       
-      <enclosure url="https://dratatianaleal.com/img/tratamiento-plasma-rico-plaquetas.avif" type="image/jpeg" />
+      <enclosure url="http://localhost:4000/img/tratamiento-plasma-rico-plaquetas.avif" type="image/jpeg" />
       
     </item>
     
@@ -2553,11 +2553,11 @@
     <a href="#" class="boton boton_principal" id="lead_whatsapp" title="WhatsApp de Tatiana Leal">Agenda tu cita ahora</a>
   </div>
 </aside>]]></content:encoded>
-      <link>https://dratatianaleal.com/es/tratamientos-faciales/rejuve-face/</link>
-      <guid isPermaLink="true">https://dratatianaleal.com/es/tratamientos-faciales/rejuve-face/</guid>
+      <link>http://localhost:4000/es/tratamientos-faciales/rejuve-face/</link>
+      <guid isPermaLink="true">http://localhost:4000/es/tratamientos-faciales/rejuve-face/</guid>
       
       
-      <enclosure url="https://dratatianaleal.com/img/rejuvenecimiento-facial-bogota-colombia.avif" type="image/jpeg" />
+      <enclosure url="http://localhost:4000/img/rejuvenecimiento-facial-bogota-colombia.avif" type="image/jpeg" />
       
     </item>
     
@@ -2769,11 +2769,11 @@
   </div>
 </aside>
 ]]></content:encoded>
-      <link>https://dratatianaleal.com/es/tratamientos-faciales/rejuvenecimiento-laser/</link>
-      <guid isPermaLink="true">https://dratatianaleal.com/es/tratamientos-faciales/rejuvenecimiento-laser/</guid>
+      <link>http://localhost:4000/es/tratamientos-faciales/rejuvenecimiento-laser/</link>
+      <guid isPermaLink="true">http://localhost:4000/es/tratamientos-faciales/rejuvenecimiento-laser/</guid>
       
       
-      <enclosure url="https://dratatianaleal.com/img/tratamiento-rejuvenecimiento-facial.avif" type="image/jpeg" />
+      <enclosure url="http://localhost:4000/img/tratamiento-rejuvenecimiento-facial.avif" type="image/jpeg" />
       
     </item>
     
@@ -2986,11 +2986,11 @@
     <a href="#" class="boton boton_principal" id="lead_whatsapp" title="WhatsApp de Tatiana Leal">Agenda tu cita ahora</a>
   </div>
 </aside>]]></content:encoded>
-      <link>https://dratatianaleal.com/es/tratamientos-faciales/vitamina-c-facial/</link>
-      <guid isPermaLink="true">https://dratatianaleal.com/es/tratamientos-faciales/vitamina-c-facial/</guid>
+      <link>http://localhost:4000/es/tratamientos-faciales/vitamina-c-facial/</link>
+      <guid isPermaLink="true">http://localhost:4000/es/tratamientos-faciales/vitamina-c-facial/</guid>
       
       
-      <enclosure url="https://dratatianaleal.com/img/tratamiento-vitamina-c-facial.avif" type="image/jpeg" />
+      <enclosure url="http://localhost:4000/img/tratamiento-vitamina-c-facial.avif" type="image/jpeg" />
       
     </item>
     
@@ -3208,11 +3208,11 @@
     <a href="#" class="boton boton_principal" id="lead_whatsapp" title="WhatsApp de Tatiana Leal">Agenda tu cita ahora</a>
   </div>
 </aside>]]></content:encoded>
-      <link>https://dratatianaleal.com/es/tratamientos-corporales/celulitis/</link>
-      <guid isPermaLink="true">https://dratatianaleal.com/es/tratamientos-corporales/celulitis/</guid>
+      <link>http://localhost:4000/es/tratamientos-corporales/celulitis/</link>
+      <guid isPermaLink="true">http://localhost:4000/es/tratamientos-corporales/celulitis/</guid>
       
       
-      <enclosure url="https://dratatianaleal.com/img/tratamiento-celulitis.avif" type="image/jpeg" />
+      <enclosure url="http://localhost:4000/img/tratamiento-celulitis.avif" type="image/jpeg" />
       
     </item>
     
@@ -3434,11 +3434,11 @@
     <a href="#" class="boton boton_principal" id="lead_whatsapp" title="WhatsApp de Tatiana Leal">Agenda tu cita ahora</a>
   </div>
 </aside>]]></content:encoded>
-      <link>https://dratatianaleal.com/es/tratamientos-corporales/depilacion-laser/</link>
-      <guid isPermaLink="true">https://dratatianaleal.com/es/tratamientos-corporales/depilacion-laser/</guid>
+      <link>http://localhost:4000/es/tratamientos-corporales/depilacion-laser/</link>
+      <guid isPermaLink="true">http://localhost:4000/es/tratamientos-corporales/depilacion-laser/</guid>
       
       
-      <enclosure url="https://dratatianaleal.com/img/tratamiento-depilacion-laser.avif" type="image/jpeg" />
+      <enclosure url="http://localhost:4000/img/tratamiento-depilacion-laser.avif" type="image/jpeg" />
       
     </item>
     
@@ -3826,11 +3826,11 @@
     <a href="#" class="boton boton_principal" id="lead_whatsapp" title="WhatsApp de Tatiana Leal">Agenda tu cita ahora</a>
   </div>
 </aside>]]></content:encoded>
-      <link>https://dratatianaleal.com/es/tratamientos-corporales/eliminacion-tatuajes/</link>
-      <guid isPermaLink="true">https://dratatianaleal.com/es/tratamientos-corporales/eliminacion-tatuajes/</guid>
+      <link>http://localhost:4000/es/tratamientos-corporales/eliminacion-tatuajes/</link>
+      <guid isPermaLink="true">http://localhost:4000/es/tratamientos-corporales/eliminacion-tatuajes/</guid>
       
       
-      <enclosure url="https://dratatianaleal.com/img/eliminacion-tatuajes-laser.avif" type="image/jpeg" />
+      <enclosure url="http://localhost:4000/img/eliminacion-tatuajes-laser.avif" type="image/jpeg" />
       
     </item>
     
@@ -4104,177 +4104,221 @@
     <a href="#" class="boton boton_principal" id="lead_whatsapp" title="WhatsApp de Tatiana Leal">Agenda tu cita ahora</a>
   </div>
 </aside>]]></content:encoded>
-      <link>https://dratatianaleal.com/es/tratamientos-corporales/gluteos/</link>
-      <guid isPermaLink="true">https://dratatianaleal.com/es/tratamientos-corporales/gluteos/</guid>
+      <link>http://localhost:4000/es/tratamientos-corporales/gluteos/</link>
+      <guid isPermaLink="true">http://localhost:4000/es/tratamientos-corporales/gluteos/</guid>
       
       
-      <enclosure url="https://dratatianaleal.com/img/tratamiento-levantamiento-gluteos.avif" type="image/jpeg" />
+      <enclosure url="http://localhost:4000/img/tratamiento-levantamiento-gluteos.avif" type="image/jpeg" />
       
     </item>
     
     <item>
-      <title>Tonificación Muscular con HIFEM en Bogotá | Sculptor | Dra. Tatiana Leal</title>
-      <description>Tecnología HIFEM para tonificación muscular y reducción de grasa. Equivalente a 20.000 abdominales en 30 minutos. Resultados visibles desde la primera sesión.</description>
+      <title>Sculptor Tratamiento de Tonificación Muscular → Precio y Opiniones en Bogotá</title>
+      <description>Tratamiento Sculptor con tecnología HIFEM en Bogotá: equivalente a 20.000 abdominales en 30 minutos. Tonifica abdomen, glúteos, brazos y piernas. Resultados desde primera sesión.</description>
       <content:encoded><![CDATA[<main class="block_section">
-  <small class="block_section_header">Tecnología de tonificación avanzada</small>
-  <h2 class="block_section_title">Transforma tu cuerpo sin esfuerzo</h2>
+  <small class="block_section_header">Tratamiento Sculptor exclusivo en Bogotá</small>
+  <h2 class="block_section_title">Sculptor: adelgaza, tonifica, reafirma y reduce medidas en una sola sesión</h2>
   <div class="block_section_content">
-    <p>
-      Daniel llevaba meses en el gimnasio intentando definir su abdomen sin éxito. A pesar de su disciplina con la dieta y el ejercicio, esas últimas capas de grasa parecían resistentes a todo esfuerzo. "Necesito algo más efectivo, algo que realmente funcione", nos compartió en su primera consulta. Como él, muchas personas buscan resultados más rápidos y efectivos. Hoy, gracias a nuestra revolucionaria <strong>tecnología HIFEM (High-Intensity Focused Electromagnetic Technology)</strong>, Daniel y cientos de pacientes han logrado la definición muscular que buscaban, sin cirugías ni tiempo de recuperación.
-    </p>
+    <p>Daniel llevaba meses en el gimnasio intentando definir su abdomen sin éxito. A pesar de su disciplina con la dieta y el ejercicio, esas últimas capas de grasa parecían resistentes a todo esfuerzo. "Necesito algo más efectivo, algo que realmente funcione", nos compartió en su primera consulta.</p>
+    <p>Como él, muchas personas buscan resultados más rápidos y efectivos. Hoy, gracias al <strong>tratamiento Sculptor con tecnología HIFEM</strong> (High-Intensity Focused Electromagnetic Technology), Daniel y cientos de pacientes han logrado la definición muscular que buscaban, <i>sin cirugías ni tiempo de recuperación</i>.</p>
+    <p>Este revolucionario tratamiento genera <strong>contracciones musculares supramáximas</strong> que son imposibles de lograr con ejercicio voluntario, consiguiendo el equivalente a <strong>20.000 abdominales o sentadillas en solo 30 minutos</strong>. El resultado: aumento visible del volumen muscular y reducción de grasa localizada simultáneamente.</p>
   </div>
-  <img class="block_section_image_left" loading="lazy" decoding="async" title="Especialista realizando tratamiento de tonificación HIFEM" src="/img/tonificacion-muscular-hifem.avif" alt="Tratamiento de tonificación muscular con HIFEM" width="656" height="656">
+  <img class="block_section_image_left" loading="lazy" decoding="async" title="Tratamiento Sculptor para abdomen y glúteos" src="/img/tonificacion-muscular-hifem.avif" alt="Tratamiento Sculptor con tecnología HIFEM en Bogotá" width="656" height="656">
 
   <div class="block_section_knowledge flow padding">
-    <h3>¿Por qué elegir la tonificación con HIFEM?</h3>
+    <h3>Beneficios del tratamiento Sculptor</h3>
     <ul>
+      <li>Genera crecimiento muscular en volumen y fuerza</li>
+      <li>Moldea la figura y reduce la grasa localizada</li>
+      <li>No genera flacidez de forma secundaria</li>
       <li>Equivale a 20.000 repeticiones en solo 30 minutos</li>
       <li>Tratamiento no invasivo y sin dolor</li>
       <li>Resultados visibles desde la primera sesión</li>
-      <li>Reduce grasa y aumenta masa muscular simultáneamente</li>
       <li>Sin tiempo de recuperación</li>
-      <li>Tratamiento personalizado para tus objetivos</li>
-      <li>Tecnología aprobada internacionalmente</li>
+      <li>4 manípulos para trabajar dos zonas simultáneamente</li>
     </ul>
   </div>
-  <img class="block_section_image_right" loading="lazy" decoding="async" title="Especialista realizando tratamiento de tonificación HIFEM" src="/img/tonificacion-muscular-en-bogota.avif" alt="Tratamiento de tonificación muscular con HIFEM" width="656" height="656">
+  <img class="block_section_image_right" loading="lazy" decoding="async" title="Body Sculptor tratamiento corporal completo" src="/img/tonificacion-muscular-en-bogota.avif" alt="Tratamiento Sculptor para tonificación muscular en Bogotá" width="656" height="656">
 
 </main>
-
+<section class="two_columns" aria-labelledby="precio-section">
+  <div class="flow padding">
+    <h2 id="precio-section">Tratamiento Sculptor: Precios y planes</h2>
+    <p>El costo varía según zona y número de sesiones necesarias para tus objetivos específicos.</p>
+    
+    <table class="price-table">
+      <thead>
+        <tr>
+          <th>Plan</th>
+          <th>Descripción</th>
+          <th>Precio</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Básico</td>
+          <td>Sesión única</td>
+          <td>$140.000</td>
+        </tr>
+        <tr>
+          <td>Premium</td>
+          <td>8 sesiones</td>
+          <td>$900.000 (19.5% dto.)</td>
+        </tr>
+        <tr>
+          <td>Mantenimiento</td>
+          <td>Para pacientes</td>
+          <td>Precio especial</td>
+        </tr>
+      </tbody>
+    </table>
+    
+    <p>Agenda tu consulta para recibir una evaluación personalizada y un plan de tratamiento detallado.</p>
+  </div>
+  <figure class="two_columns-image">
+    <img src="/img/tratamiento-tonificacion-bogota.avif" title="Precio tratamiento Sculptor en Bogotá" alt="Sesión de tratamiento Sculptor con tecnología HIFEM" loading="lazy" decoding="async" width="940" height="600">
+  </figure>
+</section>
+<blockquote class="intro">
+  <p>Agenda tu consulta hoy y descubre cómo el tratamiento Sculptor puede transformar tu cuerpo en pocas sesiones.</p>
+  <a href="#" class="boton boton_principal" id="lead_whatsapp" title="WhatsApp de Tatiana Leal">Agenda tu cita ahora</a>
+</blockquote>
 <section class="padding flow">
   <header class="intro">
-    <small>Tecnología de vanguardia</small>
-    <h2>El poder de la tecnología HIFEM</h2>
+    <small>¿Qué es el tratamiento Sculptor?</small>
+    <h2>Tecnología HIFEM: la revolución en tonificación muscular</h2>
   </header>
 
-  <section aria-labelledby="tratamiento-section" class="flow">
-    <h3 id="tratamiento-section">Transformación corporal completa</h3>
-    <div class="two_columns padding">
-      <div class="treatment-option flow">
-        <h4>Tonificación multifocal</h4>
-        <p>Nuestro equipo cuenta con 4 manipulos para trabajar simultáneamente:</p>
-        <ul>
-          <li>Abdomen y glúteos en una misma sesión</li>
-          <li>Brazos y piernas simultáneamente</li>
-          <li>Máxima eficiencia en tiempo</li>
-          <li>Resultados uniformes y equilibrados</li>
-        </ul>
+  <div class="block_section_content flow intro">
+    <p>El <strong>tratamiento Sculptor</strong> utiliza tecnología HIFEM (electromagnética focalizada de alta intensidad) para generar <strong>contracciones musculares supramáximas</strong>, que son imposibles de lograr con la acción voluntaria. Estas contracciones provocan un estrés extremo en las fibras musculares, obligándolas a adaptarse y crecer, consiguiendo así el aumento en el volumen muscular.</p>
+    
+    <p>A diferencia de otros tratamientos, Sculptor es <strong>100% no invasivo</strong> y se realiza a través de <strong>4 manípulos</strong> (dos grandes y dos medianos) que se colocan sobre la piel. Estos manípulos permiten trabajar dos zonas corporales al mismo tiempo, maximizando la eficiencia del tratamiento.</p>
+    
+    <p>Durante el procedimiento, los pacientes experimentan intensas contracciones musculares mientras descansan cómodamente. No hay dolor, solo la sensación de un entrenamiento de alta intensidad, pero sin el esfuerzo físico asociado.</p>
+  </div>
+
+  <section aria-labelledby="zonas-section" class="intro flow">
+    <h3 id="zonas-section">Áreas del cuerpo donde se puede aplicar el tratamiento Sculptor</h3>
+    
+    <div class="service-cards">
+      <div class="card">
+        <h4>Abdomen</h4>
+        <p>El tratamiento Sculptor en abdomen fortalece los músculos abdominales profundos, definiendo el "six-pack" y mejorando la fuerza del core. Ideal para eliminar la grasa resistente y conseguir un abdomen plano y tonificado.</p>
+        <img src="/img/sculptor-tratamiento-abdomen.avif" alt="Sculptor tratamiento abdomen" loading="lazy" decoding="async" width="300" height="200">
       </div>
 
-      <div class="treatment-option flow">
-        <h4>Zonas de tratamiento</h4>
-        <p>Resultados excepcionales en áreas específicas:</p>
-        <ul>
-          <li>Abdomen: definición y fuerza core</li>
-          <li>Glúteos: volumen y firmeza</li>
-          <li>Brazos: tonificación y definición</li>
-          <li>Piernas: fortalecimiento y modelado</li>
-        </ul>
+      <div class="card">
+        <h4>Glúteos</h4>
+        <p>El tratamiento Sculptor para glúteos aumenta su volumen y firmeza, creando un efecto de levantamiento natural. Las contracciones supramáximas fortalecen todos los músculos glúteos para un contorno más definido.</p>
+        <img src="/img/sculptor-tratamiento-gluteos.avif" alt="Sculptor tratamiento glúteos" loading="lazy" decoding="async" width="300" height="200">
+      </div>
+
+      <div class="card">
+        <h4>Brazos</h4>
+        <p>Tonifica y define los músculos de los brazos, combatiendo la flacidez y dando forma a bíceps y tríceps. Ideal para quienes buscan brazos firmes y definidos sin horas de pesas.</p>
+        <img src="/img/sculptor-tratamiento-brazos.avif" alt="Tratamiento Sculptor para brazos" loading="lazy" decoding="async" width="300" height="200">
+      </div>
+
+      <div class="card">
+        <h4>Muslos y piernas</h4>
+        <p>El tratamiento Sculptor fortalece cuádriceps y músculos posteriores del muslo, mejorando el contorno de las piernas y reduciendo la apariencia de celulitis por el aumento de tono muscular.</p>
+        <img src="/img/sculptor-tratamiento-piernas.avif" alt="Tratamiento Sculptor para muslos" loading="lazy" decoding="async" width="300" height="200">
       </div>
     </div>
-      
-    <blockquote class="intro">
-      <p>Agenda tu consulta hoy y descubre cómo la tecnología HIFEM puede transformar tu cuerpo.</p>
-      <a href="#" class="boton boton_principal" id="lead_whatsapp" title="WhatsApp de Tatiana Leal">Agenda tu cita ahora</a>
-    </blockquote>
   </section>
 </section>
 
-<section class="two_columns seccion" aria-labelledby="experiencia-section">
+
+<section class="two_columns two_columns_left seccion" aria-labelledby="opinion-section">
   <div class="flow padding">
-    <h2 id="experiencia-section">Tu experiencia de transformación</h2>
-    <p>Marina, una ejecutiva de 38 años, buscaba tonificar su cuerpo sin sacrificar horas en el gimnasio. "Con mi agenda tan apretada, necesitaba algo efectivo que se ajustara a mi tiempo", nos compartió. Hoy, después de completar sus sesiones, ha logrado la definición que buscaba.</p>
-    <p>Tu journey comenzará con:</p>
-    <ul>
-      <li>Evaluación personalizada de objetivos</li>
-      <li>Plan de tratamiento a medida</li>
-      <li>Sesiones de 30 minutos de alta efectividad</li>
-      <li>Guía nutricional complementaria</li>
-      <li>Seguimiento detallado de resultados</li>
-    </ul>
+    <h2 id="opinion-section">Opiniones sobre el tratamiento Sculptor</h2>
+    <p>Índice de satisfacción superior al 90% entre nuestros pacientes. Destacan la comodidad y efectividad para zonas resistentes al ejercicio convencional.</p>
+    <div class="intro">
+      <h3>Experiencias reales con el tratamiento Sculptor</h3>
+      <div class="testimonial-grid">
+        <blockquote class="testimonial-card">
+          <p>"Después de dos embarazos, mi abdomen necesitaba ayuda extra. Con 6 sesiones recuperé la firmeza que tenía antes. ¡Los resultados son impresionantes!"</p>
+          <cite>— María, 36 años</cite>
+        </blockquote>
+        
+        <blockquote class="testimonial-card">
+          <p>"Probé durante meses definir mis abdominales en el gimnasio sin éxito. El tratamiento Sculptor consiguió en 4 sesiones lo que no logré en un año de ejercicio."</p>
+          <cite>— Carlos, 42 años</cite>
+        </blockquote>
+        
+        <blockquote class="testimonial-card">
+          <p>"Buscaba volumen en mis glúteos sin recurrir a cirugías. El tratamiento no solo aumentó su tamaño sino que mejoró notablemente su firmeza."</p>
+          <cite>— Laura, 29 años</cite>
+        </blockquote>
+      </div>
+    </div>
   </div>
   <figure class="two_columns-image">
-    <img src="/img/tratamiento-tonificacion-bogota.avif" title="Tratamiento de tonificación muscular profesional" alt="Sesión de tonificación con HIFEM" loading="lazy" decoding="async" width="940" height="600">
+    <img src="/img/resultados-tonificacion-hifem.avif" title="Opiniones sobre tratamiento Sculptor" alt="Antes y después del tratamiento Sculptor con tecnología HIFEM" loading="lazy" decoding="async" width="940" height="600">
   </figure>
 </section>
 
-<section class="two_columns two_columns_left" aria-labelledby="resultados-section">
-  <div class="flow padding">
-    <h2 id="resultados-section">Resultados reales y medibles</h2>
-    <p>Nuestros pacientes experimentan:</p>
-    <ul role="list">
-      <li>Aumento visible en el volumen muscular</li>
-      <li>Reducción de grasa localizada</li>
-      <li>Mayor fuerza y resistencia muscular</li>
-      <li>Definición corporal mejorada</li>
-      <li>Resultados duraderos con mantenimiento adecuado</li>
-    </ul>
+<section class="padding flow" aria-labelledby="protocolo-section">
+  <div>
+    <h2 id="protocolo-section">Protocolo completo del tratamiento Sculptor</h2>
+    <p>Para maximizar los resultados, trabajamos con un enfoque integral:</p>
+    
+    <div class="service-cards">
+      <div class="card">
+        <h3>1. Evaluación personalizada</h3>
+        <p>Análisis completo de tu composición corporal y definición de objetivos realistas según tu biotipo y necesidades.</p>
+      </div>
+      
+      <div class="card">
+        <h3>2. Plan de tratamiento</h3>
+        <p>Diseño de programa específico determinando número de sesiones, áreas a tratar y frecuencia óptima para tus objetivos.</p>
+      </div>
+      
+      <div class="card">
+        <h3>3. Sesiones de tratamiento</h3>
+        <p>Durante 30 minutos, los 4 manípulos generan contracciones supramáximas en las zonas seleccionadas mientras te relajas.</p>
+      </div>
+      
+      <div class="card">
+        <h3>4. Recomendaciones</h3>
+        <p>Guías dietéticas y ejercicios específicos de solo 10 minutos diarios que potenciarán tus resultados.</p>
+      </div>
+      
+      <div class="card">
+        <h3>5. Seguimiento</h3>
+        <p>Monitoreo de progreso con mediciones y fotografías comparativas, ajustando el plan según la evolución.</p>
+      </div>
+    </div>
   </div>
-  <figure class="two_columns-image">
-    <img src="/img/resultados-tonificacion-hifem.avif" title="Resultados del tratamiento de tonificación" alt="Antes y después de tonificación con HIFEM" loading="lazy" decoding="async" width="940" height="600">
-  </figure>
 </section>
 
 <aside class="parallax padding parallax_tonificacion">
   <div class="parallax_copy intro flow">
-    <h2>Logra el cuerpo que deseas sin cirugías</h2>
-    <p>La tecnología HIFEM revoluciona la tonificación muscular, ofreciéndote resultados equivalentes a meses de ejercicio en pocas sesiones. Tu transformación comienza aquí.</p>
+    <h2>Perfeccionando el reflejo de tu belleza interior</h2>
+    <p>El tratamiento Sculptor revoluciona la tonificación muscular, ofreciéndote resultados equivalentes a meses de ejercicio en pocas sesiones. Adelgaza, tonifica, reafirma y reduce medidas con tecnología de vanguardia.</p>
     <a href="#" class="boton boton_principal" id="lead_whatsapp" title="WhatsApp de Tatiana Leal">Agenda tu cita ahora</a>
   </div>
 </aside>
 
-<section class="padding" aria-labelledby="faq-section">
-  <div class="intro flow">
-    <h2 id="faq-section">Preguntas frecuentes sobre tonificación HIFEM</h2>
-
-    <div class="accordion" role="tablist">
-      
-      <input type="checkbox" id="acc1" class="accordion-toggle" role="tab">
-      <label for="acc1" class="accordion-header">¿Cuánto tiempo dura cada sesión?</label>
-      <div class="accordion-content" role="tabpanel">
-        <p>Las sesiones tienen una duración de 30 minutos, equivalentes a realizar 20.000 repeticiones de ejercicio. Podrás retomar tus actividades inmediatamente.</p>
-      </div>
-      
-      <input type="checkbox" id="acc2" class="accordion-toggle" role="tab">
-      <label for="acc2" class="accordion-header">¿Es doloroso el tratamiento?</label>
-      <div class="accordion-content" role="tabpanel">
-        <p>No. Sentirás contracciones musculares intensas pero no dolorosas. La tecnología HIFEM está diseñada para ser completamente confortable.</p>
-      </div>
-      
-      <input type="checkbox" id="acc3" class="accordion-toggle" role="tab">
-      <label for="acc3" class="accordion-header">¿Cuándo empiezo a ver resultados?</label>
-      <div class="accordion-content" role="tabpanel">
-        <p>La mayoría de pacientes nota cambios en la tonificación muscular desde la primera sesión. Los resultados óptimos se observan después de completar el plan de tratamiento recomendado.</p>
-      </div>
-      
-      <input type="checkbox" id="acc4" class="accordion-toggle" role="tab">
-      <label for="acc4" class="accordion-header">¿Es seguro el tratamiento?</label>
-      <div class="accordion-content" role="tabpanel">
-        <p>Sí. La tecnología HIFEM está aprobada internacionalmente y ha demostrado ser segura y efectiva para tonificación muscular y reducción de grasa localizada.</p>
-      </div>
-      
-    </div>
-  </div>
-</section>
-
-
-<!-- <section class="seccion padding">
+  
+  
+  <section class="seccion padding">
   <header class="intro flow">
-    <h2>Resultados reales: Tonificación muscular avanzada con tecnología HIFEM</h2>
+    <h2>Resultados reales: Tratamiento Sculptor: Tonificación muscular y reducción de grasa sin cirugía</h2>
     <p>Transforma tu apariencia con resultados naturales comprobados</p>
   </header>
   <div class="before-after-section">
     
     <div class="before-after-case">
-      <h3>Tonificación abdominal</h3>
+      <h3>Sculptor tratamiento abdomen - Antes y después</h3>
       <div class="before-after-container">
         <div class="before-after-wrapper">
           <div class="after-image-container">
-            <img class="after-image" src="/img/tonificacion-abdomen-despues.avif" alt="Después del Tonificación abdominal" loading="lazy" decoding="async" width="800" height="600">
+            <img class="after-image" src="/img/tonificacion-abdomen-despues.avif" alt="Después del Sculptor tratamiento abdomen - Antes y después" loading="lazy" decoding="async" width="800" height="600">
           </div>
           
           <div class="before-image-container">
-            <img class="before-image" src="/img/tonificacion-abdomen-antes.avif" alt="Antes del Tonificación abdominal" loading="lazy" decoding="async" width="800" height="600">
+            <img class="before-image" src="/img/tonificacion-abdomen-antes.avif" alt="Antes del Sculptor tratamiento abdomen - Antes y después" loading="lazy" decoding="async" width="800" height="600">
           </div>
           <div class="slider-line">
             <div class="slider-button" aria-label="Deslizar para comparar">
@@ -4287,19 +4331,19 @@
           <span class="compare-label after">After</span>
         </div>
       </div>
-      <p class="case-description">Paciente de 32 años después de 4 sesiones de HIFEM. Notable mejora en definición muscular y reducción de grasa localizada.</p>
+      <p class="case-description">Paciente de 32 años después de 4 sesiones de tratamiento Sculptor. Notable mejora en definición muscular y reducción de grasa localizada en abdomen.</p>
     </div>
     
     <div class="before-after-case">
-      <h3>Definición de glúteos</h3>
+      <h3>Sculptor tratamiento glúteos - Resultados reales</h3>
       <div class="before-after-container">
         <div class="before-after-wrapper">
           <div class="after-image-container">
-            <img class="after-image" src="/img/tonificacion-gluteos-despues.avif" alt="Después del Definición de glúteos" loading="lazy" decoding="async" width="800" height="600">
+            <img class="after-image" src="/img/tonificacion-gluteos-despues.avif" alt="Después del Sculptor tratamiento glúteos - Resultados reales" loading="lazy" decoding="async" width="800" height="600">
           </div>
           
           <div class="before-image-container">
-            <img class="before-image" src="/img/tonificacion-gluteos-antes.avif" alt="Antes del Definición de glúteos" loading="lazy" decoding="async" width="800" height="600">
+            <img class="before-image" src="/img/tonificacion-gluteos-antes.avif" alt="Antes del Sculptor tratamiento glúteos - Resultados reales" loading="lazy" decoding="async" width="800" height="600">
           </div>
           <div class="slider-line">
             <div class="slider-button" aria-label="Deslizar para comparar">
@@ -4312,25 +4356,108 @@
           <span class="compare-label after">After</span>
         </div>
       </div>
-      <p class="case-description">Resultados después de 6 sesiones, mostrando significativo aumento en volumen y firmeza muscular.</p>
+      <p class="case-description">Resultados del tratamiento Sculptor después de 6 sesiones, mostrando significativo aumento en volumen y firmeza muscular en glúteos.</p>
+    </div>
+    
+    <div class="before-after-case">
+      <h3>Body Sculptor tratamiento completo</h3>
+      <div class="before-after-container">
+        <div class="before-after-wrapper">
+          <div class="after-image-container">
+            <img class="after-image" src="/img/tonificacion-completa-despues.avif" alt="Después del Body Sculptor tratamiento completo" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          
+          <div class="before-image-container">
+            <img class="before-image" src="/img/tonificacion-completa-antes.avif" alt="Antes del Body Sculptor tratamiento completo" loading="lazy" decoding="async" width="800" height="600">
+          </div>
+          <div class="slider-line">
+            <div class="slider-button" aria-label="Deslizar para comparar">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12H3M8 17l-5-5 5-5M16 17l5-5-5-5"></path>
+              </svg>
+            </div>
+          </div>
+          <span class="compare-label before">Before</span>
+          <span class="compare-label after">After</span>
+        </div>
+      </div>
+      <p class="case-description">Transformación corporal con tratamiento Sculptor en múltiples zonas, evidenciando reducción de medidas y tonificación integral.</p>
     </div>
     
   </div>
-</section> -->
+</section>
+  
 
+<section class="padding" aria-labelledby="faq-section">
+  <div class="intro flow">
+    <h2 id="faq-section">Preguntas frecuentes sobre el tratamiento Sculptor</h2>
+
+    <div class="accordion" role="tablist">
+      
+      <input type="checkbox" id="acc1" class="accordion-toggle" role="tab">
+      <label for="acc1" class="accordion-header">¿Qué es el tratamiento Sculptor y cómo funciona?</label>
+      <div class="accordion-content" role="tabpanel">
+        <p>El tratamiento Sculptor utiliza tecnología HIFEM (electromagnética focalizada de alta intensidad) que genera contracciones musculares supramáximas imposibles de lograr voluntariamente. En una sesión de 30 minutos, produce el equivalente a realizar 20.000 abdominales o sentadillas. Estas contracciones provocan un aumento en el volumen muscular y simultáneamente reducen la grasa localizada, todo sin cirugía ni tiempo de recuperación.</p>
+      </div>
+      
+      <input type="checkbox" id="acc2" class="accordion-toggle" role="tab">
+      <label for="acc2" class="accordion-header">¿Cuánto cuesta el tratamiento Sculptor y cuántas sesiones se necesitan?</label>
+      <div class="accordion-content" role="tabpanel">
+        <p>El precio del tratamiento Sculptor varía según la zona a tratar y el número de sesiones recomendadas. En general, el paquete básico comienza desde $XXX por sesión, con descuentos disponibles al adquirir planes completos. Para obtener resultados óptimos, se recomienda un protocolo de 4 a 8 sesiones, con sesiones de mantenimiento posterior. Durante tu consulta, recibirás un plan personalizado con precios exactos.</p>
+      </div>
+      
+      <input type="checkbox" id="acc3" class="accordion-toggle" role="tab">
+      <label for="acc3" class="accordion-header">¿En qué zonas se puede aplicar el tratamiento Sculptor?</label>
+      <div class="accordion-content" role="tabpanel">
+        <p>El tratamiento Sculptor es efectivo en múltiples áreas corporales: abdomen (para definir y fortalecer el core), glúteos (aumentando volumen y firmeza), brazos (mejorando tono y definición), muslos y piernas (fortalecimiento y modelado). Gracias a sus 4 manípulos (2 grandes y 2 medianos), podemos trabajar dos zonas corporales simultáneamente, maximizando los resultados en menos tiempo.</p>
+      </div>
+      
+      <input type="checkbox" id="acc4" class="accordion-toggle" role="tab">
+      <label for="acc4" class="accordion-header">¿Cuáles son las opiniones sobre el tratamiento Sculptor?</label>
+      <div class="accordion-content" role="tabpanel">
+        <p>Las opiniones sobre el tratamiento Sculptor son mayoritariamente positivas, con un índice de satisfacción superior al 90% entre nuestros pacientes. Los usuarios destacan la rapidez de resultados, la comodidad del procedimiento y la efectividad para tonificar zonas resistentes al ejercicio convencional. Muchos señalan la ventaja de poder tonificar el abdomen y glúteos sin el esfuerzo y tiempo que requeriría en el gimnasio, con resultados visibles desde las primeras sesiones.</p>
+      </div>
+      
+      <input type="checkbox" id="acc5" class="accordion-toggle" role="tab">
+      <label for="acc5" class="accordion-header">¿Cuánto tiempo dura cada sesión de Sculptor?</label>
+      <div class="accordion-content" role="tabpanel">
+        <p>Las sesiones de tratamiento Sculptor tienen una duración precisa de 30 minutos, equivalentes a realizar 20.000 repeticiones de ejercicio. Gracias a los 4 manípulos, podemos trabajar dos zonas simultáneamente (por ejemplo, abdomen y glúteos) optimizando tu tiempo. Podrás retomar tus actividades inmediatamente después del tratamiento, sin tiempo de recuperación.</p>
+      </div>
+      
+      <input type="checkbox" id="acc6" class="accordion-toggle" role="tab">
+      <label for="acc6" class="accordion-header">¿Es doloroso el tratamiento Sculptor?</label>
+      <div class="accordion-content" role="tabpanel">
+        <p>No. Durante el tratamiento Sculptor sentirás contracciones musculares intensas pero no dolorosas. La sensación es similar a un entrenamiento muscular de alta intensidad, pero sin el esfuerzo físico asociado. La tecnología HIFEM está calibrada para maximizar la contracción muscular manteniendo el confort del paciente en todo momento.</p>
+      </div>
+      
+      <input type="checkbox" id="acc7" class="accordion-toggle" role="tab">
+      <label for="acc7" class="accordion-header">¿Cuándo empiezo a ver resultados con el tratamiento Sculptor?</label>
+      <div class="accordion-content" role="tabpanel">
+        <p>La mayoría de pacientes nota cambios en la tonificación muscular desde la primera sesión del tratamiento Sculptor. Los resultados continúan mejorando progresivamente, con cambios más evidentes después de la tercera o cuarta sesión. Los resultados óptimos se observan aproximadamente 2-4 semanas después de completar el protocolo completo recomendado, cuando el músculo ha tenido tiempo de desarrollarse completamente.</p>
+      </div>
+      
+      <input type="checkbox" id="acc8" class="accordion-toggle" role="tab">
+      <label for="acc8" class="accordion-header">¿El tratamiento Sculptor elimina la flacidez?</label>
+      <div class="accordion-content" role="tabpanel">
+        <p>Sí, una de las ventajas exclusivas del tratamiento Sculptor es que no genera flacidez de forma secundaria, a diferencia de otros procedimientos reductivos. Al contrario, combate la flacidez existente mediante dos mecanismos: aumentando el volumen muscular que da soporte a la piel y reduciendo la grasa localizada de forma gradual, permitiendo que la piel se adapte progresivamente. Esto resulta en un aspecto más firme y tonificado en las áreas tratadas.</p>
+      </div>
+      
+    </div>
+  </div>
+</section>
 
 <aside class="padding" id="consulta">
   <div class="intro flow">
-    <h2>Transforma tu cuerpo con tecnología de vanguardia</h2>
-    <p>No esperes más para lograr la definición muscular que deseas. Agenda tu consulta hoy y descubre cómo la tecnología HIFEM puede ayudarte a alcanzar tus objetivos.</p>
+    <h2>Transforma tu cuerpo con el tratamiento Sculptor</h2>
+    <p>No esperes más para conseguir el cuerpo que deseas. Adelgaza, tonifica, reafirma y reduce medidas con el tratamiento Sculptor. Agenda tu consulta hoy mismo y recibe un plan personalizado con precios exactos.</p>
     <a href="#" class="boton boton_principal" id="lead_whatsapp" title="WhatsApp de Tatiana Leal">Agenda tu cita ahora</a>
   </div>
 </aside>]]></content:encoded>
-      <link>https://dratatianaleal.com/es/tratamientos-corporales/hifem-sculptor/</link>
-      <guid isPermaLink="true">https://dratatianaleal.com/es/tratamientos-corporales/hifem-sculptor/</guid>
+      <link>http://localhost:4000/es/tratamientos-corporales/hifem-sculptor/</link>
+      <guid isPermaLink="true">http://localhost:4000/es/tratamientos-corporales/hifem-sculptor/</guid>
       
       
-      <enclosure url="https://dratatianaleal.com/img/tonificacion-muscular-sculptor.avif" type="image/jpeg" />
+      <enclosure url="http://localhost:4000/img/tonificacion-muscular-sculptor.avif" type="image/jpeg" />
       
     </item>
     
@@ -4604,11 +4731,11 @@
     </div>
   </aside>
 </section>]]></content:encoded>
-      <link>https://dratatianaleal.com/es/tratamientos-corporales/lipolisis/</link>
-      <guid isPermaLink="true">https://dratatianaleal.com/es/tratamientos-corporales/lipolisis/</guid>
+      <link>http://localhost:4000/es/tratamientos-corporales/lipolisis/</link>
+      <guid isPermaLink="true">http://localhost:4000/es/tratamientos-corporales/lipolisis/</guid>
       
       
-      <enclosure url="https://dratatianaleal.com/img/lipolisis-laser-en-bogota.avif" type="image/jpeg" />
+      <enclosure url="http://localhost:4000/img/lipolisis-laser-en-bogota.avif" type="image/jpeg" />
       
     </item>
     
@@ -4921,11 +5048,11 @@
     <a href="#" class="boton boton_principal" id="lead_whatsapp" title="WhatsApp de Tatiana Leal">Agenda tu cita ahora</a>
   </div>
 </aside>]]></content:encoded>
-      <link>https://dratatianaleal.com/es/tratamientos-corporales/moldeamiento/</link>
-      <guid isPermaLink="true">https://dratatianaleal.com/es/tratamientos-corporales/moldeamiento/</guid>
+      <link>http://localhost:4000/es/tratamientos-corporales/moldeamiento/</link>
+      <guid isPermaLink="true">http://localhost:4000/es/tratamientos-corporales/moldeamiento/</guid>
       
       
-      <enclosure url="https://dratatianaleal.com/img/tratamiento-moldeamiento-corporal.avif" type="image/jpeg" />
+      <enclosure url="http://localhost:4000/img/tratamiento-moldeamiento-corporal.avif" type="image/jpeg" />
       
     </item>
     
@@ -5147,11 +5274,11 @@
     <a href="#" class="boton boton_principal" id="lead_whatsapp" title="WhatsApp de Tatiana Leal">Agenda tu cita ahora</a>
   </div>
 </aside>]]></content:encoded>
-      <link>https://dratatianaleal.com/es/tratamientos-corporales/radiofrecuencia/</link>
-      <guid isPermaLink="true">https://dratatianaleal.com/es/tratamientos-corporales/radiofrecuencia/</guid>
+      <link>http://localhost:4000/es/tratamientos-corporales/radiofrecuencia/</link>
+      <guid isPermaLink="true">http://localhost:4000/es/tratamientos-corporales/radiofrecuencia/</guid>
       
       
-      <enclosure url="https://dratatianaleal.com/img/tratamiento-radiofrecuencia-estetica.avif" type="image/jpeg" />
+      <enclosure url="http://localhost:4000/img/tratamiento-radiofrecuencia-estetica.avif" type="image/jpeg" />
       
     </item>
     
@@ -5309,11 +5436,11 @@
     <a href="#" class="boton boton_principal" id="lead_whatsapp" title="WhatsApp de Tatiana Leal">Agenda tu cita ahora</a>
   </div>
 </aside>]]></content:encoded>
-      <link>https://dratatianaleal.com/es/tratamientos-corporales/sueroterapia-detox/</link>
-      <guid isPermaLink="true">https://dratatianaleal.com/es/tratamientos-corporales/sueroterapia-detox/</guid>
+      <link>http://localhost:4000/es/tratamientos-corporales/sueroterapia-detox/</link>
+      <guid isPermaLink="true">http://localhost:4000/es/tratamientos-corporales/sueroterapia-detox/</guid>
       
       
-      <enclosure url="https://dratatianaleal.com/img/sueroterapia-detox.avif" type="image/jpeg" />
+      <enclosure url="http://localhost:4000/img/sueroterapia-detox.avif" type="image/jpeg" />
       
     </item>
     
@@ -5545,11 +5672,11 @@
     <a href="#" class="boton boton_principal" id="lead_whatsapp" title="WhatsApp de Tatiana Leal">Agenda tu cita ahora</a>
   </div>
 </aside>]]></content:encoded>
-      <link>https://dratatianaleal.com/es/tratamientos-corporales/varices/</link>
-      <guid isPermaLink="true">https://dratatianaleal.com/es/tratamientos-corporales/varices/</guid>
+      <link>http://localhost:4000/es/tratamientos-corporales/varices/</link>
+      <guid isPermaLink="true">http://localhost:4000/es/tratamientos-corporales/varices/</guid>
       
       
-      <enclosure url="https://dratatianaleal.com/img/varices-centro-estetico-bogota.avif" type="image/jpeg" />
+      <enclosure url="http://localhost:4000/img/varices-centro-estetico-bogota.avif" type="image/jpeg" />
       
     </item>
     
@@ -5749,11 +5876,11 @@
   </div>
 </aside>
 ]]></content:encoded>
-      <link>https://dratatianaleal.com/es/tratamientos-intimos/aclaramiento-genital/</link>
-      <guid isPermaLink="true">https://dratatianaleal.com/es/tratamientos-intimos/aclaramiento-genital/</guid>
+      <link>http://localhost:4000/es/tratamientos-intimos/aclaramiento-genital/</link>
+      <guid isPermaLink="true">http://localhost:4000/es/tratamientos-intimos/aclaramiento-genital/</guid>
       
       
-      <enclosure url="https://dratatianaleal.com/img/aclaramiento-genital-tratamiento.avif" type="image/jpeg" />
+      <enclosure url="http://localhost:4000/img/aclaramiento-genital-tratamiento.avif" type="image/jpeg" />
       
     </item>
     
@@ -5940,11 +6067,11 @@
     <a href="#" class="boton boton_principal" id="lead_whatsapp" title="WhatsApp de Tatiana Leal">Agenda tu cita ahora</a>
   </div>
 </aside>]]></content:encoded>
-      <link>https://dratatianaleal.com/es/tratamientos-intimos/aumento-labios-mayores/</link>
-      <guid isPermaLink="true">https://dratatianaleal.com/es/tratamientos-intimos/aumento-labios-mayores/</guid>
+      <link>http://localhost:4000/es/tratamientos-intimos/aumento-labios-mayores/</link>
+      <guid isPermaLink="true">http://localhost:4000/es/tratamientos-intimos/aumento-labios-mayores/</guid>
       
       
-      <enclosure url="https://dratatianaleal.com/img/aumento-labios-mayores-tratamiento.avif" type="image/jpeg" />
+      <enclosure url="http://localhost:4000/img/aumento-labios-mayores-tratamiento.avif" type="image/jpeg" />
       
     </item>
     
@@ -6139,11 +6266,11 @@
     <a href="#" class="boton boton_principal" id="lead_whatsapp" title="WhatsApp de Tatiana Leal">Agenda tu cita ahora</a>
   </div>
 </aside>]]></content:encoded>
-      <link>https://dratatianaleal.com/es/tratamientos-intimos/incontinencia-urinaria-esfuerzo/</link>
-      <guid isPermaLink="true">https://dratatianaleal.com/es/tratamientos-intimos/incontinencia-urinaria-esfuerzo/</guid>
+      <link>http://localhost:4000/es/tratamientos-intimos/incontinencia-urinaria-esfuerzo/</link>
+      <guid isPermaLink="true">http://localhost:4000/es/tratamientos-intimos/incontinencia-urinaria-esfuerzo/</guid>
       
       
-      <enclosure url="https://dratatianaleal.com/img/tratamiento-incontinencia-urinaria.avif" type="image/jpeg" />
+      <enclosure url="http://localhost:4000/img/tratamiento-incontinencia-urinaria.avif" type="image/jpeg" />
       
     </item>
     
@@ -6249,11 +6376,11 @@
     </div>
   </div>
 </section>]]></content:encoded>
-      <link>https://dratatianaleal.com/es/tratamientos-intimos/lesiones-benignas/</link>
-      <guid isPermaLink="true">https://dratatianaleal.com/es/tratamientos-intimos/lesiones-benignas/</guid>
+      <link>http://localhost:4000/es/tratamientos-intimos/lesiones-benignas/</link>
+      <guid isPermaLink="true">http://localhost:4000/es/tratamientos-intimos/lesiones-benignas/</guid>
       
       
-      <enclosure url="https://dratatianaleal.com/img/tratamiento-lesiones-benignas.avif" type="image/jpeg" />
+      <enclosure url="http://localhost:4000/img/tratamiento-lesiones-benignas.avif" type="image/jpeg" />
       
     </item>
     
@@ -6445,11 +6572,11 @@
     <a href="#" class="boton boton_principal" id="lead_whatsapp" title="WhatsApp de Tatiana Leal">Agenda tu cita ahora</a>
   </div>
 </aside>]]></content:encoded>
-      <link>https://dratatianaleal.com/es/tratamientos-intimos/rejuvenecimiento-vaginal/</link>
-      <guid isPermaLink="true">https://dratatianaleal.com/es/tratamientos-intimos/rejuvenecimiento-vaginal/</guid>
+      <link>http://localhost:4000/es/tratamientos-intimos/rejuvenecimiento-vaginal/</link>
+      <guid isPermaLink="true">http://localhost:4000/es/tratamientos-intimos/rejuvenecimiento-vaginal/</guid>
       
       
-      <enclosure url="https://dratatianaleal.com/img/rejuvenecimiento-vaginal-laser.avif" type="image/jpeg" />
+      <enclosure url="http://localhost:4000/img/rejuvenecimiento-vaginal-laser.avif" type="image/jpeg" />
       
     </item>
     
