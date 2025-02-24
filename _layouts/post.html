@@ -41,7 +41,7 @@ layout: default
     
     <hr>
     
-    <h4>{% if page.lang == "es" %}Info relacionada{% else %}Related info{% endif %}</h4>
+    <h4>{% if page.lang == "es" %}Temas relacionados{% else %}Related topics{% endif %}</h4>
     
     {% assign posts_in_lang = site.posts | where: "lang", page.lang %}
     {% assign related_posts = "" | split: "" %}
@@ -62,10 +62,10 @@ layout: default
             <img src="{{ post.hero | relative_url }}" 
                  alt="{{ post.altheader | default: post.title }}" 
                  title="{{ post.imgtitle-header | default: post.title }}" 
-                 loading="lazy" width="40" height="40"
+                 loading="lazy" width="120" height="88"
                  decoding="async" >
           {% endif %}
-          <h5>{{ post.title }}</h5>
+          <h5>{{ post.title }}.</h5>
         </a>
       </div>
     {% endfor %}

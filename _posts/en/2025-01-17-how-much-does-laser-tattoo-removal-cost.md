@@ -18,8 +18,8 @@ alt: "Laser tattoo removal procedure in progress"
 excerpt: "Regretting that tattoo and worried about removal costs? Discover real prices, influencing factors, and how to choose the best treatment for your case."
 reading_time: 6
 references:
-  - "Clinical Effectiveness of Laser Tattoo Removal: 'https://www.dermatologyjournal.org/example'"
-  - "Cost Analysis of Laser Tattoo Removal Procedures: 'https://www.aestheticmedicine.org/example'"
+  - Clinical Effectiveness of Laser Tattoo Removal: 'https://www.dermatologyjournal.org/example'
+  - Cost Analysis of Laser Tattoo Removal Procedures: 'https://www.aestheticmedicine.org/example'
 word_count: 2400
 ---
 

@@ -31,21 +31,49 @@
     }
     {% if page.cases %},
     {
-      "@type": "Service",
+      "@type": "MedicalService",
       "name": "{{ page.title }}",
+      "serviceType": "Medical",
+      "category": "Medicina Estética",
       "provider": {
         "@type": "MedicalOrganization",
         "@id": "{{ site.url }}/#organization"
+      },
+      "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "priceCurrency": "COP",
+          "valueAddedTaxIncluded": true
+        }
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "{{ page.title }}",
+      "description": "{{ page.description }}",
+      "url": "{{ site.url }}{{ page.url }}",
+      "image": "{{ site.url }}/{{ page.hero }}",
+      "category": "Medicina Estética",
+      "brand": {
+        "@type": "MedicalOrganization",
+        "@id": "{{ site.url }}/#organization"
+      },
+      "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "priceCurrency": "COP",
+          "valueAddedTaxIncluded": true
+        }
       },
       "review": [
         {% for case in page.cases %}
         {
           "@type": "Review",
           "reviewBody": {{ case.description | jsonify }},
-          "itemReviewed": {
-            "@type": "Service",
-            "name": "{{ page.title }}"
-          },
           "author": {
             "@type": "Person",
             "name": "Paciente Anónimo"

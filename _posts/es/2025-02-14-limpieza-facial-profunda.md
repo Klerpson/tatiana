@@ -22,7 +22,6 @@ referencias:
  - Tratamientos Avanzados para Acné: 'https://acne-treatment.org/example'
 word_count: 2700
 ---
-
 ¿Sabes ese momento en que te miras al espejo y solo quieres llorar porque **nada de lo que haces funciona contra el acné**? 
 
 Te entiendo perfectamente, y hoy voy a contarte todo sobre el tratamiento que está revolucionando la vida de mis pacientes: la limpieza facial profunda.
